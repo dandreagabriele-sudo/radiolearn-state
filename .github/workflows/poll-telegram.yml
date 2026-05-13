@@ -1,0 +1,42 @@
+name: Poll Telegram
+
+# Cron in UTC. 04:30 UTC = 06:30 Europe/Berlin (prima del run mattutino).
+# 19:00 UTC = 21:00 Europe/Berlin (raccolta serale, copre la giornata).
+on:
+  schedule:
+    - cron: '30 4 * * *'
+    - cron: '0 19 * * *'
+  workflow_dispatch:  # trigger manuale per debug
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: telegram-poll
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Poll Telegram updates
+        env:
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python3 .github/scripts/poll.py
+
+      - name: Commit updates
+        run: |
+          git config user.name  "radiolearn-bot"
+          git config user.email "radiolearn-bot@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "📥 Telegram poll ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git push
+          else
+            echo "No new updates to commit."
+          fi
