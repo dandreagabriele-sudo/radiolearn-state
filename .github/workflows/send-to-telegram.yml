@@ -1,0 +1,41 @@
+name: Send to Telegram
+
+# Si attiva ogni volta che la routine pusha qualcosa in outbox/
+on:
+  push:
+    branches: [main]
+    paths: ['outbox/**']
+  workflow_dispatch:  # permette anche trigger manuale dalla UI
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: telegram-send  # un solo sender alla volta
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Drain outbox
+        env:
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python3 .github/scripts/send.py
+
+      - name: Commit deletions
+        run: |
+          git config user.name  "radiolearn-bot"
+          git config user.email "radiolearn-bot@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "🤖 Outbox drained ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git push
+          else
+            echo "Nothing to commit (outbox was empty or all sends failed)."
+          fi
