@@ -1,0 +1,193 @@
+{
+  "pill_id": "20260514",
+  "created_at": "2026-05-14T06:44:58.057939Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🌌 *RadioLearn — 14 maggio 2026*\n\n*Galaxy sign \\(sarcoid galaxy\\)* — segno HRCT del torace\n\nMacronodulo coalescente di 1–3 cm formato dalla confluenza di micronoduli satelliti la cui densità si dirada centrifugamente, talvolta circondato da alone di ground\\-glass\\. Descritto da Nakatsu et al\\. \\(AJR 2002\\)\\. Il correlato istopatologico è la confluenza di granulomi epitelioidi non caseanti; l'alone non rappresenta alveolite o emorragia, bensì microgranulomi interstiziali sotto la risoluzione HRCT\\. Distribuzione tipica: lobi superiori e medi, peribronchovascolare, spesso con linfoadenopatia bilaterale ilare\\.\n\n*DDx chiave*: TB \\(può mimare in modo completo\\), progressive massive fibrosis in silicosi, metastasi ematogene, micosi angioinvasive\\. La stabilità nel follow\\-up \\+ distribuzione perilinfatica \\+ assenza di necrosi caseosa favoriscono sarcoidosi\\.\n\n🪐 *Connessioni laterali*\n\n• *Astronomia*: il nome richiama il cluster globulare\\. Vera Rubin \\(1970\\) dimostrò che la rotazione galattica richiede materia oscura per tenere insieme le stelle; analogamente il granuloma è tenuto insieme da gradienti di IFN\\-γ e TNF\\-α prodotti dai CD4\\+ Th1, che richiamano macrofagi attorno al nucleo antigenico\\.\n\n• *Etimologia greca*: γαλαξίας \\= lattescente \\(Aristotele, Meteorologica\\); σάρξ \\+ εἶδος \\= carne\\-simile \\(Caesar Boeck 1899, che pensava a sarcomi benigni multipli della cute\\)\\.\n\n• *Storia della medicina*: Jonathan Hutchinson \\(Londra, 1869\\) descrisse per primo le manifestazioni cutanee come Mortimer's malady, in una paziente di Hyde Park\\.\n\n• *Fractali \\(Mandelbrot\\)*: il pattern sarcoideo è auto\\-simile su scale diverse — singolo granuloma → cluster → galaxy → conglomerato\\. Rara istanza di geometria fractale in anatomia patologica\\.\n\n• *Antropologia*: lo studio ACCESS \\(NHLBI\\) documentò incidenza tripla nelle donne afroamericane vs caucasiche, riflesso di interazione tra HLA\\-DRB1\\*1101 e fattori ambientali \\(silice, frammenti micobatterici\\)\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔗 *Immagini e fonti verificate*\n\n• [Galaxy sign — articolo Radiopaedia](https://radiopaedia.org/articles/galaxy-sign-lungs?lang=us)\n• [Caso 29251 — Galaxy sign of sarcoidosis](https://radiopaedia.org/cases/29251/discussion?lang=us)\n• [Case: Galaxy sign of sarcoidosis](https://radiopaedia.org/cases/galaxy-sign-of-sarcoidosis?lang=us)\n• [Sarcoidosi toracica — articolo Radiopaedia](https://radiopaedia.org/articles/sarcoidosis-thoracic-manifestations-2?lang=us)\n• [Noduli perilinfatici — articolo Radiopaedia](https://radiopaedia.org/articles/perilymphatic-lung-nodules?lang=us)\n• [Wikimedia Commons — CT images of sarcoidosis](https://commons.wikimedia.org/wiki/Category:CT_images_of_sarcoidosis)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*📚 Quiz 1/4*\n\nDistribuzione nodulare tipica del galaxy sign in sarcoidosi:\n\n*A\\)* centrilobulare con tree\\-in\\-bud\n*B\\)* random \\(ematogena\\)\n*C\\)* perilinfatica \\(peribronchovascolare \\+ subpleurica \\+ interlobulare\\)\n*D\\)* miliare\n\n_Pensa alla risposta, poi auto\\-valuta quanto bene la ricordavi ↓_",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅ Perfetto",
+                "callback_data": "q|20260514|0|5"
+              },
+              {
+                "text": "4 Riflettuto",
+                "callback_data": "q|20260514|0|4"
+              },
+              {
+                "text": "3 Sudato",
+                "callback_data": "q|20260514|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2 Vicino",
+                "callback_data": "q|20260514|0|2"
+              },
+              {
+                "text": "1 Lontano",
+                "callback_data": "q|20260514|0|1"
+              },
+              {
+                "text": "0 ❌ Nulla",
+                "callback_data": "q|20260514|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*📚 Quiz 2/4*\n\nQuale ipotesi spiega meglio l'alone di ground\\-glass attorno al galaxy nodule?\n\n*A\\)* emorragia alveolare perilesionale\n*B\\)* invasione fungina angiotrofica\n*C\\)* microgranulomi non caseanti sotto la risoluzione HRCT\n*D\\)* atelettasia compressiva passiva\n\n_Pensa alla risposta, poi auto\\-valuta quanto bene la ricordavi ↓_",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅ Perfetto",
+                "callback_data": "q|20260514|1|5"
+              },
+              {
+                "text": "4 Riflettuto",
+                "callback_data": "q|20260514|1|4"
+              },
+              {
+                "text": "3 Sudato",
+                "callback_data": "q|20260514|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2 Vicino",
+                "callback_data": "q|20260514|1|2"
+              },
+              {
+                "text": "1 Lontano",
+                "callback_data": "q|20260514|1|1"
+              },
+              {
+                "text": "0 ❌ Nulla",
+                "callback_data": "q|20260514|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*📚 Quiz 3/4*\n\nIn assenza di necrosi caseosa e di cavitazione, quale singolo elemento di follow\\-up rinforza maggiormente la diagnosi di sarcoidosi rispetto a TB con galaxy sign?\n\n*A\\)* stabilità o miglioramento spontaneo a mesi, senza terapia anti\\-TB\n*B\\)* comparsa di empiema\n*C\\)* consolidamento progressivo lobare\n*D\\)* comparsa di broncocele\n\n_Pensa alla risposta, poi auto\\-valuta quanto bene la ricordavi ↓_",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅ Perfetto",
+                "callback_data": "q|20260514|2|5"
+              },
+              {
+                "text": "4 Riflettuto",
+                "callback_data": "q|20260514|2|4"
+              },
+              {
+                "text": "3 Sudato",
+                "callback_data": "q|20260514|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2 Vicino",
+                "callback_data": "q|20260514|2|2"
+              },
+              {
+                "text": "1 Lontano",
+                "callback_data": "q|20260514|2|1"
+              },
+              {
+                "text": "0 ❌ Nulla",
+                "callback_data": "q|20260514|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*📚 Quiz 4/4*\n\nIl granuloma sarcoideo è classicamente:\n\n*A\\)* caseante centrale\n*B\\)* necrotizzante con vasculite \\(pattern GPA\\)\n*C\\)* non caseante con cellule di Langhans, corpi di Schaumann e asteroidi\n*D\\)* suppurativo con neutrofili\n\n_Pensa alla risposta, poi auto\\-valuta quanto bene la ricordavi ↓_",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅ Perfetto",
+                "callback_data": "q|20260514|3|5"
+              },
+              {
+                "text": "4 Riflettuto",
+                "callback_data": "q|20260514|3|4"
+              },
+              {
+                "text": "3 Sudato",
+                "callback_data": "q|20260514|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2 Vicino",
+                "callback_data": "q|20260514|3|2"
+              },
+              {
+                "text": "1 Lontano",
+                "callback_data": "q|20260514|3|1"
+              },
+              {
+                "text": "0 ❌ Nulla",
+                "callback_data": "q|20260514|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🤖 *Rapporto operativo 14/05/2026*\n\n• Callback processati: 0 \\(inbox vuoto\\)\n• Carte resettate no\\-show: 0 \\(stato vuoto\\)\n• Pill: 20260514 — Galaxy sign in sarcoidosi \\(4 domande\\)\n• Ripasso: no \\(prima pillola, nessuna carta esistente\\)\n• File inbox cancellati: 0\n• Warning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
