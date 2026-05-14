@@ -1,1 +1,47 @@
-{"cards": {}, "history": []}
+{
+  "cards": {
+    "20260514:0": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-05-14",
+      "last_quality": null,
+      "history": []
+    },
+    "20260514:1": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-05-14",
+      "last_quality": null,
+      "history": []
+    },
+    "20260514:2": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-05-14",
+      "last_quality": null,
+      "history": []
+    },
+    "20260514:3": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-05-14",
+      "last_quality": null,
+      "history": []
+    }
+  },
+  "history": [
+    {
+      "pill_id": "20260514",
+      "date": "2026-05-14",
+      "topic": "Galaxy sign in sarcoidosi polmonare",
+      "n_questions": 4,
+      "review_included": false
+    }
+  ],
+  "last_review_inclusion_date": "1970-01-01",
+  "processed_update_ids": []
+}
