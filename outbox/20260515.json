@@ -1,0 +1,191 @@
+{
+  "pill_id": "20260515",
+  "created_at": "2026-05-15T06:48:02+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🧠 *RadioLearn — Pillola del 15 maggio 2026*\n\n🔬 *Concetto del giorno: il \"Hot Cross Bun Sign\" pontino*\n\nIn un paziente con atassia progressiva, parkinsonismo non\\-responsivo e disautonomia \\(ipotensione ortostatica, vescica neurogena\\), una FLAIR/T2 assiale del ponte mostra un'iperintensità cruciforme: due assi che si incrociano centralmente\\. È l'iconico *hot cross bun sign* della *Multiple System Atrophy, sottotipo cerebellare \\(MSA\\-C\\)*\\.\n\n📐 *Substrato anatomico della croce*\n\\- Asse trasversale \\= degenerazione walleriana delle fibre ponto\\-cerebellari \\(dai nuclei pontini → traversano il ponte → peduncoli cerebellari medi\\)\\.\n\\- Asse longitudinale \\= gliosi dei nuclei mediani del rafe e della formazione reticolare paramediana\\.\n\\- A risparmiare \\(e quindi a definire per contrasto i 4 \"bracci\" della croce\\): i fasci cortico\\-spinali e cortico\\-bulbari nelle ali antero\\-laterali del ponte\\.\n\n🩻 *Pattern MR completo in MSA\\-C*\n\\- Atrofia ponto\\-cerebellare con allargamento della cisterna pre\\-pontina e del IV ventricolo\\.\n\\- Atrofia simmetrica dei peduncoli cerebellari medi \\(PCM <8 mm\\) con iperintensità T2 \\(\"middle cerebellar peduncle sign\"\\)\\.\n\\- Vermis atrofico, talvolta iperintenso\\.\n\\- In MSA\\-P: \"putaminal slit sign\" iperintenso al margine laterale del putamen, ipointensità T2 stella per deposito ferrico\\.\n\n⚖️ *Differenziale — il segno NON è patognomonico*\n\\- Atassie spinocerebellari \\(classicamente SCA2, SCA3; talvolta SCA1, SCA7, SCA8\\)\\.\n\\- Fragile X\\-Associated Tremor/Ataxia Syndrome \\(FXTAS\\) — più tipica però iperintensità isolata dei PCM\\.\n\\- Degenerazione cerebellare paraneoplastica \\(anti\\-Yo, anti\\-Tr\\)\\.\n\\- Vasculite/CADASIL \\(raro\\)\\.\n\\- \"Reverse hot cross bun\": pattern speculare con iperintensità delle ali antero\\-laterali del ponte da infarti bilaterali del territorio paramediano\\.\n\n🔬 *Patologia molecolare*\nα\\-sinucleinopatia con inclusioni citoplasmatiche oligodendrogliali \\(corpi di Papp–Lantos, 1989\\)\\. Differenza dal Parkinson: nella MSA l'α\\-sinucleina si aggrega prevalentemente nelle cellule gliali, non nei neuroni dopaminergici\\. Sopravvivenza mediana 6–10 anni dall'esordio\\.\n\n🎓 *Connessioni multidisciplinari*\n\\- *Liturgia & pasticceria*: gli hot cross buns sono pani sassoni dolci con croce incisa, consumati il Venerdì Santo in Inghilterra dal XV secolo; un editto di Elisabetta I \\(1592\\) ne limitò la vendita ai funerali, al Venerdì Santo e a Natale per preservarne la sacralità\\.\n\\- *Matematica*: la croce iperintensa appartiene al gruppo di simmetria diedrico D₂ \\(due assi di riflessione ortogonali\\)\\. La simmetria perfetta è uno strumento diagnostico — l'occlusione basilare paramediana, invece, segue il territorio vascolare e tipicamente è asimmetrica\\.\n\\- *Storia della medicina*: l'olivopontocerebellar atrophy fu descritta da Dejerine e Thomas nel 1900 a Parigi\\. Il termine \"multiple system atrophy\" arriva solo nel 1969 \\(Graham & Oppenheimer\\), unificando OPCA, Shy–Drager e degenerazione striato\\-nigrale\\.\n\\- *Letteratura & musica*: \"Hot Cross Buns\" come filastrocca appare in Poor Robin's Almanack \\(1733\\); divenne grido di venditore ambulante londinese e poi un classico esercizio per principianti di flauto \\(tre note: Si\\-La\\-Sol\\)\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🖼️ *Immagini — cosa osservare*\n\n1\\. FLAIR/T2 assiale a livello del ponte centrale: cruciforme iperintensa con 4 \"bracci\" normointensi antero\\-laterali \\(cortico\\-spinali\\)\\.\n2\\. Sagittale T1: atrofia ponto\\-cerebellare con appiattimento del profilo ventrale del ponte \\(distinguere dal \"hummingbird sign\" della PSP, che è atrofia mesencefalica\\)\\.\n3\\. Coronale T2: peduncoli cerebellari medi simmetricamente assottigliati e iperintensi\\.\n\n*Fonti verificate \\(link diretti\\)*:\n• [Radiopaedia — articolo Hot cross bun sign \\(pons\\)](https://radiopaedia.org/articles/hot-cross-bun-sign-pons)\n• [Caso Radiopaedia — Hot cross bun sign of MSA](https://radiopaedia.org/cases/hot-cross-bun-sign-of-multiple-system-atrophy)\n• [Caso Radiopaedia — MSA\\-C \\#10](https://radiopaedia.org/cases/multiple-system-atrophy-msa-c-10)\n• [Caso Radiopaedia — MSA\\-C \\#9](https://radiopaedia.org/cases/multiple-system-atrophy-cerebellar-type-msa-c-9)\n• [Radiopaedia — Middle cerebellar peduncle sign](https://radiopaedia.org/articles/middle-cerebellar-peduncle-sign)\n• [Wikimedia Commons — Multiple system atrophy](https://commons.wikimedia.org/wiki/Category:Multiple_system_atrophy)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "📝 *Domanda 1 di 4*\n\nQuale struttura del ponte resta NORMOINTENSA e definisce per contrasto i 4 bracci della croce nell'hot\\-cross\\-bun sign?\n\nA\\) Nuclei mediani del rafe\nB\\) Fibre cortico\\-spinali e cortico\\-bulbari nelle ali antero\\-laterali\nC\\) Tratto ponto\\-cerebellare trasverso\nD\\) Lemnisco mediale\n\n🔍 *Risposta corretta:*\n||B — i fasci cortico\\-spinali e cortico\\-bulbari, decorrendo nelle ali antero\\-laterali del ponte, sono risparmiati\\. La degenerazione delle fibre ponto\\-cerebellari trasverse \\(asse orizzontale\\) e dei nuclei mediani del rafe \\(asse verticale\\) crea la croce iperintensa; i fasci motori risparmiati appaiono come 4 lobi normointensi\\.||\n\n_Auto\\-valutati: 5 \\= perfetto · 0 \\= blackout_",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260515|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260515|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "📝 *Domanda 2 di 4*\n\nQuale sottotipo di Multiple System Atrophy è MAGGIORMENTE associato al segno?\n\nA\\) MSA\\-P \\(parkinsoniana\\)\nB\\) MSA\\-C \\(cerebellare\\)\nC\\) MSA con disautonomia isolata\nD\\) Tutti i sottotipi nella stessa misura\n\n🔍 *Risposta corretta:*\n||B — l'hot cross bun sign riflette la degenerazione delle fibre ponto\\-cerebellari, ed è quindi più frequente e marcato nella MSA\\-C\\. Nella MSA\\-P il reperto più tipico è invece il putaminal slit sign con ipointensità T2\\* del putamen\\.||\n\n_Auto\\-valutati: 5 \\= perfetto · 0 \\= blackout_",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260515|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260515|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "📝 *Domanda 3 di 4*\n\nQuale tra le seguenti NON è una causa classica di hot\\-cross\\-bun sign?\n\nA\\) Atassia spinocerebellare tipo 2 \\(SCA2\\)\nB\\) FXTAS \\(Fragile X\\-Associated Tremor/Ataxia Syndrome\\)\nC\\) Sclerosi laterale amiotrofica\nD\\) Degenerazione cerebellare paraneoplastica\n\n🔍 *Risposta corretta:*\n||C — la SLA è una malattia del motoneurone e non produce hot\\-cross\\-bun\\. Il segno è descritto in MSA \\(soprattutto C\\), SCA2/3 \\(talvolta 1, 7, 8\\), FXTAS \\(più tipicamente con iperintensità dei PCM isolata\\), e paraneoplastica \\(anti\\-Yo, anti\\-Tr\\)\\.||\n\n_Auto\\-valutati: 5 \\= perfetto · 0 \\= blackout_",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260515|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260515|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "📝 *Domanda 4 di 4*\n\nNella MSA\\-C, quale reperto associato si osserva tipicamente nei peduncoli cerebellari medi \\(PCM\\)?\n\nA\\) Cisti di Virchow\\-Robin dilatate\nB\\) Atrofia simmetrica con iperintensità T2 \\(spessore <8 mm\\)\nC\\) Marcata restrizione in DWI \\(cytotoxic edema\\)\nD\\) Enhancement nodulare post\\-contrasto\n\n🔍 *Risposta corretta:*\n||B — i PCM ricevono le fibre ponto\\-cerebellari che degenerano in MSA\\-C, quindi appaiono simmetricamente assottigliati \\(<8 mm\\) con iperintensità T2/FLAIR — il cosiddetto \"middle cerebellar peduncle sign\"\\. Non c'è restrizione in DWI \\(processo cronico, non ischemico\\) né enhancement \\(no rottura BEE\\)\\.||\n\n_Auto\\-valutati: 5 \\= perfetto · 0 \\= blackout_",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260515|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260515|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠️ *Rapporto operativo*\n• Callback processati: 1 \\(update\\_ids: 868431590\\)\n• Carte resettate \\(no\\-show\\): 3\n• Pill ID `20260515` — topic: hot\\-cross\\-bun sign \\(MSA\\-C\\)\n• Ripasso incluso: no \\(nessuna carta due dopo phase 2\\+3\\)\n• Inbox file cancellati: 1 \\(2026\\-05\\-14\\.json\\)\n• Warning: nessuno",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
