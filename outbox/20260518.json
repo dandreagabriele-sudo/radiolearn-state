@@ -6,7 +6,7 @@
       "method": "sendMessage",
       "params": {
         "chat_id": "8538175163",
-        "text": "📊 *Riepilogo settimanale RadioLearn*\n━━━━━━━━━━━━━━━━━━━━━━\n🎯 Pillole inviate: 3\n✅ Quiz risposti: 1/12 \\(8%\\)\n⭐ Qualità media \\(risposte manuali\\): 2\.0/5\n🔁 Reset cumulativi \\(no\\-show\\): 15\n🏆 Carte mature \\(\\>21gg\\): 0\n━━━━━━━━━━━━━━━━━━━━━━",
+        "text": "📊 *Riepilogo settimanale RadioLearn*\n━━━━━━━━━━━━━━━━━━━━━━\n🎯 Pillole inviate: 3\n✅ Quiz risposti: 1/12 \\(8%\\)\n⭐ Qualità media \\(risposte manuali\\): 2.0/5\n🔁 Reset cumulativi \\(no\\-show\\): 15\n🏆 Carte mature \\(\\>21gg\\): 0\n━━━━━━━━━━━━━━━━━━━━━━",
         "parse_mode": "MarkdownV2",
         "disable_web_page_preview": true
       }
