@@ -1,0 +1,255 @@
+{
+  "pill_id": "20260518",
+  "created_at": "2026-05-18T06:53:48Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "📊 *Riepilogo settimanale RadioLearn*\n━━━━━━━━━━━━━━━━━━━━━━\n🎯 Pillole inviate: 3\n✅ Quiz risposti: 1/12 \\(8%\\)\n⭐ Qualità media \\(risposte manuali\\): 2.0/5\n🔁 Reset cumulativi \\(no\\-show\\): 15\n🏆 Carte mature \\(\\>21gg\\): 0\n━━━━━━━━━━━━━━━━━━━━━━",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🫁 *RadioLearn — Pillola 2026\\-05\\-18*\n\n*Topic:* Atoll sign / reversed halo sign — Cryptogenic Organizing Pneumonia \\(COP\\)\n*Dominio:* Torace — Livello 1 \\(esperto, 15 anni esp\\.\\)\n\n*Concetto del giorno*\nLesione focale, subpleurica, con ground\\-glass centrale e anello periferico di consolidazione ≥2 mm di spessore \\(≥3/4 di un cerchio\\): l'atoll sign / reversed halo sign\\. Voloudaki et al\\. \\(AJR 1996\\), denominato \"atoll\" da Kim \\(AJR 2003\\), formalizzato dal Fleischner Glossary 2008\\.\n\n*Substrato istopatologico in COP*\n• Anello: tappi fibroblastici intra\\-alveolari \\(corpi di Masson\\) e organizing pneumonia\n• Centro a vetro smerigliato: infiammazione settale \\+ cellularità intra\\-alveolare lassa, senza riempimento alveolare denso\n\n*Sensibilità / specificità*\nIl segno è altamente specifico ma poco sensibile per la COP \\(≈ 19–20% dei pazienti con COP lo presentano\\)\\. Valore predittivo positivo elevato solo se contestualizzato clinicamente\\.\n\n*Differenziale ragionato \\(forma e contesto\\)*\n1\\. COP idiopatica / OP secondaria \\(post\\-RT, amiodarone, daptomicina, CTD, post\\-trapianto\\): anello SOTTILE 2–4 mm, LISCIO, distribuzione subpleurica e basale, spesso bilaterale, MIGRAZIONE temporale \\(\"wandering pneumonia\"\\), risposta drammatica agli steroidi entro 2–4 settimane\\.\n2\\. Mucormicosi / aspergillosi angio\\-invasiva nel neutropenico: anello SPESSO, NODULARE, con linee reticolari interne attraverso il ground\\-glass \\= \"bird's nest sign\" \\(Wahba 2008\\)\\. Decorso iperacuto, ANC <500, GVHD\\.\n3\\. Paracoccidioidomicosi: reticolazione interna fine \\+ esposizione endemica \\(Sud America\\)\\.\n4\\. TB attiva atipica: cavitazione, calcificazioni residue, esposizione\\.\n5\\. Granulomatosi con poliangite \\(GPA\\): cavitazione progressiva, ANCA\\-PR3\\+\\.\n6\\. Infarto polmonare: cuneo subpleurico convessità ilare \\(Hampton hump\\), arteria afferente allargata e occlusa al CTPA, non vero \"anello\" 360°\\.\n7\\. Sarcoidosi \\(raro\\): bilaterale, perilinfatica, LADP ilare bilaterale\\.\n8\\. Adenocarcinoma mucinoso o linfoma polmonare primitivo: persistenza, lenta crescita, no risposta steroidea\\.\n\n*Bird's nest sign — discriminatore chiave nel neutropenico*\nL'RHS con reticolazione interna irregolare intersecante \\(Wahba et al\\. 2008\\) è altamente suggestivo di infezione fungina angio\\-invasiva\\. Riduce il time\\-to\\-diagnosis nel neutropenico ed è un segnale d'allarme che giustifica terapia antifungina empirica\\.\n\n*Trabocchetti dell'esperto*\n• RHS NON è patognomonico di COP: la specificità dipende dal contesto immunitario\\.\n• La migrazione lesionale in COP segue la cosiddetta \"wandering / shifting consolidation\" — chiave anamnestica e di follow\\-up a 2 settimane\\.\n• Post\\-COVID\\-19 l'RHS è frequente come espressione di fibrosi organizzante post\\-virale \\(fase tardiva, simil\\-COP\\)\\.\n• Risposta agli steroidi entro 2–4 settimane è essa stessa una prova diagnostica funzionale di COP — la \"steroid challenge\"\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🧠 *Connessioni multidisciplinari*\n\n• Geologia / oceanografia: l'\"atollo\" è il modello di Charles Darwin \\(1842, The Structure and Distribution of Coral Reefs\\): un'isola vulcanica subsidente, mentre la barriera corallina cresce in altezza ai bordi, lascia una laguna centrale\\. Verifica empirica della teoria nel 1952 sull'atollo di Enewetak dove le trivellazioni raggiunsero il basalto vulcanico sotto \\>1 km di corallo\\. Il radiologo che vede l'RHS riconosce la stessa topologia: anello solido \\+ laguna centrale ipodensa\\.\n\n• Etimologia: \"atoll\" deriva dal dhivehi \\(maldiviano\\) atholhu, introdotto in inglese proprio da Darwin nel 1842\\. Prima di lui il termine era ignoto alla letteratura scientifica europea\\.\n\n• Architettura: la cupola del Pantheon di Adriano \\(118 d\\.C\\.\\) — oculo centrale di 9 m circondato da muratura concentrica di 6,4 m di spessore — è la versione monumentale dello stesso pattern: peso strutturale alla periferia, vuoto al centro\\. La cupola di Brunelleschi \\(Santa Maria del Fiore, 1436\\) ridistribuisce le tensioni periferiche con un anello di compressione alla base, esattamente come il \"ring of fibroblastic plugs\" stabilizza l'alveolo centrale collassato in COP\\.\n\n• Storia della medicina: Davison e Heard \\(1983\\) descrissero la BOOP \\(bronchiolitis obliterans organizing pneumonia\\)\\. ATS/ERS nel 2002 rinominarono l'entità in COP \\(cryptogenic organizing pneumonia\\), spostando l'accento dal \"bronchiolitis obliterans\" alla componente intra\\-alveolare di organizing pneumonia che è in realtà dominante\\.\n\n• Chimica fisica: i Liesegang rings \\(R\\. E\\. Liesegang 1896\\) e le onde di Belousov–Zhabotinsky \\(1951–1961\\) sono pattern oscillatori a reazione\\-diffusione che producono anelli concentrici\\. La distribuzione spaziale degli infiltrati fibroblastici in COP segue la stessa logica di nucleazione\\-propagazione a fronte d'onda lungo il tessuto periferico del lobulo polmonare secondario\\.\n\n• Letteratura: nella Rime of the Ancient Mariner di S\\. T\\. Coleridge \\(1798\\) il marinaio è imprigionato dentro \"the bloody Sun, at noon, right up above the mast did stand, no bigger than the Moon\" — un disco bordato dal nulla\\. Il radiologo dell'RHS guarda al ground\\-glass centrale come a quel disco rosso\\. Mnemonica laterale potente\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🖼️ *Immagini e fonti verificate \\(web\\_search\\)*\n\n• [Radiopaedia — Atoll sign \\(lungs\\)](https://radiopaedia.org/articles/atoll-sign-lungs)\n• [Radiopaedia — Reversed halo sign \\(lungs\\)](https://radiopaedia.org/articles/reversed-halo-sign-lungs)\n• [Radiopaedia — Caso: reverse halo of COP](https://radiopaedia.org/cases/reverse-halo-sign-of-cryptogenic-organising-pneumonia)\n• [Radiopaedia — Caso: COP con reverse halo](https://radiopaedia.org/cases/cryptogenic-organising-pneumonia-with-reverse-halo-sign)\n• [Radiopaedia — Cryptogenic organising pneumonia \\(articolo\\)](https://radiopaedia.org/articles/cryptogenic-organising-pneumonia-1)\n• [Radiopaedia — Bird's nest sign \\(lungs\\)](https://radiopaedia.org/articles/birds-nest-sign-lungs)\n• [Radiopaedia — Angioinvasive aspergillosis](https://radiopaedia.org/articles/angioinvasive-aspergillosis)\n• [Radiopaedia — Pulmonary mucormycosis](https://radiopaedia.org/articles/pulmonary-mucormycosis)\n• [Wikimedia Commons — Chest CT with reversed halo sign \\(immagine\\)](https://commons.wikimedia.org/wiki/File:Chest_CT_with_reversed_halo_sign.jpg)\n• [Wikimedia Commons — Categoria COP](https://commons.wikimedia.org/wiki/Category:Cryptogenic_organizing_pneumonia)\n• [Wikipedia — Cryptogenic organizing pneumonia](https://en.wikipedia.org/wiki/Cryptogenic_organizing_pneumonia)",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔁 *Ripasso — Q1 di 5*\n\\(card di richiamo: 20260514:0 — Galaxy sign / pattern perilinfatico in sarcoidosi, da un altro angolo\\)\n\nQuale tra le seguenti localizzazioni nodulari ALL'INTERNO DEL LOBULO POLMONARE SECONDARIO NON appartiene al pattern perilinfatico \\(e quindi è atipica per sarcoidosi nodulare / galaxy sign\\)?\n\nA\\) subpleurica e lungo le scissure\nB\\) peribronchovascolare assiale\nC\\) centrilobulare, attorno al bronchiolo terminale\nD\\) lungo i setti interlobulari periferici\n\nVota la tua qualità di risposta \\(0\\=non lo sapevo, 5\\=perfetto\\):",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|0|0"
+              }
+            ]
+          ]
+        },
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🆕 *Q2 di 5 — istopatologia*\n\nIl substrato istopatologico dell'ANELLO consolidato nel reversed halo sign in COP è:\n\nA\\) infarto coagulativo necrotico con alone emorragico\nB\\) granulomi non caseanti perilinfatici confluenti\nC\\) tappi fibroblastici intra\\-alveolari \\(corpi di Masson\\) ed organizing pneumonia\nD\\) essudato neutrofilo suppurativo intra\\-alveolare con microascessi\n\nVota:",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260518|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260518|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260518|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260518|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260518|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260518|0|0"
+              }
+            ]
+          ]
+        },
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🆕 *Q3 di 5 — neutropenico e bird's nest*\n\nPaziente con leucemia acuta, neutropenia profonda \\(ANC 150/μL\\) da 14 giorni, febbre resistente ai β\\-lattamici\\. HRCT: reversed halo sign in lobo superiore destro\\. Quale caratteristica dell'anello orienta verso MUCORMICOSI piuttosto che COP?\n\nA\\) anello sottile \\(2–3 mm\\) regolare e periferico subpleurico\nB\\) anello spesso, nodulare, con linee reticolari interne attraverso il ground\\-glass \\(bird's nest sign\\)\nC\\) distribuzione bilaterale basale simmetrica\nD\\) migrazione lesionale nel follow\\-up a 2 settimane\n\nVota:",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260518|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260518|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260518|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260518|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260518|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260518|1|0"
+              }
+            ]
+          ]
+        },
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🆕 *Q4 di 5 — performance del segno*\n\nIn una serie consecutiva di pazienti con COP istologicamente confermata, il reversed halo sign è presente in circa quale frazione dei casi?\n\nA\\) \\> 80% \\(altamente sensibile\\)\nB\\) \\~ 50% \\(sensibilità intermedia\\)\nC\\) \\~ 20% \\(segno poco sensibile ma molto specifico\\)\nD\\) < 1% \\(segno aneddotico\\)\n\nVota:",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260518|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260518|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260518|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260518|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260518|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260518|2|0"
+              }
+            ]
+          ]
+        },
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🆕 *Q5 di 5 — prova terapeutica*\n\nQuale elemento di follow\\-up rinforza maggiormente la diagnosi di COP rispetto a un'infezione fungina con reversed halo sign in un paziente immunocompetente?\n\nA\\) cavitazione progressiva entro 2 settimane\nB\\) comparsa di consolidamenti random nuovi con halo classico \\(non reversed\\)\nC\\) risposta drammatica a corticosteroidi entro 2–4 settimane, con risoluzione o migrazione lesionale\nD\\) sviluppo di empiema parapneumonico\n\nVota:",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260518|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260518|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260518|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260518|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260518|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260518|3|0"
+              }
+            ]
+          ]
+        },
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠️ *RadioLearn — rapporto operativo*\npill\\_id: `20260518` \\| topic: Reversed halo / atoll sign \\(COP\\)\ncallback processati: 0\ncarte resettate \\(no\\-show in questa run\\): 4 → 20260517:0, 20260517:1, 20260517:2, 20260517:3\nripasso incluso: sì \\(card: `20260514:0`\\)\ninbox files cancellati: 0\nnuove carte create: 20260518:0, 20260518:1, 20260518:2, 20260518:3",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
