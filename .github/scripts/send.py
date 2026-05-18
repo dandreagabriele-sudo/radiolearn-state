@@ -11,6 +11,11 @@ vengono spezzati automaticamente in più chunk consecutivi, tagliando su
 confini naturali (paragrafo > riga > spazio) e preservando la formattazione
 MarkdownV2. La `reply_markup` (tastiera inline) resta solo sull'ULTIMO chunk.
 
+Per i messaggi in MarkdownV2, una "safety net" applica automaticamente gli
+escape ai caratteri reservati che la generatrice avesse dimenticato (vedi
+sezione dedicata). È trasparente quando il testo è già pulito, interviene
+silenziosamente quando serve.
+
 Formato atteso di ogni outbox/<id>.json:
 {
   "pill_id": "20260513",
@@ -44,6 +49,139 @@ TELEGRAM_TEXT_LIMIT = 4096
 # Soglia di sicurezza per ogni chunk: lascia margine per emoji multi-byte
 # e per piccole differenze tra len(Python) e conteggio UTF-16 di Telegram.
 SAFE_CHUNK_SIZE = 3900
+
+
+# ---------------------------------------------------------------------------
+# Safety net per escape MarkdownV2 dimenticati dalla generatrice
+# ---------------------------------------------------------------------------
+#
+# In MarkdownV2 i caratteri "reservati" sono: _ * [ ] ( ) ~ ` > # + - = | { } . !
+# Se uno di questi appare "nudo" (non preceduto da `\`) e non è in un contesto
+# che lo neutralizza (code block, URL di un link), Telegram rifiuta il messaggio
+# intero con HTTP 400. La generatrice dovrebbe escapare tutto, ma è facile
+# dimenticarsi soprattutto i punti dentro i numeri (`2.0`, `3.14`, `18.05.2026`)
+# perché il cervello li legge come un'unica unità semantica.
+#
+# Questa rete di sicurezza interviene IMMEDIATAMENTE prima dell'invio e applica
+# gli escape mancanti, ma SOLO per quei caratteri che in MarkdownV2 non hanno
+# mai un uso come marcatore di formattazione, e quindi un escape extra non
+# rompe mai nulla. I caratteri "ambigui" (* _ ~ ` | [ ] > che potrebbero essere
+# formattazione intenzionale) sono lasciati alla cura della generatrice.
+#
+# Contesti rispettati (NON viene applicato escape al loro interno):
+#   - Sequenze già escapate (\X resta \X — idempotenza garantita)
+#   - Code inline `…` e code block ```…```
+#   - URL dentro [text](url)
+
+SAFETY_NET_CHARS = set(".!()-#+={}")
+
+
+def _escape_safety_net(text: str):
+    """Escapa i caratteri SAFETY_NET_CHARS nudi nel testo.
+
+    Ritorna (testo_corretto, dict_caratteri_corretti).
+    Idempotente: applicare due volte = applicare una volta.
+    """
+    result = []
+    fixes_by_char = {}
+    i = 0
+    n = len(text)
+
+    in_code_inline = False
+    in_code_block = False
+    in_url = False
+
+    while i < n:
+        ch = text[i]
+
+        # Sequenza già escapata: copia 2 caratteri e prosegui
+        if ch == "\\" and i + 1 < n:
+            result.append(text[i:i + 2])
+            i += 2
+            continue
+
+        # Apertura/chiusura code block: ``` (solo fuori da inline e url)
+        if not in_code_inline and not in_url and text[i:i + 3] == "```":
+            in_code_block = not in_code_block
+            result.append("```")
+            i += 3
+            continue
+
+        # Apertura/chiusura code inline: ` (solo fuori da code block e url)
+        if not in_code_block and not in_url and ch == "`":
+            in_code_inline = not in_code_inline
+            result.append(ch)
+            i += 1
+            continue
+
+        # Dentro code: tutto letterale, nessun escape
+        if in_code_inline or in_code_block:
+            result.append(ch)
+            i += 1
+            continue
+
+        # Inizio URL: pattern ]( (entriamo nella zona link)
+        if not in_url and ch == "]" and i + 1 < n and text[i + 1] == "(":
+            result.append("](")
+            in_url = True
+            i += 2
+            continue
+
+        # Fine URL: ) non escapato chiude la zona
+        if in_url and ch == ")":
+            in_url = False
+            result.append(ch)
+            i += 1
+            continue
+
+        # Dentro URL: l'URL deve restare integro (punti dei domini etc.)
+        if in_url:
+            result.append(ch)
+            i += 1
+            continue
+
+        # Carattere normale: applica safety net se è in lista
+        if ch in SAFETY_NET_CHARS:
+            result.append("\\" + ch)
+            fixes_by_char[ch] = fixes_by_char.get(ch, 0) + 1
+        else:
+            result.append(ch)
+        i += 1
+
+    return "".join(result), fixes_by_char
+
+
+def apply_safety_net(messages: list) -> list:
+    """Per ogni messaggio in MarkdownV2, applica _escape_safety_net a text/caption.
+
+    Stampa un log diagnostico SOLO quando la safety net effettua correzioni,
+    così i giorni puliti restano silenziosi e quelli con problemi mostrano
+    esattamente cosa è stato corretto.
+    """
+    out = []
+    for idx, msg in enumerate(messages, 1):
+        method = msg.get("method")
+        params = dict(msg.get("params", {}))  # copia, non muta l'originale
+
+        if params.get("parse_mode") == "MarkdownV2":
+            for field in ("text", "caption"):
+                value = params.get(field)
+                if isinstance(value, str):
+                    fixed, fixes = _escape_safety_net(value)
+                    if fixes:
+                        params[field] = fixed
+                        # log compatto: msg N, campo, conteggi per carattere
+                        detail = ", ".join(
+                            f"'{c}'×{k}" for c, k in sorted(fixes.items())
+                        )
+                        total = sum(fixes.values())
+                        print(
+                            f"  ℹ  [safety-net] msg {idx} ('{field}'): "
+                            f"{total} escape aggiunti ({detail})"
+                        )
+
+        out.append({"method": method, "params": params})
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -214,6 +352,10 @@ def process_file(path: str) -> bool:
     if not messages:
         print(f"  ⚠ No messages in envelope, treating as done")
         return True
+
+    # Safety net: corregge escape MarkdownV2 dimenticati dalla generatrice.
+    # Trasparente quando il testo è già pulito.
+    messages = apply_safety_net(messages)
 
     # Espande eventuali sendMessage troppo lunghi in più chunk.
     original_count = len(messages)
