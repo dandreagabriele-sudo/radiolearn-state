@@ -145,34 +145,94 @@
       ]
     },
     "20260517:0": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-05-17",
-      "last_quality": null,
-      "history": []
+      "next_review": "2026-05-19",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-05-18",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1
+        }
+      ]
     },
     "20260517:1": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-05-17",
-      "last_quality": null,
-      "history": []
+      "next_review": "2026-05-19",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-05-18",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1
+        }
+      ]
     },
     "20260517:2": {
+      "ef": 1.7,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-05-19",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-05-18",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1
+        }
+      ]
+    },
+    "20260517:3": {
+      "ef": 1.7,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-05-19",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-05-18",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1
+        }
+      ]
+    },
+    "20260518:0": {
       "ef": 2.5,
       "interval": 0,
       "repetitions": 0,
-      "next_review": "2026-05-17",
+      "next_review": "2026-05-18",
       "last_quality": null,
       "history": []
     },
-    "20260517:3": {
+    "20260518:1": {
       "ef": 2.5,
       "interval": 0,
       "repetitions": 0,
-      "next_review": "2026-05-17",
+      "next_review": "2026-05-18",
+      "last_quality": null,
+      "history": []
+    },
+    "20260518:2": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-05-18",
+      "last_quality": null,
+      "history": []
+    },
+    "20260518:3": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-05-18",
       "last_quality": null,
       "history": []
     }
@@ -198,9 +258,17 @@
       "topic": "Central dot sign — malattia di Caroli",
       "n_questions": 4,
       "review_included": false
+    },
+    {
+      "pill_id": "20260518",
+      "date": "2026-05-18",
+      "topic": "Reversed halo / atoll sign — Cryptogenic Organizing Pneumonia (COP)",
+      "n_questions": 4,
+      "review_included": true,
+      "review_card_id": "20260514:0"
     }
   ],
-  "last_review_inclusion_date": "1970-01-01",
+  "last_review_inclusion_date": "2026-05-18",
   "processed_update_ids": [
     868431590
   ]
