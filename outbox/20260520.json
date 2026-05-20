@@ -1,0 +1,191 @@
+{
+  "pill_id": "20260520",
+  "created_at": "2026-05-20T06:46:31.429293+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🧠 *RadioLearn — Pillola del 20 maggio 2026*\n\n🫁 *Concetto del giorno: il “finger\\-in\\-glove sign”*\n\nOpacità tubulari ramificate a V o Y che irradiano dall'ilo in distribuzione bronchiale: corrispondono a bronchi dilatati e ripieni di muco \\(mucoid impaction / bronchocele\\)\\. Le “dita” sono i bronchi impattati, il “guanto” è la sagoma del bronco dilatato\\. Si apprezza sia su Rx torace sia, con ben maggiore sensibilità, su TC/HRCT\\.\n\n*Substrato*\nOstruzione bronchiale \\(luminale, murale o estrinseca\\) oppure dilatazione bronchiale primitiva, con ristagno di muco a valle\\. Il muco “calca” il negativo del lume bronchiale\\.\n\n*Differenziale \\(chiave dell'esperto\\)*\n• ABPA: distribuzione ai lobi superiori, bronchiectasie centrali \\(95%, da cilindriche a sacculari\\), mucoid impaction \\(\\~70%\\); nel \\>20\\-30% high\\-attenuation mucus \\(HAM\\)\\.\n• Atresia bronchiale: mucocele \\+ iperinflazione/air\\-trapping del parenchima distale \\(ventilazione collaterale\\); tipica al segmento apico\\-posteriore del LSS, giovane asintomatico\\.\n• Fibrosi cistica \\(impaction diffusa, predominio ai lobi superiori\\)\\.\n• Ostruzione endobronchiale dell'adulto: carcinoma broncogeno, carcinoide, corpo estraneo, broncolita — sempre da escludere\\.\n• Congenital lobar overinflation, sequestro polmonare\\.\n\n*High\\-attenuation mucus \\(HAM\\)*\nMuco con densità \\> 70 HU \\(spesso \\> muscolo paraspinale\\): riflette concentrazione di metalli/calcio e prodotti fungini disidratati\\. È reperto quasi specifico di ABPA e marker di malattia attiva/recidivante a prognosi peggiore\\.\n\n*Trucco: muco vs vaso*\nA differenza dei vasi, le opacità non si rastremano armonicamente verso la periferia e non seguono il decorso vascolare; il contenuto NON enhance dopo mdc \\(è muco\\), può contenere gas interno e mostra ramificazione “a mano”\\. Questo le distingue anche da una MAV ramificata\\.\n\n🎓 *Connessioni multidisciplinari*\n• Etimologia: “finger\\-in\\-glove” \\(dito\\-in\\-guanto\\) è metafora anglosassone; in letteratura compare anche come “glove finger sign”\\. Stessa immagine, il guanto come calco della mano\\.\n• Topologia/matematica: l'albero bronchiale è un frattale che obbedisce alla legge di Murray \\(d0^3 \\= d1^3 \\+ d2^3 ai punti di biforcazione\\)\\. Il muco impattato ne è un calco anatomico: l'opacità rende visibile la geometria del lume\\.\n• Storia dell'anatomia: i corrosion cast \\(calchi a resina dell'albero bronchiale\\) di W\\. His e poi della scuola tedesca rivelano in vitro ciò che il muco impattato disegna in vivo — il negativo del vuoto, come i calchi di Pompei riempiono lo spazio lasciato dai corpi\\.\n• Fisica/chimica: l'iperdensità del HAM è un proxy della composizione \\(deposito metallico/calcico\\): la densità Hounsfield diventa marcatore biochimico, non solo morfologico\\.\n• Mnemonica laterale: immagina un guanto di lattice riempito d'acqua appeso all'ilo — le dita gonfie e pendenti sono i bronchi impattati\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🖼️ *Immagini — cosa osservare*\n\n1\\. Rx/TC: opacità tubulari ramificate a dito di guanto che si dipartono dall'ilo verso i lobi superiori\\.\n2\\. HRCT: bronchiectasie centrali a V/Y; cercare HAM \\(\\> 70 HU\\) in finestra mediastinica\\.\n3\\. Atresia: mucocele \\+ iperdiafania/air\\-trapping del parenchima circostante\\.\n\n*Fonti verificate \\(link diretti\\)*:\n• [Radiopaedia — Finger in glove sign \\(lung\\)](https://radiopaedia.org/articles/finger-in-glove-sign-lung)\n• [Radiopaedia — Mucoid impaction \\(lung\\)](https://radiopaedia.org/articles/mucoid-impaction-lung-1)\n• [Radiopaedia — Bronchocele](https://radiopaedia.org/articles/bronchocele)\n• [Radiopaedia — Allergic bronchopulmonary aspergillosis](https://radiopaedia.org/articles/allergic-bronchopulmonary-aspergillosis)\n• [Caso Radiopaedia — ABPA](https://radiopaedia.org/cases/allergic-bronchopulmonary-aspergillosis-abpa)\n• [Caso Radiopaedia — ABPA 14](https://radiopaedia.org/cases/allergic-bronchopulmonary-aspergillosis-14)\n• [Radiopaedia — Bronchial atresia](https://radiopaedia.org/articles/bronchial-atresia)\n• [Caso Radiopaedia — Segmental bronchial atresia](https://radiopaedia.org/cases/segmental-bronchial-atresia)\n• [Radiopaedia — Bronchiectasis](https://radiopaedia.org/articles/bronchiectasis)\n• [PMC — Pictorial essay: ABPA](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3249935/)\n• [PMC — High\\-attenuation mucus & acute atelectasis in ABPA](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12419793/)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 1 di 4*\n\nIn un asmatico con bronchiectasie centrali dei lobi superiori e finger\\-in\\-glove, la TC mostra muco con densità \\~110 HU \\(iperdenso rispetto al muscolo paraspinale\\)\\. Cosa indica questo reperto?\n\nA\\) artefatto da beam\\-hardening, irrilevante\nB\\) high\\-attenuation mucus \\(HAM\\): reperto quasi specifico di ABPA e marker di malattia attiva/recidivante a prognosi peggiore\nC\\) calcificazione endobronchiale \\(broncolita\\) da pregressa TBC\nD\\) emorragia endobronchiale acuta\n\n🔍 *Risposta corretta*:\n||B — Il HAM \\(\\> 70 HU, spesso superiore al muscolo\\) riflette deposito di metalli/calcio e muco fungino disidratato\\. È quasi specifico di ABPA e identifica malattia attiva/recidivante con prognosi peggiore\\. Una broncolita è calcifica focale, non un calco mucoso ramificato; l'emorragia non dà finger\\-in\\-glove ramificato persistente\\.||\n\nAuto\\-valutati con i bottoni: 5 \\= perfetto · 0 \\= blackout",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260520|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260520|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260520|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260520|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260520|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260520|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 2 di 4*\n\nQuale criterio TC distingue MEGLIO un finger\\-in\\-glove da mucoid impaction rispetto a una malformazione vascolare ramificata nello stesso territorio?\n\nA\\) la ramificazione a Y/V verso la periferia\nB\\) l'origine dall'ilo\nC\\) l'assenza di enhancement post\\-contrasto del contenuto \\(è muco\\) e la mancata rastremazione armonica vascolare, con eventuale gas interno\nD\\) la sede nei lobi superiori\n\n🔍 *Risposta corretta*:\n||C — Il muco impattato non si potenzia dopo mdc, non si rastrema come un vaso e può contenere gas; una MAV/vaso enhance vivacemente e segue il decorso vascolare\\. Ramificazione, origine ilare e sede ai lobi superiori sono condivise e non discriminano\\.||\n\nAuto\\-valutati con i bottoni: 5 \\= perfetto · 0 \\= blackout",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260520|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260520|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260520|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260520|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260520|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260520|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 3 di 4*\n\nGiovane asintomatico, riscontro incidentale: finger\\-in\\-glove al segmento apico\\-posteriore del LSS con iperdiafania e air\\-trapping del parenchima circostante\\. Diagnosi più probabile?\n\nA\\) ABPA\nB\\) atresia bronchiale \\(mucocele \\+ iperinflazione distale da ventilazione collaterale\\)\nC\\) carcinoma broncogeno ostruente\nD\\) fibrosi cistica\n\n🔍 *Risposta corretta*:\n||B — La combinazione mucocele \\+ iperinflazione/air\\-trapping focale in un giovane asintomatico, al segmento apico\\-posteriore del LSS, è la firma dell'atresia bronchiale\\. L'ABPA dà bronchiectasie centrali diffuse in asmatico; il carcinoma è raro a quell'età e dà atelettasia non iperinflazione; la CF è diffusa e sintomatica\\.||\n\nAuto\\-valutati con i bottoni: 5 \\= perfetto · 0 \\= blackout",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260520|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260520|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260520|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260520|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260520|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260520|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 4 di 4*\n\nAdulto fumatore con finger\\-in\\-glove segmentale e atelettasia distale, SENZA bronchiectasie centrali diffuse né asma/eosinofilia\\. Qual è la priorità gestionale?\n\nA\\) iniziare terapia steroidea per ABPA\nB\\) escludere un'ostruzione endobronchiale \\(carcinoma broncogeno, carcinoide, corpo estraneo, broncolita\\) con TC mdc \\+ broncoscopia\nC\\) follow\\-up a 12 mesi senza ulteriori accertamenti\nD\\) terapia antifungina empirica\n\n🔍 *Risposta corretta*:\n||B — Finger\\-in\\-glove segmentale con atelettasia in un adulto fumatore, senza il contesto di ABPA, impone di escludere una causa ostruttiva endobronchiale \\(anzitutto neoplasia\\) con TC con mdc e broncoscopia\\. Trattare per ABPA o antifungino senza criteri è inappropriato; il semplice follow\\-up ritarda una diagnosi potenzialmente neoplastica\\.||\n\nAuto\\-valutati con i bottoni: 5 \\= perfetto · 0 \\= blackout",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260520|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260520|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260520|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260520|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260520|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260520|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠️ *Rapporto operativo*\n• Callback processati: 0 \\(nessun file inbox\\)\n• Carte resettate \\(no\\-show\\): 8\n• Pill ID 20260520 — topic: finger\\-in\\-glove sign \\(mucoid impaction / bronchocele\\)\n• Ripasso incluso: no \\(days\\_since\\_last\\_review \\= 2 < 7\\)\n• Inbox file cancellati: 0\n• Warning: nessuno",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
