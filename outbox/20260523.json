@@ -1,0 +1,207 @@
+{
+  "pill_id": "20260523",
+  "created_at": "2026-05-23T06:48:59Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🩺 *RadioLearn — Pillola del 23 maggio 2026*\n*Topic:* Pancreas divisum \\+ crossing duct sign su MRCP\n*Dominio:* RM Addome — Livello 2 \\(intermedio\\-avanzato\\)\n━━━━━━━━━━━━━━━━━━━━\n\n*1\\) Embriologia e definizione*\nVariante più comune dell'anatomia duttale pancreatica \\(~5\\-10% della popolazione\\), risulta dalla *mancata fusione* degli abbozzi pancreatici ventrale e dorsale alla 6\\-8ª settimana di gestazione\\. Conseguenza anatomica:\n• abbozzo *ventrale* \\(testa inferiore \\+ processo uncinato\\) → dotto di *Wirsung* → papilla *maggiore* insieme al coledoco;\n• abbozzo *dorsale* \\(testa superiore \\+ corpo \\+ coda\\) → dotto di *Santorini* → papilla *minor* \\(accessoria\\), 2\\-3 cm prossimalmente alla maggiore\\.\n\n*2\\) Classificazione \\(Yu\\)*\n• *Tipo 1 — classico \\(~70%\\)*: nessuna comunicazione tra Wirsung e Santorini\\.\n• *Tipo 2 \\(5\\-10%\\)*: agenesia del Wirsung; tutto drena per la papilla minor\\.\n• *Tipo 3 — incompleto/funzionale \\(15\\-25%\\)*: ramo comunicante filiforme, ma il drenaggio dominante rimane attraverso la papilla minor\\. Si comporta fisiologicamente come un divisum\\.\n\n*3\\) Crossing duct sign su MRCP*\nSulla MIP coronale, il dotto pancreatico dominante \\(dorsale di Santorini\\) *incrocia anteriormente* la porzione intrapancreatica del coledoco distale per andare a sboccare nella papilla minor, separatamente dal coledoco \\+ Wirsung accessorio che drenano nella papilla maggiore\\. Sensibilità MRCP standard ~70\\-80%, che sale a \\>90% con la *secretin\\-MRCP*\\.\n\nI tre criteri MRCP per la diagnosi:\ni\\. dotto dominante della testa che drena nella papilla minor;\nii\\. Wirsung corto/assente che drena nella papilla maggiore;\niii\\. crossing duct sign — incrocio anteriore del dorsale sul CBD intrapancreatico\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*4\\) Tecnica MRCP dedicata*\n• 3D T2 SPACE/CUBE respiratory\\-triggered \\+ 2D HASTE coronali con MIP a spessore variabile\\.\n• *Secretina* \\(ChiRhoStim 0\\.2 µg/kg ev\\) → stimola la secrezione esocrina, distende i dotti per 5\\-10 minuti, evidenzia il dotto dominante e l'outflow nella papilla minor\\.\n• Valutazione del riempimento duodenale \\(grading Matos/Manfredi 0\\-3\\): il ritardato riempimento del lume duodenale a 10 minuti suggerisce dominanza del Santorini e papilla minor funzionalmente inadeguata\\.\n\n*5\\) Santorinicele*\nDilatazione sacculare focale dell'estremo distale del dotto di Santorini in prossimità della papilla minor\\. Spesso associato a divisum, considerato l'analogo pancreatico del coledococele\\. Dopo secretina mostra distensione marcata e svuotamento lento — substrato ostruttivo che giustifica la pancreatite ricorrente nei pazienti più anziani \\(probabile stenosi acquisita della papilla minor\\)\\.\n\n*6\\) Ansa pancreatica*\nVariante rara: il Wirsung emette un'ansa \\(*ansa* in latino \\= manico\\) che si avvolge e si continua come dotto accessorio terminante alla papilla minor; il vero Santorini è atrofico all'origine\\. Fattore predisponente alla pancreatite acuta ricorrente idiopatica\\.\n\n*7\\) Significato clinico*\n• ~75% dei portatori è asintomatico\\.\n• Sovrarappresentato \\(12\\-26%\\) nei pazienti con *pancreatite acuta ricorrente idiopatica* vs ~5% nella popolazione generale: fattore predisponente, non causa unica\\.\n• Possibile pancreatite cronica del *solo dorsale* \\(testa\\-corpo\\-coda; risparmio uncinato/processo\\)\\.\n• Trattamento dopo conferma sintomatica: sfinterotomia endoscopica della papilla minor ± stent dorsale\\.\n\n*8\\) Trabocchetti / cosa non confondere*\n• *Wirsung dilatato a corso obliquo* verso la papilla maggiore: NON è crossing duct sign — il vero crossing è del dorsale dominante davanti al CBD verso la papilla *minor*\\.\n• *Pseudo\\-divisum funzionale* in IPMN del processo uncinato: l'IPMN ostruisce il Wirsung che appare \"assente\"; cercare cisti, mural nodules, comunicazione con dotti laterali\\.\n• *Annular pancreas* può coesistere con divisum: cercare anello di tessuto pancreatico intorno al D2\\.\n• Il ramo comunicante filiforme del Tipo 3 è facile da perdere senza secretina: può tradire la diagnosi se interpretato come fusione normale\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🧠 *Connessioni multidisciplinari*\n\n• *Storia / anatomia veneziana* — *Giovanni Domenico Santorini* \\(Venezia 1681 — Venezia 1737\\), allievo di Malpighi a Pisa, professore di anatomia a Venezia dal 1705\\. Le sue *Observationes anatomicae* \\(1724\\); il manoscritto sul dotto accessorio del pancreas fu pubblicato postumo da *Giambattista Morgagni* e Michael Girardi nel 1775\\. Contemporaneo di Vivaldi \\(stessa Venezia, stesso decennio\\)\\. Il rivale storico — *Johann Georg Wirsung*, bavarese — descrisse il dotto principale a Padova nel 1642 e fu assassinato a Padova l'anno seguente in una disputa accademica\\.\n\n• *Filologia* — *divisum* \\(latino\\) \\= participio passato di *dividere*, \"separato\"\\. *Ansa* \\(latino\\) \\= manico, ansa di brocca \\(geometria etrusco\\-romana del vasellame\\)\\. *Santorini\\-cele*: il suffisso \\-cele dal greco κήλη \\(ernia, cavità\\), formato per analogia con choledochocele\\.\n\n• *Embriologia evolutiva* — il pancreas dei vertebrati è bifido all'origine: ventrale \\(dal diverticolo epatico\\) \\+ dorsale \\(dal duodeno\\)\\. La fusione è filogeneticamente recente; nei rettili e in alcuni teleostei il pancreas resta diviso per tutta la vita\\. Il divisum umano è in un certo senso un fenomeno *atavistico*, non patologico\\.\n\n• *Fisica idraulica* — legge di Hagen\\-Poiseuille: flusso ∝ r⁴\\. Una papilla minor con calibro funzionale ridotto del 50% riduce il flusso di un fattore 16\\. Spiega perché un dotto dominante che drena attraverso un'apertura sub\\-calibrata genera ipertensione duttale anche senza ostruzione meccanica completa\\.\n\n• *Topologia / geometria proiettiva* — il crossing duct sign è un *incrocio non\\-omotopico* in proiezione 2D di due strutture 3D che NON si intersecano: il dorsale passa anatomicamente in un piano più anteriore al CBD, la MIP appiattisce le profondità e crea l'illusione di intersezione\\. Analogo al nodo a otto del marinaio: pare un anello, è una traiettoria che si sovrappone a sé stessa in piano\\.\n\n• *Letteratura* — Italo Calvino, *Le città invisibili*, Smeraldina: città in cui \"non esiste mai un solo percorso da un punto a un altro\"\\. Il divisum è la versione anatomica: due strade indipendenti per la stessa destinazione duodenale\\.\n\n• *Mnemonica laterale* — pensa al Canal Grande di Venezia e a un canale secondario che si stacca al Rialto e raggiunge indipendentemente la laguna\\. La stessa città \\(pancreas\\), due sbocchi\\. Santorini, veneziano, ha disegnato proprio questa idrografia anatomica nella città dove viveva\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🖼 *Immagini e fonti* \\(verificate via web\\_search\\)\n\n*Radiopaedia — articoli*\n• [Pancreas divisum](https://radiopaedia.org/articles/pancreas-divisum)\n• [Santorinicele](https://radiopaedia.org/articles/santorinicele-1)\n• [Pancreatic ducts \\(anatomia normale e varianti\\)](https://radiopaedia.org/articles/pancreatic-ducts)\n• [Ansa pancreatica](https://radiopaedia.org/articles/ansa-pancreatica)\n\n*Radiopaedia — casi*\n• [Caso classico di pancreas divisum](https://radiopaedia.org/cases/pancreas-divisum-3)\n• [Pancreas divisum con santorinicele](https://radiopaedia.org/cases/pancreas-divisum-with-santorinicele)\n• [Pancreas divisum incompleto con santorinicele](https://radiopaedia.org/cases/incomplete-pancreas-divisum-with-santorinicele)\n• [Tipo II con bassa inserzione del cistico](https://radiopaedia.org/cases/type-ii-pancreas-divisum-with-low-medial-insertion-of-cystic-duct-1)\n\n*Letteratura primaria*\n• [RSNA Radiology — Anomalies, Variants, Pitfalls in Pancreatic Imaging](https://pubs.rsna.org/doi/full/10.1148/radiol.12112469)\n• [RSNA Radiology — Divisum e Santorinicele \\(secretin\\-MRCP dinamica\\)](https://pubs.rsna.org/doi/abs/10.1148/radiology.217.2.r00nv29403)\n• [PubMed — The crossing duct sign \\(Abdominal Radiology\\)](https://pubmed.ncbi.nlm.nih.gov/28871465/)\n• [Springer — The crossing duct sign \\(testo integrale\\)](https://link.springer.com/article/10.1007/s00261-017-1312-3)\n• [PMC — Pancreatitis in pancreas divisum: MRI/MRCP](https://pmc.ncbi.nlm.nih.gov/articles/PMC3740420/)\n• [BMC Medical Imaging — È necessaria MRCP per diagnosticare il divisum?](https://link.springer.com/article/10.1186/s12880-019-0329-1)\n• [Eurorad — Pancreas divisum: MDCT e MRI](https://www.eurorad.org/case/9509)\n\n*Storia / biografia*\n• [Wikipedia — Giovanni Domenico Santorini](https://en.wikipedia.org/wiki/Giovanni_Domenico_Santorini)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Quiz Q1 / 4* — card `20260523:0`\n\nSu MRCP MIP coronale di una paziente di 38 anni con tre episodi di pancreatite acuta idiopatica nell'ultimo anno, individui un dotto pancreatico dominante che incrocia *anteriormente* la porzione intrapancreatica del coledoco per terminare in posizione prossimale rispetto allo sbocco del CBD\\. Quale interpretazione anatomica è corretta\\?\n\nA\\) Il dotto dominante è il Wirsung, con decorso retro\\-coledocico anomalo, che termina insieme al CBD nella papilla maggiore\\.\nB\\) Il dotto dominante è il Santorini \\(dorsale\\): incrocia anteriormente il CBD intrapancreatico e drena indipendentemente nella papilla *minor* — crossing duct sign tipico del pancreas divisum\\.\nC\\) Si tratta di un'ansa pancreatica congenita, sempre patologica e indicativa di neoplasia mucinosa intraduttale\\.\nD\\) È un artefatto di MIP da sovrapposizione della vena splenica, non un vero dotto\\.\n\n||*Risposta corretta: B* — il crossing duct sign è il segno chiave del divisum su MRCP\\. Il dorsale dominante \\(Santorini\\) attraversa anteriormente il CBD intrapancreatico per raggiungere la papilla minor, mentre il Wirsung — corto o assente — drena con il CBD nella papilla maggiore\\. \\(A\\) inverte i ruoli; \\(C\\) sovrastima la specificità dell'ansa pancreatica e fraintende la sua natura \\(variante, non neoplasia\\); \\(D\\) la vena splenica decorre posteriormente al corpo\\-coda, non in questa proiezione\\.||\n\nValuta la tua risposta con i bottoni qui sotto \\(0\\=non sapevo, 5\\=istantaneo e sicuro\\)\\.",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260523|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260523|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260523|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260523|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260523|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260523|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Quiz Q2 / 4* — card `20260523:1`\n\nQual è il difetto embriologico che genera il pancreas divisum\\?\n\nA\\) Mancata involuzione del processo uncinato alla 12ª settimana di gestazione\\.\nB\\) Mancata rotazione dell'abbozzo ventrale del pancreas attorno al duodeno alla 6ª settimana\\.\nC\\) *Mancata fusione* tra gli abbozzi ventrale e dorsale alla 6\\-8ª settimana, con i due sistemi duttali che restano separati\\.\nD\\) Persistenza di un duplicato del dotto vitellino\\-onfalo\\-mesenterico nel mesentere dorsale\\.\n\n||*Risposta corretta: C* — il divisum nasce dalla mancata fusione dei due abbozzi pancreatici: il dorsale \\(testa superiore \\+ corpo \\+ coda → Santorini → papilla minor\\) e il ventrale \\(testa inferiore \\+ processo uncinato → Wirsung → papilla maggiore\\) restano separati\\. La rotazione del ventrale attorno al duodeno \\(B\\) è normale e fisiologica e produce l'anatomia matura\\. \\(A\\) e \\(D\\) non corrispondono a meccanismi reali del divisum\\.||\n\nAutovaluta con i bottoni 0\\-5\\.",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260523|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260523|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260523|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260523|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260523|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260523|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Quiz Q3 / 4* — card `20260523:2`\n\nQual è il razionale fisiologico dell'uso di *secretina* durante l'MRCP per la diagnosi di pancreas divisum\\?\n\nA\\) La secretina è un mezzo di contrasto T2\\-iperintenso che si distribuisce nei dotti pancreatici\\.\nB\\) La secretina inibisce la secrezione di succo pancreatico riducendo il rumore di flusso e migliorando la risoluzione\\.\nC\\) La secretina stimola la secrezione esocrina del pancreas, distendendo transitoriamente i dotti e rendendo visibili il dotto dominante, la papilla di sbocco e il riempimento duodenale; nel divisum la papilla minor è dominante e il duodeno si riempie più lentamente\\.\nD\\) La secretina è un antispasmodico della muscolatura papillare, simile alla scopolamina butilbromuro\\.\n\n||*Risposta corretta: C* — la secretina è l'ormone duodenale endogeno che stimola la cellula duttale pancreatica a secernere bicarbonato e acqua\\. La somministrazione ev distende i dotti per 5\\-10 minuti, permettendo di valutare il dotto dominante, lo sbocco e il riempimento duodenale \\(criteri di Manfredi, grading 0\\-3\\)\\. Non è un mezzo di contrasto \\(A\\), non inibisce la secrezione \\(B\\), non è un antispasmodico \\(D — quella è la scopolamina butilbromuro o il glucagone\\)\\.||\n\nAutovaluta con i bottoni 0\\-5\\.",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260523|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260523|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260523|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260523|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260523|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260523|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Quiz Q4 / 4* — card `20260523:3`\n\nQuale affermazione sul significato clinico del pancreas divisum è corretta\\?\n\nA\\) Il pancreas divisum è causa diretta e necessaria di pancreatite cronica e va sempre trattato chirurgicamente alla diagnosi\\.\nB\\) Il pancreas divisum è presente in ~5% della popolazione generale e nella maggioranza dei casi è asintomatico; risulta sovrarappresentato \\(12\\-26%\\) nei pazienti con pancreatite acuta ricorrente idiopatica, dove è considerato fattore predisponente quando la papilla minor è funzionalmente inadeguata al deflusso del dotto dominante\\.\nC\\) Il pancreas divisum è una variante esclusivamente pediatrica che tende a \"fondersi\" spontaneamente in età adulta\\.\nD\\) Il pancreas divisum è patognomonico di sindrome polipoide \\(Peutz\\-Jeghers, Gardner\\) e impone sorveglianza per neoplasia\\.\n\n||*Risposta corretta: B* — la maggioranza dei portatori \\(~75%\\) è asintomatica\\. Il divisum è sovrarappresentato nei pazienti con pancreatite acuta ricorrente idiopatica \\(12\\-26% vs ~5%\\), ma è considerato *fattore predisponente* — non causa unica — perché la papilla minor non sempre garantisce un deflusso adeguato del Santorini dominante\\. \\(A\\) inverte la storia naturale; \\(C\\) è impossibile — l'anatomia duttale non si rimodella spontaneamente; \\(D\\) non esiste associazione sindromica nota\\.||\n\nAutovaluta con i bottoni 0\\-5\\. \\(Ultima domanda — buon weekend\\!\\)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260523|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260523|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260523|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260523|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260523|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260523|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🧾 *Rapporto operativo \\— 23/05/2026*\n• Pill\\_id: `20260523` — topic: pancreas divisum \\+ crossing duct sign \\(MRCP, Liv\\. 2\\)\n• Callback processati: 0\n• Carte resettate \\(no\\-show\\): 20\n• Ripasso incluso: no \\(days\\_since \\= 5 \\< 7\\)\n• Inbox cancellati: 0\n• Backup lunedì: skip \\(oggi è sabato\\)\n• Carte totali post\\-routine: 24\n• Warning: nessuno\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
