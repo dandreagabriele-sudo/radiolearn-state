@@ -73,8 +73,7 @@ SAFE_CHUNK_SIZE = 3900
 #   - Code inline `…` e code block ```…```
 #   - URL dentro [text](url)
 
-SAFETY_NET_CHARS = set(".!()-#+={}")
-
+SAFETY_NET_CHARS = set(".!()-#+={}~")
 
 def _escape_safety_net(text: str):
     """Escapa i caratteri SAFETY_NET_CHARS nudi nel testo.
