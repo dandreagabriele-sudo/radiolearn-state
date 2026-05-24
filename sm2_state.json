@@ -469,34 +469,94 @@
       ]
     },
     "20260523:0": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-05-23",
-      "last_quality": null,
-      "history": []
+      "next_review": "2026-05-25",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-05-24",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1
+        }
+      ]
     },
     "20260523:1": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-05-23",
-      "last_quality": null,
-      "history": []
+      "next_review": "2026-05-25",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-05-24",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1
+        }
+      ]
     },
     "20260523:2": {
+      "ef": 1.7,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-05-25",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-05-24",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1
+        }
+      ]
+    },
+    "20260523:3": {
+      "ef": 1.7,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-05-25",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-05-24",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1
+        }
+      ]
+    },
+    "20260524:0": {
       "ef": 2.5,
       "interval": 0,
       "repetitions": 0,
-      "next_review": "2026-05-23",
+      "next_review": "2026-05-24",
       "last_quality": null,
       "history": []
     },
-    "20260523:3": {
+    "20260524:1": {
       "ef": 2.5,
       "interval": 0,
       "repetitions": 0,
-      "next_review": "2026-05-23",
+      "next_review": "2026-05-24",
+      "last_quality": null,
+      "history": []
+    },
+    "20260524:2": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-05-24",
+      "last_quality": null,
+      "history": []
+    },
+    "20260524:3": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-05-24",
       "last_quality": null,
       "history": []
     }
@@ -542,6 +602,13 @@
       "pill_id": "20260523",
       "date": "2026-05-23",
       "topic": "Pancreas divisum + crossing duct sign su MRCP (con santorinicele e ansa pancreatica)",
+      "n_questions": 4,
+      "review_included": false
+    },
+    {
+      "pill_id": "20260524",
+      "date": "2026-05-24",
+      "topic": "Crazy paving pattern — HRCT polmonare (DD)",
       "n_questions": 4,
       "review_included": false
     }
