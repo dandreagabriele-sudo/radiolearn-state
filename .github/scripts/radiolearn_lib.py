@@ -21,6 +21,14 @@ Public API:
     cards_due(state, as_of=None)              -> [card_ids]
     cards_overdue_without_answer(state, ans)  -> [card_ids]
     select_review_candidate(state)            -> card_id | None
+
+  Telegram MarkdownV2 helpers:
+    esc(text)                                 -> str (escaped)
+    link(text, url)                           -> str (MDV2 link)
+    quiz_keyboard(pill_id, qidx)              -> dict (inline kb)
+
+  Robust PUT:
+    gh_put_retry(path, content, msg, sha=None) -> new_sha
 """
 
 import base64
@@ -162,3 +170,73 @@ def select_review_candidate(state: dict) -> Optional[str]:
     due.sort(key=lambda cid: (state["cards"][cid]["next_review"],
                               state["cards"][cid]["ef"]))
     return due[0]
+
+
+# ────────────────────────────────────────────────────────────────────
+# Telegram MarkdownV2 helpers
+# ────────────────────────────────────────────────────────────────────
+
+_MDV2_SPECIAL = set(r'_*[]()~`>#+-=|{}.!\\')
+
+
+def esc(text: str) -> str:
+    """Escape MarkdownV2 special characters for Telegram message text.
+
+    Escape the full Telegram MarkdownV2 special set:
+        _ * [ ] ( ) ~ ` > # + - = | { } . ! \\
+    Inside `[label](url)` links, escape only the label (use `link()`).
+    """
+    return "".join("\\" + c if c in _MDV2_SPECIAL else c for c in text)
+
+
+def link(text: str, url: str) -> str:
+    """Build a MarkdownV2 inline link.
+
+    Escapes the label with `esc()` and the closing paren / backslash in
+    the URL (the only chars Telegram requires escaping inside link URLs).
+    """
+    safe_url = url.replace("\\", "\\\\").replace(")", "\\)")
+    return f"[{esc(text)}]({safe_url})"
+
+
+def quiz_keyboard(pill_id: str, qidx: int) -> dict:
+    """0-5 self-assessment inline keyboard for a quiz question.
+
+    callback_data format: `q|<pill_id>|<qidx>|<quality>` (matches poll.py).
+    """
+    return {"inline_keyboard": [
+        [
+            {"text": "5 ✅", "callback_data": f"q|{pill_id}|{qidx}|5"},
+            {"text": "4",        "callback_data": f"q|{pill_id}|{qidx}|4"},
+            {"text": "3",        "callback_data": f"q|{pill_id}|{qidx}|3"},
+        ],
+        [
+            {"text": "2",        "callback_data": f"q|{pill_id}|{qidx}|2"},
+            {"text": "1",        "callback_data": f"q|{pill_id}|{qidx}|1"},
+            {"text": "0 ❌", "callback_data": f"q|{pill_id}|{qidx}|0"},
+        ],
+    ]}
+
+
+# ────────────────────────────────────────────────────────────────────
+# GitHub PUT with one retry on 409/422 (refetch sha) and 5xx (sleep 3s)
+# ────────────────────────────────────────────────────────────────────
+
+import time as _time
+
+
+def gh_put_retry(path: str, content_str: str, msg: str,
+                 sha: Optional[str] = None) -> str:
+    """`gh_put` with one retry: refresh sha on 409/422, sleep 3s on 5xx."""
+    for attempt in range(2):
+        try:
+            return gh_put(path, content_str, msg, sha)
+        except requests.HTTPError as e:
+            sc = e.response.status_code
+            if sc in (409, 422) and attempt == 0:
+                _, sha = gh_get(path)
+                continue
+            if 500 <= sc < 600 and attempt == 0:
+                _time.sleep(3)
+                continue
+            raise
