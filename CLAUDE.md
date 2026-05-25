@@ -73,6 +73,33 @@ Old history entries (pre-tag) have no `source` field and default to
 "Quiz risposti" count during the first 7-day window after the upgrade
 but self-corrects after one week.
 
+## Ripasso (FASE 6a) — cadenza e bundle (OVERRIDE spec)
+
+Questa sezione **sostituisce** la regola della chat spec ("cadenza minima
+7 giorni, 1 ripasso per pillola").
+
+- **Cadenza minima**: `days_since_last_review >= 3` (≈ 2–3 pillole di
+  ripasso a settimana).
+- **Bundle**: usa `select_review_candidates(state, k=3)` per pescare
+  fino a 3 carte stantie (ordinate per `next_review` asc, poi `ef` asc).
+- **Numero ripassi per pillola**: 2 o 3 (default 3; scendi a 2 solo se
+  la pillola del giorno sarebbe troppo lunga o se sono dovute meno di 3
+  carte).
+- **Struttura di ogni ripasso**: identica a una Q nuova — domanda +
+  A/B/C/D + `||spoiler con risposta + razionale||` + bottoni 0–5.
+- **callback_data**: ogni ripasso riusa l'`original_card_id` della
+  carta selezionata (`q|<orig_pill_id>|<orig_qidx>|<quality>`), NON un
+  id nuovo. Lo SM-2 update atterra sulla carta originale.
+- **last_review_inclusion_date**: aggiorna a `today.isoformat()` se hai
+  incluso ≥ 1 ripasso, **anche** se per qualche carta selezionata la
+  pillola originale è assente (404). Evita di ri-tentare ogni giorno.
+- **Pillola totale**: 6–8 Q (3 ripassi + 3–4 nuove) nei giorni di
+  ripasso; 3–4 Q nuove nei giorni senza ripasso.
+- **Composizione contenuti**: per ogni carta di ripasso pesca il
+  `pills_log/<orig_date>.md` originale e genera una Q&A nuova che
+  indaghi lo stesso concetto da angolazione diversa (scenario clinico,
+  fisiopatologia, DD, eccetera).
+
 ## Secrets
 
 The PAT and chat ID live only in the chat prompt. Do **not** commit them
