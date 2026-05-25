@@ -50,6 +50,29 @@ GitHub + SM-2 API documented at the top of the file:
 Prefer these helpers over reinventing them in the daily script. Smaller
 scripts are less likely to be left half-executed.
 
+## Answer source tagging — FASE 3 and FASE 5
+
+`update_card(state, card_id, quality, source="user")` tags every history
+entry with its origin. This matters for the weekly summary:
+
+- **FASE 2** (real callback from inbox) → `update_card(state, cid, q)`
+  (default `source="user"`).
+- **FASE 3** (forgotten-card auto-reset) → MUST pass `source="reset"`,
+  i.e. `update_card(state, cid, 0, source="reset")`.
+
+**FASE 5** (weekly summary, Mondays) MUST count only entries with
+`h.get("source", "user") == "user"` for "Quiz risposti" and
+"Qualità media". Without this filter, FASE 3 resets (always
+`quality=0`) pollute the completion rate (→ 100 %) and crush the
+average quality (→ 0.0) — this was the bug surfaced on 2026-05-25.
+"Carte dimenticate" in the summary should count entries with
+`source == "reset"` in the last 7 days.
+
+Old history entries (pre-tag) have no `source` field and default to
+`"user"` for backward compatibility; this slightly inflates the
+"Quiz risposti" count during the first 7-day window after the upgrade
+but self-corrects after one week.
+
 ## Secrets
 
 The PAT and chat ID live only in the chat prompt. Do **not** commit them
