@@ -20,7 +20,8 @@ Public API:
     update_card(state, card_id, quality, source="user") -> mutates, returns card
     cards_due(state, as_of=None)                        -> [card_ids]
     cards_overdue_without_answer(state, ans)            -> [card_ids]
-    select_review_candidate(state)                      -> card_id | None
+    select_review_candidates(state, k=3)                -> [card_ids] (≤ k)
+    select_review_candidate(state)                      -> card_id | None (legacy)
 
   Telegram MarkdownV2 helpers:
     esc(text)                                 -> str (escaped)
@@ -172,14 +173,28 @@ def cards_overdue_without_answer(state: dict, answered: set) -> list:
             if c["next_review"] < today and cid not in answered]
 
 
-def select_review_candidate(state: dict) -> Optional[str]:
-    """Pick stalest due card: oldest next_review, lowest EF as tiebreak."""
+def select_review_candidates(state: dict, k: int = 3) -> list:
+    """Pick up to k stalest due cards.
+
+    Ranking key per card: (next_review asc, ef asc). The most stale +
+    spiniest card is at index 0. Returns [] if no card is due. Used by
+    FASE 6a (bundle ripasso) to include 2–3 review questions per pill.
+    """
     due = cards_due(state)
     if not due:
-        return None
+        return []
     due.sort(key=lambda cid: (state["cards"][cid]["next_review"],
                               state["cards"][cid]["ef"]))
-    return due[0]
+    return due[:max(0, int(k))]
+
+
+def select_review_candidate(state: dict) -> Optional[str]:
+    """Pick stalest due card. Kept for backward compatibility.
+
+    Prefer `select_review_candidates(state, k)` in new code.
+    """
+    picks = select_review_candidates(state, k=1)
+    return picks[0] if picks else None
 
 
 # ────────────────────────────────────────────────────────────────────
