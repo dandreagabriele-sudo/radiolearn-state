@@ -16,11 +16,11 @@ Public API:
     gh_delete(path, sha, msg)                 -> None
 
   SM-2 (in-memory; persistence is caller's responsibility):
-    new_card()                                -> dict (fresh card)
-    update_card(state, card_id, quality)      -> mutates state, returns card
-    cards_due(state, as_of=None)              -> [card_ids]
-    cards_overdue_without_answer(state, ans)  -> [card_ids]
-    select_review_candidate(state)            -> card_id | None
+    new_card()                                          -> dict (fresh card)
+    update_card(state, card_id, quality, source="user") -> mutates, returns card
+    cards_due(state, as_of=None)                        -> [card_ids]
+    cards_overdue_without_answer(state, ans)            -> [card_ids]
+    select_review_candidate(state)                      -> card_id | None
 
   Telegram MarkdownV2 helpers:
     esc(text)                                 -> str (escaped)
@@ -115,8 +115,17 @@ def new_card() -> dict:
     }
 
 
-def update_card(state: dict, card_id: str, quality: int) -> dict:
-    """Apply SM-2 update. Quality clamped to [0,5]. Mutates state in place."""
+def update_card(state: dict, card_id: str, quality: int,
+                source: str = "user") -> dict:
+    """Apply SM-2 update. Quality clamped to [0,5]. Mutates state in place.
+
+    `source` tags the resulting history entry:
+      - "user"  → genuine user-supplied callback (default; backward compat).
+      - "reset" → FASE 3 forgotten-card reset (no real user answer).
+    The weekly summary (FASE 5) MUST count only `source == "user"` entries
+    for "Quiz risposti" and "Qualità media"; otherwise resets pollute the
+    completion rate (100 %) and crush the average quality (→ 0.0).
+    """
     if card_id not in state["cards"]:
         state["cards"][card_id] = new_card()
     card = state["cards"][card_id]
@@ -146,6 +155,7 @@ def update_card(state: dict, card_id: str, quality: int) -> dict:
         "quality": quality,
         "ef_after": card["ef"],
         "interval_after": card["interval"],
+        "source": source,
     })
     return card
 
