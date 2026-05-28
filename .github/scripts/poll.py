@@ -90,7 +90,7 @@ def main() -> int:
 
     result = call("getUpdates", {
         "offset": state["last_update_id"] + 1,
-        "timeout": 0,
+        "timeout": 25,
         "allowed_updates": json.dumps(["callback_query"]),
     })
 
