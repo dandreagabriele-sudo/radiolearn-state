@@ -1,0 +1,329 @@
+{
+  "pill_id": "20260528",
+  "created_at": "2026-05-28T06:52:21.075936Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*📚 RadioLearn — Pillola del 28/05/2026*\n\n*Concetto del giorno — Mosaic attenuation pattern \\(HRCT\\)*\n\nMosaic attenuation \\= patchwork di aree polmonari a densità diversa, a margini lobulari/geografici, su CT in PIENA INSPIRAZIONE\\. È un pattern descrittivo, non una diagnosi: il compito è stabilire QUALE compartimento è anormale \\(il chiaro o lo scuro\\) e con quale meccanismo\\.\n\n*I tre meccanismi — il DD chiave*\n• Vie aeree \\(air trapping\\): bronchiolite costrittiva, hypersensitivity pneumonitis, asma, BOS post\\-trapianto\\. Anormale è il NERO \\(aria intrappolata \\+ vasocostrizione ipossica riflessa, quindi vasi più piccoli\\)\\.\n• Vascolare \\(mosaic perfusion\\): CTEPH, ipertensione polmonare\\. Aree di iperafflusso \\(GGO con vasi DILATATI\\) vs aree oligoemiche \\(nere, vasi piccoli\\)\\. Spesso arteria polmonare centrale dilatata\\.\n• Infiltrativo \\(ground\\-glass\\): anormale è il BIANCO \\(GGO alveolo\\-interstiziale\\); i vasi hanno pari calibro nel nero e nel bianco\\.\n\n*Chiave diagnostica \\(Webb / Müller\\): guarda il calibro dei vasi*\n• Vasi uguali in nero e bianco → è il BIANCO ad essere anormale \\= GGO infiltrativo\\.\n• Vasi più piccoli nel NERO → è il NERO anormale: air trapping \\(vie aeree\\) o oligoemia \\(vascolare\\)\\.\nPer separare vie aeree vs vascolare: scansione in ESPIRAZIONE → se le aree nere si accentuano/persistono \\= air trapping\\. Se invece c'è arteria polmonare dilatata, webs endoluminali e sovraccarico del cuore destro \\= vascolare \\(CTEPH\\)\\.\n\n*Segni utili e pitfall*\n• Three\\-density / headcheese sign: GGO \\+ polmone normale \\+ air trapping insieme → tipico della hypersensitivity pneumonitis\\.\n• Pitfall: il gradiente declive antero\\-posteriore fisiologico NON è mosaic patologico; orienta invece la distribuzione lobulare a margini netti \\(geografica\\)\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔗 Connessioni multidisciplinari*\n\n• Arte e storia \\(mosaici bizantini, Ravenna, VI sec\\.\\): come le tessere chiare e scure di San Vitale compongono l'immagine, qui la diagnosi nasce dal contrasto di attenuazione fra lobuli\\. Etimo: gr\\. mouseîos, opera delle Muse\\.\n• Matematica \\(tassellazione / lobulo secondario di Miller\\): il lobulo polmonare \\(1–2,5 cm\\) è l'unità poligonale che tassella il parenchima; il mosaico ne rispetta i confini, da cui il pattern geografico\\.\n• Fisica \\(legge di Poiseuille; riflesso di von Euler\\-Liljestrand, 1946\\): il flusso varia con la quarta potenza del raggio; piccole riduzioni di calibro arteriolare da vasocostrizione ipossica nelle zone mal\\-ventilate spiegano i vasi assottigliati nel nero\\.\n• Etimologia: la tessera latina è sia il tassello del mosaico sia il contrassegno\\-puzzle → il segno radiologico come tessera del mosaico diagnostico\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🖼️ Immagini e fonti*\n\n[Mosaic attenuation pattern — articolo \\(Radiopaedia\\)](https://radiopaedia.org/articles/mosaic-attenuation-pattern-in-lung?lang=us)\n[Mosaic attenuation / ipertensione polmonare — caso \\(Radiopaedia\\)](https://radiopaedia.org/cases/mosaic-attenuation-pattern-pulmonary-hypertension?lang=us)\n[Hypersensitivity pneumonitis con air trapping — caso \\(Radiopaedia\\)](https://radiopaedia.org/cases/hypersensitivity-pneumonitis-18?lang=us)\n[Chronic thromboembolic PH \\(CTEPH\\) — articolo \\(Radiopaedia\\)](https://radiopaedia.org/articles/chronic-thromboembolic-pulmonary-hypertension?lang=us)\n[CTEPH — caso \\(Radiopaedia\\)](https://radiopaedia.org/cases/chronic-thromboembolic-pulmonary-hypertension-1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso — Sarcoidosi toracica \\(galaxy sign\\)*\n\nNel sistema di stadiazione radiografica di Scadding per la sarcoidosi toracica, lo stadio II è definito da:\n\nA\\) sola linfoadenopatia ilare bilaterale\nB\\) linfoadenopatia ilare bilaterale \\+ infiltrato parenchimale\nC\\) solo infiltrato parenchimale senza adenopatia\nD\\) fibrosi polmonare con distorsione strutturale\n\n||Risposta corretta: B — Stadio II \\= adenopatia \\+ parenchima\\. Stadio 0 \\= normale; I \\= sola adenopatia \\(alta remissione spontanea\\); III \\= solo parenchima senza adenopatia; IV \\= fibrosi\\. La stadiazione è descrittiva, non un continuum temporale obbligato\\.||\n\n_Autovalutati con i bottoni 0–5_",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso — Sarcoidosi toracica \\(galaxy sign\\)*\n\nUn paziente con sarcoidosi sviluppa ipercalcemia e nefrolitiasi\\. Il meccanismo fisiopatologico principale è:\n\nA\\) secrezione ectopica di PTH dai granulomi\nB\\) attività 1\\-alfa\\-idrossilasi nei macrofagi granulomatosi → eccesso di calcitriolo\nC\\) metastasi ossee osteolitiche\nD\\) deficit di calcitonina\n\n||Risposta corretta: B — I macrofagi attivati del granuloma esprimono 1\\-alfa\\-idrossilasi in modo PTH\\-indipendente, convertendo la 25\\-OH\\-D in 1,25\\-\\(OH\\)2\\-D \\(calcitriolo\\) → iperassorbimento intestinale di calcio\\. Il PTH è soppresso; l'ipercalcemia peggiora con esposizione solare/vitamina D\\.||\n\n_Autovalutati con i bottoni 0–5_",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso — Sarcoidosi toracica \\(galaxy sign\\)*\n\nQuale elemento orienta verso progressive massive fibrosis \\(silicosi\\) piuttosto che verso un galaxy sign sarcoideo, davanti a una massa nei lobi superiori?\n\nA\\) distribuzione perilinfatica dei micronoduli satelliti\nB\\) esposizione a silice \\+ masse che migrano verso l'ilo con enfisema paracicatriziale e calcificazioni linfonodali a guscio d'uovo\nC\\) confluenza di micronoduli con alone di ground\\-glass\nD\\) linfoadenopatia ilare bilaterale simmetrica\n\n||Risposta corretta: B — La PMF silicotica dà masse conglomerate dei campi superiori\\-posteriori che migrano verso l'ilo lasciando enfisema cicatriziale, con calcificazioni eggshell linfonodali e anamnesi di esposizione\\. A e C descrivono invece il galaxy sign sarcoideo \\(perilinfatico, alone GGO, stabile nel follow\\-up\\)\\.||\n\n_Autovalutati con i bottoni 0–5_",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🫁 Domanda nuova — Mosaic attenuation*\n\nHRCT in inspirazione, parenchima a patchwork: nelle aree IPOdense \\(nere\\) i vasi appaiono più PICCOLI rispetto alle aree dense\\. L'interpretazione corretta è:\n\nA\\) il bianco è anormale → ground\\-glass infiltrativo\nB\\) il nero è anormale → air trapping \\(vie aeree\\) o oligoemia vascolare\nC\\) artefatto da movimento respiratorio\nD\\) enfisema centrolobulare diffuso e uniforme\n\n||Risposta corretta: B — Vasi più piccoli nel nero ⇒ è il nero ad essere patologico: ipoperfusione da vasocostrizione ipossica riflessa \\(air trapping\\) o da ostruzione vascolare\\. Se i vasi fossero di pari calibro in nero e bianco, l'anormale sarebbe il bianco \\(GGO\\)\\.||\n\n_Autovalutati con i bottoni 0–5_",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260528|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260528|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260528|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260528|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260528|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260528|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🫁 Domanda nuova — Mosaic attenuation*\n\nPer distinguere un mosaic da small airways disease \\(es\\. bronchiolite costrittiva, HP\\) da un mosaic vascolare \\(CTEPH\\), l'accorgimento tecnico più utile è:\n\nA\\) somministrare mdc e\\.v\\. e ripetere in fase arteriosa\nB\\) acquisire una scansione in ESPIRAZIONE: l'accentuazione/persistenza delle aree ipodense indica air trapping\nC\\) posizionare il paziente prono per ridurre il gradiente declive\nD\\) ricostruzione MIP a strato spesso\n\n||Risposta corretta: B — L'espiratorio smaschera l'air trapping: i lobuli intrappolati non aumentano di densità e le aree nere si accentuano\\. Nel mosaic vascolare l'espiratorio non mostra air trapping; orientano invece PA dilatata, webs endoluminali e sovraccarico destro\\.||\n\n_Autovalutati con i bottoni 0–5_",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260528|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260528|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260528|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260528|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260528|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260528|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🫁 Domanda nuova — Mosaic attenuation*\n\nCoesistenza su HRCT di ground\\-glass \\+ parenchima normale \\+ air trapping \\(three\\-density / headcheese sign\\) è più tipica di:\n\nA\\) edema polmonare cardiogeno\nB\\) hypersensitivity pneumonitis\nC\\) proteinosi alveolare \\(crazy paving puro\\)\nD\\) enfisema panlobulare\n\n||Risposta corretta: B — Il three\\-density \\(headcheese\\) sign combina malattia infiltrativa \\(GGO\\) e small airways disease \\(air trapping\\), quadro proprio della hypersensitivity pneumonitis\\. La PAP dà crazy paving \\(sola iperdensità geografica\\); l'edema dà GGO/ispessimento settale gravitazionale; l'enfisema panlobulare ipodensità senza GGO\\.||\n\n_Autovalutati con i bottoni 0–5_",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260528|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260528|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260528|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260528|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260528|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260528|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🫁 Domanda nuova — Mosaic attenuation*\n\nPaziente con trapianto polmonare e calo del FEV1; HRCT espiratorio mostra esteso air trapping a mosaico SENZA fibrosi né adenopatia\\. Il sospetto principale è:\n\nA\\) rigetto iperacuto\nB\\) bronchiolite obliterante / BOS \\(rigetto cronico delle piccole vie\\)\nC\\) edema da riperfusione\nD\\) polmonite organizzativa \\(OP\\)\n\n||Risposta corretta: B — L'air trapping a mosaico \\(small airways disease\\) con declino funzionale dopo trapianto è il marker imaging della bronchiolite obliterante / BOS, espressione di rigetto cronico\\. L'espiratorio è essenziale: in inspirazione il quadro può essere subdolo\\.||\n\n_Autovalutati con i bottoni 0–5_",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260528|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260528|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260528|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260528|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260528|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260528|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🛠️ Rapporto operativo*\n• Callback processati: 0\n• Carte resettate \\(no\\-show\\): 12\n• Pill: 20260528 — Mosaic attenuation pattern \\(HRCT\\), Livello 1 Torace\n• Ripasso incluso: sì — 20260514:0, 20260514:1, 20260514:2 \\(sarcoidosi / galaxy sign\\)\n• Nuove carte: 20260528:0–3\n• Inbox cancellati: 0\n• Warning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
