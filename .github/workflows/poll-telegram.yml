@@ -1,11 +1,17 @@
 name: Poll Telegram
 
-# Cron in UTC. 04:30 UTC = 06:30 Europe/Berlin (prima del run mattutino).
-# 19:00 UTC = 21:00 Europe/Berlin (raccolta serale, copre la giornata).
+# Polling FREQUENTE e indipendente dalla routine giornaliera.
+# Gira ogni 15 minuti: così una risposta data alle 19:00 finisce nell'inbox
+# entro le ~19:15, MOLTO prima che la routine del mattino dopo (8:40) la cerchi.
+# Questo elimina alla radice il disallineamento tra "quando rispondi" e
+# "quando la risposta è disponibile nell'inbox".
+#
+# NB: il cron di GitHub Actions NON è puntuale al minuto (può ritardare di
+# qualche minuto, specie su repo a bassa attività). Con intervallo di 15 min
+# il margine resta comunque ampio: anche un ritardo di 10-15 min è innocuo.
 on:
   schedule:
-    - cron: '30 4 * * *'
-    - cron: '0 19 * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:  # trigger manuale per debug
 
 jobs:
