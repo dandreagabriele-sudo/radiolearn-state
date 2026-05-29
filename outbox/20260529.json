@@ -1,0 +1,199 @@
+{
+  "pill_id": "20260529",
+  "created_at": "2026-05-29T06:48:45+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧲 RadioLearn — 29 maggio 2026*\n*Chemical shift imaging \\(in/opposed\\-phase\\) — adenoma surrenalico*\n_RM Addome · Livello 2 \\(intermedio\\-avanzato\\)_\n\n*Principio fisico*\n• Acqua e grasso precedono a frequenze lievemente diverse \\(chemical shift ≈ 3,5 ppm; ≈ 220 Hz a 1,5 T\\)\\. In un voxel che contiene entrambi i vettori di magnetizzazione si allineano e si oppongono ciclicamente\\.\n• In\\-phase \\(IP\\): TE ≈ 4,4 ms a 1,5 T \\(≈ 2,2 ms a 3 T\\) → segnali additivi\\.\n• Opposed\\-phase \\(OP\\): TE ≈ 2,2 ms a 1,5 T \\(≈ 1,15 ms a 3 T\\) → segnali sottrattivi: il voxel misto perde segnale\\.\n\n*Adenoma surrenalico*\n• \\~70% degli adenomi sono lipid\\-rich \\(lipidi intracitoplasmatici, substrato della steroidogenesi\\) → caduta di segnale in OP rispetto a IP \\= marcatore di benignità\\.\n• ASII \\= \\(SI\\_IP − SI\\_OP\\)/SI\\_IP × 100; soglia \\> 16,5% \\(spesso si usa ≥ 20%\\)\\.\n• Chemical\\-shift ratio con milza \\(ASR\\) < 0,71\\. Riferimento \\= milza perché priva di grasso \\(il fegato può essere steatosico e ingannare\\)\\.\n• Lipid\\-poor \\(\\~30%\\): non cade in OP → si passa alla CT con studio del washout\\.\n\n*DD — lesioni che NON cadono in OP*\nMetastasi, carcinoma corticosurrenalico, feocromocitoma\\. Il mielolipoma contiene grasso macroscopico → fat\\-sat \\(non chemical shift\\) e India\\-ink ai bordi\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔗 Connessioni multidisciplinari*\n\n• Fisica/acustica — battimenti: due vettori a frequenze diverse interferiscono come due diapason scordati che generano beats \\(rinforzo e cancellazione periodici\\)\\. Periodo ≈ 1/Δf ≈ 1/220 Hz ≈ 4,5 ms a 1,5 T: ecco perché IP/OP si alternano a multipli di \\~2,2 ms\\.\n• Micro vs macro: il chemical shift smaschera il grasso MICROSCOPICO intravoxel \\(intracellulare\\); l'India\\-ink artifact \\(orlo nero\\) marca invece le interfacce MACROSCOPICHE grasso\\-acqua\\. La fat\\-sat spettrale serve per il grasso macroscopico \\(mielolipoma, teratoma\\)\\.\n• Storia: Bloch & Purcell descrivono la NMR \\(Nobel 1952\\); il chemical shift è osservato da Proctor & Yu \\(1950\\); W\\. T\\. Dixon formalizza la separazione acqua\\-grasso \\(1984\\)\\.\n• Altre applicazioni addominali: steatosi epatica \\(fat fraction\\), angiomiolipoma renale lipid\\-poor, adenoma epatocellulare steatosico \\(sottotipo HNF1α\\), focal fatty sparing/infiltration\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🖼️ Immagini & fonti*\n\n• [Chemical shift — Radiopaedia](https://radiopaedia.org/articles/chemical-shift)\n• [In\\-phase & out\\-of\\-phase — Radiopaedia](https://radiopaedia.org/articles/in-phase-and-out-of-phase-sequences-1)\n• [Adrenal adenoma su chemical shift \\(caso\\) — Radiopaedia](https://radiopaedia.org/cases/adrenal-adenoma-chemical-shift-imaging-4)\n• [Lipid\\-rich adrenal adenoma \\(caso\\) — Radiopaedia](https://radiopaedia.org/cases/lipid-rich-adrenal-adenoma-1)\n• [In\\-/Opposed\\-phase, chest & abdomen — RadioGraphics 2019](https://pubs.rsna.org/doi/full/10.1148/rg.2019180043)\n• [Chemical shift: artifact & clinical tool — RadioGraphics](https://pubs.rsna.org/doi/full/10.1148/radiographics.19.2.g99mr07357)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧠 Quiz 1/4 · Fisica*\n\nA 1,5 T, l'echo time \"opposed\\-phase\" \\(vettori acqua\\-grasso in opposizione\\) è circa:\nA\\) 1,15 ms\nB\\) 2,2 ms\nC\\) 4,4 ms\nD\\) 10 ms\n\n||Risposta corretta: B — a 1,5 T il Δf acqua\\-grasso \\(\\~220 Hz\\) porta i vettori in opposizione a \\~2,2 ms \\(e in fase a \\~4,4 ms\\)\\. A 3 T i tempi si dimezzano \\(OP \\~1,15 ms \\= opzione A; IP \\~2,2 ms\\)\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260529|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260529|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260529|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260529|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260529|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260529|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧠 Quiz 2/4 · Surrene*\n\nMassa surrenalica di 2,5 cm: sulle sequenze chemical shift mostra netta caduta di segnale in opposed\\-phase rispetto alle in\\-phase\\. Il dato indica:\nA\\) Feocromocitoma\nB\\) Metastasi\nC\\) Adenoma lipid\\-rich\nD\\) Carcinoma corticosurrenalico\n\n||Risposta corretta: C — la caduta in OP riflette grasso microscopico intracitoplasmatico, tipico dell'adenoma lipid\\-rich \\(\\~70% degli adenomi\\)\\. Una caduta \\> 16,5% \\(ASII\\) o ASR milza < 0,71 è diagnostica di benignità\\. Le altre lesioni non contengono lipidi intracellulari e non cadono\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260529|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260529|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260529|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260529|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260529|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260529|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧠 Quiz 3/4 · Quantificazione*\n\nNel chemical\\-shift ratio rispetto a un organo di riferimento, perché si preferisce la milza al fegato?\nA\\) La milza ha sempre segnale più alto\nB\\) Il fegato può essere steatosico e falsare il rapporto\nC\\) La milza è più vicina al surrene\nD\\) Il fegato contiene ferro che annulla il segnale\n\n||Risposta corretta: B — la milza è priva di grasso, quindi un riferimento stabile\\. Il fegato può contenere steatosi \\(grasso microscopico\\) che riduce di per sé il segnale in OP, rendendo inaffidabile il denominatore dell'ASR\\. Soglia ASR < 0,71 per l'adenoma\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260529|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260529|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260529|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260529|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260529|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260529|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧠 Quiz 4/4 · Adenoma lipid\\-poor*\n\nAdenoma sospetto che NON perde segnale in opposed\\-phase \\(lipid\\-poor, \\~30%\\)\\. Qual è il passo più appropriato per confermarne la benignità?\nA\\) PET\\-FDG\nB\\) CT con studio del washout del contrasto\nC\\) Biopsia percutanea\nD\\) Solo follow\\-up a 12 mesi\n\n||Risposta corretta: B — l'adenoma lipid\\-poor non cade in OP ma conserva una cinetica vascolare benigna: alla CT mostra washout assoluto \\> 60% \\(o relativo \\> 40%\\) a 10–15 min\\. La biopsia \\(dopo aver escluso il feocromocitoma\\) si riserva ai casi indeterminati; la PET\\-FDG è per il sospetto maligno o la stadiazione\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260529|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260529|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260529|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260529|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260529|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260529|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🛠️ Rapporto operativo*\n• Callback processati: 0\n• Carte resettate \\(no\\-show\\): 32\n• Pillola 20260529: Chemical shift / adenoma surrenalico \\(RM Addome, Liv\\. 2\\)\n• Ripasso incluso: no \\(days\\_since\\=1; soglia \\>\\=3\\)\n• Inbox da cancellare: 0\n• Warning: nessuno",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
