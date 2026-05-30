@@ -88,38 +88,6 @@ def main() -> int:
     state = load_state()
     print(f"Starting from last_update_id = {state['last_update_id']}")
 
-    # --- DIAG (temporanea): snapshot bot identity + webhook + raw updates ---
-    # Scrive diag/poll-info.json a ogni run; il commit step del workflow la
-    # propaga nel repo. Da rimuovere quando il bug è risolto.
-    try:
-        diag = {
-            "ts": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-            "token_len": len(BOT_TOKEN),
-            "token_prefix": BOT_TOKEN[:6],
-            "last_update_id": state["last_update_id"],
-        }
-        try:
-            diag["getMe"] = call("getMe")
-        except Exception as e:
-            diag["getMe_err"] = repr(e)
-        try:
-            diag["getWebhookInfo"] = call("getWebhookInfo")
-        except Exception as e:
-            diag["getWebhookInfo_err"] = repr(e)
-        try:
-            # offset=0 NON conferma nulla, mostra tutti i pending
-            diag["getUpdates_raw"] = call("getUpdates", {"timeout": 0, "limit": 50})
-        except Exception as e:
-            diag["getUpdates_raw_err"] = repr(e)
-        os.makedirs("diag", exist_ok=True)
-        with open("diag/poll-info.json", "w", encoding="utf-8") as f:
-            json.dump(diag, f, ensure_ascii=False, indent=2)
-            f.write("\n")
-        print("DIAG: wrote diag/poll-info.json")
-    except Exception as e:
-        print(f"DIAG failed (non-fatal): {e!r}")
-    # --- END DIAG ---
-
     result = call("getUpdates", {
         "offset": state["last_update_id"] + 1,
         "timeout": 25,
