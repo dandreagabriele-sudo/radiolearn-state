@@ -1,0 +1,13 @@
+{
+  "pill_id": "00-diag",
+  "created_at": "2026-05-30T08:44:41Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "RadioLearn diag: bot reachability test (one-off)."
+      }
+    }
+  ]
+}
