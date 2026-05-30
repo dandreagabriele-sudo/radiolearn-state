@@ -1,57 +1,12 @@
 {
   "pill_id": "20260530",
-  "created_at": "2026-05-30T08:38:57Z",
+  "created_at": "2026-05-30T08:53:35Z",
   "messages": [
     {
       "method": "sendMessage",
       "params": {
         "chat_id": "8538175163",
-        "text": "🩺 *RadioLearn — Pillola 2026\\-05\\-30 \\(sab\\)*\n━━━━━━━━━━━━━━━━━━━━━━\n*Topic:* Ematoma Intramurale Aortico \\(IMH\\) — CTA, classificazione, evoluzione, DD\n*Dominio:* Torace / aorta vascolare — *Livello 1* \\(esperto, 15 a\\.\\)\n*Ripasso incluso:* no \\(days\\_since\\=2; soglia ≥3\\)\n━━━━━━━━━━━━━━━━━━━━━━\n\n*1\\. Inquadramento — la sindrome aortica acuta \\(SAA\\)*\n\nL'IMH è una delle tre entità che compongono la SAA insieme alla *dissezione classica* \\(con flap intimale, vero/falso lume\\) e all'*ulcera aterosclerotica penetrante* \\(PAU, ulcerazione focale oltre la lamina elastica interna\\)\\. Le tre entità sono un *continuum fisiopatologico*: si compenetrano e possono evolvere l'una nell'altra\\.\n\n*Epidemiologia:* IMH è il 10–30 % delle SAA; età media 60–70 a\\., ipertensione nella stragrande maggioranza, prevalenza maschile meno marcata che nella dissezione classica\\. Mortalità tipo A non operato fino al 30 % a 30 giorni\\.\n\n*Fisiopatologia \\(rivisitata 2020–24\\):*\n• Teoria classica: rottura *vasa vasorum* nella tonaca media → emorragia intramurale senza breccia intimale\\.\n• Teoria moderna \\(evidenze OCT/IVUS intra\\-operatorie\\): micro\\-tear intimale che si trombizza istantaneamente — \"*dissezione trombizzata*\"\\. Spiega meglio l'alta percentuale di ULP che compaiono al follow\\-up\\.\n",
-        "parse_mode": "MarkdownV2",
-        "disable_web_page_preview": true
-      }
-    },
-    {
-      "method": "sendMessage",
-      "params": {
-        "chat_id": "8538175163",
-        "text": "*2\\. Reperti CTA \\(protocollo obbligatorio: basale \\+ arteriosa, eventuale tardiva\\)*\n\n🔑 *Segno chiave \\(BASALE\\!\\):* iperattenuazione spontanea crescentica o concentrica della parete aortica \\(*50–70 HU* vs <50 HU della parete normale\\) — \"_high\\-attenuation crescent sign_\"\\. _Saltare la fase senza contrasto è la prima causa di mancata diagnosi\\._\n\n• Ispessimento parietale ≥ *5 mm* \\(criterio Erbel/ESC\\)\\.\n• *Nessun flap intimale*, nessun contrasto entro la parete \\(DD con dissezione classica con falso lume trombizzato\\)\\.\n• *Spostamento INTERNO delle calcificazioni intimali* \\(verso il lume\\) — segno *pressoché patognomonico*\\. Nell'ateroma le calcificazioni restano adese alla superficie luminale; in IMH la raccolta nella media le spinge verso l'interno\\.\n• *Window stretto* obbligatorio per evidenziare lesioni sottili \\(W 350 / L 50\\)\\.\n• Possibili *ULP — ulcer\\-like projections* \\(≥ 3×3 mm\\): micro\\-comunicazione fra lume ed ematoma — high\\-risk feature\\.\n\n*Trabocchetti \\(pitfalls\\):*\n• Trombo murale aterosclerotico: contorni irregolari, contenuto in un aneurisma, calcio esterno al trombo\\.\n• Aortite \\(Takayasu, GCA\\): ispessimento _circonferenziale_ liscio, *enhancement parietale* in fase attiva, paziente più giovane, indici flogistici alti\\.\n• Dissezione trombizzata: cercare comunque un flap residuo nelle sezioni assiali fini \\(0\\.6 mm\\) e nelle MPR\\.\n",
-        "parse_mode": "MarkdownV2",
-        "disable_web_page_preview": true
-      }
-    },
-    {
-      "method": "sendMessage",
-      "params": {
-        "chat_id": "8538175163",
-        "text": "*3\\. Classificazione \\(Stanford — identica alla dissezione\\)*\n\n• *Tipo A:* coinvolge l'aorta ascendente \\(prossimale al tronco brachiocefalico\\)\\. → *chirurgia urgente* \\(sostituzione aorta ascendente ± arco, eventuale Bentall\\)\\. Mortalità medica 30 %\\.\n• *Tipo B:* solo discendente \\(distale alla LSCA\\)\\. → terapia medica \\(beta\\-bloccanti, BP control\\); TEVAR se *complicato* \\(progressione, malperfusione, dolore persistente, rottura imminente\\)\\.\n\n*Evoluzione naturale \\(serial CTA\\):*\n• Regressione \\(30–40 %\\) — outcome favorevole\\.\n• Persistenza stabile\\.\n• Progressione a dissezione classica \\(10–30 %\\)\\.\n• Formazione di aneurisma \\(15–25 %\\)\\.\n• Rottura \\(5–10 %\\)\\.\n\n*High\\-risk features → follow\\-up stretto / intervento:*\n1\\. Diametro aortico ≥ *50 mm*\n2\\. Spessore parietale ≥ *11 mm*\n3\\. Localizzazione *tipo A*\n4\\. *ULP* presente o di nuova comparsa\n5\\. Versamento *pericardico* o pleurico\n6\\. Aumento dello spessore al follow\\-up\n7\\. \"*Broken crescent sign*\" — area focale ipodensa nell'IMH \\(siero/protein extravasation\\) → rottura imminente\n",
-        "parse_mode": "MarkdownV2",
-        "disable_web_page_preview": true
-      }
-    },
-    {
-      "method": "sendMessage",
-      "params": {
-        "chat_id": "8538175163",
-        "text": "*4\\. Connessione multidisciplinare — il \"double hull\"*\n\nDopo il disastro della *Exxon Valdez* \\(1989\\) e l'_Oil Pollution Act_ USA del 1990, le petroliere furono obbligate al *doppio scafo*: una falla nello scafo esterno non versa petrolio in mare perché il liquido resta confinato fra i due strati\\. L'IMH è la versione vascolare dello stesso principio — il sangue rompe l'intima ma resta confinato dall'avventizia\\.\n\n💡 *Ancoraggio mnemonico:* lo \"_spostamento interno delle calcificazioni intimali_\" diventa intuitivo se pensi al sedimento dentro/fuori lo scafo interno: trovi il calcio _spinto verso il lume_ \\(= sedimento spinto verso l'interno della petroliera\\) significa che la falla è *fra gli scafi* \\(media\\) — cioè IMH\\. Se il calcio resta esternamente adeso alla superficie luminale, la perdita è *fuori* dallo scafo interno — cioè trombo aterosclerotico nel lume\\.\n",
-        "parse_mode": "MarkdownV2",
-        "disable_web_page_preview": true
-      }
-    },
-    {
-      "method": "sendMessage",
-      "params": {
-        "chat_id": "8538175163",
-        "text": "*5\\. Immagini \\& fonti*\n\n• [IMH — articolo Radiopaedia](https://radiopaedia.org/articles/aortic-intramural-haematoma?lang=gb)\n• [High\\-attenuation crescent sign](https://radiopaedia.org/articles/high-attenuation-crescent-sign-2?lang=us)\n• [Caso IMH \\(Radiopaedia\\)](https://radiopaedia.org/cases/aortic-intramural-haematoma-2)\n• [Ulcer\\-like projection — review](https://radiopaedia.org/articles/ulcer-like-projection-aorta-1?lang=gb)\n• [IMH \\+ ULP con rottura — caso completo](https://radiopaedia.org/cases/abdominal-aortic-aneurysm-with-intramural-haematoma-and-ulcer-like-projection-then-rupture?lang=us)\n• [Patogenesi IMH — illustrazione](https://radiopaedia.org/cases/pathogenesis-of-aortic-intramural-haematoma-illustration)\n• [Patogenesi dissezione classica — illustrazione](https://radiopaedia.org/cases/pathogenesis-of-aortic-dissection-illustration)\n• [Patogenesi PAU — illustrazione](https://radiopaedia.org/cases/pathogenesis-of-penetrating-atherosclerotic-ulcer-illustration)\n• [Broken\\-crescent sign — Radiology \\(PMC\\)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7246232/)\n\n_Pronti per il quiz \\(4 domande, autovalutazione 0–5\\)\\._",
-        "parse_mode": "MarkdownV2",
-        "disable_web_page_preview": false
-      }
-    },
-    {
-      "method": "sendMessage",
-      "params": {
-        "chat_id": "8538175163",
-        "text": "*🧠 Q1/4 — segno discriminante IMH vs trombo murale*\n\nUomo 68 a\\., dolore toracico improvviso irradiato al dorso, ipertesi non controllato\\. CTA aorta toracica: ispessimento crescentico iperdenso \\(60 HU\\) della parete dell'aorta discendente sulle scansioni *senza contrasto*, con calcificazioni intimali *spostate verso il lume*\\. Quale dato esclude meglio un trombo aterosclerotico murale?\n\nA\\) Spessore parietale > 5 mm\nB\\) Iperdensità in fase non\\-contrasto\nC\\) *Spostamento delle calcificazioni intimali verso il lume*\nD\\) Assenza di flap intimale\n\n||✅ *Risposta: C* — nell'ateroma le calcificazioni intimali restano adese alla superficie luminale; in IMH la raccolta nella media spinge il guscio calcifico verso il lume\\. È il segno *più specifico* perché morfologico e indipendente dalla densità \\(B può vedersi anche in trombi recenti\\) e dalle dimensioni \\(A non è specifico\\)\\. D è vero ma comune anche ad aneurismi trombizzati\\.||\n\n_Autovaluta sotto \\(0–5\\)\\._",
+        "text": "*🧠 Q1/4 — segno discriminante IMH vs trombo murale*\n\nUomo 68 a\\., dolore toracico improvviso irradiato al dorso, ipertesi non controllato\\. CTA aorta toracica: ispessimento crescentico iperdenso \\(60 HU\\) della parete dell'aorta discendente sulle scansioni *senza contrasto*, con calcificazioni intimali *spostate verso il lume*\\. Quale dato esclude meglio un trombo aterosclerotico murale?\n\nA\\) Spessore parietale \\> 5 mm\nB\\) Iperdensità in fase non\\-contrasto\nC\\) *Spostamento delle calcificazioni intimali verso il lume*\nD\\) Assenza di flap intimale\n\n||✅ *Risposta: C* — nell'ateroma le calcificazioni intimali restano adese alla superficie luminale; in IMH la raccolta nella media spinge il guscio calcifico verso il lume\\. È il segno *più specifico* perché morfologico e indipendente dalla densità \\(B può vedersi anche in trombi recenti\\) e dalle dimensioni \\(A non è specifico\\)\\. D è vero ma comune anche ad aneurismi trombizzati\\.||\n\n_Autovaluta sotto \\(0–5\\)\\._",
         "parse_mode": "MarkdownV2",
         "disable_web_page_preview": true,
         "reply_markup": {
@@ -92,7 +47,7 @@
       "method": "sendMessage",
       "params": {
         "chat_id": "8538175163",
-        "text": "*🧠 Q2/4 — protocollo di acquisizione*\n\nQuale fase CT è *obbligatoria* per non perdere un IMH e perché?\n\nA\\) Solo arteriosa — l'IMH appare come difetto di riempimento\nB\\) Solo venosa tardiva — c'è impregnazione progressiva\nC\\) *Non\\-contrasto \\(basale\\)* — l'iperdensità spontanea crescentica \\(> 50 HU\\) è il segno diagnostico chiave\nD\\) MIP coronale arteriosa — evidenzia il flap intimale\n\n||✅ *Risposta: C* — il _crescent sign_ \\(50–70 HU spontanei\\) si dimostra solo sulla scansione SENZA contrasto\\. Nelle fasi contrastografiche la raccolta intramurale diventa ipodensa rispetto al lume opacizzato e indistinguibile da un semplice ispessimento parietale\\. Saltare la basale è la causa numero 1 di IMH mancato \\(false negative ≈ 25 % nei lavori di Chao et al\\.\\)\\. A/B/D descrivono protocolli inadeguati o segni di altre patologie\\.||\n\n_Autovaluta sotto \\(0–5\\)\\._",
+        "text": "*🧠 Q2/4 — protocollo di acquisizione*\n\nQuale fase CT è *obbligatoria* per non perdere un IMH e perché?\n\nA\\) Solo arteriosa — l'IMH appare come difetto di riempimento\nB\\) Solo venosa tardiva — c'è impregnazione progressiva\nC\\) *Non\\-contrasto \\(basale\\)* — l'iperdensità spontanea crescentica \\(\\> 50 HU\\) è il segno diagnostico chiave\nD\\) MIP coronale arteriosa — evidenzia il flap intimale\n\n||✅ *Risposta: C* — il _crescent sign_ \\(50–70 HU spontanei\\) si dimostra solo sulla scansione SENZA contrasto\\. Nelle fasi contrastografiche la raccolta intramurale diventa ipodensa rispetto al lume opacizzato e indistinguibile da un semplice ispessimento parietale\\. Saltare la basale è la causa numero 1 di IMH mancato \\(false negative ≈ 25 % nei lavori di Chao et al\\.\\)\\. A/B/D descrivono protocolli inadeguati o segni di altre patologie\\.||\n\n_Autovaluta sotto \\(0–5\\)\\._",
         "parse_mode": "MarkdownV2",
         "disable_web_page_preview": true,
         "reply_markup": {
