@@ -1,0 +1,39 @@
+{
+  "ts": "2026-05-30T13:36:38+00:00",
+  "token_len": 46,
+  "token_prefix": "802663",
+  "last_update_id": 868431646,
+  "getMe": {
+    "ok": true,
+    "result": {
+      "id": 8026635213,
+      "is_bot": true,
+      "first_name": "TutorRad",
+      "username": "RadioTutor_bot",
+      "can_join_groups": true,
+      "can_read_all_group_messages": true,
+      "supports_inline_queries": false,
+      "supports_guest_queries": false,
+      "can_connect_to_business": false,
+      "has_main_web_app": false,
+      "has_topics_enabled": false,
+      "allows_users_to_create_topics": false,
+      "can_manage_bots": false
+    }
+  },
+  "getWebhookInfo": {
+    "ok": true,
+    "result": {
+      "url": "",
+      "has_custom_certificate": false,
+      "pending_update_count": 0,
+      "allowed_updates": [
+        "callback_query"
+      ]
+    }
+  },
+  "getUpdates_raw": {
+    "ok": true,
+    "result": []
+  }
+}
