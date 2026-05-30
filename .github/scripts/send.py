@@ -65,8 +65,14 @@ SAFE_CHUNK_SIZE = 3900
 # Questa rete di sicurezza interviene IMMEDIATAMENTE prima dell'invio e applica
 # gli escape mancanti, ma SOLO per quei caratteri che in MarkdownV2 non hanno
 # mai un uso come marcatore di formattazione, e quindi un escape extra non
-# rompe mai nulla. I caratteri "ambigui" (* _ ~ ` | [ ] > che potrebbero essere
+# rompe mai nulla. I caratteri "ambigui" (* _ ~ ` | [ ] che potrebbero essere
 # formattazione intenzionale) sono lasciati alla cura della generatrice.
+#
+# Caso speciale `>`: in MarkdownV2 è marcatore di blockquote SOLO a inizio
+# riga; a metà riga (es. "spessore > 5 mm", "(> 50 HU)") è testo letterale e
+# DEVE essere escapato, altrimenti Telegram rifiuta il messaggio con HTTP 400.
+# La safety net quindi escapa i `>` mid-line ma lascia intatti quelli a inizio
+# riga (blockquote intenzionali).
 #
 # Contesti rispettati (NON viene applicato escape al loro interno):
 #   - Sequenze già escapate (\X resta \X — idempotenza garantita)
@@ -136,6 +142,18 @@ def _escape_safety_net(text: str):
         # Dentro URL: l'URL deve restare integro (punti dei domini etc.)
         if in_url:
             result.append(ch)
+            i += 1
+            continue
+
+        # `>` è blockquote solo a inizio riga; mid-line è testo letterale e
+        # va escapato (la generatrice scrive spesso "> 5 mm" senza escape).
+        if ch == ">":
+            at_line_start = (i == 0 or text[i - 1] == "\n")
+            if at_line_start:
+                result.append(ch)  # blockquote intenzionale: lascia intatto
+            else:
+                result.append("\\>")
+                fixes_by_char[">"] = fixes_by_char.get(">", 0) + 1
             i += 1
             continue
 
