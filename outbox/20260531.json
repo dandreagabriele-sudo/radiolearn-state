@@ -1,0 +1,321 @@
+{
+  "pill_id": "20260531",
+  "created_at": "2026-05-31T06:49:57.285754+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🧠 RadioLearn — Pillola del 2026\\-05\\-31 \\(Sun\\)\n\n*Topic:* Bosniak v2019 — classificazione delle masse cistiche renali\n*Livello:* 2 — RM Addome \\(intermedio\\-avanzato\\)\n*Ripasso incluso:* sì — 3 carte \\(sarcoidosi / galaxy sign — angoli nuovi\\)\n\n*📚 Concetto del giorno*\n\nBosniak v2019 \\(Silverman et al\\., Radiology 2019\\) stratifica il rischio di malignità delle masse cistiche renali in 5 categorie\\. Aggiornamento rispetto a v2005: estensione formale a MR, criteri oggettivi di enhancement \\(CT: Δ ROI ≥15 HU; MR: enhancement visibile su sottrazione\\), definizioni quantitative di setti, parete, nodulo\\. La κ inter\\-osservatore è migliorata da \\~0\\.45 a \\~0\\.65\\.\n\n*Categorie \\(sintesi operativa\\):*\n• I — cisti semplice: omogenea acqua \\(\\-9 / 20 HU CT; T2 iper / T1 ipo MR\\), parete sottile liscia \\(<2 mm\\), no enhancement\\. Rischio \\~0%\\. No FU\\.\n• II — minimamente complicata: ≤3 setti sottili \\(<2 mm\\) lisci, no nodulo; calcificazioni qualsiasi; OPPURE high\\-density omogenea NECT \\>70 HU, ≤3 cm, interamente intrarenale; OPPURE T1\\-iper omogenea ≤3 cm intrarenale su MR\\. Rischio \\~0%\\. No FU\\.\n• IIF — ≥4 setti sottili lisci con enhancement minimo; oppure parete/setti minimamente ispessiti o irregolari; oppure cisti omogenea high\\-density \\>3 cm o esofitica\\. Rischio \\~10%\\. Surveillance MR/CT: 6m → 12m → annuale per 5 anni\\.\n• III — parete o setti spessi \\(≥4 mm\\) con enhancement OPPURE irregolari con enhancement, SENZA nodulo\\. Rischio \\~50%\\. Nefrectomia parziale o AS\\.\n• IV — ≥1 nodulo enhancing: protrusione convessa focale che enhancer; qualsiasi dim\\. con margine acuto; ≥4 mm con margine ottuso\\. Rischio \\~90%\\. Chirurgia\\.\n\n*Definizioni operative:*\n— Enhancement \\(CT\\): Δ ROI ≥15 HU NECT → fase nefrografica, su tessuto non\\-grasso\\. Attenzione a pseudoenhancement per cisti 5–25 mm corticali \\(beam hardening\\)\\.\n— Enhancement \\(MR\\): visibile su sottrazione \\(post − pre\\); Δ SI percentuale senza sottrazione non basta \\(rischio falsi positivi da disomogeneità di campo\\)\\.\n— Setto sottile vs spesso: cutoff 2 mm\\. — Parete spessa: ≥4 mm enhancing\\.\n— Nodulo: protrusione convessa focale enhancing \\(margine acuto → qualunque dim\\.; margine ottuso → ≥4 mm\\)\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*⚠️ Trappole frequenti*\n\n• Cisti emorragica T1\\-iperintensa omogenea ≤3 cm intrarenale \\= II \\(no FU\\); \\>3 cm o esofitica → IIF anche se non\\-enhancing\\.\n• Calcificazioni di parete/setti \\(anche spesse\\) NON sono enhancement: non upgradano da sole la classe\\.\n• Pseudoenhancement CT su cisti corticali piccole 5–25 mm: se dubbio, ricontrolla con MR sottrazione\\.\n• Papillary RCC cistico può essere T2\\-ipo, con captazione tenue: la sottrazione è dirimente \\(un IV può sembrare un IIF su singola fase\\)\\.\n• DD: nefroma cistico multiloculare \\(CCA II/III\\), MEST renale, ascesso, MCDK acquisita post\\-dialisi \\(cistosi acquisita\\)\\.\n\n*🔗 Connessioni multidisciplinari*\n\n• Storia della medicina: Morton Bosniak \\(NYU 1986\\) propose la classificazione in epoca pre\\-MR addominale; v2019 \\(Silverman\\) integra finalmente la MR — 33 anni dopo\\.\n• Statistica / inter\\-rater: la mossa da criteri descrittivi a soglie oggettive \\(15 HU, 4 mm, 3 cm\\) richiama il salto DSM\\-III \\(1980\\) in psichiatria: ridurre la varianza fra osservatori standardizzando le soglie operative\\.\n• Risk theory / curva di malignità: 0 → 0 → \\~10% → \\~50% → \\~90% somiglia a una sigmoide; il salto critico è III→IV \\(presenza/assenza di nodulo\\)\\.\n• Letteratura/etimologia: Bosniak suona slavo \\(Bosnia\\) — l'autore era americano figlio di immigrati ebrei lituani; il nome si è cristallizzato in eponimo radiologico \\(come Köhler, Klatskin, Caroli\\)\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🖼️ Immagini e fonti*\n\n• [Radiology Assistant — Bosniak 2019 overview](https://radiologyassistant.nl/abdomen/kidney/bozniak-2019)\n• [Radiopaedia — Bosniak class IV \\(mural nodule, RCC\\)](https://radiopaedia.org/cases/renal-cystic-mass-bosniak-class-iv)\n• [Radiopaedia — atypical renal cyst on MRI](https://radiopaedia.org/cases/atypical-renal-cyst-on-mri)\n• [RadioGraphics — Bosniak v2019 pictorial guide](https://pubs.rsna.org/doi/full/10.1148/rg.2021200160)\n• [AJR — Bosniak v2019 con MRI \\(Tse et al\\.\\)](https://ajronline.org/doi/10.2214/AJR.19.22740)\n• [Radiology — proposta originale Silverman 2019](https://pubs.rsna.org/doi/full/10.1148/radiol.2019182646)\n\nVerificare sempre la matching imaging\\-criteri prima del referto\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso* — Galaxy sign — DD distribuzione perilinfatica\n\nIn HRCT torace, il \\*galaxy sign\\* della sarcoidosi mostra micronoduli con distribuzione perilinfatica \\(peribroncovascolare, subpleurica, settale\\)\\. Quale fra le seguenti patologie segue lo stesso schema distributivo e va distinta clinicamente?\n\nA\\) Polmonite organizzativa criptogenica \\(COP\\) — atoll sign\nB\\) Linfangite carcinomatosa — setti interlobulari nodulari beaded, asimmetrica\nC\\) Polmonite eosinofila cronica — ground\\-glass periferico\nD\\) Bronchiectasie cilindriche — signet ring sign\n\n||Risposta corretta: B — La linfangite carcinomatosa segue una distribuzione perilinfatica \\(setti interlobulari ispessiti nodulari/beaded, peribroncovascolare\\)\\. Indizi di DD vs sarcoidosi: ispessimento beaded asimmetrico, versamento pleurico, linfoadenopatia mediastinica bulky, anamnesi oncologica\\. Altri perilinfatici: silicosi, LIP, sarcoma di Kaposi, amiloidosi\\.||\n\nAutovaluta la tua risposta \\(0–5\\) coi bottoni qui sotto\\.",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso* — Galaxy sign — alone GG, istologia ed evoluzione\n\nIl halo di ground\\-glass perinodulare del galaxy sign sarcoideo riflette istopatologicamente quale substrato, e qual è la sua tipica evoluzione spontanea a 6 mesi \\(paziente Scadding II non trattato\\)?\n\nA\\) Microgranulomi non caseanti sub\\-risoluzione → possibile regressione spontanea\nB\\) Necrosi caseosa attiva → cavitazione progressiva\nC\\) Emorragia alveolare → versamento pleurico ematico\nD\\) Edema interstiziale cardiogeno → effusione bilaterale\n\n||Risposta corretta: A — Il halo è formato da microgranulomi non caseanti interstiziali, sotto la risoluzione HRCT \\(1\\.25 mm\\)\\. Nella sarcoidosi stadio I–II, la regressione spontanea avviene nel \\~60% dei casi \\(Scadding 1961\\); l'evoluzione fibrotica \\(stadio IV\\) con honeycombing è meno frequente\\. La cavitazione è atipica e deve far sospettare TB, vasculite o aspergillosi sovrapposta\\.||\n\nAutovaluta la tua risposta \\(0–5\\) coi bottoni qui sotto\\.",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso* — Galaxy sign — biomarker e BAL per DD sarcoidosi vs TB\n\nOltre alla stabilità imaging nel follow\\-up, quale combinazione laboratorio \\+ BAL supporta maggiormente la sarcoidosi rispetto a una TB con galaxy sign?\n\nA\\) PPD positivo \\+ QuantiFERON positivo \\+ tosse produttiva\nB\\) BAL linfocitario con CD4/CD8 \\>3\\.5 \\+ ACE sierico elevato \\+ ipercalcemia\nC\\) Procalcitonina elevata \\+ neutrofilia BAL \\+ emocoltura positiva\nD\\) Eosinofilia periferica \\+ IgE totali \\+ Aspergillus sIgE positivo\n\n||Risposta corretta: B — Il BAL con linfocitosi e rapporto CD4/CD8 \\>3\\.5 ha specificità \\~95% per sarcoidosi \\(sensibilità \\~55%\\)\\. ACE elevato \\(sintetizzato dalle cellule epitelioidi\\) e ipercalcemia \\(1,25\\-OH\\-D prodotto da macrofagi granulomatosi\\) sono adiuvanti\\. PPD/QuantiFERON positivi → TB attiva o latente; procalcitonina → batterico; eosinofilia \\+ Aspergillus sIgE → ABPA\\.||\n\nAutovaluta la tua risposta \\(0–5\\) coi bottoni qui sotto\\.",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q1 — Nuova* — Bosniak v2019 — alta densità omogenea\n\nMassa renale 2\\.8 cm scoperta incidentalmente su CT addome\\. NECT: omogenea 75 HU; post\\-contrasto: 78 HU \\(ROI prudente in fase nefrografica\\)\\. La lesione è interamente intrarenale, sferica, parete liscia, nessun setto, nessuna calcificazione\\. Classifica Bosniak v2019 e gestione\\.\n\nA\\) Bosniak I — cisti semplice, no follow\\-up\nB\\) Bosniak II — cisti high\\-density / proteinaceous, no follow\\-up\nC\\) Bosniak IIF — surveillance MR a 6/12 mesi poi annuale per 5 anni\nD\\) Bosniak III — nefrectomia parziale o active surveillance\n\n||Risposta corretta: B — Massa NECT omogenea \\>70 HU, ≤3 cm, interamente intrarenale \\= Bosniak II high\\-density \\(proteinaceous/emorragica\\)\\. Δ HU post\\-contrasto \\= 3 \\(<15 HU threshold\\) → no enhancement → benigna\\. Nessun follow\\-up richiesto in v2019\\. Se la lesione fosse stata \\>3 cm, esofitica o disomogenea sarebbe stata IIF\\.||\n\nAutovaluta la tua risposta \\(0–5\\) coi bottoni qui sotto\\.",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260531|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260531|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260531|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260531|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260531|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260531|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q2 — Nuova* — Bosniak v2019 — IIF su MR \\(multipli setti sottili enhancing\\)\n\nSu MR addome con sottrazione, massa cistica renale 3\\.5 cm con sei setti sottili \\(<2 mm ciascuno\\), levigati, con enhancement minimo dei setti su sottrazione\\. Nessun nodulo, parete sottile e liscia\\. Classifica Bosniak v2019 e gestione\\.\n\nA\\) Bosniak II — no follow\\-up necessario\nB\\) Bosniak IIF — surveillance MR a 6 e 12 mesi, poi annuale per 5 anni\nC\\) Bosniak III — nefrectomia parziale\nD\\) Bosniak IV — nefrectomia radicale\n\n||Risposta corretta: B — ≥4 setti sottili lisci con enhancement minimo definiscono IIF in v2019\\. Rischio di malignità \\~10% \\(più basso del 25% di v2005\\)\\. Gestione: imaging surveillance scaglionata \\(6m, 12m, poi annuale per 5 anni totali\\)\\. La maggioranza non progredisce; resezione solo se compaiono noduli enhancing o aumento volumetrico significativo\\.||\n\nAutovaluta la tua risposta \\(0–5\\) coi bottoni qui sotto\\.",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260531|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260531|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260531|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260531|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260531|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260531|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q3 — Nuova* — Bosniak v2019 — definizione di nodulo \\(III vs IV\\)\n\nIn Bosniak v2019, qual è il criterio che separa categoria III da categoria IV in una massa cistica renale con componenti murali enhancing?\n\nA\\) Dimensione massima della lesione \\(cutoff 4 cm\\)\nB\\) Presenza di un nodulo enhancing — protrusione convessa focale, qualsiasi dim\\. se margine acuto, ≥4 mm se margine ottuso\nC\\) Numero totale di setti \\(\\>4\\)\nD\\) Iperintensità T1 della componente fluida\n\n||Risposta corretta: B — La IV è definita dalla presenza di ≥1 nodulo enhancing: protrusione convessa focale enhancing\\. Margine acuto con parete/setto → qualsiasi dimensione conta; margine ottuso → ≥4 mm\\. La III ha parete/setti spessi \\(≥4 mm\\) o irregolari che enhanchano ma SENZA protrusione nodulare convessa\\. Implicazione clinica: III \\~50% malignità \\(chirurgia o AS\\); IV \\~90% malignità \\(chirurgia\\)\\.||\n\nAutovaluta la tua risposta \\(0–5\\) coi bottoni qui sotto\\.",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260531|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260531|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260531|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260531|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260531|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260531|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q4 — Nuova* — Bosniak v2019 — criterio oggettivo di enhancement su CT\n\nBosniak v2019 ha introdotto criteri quantitativi per definire l'enhancement\\. Quale soglia oggettiva su CT post\\-contrasto \\(vs NECT\\) qualifica un tessuto non\\-grasso come 'enhancing'?\n\nA\\) Qualsiasi incremento HU post\\-contrasto\nB\\) Incremento ROI ≥10 HU\nC\\) Incremento ROI ≥15 HU\nD\\) Incremento ROI ≥20 HU\n\n||Risposta corretta: C — Bosniak v2019 definisce enhancement su CT come incremento ROI ≥15 HU vs NECT, misurato preferibilmente in fase nefrografica\\. Soglie inferiori sono soggette a pseudoenhancement \\(cisti corticali piccole 5–25 mm circondate da parenchima iperdenso, beam hardening\\)\\. Su MR si usa enhancement visibile su immagini di sottrazione \\(post − pre\\) — più affidabile dell'incremento percentuale di SI\\.||\n\nAutovaluta la tua risposta \\(0–5\\) coi bottoni qui sotto\\.",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260531|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260531|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260531|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260531|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260531|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260531|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛰️ RadioLearn — rapporto operativo\n• pill_id: 20260531 (Sun 2026-05-31)\n• topic: Bosniak v2019 (cistiche renali) — Liv 2 RM Addome\n• callback processati: 4 (inbox 2026-05-30)\n• carte resettate (FASE 3): 29\n• ripasso incluso: sì — 20260514:0, 20260514:1, 20260514:2\n• ripasso skip (404 / spec missing): -\n• last_review_inclusion_date: 2026-05-31\n• inbox da cancellare: 1\n• Q totali: 7 (3 ripasso + 4 nuove)\n• warning: -",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
