@@ -1,0 +1,319 @@
+{
+  "pill_id": "20260603",
+  "created_at": "2026-06-03T06:46:46Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🩺 *RadioLearn — Pillola del giorno*\n📅 2026\\-06\\-03 \\(mercoledì\\)\n🎯 *Topic*: Late Gadolinium Enhancement \\(LGE\\) patterns on Cardiac MRI — ischemic vs non\\-ischemic cardiomyopathies \\(DD\\)\n🧭 *Dominio*: Torace / Cuore — imaging RM cardiaca — Livello 1 \\(esperto\\)\n\n━━━━━━━━━━━━━━━━━━━\n*Concetto del giorno*\n\nLa sequenza Late Gadolinium Enhancement \\(LGE\\) — IR\\-GRE T1\\-pesata segmentata acquisita 8–15 min dopo bolo di 0,1–0,2 mmol/kg di Gd\\-DTPA — sfrutta la cinetica del gadolinio nello spazio extracellulare miocardico: nei segmenti fibrotici o necrotici lo spazio interstiziale è espanso e la wash\\-out del tracciante è ritardata, producendo un T1 più breve \\(iperintenso\\)\\. Il TI di nulling del miocardio sano \\(≈ 250–320 ms a 1,5 T\\) è stimato con Look\\-Locker scout o sequenze PSIR \\(phase\\-sensitive inversion recovery\\), che annullano la dipendenza dal TI esatto\\.\n\nIl PATTERN del LGE è il discriminatore radiologico chiave fra eziologie ischemiche e non\\-ischemiche \\(Kim Circulation 1999; Mahrholdt EHJ 2005\\):\n\n• ISCHEMICO — LGE SUBENDOCARDICO \\(wavefront di Reimer\\-Jennings\\) o TRANSMURALE in territorio coronarico \\(LAD, Cx, RCA\\)\\. La trasmuralità \\>50% predice non\\-recupero della cinetica regionale post\\-rivascolarizzazione\\.\n\n• NON\\-ISCHEMICO — risparmia il subendocardio:\n  – Cardiomiopatia ipertrofica \\(HCM\\): LGE midwall ai junction points ventricolari \\(insertion points settali\\), spesso nei segmenti più ipertrofici\\.\n  – Amiloidosi cardiaca: LGE SUBENDOCARDICO CIRCONFERENZIALE diffuso \\+ DIFFICOLTÀ A NULL il miocardio \\(TI del pool ematico < TI miocardico \\= blood pool 'dark'\\); pattern transmurale globale nella ATTR\\.\n  – Sarcoidosi cardiaca: patchy MIDWALL/SUBEPICARDICO, predilige setto basale, parete libera VS, RV; spesso aneurismi settali basali\\.\n  – Miocardite \\(criteri di Lake Louise 2018\\): LGE SUBEPICARDICO inferolaterale non in territorio coronarico, con edema T2 e iperemia precoce\\.\n  – Malattia di Anderson\\-Fabry: LGE midwall INFEROLATERALE BASALE, tipicamente associato a ipertrofia concentrica e T1 nativo BASSO \\(deposito di sfingolipidi\\)\\.\n  – Cardiomiopatia dilatativa idiopatica: nel 30 % stripe midwall settale lineare; assenza di LGE è associata a prognosi migliore\\.\n  – Chagas cronico: LGE apicale \\(aneurisma\\) \\+ parete inferolaterale basale\\.\n\nPattern accessori: pericardite \\(LGE pericardico curvilineo\\), trombo apicale \\(non\\-enhancing su LGE long\\-TI 600 ms\\)\\. Limiti: pseudo\\-LGE in artefatti di ghosting respiratorio o di nulling errato; falsa positività in HCM con RV insertion fibrosis fisiologica \\(\\>10 % popolazione sana\\)\\. Le tecniche Dark\\-Blood LGE \\(Kellman 2017\\) e mapping T1/ECV \\(extracellular volume\\) complementano e quantificano la fibrosi diffusa che il LGE bright\\-blood manca\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔗 *Connessioni multidisciplinari*\n\n• Fisica: gadolinio \\= chelato extracellulare, T1 shortening proporzionale a 1/\\(1 \\+ r1·\\[Gd\\]\\); la cinetica wash\\-in/wash\\-out riflette il rapporto spazio interstiziale/intracellulare \\(ECV\\)\\.\n• Matematica: Look\\-Locker scout → fit esponenziale Mz\\(t\\) per stimare TI di nulling; PSIR ricostruisce il segno della magnetizzazione e rende il contrasto robusto al TI\\.\n• Storia della medicina: Reimer & Jennings \\(Circulation 1977\\) descrivono il wavefront di necrosi miocardica subendocardio → epicardio; Kim et al\\. \\(Circulation 1999\\) ne danno la traduzione in CMR LGE\\.\n• Letteratura: il 'dark blood pool' dell'amiloidosi richiama l'inversione cromatica delle stampe di M\\.C\\. Escher — ciò che dovrebbe essere chiaro è scuro, e viceversa\\.\n• Antropologia: ATTR Val122Ile è presente nel 3–4 % degli afroamericani; AL\\-amiloidosi è dramatica in pazienti con MM/MGUS, mentre la sarcoidosi cardiaca ha prevalenza 4× maggiore nei giapponesi vs caucasici\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🖼️ *Immagini e fonti*\n\n• [Late gadolinium enhancement — Radiopaedia article](https://radiopaedia.org/articles/late-gadolinium-enhancement-2?lang=us)\n• [LGE patterns diagram — Radiopaedia case](https://radiopaedia.org/cases/late-gadolinium-enhancement-patterns-diagram?lang=us)\n• [Cardiac amyloidosis \\(ATTR\\) — Radiopaedia case](https://radiopaedia.org/cases/cardiac-amyloidosis-5?lang=us)\n• [Cardiac sarcoidosis — Radiopaedia case](https://radiopaedia.org/cases/cardiac-sarcoidosis-1?lang=us)\n• [Myocarditis \\(subepicardial LGE inferolaterale\\) — Radiopaedia case](https://radiopaedia.org/cases/myocarditis-2?lang=gb)\n• [Dilated cardiomyopathy — Radiopaedia case](https://radiopaedia.org/cases/dilated-cardiomyopathy-8?lang=us)\n• [Light chain \\(AL\\) amyloidosis — Radiopaedia article](https://radiopaedia.org/articles/light-chain-amyloidosis?lang=gb)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔁 *Ripasso 1/3* — Ripasso 20260514:3\n_Carta originale_: `20260514` \\(2026\\-05\\-14\\)\n\nDomanda ripasso non disponibile\\.\n\nA\\) —\nB\\) —\nC\\) —\nD\\) —\n\n||Risposta corretta: A — Skip\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔁 *Ripasso 2/3* — Ripasso 20260515:0\n_Carta originale_: `20260515` \\(2026\\-05\\-15\\)\n\nDomanda ripasso non disponibile\\.\n\nA\\) —\nB\\) —\nC\\) —\nD\\) —\n\n||Risposta corretta: A — Skip\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260515|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260515|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔁 *Ripasso 3/3* — Ripasso 20260515:1\n_Carta originale_: `20260515` \\(2026\\-05\\-15\\)\n\nDomanda ripasso non disponibile\\.\n\nA\\) —\nB\\) —\nC\\) —\nD\\) —\n\n||Risposta corretta: A — Skip\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260515|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260515|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🆕 *Q 1/4* — Pattern LGE dell'amiloidosi cardiaca\n\nDonna 72 a, IC a frazione di eiezione preservata, voltaggi ridotti all'ECG, ipertrofia concentrica all'ecocardiogramma\\. Quale combinazione di reperti CMR è più suggestiva di amiloidosi cardiaca?\n\nA\\) LGE subendocardico circonferenziale diffuso \\+ difficoltà a ottenere null del miocardio \\(blood pool 'dark'\\) \\+ T1 nativo elevato \\+ ECV \\> 40%\nB\\) LGE midwall ai junction points ventricolari \\+ ipertrofia asimmetrica settale\nC\\) LGE transmurale in territorio LAD \\+ acinesia anteriore\nD\\) LGE pericardico curvilineo \\+ versamento concentrico\n\n||Risposta corretta: A — L'amiloidosi cardiaca infiltra l'interstizio in modo diffuso → LGE subendocardico globale \\+ ECV nettamente elevato; il pool ematico appare scuro perché la ritenzione miocardica espande il TI di nulling sopra quello del sangue\\. B \\= HCM\\. C \\= ischemico\\. D \\= pericardite costrittiva\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260603|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260603|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260603|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260603|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260603|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260603|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🆕 *Q 2/4* — DD HCM vs Anderson\\-Fabry sulla base di LGE \\+ mapping T1\n\nUomo 38 a, ipertrofia concentrica VS \\(max 17 mm\\), familiarità negativa per HCM\\. Il pattern CMR più suggestivo di Anderson\\-Fabry rispetto a HCM è:\n\nA\\) LGE midwall ai punti di inserzione ventricolari, T1 nativo normale\nB\\) LGE midwall INFEROLATERALE basale \\+ T1 nativo BASSO \\(< 940 ms a 1,5 T\\)\nC\\) LGE subendocardico apicale, T1 nativo elevato\nD\\) Assenza di LGE, ECV ridotto\n\n||Risposta corretta: B — Anderson\\-Fabry: deposito di globotriaosilceramide → T1 nativo SHORTENING \\(caratteristico\\); il LGE compare nei segmenti inferolaterali basali \\(regione di stress meccanico \\+ involvement preferenziale\\)\\. A \\= HCM classico\\. C \\= ischemico apicale\\. D \\= cuore normale\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260603|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260603|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260603|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260603|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260603|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260603|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🆕 *Q 3/4* — Sarcoidosi cardiaca — sede prevalente di LGE\n\nQuale localizzazione di LGE è più caratteristica di sarcoidosi cardiaca attiva \\(in associazione a eventuale edema T2 e captazione FDG\\-PET\\)?\n\nA\\) Subendocardico diffuso circonferenziale\nB\\) Patchy midwall/subepicardico del setto basale e parete libera VS, con coinvolgimento RV nel 25–35% dei casi\nC\\) Subendocardico nei tre territori coronarici principali\nD\\) Lineare midwall settale isolata in DCM idiopatica\n\n||Risposta corretta: B — I granulomi non caseanti della sarcoidosi prediligono setto basale \\(\\>50% dei casi\\), parete libera VS e RV \\(insertion points\\); pattern midwall/subepicardico patchy\\. Spesso aneurismi settali basali\\. A \\= amiloidosi\\. C \\= malattia coronarica multivasale\\. D \\= DCM idiopatica\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260603|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260603|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260603|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260603|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260603|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260603|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🆕 *Q 4/4* — Ottimizzazione tecnica — TI di nulling e PSIR\n\nDurante l'acquisizione LGE a 1,5 T il radiologo nota che il miocardio sano appare iperintenso quasi quanto il segnale patologico, riducendo il contrasto\\. Quale azione è più appropriata?\n\nA\\) Anticipare il timing del LGE a 2 min dopo l'iniezione\nB\\) Aumentare la dose di gadolinio a 0,4 mmol/kg\nC\\) Rifare lo scout Look\\-Locker e aggiornare il TI \\(o passare a sequenza PSIR insensibile al TI esatto\\)\nD\\) Sostituire il gadolinio con mezzo di contrasto epatospecifico \\(Gd\\-EOB\\-DTPA\\)\n\n||Risposta corretta: C — Il problema è un TI non più nullante per il miocardio sano \\(cambia con il tempo dall'iniezione\\)\\. Soluzione: ri\\-stimare il TI con Look\\-Locker o usare PSIR che ricostruisce il segno della magnetizzazione ed è robusta a TI sub\\-ottimali\\. A \\= troppo precoce \\(washout incompleto\\)\\. B \\= pericoloso e off\\-label\\. D \\= epatospecifico non adatto al miocardio\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260603|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260603|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260603|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260603|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260603|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260603|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "📋 *Rapporto operativo*\n\n• Pill: `20260603` — Late Gadolinium Enhancement \\(LGE\\) patterns on Cardiac MRI — ischemic vs non\\-ischemic cardiomyopathies \\(DD\\)\n• Callback processati: 0\n• Carte resettate \\(forgotten\\): 27\n• Ripasso incluso: sì — `20260514:3`, `20260515:0`, `20260515:1`\n• Inbox file rimossi: 0\n• Quiz totali: 3 ripassi \\+ 4 nuove\n• Warning: nessuno",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
