@@ -46,6 +46,14 @@ GitHub + SM-2 API documented at the top of the file:
 - `quiz_keyboard(pill_id, qidx)` — 0–5 inline self-assessment keyboard.
 - `gh_put_retry(path, content, msg, sha)` — `gh_put` with one retry on
   `409`/`422` (refetch sha) and `5xx` (sleep 3 s).
+- `pill_qa_path(pill_date)` → `"pills_log/<date>.qa.json"`.
+- `gh_get_pill_qa(pill_date)` → `(qa_dict | None, sha | None)`.
+- `gh_get_pill_question(pill_date, qidx)` → `dict | None` (single Q&A).
+- `gh_put_pill_qa(pill_date, qa_obj, msg)` → new sha.
+- `assert_no_placeholders(envelope, sentinels=...)` → raises `ValueError`
+  if the envelope contains a known placeholder sentinel
+  (`"domanda ripasso non disponibile"`, `"placeholder"`, `"todo"`, …) or
+  ≥ 3 empty option lines (`A) — / B) — / …`).
 
 Prefer these helpers over reinventing them in the daily script. Smaller
 scripts are less likely to be left half-executed.
@@ -95,10 +103,81 @@ Questa sezione **sostituisce** la regola della chat spec ("cadenza minima
   pillola originale è assente (404). Evita di ri-tentare ogni giorno.
 - **Pillola totale**: 6–8 Q (3 ripassi + 3–4 nuove) nei giorni di
   ripasso; 3–4 Q nuove nei giorni senza ripasso.
-- **Composizione contenuti**: per ogni carta di ripasso pesca il
-  `pills_log/<orig_date>.md` originale e genera una Q&A nuova che
-  indaghi lo stesso concetto da angolazione diversa (scenario clinico,
-  fisiopatologia, DD, eccetera).
+- **Composizione contenuti**: vedi la sezione successiva.
+
+## Ripassi composti dinamicamente (post-bug 2026-06-03)
+
+Il 2026-06-03 i 3 ripassi sono arrivati su Telegram come "Domanda ripasso
+non disponibile" perché il daily script aveva un `if/elif` con i `card_id`
+hard-coded basati su una predizione fatta prima di eseguire FASE 3. La
+FASE 3 ha resettato quei `card_id` (li ha spostati a `next_review` di
+domani) e a FASE 6a `select_review_candidates` ha restituito tre `card_id`
+diversi — il ramo `else` del template ha emesso il placeholder.
+
+**Ordine reale che il composer deve onorare**:
+
+1. FASE 2 letta inbox → popola `answered_today`.
+2. FASE 3 resetta le carte due-and-unanswered (muta `next_review`).
+3. **Solo dopo** `select_review_candidates(state, k=3)` riflette lo stato
+   reale post-reset.
+
+**Regole obbligatorie per FASE 6a in tutti i futuri daily script**:
+
+1. **Mai** hard-codare i contenuti di ripasso per `card_id` specifici. I
+   `card_id` selezionati non sono predicibili prima di eseguire FASE 2-3.
+2. Per ciascun `cid` restituito da `select_review_candidates`:
+   - `orig_pill_id, qidx_str = cid.split(":")`;
+   - `orig_date = f"{orig_pill_id[:4]}-{orig_pill_id[4:6]}-{orig_pill_id[6:8]}"`;
+   - `orig_q = gh_get_pill_question(orig_date, int(qidx_str))`;
+   - se `orig_q is None` (sidecar `.qa.json` assente per pillole legacy):
+     scarica `pills_log/<date>.md` raw via `gh_get` ed estrai la Q al
+     `qidx` indicato. Se non riesci: **scarta** quel `cid` dal bundle,
+     aggiungi un warning, e prosegui con i candidati rimanenti — **non**
+     emettere placeholder;
+   - sintetizza in linea una NUOVA Q&A che indaga lo stesso concetto da
+     angolazione diversa, riusando `orig_pill_id` e `qidx` nel
+     `callback_data` (lo SM-2 update atterra sulla carta originale).
+3. **Prima di scrivere l'outbox in FASE 9**, chiama
+   `assert_no_placeholders(envelope)`. Se solleva `ValueError`:
+   - **non** scrivere l'outbox;
+   - **non** aggiornare `last_review_inclusion_date`;
+   - re-componi i ripassi mancanti o omettili interamente, e riprova.
+
+## Sidecar `pills_log/<date>.qa.json` — obbligatorio in FASE 8 (post-2026-06-03)
+
+Per rendere ai futuri daily script banale ricomporre i ripassi, ogni
+FASE 8 deve scrivere — oltre al `pills_log/<date>.md` archivistico — un
+sidecar JSON strutturato con le **nuove** Q&A del giorno (i ripassi NON
+vanno nel sidecar: il sidecar è la "fonte di verità" per quando *queste*
+carte saranno ripassate in futuro). Schema:
+
+```json
+{
+  "pill_id":  "20260603",
+  "date":     "2026-06-03",
+  "topic":    "Late Gadolinium Enhancement (LGE) ...",
+  "domain":   "Torace / Cuore — RM cardiaca — Livello 1 (esperto)",
+  "questions": [
+    {
+      "card_id":   "20260603:0",
+      "qidx":      0,
+      "title":     "Pattern LGE dell'amiloidosi cardiaca",
+      "body":      "Donna 72 a, IC a frazione di eiezione preservata, ...",
+      "opts":      {"A": "...", "B": "...", "C": "...", "D": "..."},
+      "answer":    "A",
+      "rationale": "L'amiloidosi cardiaca infiltra ..."
+    }
+  ]
+}
+```
+
+Usa `gh_put_pill_qa(date, qa_obj, msg)`. L'ordine completo di FASE 9
+diventa: `sm2_state.json` → `pills_log/<date>.md` →
+`pills_log/<date>.qa.json` → `outbox/<pill_id>.json`. Il sidecar viene
+PRIMA dell'outbox per consistenza con la regola "state-before-outbox" —
+anche se nessuna routine attuale legge il sidecar appena scritto, mantenere
+l'invariante "tutto persistito prima dell'envelope" semplifica la
+riconciliazione manuale post-mortem.
 
 ## Secrets
 

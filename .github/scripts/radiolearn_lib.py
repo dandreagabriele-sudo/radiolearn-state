@@ -30,9 +30,18 @@ Public API:
 
   Robust PUT:
     gh_put_retry(path, content, msg, sha=None) -> new_sha
+
+  Pill Q&A sidecar (anti-placeholder safety net, see CLAUDE.md FASE 6a/8):
+    pill_qa_path(pill_date)                   -> "pills_log/<date>.qa.json"
+    gh_get_pill_qa(pill_date)                 -> (dict|None, sha|None)
+    gh_get_pill_question(pill_date, qidx)     -> dict | None
+    gh_put_pill_qa(pill_date, qa_obj, msg)    -> new_sha
+    assert_no_placeholders(envelope, sentinels=DEFAULT_PLACEHOLDER_SENTINELS)
 """
 
 import base64
+import json
+import re
 import requests
 from datetime import date, timedelta
 from typing import Optional
@@ -265,3 +274,141 @@ def gh_put_retry(path: str, content_str: str, msg: str,
                 _time.sleep(3)
                 continue
             raise
+
+
+# ────────────────────────────────────────────────────────────────────
+# Pill Q&A sidecar — structured Q&A persisted alongside pills_log/*.md
+#
+# Background: FASE 6a (ripasso bundle) used to hard-code review question
+# templates by card_id inside the daily script, with an `else` branch that
+# emitted a "Domanda ripasso non disponibile" placeholder. When FASE 3 reset
+# the predicted candidates, the live `select_review_candidates` returned
+# different card_ids and the placeholder branch fired (bug surfaced 2026-06-03).
+#
+# The structural fix is to make every pill's Q&A retrievable as machine-readable
+# JSON so future ripassi can compose questions DYNAMICALLY from the original
+# pill, plus a validator that refuses to ship an envelope containing known
+# placeholder sentinels.
+# ────────────────────────────────────────────────────────────────────
+
+# Expected shape of a Q&A object (one entry per question):
+#   {
+#       "card_id":   "20260603:0",
+#       "qidx":      0,
+#       "title":     "Pattern LGE dell'amiloidosi cardiaca",
+#       "body":      "Donna 72 a, IC a frazione di eiezione preservata, ...",
+#       "opts":      {"A": "...", "B": "...", "C": "...", "D": "..."},
+#       "answer":    "A",
+#       "rationale": "L'amiloidosi cardiaca infiltra ..."
+#   }
+#
+# Expected shape of the sidecar object (one file per pill):
+#   {
+#       "pill_id":  "20260603",
+#       "date":     "2026-06-03",
+#       "topic":    "Late Gadolinium Enhancement (LGE) ...",
+#       "domain":   "Torace / Cuore — RM cardiaca — Livello 1 (esperto)",
+#       "questions": [ <qa_obj>, ... ]  # only the NEW questions; not the ripassi
+#   }
+
+
+def pill_qa_path(pill_date: str) -> str:
+    """Path of the structured Q&A sidecar for `pills_log/<pill_date>.md`."""
+    return f"pills_log/{pill_date}.qa.json"
+
+
+def gh_get_pill_qa(pill_date: str):
+    """Fetch the structured Q&A sidecar for a pill.
+
+    Returns (qa_dict, sha). (None, None) if the sidecar is absent (legacy pill).
+    The caller is responsible for the fallback path (raw .md parsing, or
+    aborting the review for that card with a warning — never silently shipping
+    a placeholder).
+    """
+    content, sha = gh_get(pill_qa_path(pill_date))
+    if content is None:
+        return None, None
+    try:
+        return json.loads(content), sha
+    except json.JSONDecodeError:
+        return None, sha
+
+
+def gh_get_pill_question(pill_date: str, qidx: int):
+    """Return the single Q&A dict for `pill_date` and `qidx`, or None.
+
+    None means: sidecar missing, malformed, or qidx out of range. Caller MUST
+    NOT substitute a placeholder — instead, log a warning and skip the card
+    from the bundle (then select_review_candidates can pick the next stalest).
+    """
+    qa, _ = gh_get_pill_qa(pill_date)
+    if qa is None:
+        return None
+    questions = qa.get("questions") or []
+    for q in questions:
+        if int(q.get("qidx", -1)) == int(qidx):
+            return q
+    return None
+
+
+def gh_put_pill_qa(pill_date: str, qa_obj: dict, msg: str) -> str:
+    """Create or overwrite the sidecar (refreshing sha via gh_put_retry)."""
+    path = pill_qa_path(pill_date)
+    _, sha = gh_get(path)
+    return gh_put_retry(path, json.dumps(qa_obj, indent=2, ensure_ascii=False),
+                        msg, sha)
+
+
+# Default sentinels that indicate a placeholder slipped past the composer.
+# Keep them lowercase; the validator does a case-insensitive substring search.
+DEFAULT_PLACEHOLDER_SENTINELS = (
+    "domanda ripasso non disponibile",
+    "domanda non disponibile",
+    "placeholder",
+    "todo",
+    "lorem ipsum",
+)
+
+
+def _walk_strings(obj):
+    """Yield every string contained in `obj` (dict/list/str/anything else)."""
+    if isinstance(obj, str):
+        yield obj
+    elif isinstance(obj, dict):
+        for v in obj.values():
+            yield from _walk_strings(v)
+    elif isinstance(obj, list):
+        for v in obj:
+            yield from _walk_strings(v)
+
+
+def assert_no_placeholders(envelope: dict,
+                           sentinels=DEFAULT_PLACEHOLDER_SENTINELS,
+                           empty_option_marker: str = "—") -> None:
+    """Raise ValueError if `envelope` contains any placeholder sentinel.
+
+    Also catches the canonical "A) — / B) — / ..." pattern (empty option text
+    used by the 2026-06-03 placeholder). Run this BEFORE persisting the
+    outbox envelope in FASE 9; it is cheaper to abort and re-compose than to
+    ship placeholder Q&As to Telegram and try to recall them after the fact.
+    """
+    sentinels_lc = tuple(s.lower() for s in sentinels)
+    for s in _walk_strings(envelope):
+        s_lc = s.lower()
+        for sent in sentinels_lc:
+            if sent in s_lc:
+                raise ValueError(
+                    f"assert_no_placeholders: found sentinel '{sent}' in "
+                    f"envelope message text: {s[:200]!r}"
+                )
+        # Detect "A) — / B) — / C) — / D) —" style (≥ 3 empty options)
+        pattern = re.compile(
+            r"(?m)^\s*[A-D]\\?\)\s*" + re.escape(empty_option_marker) + r"\s*$"
+        )
+        matches = pattern.findall(s)
+        if len(matches) >= 3:
+            raise ValueError(
+                "assert_no_placeholders: found ≥3 empty option lines "
+                f"('A) {empty_option_marker}' style) in message text — "
+                "likely a fallback placeholder."
+            )
