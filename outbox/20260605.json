@@ -1,0 +1,193 @@
+{
+  "pill_id": "20260605",
+  "created_at": "2026-06-05T06:44:58.154677+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔬 RadioLearn — Pillola 2026\\-06\\-05*\n_LI\\-RADS v2018 — diagnosi non invasiva di HCC su TC/RM multifasica_\nDominio: RM Addome / epatologia oncologica — Livello 2 \\(avanzato\\)\n\n*Quando si applica*\nLI\\-RADS vale SOLO per pazienti ad alto rischio di HCC: cirrosi \\(qualsiasi eziologia\\), epatite cronica B anche senza cirrosi, HCC pregresso/attuale\\. Esclusi: <18 anni, cirrosi da cause vascolari \\(Budd\\-Chiari\\) o fibrosi epatica congenita\\. In questa popolazione una LR\\-5 è diagnostica di HCC senza biopsia\\.\n\n*Le 5 major features*\n1\\) APHE non\\-rim \\(iperenhancement arterioso, non periferico\\); 2\\) washout non periferico \\(fase portale/tardiva\\); 3\\) capsula in enhancement; 4\\) dimensione; 5\\) threshold growth \\= aumento ≥50% del diametro in ≤6 mesi \\(criterio unico, semplificato in v2018\\)\\.\n\n*LR\\-5 \\(HCC certo\\)*\nAPHE non\\-rim \\+ dimensione ≥10 mm \\+ : se 10\\-19 mm → washout non periferico OPPURE threshold growth \\(la capsula da sola dà LR\\-4\\); se ≥20 mm → almeno 1 feature addizionale qualsiasi\\.\n\n*Categorie speciali*\nLR\\-M: aspetto targetoide \\(rim APHE, washout periferico, enhancement centrale tardivo\\) → malignità non\\-HCC\\-specifica \\(colangiocarcinoma intraepatico, cHCC\\-CC, metastasi\\)\\. LR\\-TIV: trombo tumorale in vena \\(enhancement del trombo\\)\\. Ancillary features possono spostare di 1 categoria ma MAI portare a LR\\-5\\.\n\n*🧠 Ancora mnemonica — farmacologia*\nCon i mezzi epatospecifici \\(gadoxetato/Gd\\-EOB\\-DTPA\\) \\~50% della dose è captata dagli epatociti via trasportatore OATP1B3 ed escreta via MRP2 nei canalicoli\\. L'HCC tipico perde OATP1B3 → ipointenso in fase epatobiliare \\(\\~20 min\\)\\. Proprio per questa captazione parenchimale, il washout col gadoxetato va letto SOLO in fase portale: in transitoria/epatobiliare si genera uno pseudo\\-washout\\. Memo: OATP \\= la porta dell'epatocita; se il tumore chiude la porta, resta scuro in HBP\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🖼️ Immagini & fonti verificate*\n• [Caso HCC LR\\-5 \\(TC multifasica\\) — Radiopaedia](https://radiopaedia.org/cases/hepatocellular-carcinoma-68)\n• [Articolo CT/MRI LI\\-RADS — Radiopaedia](https://radiopaedia.org/articles/ctmri-li-rads)\n• [Mezzi di contrasto epatospecifici e LI\\-RADS — Radiopaedia](https://radiopaedia.org/articles/hepatobiliary-contrast-agents-and-li-rads)\n• [How to Use LI\\-RADS \\(RadioGraphics 2021\\)](https://pubs.rsna.org/doi/abs/10.1148/rg.2021200205)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*❓ Domanda 1/4*\n\nPaziente cirrotico\\. Osservazione di 15 mm: APHE non\\-rim \\+ capsula in enhancement; NESSUN washout non periferico, NESSUN threshold growth\\. Categoria LI\\-RADS v2018?\n\nA\\) LR\\-3\nB\\) LR\\-4\nC\\) LR\\-5\nD\\) LR\\-M\n\n||Risposta corretta: B \\(LR\\-4\\) — a 10\\-19 mm con APHE, la capsula da sola NON basta per LR\\-5: serve washout non periferico o threshold growth\\. Con questi reperti l'osservazione è LR\\-4 \\(probabile HCC\\)\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260605|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260605|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260605|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260605|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260605|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260605|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*❓ Domanda 2/4*\n\nCome è definito il threshold growth in LI\\-RADS v2018?\n\nA\\) ≥100% aumento del diametro in ≤12 mesi\nB\\) ≥50% aumento del diametro in ≤6 mesi\nC\\) Comparsa di un nuovo nodulo ≥10 mm rispetto all'esame precedente\nD\\) Qualsiasi aumento entro 24 mesi\n\n||Risposta corretta: B — in v2018 il threshold growth è un criterio UNICO: aumento ≥50% del diametro in ≤6 mesi\\. L'opzione C \\(nuovo nodulo ≥10 mm\\) era un criterio v2017, rimosso per semplificare\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260605|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260605|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260605|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260605|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260605|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260605|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*❓ Domanda 3/4*\n\nQuale reperto orienta verso LR\\-M \\(malignità non\\-HCC\\) anziché LR\\-5?\n\nA\\) APHE non\\-rim omogenea\nB\\) Capsula in enhancement\nC\\) Rim APHE con washout periferico ed enhancement centrale tardivo \\(aspetto targetoide\\)\nD\\) Lieve iperintensità in T2\n\n||Risposta corretta: C — l'aspetto targetoide \\(rim APHE, washout periferico, enhancement centrale progressivo, target in diffusione\\) suggerisce malignità non\\-HCC\\-specifica: colangiocarcinoma intraepatico, cHCC\\-CC o metastasi → LR\\-M\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260605|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260605|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260605|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260605|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260605|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260605|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*❓ Domanda 4/4*\n\nCon gadoxetato \\(Gd\\-EOB\\-DTPA\\), in quale fase va valutato il washout per evitare falsi positivi?\n\nA\\) Fase epatobiliare \\(\\~20 min\\)\nB\\) Fase transitoria \\(\\~3 min\\)\nC\\) Solo fase portale\nD\\) Fase arteriosa\n\n||Risposta corretta: C — con gli epatospecifici il washout LI\\-RADS si legge SOLO in fase portale\\. In transitoria/epatobiliare la captazione parenchimale via OATP1B3 rende il fegato iperintenso e genera uno pseudo\\-washout \\(falso positivo\\)\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260605|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260605|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260605|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260605|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260605|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260605|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🛠️ Rapporto operativo*\npill\\_id: 20260605 — Topic: LI\\-RADS v2018 \\(RM Addome, Livello 2\\)\nCallback processati: 0 \\(inbox files: 0\\)\nCarte resettate \\(no\\-show\\): 31\nRipasso incluso: no \\(days\\_since\\_last\\_review\\=2; soglia ≥3\\)\nInbox cancellati: 0 — Warning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
