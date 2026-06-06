@@ -1,0 +1,329 @@
+{
+  "pill_id": "20260606",
+  "created_at": "2026-06-06T06:50:15.539722+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*RadioLearn — Ispessimento parietale tracheobronchiale \\(DD membrana posteriore\\)*\n\nConcetto del giorno \\(Livello 1 — Torace, esperto\\)\\.\n\nDavanti a un ispessimento diffuso della parete tracheobronchiale alla TC, il discriminatore piu potente e immediato e il comportamento della MEMBRANA POSTERIORE \\(pars membranacea\\), priva di cartilagine\\.\n\n1\\) RISPARMIO della membrana posteriore \\-\\> malattie a partenza cartilaginea:\n\\- Policondrite recidivante \\(RP\\): ispessimento liscio e aumento di densita delle cartilagini antero\\-laterali, risparmio della pars membranacea \\(quasi patognomonico se presente\\); componente dinamica di tracheo\\-broncomalacia \\(collasso espiratorio\\)\\.\n\\- Tracheobroncopatia osteocondroplastica \\(TPO\\): noduli sottomucosi osteo\\-cartilaginei \\(3\\-8 mm\\) endoluminali sulle pareti antero\\-laterali, spesso calcifici \\(ciottolato / stalattiti\\), con tipico risparmio della parete posteriore\\.\n\n2\\) COINVOLGIMENTO circonferenziale \\(inclusa la membrana posteriore\\) \\-\\> malattie infiltrative/infiammatorie:\n\\- Amiloidosi tracheobronchiale: ispessimento nodulare circonferenziale CON calcificazioni submucose; coinvolge la pars membranacea \\- chiave per distinguerla dalla TPO\\.\n\\- Granulomatosi con poliangite \\(GPA\\): predilezione subglottica, stenosi circonferenziale liscia, possibili ulcerazioni mucose; spesso c\\-ANCA/PR3\\+; non calcifica\\.\n\\- Altre: papillomatosi, IgG4, post\\-intubazione, infezioni \\(TB, rinoscleroma\\)\\.\n\nMimica morfologica da non confondere: la trachea a sciabola \\(saber\\-sheath\\) della BPCO e un rimodellamento \\(restringimento coronale con diametro sagittale conservato/aumentato, rapporto <\\=2/3, limitato al tratto INTRAtoracico\\) a parete normale, senza infiltrazione\\.\n\nAlgoritmo operativo: \\(a\\) membrana posteriore risparmiata? \\-\\> RP/TPO; \\(b\\) coinvolta? \\-\\> amiloidosi/GPA/altre; \\(c\\) calcificazioni nodulari? \\-\\> TPO \\(risparmia\\) vs amiloidosi \\(coinvolge\\); \\(d\\) collasso espiratorio dinamico? \\-\\> componente malacica \\(RP\\) \\- usa TC dinamica espiratoria/cine\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Connessioni multidisciplinari*\n\n\\- Immunologia \\(RP\\): autoimmunita contro il collagene di tipo II e la matrilina\\-1 della cartilagine; clinicamente condrite auricolare che risparmia il LOBULO \\(privo di cartilagine\\), naso a sella, e la sindrome MAGIC \\(Mouth And Genital ulcers with Inflamed Cartilage\\)\\.\n\\- Fisica/ottica \\(amiloidosi\\): le fibrille amiloidi sono ricche di foglietti beta\\-pieghettati; dopo colorazione Rosso Congo mostrano birifrangenza verde\\-mela in luce polarizzata \\- effetto che nasce dall'allineamento ordinato delle molecole di colorante lungo l'asse fibrillare \\(anisotropia ottica\\)\\.\n\\- Istologia/embriologia \\(TPO\\): i noduli derivano da metaplasia osteo\\-cartilaginea della sottomucosa per ossificazione encondrale \\(ecchondrosi/enchondrosi\\), gli stessi processi dell'accrescimento osseo \\- da cui osteo\\-condro\\-plastica\\.\n\\- Etimologia: tracheia arteria \\= arteria ruvida \\(Galeno\\), l'aggettivo descriveva proprio gli anelli cartilaginei palpabili; saber\\-sheath richiama il fodero ricurvo della sciabola di cavalleria\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Immagini & fonti*\n\n• [DD ispessimento parietale tracheale \\- Radiopaedia \\(articolo\\)](https://radiopaedia.org/articles/tracheal-wall-thickening)\n• [Restringimento tracheale diffuso \\- Radiopaedia \\(articolo\\)](https://radiopaedia.org/articles/diffuse-tracheal-narrowing)\n• [Tracheobroncopatia osteocondroplastica \\- Radiopaedia \\(caso\\)](https://radiopaedia.org/cases/tracheobronchopathia-osteochondroplastica)\n• [Policondrite recidivante \\- Radiopaedia \\(caso\\)](https://radiopaedia.org/cases/relapsing-polychondritis)\n• [Amiloidosi toracica \\- Radiopaedia \\(articolo\\)](https://radiopaedia.org/articles/thoracic-amyloidosis)\n• [GPA, manifestazioni toraciche \\- Radiopaedia \\(articolo\\)](https://radiopaedia.org/articles/granulomatosis-with-polyangiitis-thoracic-manifestations-1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso 1/3 \\- Sarcoidosi \\(galaxy sign\\)*\n\nDonna afroamericana di 38 anni, adenopatie ilari bilaterali simmetriche e micronoduli a distribuzione perilinfatica con galaxy sign ai lobi superiori; le lesioni sono intensamente FDG\\-avide alla PET\\. Qual e il substrato fisiopatologico che spiega SIA la distribuzione perilinfatica SIA l'elevata captazione di FDG?\n\n*A\\)* Disseminazione ematogena random di micobatteri con replicazione endovascolare\n*B\\)* Granulomi epitelioidi non caseanti \\(CD4\\+ Th1, sostenuti da IFN\\-gamma/TNF\\-alfa\\) ad alta attivita glicolitica, organizzati lungo i linfatici polmonari \\(peribroncovascolari, settali, subpleurici\\)\n*C\\)* Embolizzazione settica a partenza da endocardite tricuspidale\n*D\\)* Accumulo di polveri inorganiche nei macrofagi delle regioni declivi \\(pattern silicotico\\)\n\n||B \\- Il granuloma sarcoideo e una lesione immuno\\-mediata Th1: i CD4\\+ attivati e le cellule epitelioidi/giganti hanno spiccata attivita glicolitica \\(\\-\\> FDG\\-avidita\\) e si formano lungo le vie linfatiche polmonari, generando la distribuzione perilinfatica \\(peribroncovascolare \\+ settale \\+ subpleurica\\) e il galaxy sign per confluenza di micronoduli\\. A/C \\= disseminazione ematogena/settica \\(random\\)\\. D \\= silicosi\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso 2/3 \\- Hot cross bun \\(DD vs infarto\\)*\n\nUomo di 60 anni con atassia subacuta\\. La FLAIR mostra un'iperintensita cruciforme pontina\\. Quale singolo elemento distingue con maggior sicurezza il segno gliotico dell'MSA\\-C da una lesione ischemica pontina paramediana acuta?\n\n*A\\)* Nell'MSA il segno restringe nettamente in DWI con basso ADC\n*B\\)* Il segno dell'MSA e simmetrico \\(simmetria diedrica D2\\), iperintenso in T2/FLAIR per gliosi/degenerazione walleriana cronica, SENZA restrizione in DWI; l'infarto acuto e asimmetrico e restringe in DWI\n*C\\)* Solo l'infarto risparmia i fasci cortico\\-spinali delle ali antero\\-laterali\n*D\\)* L'MSA mostra enhancement cruciforme dopo gadolinio per rottura della barriera\n\n||B \\- L'hot cross bun e espressione di degenerazione cronica \\(fibre ponto\\-cerebellari trasverse \\+ nuclei del rafe\\): T2/FLAIR iperintenso, simmetrico, SENZA restrizione DWI e senza enhancement \\(barriera integra\\)\\. L'infarto paramediano acuto e tipicamente asimmetrico e mostra restrizione DWI\\. A e D sono falsi per l'MSA; C non discrimina \\(i cortico\\-spinali risparmiati definiscono i 4 bracci in entrambi\\)\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260515|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260515|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso 3/3 \\- MSA vs Parkinson \\(substrato molecolare\\)*\n\nPaziente con parkinsonismo rigido\\-acinetico NON responsivo a L\\-DOPA, segni cerebellari e disautonomia; RM con hot cross bun\\. Quale substrato molecolare distingue l'atrofia multisistemica \\(MSA\\) dalla malattia di Parkinson idiopatica?\n\n*A\\)* Grovigli neurofibrillari di tau iperfosforilata nei neuroni \\(taupatia\\)\n*B\\)* Inclusioni citoplasmatiche gliali di alfa\\-sinucleina \\(corpi di Papp\\-Lantos\\) negli OLIGODENDROCITI \\- vs corpi di Lewy \\(alfa\\-sinucleina\\) nei NEURONI dopaminergici del Parkinson\n*C\\)* Placche di beta\\-amiloide extracellulari e angiopatia amiloide\n*D\\)* Aggregati citoplasmatici di TDP\\-43 nei motoneuroni\n\n||B \\- MSA e Parkinson sono entrambe alfa\\-sinucleinopatie ma differiscono per la sede dell'aggregato: nell'MSA l'alfa\\-sinucleina forma inclusioni citoplasmatiche gliali \\(Papp\\-Lantos, 1989\\) negli oligodendrociti; nel Parkinson forma corpi di Lewy nei neuroni dopaminergici della substantia nigra\\. A \\= PSP/taupatie; C \\= Alzheimer/CAA; D \\= SLA/FTD \\(TDP\\-43\\)\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260515|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260515|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🆕 Domanda 1/4*\n\nTC del collo/torace: ispessimento nodulare della parete tracheale con calcificazioni e noduli osteo\\-cartilaginei sottomucosi endoluminali sulle pareti antero\\-laterali, con netto RISPARMIO della membrana posteriore\\. Diagnosi piu probabile e l'elemento che la distingue dall'amiloidosi tracheobronchiale?\n\n*A\\)* GPA \\- il risparmio della membrana posteriore e tipico della vasculite\n*B\\)* Tracheobroncopatia osteocondroplastica \\(TPO\\): noduli osteo\\-cartilaginei che risparmiano la pars membranacea; l'amiloidosi, pur potendo calcificare, coinvolge circonferenzialmente ANCHE la membrana posteriore\n*C\\)* Policondrite recidivante \\- produce tipicamente noduli calcifici endoluminali\n*D\\)* Trachea a sciabola \\- rimodellamento osseo della parete\n\n||B \\- La TPO e caratterizzata da noduli sottomucosi osteo\\-cartilaginei \\(3\\-8 mm\\), spesso calcifici, sulle pareti antero\\-laterali con RISPARMIO della membrana posteriore \\(priva di cartilagine\\)\\. L'amiloidosi tracheobronchiale e anch'essa nodulare e calcifica ma COINVOLGE circonferenzialmente la pars membranacea: e il comportamento della parete posteriore a separarle\\. La RP da ispessimento liscio \\(non noduli calcifici endoluminali\\); la saber\\-sheath e un rimodellamento a parete normale\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260606|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260606|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260606|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260606|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260606|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260606|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🆕 Domanda 2/4*\n\nUomo di 45 anni con condrite auricolare recidivante che risparmia il lobulo, naso a sella e dispnea\\. TC: ispessimento liscio con aumento di densita delle cartilagini tracheali antero\\-laterali, risparmio della membrana posteriore\\. Quale protocollo/reperto aggiuntivo dimostra meglio la componente funzionale della malattia?\n\n*A\\)* TC inspiratoria statica a strato singolo\n*B\\)* TC dinamica espiratoria \\(o cine\\-TC\\): collasso del lume con riduzione dell'area di sezione \\>50% \\= tracheo\\-broncomalacia\n*C\\)* Scintigrafia ossea total\\-body\n*D\\)* Esofagogramma con bario\n\n||B \\- Il quadro e una policondrite recidivante \\(condrite auricolare con risparmio del lobulo non cartilagineo, naso a sella, vie aeree con risparmio della pars membranacea\\)\\. La componente di tracheo\\-broncomalacia si dimostra con TC dinamica espiratoria/cine, che evidenzia un collasso luminale \\>50% non visibile nelle sole acquisizioni inspiratorie statiche\\. Scintigrafia ed esofagogramma non valutano la dinamica delle vie aeree\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260606|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260606|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260606|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260606|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260606|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260606|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🆕 Domanda 3/4*\n\nDonna di 52 anni con stridor e stenosi subglottica circonferenziale liscia che coinvolge la membrana posteriore, con ulcerazioni mucose; c\\-ANCA/PR3 positivo e malattia sinonasale\\. Quale caratteristica la distingue meglio dall'amiloidosi tracheobronchiale \\(che pure coinvolge la parete posteriore\\)?\n\n*A\\)* Entrambe risparmiano sempre la membrana posteriore in egual misura\n*B\\)* Nella GPA: predilezione subglottica, stenosi liscia/ulcerata, c\\-ANCA\\(PR3\\)\\+, ASSENZA di calcificazioni murali; nell'amiloidosi: ispessimento nodulare CON calcificazioni submucose e senza ulcere \\- calcificazioni e ANCA discriminano\n*C\\)* L'amiloidosi risparmia la membrana posteriore, la GPA la coinvolge\n*D\\)* La GPA calcifica abbondantemente la parete, l'amiloidosi mai\n\n||B \\- Sia GPA sia amiloidosi coinvolgono la pars membranacea \\(gruppo circonferenziale\\), percio il discriminatore non e la membrana posteriore ma: la GPA predilige la regione subglottica, da stenosi liscia spesso ulcerata, e c\\-ANCA/PR3\\+ e NON calcifica; l'amiloidosi e nodulare e tipicamente calcifica \\(submucosa\\) senza ulcerazioni\\. C e D invertono/esagerano i reperti\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260606|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260606|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260606|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260606|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260606|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260606|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🆕 Domanda 4/4*\n\nTC torace in un fumatore con BPCO: marcato restringimento coronale \\(latero\\-laterale\\) con allargamento sagittale della trachea INTRAtoracica, parete di spessore normale, brusca normalizzazione del calibro allo stretto toracico superiore\\. Quale affermazione e corretta?\n\n*A\\)* E un ispessimento infiltrativo da amiloidosi e richiede biopsia con Rosso Congo\n*B\\)* E una trachea a sciabola: deformita da rimodellamento \\(rapporto coronale/sagittale <\\=2/3\\) limitata al tratto intratoracico, a parete normale, associata a BPCO/aumento cronico della pressione intratoracica \\- non infiltrazione murale\n*C\\)* La membrana posteriore e nodulare e calcifica\n*D\\)* Serve la ricerca di anticorpi anti\\-collagene II per confermare la policondrite\n\n||B \\- La trachea a sciabola \\(saber\\-sheath\\) e un rimodellamento morfologico tipico della BPCO: restringimento coronale con diametro sagittale conservato/aumentato \\(rapporto <\\=2/3\\), confinato alla trachea intratoracica e con parete di spessore NORMALE \\(nessuna infiltrazione\\)\\. Non e amiloidosi \\(A/C\\) ne policondrite \\(D\\): la chiave e la parete normale e la deformita solo geometrica, intratoracica\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260606|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260606|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260606|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260606|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260606|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260606|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "📋 *Rapporto operativo* 20260606\n\\- Callback processati: 0 \\(inbox: 0 file\\)\n\\- Carte resettate \\(FASE 3\\): 42\n\\- Pillola: ispessimento parietale tracheobronchiale \\- DD membrana posteriore \\- Livello 1\n\\- Ripasso incluso: si \\- 20260514:3, 20260515:0, 20260515:1\n\\- Inbox cancellati: 0\n\\- Warning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
