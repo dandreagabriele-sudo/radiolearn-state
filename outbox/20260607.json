@@ -1,0 +1,202 @@
+{
+  "pill_id": "20260607",
+  "created_at": "2026-06-07T06:45:29.631338+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "📌 *Embolia polmonare acuta — CTPA*\n_Livello 1 · Torace/vascolare · esperto_\n\n*Protocollo*: la CTPA è il gold standard\\. Bolus tracking sul tronco polmonare \\(trigger \\~100–150 HU\\); il basso kV \\(80–100\\) avvicina lo spettro X al k\\-edge dello iodio \\(33,2 keV\\) → maggiore attenuazione iodica a parità di dose\\. Il timing del bolo è critico\\.\n\n*Segni diretti*: difetto di riempimento endoluminale ipodenso circondato da contrasto\\.\n• *Acuto*: difetto centrale, vaso talora dilatato, angolo ottuso con la parete; \"polo sign\" in asse corto, \"railway track\" in asse lungo\\.\n• *Cronico*: trombo eccentrico adeso alla parete ad angolo acuto, webs/bands, calcificazioni, riduzione di calibro, circoli bronchiali collaterali\\.\n\n*Sovraccarico VD \\(RV strain\\)* — marcatori di rischio:\n• RV/LV \\> 1 \\(diametri massimi, idealmente su 4\\-camere ricostruito\\)\n• Setto interventricolare rettilineo / bowing verso sinistra \\(D\\-shape\\)\n• Reflusso di contrasto in vena cava inferiore e vene sovraepatiche\n• Tronco polmonare \\> 29 mm; rapporto PA/aorta \\> 1",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔗 *Connessioni multidisciplinari*\n\n*Storia della medicina*: Rudolf Virchow \\(1856\\) coniò il termine \"embolia\" e descrisse la triade — stasi, ipercoagulabilità, danno endoteliale\\. La CTPA, in fondo, fotografa l'esito della triade di Virchow\\.\n\n*Fisica*: perché abbassare il kV \"accende\" lo iodio? Riducendo la tensione lo spettro X si sposta verso energie più basse, vicino al k\\-edge dello iodio \\(33,2 keV\\), dove l'assorbimento fotoelettrico è massimo\\. Mnemonica: meno kV → iodio più brillante e trombo più netto\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🖼 *Immagini*\n\n[Radiopaedia — articolo: embolia polmonare](https://radiopaedia.org/articles/pulmonary-embolism)\n[Radiopaedia — caso: saddle pulmonary embolism](https://radiopaedia.org/cases/pulmonary-embolism-saddle-embolus)\n[Radiopaedia — saddle PE con RV strain \\(spectral CT\\)](https://radiopaedia.org/cases/saddle-pulmonary-embolism-with-right-ventricular-strain-and-right-atrial-thrombus-spectral-ct)\n[Radiopaedia — articolo: embolia polmonare cronica](https://radiopaedia.org/articles/chronic-pulmonary-embolism)\n[Wikimedia Commons — CT di embolia polmonare](https://commons.wikimedia.org/wiki/Category:CT_images_of_pulmonary_embolism)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 1/4*\n\nDonna di 68 anni, EP acuta confermata\\. Quale reperto CTPA è il più affidabile indicatore di sovraccarico ventricolare destro \\(e quindi di rischio\\)?\n\nA\\) Trombo a sella nel tronco polmonare\nB\\) Rapporto RV/LV \\> 1 sul piano 4\\-camere ricostruito\nC\\) Versamento pleurico bilaterale\nD\\) Atelettasia subsegmentaria basale\n\n||Risposta corretta: B — il rapporto RV/LV \\>1 \\(diametri massimi, idealmente su ricostruzione 4\\-camere\\) è il marcatore CT validato di disfunzione VD e predittore indipendente di eventi avversi; la sella è solo un descrittore anatomico, non prognostico\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260607|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260607|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260607|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260607|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260607|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260607|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 2/4*\n\nQuale combinazione di reperti orienta verso EP cronica piuttosto che acuta?\n\nA\\) Difetto centrale circondato da contrasto, vaso dilatato\nB\\) Angolo ottuso del trombo con la parete\nC\\) Trombo eccentrico parietale, webs/bands e calcificazioni\nD\\) Reflusso di contrasto in vena cava inferiore\n\n||Risposta corretta: C — la EP cronica mostra trombo eccentrico adeso alla parete ad angolo acuto, bande/webs intraluminali, calcificazioni e riduzione di calibro con circoli bronchiali collaterali; A e B sono tipici dell'acuta, D è segno di RV strain\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260607|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260607|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260607|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260607|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260607|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260607|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 3/4*\n\nCTPA con opacizzazione subottimale del circolo polmonare eseguita durante un respiro inspiratorio profondo: si osservano difetti simmetrici bilaterali\\. La causa più probabile è:\n\nA\\) Embolia polmonare bilaterale massiva\nB\\) Artefatto da interruzione transitoria del bolo \\(sangue non opacizzato dalla IVC\\)\nC\\) Ipertensione polmonare cronica\nD\\) Vasculite dei grossi vasi\n\n||Risposta corretta: B — un respiro profondo richiama in atrio destro sangue non opacizzato proveniente dalla IVC, diluendo il contrasto e simulando difetti bilaterali; la distribuzione simmetrica e l'opacizzazione globalmente scarsa lo distinguono dalla vera EP\\. Rimedio: respiro tranquillo o breve apnea e corretto timing del bolo\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260607|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260607|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260607|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260607|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260607|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260607|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 4/4*\n\nPaziente emodinamicamente stabile con EP a sella e RV/LV \\= 1\\.4 alla CTPA\\. Secondo l'approccio integrato \\(ESC\\), come si classifica al meglio?\n\nA\\) Basso rischio: sola anticoagulazione, gestione domiciliare\nB\\) Alto rischio: trombolisi sistemica immediata obbligatoria\nC\\) Rischio intermedio: la disfunzione VD impone monitoraggio e stratificazione \\(biomarcatori\\) pur senza instabilità\nD\\) La sella indica sempre alto rischio\n\n||Risposta corretta: C — in assenza di instabilità emodinamica non è alto rischio; la disfunzione VD \\(RV/LV\\>1\\) lo colloca nell'intermedio, dove troponina/BNP e PESI guidano l'eventuale escalation\\. La sella di per sé non definisce il rischio; la trombolisi è riservata all'alto rischio \\(instabilità\\)\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260607|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260607|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260607|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260607|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260607|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260607|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠 *Rapporto operativo RadioLearn*\npill\\_id: 20260607 · Embolia polmonare acuta \\(CTPA\\) — Livello 1\nCallback processati: 0 \\(inbox files: 0\\)\nCarte resettate \\(no\\-show\\): 38\nRipasso incluso: no \\(days\\_since\\=1; soglia ≥3\\)\nInbox cancellati: 0\nWarning: nessuno · web\\_search ok \\(immagini verificate\\)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
