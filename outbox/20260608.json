@@ -1,0 +1,215 @@
+{
+  "pill_id": "20260608",
+  "created_at": "2026-06-08T06:46:11.991385+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udcca Riepilogo settimanale RadioLearn*\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83c\udfaf Pillole inviate: 7\n\u2705 Quiz risposti: 0/28 \\(0%\\)\n\u2b50 Qualit\u00e0 media: 0\\.0 / 5\n\ud83d\udd01 Carte dimenticate: 285\n\ud83c\udfc6 Carte mature \\(\\>21gg\\): 0\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83e\udec1 Concetto del giorno \u2014 UIP pattern e IPF \\(HRCT, criteri 2018\\)*\n\nUIP \\(usual interstitial pneumonia\\) \u00e8 un pattern radio\\-istologico, non una malattia\\. L'IPF \u00e8 la fibrosi polmonare idiopatica: malattia cronica progressiva con pattern UIP, diagnosi di esclusione \\(escludere HP cronica, connettiviti, asbestosi, tossicit\u00e0 da farmaci, forme familiari\\)\\.\n\n*Distribuzione\\.* Fibrosi subpleurica e basale, eterogenea \\('a macchia di leopardo'\\), con marcato gradiente apico\\-basale; bilaterale ma spesso asimmetrica\\.\n\n*Reperti cardine\\.* Honeycombing \\(cisti subpleuriche a parete spessa, 3\u201310 mm, disposte in file sovrapposte che condividono le pareti\\), reticolo periferico, bronchiectasie e bronchiolectasie da trazione, perdita di volume dei lobi inferiori\\. GGO assente o minimo \u2014 se prevale, pensa ad altro\\.\n\n*Le 4 categorie ATS/ERS/JRS/ALAT 2018:*\n1\\) UIP tipica: honeycombing subpleurico/basale \u00b1 bronchiectasie da trazione, reticolo, distribuzione eterogenea\\.\n2\\) Probable UIP: reticolo subpleurico/basale con bronchiectasie/bronchiolectasie da trazione, SENZA honeycombing\\.\n3\\) Indeterminate: fibrosi lieve o reperti non specifici, senza segni di una diagnosi alternativa\\.\n4\\) Alternative diagnosis: reperti che indicano un'altra patologia\\.\n\n*Punto chiave 2018\\.* In contesto clinico appropriato \\(uomo \\>60 anni, idiopatico\\), il pattern 'probable UIP' \u00e8 oggi sufficiente per diagnosi di IPF SENZA biopsia chirurgica: \u00e8 il cambiamento pratico pi\u00f9 rilevante rispetto al 2011\\. La diagnosi finale resta affidata alla discussione multidisciplinare \\(MDD\\)\\.\n\n*Red flag per diagnosi alternativa:* predominanza ai lobi superiori/medi o peribroncovascolare, GGO esteso, micronoduli profusi, cisti non honeycomb, mosaic attenuation/air trapping in \u22653 lobi \\(\u2192 HP cronica, three\\-density/headcheese sign\\), consolidazioni \\(\u2192 OP\\), linfoadenopatie bulky\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd17 Connessioni multidisciplinari*\n\nIl termine honeycombing richiama il favo d'api\\. La 'honeycomb conjecture' \u2014 l'esagono regolare \u00e8 la tassellatura che minimizza il perimetro totale a parit\u00e0 di area \u2014 fu intuita da Pappo di Alessandria \\(\\~300 d\\.C\\.\\) e dimostrata da Thomas Hales nel 1999: la natura predilige l'esagono per efficienza\\. Le cisti subpleuriche dell'honeycombing condividono le pareti come le celle del favo: \u00e8 proprio il criterio delle 'pareti condivise' a distinguerlo dall'enfisema paraseptale \\(strato singolo, pareti sottili, non condivise\\)\\.\n\nSpunto storico\\-temporale: la 'temporal heterogeneity' della UIP \\(foci fibroblastici giovani accanto a fibrosi matura e polmone sano\\) ricorda una stratigrafia geologica, in cui ere diverse coesistono nello stesso affioramento\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\uddbc\ufe0f Immagini e riferimenti*\n\n\u2022 [UIP \u2014 articolo Radiopaedia](https://radiopaedia.org/articles/usual-interstitial-pneumonia)\n\u2022 [IPF / pattern UIP \u2014 caso radiologico](https://radiopaedia.org/cases/usual-interstitial-pneumonia-pattern-idiopathic-pulmonary-fibrosis)\n\u2022 [Criteri HRCT UIP \u2014 ATS/ERS/JRS/ALAT 2018](https://radiopaedia.org/articles/diagnostic-hrct-criteria-for-usual-interstitial-pneumonia-uip-pattern-atsersjrsalat-2018)\n\u2022 [Exuberant honeycombing sign](https://radiopaedia.org/articles/exuberant-honeycombing-sign-usual-interstitial-pneumonia)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83e\udde0 Domanda 1/4*\n\nUomo di 68 anni, dispnea da sforzo ingravescente\\. HRCT: reticolo subpleurico e basale con bronchiectasie da trazione, gradiente apico\\-basale, MA assenza di honeycombing; nessun reperto atipico\\. Secondo i criteri ATS/ERS/JRS/ALAT 2018 la categoria HRCT \u00e8:\n\nA\\) UIP tipica\nB\\) Probable UIP\nC\\) Indeterminate for UIP\nD\\) Alternative diagnosis\n\n||Risposta corretta: B \u2014 Probable UIP: reticolo periferico basale con bronchiectasie/bronchiolectasie da trazione SENZA honeycombing\\. In contesto clinico idoneo \u00e8 oggi sufficiente per diagnosi di IPF senza biopsia chirurgica\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260608|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260608|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260608|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260608|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260608|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260608|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83e\udde0 Domanda 2/4*\n\nQuale reperto HRCT, se dominante, depone CONTRO la UIP e orienta verso polmonite da ipersensibilit\u00e0 cronica?\n\nA\\) Honeycombing subpleurico basale\nB\\) Bronchiectasie da trazione\nC\\) Mosaic attenuation con air trapping in \u22653 lobi \\(three\\-density sign\\)\nD\\) Perdita di volume dei lobi inferiori\n\n||Risposta corretta: C \u2014 l'air trapping a mosaico in \u22653 lobi \\(three\\-density/headcheese sign\\) \u00e8 una red flag per HP cronica e classifica l'HRCT come 'alternative diagnosis'\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260608|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260608|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260608|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260608|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260608|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260608|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83e\udde0 Domanda 3/4*\n\nL'eterogeneit\u00e0 temporale, marchio istopatologico della UIP, corrisponde a:\n\nA\\) Membrane ialine diffuse\nB\\) Foci fibroblastici giovani giustapposti a fibrosi densa matura e a parenchima risparmiato\nC\\) Granulomi non necrotizzanti peribronchiolari\nD\\) Iperplasia della muscolatura liscia con cisti\n\n||Risposta corretta: B \u2014 la coesistenza di fibrosi attiva \\(foci fibroblastici\\), fibrosi matura e polmone normale definisce l'eterogeneit\u00e0 temporale/spaziale; \u00e8 assente nella NSIP \\(fibrosi uniforme\\) e nella DAD\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260608|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260608|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260608|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260608|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260608|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260608|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83e\udde0 Domanda 4/4*\n\nCome distingui l'honeycombing dall'enfisema paraseptale alla HRCT?\n\nA\\) L'honeycombing predilige gli apici, l'enfisema paraseptale le basi\nB\\) L'honeycombing \u00e8 fatto di file multiple di cisti a parete spessa che condividono le pareti; l'enfisema paraseptale \u00e8 un singolo strato subpleurico di spazi a parete sottile, a prevalenza apicale\nC\\) Sono indistinguibili senza biopsia\nD\\) Solo l'enfisema paraseptale si associa a bronchiectasie da trazione\n\n||Risposta corretta: B \u2014 l'honeycombing mostra cisti stratificate a pareti spesse condivise \\(basali/subpleuriche\\); l'enfisema paraseptale \u00e8 monostrato, pareti sottili, apicale\\. La distinzione \u00e8 cruciale: il falso honeycombing sovrastima la UIP\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260608|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260608|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260608|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260608|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260608|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260608|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udee0\ufe0f Rapporto operativo RadioLearn*\nPill: 20260608 \u2014 UIP pattern / IPF \\(HRCT, criteri 2018\\)\nCallback processati: 0 \\| Inbox cancellati: 0\nCarte resettate \\(no\\-show\\): 46\nRipasso incluso: no \\(days\\_since\\_last\\_review\\=2; soglia \u22653\\)\nRiepilogo settimanale: incluso \\(luned\u00ec\\)\nWarning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    }
+  ]
+}
