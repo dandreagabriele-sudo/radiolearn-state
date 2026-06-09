@@ -1,0 +1,326 @@
+{
+  "pill_id": "20260609",
+  "created_at": "2026-06-09T06:49:50.466847+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🩺 *RadioLearn — Concetto del giorno*\n*Pancreatite autoimmune \\(AIP\\) — RM/TC, Livello 2*\n\nLa pancreatite autoimmune \\(AIP\\) è una forma fibroinfiammatoria di pancreatite cronica, steroido\\-responsiva, distinta in due tipi\\. Tipo 1 \\(LPSP, pancreatite sclerosante linfoplasmocitaria\\): è la manifestazione pancreatica della malattia IgG4\\-correlata; colpisce maschi anziani, con IgG4 sierica elevata, frequente coinvolgimento multiorgano e tendenza a recidivare\\. Tipo 2 \\(IDCP, pancreatite duttocentrica idiopatica con lesioni epiteliali granulocitarie/GEL\\): IgG4\\-negativa, soggetti più giovani, associata a malattia infiammatoria intestinale, recidiva raramente\\.\n\nForma diffusa \\(classica\\): pancreas 'a salsicciotto' \\(sausage\\-shaped\\) — ingrandimento diffuso con perdita della normale lobulazione/aspetto piumato e margini lisci\\. Orletto capsulare \\('halo'\\): cercine periferico di tessuto fibroinfiammatorio, T2\\-ipointenso con enhancement tardivo\\. Il parenchima è T1\\-ipointenso \\(vs l'elevato segnale T1 fisiologico del pancreas\\), lievemente T2\\-iperintenso, con restrizione in diffusione \\(ADC basso\\) ed enhancement omogeneo progressivo/ritardato \\(fibrosi\\), tipicamente ipovascolare in fase arteriosa\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔎 *Dotti e DD con l'adenocarcinoma*\n\nMRCP / dotto pancreatico principale: stenosi lunga \\(\\>1/3 del dotto\\) o multifocali 'skip', SENZA marcata dilatazione a monte; 'duct\\-penetrating sign' \\(il dotto attraversa la lesione\\) e 'icicle sign'\\. Possibile colangite sclerosante IgG4\\-correlata: stenosi del coledoco distale con ispessimento ed enhancement parietale\\.\n\nForma focale / mass\\-forming: mima l'adenocarcinoma duttale \\(PDAC\\) — è il problema di DD cruciale\\. Orientano verso AIP: duct\\-penetrating sign, orletto capsulare, lesioni multifocali, assenza di encasement vascolare e di dilatazione duttale a monte con atrofia, coinvolgimento di altri organi, IgG4 elevata e risposta drammatica agli steroidi\\. Il PDAC mostra invece cutoff duttale brusco, marcata dilatazione a monte con atrofia ghiandolare, encasement vascolare, ipoenhancement e metastasi\\. La risposta agli steroidi va usata con cautela: mai un 'trial' terapeutico senza aver ragionevolmente escluso la malignità\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔗 *Connessioni multidisciplinari*\n\n• Immunologia — IgG4: è la sottoclasse IgG meno abbondante, unica per il 'Fab\\-arm exchange' \\(scambio di mezze molecole\\) che genera anticorpi funzionalmente monovalenti, incapaci di formare immunocomplessi reticolati; paradossalmente è il marcatore di una malattia fibroinfiammatoria\\.\n\n• Storia: Sarles \\(1961\\) descrive una 'pancreatite con ipergammaglobulinemia'; il termine 'autoimmune pancreatitis' è coniato da Yoshida \\(1995\\); Hamano collega l'IgG4 alla malattia \\(NEJM 2001\\)\\.\n\n• Istologia — fibrosi 'storiforme': dal latino storea \\= stuoia intrecciata; lo stesso pattern a 'ruota di carro' del dermatofibroma\\. Ancora mnemonica per riconoscere il tessuto\\.\n\n• Etimologia culinaria: 'sausage' \\(salsiccia, dal latino salsus \\= salato\\) ricorda la perdita di lobulazione che rende il profilo del pancreas liscio e cilindrico — ancora mnemonica del reperto chiave\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🖼 *Immagini e fonti \\(Radiopaedia / Wikimedia\\)*\n\n• [AIP — articolo Radiopaedia](https://radiopaedia.org/articles/autoimmune-pancreatitis)\n• [AIP — criteri diagnostici \\(ICDC\\)](https://radiopaedia.org/articles/autoimmune-pancreatitis-diagnostic-criteria)\n• [Caso — autoimmune pancreatitis](https://radiopaedia.org/cases/autoimmune-pancreatitis-3)\n• [Caso — mass\\-forming AIP \\(DD con PDAC\\)](https://radiopaedia.org/cases/mass-forming-autoimmune-pancreatitis)\n• [Malattia IgG4\\-correlata — Radiopaedia](https://radiopaedia.org/articles/igg4-related-disease)\n• [Wikimedia Commons — Pancreatitis](https://commons.wikimedia.org/wiki/Category:Pancreatitis)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso — Hot cross bun sign / MSA\\-C*\n\nNella Multiple System Atrophy l'α\\-sinucleina si aggrega caratteristicamente in quale sede, distinguendola dalla malattia di Parkinson?\n\nA\\) nei neuroni dopaminergici della substantia nigra \\(corpi di Lewy\\)\nB\\) nelle inclusioni citoplasmatiche oligodendrogliali \\(corpi di Papp–Lantos\\)\nC\\) nelle placche amiloidi extracellulari\nD\\) nei gomitoli neurofibrillari tau\\-positivi\n\n||Risposta corretta: B — La MSA è un'α\\-sinucleinopatia GLIALE: l'α\\-sinucleina si aggrega negli oligodendrociti \\(corpi di Papp–Lantos, 1989\\)\\. Nel Parkinson è neuronale \\(corpi di Lewy nella substantia nigra\\)\\. La degenerazione ponto\\-cerebellare conseguente genera l'hot cross bun\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260515|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260515|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso — Peduncoli cerebellari medi \\(MCP sign\\)*\n\nAtrofia simmetrica e iperintensità T2 ISOLATA dei peduncoli cerebellari medi, in un uomo anziano con tremore d'azione e premutazione del gene FMR1, orienta verso:\n\nA\\) MSA\\-C\nB\\) FXTAS \\(Fragile X\\-Associated Tremor/Ataxia Syndrome\\)\nC\\) infarto cerebellare acuto\nD\\) sclerosi multipla\n\n||Risposta corretta: B — Iperintensità T2 isolata dei PCM \\+ premutazione FMR1 \\+ tremore \\= FXTAS\\. Nella MSA\\-C i PCM sono coinvolti ma nel contesto di atrofia ponto\\-cerebellare e hot cross bun\\. Processo cronico → niente restrizione DWI, il che esclude l'infarto\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260515|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260515|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso — Central dot sign / malattia di Caroli*\n\nQuale reperto distingue con maggiore certezza le dilatazioni della malattia di Caroli dalle cisti della malattia policistica epatica \\(ADPKD\\)?\n\nA\\) le cisti di Caroli sono semplicemente più grandi\nB\\) central dot sign \\(ramo portale incastonato\\) \\+ comunicazione con l'albero biliare, provata dal riempimento in fase epatobiliare con Gd\\-EOB\\-DTPA\nC\\) localizzazione esclusivamente sottocapsulare\nD\\) assenza di qualunque enhancement parietale\n\n||Risposta corretta: B — Le cisti ADPKD NON comunicano coi dotti e non hanno vaso centrale\\. La Caroli mostra il central dot \\(vena porta della triade portale\\) e il riempimento biliare in fase epatobiliare con epatospecifico — prova diretta della comunicazione duttale\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260517|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260517|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260517|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260517|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260517|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260517|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*❓ Domanda 1 — Pancreatite autoimmune \\(AIP\\)*\n\nPancreas 'a salsicciotto' con orletto capsulare in un maschio di 65 anni con ittero ostruttivo\\. Quale reperto MRCP orienta verso AIP e non verso adenocarcinoma duttale \\(PDAC\\)?\n\nA\\) cutoff brusco del dotto pancreatico principale con marcata dilatazione a monte\nB\\) duct\\-penetrating sign con stenosi lunga e liscia e dilatazione a monte assente/minima\nC\\) double duct sign con atrofia parenchimale a monte\nD\\) calcolo del dotto principale con dilatazione a valle\n\n||Risposta corretta: B — Nell'AIP il dotto ATTRAVERSA la lesione \\(duct\\-penetrating\\) con stenosi lunga e liscia e poca/nessuna dilatazione a monte\\. Il PDAC dà cutoff brusco, marcata dilatazione duttale a monte e atrofia ghiandolare\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260609|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260609|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260609|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260609|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260609|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260609|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*❓ Domanda 2 — Pancreatite autoimmune \\(AIP\\)*\n\nQuale pattern di enhancement dinamico post\\-contrasto è tipico del parenchima nell'AIP?\n\nA\\) marcato enhancement arterioso con washout in fase venosa\nB\\) ipoenhancement persistente in tutte le fasi \\(necrosi\\)\nC\\) ipoenhancement in fase arteriosa con enhancement omogeneo progressivo/ritardato \\(fibrosi\\)\nD\\) enhancement ad anello con centro necrotico\n\n||Risposta corretta: C — La fibrosi linfoplasmacellulare rende il parenchima ipovascolare in arteriosa e con captazione omogenea progressiva/tardiva\\. Il washout arterioso→venoso è invece la firma dell'HCC\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260609|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260609|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260609|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260609|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260609|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260609|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*❓ Domanda 3 — Pancreatite autoimmune \\(AIP\\)*\n\nQuale affermazione su tipo 1 vs tipo 2 di AIP è corretta?\n\nA\\) Il tipo 1 è IgG4\\-negativo, giovani, associato a IBD\nB\\) Il tipo 1 è la manifestazione pancreatica della malattia IgG4\\-correlata: maschi anziani, IgG4 sierica elevata, multiorgano, recidivante\nC\\) Il tipo 2 ha alta IgG4 sierica e coinvolgimento multiorgano\nD\\) Il tipo 1 non risponde agli steroidi\n\n||Risposta corretta: B — Tipo 1 \\= LPSP, manifestazione pancreatica della malattia IgG4\\-correlata \\(anziani, IgG4 alta, multiorgano, recidivante\\)\\. Tipo 2 \\= IDCP con GEL, IgG4\\-negativo, giovani, associato a IBD, raro relapse\\. Entrambi steroido\\-responsivi\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260609|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260609|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260609|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260609|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260609|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260609|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*❓ Domanda 4 — Pancreatite autoimmune \\(AIP\\)*\n\nIn un AIP tipo 1, quale costellazione di reperti extrapancreatici conferma la malattia IgG4\\-correlata?\n\nA\\) colangite sclerosante IgG4 \\(stenosi del coledoco distale\\), fibrosi retroperitoneale, dacrio\\-scialadenite, nefrite tubulointerstiziale\nB\\) cirrosi micronodulare e varici esofagee\nC\\) calcoli renali a stampo e idronefrosi\nD\\) colelitiasi e colecistite acuta\n\n||Risposta corretta: A — La malattia IgG4\\-correlata è sistemica: colangite sclerosante IgG4, fibrosi retroperitoneale, dacrio\\-scialadenite \\(m\\. di Mikulicz\\), nefrite tubulointerstiziale/lesioni renali, aortite\\. Questi reperti sostengono il tipo 1\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260609|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260609|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260609|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260609|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260609|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260609|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠 RadioLearn — rapporto operativo 2026-06-09\n• pill_id 20260609 — Pancreatite autoimmune (AIP), RM Addome (Liv. 2)\n• Callback processati: 0\n• Carte resettate (no-show): 42\n• Ripasso incluso: sì (days_since=3) — 20260515:2, 20260515:3, 20260517:0\n• Inbox cancellati: 0\n• Nuove carte: 4 (20260609:0..3)\n• Warning: nessuno"
+      }
+    }
+  ]
+}
