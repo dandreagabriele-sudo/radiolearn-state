@@ -1,0 +1,202 @@
+{
+  "pill_id": "20260611",
+  "created_at": "2026-06-11T06:45:28Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udec1 *RadioLearn \u2014 Sarcoidosi toracica*  \\(Livello 1 \u00b7 esperto\\)\n\nGranulomatosi sistemica a eziologia ignota; il torace \u00e8 coinvolto in \\>90% dei casi\\. Substrato: granuloma non caseoso epitelioide a distribuzione linfatica\\.\n\n*Distribuzione \\(HRCT\\)*: micronoduli perilinfatici \u2014 lungo guaine broncovascolari, scissure, setti interlobulari e regione subpleurica \u2014 simmetrici e a prevalenza medio/superiore\\. L'ispessimento nodulare \\('beaded'\\) dei bundle broncovascolari \u00e8 il reperto pi\u00f9 caratteristico\\.\n\n*Linfoadenopatie*: ilari bilaterali simmetriche \\+ paratracheale destra \\= segno 1\\-2\\-3 \\(Garland\\)\\. Calcificazioni amorfe o a guscio d'uovo \\(eggshell\\) nel tempo\\. Simmetria e rispetto della finestra AP orientano contro il linfoma\\.\n\n*Staging Scadding \\(RX\\)*: 0 normale \u00b7 I sola adenopatia \u00b7 II adenopatia \\+ infiltrato \u00b7 III infiltrato senza adenopatia \u00b7 IV fibrosi\\. Lo stadio NON \u00e8 cronologico n\u00e9 linearmente prognostico\\.\n\n*Segni focali*: galaxy/cluster sign \\(coalescenza di micronoduli in pseudomasse con satelliti, 'sarcoid galaxy'\\); pattern alveolare/consolidativo atipico, miliare, mosaico da air trapping \\(small airways\\)\\.\n\n*Stadio IV \\(fibrotico\\)*: fibrosi medio/superiore e peribroncovascolare \\(perilare\\) con retrazione ilare verso l'alto, masse conglomerate, bronchiectasie da trazione \u2192 DD con UIP \\(basale\\-subpleurica, favo, gradiente apico\\-basale\\)\\. Complicanze: aspergilloma nelle cavit\u00e0 fibrotiche, ipertensione polmonare\\.\n\n*Attivit\u00e0 di malattia*: FDG\\-PET e gallio\\-67 \\(lambda \\+ panda sign\\); l'HRCT supera la radiografia per sensibilit\u00e0 e correlazione funzionale\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd17 *Connessioni multidisciplinari*\n\n*Astronomia \\(mnemonica\\)*: il 'galaxy sign' richiama un ammasso globulare \u2014 decine di micronoduli granulomatosi che confluiscono attorno a un nucleo, come stelle in una galassia\\. Stessa logica per il 'cluster sign'\\.\n\n*Storia della medicina*: Jonathan Hutchinson descrisse le lesioni cutanee nel 1877 \\('Mortimer's malady'\\); Caesar Boeck coni\u00f2 'sarcoid' nel 1899 \\(\\= simile al sarcoma ma benigno\\)\\. Eponimo: malattia di Besnier\\-Boeck\\-Schaumann\\.\n\n*Immunopatologia*: granuloma non caseoso \\(Th1, cellule epitelioidi e giganti di Langhans\\) vs granuloma caseoso della TB \u2014 distinzione chiave nella DD\\. Corpi di Schaumann e corpi asteroidi sono reperti istologici caratteristici \\(non patognomonici\\)\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\uddbc\ufe0f *Immagini \\(fonti verificate\\)*\n\n\u2022 [Sarcoidosi \u2014 pattern perilinfatico \\(HRCT\\), Radiopaedia](https://radiopaedia.org/cases/sarcoidosis-perilymphatic-nodular-pattern-1)\n\u2022 [Galaxy sign \\(lungs\\), Radiopaedia](https://radiopaedia.org/articles/galaxy-sign-lungs)\n\u2022 [Sarcoidosi stadio IV / end\\-stage, Radiopaedia](https://radiopaedia.org/cases/pulmonary-sarcoidosis-end-stage)\n\u2022 [X\\-ray di sarcoidosi polmonare \\(categoria\\), Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:X-rays_of_pulmonary_sarcoidosis)\n\u2022 [Sarcoidosi \u2014 panoramica, Wikipedia](https://en.wikipedia.org/wiki/Sarcoidosis)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 *Domanda 1*\n\nNella sarcoidosi polmonare, qual \u00e8 la distribuzione tipica dei micronoduli all'HRCT?\n\nA\\) Centrolobulare con tree\\-in\\-bud, predominanza basale\nB\\) Random/miliare, uniforme in tutti i campi polmonari\nC\\) Perilinfatica \\(guaine broncovascolari, scissure, setti, subpleurica\\), predominanza medio\\-superiore\nD\\) Subpleurica basale a favo con bronchiectasie da trazione\n\n||Risposta corretta: C \u2014 i granulomi seguono i linfatici: noduli 'beaded' lungo bundle broncovascolari, scissure, setti interlobulari e subpleura, simmetrici e a prevalenza medio/superiore\\. A\\=bronchiolitico/infettivo, B\\=miliare \\(TB/metastasi ematogene\\), D\\=UIP\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260611|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260611|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260611|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260611|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260611|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260611|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 *Domanda 2*\n\nQuale pattern linfonodale \u00e8 pi\u00f9 tipico e suggestivo di sarcoidosi rispetto al linfoma?\n\nA\\) Adenopatia mediastinica asimmetrica con prevalente finestra aorto\\-polmonare\nB\\) Ilare bilaterale simmetrica \\+ paratracheale destra \\(segno 1\\-2\\-3 di Garland\\), \u00b1 calcificazioni a guscio d'uovo\nC\\) Linfonodi necrotici con enhancement ad anello\nD\\) Adenopatia ilare unilaterale con versamento pleurico massivo\n\n||Risposta corretta: B \u2014 il segno 1\\-2\\-3 \\(ilare bilaterale \\+ paratracheale destra\\), la simmetria e le calcificazioni eggshell/amorfe favoriscono sarcoidosi; asimmetria e coinvolgimento AP window favoriscono linfoma\\. C\\=TB/metastasi, D\\=atipico per sarcoidosi\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260611|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260611|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260611|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260611|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260611|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260611|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 *Domanda 3*\n\nIl 'sarcoid galaxy sign' all'HRCT corrisponde a:\n\nA\\) Cavitazione a parete sottile con livello idro\\-aereo\nB\\) Pseudomassa da coalescenza di numerosi micronoduli granulomatosi, con micronoduli satelliti periferici e talora alone in vetro smerigliato\nC\\) Ispessimento liscio dei setti \\+ GGO \\(crazy paving\\)\nD\\) Noduli centrolobulari ramificati \\(tree\\-in\\-bud\\)\n\n||Risposta corretta: B \u2014 il galaxy sign \u00e8 un addensamento nodulare dato dalla confluenza di granulomi con micronoduli satelliti, simile a un ammasso globulare/galassia; pu\u00f2 vedersi anche nella TB\\. Il cluster sign \u00e8 la raccolta di micronoduli senza massa centrale dominante\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260611|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260611|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260611|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260611|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260611|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260611|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 *Domanda 4*\n\nQuale reperto indica sarcoidosi in stadio IV \\(fibrotico\\) e aiuta la DD con UIP?\n\nA\\) Favo a predominanza basale e subpleurica con gradiente apico\\-basale\nB\\) Fibrosi medio/superiore e peribroncovascolare \\(perilare\\) con retrazione ilare verso l'alto e distorsione architetturale; possibile aspergilloma nelle cavit\u00e0\nC\\) Versamento pleurico bilaterale con cardiomegalia\nD\\) Pattern a mosaico con air trapping espiratorio puro senza fibrosi\n\n||Risposta corretta: B \u2014 la fibrosi sarcoidea \u00e8 medio/superiore e peribroncovascolare con retrazione degli ili verso l'alto, masse conglomerate e bronchiectasie da trazione \\(\u00b1 aspergilloma\\)\\. La UIP \u00e8 invece basale\\-subpleurica con favo e gradiente apico\\-basale \\(A\\): ecco la chiave di DD\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260611|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260611|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260611|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260611|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260611|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260611|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\uddfe *RadioLearn \u2014 Rapporto operativo *2026\\-06\\-11\n\u2022 Callback processati: 0\n\u2022 Carte resettate \\(no\\-show\\): 46\n\u2022 pill\\_id: 20260611 \u2014 Topic: Sarcoidosi toracica \\(L1\\)\n\u2022 Ripasso incluso: no \\(days\\_since\\=2\\)\n\u2022 Inbox cancellati: 0\n\u2022 Warning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
