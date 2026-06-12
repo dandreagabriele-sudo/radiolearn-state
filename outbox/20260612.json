@@ -1,0 +1,340 @@
+{
+  "pill_id": "20260612",
+  "created_at": "2026-06-12T06:49:30.514582+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🫁 RadioLearn — Pillola 2026\\-06\\-12*\n\n*Tema*: Malattia polmonare cistica diffusa — DD su HRCT \\(LAM · PLCH · BHD · LIP\\) e mimici\nDominio: Torace/Polmone — Livello 1 \\(esperto\\)\n\n*Che cos'è una «cisti» polmonare*\nSpazio aereo \\(talora ripieno di liquido\\) circoscritto da una parete sottile e ben definita \\(<2–3 mm\\), epiteliale o fibrosa\\. Va distinta da: cavità \\(parete spessa \\>4 mm, su base necrotica\\); enfisema centrolobulare \\(lucenza SENZA parete definibile, spesso con micro\\-vaso centrolobulare puntiforme\\); bolle/bleb; pneumatoceli; honeycombing \\(cisti a pareti condivise, impilate, subpleuriche basali della UIP\\); bronchiectasie cistiche \\(signet\\-ring, continuità col bronco\\)\\. Il ragionamento utile combina tre assi: distribuzione, morfologia/numero delle cisti e reperti extrapolmonari\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Le 4 entità chiave e i loro discriminatori*\n\n*1\\) LAM \\(linfangioleiomiomatosi\\)* — donna in età fertile \\(sporadica o nel tuberous sclerosis complex\\)\\. Cisti rotonde, uniformi, a parete sottile, diffuse e omogenee SENZA risparmio zonale \\(neppure costofrenico\\); parenchima interposto normale; volumi conservati/aumentati\\. Extrapolmonare: pneumotorace ricorrente, chilotorace, angiomiolipomi renali, linfangioleiomiomi\\. VEGF\\-D sierico; terapia con sirolimus \\(via mTOR\\)\\.\n\n*2\\) PLCH \\(istiocitosi a cellule di Langerhans\\)* — giovane fumatore\\. Evoluzione: nodulo peribronchiolare → nodulo cavitato → cisti a parete spessa → cisti bizzarre a parete sottile \\(bilobate, cloverleaf, ramificate, confluenti\\)\\. Prevalenza lobi superiori/medi con RISPARMIO dei seni costofrenici; volumi conservati\\. BRAF V600E; può regredire con la sospensione del fumo\\.\n\n*3\\) BHD \\(Birt\\-Hogg\\-Dubé, gene FLCN\\)* — cisti poche, lentiformi/allungate «floppy», a predominanza BASALE, subpleuriche e PARAMEDIASTINICHE, spesso a contatto coi vasi; per il resto parenchima normale\\. Extrapolmonare: pneumotoraci spontanei, fibrofollicolomi cutanei, tumori renali \\(cromofobo/ibrido oncocitico\\)\\. Autosomica dominante\\.\n\n*4\\) LIP \\(polmonite interstiziale linfoide\\)* — cisti poche, a predominanza basale, PERIVASCOLARI, su sfondo di ground\\-glass e noduli centrolobulari\\. Contesto autoimmune \\(Sjögren in primis; HIV nel bambino\\)\\. Rischio evolutivo: amiloidosi e linfoma MALT\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*In pratica — distribuzione \\+ morfologia \\+ extrapolmonare*\n• Diffuso uniforme, cisti rotonde, donna \\+ AML/pneumotorace → LAM\n• Apicale, cisti bizzarre \\+ noduli, fumatore → PLCH\n• Basale subpleurico/paramediastinico, lentiformi, pneumotorace \\+ cute/rene → BHD\n• Basale perivascolare \\+ GGO, Sjögren → LIP\n\n*Mimici da non confondere*: enfisema centrolobulare \\(niente parete, micro\\-vaso centrale\\), honeycombing UIP \\(basale\\-subpleurico, file multiple\\), bronchiectasie cistiche, pneumatoceli \\(PJP/trauma\\), metastasi cistiche \\(angiosarcoma/sarcoma\\), amiloidosi cistica, DIP\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔗 Connessioni multidisciplinari*\n\n*Farmacologia/Storia*: la rapamicina \\(sirolimus\\), cardine terapeutico della LAM, fu isolata da Streptomyces hygroscopicus nel suolo di Rapa Nui \\(Isola di Pasqua\\) — da cui «rapa»\\-micina\\.\n*Biologia molecolare*: FLCN \\(BHD\\) e TSC1/TSC2 \\(LAM\\) convergono entrambi sulla via mTOR — un filo meccanicistico comune a due malattie cistiche\\.\n*Storia della medicina*: Paul Langerhans descrisse le cellule dendritiche cutanee nel 1868 \\(allievo di Virchow\\); la sindrome di Birt\\-Hogg\\-Dubé fu descritta nel 1977 da tre medici canadesi\\.\n*Geometria*: le cisti «cloverleaf»/ramificate del PLCH riflettono il rimodellamento bronchiolocentrico \\(auto\\-similarità su scale diverse\\)\\.\n*Fisica HRCT*: l'acquisizione in espirio aiuta a distinguere le cisti \\(non collassano, hanno parete propria\\) dall'air\\-trapping a mosaico\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🖼️ Immagini \\(fonti verificate\\)*\n• [Radiopaedia — Cystic lung disease \\(overview/DD\\)](https://radiopaedia.org/articles/cystic-lung-disease-2)\n• [Radiopaedia — Lymphangioleiomyomatosis \\(LAM\\)](https://radiopaedia.org/articles/lymphangioleiomyomatosis-1)\n• [Radiopaedia — Caso LAM](https://radiopaedia.org/cases/lymphangioleiomyomatosis-16)\n• [Radiopaedia — Pulmonary LCH](https://radiopaedia.org/articles/pulmonary-langerhans-cell-histiocytosis)\n• [Radiopaedia — Caso PLCH \\(fase fibrotica\\)](https://radiopaedia.org/cases/pulmonary-langerhans-cell-histiocytosis-fibrotic-phase-3)\n• [Radiopaedia — Birt\\-Hogg\\-Dubé](https://radiopaedia.org/articles/birt-hogg-dube-syndrome-5)\n• [Radiopaedia — Caso BHD](https://radiopaedia.org/cases/birt-hogg-dube-syndrome-17)\n• [Radiopaedia — Caso TSC con LAM e AML renali](https://radiopaedia.org/cases/tuberous-sclerosis-complex-with-lymphangioleiomyomatosis-lam-and-renal-angiomyolipomas)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso — Galaxy sign / sarcoidosi*\n\nIl macronodulo del galaxy sign \\(1–3 cm\\) è costituito istopatologicamente da:\n\nA\\) un singolo granuloma gigante caseante\nB\\) la confluenza centripeta di micronoduli satelliti \\(granulomi epitelioidi non caseanti\\)\nC\\) tessuto di granulazione organizzativo intraluminale \\(pattern OP\\)\nD\\) fibrosi collagena acellulare matura\n\n||Risposta corretta: B — Il galaxy nodule nasce dalla coalescenza di micronoduli granulomatosi satelliti che si addensano al centro e si diradano verso la periferia; non è un singolo granuloma né fibrosi pura\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso — Galaxy sign / halo*\n\nPaziente neutropenico febbrile con macronodulo e alone di ground\\-glass\\. Rispetto al galaxy sarcoideo \\(alone \\= microgranulomi sotto la risoluzione HRCT\\), in QUESTO contesto l'alone deve far pensare soprattutto a:\n\nA\\) linfangioleiomiomatosi \\(LAM\\)\nB\\) aspergillosi angioinvasiva \\(alone emorragico perilesionale\\)\nC\\) proteinosi alveolare\nD\\) enfisema centrolobulare\n\n||Risposta corretta: B — Nel neutropenico l'halo sign indica emorragia perilesionale da micosi angioinvasiva \\(Aspergillus\\): è il contesto clinico, non la sola morfologia, a riclassificare l'alone\\. Nel sarcoid galaxy l'alone è dato da microgranulomi interstiziali sub\\-risoluzione\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso — Galaxy vs metastasi*\n\nQuale elemento di distribuzione orienta verso galaxy sarcoideo piuttosto che verso metastasi ematogene macronodulari?\n\nA\\) distribuzione random a prevalenza basale e subpleurica casuale\nB\\) distribuzione perilinfatica \\(peribroncovascolare/scissurale/subpleurica\\) con linfoadenopatia ilare bilaterale simmetrica\nC\\) cavitazione precoce con livelli idro\\-aerei\nD\\) distribuzione esclusivamente miliare\n\n||Risposta corretta: B — Le metastasi ematogene sono random a prevalenza basale \\(flusso\\); il sarcoide è perilinfatico, simmetrico, medio\\-superiore, con adenopatia ilare bilaterale — pattern che, unito alla stabilità nel tempo, favorisce la sarcoidosi\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🆕 Domanda 4 — LAM*\n\nDonna di 34 anni, pneumotorace spontaneo recidivante\\. HRCT: numerose cisti rotonde a parete sottile, uniformi, diffuse SENZA risparmio zonale, parenchima interposto normale; TC addome: angiomiolipomi renali\\. Diagnosi più probabile:\n\nA\\) PLCH\nB\\) LAM \\(eventualmente nel tuberous sclerosis complex\\)\nC\\) enfisema centrolobulare\nD\\) honeycombing da UIP\n\n||Risposta corretta: B — Cisti rotonde uniformi diffuse \\+ donna in età fertile \\+ AML renali \\+ pneumotorace/chilotorace \\= LAM \\(sporadica o in TSC\\)\\. VEGF\\-D sierico elevato supporta; terapia con sirolimus \\(inibitore mTOR\\)\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260612|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260612|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260612|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260612|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260612|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260612|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🆕 Domanda 5 — PLCH*\n\nUomo fumatore di 28 anni\\. HRCT campi superiori e medi con risparmio dei seni costofrenici: noduli centrolobulari, alcuni cavitati, insieme a cisti di forma bizzarra \\(bilobate/cloverleaf\\) a parete variabile; volumi conservati\\. Orientamento:\n\nA\\) LAM\nB\\) istiocitosi polmonare a cellule di Langerhans \\(PLCH\\)\nC\\) linfangite carcinomatosa\nD\\) polmonite organizzativa\n\n||Risposta corretta: B — Noduli \\(peribronchiolari, cavitanti\\) \\+ cisti bizzarre/ramificate, prevalenza apicale con risparmio costofrenico, in giovane fumatore \\= PLCH\\. La sospensione del fumo può stabilizzare/regredire; mutazioni BRAF V600E nella via MAPK\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260612|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260612|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260612|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260612|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260612|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260612|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🆕 Domanda 6 — Birt\\-Hogg\\-Dubé*\n\nCisti polmonari poche, lentiformi/allungate \\(«floppy»\\), a predominanza basale, subpleuriche e paramediastiniche, spesso a contatto coi vasi; paziente con pneumotoraci ricorrenti, papule cutanee del volto e familiarità per tumori renali\\. Sindrome:\n\nA\\) Birt\\-Hogg\\-Dubé \\(gene FLCN/folliculina\\)\nB\\) LIP\nC\\) sindrome di Marfan\nD\\) deficit di alfa\\-1\\-antitripsina\n\n||Risposta corretta: A — Cisti basali subpleuriche/paramediastiniche lentiformi \\+ pneumotorace \\+ fibrofollicolomi \\+ tumori renali \\(cromofobo/ibrido oncocitico\\) \\= Birt\\-Hogg\\-Dubé, autosomica dominante da mutazione FLCN\\. La via converge su mTOR come nella LAM\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260612|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260612|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260612|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260612|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260612|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260612|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🆕 Domanda 7 — LIP*\n\nCisti polmonari a predominanza basale, perivascolari e in numero limitato, su sfondo di ground\\-glass e noduli centrolobulari, in donna con sindrome di Sjögren\\. Quadro più coerente con:\n\nA\\) polmonite interstiziale linfoide \\(LIP\\)\nB\\) BHD\nC\\) PLCH\nD\\) enfisema panlobulare\n\n||Risposta corretta: A — LIP: cisti basali perivascolari \\+ GGO/noduli in contesto autoimmune \\(tipicamente Sjögren; nei bambini HIV\\)\\. Sorvegliare l'evoluzione verso amiloidosi e linfoma MALT\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260612|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260612|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260612|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260612|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260612|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260612|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🛠️ Rapporto operativo* — 2026\\-06\\-12\nPillola 20260612: Malattia polmonare cistica diffusa \\(DD HRCT\\) — Torace L1\nCallback processati: 0 · Carte resettate \\(no\\-show\\): 54\nRipasso incluso: sì — 20260514:0, 20260514:1, 20260514:2 \\(galaxy sign/sarcoidosi, pill 20260514; days\\_since\\=3\\)\nInbox cancellati: 0 · Warning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
