@@ -1,0 +1,197 @@
+{
+  "pill_id": "20260613",
+  "created_at": "2026-06-13T06:46:04.105285+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🫁 *RadioLearn — 13 giugno 2026*\n*Mosaic attenuation su HRCT: il pattern, non la diagnosi*\n\nDefinizione \\(Fleischner\\): patchwork di aree polmonari a diversa attenuazione\\. Termine applicabile SOLO a TC in inspirio massimo\\. È un segno, non una malattia: il lavoro interpretativo è decidere quale polmone sia anomalo e perché\\.\n\n🔑 *Regola dei vasi \\(il primo gesto\\)*\n• Vasi di calibro UGUALE nelle aree nere e bianche → è il polmone BIANCO l'anomalo \\= ground\\-glass \\(causa infiltrativa\\)\\.\n• Vasi più PICCOLI nelle aree nere → è il polmone NERO l'anomalo \\= oligoemia \\(piccole vie aeree o causa vascolare\\)\\.\n\n🌳 *Piccole vie aeree \\(air trapping\\)*\nBronchiolite costrittiva, HP fibrotica/subacuta, Swyer\\-James\\-MacLeod, post\\-infettiva, DIPNECH\\. Indizi: bronchi dilatati/ispessiti nelle aree ipodense; distribuzione lobulare 'geografica'; accentuazione in ESPIRIO\\.\n\n🩸 *Vascolare \\(mosaic perfusion\\)*\nSoprattutto CTEPH e ipertensione polmonare\\. Indizi: arterie polmonari centrali dilatate \\(tronco \\>29 mm, \\> aorta ascendente\\), discrepanza di calibro tra vasi delle aree iper\\- e ipoperfuse, webs/bande endoluminali, RV strain\\. L'oligoemia periferica con iperemia centrale segnala small\\-vessel disease e prognosi peggiore\\.\n\n☁️ *Infiltrativa \\(GGO\\)*\nHP subacuta, PCP, DAD/edema, polmonite organizzativa: vasi conservati nelle aree bianche\\.\n\n💨 *La TC espiratoria dirime*\nL'air trapping PERSISTE o accentua il gradiente in espirio \\(i lobuli neri restano neri\\); GGO e mosaic perfusion no\\. È il test più economico per isolare la malattia delle piccole vie aeree\\.\n\n🧀 *Three\\-density sign \\(ex head\\-cheese\\)*\nCoesistenza nello stesso polmone di GGO lobulare \\+ air trapping lobulare \\+ parenchima normale \\= altamente specifico per HP\\.\n\n🔗 *Connessioni*\n• Fisica \\(Poiseuille\\): flusso ∝ r⁴; una minima riduzione del calibro arteriolare provoca una caduta sproporzionata di perfusione → spiega perché l'oligoemia appare così netta\\.\n• Fisiologia \\(riflesso di Euler\\-Liljestrand, vasocostrizione ipossica\\): nelle aree mal ventilate da air trapping il letto vascolare si contrae per deviare il sangue → la malattia delle piccole vie aeree finisce col mimare una mosaic perfusion\\. Ecco perché 'airway' e 'vascular' condividono l'oligoemia\\.\n• Arte/storia: 'mosaico' dalle tesserae musive greco\\-romane e bizantine, densità accostate; 'head cheese' è la soprassata/testa in cassetta — marezzatura a tre componenti come mnemonica del three\\-density sign\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🖼️ *Immagini \\(link verificati via ricerca\\)*\n• [Mosaic attenuation — articolo di riferimento \\(Radiopaedia\\)](https://radiopaedia.org/articles/mosaic-attenuation-pattern-in-lung)\n• [Esempio di pattern a mosaico \\(caso TC\\)](https://radiopaedia.org/images/1339235?case_id=14799)\n• [Mosaic perfusion da ipertensione polmonare \\(immagine\\)](https://radiopaedia.org/images/20927825?case_id=43961)\n• [Head cheese / three\\-density sign \\(Radiopaedia\\)](https://radiopaedia.org/articles/head-cheese-sign-lungs)\n• [Polmonite da ipersensibilità con air trapping \\(caso\\)](https://radiopaedia.org/cases/hypersensitivity-pneumonitis-10)\n• [Embolia polmonare cronica / contesto CTEPH \\(Radiopaedia\\)](https://radiopaedia.org/articles/chronic-pulmonary-embolism)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 1*\nHRCT in inspirio: mosaicismo con vasi di calibro nettamente ridotto nelle aree ipodense rispetto alle aree iperdense\\. Qual è la lettura corretta del primo passo?\nA\\) Il polmone bianco è anomalo → GGO infiltrativa\nB\\) Il polmone nero è anomalo → oligoemia \\(piccole vie aeree o vascolare\\)\nC\\) Pattern non interpretabile senza mezzo di contrasto\nD\\) Artefatto cinetico da respiro\n\n||Risposta corretta: B — vasi più piccoli nel polmone nero indicano che è quello l'anomalo: oligoemia da air trapping \\(vasocostrizione riflessa\\) o da malattia vascolare\\. Vasi uguali avrebbero indicato GGO \\(bianco anomalo\\)\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260613|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260613|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260613|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260613|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260613|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260613|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 2*\nPer separare la malattia delle piccole vie aeree dalle cause vascolare e infiltrativa, l'accorgimento tecnico più dirimente è:\nA\\) Acquisire scansioni in ESPIRIO\nB\\) Somministrare mezzo di contrasto e FDG\nC\\) Acquisire in decubito prono\nD\\) Ridurre i kV\n\n||Risposta corretta: A — l'air trapping persiste o accentua il gradiente di densità in espirio \\(i lobuli ipodensi restano tali\\), mentre mosaic perfusion e GGO non si comportano così\\. È il test più economico e specifico\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260613|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260613|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260613|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260613|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260613|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260613|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 3*\nCoesistenza, nello stesso ambito, di GGO lobulare, air trapping lobulare e parenchima normale \\(three\\-density / head\\-cheese sign\\)\\. Diagnosi più specifica:\nA\\) UIP / fibrosi polmonare idiopatica\nB\\) Polmonite da Pneumocystis\nC\\) Polmonite da ipersensibilità \\(HP\\)\nD\\) Linfangite carcinomatosa\n\n||Risposta corretta: C — la combinazione delle tre densità è altamente specifica per HP \\(componente infiltrativa \\+ bronchiolite con air trapping \\+ lobuli risparmiati\\)\\. UIP non dà air trapping lobulare diffuso\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260613|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260613|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260613|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260613|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260613|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260613|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 4*\nMosaicismo da causa vascolare \\(mosaic perfusion\\)\\. Quale reperto la supporta e ne segnala gravità/prognosi?\nA\\) Bronchi dilatati e ispessiti nelle aree nere\nB\\) Accentuazione del gradiente di densità in espirio\nC\\) Dilatazione del tronco polmonare \\(\\>29 mm\\) con discrepanza di calibro dei vasi e oligoemia periferica\nD\\) Noduli centrolobulari a 'tree\\-in\\-bud'\n\n||Risposta corretta: C — tronco polmonare dilatato, discrepanza di calibro vasale e oligoemia periferica indicano CTEPH/PH con small\\-vessel disease \\(prognosi peggiore\\)\\. A e B puntano alle piccole vie aeree; D è bronchiolare infettivo\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260613|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260613|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260613|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260613|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260613|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260613|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠️ *Rapporto operativo*\nPill: 20260613 — Mosaic attenuation \\(HRCT, Livello 1\\)\nCallback processati: 0\nCarte resettate \\(no\\-show\\): 50\nRipasso incluso: no \\(days\\_since\\_last\\_review\\=1; soglia ≥3\\)\nInbox cancellati: 0\nWarning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
