@@ -39,10 +39,24 @@ jobs:
         run: |
           git config user.name  "radiolearn-bot"
           git config user.email "radiolearn-bot@users.noreply.github.com"
-          if [ -n "$(git status --porcelain)" ]; then
-            git add -A
-            git commit -m "📥 Telegram poll ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
-            git push
-          else
+          if [ -z "$(git status --porcelain)" ]; then
             echo "No new updates to commit."
+            exit 0
           fi
+          git add -A
+          git commit -m "📥 Telegram poll ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+          # Rebase-safe push: the daily routine and the send workflow push to main
+          # concurrently. A plain `git push` that loses the race fails the run and
+          # would drop the just-captured inbox answers + the advanced last_update_id.
+          # Retry with rebase so quiz answers are never lost to a concurrent push.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — rebasing onto origin/main and retrying."
+            git pull --rebase origin main || { git rebase --abort 2>/dev/null; exit 1; }
+            sleep $((attempt * 2))
+          done
+          echo "::error::Failed to push poll commit after 5 attempts."
+          exit 1

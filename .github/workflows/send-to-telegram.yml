@@ -32,10 +32,24 @@ jobs:
         run: |
           git config user.name  "radiolearn-bot"
           git config user.email "radiolearn-bot@users.noreply.github.com"
-          if [ -n "$(git status --porcelain)" ]; then
-            git add -A
-            git commit -m "🤖 Outbox drained ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
-            git push
-          else
+          if [ -z "$(git status --porcelain)" ]; then
             echo "Nothing to commit (outbox was empty or all sends failed)."
+            exit 0
           fi
+          git add -A
+          git commit -m "🤖 Outbox drained ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+          # Rebase-safe push: main advances concurrently (daily routine Contents-API
+          # writes, Monday backup, poll-telegram pushes). A plain `git push` loses the
+          # race and the drain commit is never recorded, leaving an orphaned outbox
+          # file that gets re-sent next time. Retry with rebase on top of latest main.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — rebasing onto origin/main and retrying."
+            git pull --rebase origin main || { git rebase --abort 2>/dev/null; exit 1; }
+            sleep $((attempt * 2))
+          done
+          echo "::error::Failed to push drain commit after 5 attempts."
+          exit 1
