@@ -30,8 +30,20 @@ the user gets nothing.
 ## Persistence order (non-negotiable)
 
 FASE 9 order: `sm2_state.json` → `pills_log/<YYYY-MM-DD>.md` →
-`outbox/<pill_id>.json`. The state must land before the outbox so that when
-the receiver Action processes callbacks, it sees consistent SM-2 data.
+**(Monday) `backups/sm2_state.backup.monday.json`** → `outbox/<pill_id>.json`.
+The state must land before the outbox so that when the receiver Action
+processes callbacks, it sees consistent SM-2 data.
+
+The `outbox/<pill_id>.json` write MUST be the **last** Contents-API write of
+the routine. It triggers the `send-to-telegram` Action, which checks out
+`main`, sends, then commits the drain and pushes. Any routine write that
+lands on `main` *after* the outbox (e.g. the Monday backup) advances the
+branch while the Action is mid-flight and makes the Action's push lose the
+race — a red run + an orphaned outbox file that gets re-sent the next day
+(this is what broke on 2026-06-15). So on Mondays write the backup **before**
+the outbox. The `send-to-telegram` / `poll-telegram` workflows now also
+retry their push with `git pull --rebase`, but keeping the outbox last is
+the cheap structural guarantee.
 
 On `409`/`422` for `sm2_state.json`: refetch the sha and retry **once**.
 Do not write the outbox until the state has landed.
