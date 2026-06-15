@@ -1,0 +1,327 @@
+{
+  "pill_id": "20260615",
+  "created_at": "2026-06-15T06:50:30.580277+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*📊 Riepilogo settimanale RadioLearn*\n━━━━━━━━━━━━━━━━━━━━━━\n🎯 Pillole inviate: 7\n✅ Quiz risposti: 0/28 \\(0%\\)\n⭐ Qualità media: n/d / 5\n🔁 Carte dimenticate: 397\n🏆 Carte mature \\(\\>21gg\\): 0\n━━━━━━━━━━━━━━━━━━━━━━",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*💊 RadioLearn — Adenoma epatocellulare \\(HCA\\): sottotipi alla RM*\nRM Addome · Livello 2 \\(avanzato\\)\n\n*Concetto*\nL'HCA è un tumore epatocellulare benigno monoclonale, classicamente in donna giovane in terapia estroprogestinica; nell'uomo è legato ad androgeni/glicogenosi e porta un rischio maggiore di degenerazione\\. La classificazione genotipo\\-fenotipo \\(Bordeaux\\) guida prognosi e gestione:\n\n*1\\) HNF1α\\-inattivato \\(\\~35%\\)*\nsteatosi intralesionale diffusa → caduta di segnale omogenea in opposed\\-phase \\(signal dropout\\); iso/lievemente ipervascolare; minime complicanze, rischio maligno trascurabile\\. OCP; talora adenomatosi familiare \\(MODY3\\)\\.\n\n*2\\) Infiammatorio / IHCA \\(\\~35\\-40%, il più comune\\)*\natoll sign — iperintensità T2 a banda periferica persistente; enhancement T1 marcato e persistente nelle fasi tardive \\(sinusoidi dilatati\\)\\. Obesità/NAFLD, alcol, sindrome metabolica; massimo rischio emorragico; un sottogruppo attiva la β\\-catenina\\.\n\n*3\\) β\\-catenina\\-attivato \\(\\~10%\\)*\nnessun criterio imaging affidabile, può captare in fase epatobiliare \\(overlap con FNH e HCC\\); maschio, androgeni, glicogenosi; massimo rischio di trasformazione in HCC → spesso chirurgia a prescindere dalle dimensioni\\.\n\n*4\\) Non classificato \\(\\~10%\\)*\n\n*DD con FNH*\nla FNH trattiene il gadoxetato \\(iso/iperintensa in fase epatobiliare a 20 min, scar centrale ipointensa\\) perché ricca di epatociti funzionanti e dotti malformati con OATP1B3; la maggior parte degli HCA è ipointensa in HBP\\. Cicatrice centrale: tipica della FNH, assente nell'HCA \\(che mostra invece grasso/emorragia/necrosi\\)\\.\n\n*Gestione*\nrischio di emorragia \\(specie \\>5 cm e IHCA\\) e di malignità \\(β\\-catenina, sesso maschile\\); soglia chirurgica generalmente \\>5 cm, crescita, sottotipo β\\-catenina o paziente maschio\\. La sospensione di OCP/androgeni e il calo ponderale possono far regredire H\\-HCA e IHCA\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔗 Connessioni multidisciplinari*\n\n*Biochimica → immagine*: HNF1α è un fattore di trascrizione; la sua perdita spegne la L\\-FABP \\(fatty acid binding protein\\) → accumulo lipidico → il signal dropout in opposed\\-phase è la firma RM diretta di una mutazione molecolare\\.\n\n*Farmacologia \\(OATP1B3\\)*: il gadoxetato entra nell'epatocita tramite il trasportatore OATP1B3, lo stesso di bilirubina e statine: per questo la fase epatobiliare 'legge' la funzione epatocitaria, e farmaci come la rifampicina \\(inibitore OATP\\) possono ridurne l'uptake\\.\n\n*Storia/epidemiologia*: l'epidemia di HCA esplose con la pillola estroprogestinica negli anni '60\\-'70; oggi una seconda ondata 'metabolica' \\(IHCA\\) accompagna l'obesità — lo specchio radiologico della transizione epidemiologica\\.\n\n*Fisica del segnale \\(chemical shift\\)*: grasso e acqua precessano con \\~3,5 ppm di differenza \\(\\~220 Hz a 1,5T\\); al TE opposed\\-phase \\(\\~2,3 ms a 1,5T\\) i loro vettori sono antiparalleli e si cancellano → signal dropout\\. È la base del metodo di Dixon\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🖼 Immagini e fonti \\(Radiopaedia\\)*\n\n• [Hepatic adenoma — articolo](https://radiopaedia.org/articles/hepatic-adenoma?lang=us)\n• [Hepatocellular adenoma — caso](https://radiopaedia.org/cases/hepatocellular-adenoma?lang=us)\n• [Adenoma infiammatorio — articolo](https://radiopaedia.org/articles/inflammatory-hepatic-adenoma?lang=gb)\n• [Adenoma infiammatorio — caso](https://radiopaedia.org/cases/inflammatory-hepatic-adenoma-2?lang=us)\n• [Hepatocellular adenoma — caso 1](https://radiopaedia.org/cases/hepatocellular-adenoma-1?lang=us)\n• [DD: focal nodular hyperplasia — caso](https://radiopaedia.org/cases/focal-nodular-hyperplasia-9?lang=us)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso 1/3 — Galaxy sign \\(sarcoidosi\\)*\n\nDonna afro\\-caraibica di 38 anni, asintomatica\\. HRCT: macronoduli di 1\\-2 cm peri\\-broncovascolari e subpleurici con micronoduli satelliti lungo le scissure, linfoadenopatia ilare bilaterale simmetrica\\. Quale distribuzione nodulare definisce il quadro e ne orienta la diagnosi?\n\n*A\\)* centrilobulare con tree\\-in\\-bud \\(pattern delle piccole vie aeree\\)\n*B\\)* random/ematogena, uniforme in tutti i campi\n*C\\)* perilinfatica \\(peribroncovascolare \\+ subpleurica/scissurale \\+ setti interlobulari\\)\n*D\\)* miliare, noduli <2 mm uniformemente diffusi\n\n||Risposta corretta: C — la distribuzione perilinfatica \\(scissure, subpleura, peribroncovascolare\\) con linfoadenopatia ilare simmetrica è la firma della sarcoidosi; il galaxy nasce dalla confluenza di questi micronoduli perilinfatici\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso 2/3 — Alone di ground\\-glass*\n\nAttorno al macronodulo del galaxy sign si osserva un sottile alone di ground\\-glass\\. Qual è il correlato istopatologico più accreditato?\n\n*A\\)* emorragia alveolare perilesionale \\(capillarite\\)\n*B\\)* microgranulomi interstiziali non caseanti sotto la risoluzione dell'HRCT\n*C\\)* invasione angiotrofica fungina \\(come nell'aspergillosi\\)\n*D\\)* edema interstiziale da ostruzione linfatica\n\n||Risposta corretta: B — l'alone non è alveolite né emorragia, ma una corona di microgranulomi interstiziali troppo piccoli per essere risolti singolarmente — diverso dall'halo emorragico/angioinvasivo delle micosi\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso 3/3 — DD sarcoidosi vs TB*\n\nGalaxy sign in un paziente con dubbio sarcoidosi vs tubercolosi\\. In assenza di necrosi caseosa e di cavitazione, quale elemento rafforza di più la sarcoidosi?\n\n*A\\)* stabilità o regressione spontanea nel follow\\-up, senza terapia anti\\-TB\n*B\\)* comparsa di versamento pleurico essudativo\n*C\\)* cavitazione progressiva con livello idro\\-aereo\n*D\\)* captazione FDG intensa alla PET\n\n||Risposta corretta: A — la stabilità/regressione spontanea nel tempo senza trattamento anti\\-tubercolare depone per sarcoidosi; la TB tende a progredire e cavitarsi, e l'avidità FDG è aspecifica \\(elevata in entrambe\\)\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧠 Domanda 1/4 — HCA*\n\nAdenoma con marcata caduta di segnale omogenea nelle immagini chemical\\-shift in opposizione di fase \\(opposed\\-phase\\) rispetto all'in\\-phase\\. Sottotipo molecolare più probabile e razionale?\n\n*A\\)* infiammatorio \\(IHCA\\), per le telangectasie\n*B\\)* HNF1α\\-inattivato: steatosi intralesionale diffusa per perdita della L\\-FABP\n*C\\)* β\\-catenina\\-attivato, per l'alto contenuto di glicogeno\n*D\\)* non classificato, per assenza di tratti distintivi\n\n||Risposta corretta: B — l'inattivazione di HNF1α spegne la L\\-FABP → accumulo lipidico diffuso → signal dropout omogeneo in opposed\\-phase; è il sottotipo con prognosi migliore e minime complicanze\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260615|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260615|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260615|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260615|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260615|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260615|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧠 Domanda 2/4 — HCA*\n\nDonna obesa con steatosi e sindrome metabolica; adenoma con iperintensità T2 a banda periferica persistente \\(atoll sign\\) ed enhancement T1 marcato e persistente nelle fasi tardive post\\-gadolinio\\. Sottotipo e implicazione principale?\n\n*A\\)* HNF1α: basso rischio, nessuna sorveglianza necessaria\n*B\\)* infiammatorio \\(IHCA\\): sottotipo più frequente, massimo rischio emorragico\n*C\\)* β\\-catenina: unico sottotipo con indicazione chirurgica\n*D\\)* FNH: lesione non neoplastica, nessun rischio\n\n||Risposta corretta: B — l'IHCA \\(telangectasico\\) è il sottotipo più comune, legato a obesità/NAFLD/alcol; mostra atoll sign in T2 ed enhancement persistente, ed ha la più alta incidenza di emorragia\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260615|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260615|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260615|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260615|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260615|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260615|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧠 Domanda 3/4 — HCA*\n\nQuale affermazione sul rischio di trasformazione maligna dei sottotipi di HCA è corretta?\n\n*A\\)* il sottotipo HNF1α è quello a maggior rischio di degenerazione in HCC\n*B\\)* il sottotipo β\\-catenina\\-attivato ha il maggior rischio di trasformazione in HCC e può mimare l'HCC all'imaging\n*C\\)* nessun sottotipo di HCA può trasformarsi in HCC\n*D\\)* il rischio di malignità è identico in tutti i sottotipi\n\n||Risposta corretta: B — il sottotipo β\\-catenina\\-attivato \\(maschio, androgeni, glicogenosi\\) ha il massimo rischio di trasformazione in HCC e overlap imaging con l'HCC → spesso chirurgia a prescindere dalle dimensioni\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260615|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260615|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260615|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260615|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260615|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260615|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧠 Domanda 4/4 — HCA*\n\nNodulo ipervascolare in fase arteriosa in donna giovane\\. Quale comportamento nella fase epatobiliare \\(Gd\\-EOB\\-DTPA, \\~20 min\\) orienta verso FNH piuttosto che verso un tipico HCA?\n\n*A\\)* ipointensità netta \\(washout dell'agente epatospecifico\\) con difetto centrale\n*B\\)* iso/iperintensità da ritenzione del gadoxetato \\(uptake epatocitario via OATP1B3 e ridotta escrezione\\)\n*C\\)* assenza di qualunque enhancement in fase arteriosa\n*D\\)* presenza costante di calcificazioni grossolane\n\n||Risposta corretta: B — la FNH, ricca di epatociti funzionanti e dotti malformati, trattiene il gadoxetato \\(iso/iperintensa in fase epatobiliare, scar ipointensa\\), mentre la maggior parte degli HCA è ipointensa in HBP; eccezioni: alcuni b\\-HCA/IHCA possono trattenere\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260615|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260615|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260615|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260615|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260615|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260615|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🛠 Rapporto operativo*\n• Callback processati: 0\n• Carte resettate \\(FASE 3\\): 51\n• pill\\_id 20260615 · topic: Adenoma epatocellulare \\(sottotipi RM\\)\n• Ripasso incluso: sì \\(20260514:0, 20260514:1, 20260514:2\\)\n• Inbox cancellati: 0\n• Backup lunedì: eseguito\n• Warning: nessuna risposta utente registrata negli ultimi 7 giorni",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
