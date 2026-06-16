@@ -1,0 +1,191 @@
+{
+  "pill_id": "20260616",
+  "created_at": "2026-06-16T06:46:14.636893+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🫁 *RadioLearn — Embolia polmonare acuta: CTPA & RV strain*\n\n*Concetto del giorno*\nLa CTPA è il gold standard per l'EP acuta \\(sensibilità/specificità prossime al 100% fino al livello segmentario\\)\\. Si distinguono segni diretti e segni indiretti / di sovraccarico destro, che guidano la stratificazione del rischio\\.\n\n*Segni diretti*\n• Difetto di riempimento endoluminale: 'polo mint sign' \\(asse corto: difetto centrale circondato da contrasto\\), 'railway track' \\(asse lungo: trombo che galleggia nel lume\\), occlusione completa con allargamento del vaso\\.\n• Acuto vs cronico: l'embolo acuto è centrale/galleggiante e dilata il vaso; il cronico è eccentrico, aderente alla parete, con web/bande, calcificazioni e riduzione di calibro\\.\n\n*Sovraccarico VD \\(valore prognostico\\)*\n• RV/LV ≥ 0\\.9 \\(piano assiale o 4\\-camere ricostruito\\): predittore indipendente di mortalità a 30 giorni\\.\n• Bowing/appiattimento del setto interventricolare verso il VS \\(interdipendenza ventricolare\\)\\.\n• Reflusso di mdc in VCI e vene sovraepatiche\\.\n• Dilatazione del tronco polmonare \\(\\>29 mm\\) e dell'azygos\\.\n\n*Infarto polmonare*\n• Gobba di Hampton: opacità periferica a base pleurica, convessa verso l'ilo; reversed halo \\(atollo\\) su TC; tipicamente SENZA broncogramma aereo \\(utile DD con polmonite\\)\\. Più frequente ai lobi inferiori\\.\n\n*Segni in radiografia \\(storici, bassa sensibilità\\)*\n• Westermark \\(oligoemia/ipertrasparenza focale\\), Fleischner \\(dilatazione dell'arteria polmonare\\), knuckle sign \\(brusco tapering\\), gobba di Hampton\\.\n\n*Stratificazione ESC 2019*\nInstabilità emodinamica \\= alto rischio; disfunzione VD all'imaging \\+ biomarcatori \\(troponina/BNP\\) separano intermedio\\-alto vs intermedio\\-basso; sPESI individua il basso rischio\\.\n\n*Connessioni multidisciplinari*\n• Fisica/fisiopatologia: il VD è una camera a parete sottile \\(volume pump\\) mal adattata a un brusco aumento di afterload; oltre \\~40 mmHg di PAPs acuta dilata e va in cor pulmonale acuto \\(legge di Laplace: ↑raggio e ↑pressione → ↑stress di parete → bowing settale che riduce il riempimento del VS\\)\\.\n• Storia: triade di Virchow \\(1856 — stasi, ipercoagulabilità, danno endoteliale\\); 'embolo' dal greco émbolos \\= cuneo/tappo; i segni portano i nomi di Hampton \\(1940\\) e Nils Westermark \\(1938\\)\\.\n• Matematica clinica: D\\-dimero con cutoff aggiustato per età \\(età ×10 µg/L oltre i 50 anni\\) aumenta la specificità senza perdere sensibilità; score di Wells/Geneva per la probabilità pre\\-test\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "📸 *Immagini \\(verificate via web\\_search — Radiopaedia\\)*\n\n• [Saddle PE con RV strain e infarto polmonare \\(TC\\)](https://radiopaedia.org/cases/saddle-pulmonary-embolism-with-right-heart-strain-and-pulmonary-infarction)\n• [Saddle embolus con segno di Westermark \\(caso\\)](https://radiopaedia.org/cases/saddle-pulmonary-embolus-with-westermark-sign)\n• [Gobba di Hampton \\+ infarto \\(caso\\)](https://radiopaedia.org/cases/pulmonary-emboli-and-lung-infarction-with-hampton-hump)\n• [Right heart strain \\(articolo\\)](https://radiopaedia.org/articles/right-heart-strain)\n• [Pulmonary embolism \\(articolo di riferimento\\)](https://radiopaedia.org/articles/pulmonary-embolism)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*❓ Domanda 1/4*  \\(Livello 1 — esperto\\)\n\nNella stratificazione del rischio dell'EP acuta su CTPA, qual è il reperto più robusto di disfunzione ventricolare destra, associato a prognosi peggiore?\n\nA\\) Rapporto RV/LV ≥ 0\\.9 misurato sui diametri massimi\nB\\) Diametro del tronco polmonare < 25 mm\nC\\) Bowing del setto interventricolare convesso verso il VD\nD\\) Trombo limitato a una singola arteria segmentaria\n\n||Risposta corretta: A — Un rapporto RV/LV ≥ 0\\.9 \\(alcuni usano ≥1\\.0\\) sul 4\\-camere ricostruito o sull'assiale è predittore indipendente di mortalità a 30 giorni\\. Il setto si incurva verso il VS \\(non il VD\\), il tronco polmonare nell'EP grave è dilatato \\(\\>29 mm\\) e un trombo segmentario isolato è basso rischio\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260616|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260616|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260616|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260616|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260616|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260616|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*❓ Domanda 2/4*  \\(Livello 1 — esperto\\)\n\nQuale reperto è un VERO difetto di riempimento da EP acuta e non un pitfall della CTPA?\n\nA\\) Difetto centrale circondato da contrasto \\('polo mint sign'\\) in asse corto\nB\\) Aumento di densità arteriosa basale da artefatto da movimento respiratorio\nC\\) Scarsa opacizzazione arteriosa da timing subottimale \\(transient interruption of contrast\\)\nD\\) Banda ipodensa lineare in vena polmonare da flow artifact\n\n||Risposta corretta: A — Il 'polo mint sign' \\(difetto centrale circondato da contrasto in asse corto\\) e il 'railway track' in asse lungo sono difetti genuini\\. Le altre opzioni sono pitfall: artefatti da movimento, timing/transient interruption of contrast e flow artifact venoso simulano o mascherano emboli\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260616|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260616|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260616|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260616|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260616|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260616|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*❓ Domanda 3/4*  \\(Livello 1 — esperto\\)\n\nRiguardo all'infarto polmonare da EP, quale affermazione è corretta?\n\nA\\) È più frequente nei lobi superiori per la maggiore perfusione\nB\\) La gobba di Hampton è un'opacità periferica a base pleurica, convessa verso l'ilo\nC\\) Il reversed halo \\(atollo\\) è patognomonico di infarto ed esclude COP/aspergillosi\nD\\) L'infarto mostra tipicamente broncogramma aereo per conservazione delle vie aeree\n\n||Risposta corretta: B — La gobba di Hampton è un'opacità a base pleurica convessa verso l'ilo da infarto, più frequente ai lobi INFERIORI\\. Il reversed halo è aspecifico \\(anche COP, aspergillosi angioinvasiva, GPA\\)\\. L'infarto tipicamente NON ha broncogramma aereo \\(emorragia/occlusione\\), utile DD con la polmonite\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260616|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260616|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260616|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260616|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260616|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260616|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*❓ Domanda 4/4*  \\(Livello 1 — esperto\\)\n\nIl segno di Westermark sulla radiografia del torace in corso di EP corrisponde a:\n\nA\\) Dilatazione dell'arteria polmonare discendente \\(segno di Fleischner\\)\nB\\) Oligoemia focale \\(ipertrasparenza\\) distale all'occlusione embolica\nC\\) Versamento pleurico emorragico\nD\\) Atelettasia lineare subsegmentaria basale\n\n||Risposta corretta: B — Il segno di Westermark è un'oligoemia regionale \\(ipertrasparenza\\) a valle dell'occlusione\\. La dilatazione dell'arteria polmonare è il segno di Fleischner; il brusco tapering vasale è il knuckle sign\\. Sono segni storici, poco sensibili e poco specifici\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260616|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260616|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260616|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260616|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260616|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260616|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "📋 RadioLearn — rapporto operativo\n• pill_id: 20260616 — Topic: Embolia polmonare acuta (CTPA, RV strain) — Livello 1\n• Callback processati: 7\n• Carte resettate (no-show): 58\n• Ripasso incluso: no (days_since_last_review=1; soglia ≥3)\n• Inbox cancellati: 1\n• Warning: nessuno"
+      }
+    }
+  ]
+}
