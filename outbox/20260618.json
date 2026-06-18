@@ -1,0 +1,338 @@
+{
+  "pill_id": "20260618",
+  "created_at": "2026-06-18T06:48:57.449949Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🫁 RadioLearn — Reversed halo / Atoll sign \\(HRCT\\)*\n_Torace/Polmone · Livello 1 \\(esperto\\) · pill 20260618_\n\n*Definizione*\nArea centrale di ground\\-glass circondata da un anello — completo o crescentico, spessore \\>\\=2 mm — di consolidazione\\. Descritto per primo nella organizing pneumonia \\(Voloudaki 1996 «atoll sign»; Kim 2003 «reversed halo»\\)\\.\n\n*Substrato istopatologico \\(nella OP\\)*\nCentro GGO \\= flogosi settale alveolare e detriti negli spazi aerei; anello denso \\= tessuto di granulazione \\(corpi di Masson\\) che riempie dotti alveolari e bronchioli alla periferia del lobulo secondario\\. Il segno compare in circa 1/5 delle COP\\.\n\n*Perché conta*\nÈ un pattern, non una diagnosi: va integrato con clinica, stato immunitario, distribuzione e reperti accessori \\(vedi DD nel messaggio seguente\\)\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*DD pattern\\-based del reversed halo sign*\n\n*Cause NON infettive*\n• Organizing pneumonia: COP idiopatica o secondaria \\(connettiviti, farmaci, post\\-radioterapia, COVID\\-19\\)\n• Sarcoidosi \\(anelli a distribuzione perilinfatica\\)\n• Vasculiti / granulomatosi con poliangioite \\(GPA\\)\n• Infarto polmonare da TEP \\(anello emorragico, base pleurica, vaso afferente\\)\n• Polmonite eosinofila cronica, IgG4\\-related disease, linfoma\n\n*Cause infettive*\n• Granulomatose: TB attiva \\(anello nodulare \\+ tree\\-in\\-bud da spread endobronchiale\\), istoplasmosi, paracoccidioidomicosi\n• Fungine angioinvasive: mucormicosi \\> aspergillo nel neutropenico — il RHS precoce è altamente suggestivo\n\n*Chiavi di lettura rapida*\nAnello liscio/omogeneo, subacuto, migrante → OP\\. Anello nodulare \\+ noduli interni \\+ tree\\-in\\-bud → granulomatoso/TB\\. Immunodepresso con RHS precoce → fungino angioinvasivo fino a prova contraria\\. NB: l'«halo» dritto è un nodulo SOLIDO con alone di GGO \\(es\\. aspergillosi angioinvasiva\\); il «reversed» è la geometria opposta\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧠 Connessioni multidisciplinari*\n\n*Geologia · Darwin*\n«Atollo» \\= anello corallino con laguna centrale\\. Darwin \\(The Structure and Distribution of Coral Reefs, 1842\\) lo spiegò con la subsidenza: l'isola vulcanica sprofonda mentre il corallo cresce verso l'alto → resta un anello denso \\(corallo \\= consolidazione\\) attorno a un centro chiaro \\(laguna \\= ground\\-glass\\)\\. La TC ricapitola la geomorfologia\\.\n\n*Geometria*\nTopologicamente un «anulus»: un disco con un foro\\. «Anello completo» vs «crescentico» \\= curva chiusa o aperta — distinzione che pesa nella DD\\.\n\n*Storia dei nomi*\nDue eponimi per un solo pattern: «atoll sign» \\(Voloudaki\\) e «reversed halo» \\(Kim\\)\\. RadioGraphics 2014 ha discusso se siano lo stesso quadro tomografico — di fatto lo sono\\.\n\n*Mnemonica laterale*\n«Uovo all'occhio di bue invertito»: il tuorlo \\(GGO\\) è chiaro, l'albume \\(anello\\) è denso\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🖼 Immagini \\(fonti verificate via web\\_search\\)*\n\n[Radiopaedia — Reversed halo sign \\(lungs\\)](https://radiopaedia.org/articles/reversed-halo-sign-lungs)\n[Radiopaedia — Atoll sign \\(lungs\\)](https://radiopaedia.org/articles/atoll-sign-lungs)\n[Caso — COP con reverse halo](https://radiopaedia.org/cases/cryptogenic-organising-pneumonia-with-reverse-halo-sign)\n[Caso — Reverse halo sign](https://radiopaedia.org/cases/reverse-halo-sign-2)\n[Caso — COVID\\-19 reversed halo](https://radiopaedia.org/cases/covid-19-pneumonia-reversed-halo-sign)\n[Radiopaedia — Aspergillosi angioinvasiva \\(halo dritto\\)](https://radiopaedia.org/articles/angioinvasive-aspergillosis)\n[Wikimedia — CT images of reverse halo sign](https://commons.wikimedia.org/wiki/Category:CT_images_of_reverse_halo_sign)\n[RadioGraphics — Atoll vs reversed halo \\(2014\\)](https://pubs.rsna.org/doi/10.1148/rg.345130142)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso 1 · MSA\\-C \\(hot cross bun\\)*\n\nUomo di 58 anni: atassia progressiva, parkinsonismo non responsivo a L\\-DOPA e ipotensione ortostatica; la FLAIR pontina mostra l'hot cross bun\\. Qual è il substrato MOLECOLARE della malattia di base?\n\nA\\) Tau iperfosforilata nei neuroni \\(taupatia\\)\nB\\) Inclusioni citoplasmatiche gliali di alfa\\-sinucleina \\(corpi di Papp–Lantos\\) negli oligodendrociti\nC\\) Espansione poliglutamminica \\(CAG\\) con inclusioni neuronali\nD\\) Depositi di TDP\\-43 nei motoneuroni\n\n||Risposta corretta: B — La MSA è una alfa\\-sinucleinopatia con inclusioni citoplasmatiche oligodendrogliali \\(Papp–Lantos, 1989\\); a differenza del Parkinson l'alfa\\-sinucleina si aggrega nella glia, non nei neuroni dopaminergici\\. C descrive le atassie spinocerebellari \\(DD\\), A le taupatie, D la SLA/FTD\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260515|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260515|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso 2 · MSA\\-C vs infarto pontino*\n\nQuale caratteristica orienta verso l'hot cross bun della MSA\\-C piuttosto che verso un infarto pontino paramediano bilaterale \\(«reverse hot cross bun»\\)?\n\nA\\) Marcata restrizione in DWI con basso ADC\nB\\) Croce SIMMETRICA senza restrizione DWI, su atrofia ponto\\-cerebellare cronica\nC\\) Enhancement anulare post\\-gadolinio\nD\\) Coinvolgimento delle ali antero\\-laterali del ponte\n\n||Risposta corretta: B — La croce della MSA\\-C è simmetrica \\(simmetria diedrica D2\\), cronica \\(gliosi, niente restrizione DWI\\) e si accompagna ad atrofia di ponte e peduncoli cerebellari medi\\. L'infarto paramediano è acuto \\(DWI\\+\\), spesso asimmetrico; D descrive proprio il «reverse» \\(ali antero\\-laterali\\), non la MSA\\-C\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260515|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260515|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso 3 · Malattia di Caroli*\n\nPaziente con malattia di Caroli nota: su una delle dilatazioni sacculari compare una massa solida focale con restrizione in DWI ed enhancement progressivo/tardivo\\. Cosa sospetti per primo?\n\nA\\) Ascesso piogenico\nB\\) Colangiocarcinoma sovrapposto \\(rischio \\~7% lifetime\\)\nC\\) Amartoma biliare \\(von Meyenburg\\)\nD\\) Adenoma epatocellulare\n\n||Risposta corretta: B — La stasi biliare cronica della malattia di Caroli predispone a colangiocarcinoma \\(\\~7% lifetime\\): cerca ispessimenti parietali, massa solida con restrizione DWI ed enhancement progressivo, linfoadenopatie\\. Gli amartomi di von Meyenburg sono micro\\-cisti non\\-enhancing; l'ascesso ha clinica settica e centro non\\-enhancing; l'HCA è lesione epatocellulare, non biliare\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260517|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260517|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260517|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260517|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260517|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260517|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🆕 Domanda 1 · Reversed halo — istologia*\n\nNella organizing pneumonia, a cosa corrispondono il CENTRO e l'ANELLO del reversed halo?\n\nA\\) Centro: tessuto di granulazione; anello: ground\\-glass emorragico\nB\\) Centro: GGO da flogosi settale alveolare; anello: consolidazione da tessuto di granulazione nei dotti alveolari periferici\nC\\) Centro: necrosi caseosa; anello: granulomi epitelioidi\nD\\) Centro: enfisema; anello: fibrosi a nido d'ape\n\n||Risposta corretta: B — Nella OP il centro GGO è flogosi settale alveolare con detriti, mentre l'anello denso è tessuto di granulazione \\(corpi di Masson\\) nei dotti alveolari/bronchioli alla periferia del lobulo\\. A inverte i due; C è la TB \\(DD\\); D è l'enfisema/UIP\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260618|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260618|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260618|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260618|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260618|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260618|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🆕 Domanda 2 · Reversed halo nel neutropenico*\n\nIn un paziente neutropenico \\(post\\-chemio per leucemia\\) con reversed halo sign precoce, quale diagnosi va considerata per prima e perché?\n\nA\\) COP idiopatica, perché è la causa più frequente del segno\nB\\) Infezione fungina angioinvasiva \\(mucormicosi \\> aspergillo\\): nell'immunodepresso il RHS precoce è altamente suggestivo\nC\\) Sarcoidosi\nD\\) Polmonite eosinofila cronica\n\n||Risposta corretta: B — Anche se la OP è la causa più comune del RHS in generale, nel neutropenico il RHS precoce è fortemente suggestivo di infezione fungina angioinvasiva: l'anello è emorragia/infarto attorno alla necrosi centrale e può evolvere in air\\-crescent\\. Indagine urgente \\(galattomannano, BAL, biopsia\\) e terapia\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260618|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260618|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260618|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260618|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260618|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260618|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🆕 Domanda 3 · Reversed halo — verso TB*\n\nQuale reperto, dentro o sulla parete del reversed halo, sposta il sospetto verso TB attiva?\n\nA\\) Anello perfettamente liscio e omogeneo\nB\\) Parete nodulare e/o noduli interni con tree\\-in\\-bud satellite\nC\\) Distribuzione subpleurica migrante\nD\\) Vaso afferente all'apice con base pleurica\n\n||Risposta corretta: B — Anello nodulare, noduli interni e tree\\-in\\-bud indicano disseminazione endobronchiale e orientano verso eziologia granulomatosa, soprattutto TB attiva \\(il RHS è più frequente nelle malattie granulomatose e, fra queste, nella TB\\)\\. L'anello liscio è più tipico della OP; D suggerisce un infarto\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260618|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260618|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260618|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260618|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260618|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260618|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🆕 Domanda 4 · Halo dritto vs invertito*\n\nCome si distingue il reversed halo sign dal classico CT halo sign \\(«alone» dritto\\)?\n\nA\\) Sono sinonimi\nB\\) Halo dritto \\= nodulo SOLIDO centrale con alone di GGO \\(es\\. aspergillosi angioinvasiva\\); reversed \\= centro GGO con anello di CONSOLIDAZIONE\nC\\) L'halo invertito si vede solo in RM\nD\\) L'halo classico è patognomonico di COP\n\n||Risposta corretta: B — Il CT halo sign è un nodulo solido con alone periferico di GGO \\(emorragia/infiltrato\\), tipico ma non specifico dell'aspergillosi angioinvasiva e di altre lesioni emorragiche; il reversed halo inverte la geometria \\(GGO centrale \\+ anello consolidato\\)\\. Non è un fenomeno RM \\(C\\) e l'halo dritto non è patognomonico di COP \\(D\\)\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260618|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260618|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260618|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260618|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260618|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260618|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*✅ RadioLearn — rapporto operativo*\nPill 20260618 · Reversed halo / atoll sign \\(HRCT, Livello 1 esperto\\)\nCallback processati: 0 · Carte resettate \\(no\\-show\\): 66\nRipasso incluso: sì — 3 carte \\(MSA\\-C x2, Caroli x1\\)\nInbox cancellati: 0 · Backup lunedì: no\nWarning: nessuna risposta ai quiz in inbox \\(0 callback\\)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
