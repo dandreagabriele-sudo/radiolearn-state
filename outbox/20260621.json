@@ -1,0 +1,329 @@
+{
+  "pill_id": "20260621",
+  "created_at": "2026-06-21T06:47:32.865011+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🫀 *RadioLearn — Pillola del 2026\\-06\\-21*\n\n*CAD\\-RADS 2\\.0 — refertazione standardizzata della coronaro\\-TC*\n\nIl CAD\\-RADS \\(SCCT/ACR/NASCI, endorsement ACC\\) standardizza il referto della coronaro\\-TC\\. Introdotto nel 2016 e aggiornato a 2\\.0 nel 2022, esprime un punteggio per\\-paziente 0\\-5 \\(basato sulla stenosi del segmento PIU' stenotico\\) piu' una serie di modificatori\\. La categoria riflette la stenosi luminale, non il burden globale\\.\n\n*Categorie \\(stenosi % diametro\\):*\n• 0 — 0%: nessuna placca\\.\n• 1 — 1\\-24%: minima, non ostruttiva\\.\n• 2 — 25\\-49%: lieve, non ostruttiva\\.\n• 3 — 50\\-69%: moderata\\.\n• 4A — 70\\-99% \\(mono/bivasale\\); 4B — \\>\\=70% trivasale ostruttiva o left main \\>\\=50%: severa\\.\n• 5 — 100%: occlusione totale\\.\n• N — non\\-diagnostico/non valutabile\\.\n\n*Modificatori 2\\.0:*\n• P \\(plaque burden\\) P1\\-P4: carico aterosclerotico \\(visivo o calcium score Agatston: P1 1\\-100, P2 101\\-300, P3 301\\-999, P4 \\>\\=1000\\)\\.\n• HRP: high\\-risk plaque \\(\\>\\=2 tra low\\-attenuation <30 HU, positive remodeling, spotty calcium, napkin\\-ring sign\\)\\.\n• I: ischemia \\(CT\\-FFR <\\=0,80 o perfusione positiva\\)\\.\n• S stent · G graft/bypass · E eccezioni/anomalie non aterosclerotiche\\.\n\n*Gestione:*\n0 \\-\\> nessun test; 1\\-2 \\-\\> prevenzione e ottimizzazione fattori di rischio; 3 \\-\\> test funzionale/CT\\-FFR; 4 \\-\\> ICA o test funzionale \\+ terapia aggressiva; 5 \\-\\> ICA/rivascolarizzazione\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔗 *Connessioni multidisciplinari*\n\n• Geometria: CAD\\-RADS grada la stenosi di DIAMETRO, ma l'emodinamica dipende dall'AREA\\. Per un vaso circolare A e' proporzionale a r^2: una stenosi del 50% di diametro \\= \\~75% di riduzione d'area \\(1 \\- 0,5^2\\)\\. Da qui la non\\-linearita' tra '% stenosi' e impatto funzionale\\.\n\n• Fisica — legge di Hagen\\-Poiseuille: il flusso Q e' proporzionale a r^4 \\(Q \\= pi\\*DeltaP\\*r^4 / 8\\*eta\\*L\\)\\. Dimezzare il raggio riduce il flusso di \\~16 volte: ecco perche' stenosi 'moderate' possono essere funzionalmente critiche e CAD\\-RADS 2\\.0 integra CT\\-FFR/perfusione \\(modificatore I\\)\\.\n\n• Storia/biblioteconomia: i 'Reporting and Data System' discendono dal BI\\-RADS mammografico \\(ACR, 1993\\): un lessico controllato che riduce la variabilita' inter\\-osservatore — la stessa logica dei thesauri documentari e della tassonomia linneana\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🖼 *Immagini & fonti*\n\n• [CAD\\-RADS 2\\.0 — articolo Radiopaedia](https://radiopaedia.org/articles/coronary-artery-disease-reporting-and-data-system-cad-rads-2)\n• [Coronary artery disease — caso Radiopaedia](https://radiopaedia.org/cases/coronary-artery-disease)\n• [Coronary CTA \\(dual\\-energy\\) — caso Radiopaedia](https://radiopaedia.org/cases/173643)\n• [Vulnerable / high\\-risk plaque — articolo Radiopaedia](https://radiopaedia.org/articles/vulnerable-plaque)\n• [Coronary CT \\(edge correction\\) — caso Radiopaedia](https://radiopaedia.org/cases/coronary-ct-edge-correction)\n• [CAD\\-RADS 2\\.0 — documento JCCT 2022 \\(full text\\)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11502610/)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔁 *Ripasso 1/3*\n\nIn un paziente con adenopatia ilare bilaterale e macronoduli ai lobi superiori, i micronoduli satellite si dispongono lungo le scissure, l'interstizio peribroncovascolare e le superfici subpleuriche\\. Questa distribuzione orienta verso quale categoria patologica?\n\nA\\) Distribuzione centrilobulare \\(bronchiolocentrica\\) — tipica di HP/infezioni delle piccole vie\nB\\) Distribuzione perilinfatica — tipica di sarcoidosi \\(e linfangite carcinomatosa\\)\nC\\) Distribuzione random \\(ematogena\\) — tipica di miliare/metastasi\nD\\) Distribuzione panlobulare uniforme\n\n||Risposta corretta: B — noduli lungo scissure, interstizio peribroncovascolare e subpleura definiscono il pattern perilinfatico; nel galaxy sign sarcoideo i micronoduli perilinfatici confluiscono nel macronodulo\\. Centrilobulare \\= bronchiolocentrico; random \\= ematogeno\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|0|0"
+              }
+            ]
+          ]
+        },
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔁 *Ripasso 2/3*\n\nIl sottile alone di ground\\-glass attorno al macronodulo del galaxy sign sarcoideo e' dovuto a microgranulomi non caseanti sotto la risoluzione dell'HRCT\\. In quale entita', invece, l'alone di ground\\-glass peri\\-nodulare rappresenta emorragia da invasione vascolare \\(halo emorragico\\)?\n\nA\\) Aspergillosi \\(o mucormicosi\\) angioinvasiva nel neutropenico\nB\\) Polmonite organizzativa \\(OP\\)\nC\\) Adenocarcinoma a crescita lepidica\nD\\) Sarcoidosi in fase attiva\n\n||Risposta corretta: A — nelle micosi angioinvasive l'halo e' emorragia perilesionale da invasione vascolare in paziente neutropenico\\. Nel galaxy sarcoideo l'alone e' invece microgranulomatoso, non emorragico\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|1|0"
+              }
+            ]
+          ]
+        },
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔁 *Ripasso 3/3*\n\nUn macronodulo 'a galassia' va distinto da TB e fibrosi massiva progressiva \\(PMF\\) della silicosi\\. Oltre alla stabilita' nel follow\\-up senza terapia, quale elemento depone PIU' a favore della sarcoidosi rispetto alla TB?\n\nA\\) Cavitazione con livello idro\\-aereo\nB\\) Assenza di necrosi caseosa, distribuzione perilinfatica e adenopatia ilare bilaterale simmetrica\nC\\) Tree\\-in\\-bud diffuso con escavazione\nD\\) Versamento pleurico essudativo unilaterale\n\n||Risposta corretta: B — granulomi non caseanti, distribuzione perilinfatica e adenopatia ilare simmetrica favoriscono la sarcoidosi; cavitazione, caseosi e tree\\-in\\-bud orientano verso TB\\. La PMF silicotica ha contesto espositivo, migrazione verso gli ili e calcificazioni 'a guscio d'uovo'\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|2|0"
+              }
+            ]
+          ]
+        },
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 1/4 — CAD\\-RADS 2\\.0*\n\nCoronaro\\-TC: la lesione piu' severa e' una stenosi del 60% del diametro nel tratto medio della discendente anteriore \\(LAD\\)\\. Quale categoria CAD\\-RADS 2\\.0?\n\nA\\) CAD\\-RADS 2\nB\\) CAD\\-RADS 3\nC\\) CAD\\-RADS 4A\nD\\) CAD\\-RADS 4B\n\n||Risposta corretta: B — 50\\-69% \\= CAD\\-RADS 3 \\(stenosi moderata\\)\\. 25\\-49% \\= 2; 70\\-99% mono/bivasale \\= 4A; stenosi \\>\\=70% trivasale ostruttiva o left main \\>\\=50% \\= 4B\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260621|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260621|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260621|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260621|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260621|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260621|0|0"
+              }
+            ]
+          ]
+        },
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 2/4 — CAD\\-RADS 2\\.0*\n\nQuali reperti definiscono una placca ad alto rischio \\(HRP\\), modificatore che si affianca alla categoria CAD\\-RADS?\n\nA\\) Calcificazione densa concentrica con lume regolare\nB\\) \\>\\=2 tra: bassa attenuazione \\(<30 HU\\), rimodellamento positivo, spotty calcium, napkin\\-ring sign\nC\\) Stent pervio senza iperplasia neointimale\nD\\) Calcium score di Agatston \\= 0\n\n||Risposta corretta: B — la HRP richiede \\>\\=2 tra low\\-attenuation plaque \\(<30 HU\\), positive remodeling, calcificazioni puntiformi \\(spotty\\) e napkin\\-ring sign: predittori indipendenti di sindrome coronarica acuta\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260621|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260621|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260621|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260621|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260621|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260621|1|0"
+              }
+            ]
+          ]
+        },
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 3/4 — CAD\\-RADS 2\\.0*\n\nUna stenosi del 55% \\(CAD\\-RADS 3\\) presenta CT\\-FFR di 0,74 a valle\\. Come si completa la categorizzazione e cosa implica?\n\nA\\) Si declassa a CAD\\-RADS 2 perche' la FFR e' un dato anatomico\nB\\) Si aggiunge il modificatore I \\(ischemia\\): CT\\-FFR <\\=0,80 indica significativita' emodinamica\nC\\) Si aggiunge il modificatore S \\(stent\\)\nD\\) Una FFR \\>\\=0,70 esclude sempre l'ischemia\n\n||Risposta corretta: B — CT\\-FFR <\\=0,80 definisce ischemia lesione\\-specifica \\-\\> modificatore I\\. Una stenosi anatomicamente moderata puo' essere funzionalmente critica \\(cfr\\. Poiseuille: il flusso scala con r^4\\): per questo CAD\\-RADS 2\\.0 integra il dato funzionale\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260621|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260621|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260621|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260621|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260621|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260621|2|0"
+              }
+            ]
+          ]
+        },
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 4/4 — CAD\\-RADS 2\\.0*\n\nIn CAD\\-RADS 2\\.0, cosa indica la categoria 'N' e quali scenari indirizzano comunque verso l'angiografia coronarica invasiva \\(ICA\\)?\n\nA\\) N \\= esame normale; nessuno scenario richiede ICA\nB\\) N \\= non\\-diagnostico/non valutabile \\(blooming, artefatti di moto\\); le categorie 4B \\(left main \\>\\=50% o trivasale ostruttiva\\) e 5 orientano verso ICA\nC\\) N \\= nuovo stent; solo CAD\\-RADS 1 richiede ICA\nD\\) N \\= noduli; la categoria 0 richiede ICA\n\n||Risposta corretta: B — 'N' \\= esame non\\-diagnostico/non valutabile \\(es\\. blooming da calcio massivo o artefatti di movimento\\)\\. Le categorie 4B \\(left main \\>\\=50% o malattia trivasale ostruttiva\\) e 5 \\(occlusione\\) indirizzano verso ICA ed eventuale rivascolarizzazione\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260621|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260621|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260621|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260621|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260621|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260621|3|0"
+              }
+            ]
+          ]
+        },
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "📋 *Rapporto operativo*\n• Callback processati: 0\n• Carte resettate \\(no\\-show\\): 66\n• Pillola: 20260621 — CAD\\-RADS 2\\.0 \\(coronaro\\-TC\\)\n• Ripasso incluso: si \\(20260514:0, 20260514:1, 20260514:2 — Galaxy sign/sarcoidosi\\)\n• Inbox cancellati: 0\n• Warning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
