@@ -1,0 +1,207 @@
+{
+  "pill_id": "20260622",
+  "created_at": "2026-06-22T06:46:48.836596+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*📊 Riepilogo settimanale RadioLearn*\n━━━━━━━━━━━━━━━━━━━━━━\n🎯 Pillole inviate: 7\n✅ Quiz risposti: 7/28 \\(25%\\)\n⭐ Qualità media: 4\\.6 / 5\n🔁 Carte dimenticate \\(reset\\): 451\n🏆 Carte mature \\(\\>21gg\\): 0\n━━━━━━━━━━━━━━━━━━━━━━",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🫁 Concetto del giorno — Compartimenti mediastinici ITMIG e massa prevascolare\n\nLa classificazione ITMIG \\(International Thymic Malignancy Interest Group, Carter et al\\. 2014\\) sostituisce gli schemi radiografici «a 3\\-4 zone» con una divisione basata sulla TC assiale\\. Tre compartimenti, tutti delimitati in alto dallo stretto toracico e in basso dal diaframma:\n\n• PREVASCOLARE \\(anteriore\\): davanti al pericardio; confine posteriore \\= faccia anteriore del pericardio\\. Contenuto: timo/residui timici, grasso, linfonodi, vena anonima sinistra\\.\n• VISCERALE \\(medio\\): tra il prevascolare e una linea posta 1 cm dietro il margine anteriore dei corpi vertebrali\\. Contenuto: cuore e grossi vasi, trachea/bronchi, esofago, linfonodi\\.\n• PARAVERTEBRALE \\(posteriore\\): dietro la linea suddetta, comprende il solco paravertebrale\\.\n\nValore pratico: localizzare la massa nel compartimento giusto restringe la DD\\. Cisti broncogene/duplicazione → viscerale; tumori neurogeni → paravertebrale; il PREVASCOLARE è la sede classica delle masse «anteriori»\\.\n\nDD del compartimento prevascolare — le «4 T» \\(terrible Ts\\):\n• Thymoma e tumori epiteliali timici — adulto, massa solida lobulata fra sterno e grossi vasi; associazione con miastenia gravis; calcificazioni nel 10\\-50%, spesso periferiche; la lobulazione del contorno aumenta il rischio di invasione \\(pleura/pericardio/polmone\\)\\.\n• Teratoma / Tumori germinali — il teratoma maturo mostra grasso macroscopico ± calcio/dente; nei tumori germinali maligni del giovane uomo dosare AFP/βHCG\\.\n• «Terrible» lymphoma — linfoma \\(Hodgkin nodulosclerosi / linfoma B mediastinico primitivo\\): massa bulky che ingloba i vasi, giovani, sintomi B, spesso bilaterale\\.\n• Thyroid — gozzo immerso retrosternale, in continuità con la tiroide cervicale, iperdenso basale e con enhancement intenso/prolungato per lo iodio\\.\n\nAlgoritmo: ETÀ \\+ MARKER \\+ COMPOSIZIONE\\. Massa prevascolare eterogenea <40 anni → AFP/βHCG \\(tumore germinale\\)\\. Grasso \\+ calcio → teratoma\\. Bulky che ingloba i vasi \\+ sintomi B → linfoma\\. In continuità con la tiroide → gozzo\\. Solida lobulata \\+ miastenia → timoma\\.\n\nIperplasia timica vs timoma alla RM \\(chemical shift\\): l'iperplasia \\(anche rebound post\\-chemioterapia\\) contiene grasso microscopico interstiziale e quindi CADE di segnale nelle sequenze opposed\\-phase; il timoma \\(cellulare, senza grasso microscopico\\) NON cade\\. Il chemical shift ratio \\(cutoff \\~0,7\\-0,85\\) è altamente specifico per il tessuto timico iperplastico ≥16 anni\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔗 Connessioni multidisciplinari\n\n• Embriologia: il timo origina dalla 3ª tasca faringea e migra in basso e medialmente; arresti/residui lungo il tragitto spiegano il timo cervicale ectopico e le sedi atipiche\\.\n• Fisica del segnale \\(chemical shift\\): a 1,5T grasso e acqua sfasano di \\~3,5 ppm \\(\\~220 Hz\\); al TE opposed\\-phase \\(\\~2,3 ms\\) i due vettori si annullano nel voxel che contiene entrambi → caduta di segnale \\(metodo di Dixon\\)\\. È lo stesso principio del signal\\-drop dell'adenoma epatocellulare HNF1α e del surrene ricco di lipidi\\.\n• Statistica diagnostica: il chemical shift ratio è un classificatore a soglia — alta specificità al cutoff scelto, ma sensibilità non perfetta: utile come «rule\\-in» dell'iperplasia, non come «rule\\-out» del timoma\\.\n• Mnemonica/storia: le «4 T» del mediastino anteriore sono un classico didattico anglosassone; ITMIG le ha ridefinite su base tomografica, spostando il lessico da «anteriore» a «prevascolare»\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "📷 Immagini e fonti \\(Radiopaedia\\)\n\n• [Compartimenti mediastinici \\(classificazione ITMIG\\) — articolo](https://radiopaedia.org/articles/mediastinal-compartments-itmig-classification?lang=gb)\n• [ITMIG mediastinal compartments — caso illustrato](https://radiopaedia.org/cases/itmig-mediastinal-compartments-classification-3?lang=us)\n• [Massa mediastinica anteriore — timoma \\(caso\\)](https://radiopaedia.org/cases/anterior-mediastinal-mass-thymoma-2)\n• [Timoma — caso TC](https://radiopaedia.org/cases/thymoma-14)\n• [Anterior mediastinal mass in the exam — DD \\(articolo\\)](https://radiopaedia.org/articles/anterior-mediastinal-mass-in-the-exam?lang=gb)\n• [Chemical shift ratio — articolo \\(RM in/opposed\\-phase\\)](https://radiopaedia.org/articles/chemical-shift-ratio)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 1 \\(ITMIG\\)*\n\nSecondo la classificazione ITMIG basata sulla TC, qual è il confine POSTERIORE del compartimento prevascolare?\n\nA\\) Il margine anteriore dei corpi vertebrali\nB\\) La faccia anteriore del pericardio\nC\\) La parete posteriore della trachea\nD\\) Una linea posta 1 cm dietro il margine vertebrale anteriore\n\n||Risposta corretta: B — nel sistema ITMIG il prevascolare è delimitato posteriormente dalla faccia anteriore del pericardio; la linea «1 cm dietro il margine vertebrale anteriore» \\(opzione D\\) separa invece il viscerale dal paravertebrale\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260622|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260622|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260622|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260622|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260622|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260622|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 2 \\(scenario\\)*\n\nUomo di 28 anni, massa prevascolare voluminosa ed eterogenea con aree necrotiche; AFP e βHCG sierici marcatamente elevati\\. Diagnosi più probabile?\n\nA\\) Timoma B2\nB\\) Linfoma di Hodgkin nodulosclerotico\nC\\) Tumore germinale non seminomatoso\nD\\) Gozzo immerso retrosternale\n\n||Risposta corretta: C — giovane uomo \\+ massa prevascolare eterogenea \\+ AFP/βHCG elevati \\= tumore germinale non seminomatoso; AFP/βHCG sono normali nei seminomi puri, nel timoma e nel linfoma\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260622|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260622|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260622|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260622|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260622|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260622|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 3 \\(composizione\\)*\n\nMassa prevascolare contenente grasso macroscopico, foci calcifici e una struttura dentiforme\\. Reperto che la caratterizza?\n\nA\\) Teratoma maturo\nB\\) Timoma cistico\nC\\) Linfoma mediastinico primitivo\nD\\) Cisti broncogena\n\n||Risposta corretta: A — grasso macroscopico \\+ calcio/dente nel prevascolare è la firma del teratoma maturo \\(tessuti delle tre linee germinali\\); timoma e linfoma sono tipicamente di densità tessuto molle, la cisti broncogena è una massa fluida del viscerale\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260622|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260622|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260622|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260622|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260622|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260622|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 4 \\(RM chemical shift\\)*\n\nIn una donna di 22 anni con timo prominente dopo chemioterapia, quale criterio RM distingue l'iperplasia timica rebound dal timoma?\n\nA\\) Restrizione marcata in diffusione \\(DWI\\) nell'iperplasia\nB\\) Caduta di segnale in opposed\\-phase \\(chemical shift\\) nell'iperplasia\nC\\) Wash\\-out precoce del contrasto nell'iperplasia\nD\\) Iperintensità T2 omogenea, esclusiva del timoma\n\n||Risposta corretta: B — l'iperplasia contiene grasso microscopico interstiziale e quindi cade di segnale nelle sequenze opposed\\-phase \\(chemical shift, CSR \\~0,7\\-0,85\\); il timoma, cellulare e privo di grasso microscopico, non mostra questa caduta\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260622|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260622|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260622|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260622|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260622|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260622|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🛠 Rapporto operativo RadioLearn*\nPillola: 20260622 — Mediastino ITMIG / DD massa prevascolare \\(L1\\)\nCallback processati: 0\nCarte resettate \\(no\\-show\\): 74\nRipasso incluso: no \\(days\\_since\\=1, soglia ≥3\\)\nInbox cancellati: 0\nBackup lunedì: sì \\| Riepilogo settimanale: sì",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
