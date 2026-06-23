@@ -1,0 +1,207 @@
+{
+  "pill_id": "20260623",
+  "created_at": "2026-06-23T06:46:38.937637+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*LI\\-RADS v2018 \\(CT/MRI\\) — diagnosi non invasiva di HCC*\n📚 *Concetto del giorno* — _RM Addome · Livello 2 \\(avanzato\\)_\n\nIl Liver Imaging Reporting and Data System \\(LI\\-RADS\\) v2018 dell'ACR standardizza refertazione e categorizzazione delle osservazioni epatiche\\. Si applica SOLO ai pazienti at\\-risk: cirrosi \\(qualunque causa TRANNE quelle vascolari, es\\. Budd\\-Chiari o cirrosi cardiaca, e TRANNE la fibrosi epatica congenita\\), epatite B cronica anche senza cirrosi, e pazienti con HCC pregresso o attuale\\. Fuori da questa popolazione i criteri perdono validità\\.\n\n*🔢 Categorie*\n• LR\\-1 sicuramente benigna · LR\\-2 probabilmente benigna\n• LR\\-3 probabilità intermedia di HCC · LR\\-4 probabilmente HCC\n• LR\\-5 sicuramente HCC \\(diagnosi senza biopsia\\)\n• LR\\-M malignità non specifica per HCC · LR\\-TIV tumore in vena · LR\\-NC non categorizzabile\n\n*🧭 Major features \\(tabella diagnostica\\)*\n1\\) APHE non\\-rim \\(arterial phase hyperenhancement\\) — il discriminante principale\n2\\) 'washout' non periferico  3\\) 'capsula' che si potenzia\n4\\) threshold growth \\(\\>\\=50% di diametro in <\\=6 mesi\\)  \\+ dimensione\n\n*🔑 Regole chiave*\n• \\>\\=20 mm \\+ APHE non\\-rim \\+ \\>\\=1 feature aggiuntiva → LR\\-5\n• 10\\-19 mm \\+ APHE non\\-rim \\+ 1 feature → LR\\-5 SOLO se washout o threshold growth; se la sola feature è la capsula → LR\\-4\n• APHE assente → al massimo LR\\-4 \\(con \\>\\=1 feature aggiuntiva\\), altrimenti LR\\-3",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*LI\\-RADS v2018 — categorie speciali, ancillary e pitfall*\n\n*🎯 LR\\-M* — aspetto targetoid: rim APHE, washout periferico, enhancement centrale progressivo/tardivo, targetoid in diffusione o fase di transizione\\. Suggerisce malignità non specifica per HCC \\(tipico del colangiocarcinoma intraepatico\\)\\.\n\n*🩸 LR\\-TIV* — tessuto molle che si potenzia all'interno di una vena \\(trombosi neoplastica\\): categoria a sé, alto rischio\\.\n\n*⚖️ Ancillary features* — quelle favoring malignancy \\(restrizione in diffusione, T2 lieve\\-moderata, corona enhancement, mosaic, fat/iron sparing, ipointensità in fase epatobiliare\\) possono UPGRADARE di max 1 categoria, ma MAI fino a LR\\-5 \\(tetto LR\\-4\\)\\. Le favoring benignity declassano\\.\n\n*🧪 Pitfall mezzi epatospecifici \\(gadoxetato\\)* — in fase di transizione ed epatobiliare il parenchima sano capta il contrasto e la lesione appare ipointensa \\(pseudo\\-washout\\)\\. Quindi il 'washout' come major feature va valutato SOLO in fase portale; l'ipointensità in fase epatobiliare conta come ancillary \\(favoring malignancy\\), non come washout\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔗 Connessione — Matematica · Teorema di Bayes*\n\nIl vincolo «solo pazienti at\\-risk» non è burocrazia: è statistica bayesiana\\. La probabilità post\\-test di HCC dato un quadro LR\\-5 dipende dalla prevalenza \\(probabilità pre\\-test\\)\\. Nel cirrotico la prevalenza di HCC è alta, quindi APHE \\+ washout ha un valore predittivo positivo elevato\\. Applicare gli stessi criteri a un fegato sano \\(prevalenza bassa\\) farebbe crollare il PPV: emangiomi, FNH e shunt artero\\-portali genererebbero falsi positivi\\. È la stessa logica per cui LI\\-RADS, modellato sul BI\\-RADS, esiste — ancorare l'interpretazione al contesto di rischio\\.\n\n_Mnemonica: «il numero non vale senza la popolazione»\\._",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🖼️ Immagini & fonti verificate*\n\n• [LI\\-RADS CT/MRI — articolo di riferimento \\(Radiopaedia\\)](https://radiopaedia.org/articles/ctmri-li-rads)\n• [Caso LR\\-5 — HCC definito \\(Radiopaedia\\)](https://radiopaedia.org/cases/li-rads-5-lesion-2)\n• [HCC multifasico — caso \\(Radiopaedia\\)](https://radiopaedia.org/cases/hepatocellular-carcinoma-68)\n• [LI\\-RADS v2018: imaging dell'HCC \\(RadioGraphics, PMC\\)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6677371/)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧠 Quiz — Domanda 1/4*\n\nA quale popolazione si applica l'algoritmo diagnostico CT/MRI LI\\-RADS v2018?\n\nA\\) Tutti i pazienti con epatopatia cronica di qualunque causa\nB\\) Cirrosi \\(escluse cause vascolari e fibrosi epatica congenita\\), epatite B cronica, o HCC pregresso/attuale\nC\\) Solo steatosi epatica non alcolica senza fibrosi\nD\\) Qualunque adulto con nodulo epatico incidentale\n\n||Risposta corretta: B — gli at\\-risk sono cirrosi \\(NON da cause vascolari come Budd\\-Chiari/cirrosi cardiaca, NON fibrosi epatica congenita\\), HBV cronica anche senza cirrosi, e pazienti con HCC pregresso/attuale\\. Fuori da qui la bassa probabilità pre\\-test invalida i criteri \\(Bayes\\)\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260623|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260623|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260623|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260623|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260623|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260623|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧠 Quiz — Domanda 2/4*\n\nOltre alla APHE non\\-rim, quali sono le altre tre major features della tabella diagnostica LI\\-RADS v2018 \\(oltre alla dimensione\\)?\n\nA\\) Restrizione in diffusione, T2 lieve\\-moderata, corona enhancement\nB\\) 'Washout' non periferico, 'capsula' che si potenzia, threshold growth\nC\\) Ipointensità in fase epatobiliare, mosaic architecture, grasso intralesionale\nD\\) Aspetto targetoid, washout periferico, enhancement centrale tardivo\n\n||Risposta corretta: B — le major features sono APHE non\\-rim \\+ washout non periferico \\+ capsula \\+ threshold growth \\(\\+ dimensione\\)\\. Le opzioni A e C sono ancillary features; la D descrive il pattern targetoid \\(LR\\-M\\)\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260623|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260623|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260623|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260623|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260623|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260623|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧠 Quiz — Domanda 3/4*\n\nNodulo di 14 mm in fegato cirrotico con APHE non\\-rim e UNA sola feature aggiuntiva\\. Quando la categoria è LR\\-5 invece di LR\\-4?\n\nA\\) Se la feature aggiuntiva è la 'capsula' che si potenzia\nB\\) Se la feature aggiuntiva è 'washout' non periferico oppure threshold growth\nC\\) Mai: 10\\-19 mm con una sola feature è sempre LR\\-4\nD\\) Sempre LR\\-5, indipendentemente dal tipo di feature\n\n||Risposta corretta: B — per noduli 10\\-19 mm con APHE non\\-rim e 1 sola feature aggiuntiva è LR\\-5 solo se la feature è washout non periferico o threshold growth; se è la sola capsula resta LR\\-4\\. \\(Per \\>\\=20 mm: APHE \\+ \\>\\=1 feature → sempre LR\\-5\\.\\)||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260623|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260623|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260623|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260623|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260623|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260623|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧠 Quiz — Domanda 4/4*\n\nCon mezzo di contrasto epatospecifico \\(gadoxetato\\): perché il 'washout' va valutato solo in fase portale, e qual è il limite delle ancillary features?\n\nA\\) In transizione/epatobiliare il parenchima sano capta e crea pseudo\\-washout; le ancillary modificano di max 1 categoria ma non possono dare LR\\-5 \\(tetto LR\\-4\\)\nB\\) Il washout in fase epatobiliare è il più affidabile; le ancillary possono assegnare direttamente LR\\-5\nC\\) Il gadoxetato non mostra mai washout; le ancillary non hanno alcun ruolo\nD\\) Il washout va valutato in fase arteriosa; le ancillary declassano sempre a LR\\-3\n\n||Risposta corretta: A — con epatospecifici il parenchima capta in transizione/epatobiliare e la lesione appare relativamente ipointensa \\(pseudo\\-washout\\): il washout affidabile è solo in fase portale\\. Le ancillary favoring malignancy possono upgradare di max 1 categoria, mai fino a LR\\-5 \\(tetto LR\\-4\\)\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260623|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260623|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260623|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260623|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260623|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260623|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*📋 Rapporto operativo RadioLearn*\n• Callback processati: 0\n• Carte resettate \\(no\\-show\\): 70\n• pill\\_id: 20260623 — Topic: LI\\-RADS v2018 CT/MRI \\(HCC\\) — Livello 2\n• Ripasso incluso: no \\(days\\_since\\_last\\_review\\=2; soglia \\>\\=3\\)\n• Inbox cancellati: 0\n• Warning: nessuno",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
