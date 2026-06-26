@@ -1,0 +1,199 @@
+{
+  "pill_id": "20260626",
+  "created_at": "2026-06-26T06:47:42.529432+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🫀 *Concetto del giorno — Mapping parametrico al CMR*\n\nIl mapping parametrico trasforma il CMR da tecnica qualitativa \\(pesata\\) a quantitativa: ogni pixel riporta un tempo di rilassamento assoluto in millisecondi, confrontabile con range di normalità\\. A differenza del LGE — che evidenzia solo lo scar FOCALE per contrasto relativo con il miocardio sano — il mapping misura anche la malattia DIFFUSA, dove non esiste un tessuto \"normale\" di riferimento da cui staccare il segnale\\.\n\nT1 NATIVO \\(senza contrasto; sequenze MOLLI/ShMOLLI\\)\\. Si allunga con tutto ciò che aggiunge acqua o proteine all'interstizio: edema \\(miocardite acuta\\), fibrosi diffusa e soprattutto amiloidosi \\(deposito proteico extracellulare → T1 nativo molto elevato\\)\\. Si ACCORCIA solo in due scenari, ed è qui il suo valore discriminante: \\(1\\) sovraccarico di FERRO \\(effetto paramagnetico\\) e \\(2\\) malattia di Anderson\\-Fabry \\(accumulo intracellulare di sfingolipidi che abbassa il T1 prima ancora dell'ipertrofia\\)\\. Regola operativa: «quasi tutto alza il T1; solo ferro e Fabry lo abbassano»\\.\n\nT2 MAPPING\\. Marcatore di EDEMA/acqua libera: si alza nell'infiammazione acuta \\(miocardite, rigetto del trapianto, Tako\\-Tsubo, infarto acuto\\)\\. È l'asse \"acuzie/attività\" dei criteri di Lake Louise 2018\\.\n\nT2\\* \\(T2\\-star\\)\\. Quantifica il sovraccarico di FERRO miocardico \\(dephasing da suscettibilità magnetica\\)\\. Va misurato a 1\\.5T sul setto interventricolare: T2\\* < 20 ms \\= sovraccarico; < 10 ms \\= rischio elevato di scompenso\\. È l'esame che ha cambiato la prognosi della talassemia major\\.\n\nECV \\(Extracellular Volume fraction\\)\\. Derivato da T1 nativo \\+ T1 post\\-contrasto di miocardio e pool ematico, corretti per l'ematocrito\\. Stima la frazione di volume miocardico occupata dallo spazio extracellulare \\(normale \\~25%\\)\\. Il gadolinio è puramente extracellulare: più ampio è l'interstizio, più contrasto vi si distribuisce\\. ECV elevato \\= espansione interstiziale \\(fibrosi diffusa o infiltrazione\\)\\. Nell'amiloidosi cardiaca l'ECV raggiunge i valori più estremi \\(40\\-60%\\) perché l'amiloide ESPANDE fisicamente l'interstizio; nel cuore d'atleta, al contrario, l'ECV può ridursi \\(ipertrofia delle cellule, non della matrice\\)\\.\n\nSintesi per firma tissutale:\n• T1 nativo ↑ \\+ ECV ↑↑ \\+ LGE subendocardico/transmurale globale → amiloidosi\\.\n• T1 nativo ↓ \\+ ipertrofia → Anderson\\-Fabry \\(il LGE infero\\-laterale basale è tardivo\\)\\.\n• T2\\* ↓ a 1\\.5T → sovraccarico di ferro/talassemia\\.\n• T2 ↑ \\+ T1/ECV ↑ regionali → miocardite acuta \\(Lake Louise 2018: 1 criterio T2 \\+ 1 criterio T1\\)\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔗 *Connessioni multidisciplinari*\n\n• Fisica del rilassamento: T1 \\(spin\\-reticolo, recupero longitudinale\\) e T2 \\(spin\\-spin, decadimento trasversale\\) discendono dalle equazioni di Bloch \\(1946\\)\\. Il T1 nativo è una proprietà intrinseca del tessuto a un dato campo: per questo i valori normali vanno tarati per scanner e per intensità di campo \\(1\\.5T e 3T danno numeri diversi\\)\\.\n\n• Storia: Erwin Hahn descrisse lo spin echo nel 1950; la sequenza MOLLI \\(Modified Look\\-Locker Inversion recovery, Messroghli 2004\\) ha reso la mappatura T1 clinicamente praticabile in una singola apnea\\.\n\n• Chimica/farmacologia: il gadolinio chelato è un contrasto EXTRACELLULARE che non penetra nel cardiomiocita integro; la sua cinetica di distribuzione è la base fisica dell'ECV — di fatto un esperimento di diluizione in vivo\\.\n\n• Matematica \\(modello a compartimenti\\): l'ECV è un coefficiente di ripartizione\\. ECV \\= \\(1 − Hct\\) × \\(ΔR1\\_miocardio / ΔR1\\_sangue\\), con R1 \\= 1/T1\\. È la stessa logica del volume di distribuzione in farmacocinetica: si misura quanto \"spazio\" un tracciante riesce a occupare\\.\n\n• Mnemonica laterale: ferro \\(paramagnetico\\) ed edema \\(acqua\\) spingono il T1 in direzioni OPPOSTE — il ferro lo accorcia, l'acqua lo allunga\\. Due correnti contrarie sullo stesso ago\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🖼️ *Immagini & fonti \\(verificate via web search\\)*\n\n• [Myocardial mapping — Radiopaedia \\(articolo\\)](https://radiopaedia.org/articles/myocardial-mapping?lang=gb)\n• [Extracellular volume \\(myocardium\\) — Radiopaedia](https://radiopaedia.org/articles/extracellular-volume-myocardium?lang=gb)\n• [T2\\* mapping \\(myocardium\\) — Radiopaedia](https://radiopaedia.org/articles/t2-mapping-myocardium-1?lang=us)\n• [Cardiac iron overload protocol \\(MRI\\) — Radiopaedia](https://radiopaedia.org/articles/cardiac-iron-overload-protocol-mri-1?lang=gb)\n• [Cardiac amyloidosis — Radiopaedia \\(caso, T1/ECV elevati\\)](https://radiopaedia.org/cases/cardiac-amyloidosis-1)\n• [Cardiac MRI — an approach — Radiopaedia](https://radiopaedia.org/articles/cardiac-mri-an-approach?lang=gb)\n• [T1 Mapping for Myocardial Fibrosis — technical review \\(PMC\\)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5352660/)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 1 — T1 nativo: chi lo abbassa*\n\nRispetto alla maggior parte delle cardiomiopatie che ALLUNGANO il T1 nativo miocardico, quale coppia di condizioni lo ACCORCIA \\(lo abbassa\\), rendendolo un discriminante prezioso?\n\nA\\) Amiloidosi e miocardite acuta\nB\\) Malattia di Anderson\\-Fabry e sovraccarico di ferro\nC\\) Fibrosi diffusa ed edema interstiziale\nD\\) Amiloidosi AL e amiloidosi ATTR\n\n||Risposta corretta: B — Quasi tutto ciò che è patologico \\(edema, fibrosi, amiloide\\) AUMENTA il T1 nativo\\. Lo riducono solo il ferro \\(paramagnetico\\) e il Fabry \\(sfingolipidi intracellulari\\): in entrambi il T1 nativo basso è spesso il primo segno, anche prima dell'ipertrofia conclamata\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260626|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260626|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260626|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260626|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260626|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260626|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 2 — ECV ai valori estremi*\n\nL'ECV stima la frazione di miocardio occupata dallo spazio extracellulare \\(normale \\~25%\\)\\. Quale condizione produce i valori di ECV più ESTREMI \\(spesso 40\\-60%\\) per espansione interstiziale da deposito?\n\nA\\) Cuore d'atleta\nB\\) Amiloidosi cardiaca\nC\\) Malattia di Fabry in fase precoce\nD\\) Sovraccarico di ferro miocardico\n\n||Risposta corretta: B — L'amiloide ESPANDE fisicamente l'interstizio, quindi più gadolinio \\(extracellulare\\) vi si distribuisce → ECV altissimo \\(40\\-60%\\)\\. Il cuore d'atleta tende a ridurre l'ECV \\(ipertrofia cellulare, non di matrice\\); nel ferro l'alterazione cardine è il T2\\* basso, non l'ECV\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260626|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260626|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260626|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260626|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260626|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260626|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 3 — Perché serve l'ematocrito*\n\nPer calcolare l'ECV servono T1 nativo e post\\-contrasto di miocardio e pool ematico, più un dato di laboratorio\\. Quale, e perché?\n\nA\\) La creatinina, per stimare la GFR prima del gadolinio\nB\\) L'ematocrito, per \"correggere\" il sangue per la sua frazione cellulare e ricavare il volume di distribuzione plasmatico del gadolinio\nC\\) Il BNP, per pesare il grado di scompenso\nD\\) La ferritina, per correggere l'effetto del ferro sul T1\n\n||Risposta corretta: B — Il gadolinio si distribuisce solo nel PLASMA, non nei globuli rossi\\. ECV \\= \\(1 − Hct\\) × \\(ΔR1\\_miocardio/ΔR1\\_sangue\\): il fattore \\(1 − Hct\\) toglie la quota cellulare del sangue, trasformando il ΔR1 ematico nel suo equivalente plasmatico extracellulare\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260626|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260626|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260626|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260626|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260626|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260626|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 4 — Assi di Lake Louise 2018*\n\nI criteri di Lake Louise 2018 per la miocardite acuta poggiano su due assi tissutali del mapping\\. Che cosa indicano, rispettivamente, un T2 mapping elevato e un T1 nativo/ECV elevati?\n\nA\\) T2 ↑ \\= edema \\(criterio T2\\); T1/ECV ↑ \\= danno \\(iperemia/necrosi/fibrosi\\) \\(criterio T1\\)\nB\\) T2 ↑ \\= fibrosi; T1/ECV ↑ \\= ferro\nC\\) T2 ↑ \\= ischemia cronica; T1/ECV ↑ \\= amiloide\nD\\) T2 ↑ \\= infiltrazione adiposa; T1/ECV ↑ \\= calcificazione\n\n||Risposta corretta: A — Lake Louise 2018 richiede almeno un criterio \"T2\" \\(edema: T2 mapping o STIR alti\\) PIÙ un criterio \"T1\" \\(danno miocitario: T1 nativo, ECV o LGE non ischemico elevati\\)\\. I due assi insieme aumentano accuratezza e specificità rispetto ai vecchi criteri 2009\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260626|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260626|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260626|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260626|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260626|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260626|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠️ *Rapporto operativo RadioLearn*\nData: 2026\\-06\\-26 \\(venerdì\\)\nPillola: 20260626 — Mapping parametrico CMR \\(T1/T2/T2\\*/ECV\\)\nCallback processati: 0\nCarte resettate \\(no\\-show\\): 4\nRipasso incluso: no \\(days\\_since\\=1, soglia ≥3\\)\nDomande nuove: 4\nInbox cancellati: 0\nRiepilogo settimanale: no \\(non lunedì\\) — Backup: no",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
