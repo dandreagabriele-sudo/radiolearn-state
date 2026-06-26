@@ -11876,34 +11876,98 @@
       ]
     },
     "20260625:0": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-06-25",
-      "last_quality": null,
-      "history": []
+      "next_review": "2026-06-27",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-06-26",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ]
     },
     "20260625:1": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-06-25",
-      "last_quality": null,
-      "history": []
+      "next_review": "2026-06-27",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-06-26",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ]
     },
     "20260625:2": {
+      "ef": 1.7,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-06-27",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-06-26",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ]
+    },
+    "20260625:3": {
+      "ef": 1.7,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-06-27",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-06-26",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ]
+    },
+    "20260626:0": {
       "ef": 2.5,
       "interval": 0,
       "repetitions": 0,
-      "next_review": "2026-06-25",
+      "next_review": "2026-06-26",
       "last_quality": null,
       "history": []
     },
-    "20260625:3": {
+    "20260626:1": {
       "ef": 2.5,
       "interval": 0,
       "repetitions": 0,
-      "next_review": "2026-06-25",
+      "next_review": "2026-06-26",
+      "last_quality": null,
+      "history": []
+    },
+    "20260626:2": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-06-26",
+      "last_quality": null,
+      "history": []
+    },
+    "20260626:3": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-06-26",
       "last_quality": null,
       "history": []
     }
