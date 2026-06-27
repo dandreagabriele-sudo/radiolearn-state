@@ -30,9 +30,12 @@ the user gets nothing.
 ## Persistence order (non-negotiable)
 
 FASE 9 order: `sm2_state.json` → `pills_log/<YYYY-MM-DD>.md` →
-**(Monday) `backups/sm2_state.backup.monday.json`** → `outbox/<pill_id>.json`.
+`topics_log.json` → **(Monday) `backups/sm2_state.backup.monday.json`** →
+**(paper days) `papers_state.json`** → `outbox/<pill_id>.json`.
 The state must land before the outbox so that when the receiver Action
-processes callbacks, it sees consistent SM-2 data.
+processes callbacks, it sees consistent SM-2 data. The `topics_log.json`
+and `papers_state.json` writes are also bound by the "outbox last" rule
+below — they MUST land **before** the outbox, never after.
 
 The `outbox/<pill_id>.json` write MUST be the **last** Contents-API write of
 the routine. It triggers the `send-to-telegram` Action, which checks out
@@ -58,6 +61,12 @@ GitHub + SM-2 API documented at the top of the file:
 - `quiz_keyboard(pill_id, qidx)` — 0–5 inline self-assessment keyboard.
 - `gh_put_retry(path, content, msg, sha)` — `gh_put` with one retry on
   `409`/`422` (refetch sha) and `5xx` (sleep 3 s).
+- `load_topics_ledger()` / `recent_topic_tags(ledger, days=60)` /
+  `domain_counts(ledger, days=7)` / `append_topic(...)` — topic de-dup
+  ledger (see "Topic de-duplication" below).
+- `load_papers_state()` / `paper_is_processed(pstate, file_id)` /
+  `mark_paper_processed(...)` and `PAPERS_DRIVE_FOLDER` — paper ingestion
+  (see "Paper-derived pills" below).
 
 Prefer these helpers over reinventing them in the daily script. Smaller
 scripts are less likely to be left half-executed.
@@ -112,6 +121,84 @@ Questa sezione **sostituisce** la regola della chat spec ("cadenza minima
   indaghi lo stesso concetto da angolazione diversa (scenario clinico,
   fisiopatologia, DD, eccetera).
 
+## Paper-derived pills (FASE 0 — route A, Google Drive)
+
+The user can turn a scientific paper into the next day's pill by dropping
+the PDF into the Google Drive folder **`RadioLearn-Papers`** (constant
+`PAPERS_DRIVE_FOLDER`) on the connected account (dandrea.gabriele@gmail.com).
+This is **FASE 0**: a pre-check that runs *before* topic generation. A paper
+dropped on day D surfaces as day D+1's pill (the routine runs once each
+morning) — this is the "replace the day-after pill" behaviour.
+
+**Each morning, before FASE 6:**
+
+1. Via the Google Drive MCP tools (the daily *session* has them; the
+   sandboxed `routine.py` does **not**), resolve the folder once with
+   `search_files` (`name = 'RadioLearn-Papers' and mimeType =
+   'application/vnd.google-apps.folder'`), then list PDFs in it
+   (`mimeType = 'application/pdf' and '<folder_id>' in parents`).
+2. Load `papers_state.json` (`load_papers_state()`); drop any file whose
+   id is in `processed_file_ids`. If none remain → no paper today, proceed
+   to the normal generated topic.
+3. If ≥ 1 unprocessed PDF: pick the **oldest by `createdTime` (FIFO)** —
+   exactly **one paper per day** (one-shot). Download it
+   (`download_file_content` → base64 → save to the scratchpad → `Read` the
+   PDF; `read_file_content` is an acceptable text-only fallback).
+4. The paper **replaces the day's generated topic** (FASE 6b). Everything
+   else is unchanged: FASE 2/3 (inbox + resets), FASE 6a ripasso, SM-2
+   cards for the new questions, FASE 7–9 persistence.
+
+**Pill composition from a paper (one-shot summary):**
+
+- Extract only the **essential** points and, above all, **what is new**
+  (novel findings, changed thresholds, a new sign/criterion). Summarize —
+  do not transcribe.
+- Profile to the user's 3 levels as usual; if the paper is **off-domain**
+  (outside the three competency areas), keep it **basic** (Livello-3
+  style): plain explanation, no deep specialist detail.
+- Full pill structure: concetto + connessioni + (optional images) + 3–4
+  new quiz Q&A with the mandatory structure (A/B/C/D + `||spoiler||` +
+  buttons 0–5), anchored to the paper.
+- **Citation is mandatory and must be accurate**: authors / journal /
+  year / DOI taken **from the paper itself**. Never invent a DOI/URL; if
+  you add a link use the paper's own DOI or a `web_search`-verified
+  landing page (never `requests.get`).
+
+**After persistence (FASE 9, before the outbox), mark the paper consumed**
+with `mark_paper_processed(pstate, sha, file_id, pill_id, title)` and record
+the topic with `source="paper"`. The Drive toolset has no move/delete op, so
+idempotency lives entirely in `papers_state.json`; the folder may keep
+accumulating PDFs harmlessly.
+
+## Topic de-duplication & rotation ledger (FASE 6)
+
+Audit on 2026-06-27 (40 pills): `mosaic-attenuation` ×4, `cmr-lge` ×4,
+`reversed-halo-atoll` ×3, plus `uip-ipf` / `pe-ctpa` / `lirads-hcc` ×2;
+~51 % torace and only **one** Livello-3 pill. Cause: no memory across
+sessions. `topics_log.json` (backfilled from all prior pills) fixes this.
+
+**Before choosing a generated topic (FASE 6b — skip on paper days):**
+
+1. `ledger, tsha = load_topics_ledger()`.
+2. `blocked = recent_topic_tags(ledger, days=60)` — **do not reuse any tag
+   from the last 60 days.** Pick a genuinely different concept (a new tag),
+   not a re-angled duplicate of a recent one.
+3. Balance with `domain_counts(ledger, days=7)` and steer the rotation:
+   - cap `torace` (Livello 1) at **≤ 3 per rolling 7 days**;
+   - guarantee **≥ 1 Livello-2 (RM addome)** and **≥ 1 Livello-3
+     (RM altri distretti: neuro, MSK, testa-collo, pelvi, mammella)** per
+     rolling 7 days. Livello 3 is the starved bucket — prioritise it.
+
+**Always record the chosen topic in FASE 9** (with the state writes, before
+the outbox):
+`ledger, tsha = append_topic(ledger, tsha, today_iso, tag, domain, level, source)`
+— `source` is `"auto"` or `"paper"`. Use a short, stable, normalized
+kebab-case `tag` (e.g. `crazy-paving`, `cmr-lge`) so future de-dup matches.
+
+**Standardized `pills_log` front-matter** (keeps the ledger derivable): keep
+the `**Topic:**` line and add directly under it
+`<!-- meta: tag=<kebab>; domain=<torace|cardio|addome|aorta-vascolare|neuro|msk|altro>; level=<1|2|3>; source=<auto|paper> -->`.
+
 ## Secrets
 
 The PAT and chat ID live only in the chat prompt. Do **not** commit them
@@ -129,6 +216,12 @@ the repository secrets (`secrets.TELEGRAM_BOT_TOKEN`).
 - **State:** `sm2_state.json` (cards + history + idempotency set).
 - **Telegram state:** `telegram_state.json` (owned by the poller Action;
   the routine never writes it).
+- **Topic ledger:** `topics_log.json` (one entry per pill; drives FASE 6
+  de-duplication and domain/level rotation).
+- **Paper queue (inbound):** Google Drive folder `RadioLearn-Papers` on
+  the connected account (read via the Drive MCP by the session, not by
+  the sandboxed `routine.py`). **Paper state:** `papers_state.json`
+  (processed file ids — idempotency, since Drive has no move/delete op).
 
 Never call `api.telegram.org` directly from the routine — sandbox blocks
 it and the workflow already handles delivery. Never `git push` — the

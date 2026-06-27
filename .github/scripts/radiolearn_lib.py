@@ -30,6 +30,18 @@ Public API:
 
   Robust PUT:
     gh_put_retry(path, content, msg, sha=None) -> new_sha
+
+  Topic de-dup ledger (FASE 6 selection):
+    load_topics_ledger()                       -> (ledger, sha)
+    recent_topic_tags(ledger, days=60)         -> set[str]
+    domain_counts(ledger, days=7)              -> {domain: count}
+    append_topic(ledger, sha, date_iso, tag, domain, level, source="auto")
+
+  Paper ingestion (FASE 0, route A Google Drive):
+    PAPERS_DRIVE_FOLDER                         -> str (Drive folder name)
+    load_papers_state()                        -> (pstate, sha)
+    paper_is_processed(pstate, file_id)        -> bool
+    mark_paper_processed(pstate, sha, file_id, pill_id, title="")
 """
 
 import base64
@@ -265,3 +277,105 @@ def gh_put_retry(path: str, content_str: str, msg: str,
                 _time.sleep(3)
                 continue
             raise
+
+
+# ────────────────────────────────────────────────────────────────────
+# Topic de-duplication ledger (FASE 6 — topic selection)
+# topics_log.json: [{"date","tag","domain","level"}, ...]
+# ────────────────────────────────────────────────────────────────────
+
+import json as _json
+
+# Drive folder (route A) scanned each morning for paper-derived pills.
+PAPERS_DRIVE_FOLDER = "RadioLearn-Papers"
+
+
+def load_topics_ledger():
+    """Return (ledger_list, sha). ([], None) if the file is absent."""
+    raw, sha = gh_get("topics_log.json")
+    if raw is None:
+        return [], None
+    return _json.loads(raw), sha
+
+
+def recent_topic_tags(ledger: list, days: int = 60,
+                      as_of: Optional[str] = None) -> set:
+    """Set of topic tags used within the last `days` (inclusive)."""
+    cutoff = date.fromisoformat(as_of) if as_of else date.today()
+    out = set()
+    for e in ledger:
+        try:
+            d = date.fromisoformat(e.get("date", ""))
+        except ValueError:
+            continue
+        if 0 <= (cutoff - d).days <= days:
+            t = e.get("tag")
+            if t:
+                out.add(t)
+    return out
+
+
+def domain_counts(ledger: list, days: int = 7,
+                  as_of: Optional[str] = None) -> dict:
+    """{domain: count} over the last `days` — for the rotation quota."""
+    cutoff = date.fromisoformat(as_of) if as_of else date.today()
+    counts: dict = {}
+    for e in ledger:
+        try:
+            d = date.fromisoformat(e.get("date", ""))
+        except ValueError:
+            continue
+        if 0 <= (cutoff - d).days <= days:
+            counts[e.get("domain", "?")] = counts.get(e.get("domain", "?"), 0) + 1
+    return counts
+
+
+def append_topic(ledger: list, sha, date_iso: str, tag: str,
+                 domain: str, level, source: str = "auto"):
+    """Idempotently record today's topic and persist. Returns (ledger, sha).
+
+    `source`: "auto" (generated topic) or "paper" (paper-derived pill).
+    Re-running the same day overwrites that day's entry (no duplicates).
+    """
+    ledger = [e for e in ledger if e.get("date") != date_iso]
+    ledger.append({"date": date_iso, "tag": tag, "domain": domain,
+                   "level": level, "source": source})
+    ledger.sort(key=lambda e: e.get("date", ""))
+    new_sha = gh_put_retry("topics_log.json", _json.dumps(ledger, indent=2),
+                           f"Topic ledger {date_iso}: {tag}", sha)
+    return ledger, new_sha
+
+
+# ────────────────────────────────────────────────────────────────────
+# Paper ingestion idempotency (FASE 0 — route A, Google Drive)
+# papers_state.json: {"processed_file_ids": [...], "log": [...]}
+# The session reads the PDF via the Drive MCP (search_files +
+# download_file_content); this ledger only records what has been turned
+# into a pill so a paper is never processed twice.
+# ────────────────────────────────────────────────────────────────────
+
+def load_papers_state():
+    """Return (papers_state_dict, sha). Default skeleton if absent."""
+    raw, sha = gh_get("papers_state.json")
+    if raw is None:
+        return {"processed_file_ids": [], "log": []}, None
+    st = _json.loads(raw)
+    st.setdefault("processed_file_ids", [])
+    st.setdefault("log", [])
+    return st, sha
+
+
+def paper_is_processed(pstate: dict, file_id: str) -> bool:
+    return file_id in pstate.get("processed_file_ids", [])
+
+
+def mark_paper_processed(pstate: dict, sha, file_id: str, pill_id: str,
+                         title: str = ""):
+    """Record a paper as consumed and persist. Returns (pstate, sha)."""
+    if file_id not in pstate["processed_file_ids"]:
+        pstate["processed_file_ids"].append(file_id)
+    pstate["log"].append({"file_id": file_id, "pill_id": pill_id,
+                          "title": title, "date": date.today().isoformat()})
+    new_sha = gh_put_retry("papers_state.json", _json.dumps(pstate, indent=2),
+                           f"Paper consumed -> pill {pill_id}", sha)
+    return pstate, new_sha
