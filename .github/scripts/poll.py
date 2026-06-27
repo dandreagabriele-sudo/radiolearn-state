@@ -86,10 +86,12 @@ def append_to_inbox(date_iso: str, entry: dict) -> None:
 
 def main() -> int:
     state = load_state()
-    print(f"Starting from last_update_id = {state['last_update_id']}")
+    start_offset = state["last_update_id"] + 1
+    print(f"Starting from last_update_id = {state['last_update_id']} "
+          f"(offset={start_offset})")
 
     result = call("getUpdates", {
-        "offset": state["last_update_id"] + 1,
+        "offset": start_offset,
         "timeout": 25,
         "allowed_updates": json.dumps(["callback_query"]),
     })
@@ -101,67 +103,94 @@ def main() -> int:
     updates = result.get("result", [])
     print(f"Received {len(updates)} update(s).")
 
-    max_id = state["last_update_id"]
-    accepted = 0
-    skipped = 0
+    # Process strictly in ascending update_id order so the offset only ever
+    # moves forward *past updates we have fully handled*. `confirmed_through`
+    # is the highest update_id that is either (a) durably written to the inbox
+    # working tree, or (b) genuinely non-actionable (non-callback / unparseable
+    # — retrying can't help). If an inbox write fails we STOP advancing and let
+    # the next run re-fetch, so a real answer is never stepped over and lost.
+    # (Previously `max_id` advanced for every update unconditionally, which made
+    # any skipped/failed update an irreversible loss once Telegram dropped it.)
+    updates.sort(key=lambda u: u["update_id"])
+    confirmed_through = state["last_update_id"]
+    accepted = malformed = noncb = 0
 
     for upd in updates:
-        max_id = max(max_id, upd["update_id"])
+        uid = upd["update_id"]
         cb = upd.get("callback_query")
+        # Raw visibility for diagnostics (never logs the bot token):
+        print(f"  update_id={uid} keys={sorted(k for k in upd if k != 'update_id')} "
+              f"data={(cb.get('data') if cb else None)!r}")
+
         if not cb:
-            skipped += 1
+            # allowed_updates should exclude these, but be defensive: a
+            # non-callback can never become an answer, so it is safe to pass.
+            noncb += 1
+            confirmed_through = uid
             continue
 
         data = cb.get("data", "")
         m = CB_PATTERN.match(data)
         if not m:
-            print(f"  ⚠ Malformed callback_data: {data!r}")
+            print(f"  ⚠ Malformed callback_data: {data!r} (update {uid}) — "
+                  f"acking and stepping past (unparseable, retry can't help)")
             try:
                 call("answerCallbackQuery",
                      {"callback_query_id": cb["id"], "text": "⚠ Formato non valido"},
                      post=True)
             except RuntimeError as e:
                 print(f"    answerCallbackQuery failed: {e}")
-            skipped += 1
+            malformed += 1
+            confirmed_through = uid   # don't let a poison-pill block the queue
             continue
 
         pill_id, qidx_str, quality_str = m.group(1), m.group(2), m.group(3)
         qidx, quality = int(qidx_str), int(quality_str)
         card_id = f"{pill_id}:{qidx}"
 
-        # Ack al volo all'utente (toglie lo spinner sul bottone)
+        # Bucket by the pill message's date when available; fall back to *now*
+        # (NOT update_id — that was a latent bug bucketing into ~1997).
+        msg_ts = cb.get("message", {}).get("date")
+        when = (datetime.fromtimestamp(msg_ts, tz=timezone.utc)
+                if msg_ts else datetime.now(timezone.utc))
+        date_iso = when.date().isoformat()
+
+        # Persist FIRST, then ack, then advance the offset — so a write failure
+        # never advances past an answer we did not actually capture.
+        try:
+            append_to_inbox(date_iso, {
+                "update_id": uid,
+                "received_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                "card_id": card_id,
+                "pill_id": pill_id,
+                "question_idx": qidx,
+                "quality": quality,
+            })
+        except OSError as e:
+            print(f"  ✗ inbox write failed for {card_id} (update {uid}): {e} "
+                  f"— STOP advancing; will retry next run")
+            break
+
+        # Ack al volo (toglie lo spinner). Non-fatal if the callback is too old.
         try:
             call("answerCallbackQuery", {
                 "callback_query_id": cb["id"],
-                "text": f"✓ Registrato (q={quality}) — vedrai il nuovo intervallo domani",
+                "text": f"✓ Registrato (q={quality}) — nuovo intervallo domani",
                 "show_alert": False,
             }, post=True)
         except RuntimeError as e:
-            # Il callback potrebbe essere troppo vecchio (>24h); non bloccare
             print(f"  ⚠ answerCallbackQuery for {card_id}: {e}")
 
-        # Append all'inbox
-        date_iso = datetime.fromtimestamp(
-            cb.get("message", {}).get("date", upd.get("update_id", 0)),
-            tz=timezone.utc
-        ).date().isoformat()
-
-        append_to_inbox(date_iso, {
-            "update_id": upd["update_id"],
-            "received_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-            "card_id": card_id,
-            "pill_id": pill_id,
-            "question_idx": qidx,
-            "quality": quality,
-        })
         accepted += 1
+        confirmed_through = uid
         print(f"  ✓ {card_id} q={quality} → inbox/{date_iso}.json")
 
-    state["last_update_id"] = max_id
+    state["last_update_id"] = confirmed_through
     state["last_poll_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
     save_state(state)
 
-    print(f"Summary: {accepted} accepted, {skipped} skipped, new last_update_id={max_id}")
+    print(f"Summary: {accepted} accepted, {malformed} malformed, "
+          f"{noncb} non-callback, new last_update_id={confirmed_through}")
     return 0
 
 

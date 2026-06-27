@@ -1,0 +1,26 @@
+name: Telegram Diagnose (manual)
+
+# One-off, read-only Telegram diagnostics. Does NOT advance the poller offset
+# and does NOT write any file — safe to run anytime. Trigger from the Actions
+# tab ("Run workflow"). To catch a live tap, click a quiz button first, then
+# run this within ~1 minute.
+on:
+  workflow_dispatch:
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Run Telegram diagnostics
+        env:
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python3 .github/scripts/diagnose.py
