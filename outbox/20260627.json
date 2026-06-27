@@ -1,0 +1,206 @@
+{
+  "pill_id": "20260627",
+  "created_at": "2026-06-27T06:47:15.311877+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🫁 *RadioLearn — Pillola del 27/06/2026*\n*Distribuzione dei micronoduli all'HRCT: perilinfatica · centrilobulare · random*\n\nTutto ruota attorno al lobulo polmonare secondario \\(Miller\\): un poliedro di 1–2,5 cm con bronchiolo/arteriola centrilobulare al centro e l'impalcatura linfatica \\(setti interlobulari, pleura, scissure, interstizio peribroncovascolare\\) ai bordi\\. La sede dei noduli rispetto a questa geometria definisce la categoria e indirizza la DD\\.\n\n1) *Centrilobulare*\nNoduli nel core del lobulo, a 5–10 mm dalla pleura, che RISPARMIANO pleura e scissure \\(subpleural sparing \\= indizio chiave\\)\\. Malattia delle piccole vie aeree o riempimento bronchiolare\\. Sottotipi: tree\\-in\\-bud \\(infezione/diffusione endobronchiale, aspirazione, MAC, ABPA\\) vs ground\\-glass centrilobulare \\(HP subacuta, RB\\-ILD, DAH/vasculiti\\)\\.\n\n2) *Perilinfatica*\nNoduli lungo le vie linfatiche: subpleurici, perifissurali \\(scissura 'beaded'\\), peribroncovascolari e settali\\. DD: sarcoidosi \\(lobi sup/medi, peribroncovascolare, scissure a corona di rosario, galaxy/cluster, adenopatie simmetriche\\); linfangite carcinomatosa \\(spesso asimmetrica, ispessimento settale nodulare con architettura conservata ± versamento\\); silicosi/pneumoconiosi \\(posteriore\\-superiore, subpleurica, ± linfonodi a guscio d'uovo\\)\\.\n\n3) *Random \\(ematogena\\)*\nNoduli uniformi, diffusi, SENZA predilezione zonale, che coinvolgono pleura e scissure in modo casuale\\. DD: TBC/funghi miliari, metastasi ematogene \\(tiroide, rene, melanoma\\)\\.\n\n*Algoritmo in una mossa:*\nguarda pleura e scissure\\. Risparmiate → centrilobulare \\(poi cerca il tree\\-in\\-bud\\)\\. Coinvolte → distingui perilinfatica \\(clustering lungo i linfatici, scissure beaded, spesso asimmetrica\\) da random \\(taglia uniforme, distribuzione stocastica diffusa\\)\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔗 *Connessione multidisciplinare — geometria e storia*\n\nPensa al lobulo secondario come a un poliedro: il pattern centrilobulare popola il baricentro, il perilinfatico decora spigoli e vertici \\(l'impalcatura linfatica\\), il random è un processo di Poisson che 'semina' i noduli ignorando la geometria lobulare\\. La DD perilinfatica\\-vs\\-random è quindi la differenza tra una distribuzione strutturata \\(reticolo\\) e una stocastica \\(Poisson\\): il tuo occhio sta facendo statistica spaziale\\.\n\nEtimologia mnemonica: 'miliare' viene dal latino milium \\(chicco di miglio\\) — i patologi del '700 \\(Bayle\\) descrivevano i granulomi tubercolari come grani di miglio sparsi; il lobulo polmonare secondario fu caratterizzato da William Snow Miller agli inizi del '900\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🖼 *Immagini \\(fonti verificate\\)*\n• [Lobulo polmonare secondario — illustrazione \\(Radiopaedia\\)](https://radiopaedia.org/cases/8760)\n• [Approccio ai piccoli noduli all'HRCT \\(Radiopaedia\\)](https://radiopaedia.org/articles/small-pulmonary-nodules-hrct-chest-approach-1)\n• [Sarcoidosi polmonare — pattern perilinfatico \\(Radiopaedia\\)](https://radiopaedia.org/cases/pulmonary-sarcoidosis-9)\n• [TBC miliare — pattern random \\(Radiopaedia\\)](https://radiopaedia.org/cases/miliary-tuberculosis-6)\n• [Terminologia HRCT toracica \\(Radiopaedia\\)](https://radiopaedia.org/articles/thoracic-hrct-terminology)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 1/4*\nAll'HRCT: noduli di 4–6 mm che risparmiano costantemente pleura e scissure \\(nessun nodulo subpleurico/perifissurale\\), centrati a 5–10 mm dalla superficie pleurica, alcuni con aspetto 'tree\\-in\\-bud'\\. Quale distribuzione e quale primo passo nella DD?\n\nA\\) Perilinfatica → pensa subito a sarcoidosi\nB\\) Centrilobulare → cerca il tree\\-in\\-bud per orientare verso patologia bronchiolare\nC\\) Random → pensa a miliare/metastasi ematogene\nD\\) Perilinfatica → linfangite carcinomatosa\n\n||Risposta corretta: B — il risparmio di pleura e scissure \\(subpleural sparing\\) è il marker della distribuzione centrilobulare; il passo successivo è cercare il tree\\-in\\-bud, che orienta verso malattia delle piccole vie aeree \\(infezione/diffusione endobronchiale, aspirazione, ABPA\\)\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260627|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260627|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260627|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260627|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260627|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260627|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 2/4*\nNoduli a distribuzione perilinfatica con scissure 'beaded' \\(a corona di rosario\\), predominanza peribroncovascolare ai lobi superiori/medi, bilaterali ma disomogenei, con linfoadenopatia ilo\\-mediastinica simmetrica\\. Diagnosi più probabile?\n\nA\\) Linfangite carcinomatosa\nB\\) Silicosi\nC\\) Sarcoidosi\nD\\) TBC miliare\n\n||Risposta corretta: C — scissure beaded \\+ distribuzione peribroncovascolare ai lobi superiori \\+ adenopatie simmetriche \\= sarcoidosi\\. La linfangite è più spesso asimmetrica con ispessimento settale nodulare e architettura conservata; la silicosi ha noduli posteriori/superiori subpleurici ± linfonodi a guscio d'uovo \\(anamnesi espositiva\\); la miliare è random\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260627|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260627|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260627|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260627|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260627|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260627|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 3/4*\nIn presenza di noduli che coinvolgono anche pleura e scissure, quale reperto orienta verso distribuzione RANDOM piuttosto che perilinfatica?\n\nA\\) Il coinvolgimento delle scissure\nB\\) La presenza di noduli subpleurici\nC\\) Taglia uniforme e distribuzione diffusa senza predilezione zonale né clustering lungo le strutture linfatiche\nD\\) L'ispessimento nodulare dei setti interlobulari\n\n||Risposta corretta: C — sia il pattern random sia il perilinfatico toccano pleura e scissure, quindi quei reperti non discriminano\\. È l'uniformità di taglia con distribuzione stocastica diffusa \\(vs clustering lungo i linfatici e scissure beaded\\) a definire il random\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260627|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260627|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260627|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260627|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260627|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260627|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 4/4*\nNoduli centrilobulari 'ground\\-glass' \\(sfumati, non solidi, senza tree\\-in\\-bud\\), diffusi, in paziente con esposizione ad antigeni aviari\\. Prima ipotesi?\n\nA\\) Polmonite da ipersensibilità \\(HP\\) subacuta\nB\\) Adenocarcinoma lepidico\nC\\) Sarcoidosi\nD\\) Metastasi ematogene\n\n||Risposta corretta: A — i noduli centrilobulari ground\\-glass \\(senza tree\\-in\\-bud\\) indicano riempimento/infiammazione bronchiolocentrica: HP subacuta \\(esposizione aviaria\\), RB\\-ILD nel fumatore, DAH/vasculiti\\. L'assenza di tree\\-in\\-bud allontana l'infezione bronchiolare e l'aspirazione\\.||",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260627|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260627|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260627|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260627|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260627|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260627|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠 *Rapporto operativo 27/06/2026*\nCallback processati: 0\nCarte resettate \\(no\\-show\\): 152\nPillola: 20260627 — Distribuzione micronoduli HRCT \\(perilinfatica/centrilobulare/random\\)\nRipasso incluso: no \\(cadenza 2gg < 3\\)\nDomande nuove: 4\nInbox cancellati: 0\nImmagini: 5 link Radiopaedia verificati\\. Warning: nessuno\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
