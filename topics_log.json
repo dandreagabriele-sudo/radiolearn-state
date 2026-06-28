@@ -285,5 +285,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-06-28",
+    "tag": "smoking-related-ild",
+    "domain": "torace",
+    "level": 1,
+    "source": "paper"
   }
 ]
