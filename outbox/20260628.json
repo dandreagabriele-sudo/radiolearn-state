@@ -1,0 +1,340 @@
+{
+  "pill_id": "20260628",
+  "created_at": "2026-06-28T06:51:32Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udee7 RadioLearn \u2014 PILLOLA DEL GIORNO \\(da paper\\)\nSR\\-ILD: il fumo e il parenchima polmonare \u2014 cosa CAMBIA nella nomenclatura\n\\(RadioGraphics 2026, Dulcich et al\\.\\)\n\nUna review che riordina lo spettro delle malattie parenchimali fumo\\-correlate\\. Mi concentro sulle NOVIT\u00c0 che toccano il referto\\.\n\n1\\) ENFISEMA \u2014 la fibrosi NON \u00e8 pi\u00f9 criterio di esclusione: enfisema e fibrosi coesistono di regola \\(telomeri corti, senescenza accelerata; la perdita delle piccole vie aeree precede l\u2019enfisema\\)\\. Lo scoring VISIVO Fleischner \\(centrolobulare: trace/lieve/moderato/confluente/distruttivo avanzato; PSE: lieve/sostanziale\\) \u00e8 riproducibile, correla con declino funzionale e mortalit\u00e0 ed \u00e8 predittore INDIPENDENTE di progressione\\. La TC svela enfisema anche senza criteri spirometrici di BPCO \\(early detection / risk\\-stratification\\)\\.\n\n2\\) DIP \u2192 AMP \u2014 la vecchia \u00abdesquamative interstitial pneumonia\u00bb era un misnomer di Liebow \\(credeva pneumociti desquamati: sono MACROFAGI\\)\\. La classificazione ATS/ERS aggiornata la ribattezza Alveolar Macrophage Pneumonia \\(AMP\\)\\. AMP e RB\\-ILD \\= spettro di accumulo macrofagico \\(RB bronchiolocentrico; AMP pi\u00f9 diffuso negli spazi aerei\\)\\. AMP: GGO bilaterale a predominanza basale \\+ piccole cisti \\(\\~1/3 casi, bronchioli/dotti dilatati nel GGO\\)\\. Dato nuovo: una revisione sistematica ribalta il vecchio \u00abprognosi buona\u00bb \u2014 molti non migliorano o peggiorano, soprattutto donne e non\\-fumatori\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udee7 \\(segue\\)\n\n3\\) SRIF \\(smoking\\-related interstitial fibrosis\\) \u2014 entit\u00e0 distinta, gi\u00e0 nota come \u00abairspace enlargement with fibrosis \\(AEF\\)\u00bb\\. Istologia: fibrosi ialinizzata \\(\u00abropy collagen\u00bb\\), foci fibroblastici ASSENTI/minimi \u2192 decorso indolente, stabilit\u00e0 o miglioramento con la cessazione, a differenza di UIP/IPF\\. HALLMARK radiologico: cisti raggruppate a parete sottile, forma/dimensione variabile, nei SEGMENTI SUPERIORI dei LOBI INFERIORI con risparmio subpleurico relativo; possono confluire in grosse cisti a parete spessa \\>2,5 cm\\. Gli autori preferiscono \u00abSRIF\u00bb ad \u00abAEF\u00bb\\. La Tabella 1 distingue SRIF \\(cisti irregolari, parete sottile, upper\\-mid, risparmio subpleurico\\) vs honeycombing \\(cisti tonde \\~1 cm, parete spessa, in file, basale subpleurico\\) vs PSE \\(cisti subpleuriche su singolo strato, pareti \\= setti interlobulari\\)\\.\n\n4\\) CPFE \u2014 termine da EVITARE nel referto\\. Definizione espansa \\(ATS/ERS/JRS/ALAT\\) a qualunque enfisema \\+ qualunque pattern fibrotico\\. Meglio descrivere SEPARATAMENTE pattern ed estensione di enfisema e fibrosi, distinguendo UIP da non\\-UIP \\(impatto prognostico/terapeutico\\)\\. Cisti grosse a parete spessa favoriscono SRIF su UIP\\. La sola coesistenza enfisema\\+fibrosi NON fa diagnosi di CPFE\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udee7 \\(segue\\)\n\n5\\) PLCH \u2014 oggi inquadrata come NEOPLASIA MIELOIDE con tratti infiammatori; mutazione BRAF V600E \\(e via MAPK\\) pu\u00f2 sostenere attivit\u00e0 anche dopo la cessazione \u2192 razionale per BRAF\\-inibitori nelle forme refrattarie\\. Imaging evolutivo: noduli bronchiolocentrici \u2192 nodulo cavitato \\(segno \u00abCheerio\u00bb\\) \u2192 cisti bizzarre a parete sottile/spessa, predominanza ai lobi superiori con RISPARMIO degli angoli costofrenici \\(le distingue dalle altre cistiche\\)\\. Pneumotorace \\~15%; regressione possibile dopo stop\\-fumo\\.\n\n6\\) EVALI \\(e\\-cig/svapo\\) \u2014 nuovo capitolo: pattern pi\u00f9 frequente \\= organizing pneumonia \\(\\~55%; GGO/consolidazioni con frequente risparmio subpleurico\\-lobulare\\), poi airway\\-centered \\(\\~9%\\) e misto \\(\\~20%\\); nei casi gravi DAD\\. Reperto associato: pneumomediastino da effetto Macklin\\. Diagnosi di esclusione, svapo <90 giorni\\. La marijuana si associa a maggior PSE in alcuni studi\\.\n\n7\\) RB\\-ILD \u2014 noduli centrolobulari ground\\-glass mal definiti, lobi superiori; ipotizzati PRECURSORI dell\u2019enfisema centrolobulare e in calo all\u2019aumentare della gravit\u00e0 BPCO\\. ILA: nuova ATS \u2014 non pi\u00f9 obbligatoriamente incidentali, incluse le popolazioni ad alto rischio; follow\\-up TC ogni 2\u20133 anni nei low\\-risk\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd17 Connessioni multidisciplinari\n\n\u2022 Storia della medicina / linguistica: \u00abdesquamative\u00bb \u00e8 un fossile linguistico\\. Liebow \\(1965\\) lesse come pneumociti \u00absquamati\u00bb ci\u00f2 che erano macrofagi: per 60 anni un nome ha orientato l\u2019immaginario diagnostico\\. Il passaggio a \u00abAMP\u00bb \u00e8 un caso da manuale di come la nomenclatura plasmi il pensiero clinico \\(Whorf\\)\\.\n\n\u2022 Chimica del fumo: oltre 7000 composti; il carico ossidativo upregola geni profibrotici e accorcia i telomeri \u2014 stesso meccanismo di senescenza che lega enfisema e fibrosi\\. Una \u00abchimica unica\u00bb, due fenotipi \\(distruzione vs cicatrice\\)\\.\n\n\u2022 Geometria / radiologia del segno \u00abCheerio\u00bb: un nodulo che cavita centralmente \u00e8 topologicamente un toro \\(genere 1\\)\\. Il buco centrale \u2014 come nella ciambella di cereali \u2014 nasce dalla distruzione bronchiolocentrica: la forma racconta la patogenesi\\.\n\n\u2022 Biologia oncologica: la PLCH come neoplasia mieloide BRAF\\-mutata avvicina una \u00abistiocitosi\u00bb al melanoma e al carcinoma tiroideo \\(stessa V600E\\) \u2014 e alla stessa farmacologia \\(vemurafenib/dabrafenib\\)\\. Il confine tra infiammazione e neoplasia \u00e8 pi\u00f9 sfumato di quanto i vecchi schemi suggerissero\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\uddbc Immagini e fonti\n\n\u2022 [SRIF \u2014 cisti raggruppate \\(segmenti sup\\. lobi inferiori\\)](https://radiopaedia.org/articles/smoking-related-interstitial-fibrosis-srif)\n\u2022 [PLCH \u2014 noduli/cisti, segno Cheerio \\(risparmio costofrenico\\)](https://radiopaedia.org/articles/pulmonary-langerhans-cell-histiocytosis)\n\u2022 [DIP\u2192AMP \u2014 GGO basale \\+ piccole cisti](https://radiopaedia.org/articles/desquamative-interstitial-pneumonia)\n\u2022 [RB\\-ILD \u2014 noduli centrolobulari ground\\-glass](https://radiopaedia.org/articles/respiratory-bronchiolitis)\n\u2022 [CPFE \u2014 enfisema apicale \\+ fibrosi basale \\(caso\\)](https://radiopaedia.org/cases/combined-pulmonary-fibrosis-and-emphysema-5)\n\u2022 [SR\\-ILD \u2014 overview](https://radiopaedia.org/articles/smoking-related-interstitial-lung-diseases-3)\n\n\ud83d\udcc4 Fonte primaria \\(paper\\): [Dulcich G, et al\\. RadioGraphics 2026;46\\(6\\):e250167\\. DOI 10\\.1148/rg\\.250167](https://doi.org/10.1148/rg.250167)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd01 Ripasso 1 \u2014 Galaxy sign \\(DD con PMF\\)\n\nIl galaxy sign sarcoideo va distinto dalla massa conglomerata della fibrosi massiva progressiva \\(PMF\\) di silicosi/pneumoconiosi del carbone\\. Quale elemento orienta verso PMF piuttosto che galaxy sarcoideo?\n\nA\\) macronodulo da confluenza di micronoduli satelliti che si diradano centrifugamente, stabile nel tempo\nB\\) masse conglomerate para\\-ilari nei lobi superiori che migrano verso l\u2019ilo lasciando enfisema cicatriziale periferico, in contesto espositivo con noduli silicotici \\(\u00b1 calcificazioni a guscio d\u2019uovo\\)\nC\\) linfoadenopatia ilare bilaterale simmetrica non necrotica\nD\\) distribuzione perilinfatica peribroncovascolare dei micronoduli\n\n||Risposta corretta: B \u2014 la PMF crea masse conglomerate nei lobi superiori che migrano centripetamente verso l\u2019ilo con enfisema paracicatriziale periferico, su fondo di micronoduli silicotici da esposizione\\. Il galaxy sarcoideo \u00e8 invece un macronodulo da confluenza di micronoduli PERILINFATICI, tipicamente stabile; C e D depongono semmai per sarcoidosi\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260514|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260514|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd01 Ripasso 2 \u2014 Galaxy sign \\(pattern linfonodale\\)\n\nQuale assetto linfonodale \u00e8 classico della sarcoidosi toracica e aiuta a contestualizzare un macronodulo galaxy?\n\nA\\) linfoadenopatia mediastinica unilaterale con necrosi centrale ed enhancement periferico\nB\\) adenopatia ilare bilaterale \\+ paratracheale destra \\(\u00absegno 1\\-2\\-3\u00bb di Garland\\), spesso con possibili calcificazioni a guscio d\u2019uovo\nC\\) sole adenopatie sottocarenali con versamento pleurico massivo\nD\\) completa assenza di adenopatie\n\n||Risposta corretta: B \u2014 il pattern 1\\-2\\-3 \\(Garland: ilare bilaterale \\+ paratracheale dx\\) con possibili calcificazioni a guscio d\u2019uovo \u00e8 tipico della sarcoidosi e orienta la lettura di un galaxy sign; la necrosi centrale linfonodale \\(A\\) depone invece per TB\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260514|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260514|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd01 Ripasso 3 \u2014 Galaxy sign \\(DD con metastasi/micosi\\)\n\nMacronodulo con micronoduli satelliti: quale reperto fa propendere per galaxy sarcoideo rispetto a metastasi ematogene o micosi angioinvasiva?\n\nA\\) distribuzione random con predilezione per i campi inferiori e feeding\\-vessel sign\nB\\) alone di ground\\-glass da emorragia perilesionale in paziente neutropenico\nC\\) distribuzione perilinfatica peribroncovascolare nei lobi superiori, stabilit\u00e0/regressione nel follow\\-up senza terapia, alone da microgranulomi \\(non emorragico\\)\nD\\) crescita rapida con cavitazione precoce\n\n||Risposta corretta: C \u2014 il galaxy \u00e8 perilinfatico nei lobi superiori, con alone da microgranulomi sub\\-risoluzione e stabilit\u00e0 nel tempo; le metastasi ematogene sono random con feeding\\-vessel e crescono, l\u2019aspergillosi angioinvasiva d\u00e0 halo EMORRAGICO nel neutropenico\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260514|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260514|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "1\ufe0f\u20e3 Domanda 1 \u2014 nomenclatura DIP/AMP\n\nLa classificazione ATS/ERS aggiornata sostituisce il termine \u00abdesquamative interstitial pneumonia \\(DIP\\)\u00bb\\. Quale affermazione \u00e8 corretta?\n\nA\\) \u00e8 stata rinominata \u00abalveolar macrophage pneumonia \\(AMP\\)\u00bb perch\u00e9 le cellule intra\\-alveolari sono macrofagi, non pneumociti desquamati\nB\\) DIP e RB\\-ILD sono entit\u00e0 istologicamente non correlate\nC\\) AMP si osserva esclusivamente nei non\\-fumatori\nD\\) il nuovo termine elimina ogni sovrapposizione radiologica con RB\\-ILD\n\n||Risposta corretta: A \u2014 \u00abDIP\u00bb era un misnomer di Liebow \\(riteneva le cellule pneumociti desquamati; sono macrofagi\\) \u2192 ATS/ERS rinomina AMP\\. AMP e RB\\-ILD sono uno spettro di accumulo macrofagico \\(RB bronchiolocentrico, AMP pi\u00f9 diffuso\\) e la sovrapposizione radiologica permane\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260628|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260628|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260628|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260628|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260628|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260628|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "2\ufe0f\u20e3 Domanda 2 \u2014 hallmark della SRIF\n\nQuale reperto TC \u00e8 proposto come hallmark della smoking\\-related interstitial fibrosis \\(SRIF\\), utile a distinguerla dalla UIP?\n\nA\\) honeycombing subpleurico e basale a file multiple\nB\\) cisti raggruppate a parete sottile nei segmenti superiori dei lobi inferiori con risparmio subpleurico, talora confluenti in cisti a parete spessa \\>2,5 cm\nC\\) micronoduli perilinfatici con linfoadenopatia ilare bilaterale\nD\\) consolidazioni periferiche migranti\n\n||Risposta corretta: B \u2014 la SRIF \\(ex AEF\\) mostra cisti clustered nei segmenti superiori dei lobi inferiori con risparmio subpleurico relativo, talora confluenti in grosse cisti a parete spessa \\>2,5 cm; decorso indolente, distinto dalla UIP/IPF \\(honeycombing subpleurico\\-basale a file\\)\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260628|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260628|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260628|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260628|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260628|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260628|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "3\ufe0f\u20e3 Domanda 3 \u2014 referto e termine \u00abCPFE\u00bb\n\nDavanti a enfisema dei lobi superiori \\+ fibrosi dei lobi inferiori, come raccomanda di comportarsi la review nel referto radiologico?\n\nA\\) etichettare sempre il quadro come \u00abCPFE\u00bb\nB\\) evitare l\u2019etichetta \u00abCPFE\u00bb e descrivere separatamente pattern ed estensione di enfisema e fibrosi, distinguendo UIP da non\\-UIP\nC\\) classificarlo come UIP a prescindere dal pattern\nD\\) considerarlo diagnostico di IPF\n\n||Risposta corretta: B \u2014 per l\u2019eterogeneit\u00e0 di quadri ed esiti sotto \u00abCPFE\u00bb il termine va evitato nel referto: meglio descrivere separatamente enfisema e fibrosi e distinguere UIP da non\\-UIP \\(impatto prognostico/terapeutico\\)\\. Cisti grosse a parete spessa favoriscono SRIF su UIP; la sola coesistenza non fa diagnosi di CPFE\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260628|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260628|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260628|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260628|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260628|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260628|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "4\ufe0f\u20e3 Domanda 4 \u2014 EVALI \\(svapo\\)\n\nGiovane con storia di svapo nelle ultime settimane e GGO bilaterali con risparmio subpleurico/lobulare: qual \u00e8 il pattern TC pi\u00f9 frequente nella EVALI?\n\nA\\) pattern UIP con honeycombing\nB\\) pattern da organizing pneumonia \\(\\~55% dei casi\\), eventualmente con pneumomediastino da effetto Macklin\nC\\) micronoduli random miliariformi\nD\\) versamento pleurico massivo isolato\n\n||Risposta corretta: B \u2014 nella EVALI il pattern pi\u00f9 comune \u00e8 l\u2019organizing pneumonia \\(\\~55%; GGO/consolidazioni con frequente risparmio subpleurico\\-lobulare\\), poi airway\\-centered \\(\\~9%\\) e misto \\(\\~20%\\); nei casi gravi DAD\\. Lo pneumomediastino da effetto Macklin \u00e8 reperto associato\\. Diagnosi di esclusione, svapo <90 giorni\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260628|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260628|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260628|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260628|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260628|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260628|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\uddfe Rapporto operativo \u2014 20260628\n\u2022 Callback processati: 4 \\(pill 20260627: q 5/5/0/5\\)\n\u2022 Carte resettate \\(no\\-show\\): 4 \\(20260625:0\\-3\\)\n\u2022 Topic: SR\\-ILD da fumo \u2014 paper RadioGraphics 2026 \\(source\\=paper\\)\n\u2022 Ripasso: s\u00ec \u2014 3 carte galaxy sign \\(20260514:0/1/2\\)\n\u2022 Inbox cancellati: inbox/2026\\-06\\-27\\.json\n\u2022 Nota: backlog elevato di carte stantie \\(ef al floor 1\\.3\\) \u2014 ripasso continuer\u00e0 a pescarle",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
