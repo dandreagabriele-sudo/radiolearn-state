@@ -1,0 +1,200 @@
+{
+  "pill_id": "20260629",
+  "created_at": "2026-06-29T06:47:37Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "parse_mode": "MarkdownV2",
+        "text": "*\ud83d\udcca Riepilogo settimanale RadioLearn*\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83c\udfaf Pillole inviate: 5\n\u2705 Quiz risposti: 4/20 \\(20%\\)\n\u2b50 Qualit\u00e0 media: 3\\.8 / 5\n\ud83d\udd01 Carte dimenticate: 534\n\ud83c\udfc6 Carte mature \\(\\>21gg\\): 0\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "parse_mode": "MarkdownV2",
+        "text": "*\ud83e\udec1 RadioLearn \u00b7 Immunoterapia con inibitori dei checkpoint \\(ICI\\) nel NSCLC*\n\ud83d\udcc4 Pillola da paper \u00b7 Livello 1 \\(Torace\\)\n\nGli ICI tolgono i \"freni\" alla risposta T\\-cellulare antitumorale su due assi:\n\u2022 Anti\u2013CTLA\\-4 \\(ipilimumab\\): agisce nella fase precoce di attivazione del linfocita T \\(priming nei linfonodi\\); CTLA\\-4 sottrae il B7 al CD28\\.\n\u2022 Anti\u2013PD\\-1 \\(nivolumab, pembrolizumab, cemiplimab\\) / anti\u2013PD\\-L1 \\(atezolizumab, durvalumab, avelumab\\): agiscono in periferia, nel microambiente tumorale; il tumore sovraesprime PD\\-L1 per spegnere il linfocita T\\.\nBiomarcatori: PD\\-L1 \\(TPS\\) \u00e8 il migliore disponibile ma imperfetto \\(espressione eterogenea; risposte anche in PD\\-L1\u2013negativi\\); TMB alto \\(\u226510 mut/Mb\\) \u2192 pi\u00f9 neoantigeni, maggiore probabilit\u00e0 di risposta\\.\n\n*Cosa cambia per il radiologo \\(il vero \"nuovo\"\\):*\n1\\) Criteri di risposta dedicati\\. RECIST 1\\.1 non basta: con iRECIST \\(2017\\) una nuova lesione o l'aumento del burden definisce solo una progressione NON confermata \\(iUPD\\), da riconfermare con imaging a 4\u20138 settimane prima di parlare di progressione confermata \\(iCPD\\)\\. Serve a non sospendere la terapia per una pseudoprogressione \\(rara: 0,6\u20135% nel NSCLC; nel \u226595% dei casi la progressione iniziale \u00e8 per\u00f2 reale\\)\\. L'iperprogressione resta un concetto controverso\\.\n\n2\\) Spettro degli irAE \\(incidenza 30\u201366% nel NSCLC\\) che mima metastasi / progressione / infezione:\n\u2022 Polmonite: prima causa di morte da anti\u2013PD\\-1/PD\\-L1; pattern TC pi\u00f9 comuni \\= GGO e organizing pneumonia; esordio mediano \\~2,6\u20133 mesi; steroidi \\+ sospensione\\.\n\u2022 Reazione sarcoid\\-like: adenopatie ilo\\-mediastiniche bilaterali \\+ noduli perilinfatici dei lobi superiori; pi\u00f9 frequente con ipilimumab; spesso meno severa, talora non impone la sospensione \\(ACE poco affidabile\\)\\.\n\u2022 Recall pneumonitis \\(RRP\\): flogosi nel polmone gi\u00e0 irradiato, che ricalca il piano di trattamento, mesi\\-anni dopo la RT, scatenata dal farmaco\\.\n\u2022 Cardiovascolari: miocardite \\(la pi\u00f9 frequente, mortalit\u00e0 25\u201350%, LGE alla RM con pattern variabile\\), pericardite, vasculiti dei grossi vasi/GCA \\(rischio di cecit\u00e0\\)\\.\n\u2022 Addome/endocrino: entero\\-colite \\(pi\u00f9 con ipilimumab\\) e gastrite \\(pi\u00f9 tardiva\\), pancreatite, epatite/colangite \\(pattern ostruttivo senza ostruzione\\), surrenalite, tiroidite \\(tireotossicosi \u2192 ipotiroidismo\\), ipofisite \\(fino al 10% con anti\u2013CTLA\\-4; RM ipofisaria dirimente\\)\\.\n\u2022 Neurologici \\(encefalite limbica: iperintensit\u00e0 T2/FLAIR mesio\\-temporale\\) e multiorgano\\.\n\n*Messaggio chiave:* lo sviluppo di irAE si associa a migliore sopravvivenza \\(eccetto quelli ad alta mortalit\u00e0: encefalite, miocardite\\)\\. La correlazione clinico\\-laboratoristica e la valutazione multidisciplinare sono obbligatorie per non scambiare un irAE per malattia\\.\n\n*\ud83e\udde9 Connessione \\(immunologia & storia\\): *il \"checkpoint\" come freno fisiologico dell'immunit\u00e0 \u00e8 valso il Nobel per la Medicina 2018 a James P\\. Allison \\(CTLA\\-4\\) e Tasuku Honjo \\(PD\\-1\\)\\. Metafora: CTLA\\-4 \u00e8 il freno tirato \"in partenza\" \\(priming nel linfonodo\\), PD\\-1 il freno premuto \"in corsa\" nel tessuto \u2014 toglierli sblocca i linfociti T, ma un'auto senza freni pu\u00f2 sbandare: gli irAE sono lo sbandamento autoimmune\\.",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "parse_mode": "MarkdownV2",
+        "text": "*\ud83d\uddbc Immagine & fonte*\n\n\u2022 [Pattern TC della polmonite da ICI \u2014 Radiopaedia](https://radiopaedia.org/articles/immune-checkpoint-inhibitor-therapy-related-pneumonitis)\n\n\ud83d\udcda Fonte \\(paper del giorno\\): Shroff GS, Strange CD, Ahuja J, et al\\. Imaging of Immune Checkpoint Inhibitor Immunotherapy for Non\u2013Small Cell Lung Cancer\\. RadioGraphics 2022;42\\(7\\):1956\u20131974\\.\nDOI: [10\\.1148/rg\\.220108](https://doi.org/10.1148/rg.220108)",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "parse_mode": "MarkdownV2",
+        "text": "*\ud83d\udd35 Domanda 1/4 \u2014 Criteri di risposta \\(iRECIST\\)*\n\nPaziente con NSCLC in nivolumab\\. Alla prima rivalutazione a 6 settimane il target cresce del 30% e compare una nuova lesione; il paziente \u00e8 clinicamente stabile\\. Secondo iRECIST, come si classifica e cosa si fa?\n\nA\\) Progressione confermata \\(iCPD\\) \u2192 sospendere subito l'immunoterapia\nB\\) Progressione NON confermata \\(iUPD\\) \u2192 si prosegue e si riconferma con imaging a 4\u20138 settimane\nC\\) Risposta parziale\nD\\) Malattia stabile, nessun follow\\-up ravvicinato\n\n||Risposta corretta: B \u2014 iRECIST introduce la categoria iUPD: nuove lesioni/aumento di burden non definiscono subito la progressione, ma vanno riconfermati a 4\u20138 settimane \\(iCPD\\) per non interrompere la terapia in caso di pseudoprogressione \\(rara, 0,6\u20135% nel NSCLC\\)\\. Nota: nel \u226595% dei casi la progressione iniziale \u00e8 comunque reale, ma la conferma protegge la minoranza con pseudoprogressione\\.||",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260629|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260629|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260629|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260629|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260629|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260629|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "parse_mode": "MarkdownV2",
+        "text": "*\ud83d\udd35 Domanda 2/4 \u2014 Polmonite da ICI*\n\nQuale affermazione sulla polmonite da ICI nel NSCLC \u00e8 corretta?\n\nA\\) Il pattern TC pi\u00f9 frequente \u00e8 il danno alveolare diffuso \\(DAD\\)\nB\\) \u00c8 la principale causa di morte correlata agli anti\u2013PD\\-1/PD\\-L1; i pattern TC pi\u00f9 comuni sono GGO e organizing pneumonia\nC\\) Non risponde mai agli steroidi\nD\\) Si manifesta sempre oltre i 12 mesi dall'inizio della terapia\n\n||Risposta corretta: B \u2014 La polmonite \u00e8 la principale causa di morte da inibitori anti\u2013PD\\-1/PD\\-L1; i pattern radiologici pi\u00f9 comuni sono GGO e organizing pneumonia \\(esordio mediano \\~2,6\u20133 mesi\\)\\. In genere risponde a sospensione del farmaco \\+ steroidi per 4\u20136 settimane; \\~1/3 recidiva alla ripresa dell'ICI\\.||",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260629|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260629|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260629|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260629|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260629|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260629|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "parse_mode": "MarkdownV2",
+        "text": "*\ud83d\udd35 Domanda 3/4 \u2014 Reazione sarcoid\\-like*\n\nUomo in nivolumab: nuove adenopatie ilo\\-mediastiniche bilaterali e noduli polmonari a distribuzione perilinfatica nei lobi superiori\\. Diagnosi prioritaria e gestione?\n\nA\\) Progressione metastatica \u2192 stop immediato della terapia\nB\\) Reazione sarcoid\\-like \\(granulomi non caseosi\\): mima le metastasi, spesso meno severa della polmonite, pu\u00f2 non richiedere la sospensione; conferma istologica se atipica\nC\\) Polmonite infettiva \u2192 terapia antibiotica\nD\\) Localizzazione linfomatosa secondaria\n\n||Risposta corretta: B \u2014 Il quadro \\(adenopatie ilo\\-mediastiniche bilaterali \\+ noduli perilinfatici dei lobi superiori\\) \u00e8 tipico della reazione sarcoid\\-like da ICI \\(granulomi non caseosi\\), pi\u00f9 frequente con ipilimumab\\. Mima metastasi/progressione; quando l'imaging \u00e8 caratteristico si pu\u00f2 seguire senza biopsia\\. Tende a essere meno severa della polmonite e spesso non impone la sospensione dell'ICI; l'ACE non \u00e8 affidabile\\.||",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260629|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260629|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260629|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260629|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260629|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260629|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "parse_mode": "MarkdownV2",
+        "text": "*\ud83d\udd35 Domanda 4/4 \u2014 Miocardite da ICI*\n\nRiguardo alla miocardite da inibitori dei checkpoint, quale affermazione \u00e8 corretta?\n\nA\\) \u00c8 rara ma \u00e8 la pi\u00f9 frequente tossicit\u00e0 cardiovascolare da ICI, ad alta mortalit\u00e0 \\(\\~25\u201350%\\); la RM cardiaca mostra LGE con pattern variabile e FE spesso conservata\nB\\) Si presenta sempre con frazione d'eiezione ridotta\nC\\) Compare tipicamente dopo oltre 1 anno di terapia\nD\\) Il late gadolinium enhancement \u00e8 sempre assente nelle fasi precoci\n\n||Risposta corretta: A \u2014 La miocardite \u00e8 la pi\u00f9 comune tossicit\u00e0 CV da ICI \\(incidenza \\~1%\\) ma ha mortalit\u00e0 elevata \\(25\u201350%\\); fino all'80% dei casi entro 3 mesi\\. Alla RM cardiaca l'LGE \u00e8 presente in circa met\u00e0 dei casi con pattern variabile \\(subendo\\-transmurale, subepicardico, mediomurale\\) e la FE \u00e8 spesso conservata \\(\u226550% nel 61%\\)\\. La resa dell'LGE aumenta se la RM \u00e8 eseguita \u22654 giorni dal ricovero\\.||",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260629|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260629|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260629|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260629|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260629|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260629|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "parse_mode": "MarkdownV2",
+        "text": "*\ud83d\udee0 Report operativo RadioLearn*\n\u2022 Callback processati: 0\n\u2022 Carte resettate \\(no\\-show\\): 156\n\u2022 Pillola: 20260629 \u00b7 topic: immunoterapia\\-ICI\\-NSCLC \\(paper, torace L1\\)\n\u2022 Ripasso incluso: no \\(giorni dall'ultimo: 1, soglia 3\\)\n\u2022 Inbox cancellati: 0\n\u2022 Riepilogo settimanale: s\u00ec\n\u2022 Warning: nessuno"
+      }
+    }
+  ]
+}
