@@ -150,8 +150,14 @@ same bot, whoever calls `getUpdates` first confirms (deletes) the update
 for everyone, so our poller silently sees nothing. This is the documented
 cause of the intermittent "answers stop being credited" symptom
 (2026-06-16 → 2026-06-29): a stale poller in another repo/deployment using
-the same token was racing and usually winning. **Invariant: exactly one
-process may poll `@RadioTutor_bot`.** If crediting goes intermittent again,
+the same token was racing and usually winning. Resolved on 2026-06-29 by
+switching to a brand-new bot (`@RadTeachingPills_bot`, id 8793723167) the
+stale poller has no token for; a 4-tap test then captured 4/4 cleanly.
+When swapping bots, **reset `telegram_state.json` to
+`{"last_update_id": 0}`** — a new bot's update_id range can be lower than
+the old stored offset, which would otherwise make the poller skip every
+new answer. **Invariant: exactly one process may poll the bot
+(`@RadTeachingPills_bot`).** If crediting goes intermittent again,
 run the manual **Telegram Diagnose** workflow right after tapping a button
 (`getMe` / `getWebhookInfo` / `offset=-1` peek); a captured update sitting
 *ahead* of the stored offset, or taps that vanish before a healthy poll
