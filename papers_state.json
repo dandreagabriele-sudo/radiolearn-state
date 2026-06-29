@@ -1,6 +1,7 @@
 {
   "processed_file_ids": [
-    "1LISkdaPUDLeWTNhinsQA0kNZDbsshF2N"
+    "1LISkdaPUDLeWTNhinsQA0kNZDbsshF2N",
+    "1P6e-Sk4QblWDbT-fR0o-4QB1jXtUbZpA"
   ],
   "log": [
     {
@@ -8,6 +9,12 @@
       "pill_id": "20260628",
       "title": "Imaging Findings of Smoking-related Pulmonary Parenchymal Disease (Dulcich et al., RadioGraphics 2026;46(6):e250167)",
       "date": "2026-06-28"
+    },
+    {
+      "file_id": "1P6e-Sk4QblWDbT-fR0o-4QB1jXtUbZpA",
+      "pill_id": "20260629",
+      "title": "Imaging of Immune Checkpoint Inhibitor Immunotherapy for Non-Small Cell Lung Cancer (Shroff et al., RadioGraphics 2022;42(7):1956-1974)",
+      "date": "2026-06-29"
     }
   ]
 }
