@@ -94,6 +94,70 @@ Old history entries (pre-tag) have no `source` field and default to
 "Quiz risposti" count during the first 7-day window after the upgrade
 but self-corrects after one week.
 
+### Weekly-summary counting — cohort metric (FASE 5, OVERRIDE)
+
+The original spec computed `Quiz risposti: Y/Z` as *(user history rows in
+the last 7 days) / (all quiz cards delivered in the last 7 days)*. That
+ratio is **incoherent** and was surfaced as misleading on 2026-06-29:
+
+- **Cohort mismatch** — the numerator counts answer *rows* (a ripasso of an
+  old card adds a `user` row whose card is **not** in the denominator),
+  while the denominator counts *cards*. Numerator and denominator are
+  different populations, so the percentage is meaningless and can even
+  exceed 100 %.
+- **Raw-row counting** — ripasso reuses the original `card_id`, so one card
+  answered three times over three weeks contributes three rows.
+
+Compute the completion rate over **one cohort: the quiz cards delivered in
+the trailing 7 days**, counting **distinct cards**, not rows:
+
+```
+cutoff = (today - 6 days)                       # YYYYMMDD prefix compare
+cohort = [cid for cid in state["cards"]         # new cards delivered this week
+          if cid[:8].isdigit() and cid[:8] >= cutoff_compact]
+def answered(cid):                              # ≥1 genuine user answer, ever
+    return any(h.get("source","user") == "user"
+               for h in state["cards"][cid]["history"])
+Z = len(cohort)                                 # quiz inviati (cards)
+Y = sum(1 for cid in cohort if answered(cid))   # quiz risposti (distinct cards)
+rate = round(100*Y/Z) if Z else 0               # bounded 0–100 %
+quals = [h["quality"] for cid in cohort for h in state["cards"][cid]["history"]
+         if h.get("source","user") == "user"]
+avg_q = round(sum(quals)/len(quals), 1) if quals else 0.0
+```
+
+Notes:
+- Count a cohort card as answered if it has **any** `user` entry (do not
+  filter the entry by date): answers are credited the *morning after* they
+  are given (poller → inbox → next routine's FASE 2), so an entry-date
+  filter would drop yesterday's answers. The cohort (pill date) is the
+  window; the answer can land a little later.
+- Today's pill is **not** in the cohort — its cards are created in FASE 6,
+  after FASE 5 runs — so it never drags the rate down.
+- `Carte dimenticate` keeps its meaning: `source == "reset"` rows in the
+  last 7 days (by entry date). `Carte mature` = cards with `interval > 21`.
+
+A persistently low rate with healthy answering usually means answers are
+being **lost upstream** (see "Telegram answer retrieval" below), not a
+counting bug — check there before assuming the user simply skipped quizzes.
+
+### Telegram answer retrieval — single-consumer invariant
+
+Quiz answers reach the state only via `getUpdates` long-polling in
+`poll.py`. Telegram tracks the confirmed-update offset **per bot token,
+shared across every consumer of that token**: if a second process polls the
+same bot, whoever calls `getUpdates` first confirms (deletes) the update
+for everyone, so our poller silently sees nothing. This is the documented
+cause of the intermittent "answers stop being credited" symptom
+(2026-06-16 → 2026-06-29): a stale poller in another repo/deployment using
+the same token was racing and usually winning. **Invariant: exactly one
+process may poll `@RadioTutor_bot`.** If crediting goes intermittent again,
+run the manual **Telegram Diagnose** workflow right after tapping a button
+(`getMe` / `getWebhookInfo` / `offset=-1` peek); a captured update sitting
+*ahead* of the stored offset, or taps that vanish before a healthy poll
+sees them, points to a second consumer — fix by stopping it or revoking +
+reissuing the bot token (then update the `TELEGRAM_BOT_TOKEN` secret).
+
 ## Ripasso (FASE 6a) — cadenza e bundle (OVERRIDE spec)
 
 Questa sezione **sostituisce** la regola della chat spec ("cadenza minima
