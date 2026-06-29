@@ -292,5 +292,12 @@
     "domain": "torace",
     "level": 1,
     "source": "paper"
+  },
+  {
+    "date": "2026-06-29",
+    "tag": "ici-immunotherapy-nsclc",
+    "domain": "torace",
+    "level": 1,
+    "source": "paper"
   }
 ]
