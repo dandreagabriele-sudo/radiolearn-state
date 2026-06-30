@@ -1,0 +1,190 @@
+{
+  "pill_id": "20260630",
+  "created_at": "2026-06-30T07:58:17.234952+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83c\udfaf *Segno del bersaglio \\(target sign\\)*\n\n*Cos'\u00e8*\nNei tumori benigni delle guaine nervose periferiche \\(neurofibroma, schwannoma\\) le sequenze RM pesate in T2 possono mostrare un aspetto \u00aba bersaglio\u00bb: un centro scuro \\(ipointenso\\) circondato da un anello chiaro \\(iperintenso\\)\\.\n\n*Perch\u00e9*\nIl centro corrisponde al nucleo fibro\\-collagene \\(povero d'acqua \u2192 T2 basso, scuro\\); l'anello periferico \u00e8 tessuto mixoide/edematoso ricco d'acqua \\(T2 alto, brillante\\)\\. Nello schwannoma riflette la disposizione delle zone di Antoni A \\(compatte, centrali\\) e Antoni B \\(lasse e mixoidi, periferiche\\)\\.\n\n*A cosa serve*\n\u00c8 un indizio di lesione nervosa benigna \u2014 classicamente il neurofibroma \\(tipico nella NF1\\), ma descritto anche nello schwannoma\\. Attenzione: NON \u00e8 n\u00e9 sensibile n\u00e9 specifico \\(presente in circa il 20% in alcune casistiche\\)\\. La PERDITA del segno in una lesione che cresce in fretta e diventa disomogenea deve far sospettare la trasformazione maligna \\(MPNST\\)\\.\n\n*Capire che la lesione nasce da un nervo*\nMassa fusiforme orientata lungo il decorso del nervo, \u00absplit\\-fat sign\u00bb \\(orletto di grasso attorno alla lesione\\), aspetto fascicolare interno, nervo che entra ed esce dalla lesione\\.\n\n\ud83d\udd17 *Connessione mnemonica*\nPensa al bersaglio del tiro con l'arco o delle freccette: il \u00abcentro\u00bb \\(bull's\\-eye\\) \u00e8 scuro, gli anelli esterni chiari\\. Fisica del segnale RM: l'acqua libera del tessuto mixoide ha un T2 lungo \u2192 appare brillante; il collagene denso ha pochi protoni mobili \u2192 T2 corto \u2192 appare scuro\\. \u00c8 lo stesso motivo per cui le cisti \\(pura acqua\\) sono bianchissime in T2\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udcf7 *Immagini*\n\u2022 [Target sign \u2013 PNST \\(Radiopaedia\\)](https://radiopaedia.org/articles/target-sign-peripheral-nerve-sheath-tumor)\n\u2022 [Schwannoma del nervo femorale \u2013 caso pelvico \\(Radiopaedia\\)](https://radiopaedia.org/cases/femoral-nerve-schwannoma-pelvic-2)\n\u2022 [Tumori delle guaine nervose periferiche \\(Radiopaedia\\)](https://radiopaedia.org/articles/peripheral-nerve-sheath-tumour-2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Quiz 1/4*\n\nIn RM pesata in T2, in cosa consiste il \u00absegno del bersaglio\u00bb di un tumore delle guaine nervose periferiche?\n\nA\\) Centro brillante con anello scuro\nB\\) Centro scuro con anello periferico brillante\nC\\) Segnale uniformemente brillante\nD\\) Segnale uniformemente scuro\n\n||Risposta corretta: B \u2014 centro fibro\\-collagene ipointenso \\(T2 basso\\) circondato da tessuto mixoide iperintenso \\(T2 alto\\)\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260630|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260630|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260630|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260630|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260630|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260630|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Quiz 2/4*\n\nIl segno del bersaglio \u00e8 soprattutto suggestivo di quale tipo di lesione?\n\nA\\) Metastasi maligna\nB\\) Tumore benigno delle guaine nervose \\(es\\. neurofibroma\\)\nC\\) Cisti semplice\nD\\) Ematoma in organizzazione\n\n||Risposta corretta: B \u2014 \u00e8 un indizio \\(non specifico\\) di tumore nervoso benigno, classicamente il neurofibroma; descritto anche nello schwannoma\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260630|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260630|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260630|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260630|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260630|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260630|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Quiz 3/4*\n\nQuale reperto deve far sospettare la trasformazione maligna \\(MPNST\\) di un tumore nervoso periferico?\n\nA\\) Presenza di un segno del bersaglio ben definito\nB\\) Piccole dimensioni e forma fusiforme\nC\\) Perdita del segno del bersaglio con crescita rapida e aspetto disomogeneo\nD\\) Presenza dello \u00absplit\\-fat sign\u00bb\n\n||Risposta corretta: C \u2014 la scomparsa del target sign con crescita rapida/eterogeneit\u00e0 \u00e8 un campanello d'allarme per MPNST\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260630|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260630|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260630|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260630|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260630|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260630|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Quiz 4/4*\n\nQuale elemento aiuta a stabilire che una massa ha origine nervosa \\(neurogena\\)?\n\nA\\) Massa fusiforme orientata lungo il decorso di un nervo, con split\\-fat sign\nB\\) Captazione vascolare arteriosa precoce\nC\\) Ilo grassoso centrale tipico del linfonodo\nD\\) Continuit\u00e0 diretta con un ventre muscolare\n\n||Risposta corretta: A \u2014 la forma fusiforme lungo il nervo e l'orletto di grasso \\(split\\-fat sign\\) indicano origine neurogena\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260630|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260630|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260630|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260630|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260630|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260630|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\uddfe Report RadioLearn 2026-06-30\n\u2022 Callback processati: 7\n\u2022 Carte resettate (no-show): 8\n\u2022 Pillola: 20260630 \u2014 Segno del bersaglio (PNST), Livello 3 / RM altri distretti (MSK-neuro)\n\u2022 Ripasso incluso: no (days_since=2<3)\n\u2022 Nuove domande: 4\n\u2022 Inbox cancellati: 1\n\u2022 Paper del giorno: nessuno (coda Drive gi\u00e0 processata)"
+      }
+    }
+  ]
+}

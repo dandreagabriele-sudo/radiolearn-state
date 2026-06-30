@@ -299,5 +299,12 @@
     "domain": "torace",
     "level": 1,
     "source": "paper"
+  },
+  {
+    "date": "2026-06-30",
+    "tag": "target-sign-pnst",
+    "domain": "msk",
+    "level": 3,
+    "source": "auto"
   }
 ]
