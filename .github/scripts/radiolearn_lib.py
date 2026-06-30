@@ -41,7 +41,14 @@ Public API:
     PAPERS_DRIVE_FOLDER                         -> str (Drive folder name)
     load_papers_state()                        -> (pstate, sha)
     paper_is_processed(pstate, file_id)        -> bool
-    mark_paper_processed(pstate, sha, file_id, pill_id, title="")
+    mark_paper_processed(pstate, sha, file_id, pill_id, title="")  # writes
+
+  FASE-9 delivery via git + GitHub MCP (Claude Code on the web — writes are
+  proxy-blocked; reads still work). Build everything in memory, then dump:
+    append_topic_entry(ledger, date_iso, tag, domain, level, source="auto") -> ledger  # pure
+    mark_paper_local(pstate, file_id, pill_id, title="")                     -> pstate  # pure
+    build_delivery(out_dir, upserts, deletes=None)                           -> manifest_path
+  then run .github/scripts/deliver_pr.sh and merge the PR via GitHub MCP.
 """
 
 import base64
@@ -99,6 +106,7 @@ def gh_put(path: str, content_str: str, msg: str,
     if sha is not None:
         payload["sha"] = sha
     r = requests.put(f"{_API}/{path}", headers=_HDR, json=payload, timeout=30)
+    _raise_if_proxy_blocked(r)
     r.raise_for_status()
     return r.json()["content"]["sha"]
 
@@ -109,7 +117,27 @@ def gh_delete(path: str, sha: str, msg: str) -> None:
         json={"message": msg, "sha": sha, "branch": "main"},
         timeout=30,
     )
+    _raise_if_proxy_blocked(r)
     r.raise_for_status()
+
+
+def _raise_if_proxy_blocked(r) -> None:
+    """Turn the Claude Code on the web egress-proxy write block into a clear,
+    actionable error instead of an opaque 403.
+
+    On the web sandbox, direct Contents-API writes (PUT/DELETE) are rejected by
+    the proxy. The routine must NOT write from the sandbox: dump FASE-9 artifacts
+    with build_delivery() and land them on main via deliver_pr.sh + a GitHub-MCP
+    PR merge. Reads (gh_get/gh_list) are unaffected. Outside the web sandbox
+    (e.g. GitHub Actions) this guard never fires."""
+    if r.status_code == 403 and "not permitted through this proxy" in r.text:
+        raise RuntimeError(
+            "Direct GitHub Contents-API writes are blocked by the Claude Code "
+            "on the web egress proxy. Do not write from the routine — dump "
+            "FASE-9 artifacts with build_delivery() and deliver via "
+            "deliver_pr.sh + a GitHub-MCP PR merge (see CLAUDE.md, "
+            "'Write path on Claude Code on the web')."
+        )
 
 
 # ────────────────────────────────────────────────────────────────────
@@ -379,3 +407,73 @@ def mark_paper_processed(pstate: dict, sha, file_id: str, pill_id: str,
     new_sha = gh_put_retry("papers_state.json", _json.dumps(pstate, indent=2),
                            f"Paper consumed -> pill {pill_id}", sha)
     return pstate, new_sha
+
+
+# ────────────────────────────────────────────────────────────────────
+# FASE-9 delivery via git + GitHub MCP  (Claude Code on the web)
+#
+# The web egress proxy blocks direct Contents-API writes (PUT/DELETE -> 403
+# "not permitted through this proxy"); reads still work. So the routine READS +
+# COMPUTES with this library, builds ALL FASE-9 outputs in memory, dumps them
+# with build_delivery(), and the session lands them on main with deliver_pr.sh
+# (git) + a GitHub-MCP PR merge.
+#
+# Use the pure helpers below — append_topic_entry() / mark_paper_local() —
+# instead of the writing append_topic() / mark_paper_processed(), so NOTHING in
+# the routine touches the blocked write API. (append_topic/mark_paper_processed
+# remain for GitHub-Actions contexts, which are not behind the proxy.)
+# ────────────────────────────────────────────────────────────────────
+
+def append_topic_entry(ledger: list, date_iso: str, tag: str, domain: str,
+                       level, source: str = "auto") -> list:
+    """Pure variant of append_topic — return an updated ledger, NO I/O.
+
+    Re-running the same day overwrites that day's entry (no duplicates). Dump
+    `json.dumps(ledger, indent=2)` as the topics_log.json upsert in the manifest.
+    """
+    ledger = [e for e in ledger if e.get("date") != date_iso]
+    ledger.append({"date": date_iso, "tag": tag, "domain": domain,
+                   "level": level, "source": source})
+    ledger.sort(key=lambda e: e.get("date", ""))
+    return ledger
+
+
+def mark_paper_local(pstate: dict, file_id: str, pill_id: str,
+                     title: str = "") -> dict:
+    """Pure variant of mark_paper_processed — mutate+return pstate, NO I/O.
+
+    Dump `json.dumps(pstate, indent=2)` as the papers_state.json upsert.
+    """
+    if file_id not in pstate.setdefault("processed_file_ids", []):
+        pstate["processed_file_ids"].append(file_id)
+    pstate.setdefault("log", []).append(
+        {"file_id": file_id, "pill_id": pill_id, "title": title,
+         "date": date.today().isoformat()})
+    return pstate
+
+
+def build_delivery(out_dir: str, upserts, deletes=None) -> str:
+    """Write FASE-9 artifacts + a manifest.txt for deliver_pr.sh; return its path.
+
+    upserts: list of (repo_path, content_str). Keep outbox/<pill_id>.json LAST
+             for readability — the squash merge is atomic, so order is cosmetic.
+    deletes: list of repo_path (e.g. processed inbox files).
+
+    Then the session runs:
+        bash .github/scripts/deliver_pr.sh <manifest> <work_branch> <msg_file>
+    and merges the resulting PR to main via GitHub MCP (squash).
+    """
+    import os
+    os.makedirs(out_dir, exist_ok=True)
+    lines = []
+    for repo_path, content in upserts:
+        local = os.path.join(out_dir, repo_path.replace("/", "__"))
+        with open(local, "w", encoding="utf-8") as f:
+            f.write(content)
+        lines.append(f"UPSERT {repo_path} {local}")
+    for repo_path in (deletes or []):
+        lines.append(f"DELETE {repo_path}")
+    manifest = os.path.join(out_dir, "manifest.txt")
+    with open(manifest, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
+    return manifest
