@@ -306,5 +306,12 @@
     "domain": "msk",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-07-01",
+    "tag": "gd-eob-hepatobiliary-phase",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
