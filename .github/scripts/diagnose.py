@@ -1,13 +1,21 @@
 """One-off Telegram diagnostics — workflow_dispatch only.
 
-READ-ONLY: never advances the poller offset, never writes telegram_state.json,
-never prints the bot token. Answers the open question from the 2026-06-27 audit
-("answers stopped being credited after 2026-06-16"): is a webhook stealing the
-callbacks, is this the right bot, and are taps actually reaching getUpdates?
+NON-DESTRUCTIVE: never writes telegram_state.json, never prints the bot token,
+and — crucially — never consumes pending updates. The peek uses a POSITIVE
+offset (stored last_update_id + 1), exactly what the real poller would fetch, so
+a tapped-but-uncredited answer stays in Telegram's queue for the next poll.
 
-Best signal: tap a quiz button on Telegram, then run this workflow within a
-minute (the live poller runs every 15 min and may otherwise confirm the update
-first).
+  ⚠️  Do NOT reintroduce getUpdates(offset=-1) here. Telegram documents a
+  negative offset as "all previous updates will be forgotten": it MUTATES the
+  server-side queue and DROPS the pending answer you are trying to inspect.
+  That was the original bug (2026-07-01): "READ-ONLY" referred only to our
+  stored offset, but offset=-1 still forgot updates server-side, so every
+  tap-then-diagnose test destroyed the very answer it was checking — which made
+  the crediting look permanently broken when the poller was actually fine.
+
+Answers the recurring question: is a webhook stealing the callbacks, is this the
+right bot, and are taps actually reaching getUpdates? Tap a quiz button, then
+run this workflow — timing no longer matters, the peek won't eat the tap.
 """
 import os
 import json
@@ -62,24 +70,29 @@ except FileNotFoundError:
     stored = 0
 print(f"Stored last_update_id = {stored}")
 
-# 4. Read-only peek at the latest update (offset=-1 does NOT confirm/advance).
-peek = call("getUpdates", {"offset": -1, "timeout": 0,
+# 4. Non-destructive peek at what the poller will fetch next.
+#    Use a POSITIVE offset (stored + 1) — NEVER offset=-1. offset=stored+1 only
+#    confirms ids <= stored (already confirmed → no-op) and returns every pending
+#    update the next real poll would return, WITHOUT forgetting anything. Safe to
+#    run anytime, even the instant after a tap. (offset=-1 would forget the
+#    pending answer — see the module docstring.)
+peek = call("getUpdates", {"offset": stored + 1, "timeout": 0,
                            "allowed_updates": json.dumps(["callback_query"])})
-show("getUpdates offset=-1 (latest, read-only peek)", peek)
+show(f"getUpdates offset={stored + 1} (pending, non-destructive peek)", peek)
 
 ups = peek.get("result") or []
 if ups:
-    u = ups[-1]
-    cb = u.get("callback_query")
-    gap = u["update_id"] - stored
-    print(f"\nLatest update_id={u['update_id']} | stored offset={stored} | gap={gap}")
-    print(f"callback_data = {(cb.get('data') if cb else None)!r}")
-    if cb and gap > 0:
-        print("→ A callback IS reaching the bot but sits ahead of the stored "
-              "offset: delivery works; investigate capture/commit in poll.py.")
-    elif cb:
-        print("→ A callback is present and already within the confirmed range.")
+    print(f"\n{len(ups)} pending update(s) queued for the poller "
+          f"(stored offset={stored}):")
+    for u in ups:
+        cb = u.get("callback_query")
+        print(f"  update_id={u['update_id']} "
+              f"callback_data={(cb.get('data') if cb else None)!r}")
+    print("→ Delivery works and these are queued: the next poll-telegram run "
+          "captures them. This peek did NOT consume them (positive offset).")
 else:
-    print("\nNo callback_query visible. If you just tapped a button and this is "
-          "empty: either a webhook consumed it (see getWebhookInfo) or the tap "
-          "did not reach THIS bot (wrong bot/chat).")
+    print("\nNo pending callback_query. If you just tapped a button and this is "
+          "empty, the tap is not reaching THIS bot's getUpdates queue: check "
+          "getWebhookInfo above (a webhook diverts every update), confirm you "
+          "tapped a message actually sent by THIS bot (right bot/chat), or a "
+          "second getUpdates consumer on the same token drained it first.")
