@@ -261,10 +261,20 @@ the old stored offset, which would otherwise make the poller skip every
 new answer. **Invariant: exactly one process may poll the bot
 (`@RadTeachingPills_bot`).** If crediting goes intermittent again,
 run the manual **Telegram Diagnose** workflow right after tapping a button
-(`getMe` / `getWebhookInfo` / `offset=-1` peek); a captured update sitting
-*ahead* of the stored offset, or taps that vanish before a healthy poll
-sees them, points to a second consumer — fix by stopping it or revoking +
-reissuing the bot token (then update the `TELEGRAM_BOT_TOKEN` secret).
+(`getMe` / `getWebhookInfo` / a **non-destructive `offset=last_update_id+1`
+peek**); a pending update that the peek shows but the poller never captures,
+or taps that vanish before a healthy poll sees them, points to a second
+consumer — fix by stopping it or revoking + reissuing the bot token (then
+update the `TELEGRAM_BOT_TOKEN` secret).
+
+> **Never diagnose with `getUpdates(offset=-1)`.** Telegram documents a
+> negative offset as "all previous updates will be forgotten": it forgets the
+> pending answer server-side, so the diagnostic itself *destroys* the tap you
+> are inspecting. This was the 2026-07-01 finding — the poller and delivery
+> were healthy; the `offset=-1` peek in `diagnose.py` was silently dropping
+> every tapped answer used to test it, which read as "crediting is broken."
+> `diagnose.py` now peeks with the positive `last_update_id + 1` offset, which
+> shows exactly what the next poll will fetch and consumes nothing.
 
 ## Ripasso (FASE 6a) — cadenza e bundle (OVERRIDE spec)
 
