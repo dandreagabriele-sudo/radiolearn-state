@@ -1,0 +1,199 @@
+{
+  "pill_id": "20260702",
+  "created_at": "2026-07-02T06:44:54.797618+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83e\udde0 Teaching Pill \u2014 Segno del delta vuoto \\(empty delta sign\\)*\n_Trombosi del seno venoso durale \u00b7 Livello 3 \\(basi generali\\)_\n\nIl seno sagittale superiore \u00e8 la grande \"vena di scarico\" che corre lungo la linea mediana, sotto la volta cranica, e raccoglie il sangue venoso del cervello\\. Se al suo interno si forma un coagulo \\(trombosi del seno venoso cerebrale, CVST\\) \u00e8 un'emergenza: pu\u00f2 dare cefalea intensa, crisi epilettiche e deficit neurologici\\.\n\n*Come appare il segno*\nSulla TC del cranio CON contrasto la parete durale del seno si colora e disegna un triangolo bianco, ma il trombo dentro il lume NON prende contrasto e resta scuro: un triangolo con il centro \"vuoto\"\\. Da qui il nome \u2014 delta \\= triangolo\\. Sede tipica: parte posteriore del seno sagittale superiore, sulle immagini assiali\\.\n\n*Da ricordare*\n\u2022 Timing: si vede tipicamente 1\u20134 settimane dopo l'esordio; pu\u00f2 mancare nelle fasi molto precoci o croniche\\.\n\u2022 Sulla TC SENZA contrasto il trombo fresco \u00e8 iperdenso \u2192 seno \"troppo bianco\" \\(segno del triangolo denso; nelle vene corticali, cord sign\\): \u00e8 il cugino del delta vuoto ma senza contrasto\\.\n\u2022 Tranello: una TC con contrasto acquisita troppo presto \\(contrasto non ancora arrivato nel seno\\) pu\u00f2 simulare un falso delta vuoto\\.\n\u2022 Conferma: angio\\-RM / venografia \\(la CT\\-venografia ha sensibilit\u00e0 \\~95%\\)\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd17 Connessioni multidisciplinari*\n\nStoria & lingua \u2014 \u00abdelta\u00bb \u00e8 la quarta lettera dell'alfabeto greco \\(\u0394\\), a forma di triangolo\\. Gli antichi Greci chiamarono \"delta\" la foce del Nilo perch\u00e9 la terra tra i rami del fiume forma un triangolo \\(lo racconta Erodoto\\)\\. Come il delta di un fiume \u00e8 terra circondata dall'acqua, qui il triangolo \u00e8 la parete che si colora e il \"vuoto\" centrale \u00e8 il trombo: immagina un triangolo con un'isola scura al centro\\.\n\nFisica \u2014 il mezzo di contrasto iodato ha numero atomico alto e attenua molto i raggi X: rende bianco ci\u00f2 che \u00e8 perfuso dal sangue\\. Il trombo non \u00e8 perfuso, quindi resta scuro\\. Il \"vuoto\" del delta \u00e8, in fondo, assenza di flusso\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\uddbc\ufe0f Immagini*\n\u2022 [Radiopaedia \u2014 Empty delta sign \\(articolo\\)](https://radiopaedia.org/articles/empty-delta-sign-dural-venous-sinus-thrombosis)\n\u2022 [Radiopaedia \u2014 Caso: dural venous sinus thrombosis \\(empty delta sign\\)](https://radiopaedia.org/cases/dural-venous-sinus-thrombosis-empty-delta-sign)\n\u2022 [Radiology Assistant \u2014 Cerebral Venous Sinus Thrombosis](https://radiologyassistant.nl/neuroradiology/sinus-thrombosis/cerebral-venous-thrombosis)\n\u2022 [Wikipedia \u2014 Empty delta sign](https://en.wikipedia.org/wiki/Empty_delta_sign)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 1 \u2014 In quale esame \u00e8 visibile il segno del delta vuoto?*\n\nA\\) TC del cranio SENZA contrasto\nB\\) TC \\(o RM\\) del cranio CON contrasto\nC\\) Radiografia standard del cranio\nD\\) Ecografia transcranica\n\n||Risposta corretta: B \u2014 Il delta vuoto richiede il contrasto: \u00e8 la parete durale che si colora attorno al trombo non opacizzato\\. Senza contrasto non c'\u00e8 alcun triangolo bianco da \"svuotare\"\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260702|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260702|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260702|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260702|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260702|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260702|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 2 \u2014 Cosa rappresenta la parte scura \\(\"vuota\"\\) al centro del triangolo?*\n\nA\\) Liquor cerebrospinale\nB\\) Il trombo, che non prende contrasto\nC\\) Aria\nD\\) Grasso\n\n||Risposta corretta: B \u2014 Il coagulo non \u00e8 perfuso, quindi non capta il mezzo di contrasto e resta ipodenso: \u00e8 l'\"isola\" scura circondata dalla parete che si colora\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260702|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260702|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260702|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260702|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260702|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260702|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 3 \u2014 Quale struttura venosa \u00e8 pi\u00f9 tipicamente coinvolta?*\n\nA\\) Seno cavernoso\nB\\) Seno sagittale superiore\nC\\) Vena giugulare interna\nD\\) Seno sfenoparietale\n\n||Risposta corretta: B \u2014 Il delta vuoto \u00e8 descritto soprattutto nel seno sagittale superiore \\(porzione posteriore, sulle scansioni assiali\\); un aspetto analogo pu\u00f2 vedersi nei seni trasversi\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260702|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260702|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260702|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260702|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260702|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260702|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 4 \u2014 Alla TC SENZA contrasto, un trombo fresco nel seno appare:*\n\nA\\) Ipodenso \\(scuro\\)\nB\\) Iperdenso \\(\"troppo bianco\"\\) \u2014 segno del triangolo denso\nC\\) Sempre invisibile\nD\\) Con calcificazioni a guscio\n\n||Risposta corretta: B \u2014 Il trombo acuto \u00e8 spontaneamente iperdenso: seno \"troppo bianco\" \\(triangolo denso; cord sign nelle vene corticali\\)\\. \u00c8 il corrispettivo pre\\-contrasto del delta vuoto\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260702|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260702|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260702|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260702|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260702|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260702|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udee0\ufe0f Rapporto operativo RadioLearn*\n\u2022 Callback processati: 1\n\u2022 Carte resettate \\(no\\-show\\): 16\n\u2022 Pill: 20260702 \u2014 topic: empty\\-delta\\-cvst \\(neuro \u00b7 Livello 3\\)\n\u2022 Ripasso incluso: no \\(ultimo 2026\\-07\\-01, 1g fa; soglia 3g\\)\n\u2022 Inbox cancellati: 2026\\-07\\-01\n\u2022 Warning: nessuno",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
