@@ -320,5 +320,12 @@
     "domain": "neuro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-07-03",
+    "tag": "lake-louise-myocarditis",
+    "domain": "cardio",
+    "level": 1,
+    "source": "auto"
   }
 ]
