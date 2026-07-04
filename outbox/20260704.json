@@ -1,0 +1,310 @@
+{
+  "pill_id": "20260704",
+  "created_at": "2026-07-04T06:49:03Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83e\ude7a RadioLearn \u2014 04/07 \u00b7 Arteria lusoria \\+ diverticolo di Kommerell*\n\n*Concetto del giorno \\(Livello 1 \u2014 aorta/vascolare\\)*\n\nL'arteria lusoria \u00e8 l'anomalia pi\u00f9 comune dell'arco aortico \\(\\~0,5\u20132%\\): la succlavia destra non origina dal tronco brachiocefalico ma come ULTIMO \\(4\u00b0\\) ramo dell'arco, distale alla succlavia sinistra, e decorre retroesofagea \\(80%; 15% tra trachea ed esofago, 5% pre\\-tracheale\\)\\.\n\nOrdine dei rami: carotide comune dx \u2192 carotide comune sx \u2192 succlavia sx \u2192 succlavia dx aberrante\\.\n\n\u2022 *Clinica*: spesso asintomatica; nel \\~10% dysphagia lusoria \\(disfagia ai solidi da compressione esofagea posteriore\\)\\.\n\u2022 *Diverticolo di Kommerell*: dilatazione conica dell'origine della succlavia aberrante \\(residuo della radice aortica dorsale\\), presente in \\~60%\\. Cresce \\~1,5 mm/anno; dissecazione e rottura descritte\\.\n\u2022 *Perla chirurgica*: la succlavia dx non forma l'ansa attorno al IV arco \u2192 nervo laringeo inferiore destro NON ricorrente \\(insidia nella chirurgia tiroidea/cervicale destra\\)\\.\n\u2022 *Embriologia*: regressione del IV arco aortico destro con persistenza dell'aorta dorsale destra distale \\(\\+ 7\u00aa intersegmentaria\\) \u2192 la succlavia dx origina dall'aorta discendente\\.\n\n*Connessioni multidisciplinari*\n\u2022 *Etimologia/storia*: 'lusoria' da lusus naturae \\('scherzo della natura'\\); David Bayford \\(chirurgo inglese, 1739\u201390\\) conia 'dysphagia lusoria' nel 1787\\. B\\. F\\. Kommerell descrive il diverticolo nel 1936\\.\n\u2022 *Fisica*: legge di Laplace \\(tensione parietale \u221d pressione \u00d7 raggio\\) \u2014 al crescere del raggio del diverticolo sale la tensione di parete, da cui il rischio progressivo di dissecazione\\.\n\u2022 *Genetica prenatale*: la succlavia destra aberrante \u00e8 un soft marker ecografico associato alla trisomia 21\\.\n\u2022 *Embriologia comparata*: dei 6 archi faringei, il destino asimmetrico del IV arco \\(dx \u2192 succlavia prossimale, sx \u2192 arco definitivo\\) spiega perch\u00e9 l'anomalia sia a destra con arco sinistro\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udcf7 Immagini & fonti \\(verificate\\)*\n\n\u2022 [Radiopaedia \u2014 Aberrant right subclavian artery \\(articolo\\)](https://radiopaedia.org/articles/aberrant-right-subclavian-artery)\n\u2022 [Radiopaedia \u2014 Caso ARSA](https://radiopaedia.org/cases/aberrant-right-subclavian-artery-36)\n\u2022 [Natsis et al\\. \u2014 Arteria lusoria \\(studio, 141 report\\)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4102086/)\n\u2022 [Diverticolo di Kommerell \u2014 spettro clinico \\(review\\)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7996811/)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 1*\n\nMacronodulo 'galaxy' con micronoduli satelliti perilinfatici, stabile a 8 mesi senza terapia, in donna afroamericana\\. Quale elemento orienterebbe di pi\u00f9 a RICONSIDERARE una fibrosi massiva progressiva \\(PMF\\) silicotica invece della sarcoidosi?\n\nA\\) Linfoadenopatia ilare bilaterale simmetrica\nB\\) Storia occupazionale di esposizione a silice, calcificazioni ilari 'a guscio d'uovo' \\(eggshell\\) e retrazione ilare\nC\\) Noduli perilinfatici lungo le scissure\nD\\) Assenza di cavitazione\n\n||Risposta corretta: B \u2014 Esposizione a silice \\+ calcificazioni linfonodali eggshell \\+ retrazione dei lobi superiori orientano alla PMF silicotica\\. La sarcoidosi predilige linfoadenopatia ilare bilaterale simmetrica e distribuzione perilinfatica \\(A, C\\), reperti che invece la SUPPORTANO; l'assenza di cavitazione \\(D\\) \u00e8 aspecifica\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260514|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260514|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 2*\n\nNell'hot\\-cross\\-bun sign della MSA\\-C, l'asse TRASVERSALE \\(orizzontale\\) della croce iperintensa corrisponde istologicamente a:\n\nA\\) Gliosi dei nuclei mediani del rafe\nB\\) Degenerazione delle fibre ponto\\-cerebellari trasverse \\(nuclei pontini \u2192 peduncoli cerebellari medi\\)\nC\\) Risparmio dei fasci cortico\\-spinali antero\\-laterali\nD\\) Deposito di ferro nel putamen\n\n||Risposta corretta: B \u2014 Il braccio orizzontale \\= degenerazione walleriana delle fibre ponto\\-cerebellari trasverse\\. Il braccio verticale \\= gliosi dei nuclei mediani del rafe/formazione reticolare \\(A\\)\\. I fasci cortico\\-spinali risparmiati \\(C\\) formano i 4 lobi normointensi; il ferro putaminale \\(D\\) \u00e8 reperto della MSA\\-P\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260515|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260515|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 3*\n\nQual \u00e8 il substrato molecolare della Multiple System Atrophy che la distingue dalla malattia di Parkinson?\n\nA\\) Placche neuronali di \u03b2\\-amiloide\nB\\) Inclusioni citoplasmatiche gliali di \u03b1\\-sinucleina \\(corpi di Papp\u2013Lantos\\) negli oligodendrociti\nC\\) Corpi di Lewy nei neuroni dopaminergici della substantia nigra\nD\\) Grovigli neurofibrillari tau\\-positivi\n\n||Risposta corretta: B \u2014 La MSA \u00e8 un'\u03b1\\-sinucleinopatia con inclusioni gliali \\(Papp\u2013Lantos, 1989\\) negli OLIGODENDROCITI\\. Nel Parkinson l'\u03b1\\-sinucleina si aggrega invece nei NEURONI dopaminergici come corpi di Lewy \\(C\\)\\. A \\= Alzheimer \\(\u03b2\\-amiloide\\); D \\= taupatie\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260515|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260515|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Nuova 1*\n\nNell'arteria lusoria \\(con arco aortico sinistro\\), da dove origina la succlavia destra aberrante?\n\nA\\) Come primo ramo dell'arco, dal tronco brachiocefalico\nB\\) Come ultimo \\(4\u00b0\\) ramo dell'arco, distale alla succlavia sinistra, con decorso retroesofageo\nC\\) Dall'arteria polmonare tramite il dotto arterioso\nD\\) Come ramo diretto della carotide comune destra\n\n||Risposta corretta: B \u2014 Ordine dei rami nell'ARSA: carotide comune dx \u2192 carotide comune sx \u2192 succlavia sx \u2192 succlavia dx aberrante \\(ultimo, 4\u00b0 ramo\\), distale alla succlavia sinistra\\. Decorre retroesofagea nell'80% dei casi \u2192 dysphagia lusoria\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260704|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260704|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260704|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260704|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260704|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260704|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Nuova 2*\n\nQual \u00e8 il meccanismo embriologico alla base dell'arteria lusoria?\n\nA\\) Persistenza del dotto arterioso destro\nB\\) Regressione del IV arco aortico destro con persistenza dell'aorta dorsale destra distale \\(e 7\u00aa arteria intersegmentaria\\)\nC\\) Mancata settazione del tronco arterioso comune\nD\\) Persistenza bilaterale del V arco aortico\n\n||Risposta corretta: B \u2014 Normalmente la succlavia destra deriva dal IV arco destro \\+ aorta dorsale destra \\+ 7\u00aa intersegmentaria\\. La regressione del IV arco destro con persistenza dell'aorta dorsale destra distale 'trascina' la succlavia destra a originare dall'aorta discendente, dietro l'esofago\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260704|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260704|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260704|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260704|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260704|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260704|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Nuova 3*\n\nIl diverticolo di Kommerell associato all'arteria lusoria \u00e8:\n\nA\\) Un'ectasia dell'esofago da compressione cronica\nB\\) Una dilatazione conica dell'origine della succlavia aberrante \\(residuo della radice aortica dorsale\\), a rischio di dissecazione/rottura\nC\\) Un'estroflessione della parete membranosa tracheale\nD\\) Un aneurisma micotico su base infettiva\n\n||Risposta corretta: B \u2014 Descritto da B\\. F\\. Kommerell \\(1936\\): dilatazione conica all'ORIGINE della succlavia aberrante, residuo della radice aortica dorsale/IV arco\\. Presente in \\~60% delle ARSA, cresce \\~1,5 mm/anno; dissecazione e rottura sono descritte \\(indicazione chirurgica per diametro/sintomi\\)\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260704|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260704|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260704|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260704|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260704|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260704|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Nuova 4*\n\nQuale associazione anatomica dell'arteria lusoria \u00e8 una trappola nella chirurgia cervicale/tiroidea destra?\n\nA\\) Nervo laringeo inferiore destro NON ricorrente\nB\\) Nervo frenico sinistro raddoppiato\nC\\) Arteria vertebrale sinistra obbligatoriamente ipoplasica\nD\\) Agenesia congenita del nervo vago destro\n\n||Risposta corretta: A \u2014 Poich\u00e9 la succlavia destra non forma l'ansa attorno al IV arco, il nervo laringeo inferiore destro NON \u00e8 ricorrente: nasce direttamente dal vago nel collo\\. \u00c8 un'insidia chirurgica classica \\(tiroidectomia destra\\)\\. L'ARSA d\u00e0 inoltre dysphagia lusoria da compressione retroesofagea\\.||",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260704|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260704|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260704|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260704|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260704|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260704|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udee0 RadioLearn report 20260704\nTopic: arteria lusoria (ARSA) + diverticolo di Kommerell \u2014 L1 aorta/vascolare\nCallback processati: 0 | Carte resettate: 21\nRipasso incluso: s\u00ec (20260514:3, 20260515:0, 20260515:1)\nNuove carte: 20260704:0-3 | Inbox cancellati: 0\nWarning: nessuno"
+      }
+    }
+  ]
+}
