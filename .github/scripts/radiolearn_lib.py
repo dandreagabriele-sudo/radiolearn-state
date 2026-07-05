@@ -43,6 +43,12 @@ Public API:
     paper_is_processed(pstate, file_id)        -> bool
     mark_paper_processed(pstate, sha, file_id, pill_id, title="")  # writes
 
+  Google-Form answer channel (FASE 2-bis — reliable path since 2026-07-05):
+    load_forms_state()                         -> (fstate, sha)
+    parse_form_csv(csv_text)                   -> [{"timestamp","card_id","quality"}]
+    form_row_key(row)                          -> str (idempotency key)
+    mark_form_rows_local(fstate, keys)         -> fstate  # pure
+
   FASE-9 delivery via git + GitHub MCP (Claude Code on the web — writes are
   proxy-blocked; reads still work). Build everything in memory, then dump:
     append_topic_entry(ledger, date_iso, tag, domain, level, source="auto") -> ledger  # pure
@@ -450,6 +456,70 @@ def mark_paper_local(pstate: dict, file_id: str, pill_id: str,
         {"file_id": file_id, "pill_id": pill_id, "title": title,
          "date": date.today().isoformat()})
     return pstate
+
+
+# ────────────────────────────────────────────────────────────────────
+# Google-Form answer channel (FASE 2-bis) — adopted 2026-07-05 because
+# Telegram getUpdates starves (single-consumer race; see CLAUDE.md,
+# "Quiz answers via Google Form"). The SESSION downloads the linked
+# response Sheet as CSV via the Drive MCP and saves it locally; the
+# routine parses it with parse_form_csv() and de-dups with
+# forms_state.json: {"processed_row_keys": [...]}.
+# ────────────────────────────────────────────────────────────────────
+
+def load_forms_state():
+    """Return (fstate, sha). Default skeleton if absent."""
+    raw, sha = gh_get("forms_state.json")
+    if raw is None:
+        return {"processed_row_keys": []}, None
+    st = _json.loads(raw)
+    st.setdefault("processed_row_keys", [])
+    return st, sha
+
+
+def parse_form_csv(csv_text: str) -> list:
+    """Parse the Form-responses CSV export into answer rows.
+
+    Expected column order (fixed by the Form's question order):
+    timestamp, card_id, quality. Extra columns are ignored, the header
+    row is skipped, malformed rows are dropped. Quality labels like
+    "3 - così così" are accepted (leading digit wins).
+    Returns [{"timestamp", "card_id", "quality"}].
+    """
+    import csv as _csv
+    import io as _io
+    import re as _re
+    pat = _re.compile(r"^(\d{8}):(\d+)$")
+    rows = []
+    rdr = _csv.reader(_io.StringIO(csv_text))
+    next(rdr, None)  # header
+    for r in rdr:
+        if len(r) < 3:
+            continue
+        ts, cid, q = r[0].strip(), r[1].strip(), r[2].strip()
+        if not pat.match(cid) or not q[:1].isdigit():
+            continue
+        rows.append({"timestamp": ts, "card_id": cid,
+                     "quality": max(0, min(5, int(q[0])))})
+    return rows
+
+
+def form_row_key(row: dict) -> str:
+    """Stable idempotency key for one form-response row."""
+    return f"{row['timestamp']}|{row['card_id']}|{row['quality']}"
+
+
+def mark_form_rows_local(fstate: dict, keys) -> dict:
+    """Pure: record processed row keys (FIFO cap 5000), NO I/O.
+
+    Dump `json.dumps(fstate, indent=2)` as the forms_state.json upsert.
+    """
+    seen = fstate.setdefault("processed_row_keys", [])
+    for k in keys:
+        if k not in seen:
+            seen.append(k)
+    fstate["processed_row_keys"] = seen[-5000:]
+    return fstate
 
 
 def build_delivery(out_dir: str, upserts, deletes=None) -> str:

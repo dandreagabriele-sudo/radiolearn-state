@@ -276,6 +276,60 @@ update the `TELEGRAM_BOT_TOKEN` secret).
 > `diagnose.py` now peeks with the positive `last_update_id + 1` offset, which
 > shows exactly what the next poll will fetch and consumes nothing.
 
+## Quiz answers via Google Form (FASE 2-bis — OVERRIDE, since 2026-07-05)
+
+Telegram inline-button answers stopped being credited again on 2026-07-02
+(getUpdates returns 0 updates, offset frozen, no webhook set, correct bot —
+the single-consumer race recurred even on the new bot). Decision 2026-07-05:
+**the reliable answer channel is a Google Form**, read back through the
+response Sheet via the Drive MCP. The Telegram plumbing (keyboards, poll.py,
+workflows) stays untouched as a best-effort secondary path.
+
+**Setup state:** `form_config.json` at the repo root holds
+`{"prefill_url": "...&entry.NNNN={card_id}", "sheet_file_id": "..."}`.
+**Until that file exists, the channel is not yet configured**: compose pills
+as before (keyboard only) and skip FASE 2-bis. The user creates the Form once
+(question 1: "Card", short text, required; question 2: "Qualità", multiple
+choice 0–5, required — in THIS order, the CSV parser relies on it), links it
+to a response Sheet, and provides the prefilled link; the session then
+commits `form_config.json` (find `sheet_file_id` via Drive `search_files`).
+
+**Each morning, right after FASE 2 (inbox), when `form_config.json` exists:**
+
+1. The *session* (not the sandboxed routine) downloads the response Sheet:
+   `download_file_content(fileId=sheet_file_id, exportMimeType="text/csv")`
+   → base64-decode → save to `/tmp/radiolearn/form.csv`. If the download
+   fails, skip FASE 2-bis and flag it in the FASE-10 report — do not abort.
+2. `routine.py` ingests it:
+
+   ```python
+   fstate, _ = load_forms_state()
+   rows = parse_form_csv(open("/tmp/radiolearn/form.csv").read())
+   fresh = [r for r in rows if form_row_key(r) not in fstate["processed_row_keys"]]
+   for r in fresh:
+       update_card(state, r["card_id"], r["quality"])   # source="user"
+       answered_today.add(r["card_id"])
+   fstate = mark_form_rows_local(fstate, [form_row_key(r) for r in fresh])
+   ```
+
+3. Ingest form rows **before** FASE 3, so form-answered cards land in
+   `answered_today` and are not reset as no-shows.
+4. Add `("forms_state.json", json.dumps(fstate, indent=2))` to the FASE-9
+   `upserts` (before the outbox) whenever `fresh` is non-empty.
+
+**Pill composition:** each quiz message keeps the 0–5 inline keyboard AND
+gains one line under the spoiler block:
+`link("📝 Registra 0–5", prefill_url.replace("{card_id}", card_id.replace(":", "%3A")))`
+(MDV2 link URLs only escape `)` and `\`). Ripasso questions put the
+*original* card_id in the link, same as in callback_data. Double-crediting
+(tap + form for the same card) is accepted as rare and SM-2-tolerable.
+
+Form answers are `source="user"`, so FASE 5 weekly stats count them with no
+changes. The answered-morning-after semantics are identical to the inbox
+path. Unlike Telegram updates, Sheet rows never expire and are never
+consumed by a rogue second reader — idempotency lives in `forms_state.json`
+(`processed_row_keys`, FIFO cap 5000), like `processed_update_ids`.
+
 ## Ripasso (FASE 6a) — cadenza e bundle (OVERRIDE spec)
 
 Questa sezione **sostituisce** la regola della chat spec ("cadenza minima
@@ -393,9 +447,15 @@ the repository secrets (`secrets.TELEGRAM_BOT_TOKEN`).
 - **Outbound to Telegram:** `outbox/<pill_id>.json` (envelope of Telegram
   Bot API method calls). The `send-to-telegram` workflow consumes and
   deletes the file.
-- **Inbound from Telegram:** `inbox/<YYYY-MM-DD>.json` (callbacks for quiz
-  self-assessment). The `poll-telegram` workflow writes these. The daily
-  routine reads, applies SM-2 updates, then deletes the file.
+- **Inbound from Telegram (best-effort):** `inbox/<YYYY-MM-DD>.json`
+  (callbacks for quiz self-assessment). The `poll-telegram` workflow writes
+  these. The daily routine reads, applies SM-2 updates, then deletes the
+  file. Unreliable since 2026-07-02 (single-consumer race) — the primary
+  answer channel is now the Google Form (see FASE 2-bis).
+- **Inbound from Google Form (primary):** the Form's linked response Sheet
+  (id in `form_config.json`), exported to CSV via the Drive MCP by the
+  session each morning. **Form state:** `forms_state.json` (processed row
+  keys — idempotency; Sheet rows are never deleted).
 - **State:** `sm2_state.json` (cards + history + idempotency set).
 - **Telegram state:** `telegram_state.json` (owned by the poller Action;
   the routine never writes it).
