@@ -341,5 +341,12 @@
     "domain": "cardio",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-07-06",
+    "tag": "rounded-atelectasis",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
