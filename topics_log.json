@@ -348,5 +348,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-07-07",
+    "tag": "septic-pulmonary-emboli",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
