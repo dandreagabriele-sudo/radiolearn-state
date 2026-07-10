@@ -355,5 +355,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-07-10",
+    "tag": "bucket-handle-meniscus",
+    "domain": "msk",
+    "level": 3,
+    "source": "auto"
   }
 ]
