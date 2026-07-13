@@ -369,5 +369,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-07-13",
+    "tag": "adenomyosis-junctional-zone",
+    "domain": "altro",
+    "level": 3,
+    "source": "auto"
   }
 ]
