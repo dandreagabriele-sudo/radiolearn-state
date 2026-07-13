@@ -22551,34 +22551,90 @@
       ]
     },
     "20260712:0": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-07-12",
-      "last_quality": null,
-      "history": []
+      "next_review": "2026-07-14",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-07-13",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ]
     },
     "20260712:1": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-07-12",
-      "last_quality": null,
-      "history": []
+      "next_review": "2026-07-14",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-07-13",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ]
     },
     "20260712:2": {
+      "ef": 1.7,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-07-14",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-07-13",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ]
+    },
+    "20260712:3": {
+      "ef": 1.7,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-07-14",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-07-13",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ]
+    },
+    "20260713:0": {
       "ef": 2.5,
       "interval": 0,
       "repetitions": 0,
-      "next_review": "2026-07-12",
+      "next_review": "2026-07-13",
       "last_quality": null,
       "history": []
     },
-    "20260712:3": {
+    "20260713:1": {
       "ef": 2.5,
       "interval": 0,
       "repetitions": 0,
-      "next_review": "2026-07-12",
+      "next_review": "2026-07-13",
+      "last_quality": null,
+      "history": []
+    },
+    "20260713:2": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-07-13",
       "last_quality": null,
       "history": []
     }
@@ -22681,7 +22737,7 @@
       "review_included": false
     }
   ],
-  "last_review_inclusion_date": "2026-07-10",
+  "last_review_inclusion_date": "2026-07-13",
   "processed_update_ids": [
     868431590,
     868431643,
