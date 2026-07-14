@@ -376,5 +376,12 @@
     "domain": "altro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-07-14",
+    "tag": "pulmonary-hypertension-ct",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
