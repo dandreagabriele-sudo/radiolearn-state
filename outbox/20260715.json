@@ -1,0 +1,202 @@
+{
+  "pill_id": "20260715",
+  "created_at": "2026-07-15T06:47:39Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83e\udec0 RadioLearn \u2014 Cardiomiopatia aritmogena \\(ARVC/ACM\\)*\n\nConcetto del giorno: malattia geneticamente determinata dei desmosomi in cui il miocardio \u00e8 progressivamente sostituito da tessuto fibro\\-adiposo\\. Gene pi\u00f9 frequente PKP2 \\(plakophilin\\-2\\); trasmissione autosomica dominante a penetranza variabile\\.\n\nAggiornamento concettuale: il classico \u00abtriangolo della displasia\u00bb \\(tratto di afflusso subtricuspidale, apice, RVOT\\) \u00e8 superato\\. Nelle casistiche moderne il coinvolgimento \u00e8 spesso biventricolare o persino sinistro\\-dominante, non solo del ventricolo destro\\.\n\n*CMR \u2014 gold standard morfo\\-funzionale*\n\u2022 Cinetica regionale: acinesia/discinesia/bulging aneurismatico della parete libera del VD e del RVOT \\(accordion sign, microaneurismi\\)\\.\n\u2022 Quantificazione: dilatazione del VD e riduzione della RVEF \\(ITF 2010: RVEF \u226440% o EDV indicizzato aumentato, con cut\\-off sesso\\-specifici\\)\\.\n\u2022 Caratterizzazione tissutale \\(novit\u00e0 Padova 2020\\): la LGE fibro\\-adiposa \u2014 anche del VS, tipicamente subepicardica/mid\\-wall infero\\-laterale \u2014 \u00e8 ora criterio e definisce la variante sinistro\\-dominante\\.\n\nTrappola: l'infiltrazione adiposa isolata NON \u00e8 pi\u00f9 criterio \\(l'adipe \u00e8 presente anche in cuori normali\\); servono fibrosi \\+ assottigliamento \\+ alterazione cinetica\\.\n\nClinica/ECG \\(in breve\\): onda epsilon in V1\\-V3 \\(\\~50%\\), inversione di T in V1\\-V3, TAD \u226555 ms, potenziali tardivi\\. Aritmia tipica: TV a morfologia di blocco di branca sinistra \\(origine dal VD\\)\\. L'esercizio intenso accelera la progressione: \u00abmalattia del desmosoma \\+ sport\u00bb\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd17 Connessioni multidisciplinari*\n\nFisica dei materiali / ingegneria: i desmosomi sono giunzioni di adesione meccanica, veri \u00abrivetti\u00bb tra cardiomiociti\\. Se il rivetto \u00e8 difettoso, lo stress meccanico ripetuto \\(esercizio\\) stacca le cellule \u2192 morte e riparazione fibro\\-adiposa\\. L'ARVC \u00e8, di fatto, una malattia da \u00abfatica dei materiali\u00bb del cuore, con danno che si propaga come una cricca in un materiale sollecitato ciclicamente\\.\n\nStoria e antropologia: la malattia di Naxos \\(Protonotarios, isola greca di Naxos\\) \u00e8 la forma recessiva con cheratodermia palmo\\-plantare e capelli lanosi\\. Fu la genetica di popolazione di un'isola isolata \u2014 effetto del fondatore e consanguineit\u00e0 \u2014 a permettere di mappare il gene della plakoglobina \\(JUP\\)\\. Le isole come \u00ablaboratori genetici\u00bb naturali\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\uddbc\ufe0f Immagini*\n[ARVC su CMR \u2014 caso Radiopaedia](https://radiopaedia.org/cases/arrhythmogenic-right-ventricular-cardiomyopathy-4)\n[Onda epsilon \\(ECG\\) \u2014 Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ARVD-Epsilon_wave.png)\n[ARVC \u2014 articolo di riferimento Radiopaedia](https://radiopaedia.org/articles/arrhythmogenic-right-ventricular-cardiomyopathy)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Quiz 1/4*\nQuale elemento \u00e8 stato introdotto come criterio diagnostico dai criteri di Padova 2020 rispetto ai criteri ITF 2010?\n\nA\\) Infiltrazione adiposa isolata della parete libera del VD\nB\\) LGE fibro\\-adiposa del miocardio \\(incluso il VS\\) alla CE\\-CMR\nC\\) Ipertrofia settale asimmetrica\nD\\) Versamento pericardico cronico\n\n||Risposta corretta: B \u2014 La novit\u00e0 di Padova 2020 \u00e8 la caratterizzazione tissutale con CE\\-CMR \\(LGE\\) e criteri per il coinvolgimento del VS\\. L'adipe isolato \u00e8 aspecifico e non \u00e8 pi\u00f9 criterio\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260715%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260715|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260715|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260715|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260715|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260715|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260715|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Quiz 2/4*\nGiovane atleta con sincope da sforzo\\. CMR: discinesia della parete libera del VD, RVEF 38% e LGE subepicardica infero\\-laterale del VS\\. Quale fenotipo secondo Padova 2020?\n\nA\\) ARVC destro\\-dominante classica\nB\\) Forma biventricolare\nC\\) Cuore d'atleta fisiologico\nD\\) Semplice RVOT\\-VT idiopatica benigna\n\n||Risposta corretta: B \u2014 Coinvolgimento sia del VD \\(discinesia \\+ RVEF ridotta\\) sia del VS \\(LGE\\) \u2192 fenotipo biventricolare\\. Il cuore d'atleta \u00e8 bilanciato e senza LGE/discinesia regionale\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260715%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260715|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260715|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260715|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260715|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260715|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260715|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Quiz 3/4*\nQual \u00e8 il gene pi\u00f9 frequentemente mutato nell'ARVC e la natura della proteina codificata?\n\nA\\) MYH7 \u2014 catena pesante della beta\\-miosina\nB\\) PKP2 \u2014 plakophilin\\-2, proteina desmosomiale\nC\\) LMNA \u2014 lamina nucleare\nD\\) TTN \u2014 titina sarcomerica\n\n||Risposta corretta: B \u2014 PKP2 \\(plakophilin\\-2\\) \u00e8 il gene desmosomiale pi\u00f9 comune: l'ARVC \u00e8 una \u00abmalattia del desmosoma\u00bb\\. MYH7/TTN \u2192 altre cardiomiopatie; LMNA \u2192 forme con disturbi di conduzione\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260715%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260715|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260715|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260715|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260715|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260715|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260715|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Quiz 4/4*\nQuale reperto ECG \u00e8 tipico \\(presente in circa il 50% dei casi\\) dell'ARVC?\n\nA\\) Onda delta con PR corto\nB\\) Onda epsilon in V1\\-V3\nC\\) Sopraslivellamento ST concavo diffuso\nD\\) Onde Q patologiche in sede inferiore\n\n||Risposta corretta: B \u2014 L'onda epsilon \\(piccola deflessione al termine del QRS in V1\\-V3, da conduzione intraventricolare rallentata\\) \u00e8 tipica dell'ARVC\\. L'onda delta \u2192 WPW; ST concavo diffuso \u2192 pericardite\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260715%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260715|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260715|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260715|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260715|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260715|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260715|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udccb Report RadioLearn 20260715*\nCallback inbox processati: 0\nForm processati: 4\nCarte resettate \\(no\\-show\\): 1\nPill: 20260715 \u2014 ARVC \\(arvc\\-cmr, cardio L1\\)\nRipasso incluso: no \\(cadenza 2<3 gg\\)\nPaper del giorno: no\nInbox cancellati: 0",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
