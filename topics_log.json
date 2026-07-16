@@ -390,5 +390,12 @@
     "domain": "cardio",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-07-16",
+    "tag": "finger-in-glove-abpa",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
