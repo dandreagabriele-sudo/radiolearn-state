@@ -1,0 +1,206 @@
+{
+  "pill_id": "20260717",
+  "created_at": "2026-07-17T06:48:36Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🫀 RadioLearn — Origine coronarica anomala dal seno opposto \\(AAOCA / ACAOS\\)*\n\nAAOCA \\= una coronaria nasce dal seno aortico sbagliato \\(ACAOS, Anomalous Coronary Artery from Opposite Sinus\\)\\. Due varianti principali: R\\-ACAOS \\(RCA dal seno sinistro\\), la più frequente; L\\-ACAOS \\(tronco comune/LCA dal seno destro\\), più rara ma a rischio maggiore\\. Il determinante di pericolosità NON è la sola origine anomala, ma il DECORSO — soprattutto il segmento intramurale\\.\n\n*Quattro decorsi possibili \\(origine dal seno opposto\\):*\n• Interarterioso \\(tra aorta e tronco polmonare\\) → maligno\n• Retroaortico → benigno\n• Prepolmonare → benigno\n• Settale/subpolmonare → benigno, ma un LAD settale può mimare l'interarterioso \\(differenza: il settale è più inferiore e immerso nel miocardio; l'interarterioso è avvolto da grasso epicardico\\)\\.\n\n*Angio\\-TC coronarica ECG\\-gated \\= gold standard\\.* Valuta ostio, angolo di take\\-off, segmento intramurale e rapporto coi grandi vasi\\. Reperti ad alto rischio:\n• Decorso interarterioso\n• Segmento INTRAMURALE \\(coronaria nella tonaca media della parete aortica\\) — il fattore meccanicistico più forte: lume slit\\-like/ipoplasico compresso lateralmente durante la distensione aortica\n• Ostio ellittico «slit\\-like» \\(a becco di flauto\\)\n• Angolo di take\\-off acuto/tangenziale \\(< 45°\\)\n• Origine ostiale alta \\(sopra la giunzione seno\\-tubulare\\)\n• Restringimento/ipoplasia prossimale\n\n*Meccanismo d'ischemia \\(dinamico\\):* sotto sforzo la distensione della radice aortica \\+ l'aumento di portata comprimono/stirano il segmento intramurale a lume ellittico → ischemia transitoria → aritmia/SCD\\. Ecco perché i test a riposo sono spesso normali: è un fenomeno da esercizio\\.\n\n*Clinica:* l'AAOCA interarteriosa \\(specie L\\-ACAOS\\) è la 2ª causa di morte cardiaca improvvisa nel giovane atleta dopo la cardiomiopatia ipertrofica\\. Spesso asintomatica; può esordire con sincope/dolore da sforzo o con la SCD come primo evento\\. Nota \\(letteratura 2024\\): l'etichetta «maligno»/«scissor compression» va ridimensionata — il decorso interarterioso è un surrogato; lunghezza intramurale e ostio slit\\-like sono i veri driver\\.\n\n*Gestione:* stratificazione con angio\\-TC \\+ test funzionali \\(imaging da stress, FFR/IVUS invasivi in casi selezionati\\)\\. Chirurgia \\(unroofing del tratto intramurale o reimpianto\\) nei casi ad alto rischio, sintomatici o con ischemia documentata, soprattutto giovani atleti\\.\n\n*DDx:* LAD settale \\(subpolmonare\\) vs interarterioso; ALCAPA \\(LCA dall'arteria polmonare\\) è entità diversa — coronaria dalla POLMONARE, non dall'aorta, con furto/steal infantile; single coronary artery; dual LAD\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔗 Connessioni multidisciplinari*\n\n*Embriologia:* le coronarie si formano da gemme angiogeniche del plesso peritruncale che invadono i due seni aortici «facing» \\(coronarici\\)\\. Un'origine dal seno errato riflette un difetto di pattern del ring peritruncale\\.\n\n*Nomenclatura \\(Angelini\\):* ACAOS descrive la SEDE d'origine \\(dal seno opposto\\); il DECORSO \\(interarterioso, retroaortico…\\) descrive il rischio\\. Due assi indipendenti da refertare sempre entrambi\\.\n\n*Biomeccanica \\(Laplace\\):* sotto sforzo la radice aortica si distende e il tratto intramurale a lume ellittico collassa per compressione laterale — è la GEOMETRIA \\(ostio a becco di flauto, angolo tangenziale\\) più della semplice posizione interarteriosa a generare l'ischemia dinamica\\.\n\n*Sport & storia:* le anomalie coronariche sono 2ª causa di SCD nel giovane atleta in molte casistiche USA; da qui il ruolo dello screening pre\\-agonistico e dell'angio\\-TC come conferma anatomica\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🖼️ Immagini e fonti \\(verificate via web\\_search\\)*\n\n[Anomalous aortic origin of coronary artery — Radiopaedia](https://radiopaedia.org/articles/anomalous-aortic-origin-of-coronary-artery)\n[Congenital coronary artery anomalies — Radiopaedia](https://radiopaedia.org/articles/congenital-coronary-artery-anomalies)\n[Anomalous course of coronary arteries — Radiopaedia](https://radiopaedia.org/articles/anomalous-course-of-coronary-arteries)\n[Retroaortic coronary course — Radiopaedia](https://radiopaedia.org/articles/retroaortic-coronary-course)\n[Transseptal coronary course — Radiopaedia](https://radiopaedia.org/articles/transseptal-coronary-course)\n[Anomalous LAD — septal/subpulmonic course \\(case\\) — Radiopaedia](https://radiopaedia.org/cases/anomalous-lad-septalsubpulmonic-course)\n[Single coronary artery — Radiopaedia](https://radiopaedia.org/articles/single-coronary-artery)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🩺 Domanda 1 — Driver meccanicistico dell'ischemia*\n\nNell'ACAOS interarterioso, quale reperto è il driver meccanicistico PIÙ forte dell'ischemia da sforzo?\n\n*A\\)* Decorso retroaortico\n*B\\)* Segmento intramurale con ostio slit\\-like, compresso lateralmente durante la distensione aortica sotto sforzo\n*C\\)* Decorso prepolmonare\n*D\\)* Origine alta di un ramo del cono di calibro normale\n\n||Risposta corretta: B — L'ischemia è dinamica: il tratto intramurale \\(nella parete aortica\\) ha lume ellittico/ipoplasico e ostio a becco di flauto che collassa quando la radice aortica si distende sotto sforzo\\. È questa geometria, più della sola posizione interarteriosa, a generare l'ischemia; per questo i test a riposo sono spesso normali\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260717%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260717|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260717|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260717|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260717|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260717|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260717|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🩺 Domanda 2 — R\\-ACAOS vs L\\-ACAOS*\n\nConfrontando R\\-ACAOS \\(RCA dal seno sinistro\\) e L\\-ACAOS \\(tronco/LCA dal seno destro\\) con decorso interarterioso, quale affermazione è corretta?\n\n*A\\)* L\\-ACAOS interarterioso ha rischio di SCD maggiore, pur essendo meno frequente del R\\-ACAOS\n*B\\)* R\\-ACAOS è insieme il più pericoloso e il più raro\n*C\\)* Entrambi sono sempre benigni indipendentemente dal decorso\n*D\\)* Il tipo di decorso non modifica il rischio\n\n||Risposta corretta: A — Il R\\-ACAOS è la variante più comune ma in genere meno pericolosa; il L\\-ACAOS interarterioso è più raro ma comporta il rischio di SCD maggiore \\(territorio miocardico a rischio più esteso\\)\\. In entrambi il rischio dipende dal decorso e dalle high\\-risk features \\(intramurale, ostio slit\\-like, angolo acuto\\)\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260717%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260717|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260717|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260717|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260717|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260717|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260717|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🩺 Domanda 3 — Settale vs interarterioso*\n\nAll'angio\\-TC, quale reperto distingue un LAD anomalo a decorso settale \\(subpolmonare\\) da un decorso interarterioso maligno?\n\n*A\\)* Il segmento è avvolto da grasso epicardico e passa alto fra aorta e polmonare\n*B\\)* Il segmento ha decorso più inferiore ed è immerso/circondato dal miocardio settale\n*C\\)* Origina sempre dal seno non coronarico\n*D\\)* Presenta costantemente ostio ellittico slit\\-like\n\n||Risposta corretta: B — Il LAD settale decorre più in basso, nel setto interventricolare, circondato da miocardio; l'interarterioso passa più in alto tra aorta e tronco polmonare, avvolto da grasso epicardico\\. La distinzione è cruciale perché il settale è benigno mentre l'interarterioso può essere maligno\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260717%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260717|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260717|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260717|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260717|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260717|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260717|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🩺 Domanda 4 — Decorso benigno & metodica*\n\nTra i decorsi di una coronaria che origina dal seno opposto, quale è considerato benigno e qual è la metodica di scelta per caratterizzare ostio e decorso?\n\n*A\\)* Interarterioso; ecocardiografia transtoracica\n*B\\)* Retroaortico \\(o prepolmonare\\); angio\\-TC coronarica ECG\\-gated\n*C\\)* Intramurale; scintigrafia miocardica\n*D\\)* Interarterioso; radiografia del torace\n\n||Risposta corretta: B — Retroaortico e prepolmonare sono decorsi benigni \\(nessuna compressione fra i grandi vasi\\)\\. L'angio\\-TC coronarica ECG\\-gated è il gold standard per definire origine, ostio \\(slit\\-like\\), angolo di take\\-off e segmento intramurale, guidando la stratificazione del rischio\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260717%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260717|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260717|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260717|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260717|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260717|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260717|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧾 Rapporto operativo RadioLearn 2026\\-07\\-17*\n• Risposte Form processate: 7\n• Carte resettate \\(no\\-show\\): 5\n• Pillola: 20260717 — AAOCA/ACAOS \\(cardio, Livello 1\\)\n• Ripasso incluso: no \\(ultimo 2026\\-07\\-16, cadenza 3gg\\)\n• Inbox cancellati: 0 · Canale Telegram: best\\-effort\n• Warning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
