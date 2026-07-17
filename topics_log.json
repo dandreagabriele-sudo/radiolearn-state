@@ -397,5 +397,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-07-17",
+    "tag": "anomalous-coronary-origin",
+    "domain": "cardio",
+    "level": 1,
+    "source": "auto"
   }
 ]
