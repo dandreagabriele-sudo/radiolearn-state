@@ -404,5 +404,12 @@
     "domain": "cardio",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-07-18",
+    "tag": "linguine-sign-implant-rupture",
+    "domain": "altro",
+    "level": 3,
+    "source": "auto"
   }
 ]
