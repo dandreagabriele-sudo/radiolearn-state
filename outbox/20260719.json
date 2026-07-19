@@ -1,0 +1,322 @@
+{
+  "pill_id": "20260719",
+  "created_at": "2026-07-19T07:53:33Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udec1 *RadioLearn \u2014 Segno della pleura sdoppiata \\(empiema\\)*\n\nConcetto del giorno \\(Livello 1 \u2014 Torace\\)\\.\n\nIl segno della \u00abpleura sdoppiata\u00bb \\(split pleura sign\\) \u00e8 il reperto TC con mdc pi\u00f9 affidabile di empiema / versamento parapneumonico complicato: pleura viscerale e parietale ispessite, iperemiche e nettamente separate da una raccolta fluida\\. Compare in \\~2/3 degli empiemi e richiede la fase post\\-contrastografica \u2014 la flogosi pleurica induce neoangiogenesi e i due foglietti captano intensamente, mentre il pus/essudato interposto resta ipodenso\\.\n\nPerch\u00e9 conta: separa una raccolta da drenare da un versamento semplice\\. Il parapneumonico evolve in 3 stadi \\(Light\\): \\(1\\) essudativo \u2014 libero, gestibile con antibiotici; \\(2\\) fibrinopurulento \u2014 setti di fibrina, loculazioni, split pleura \u2192 drenaggio; \\(3\\) organizzativo \u2014 \u00abcotenna\u00bb pleurica \\(pleural peel\\), eventuale decorticazione\\.\n\nEmpiema vs ascesso polmonare \\(distinzione decisiva\\):\n\u2022 Empiema: lenticolare/biconvesso, angolo OTTUSO con la parete, comprime e disloca il parenchima, margini netti, split pleura\\.\n\u2022 Ascesso: sferico, angolo ACUTO, parete spessa e irregolare, distrugge il polmone, livello idro\\-aereo a margini irregolari\\.\n\nUna raccolta \\>30 mm con split pleura ha alta probabilit\u00e0 di empiema \\(OR \\~12\\)\\. Campionamento \\(pH <7,2, glucosio basso, LDH alto, pus franco\\) \u2192 drenaggio; nelle loculazioni, fibrinolitici intrapleurici tPA \\+ DNasi \\(trial MIST2\\)\\. Gli antibiotici da soli non bastano nel fibrinopurulento\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd17 *Connessioni multidisciplinari*\n\n\u2022 Storia della medicina: Ippocrate \\(Corpus, V sec\\. a\\.C\\.\\) descrive gi\u00e0 l'empiema e la \u00absuccussione ippocratica\u00bb \\(guazzamento all'auscultazione scuotendo il paziente\\); il principio \u00abubi pus, ibi evacua\u00bb \u2014 dove c'\u00e8 pus, l\u00ec evacua \u2014 resta il cardine: il drenaggio prima e pi\u00f9 degli antibiotici\\.\n\n\u2022 Geometria/fisica: l'angolo di raccordo con la parete \\(ottuso nell'empiema, acuto nell'ascesso\\) \u00e8 l'analogo dell'angolo di contatto di un fluido confinato tra superfici \\(bagnabilit\u00e0, Young\\-Laplace\\): la raccolta extrapolmonare \u00ablenticolare\u00bb si raccorda dolcemente, quella intraparenchimale \u00absferica\u00bb taglia il polmone ad angolo acuto\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\uddbc *Immagini e fonti*\n\n[Radiopaedia \u2014 Split pleura sign \\(empyema\\)](https://radiopaedia.org/articles/split-pleura-sign-empyema)\n[Radiopaedia \u2014 Caso: Empyema \\- split pleura sign](https://radiopaedia.org/cases/empyema-split-pleura-sign)\n[Radiopaedia \u2014 Caso: Pleural empyema with split pleura sign](https://radiopaedia.org/cases/pleural-empyema-with-split-pleura-sign)\n[RSNA Radiology \u2014 \u00abThe Split Pleura Sign\u00bb](https://pubs.rsna.org/doi/abs/10.1148/radiol.2431041658)\n[PMC \u2014 Split pleura per differenziare CPPE/empiema](https://pmc.ncbi.nlm.nih.gov/articles/PMC4468172/)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 1 \u2014 Galaxy sign \\(sarcoidosi\\)*\n\nAttorno a un macronodulo \u00abgalaxy\u00bb sarcoideo alla HRCT si osserva un tenue alone di ground\\-glass\\. Qual \u00e8 il suo substrato istologico e come lo distingue dall'alone dell'aspergillosi angioinvasiva?\n\nA\\) Emorragia alveolare, identica a quella dell'aspergillosi angioinvasiva\nB\\) Microgranulomi interstiziali sotto la risoluzione HRCT; NON emorragia \\(l'alone micotico \u00e8 invece emorragico\\)\nC\\) Alveolite essudativa neutrofila\nD\\) Atelettasia compressiva perilesionale\n\n||Risposta corretta: B \u2014 l'alone del galaxy sarcoideo \u00e8 dato da microgranulomi interstiziali sub\\-risoluzione HRCT; nell'aspergillosi angioinvasiva l'alone \u00e8 emorragia perilesionale da angioinvasione\\. Stesso \u00absegno dell'alone\u00bb, substrato opposto\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260514%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260514|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260514|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 2 \u2014 Galaxy sign \\(sarcoidosi\\)*\n\nMacronoduli \u00abgalaxy\u00bb stabili in 8 mesi senza terapia, a distribuzione perilinfatica, con linfoadenopatia ilare bilaterale simmetrica\\. Quale elemento discrimina meglio la sarcoidosi da metastasi ematogene?\n\nA\\) La distribuzione perilinfatica e la stabilit\u00e0 nel tempo \\(le metastasi sono a distribuzione random e crescono nel follow\\-up\\)\nB\\) La presenza di cavitazione\nC\\) Il livello idro\\-aereo interno\nD\\) L'angolo acuto con la parete toracica\n\n||Risposta corretta: A \u2014 sarcoidosi: distribuzione perilinfatica, stabilit\u00e0/regressione spontanea e adenopatia ilare bilaterale simmetrica; le metastasi ematogene hanno distribuzione random e mostrano crescita nel tempo\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260514%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260514|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260514|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 3 \u2014 Galaxy sign \\(sarcoidosi\\)*\n\nIl granuloma sarcoideo, oltre a essere non caseante, \u00e8 sostenuto da quale risposta immunitaria?\n\nA\\) Th2/IgE con eosinofili\nB\\) Risposta suppurativa neutrofila\nC\\) CD4\\+ Th1 con IFN\\-\u03b3 e TNF\\-\u03b1 \\(granuloma non caseante; corpi di Schaumann e asteroidi\\)\nD\\) Necrosi caseosa con vasculite\n\n||Risposta corretta: C \u2014 il granuloma sarcoideo \u00e8 non caseante ed \u00e8 guidato da linfociti CD4\\+ Th1 con IFN\\-\u03b3 e TNF\\-\u03b1 \\(bersaglio degli anti\\-TNF nelle forme refrattarie\\); istologicamente corpi di Schaumann e asteroidi\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260514%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260514|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260514|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Nuova 1 \u2014 Segno della pleura sdoppiata*\n\nIn cosa consiste il \u00absplit pleura sign\u00bb alla TC con mezzo di contrasto?\n\nA\\) Calcificazione di entrambi i foglietti pleurici\nB\\) Ispessimento e intenso enhancement di pleura viscerale e parietale, separate da una raccolta fluida interposta\nC\\) Aria libera che disseca i due foglietti pleurici\nD\\) Ispessimento nodulare irregolare della sola pleura parietale \\(mesotelioma\\)\n\n||Risposta corretta: B \u2014 i due foglietti flogotici ispessiti captano il contrasto e appaiono \u00absdoppiati\u00bb dalla raccolta essudativa/purulenta interposta\\. Serve la fase post\\-contrastografica\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260719%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260719|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260719|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260719|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260719|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260719|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260719|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Nuova 2 \u2014 Empiema vs ascesso*\n\nQuale insieme di reperti TC orienta verso EMPIEMA piuttosto che ascesso polmonare?\n\nA\\) Forma sferica, angolo acuto con la parete, parete spessa e irregolare\nB\\) Forma lenticolare/biconvessa, angolo ottuso con la parete, compressione\\-dislocazione del parenchima, split pleura\nC\\) Livello idro\\-aereo con distruzione del parenchima circostante\nD\\) Broncogramma aereo interno alla lesione\n\n||Risposta corretta: B \u2014 l'empiema \u00e8 extrapolmonare: lenticolare, angolo ottuso, comprime/disloca il polmone, foglietti sdoppiati captanti\\. L'ascesso \u00e8 intraparenchimale: sferico, angolo acuto, parete spessa irregolare, distrugge il polmone\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260719%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260719|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260719|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260719|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260719|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260719|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260719|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Nuova 3 \u2014 Stadiazione del versamento parapneumonico*\n\nNella classificazione di Light, in quale stadio compaiono loculazioni e split pleura, con indicazione al drenaggio?\n\nA\\) Stadio essudativo \\(versamento libero\\)\nB\\) Stadio fibrinopurulento\nC\\) Stadio organizzativo \\(cotenna pleurica\\)\nD\\) Nessuno: il split pleura \u00e8 tipico del trasudato\n\n||Risposta corretta: B \u2014 nello stadio fibrinopurulento la fibrina crea setti/loculazioni e i foglietti si sdoppiano \\(split pleura\\): serve il drenaggio\\. L'essudativo \u00e8 ancora libero; l'organizzativo forma la cotenna \\(eventuale decorticazione\\)\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260719%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260719|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260719|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260719|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260719|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260719|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260719|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Nuova 4 \u2014 Gestione dell'empiema*\n\nEmpiema loculato multisettato: qual \u00e8 l'approccio pi\u00f9 appropriato oltre agli antibiotici?\n\nA\\) Sola osservazione e antibiotici, il drenaggio \u00e8 controindicato\nB\\) Drenaggio pleurico, con fibrinolitici intrapleurici tPA \\+ DNasi nelle raccolte loculate \\(evidenza MIST2\\)\nC\\) Toracentesi evacuativa unica senza drenaggio a permanenza\nD\\) Pleurodesi con talco in prima battuta\n\n||Risposta corretta: B \u2014 lo stadio fibrinopurulento/organizzativo richiede drenaggio; nelle raccolte loculate i fibrinolitici intrapleurici tPA \\+ DNasi \\(trial MIST2\\) migliorano il drenaggio e riducono il ricorso alla chirurgia\\. Gli antibiotici da soli non bastano\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260719%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260719|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260719|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260719|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260719|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260719|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260719|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd27 *Report operativo* RadioLearn 20260719\n\u2022 Callback inbox processati: 0\n\u2022 Risposte form processate: 0 \\(nessuna nuova\\)\n\u2022 Carte resettate \\(no\\-show\\): 16\n\u2022 Ripasso incluso: s\u00ec \\(20260514:1, 20260514:2, 20260514:3\\)\n\u2022 Nuove carte: 20260719:0\u20133\n\u2022 Topic: split\\-pleura\\-empyema \\(torace, Livello 1\\)\n\u2022 Inbox cancellati: 0 \u2014 Warning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    }
+  ]
+}
