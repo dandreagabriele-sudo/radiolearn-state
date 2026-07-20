@@ -1,0 +1,200 @@
+{
+  "pill_id": "20260720",
+  "created_at": "2026-07-20T06:48:28.345544+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "parse_mode": "MarkdownV2",
+        "text": "\ud83d\udcca *Riepilogo settimanale RadioLearn*\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83c\udfaf Pillole inviate: 6\n\u2705 Quiz risposti: 20/24 \\(83%\\)\n\u2b50 Qualit\u00e0 media: 3\\.6 / 5\n\ud83d\udd01 Carte dimenticate: 644\n\ud83c\udfc6 Carte mature \\(\\>21gg\\): 0\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "parse_mode": "MarkdownV2",
+        "text": "\ud83e\uddf2 *Adenoma surrenalico \u2014 chemical shift imaging \\(RM addome\\)*\nLivello 2 \u00b7 RM addome\n\n*Concetto* \u2014 L'adenoma \u00e8 la lesione surrenalica pi\u00f9 comune \\(incidentaloma\\)\\. Il chemical shift imaging \\(CSI\\) \u00e8 la sequenza RM chiave: sfrutta il grasso intracitoplasmatico microscopico \\(intravoxel\\) tipico degli adenomi \u2018lipid\\-rich\u2019\\.\n\n*Fisica del segnale* \u2014 in un voxel che contiene sia acqua sia grasso, i protoni di grasso e acqua precessano a frequenze leggermente diverse \\(\\~3,5 ppm, \\~220 Hz a 1,5 T\\)\\. A TE \u2018in fase\u2019 i due vettori sono allineati e i segnali si sommano; a TE \u2018opposed\\-phase\u2019 sono in opposizione e si sottraggono \u2192 caduta di segnale nelle lesioni con grasso intravoxel\\.\n\n*Quantificazione* \u2014 Signal Intensity Index SII \\= \\(SI\\_in \u2212 SI\\_out\\)/SI\\_in \u00d7 100; soglia \\~16,5\u201320% \\= diagnostico di adenoma lipid\\-rich\\. Alternativa: adrenal\\-to\\-spleen ratio \\(ASR\\) < 0,71\\. Sensibilit\u00e0 81\u2013100%, specificit\u00e0 94\u2013100%\\.\n\n*Limite* \u2014 il 15\u201320% degli adenomi \u00e8 \u2018lipid\\-poor\u2019 e NON perde segnale in opposed\\-phase: in questi casi serve la TC con washout \\(assoluto \\>60%, relativo \\>40%\\)\\.\n\n*Pitfall* \u2014 l'artefatto \u2018India ink\u2019/etching \\(chemical shift di 2\u00b0 tipo\\) \u00e8 un bordo nero alle interfacce grasso\\-acqua \\(es\\. rene/grasso perirenale\\), NON segno di grasso intravoxel\\. Metastasi da RCC a cellule chiare e HCC lipid\\-rich contengono lipidi e possono cadere di segnale \u2192 falsi positivi: correla con clinica, washout TC e PET\\. A 3 T i TE in/opposed cambiano \\(opposed \\~1,1 ms, in \\~2,3 ms\\)\\.\n\n*Connessioni multidisciplinari*\n\u2022 Fisica \u2014 il fenomeno \u00e8 un \u2018battimento\u2019 \\(beat frequency\\): due oscillatori a frequenze vicine vanno ciclicamente in fase e in opposizione, come i battimenti acustici di due corde quasi accordate\\. Precessione di Larmor \\(1897\\), equazioni di Bloch \\(1946\\)\\.\n\u2022 Metodo \u2014 la tecnica di Dixon \\(1984\\) estende il CSI a 2 punti per separare quantitativamente acqua e grasso \\(base di IDEAL/mDixon\\)\\.",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "parse_mode": "MarkdownV2",
+        "text": "\ud83d\uddbc\ufe0f *Immagini e fonti*\n\u2022 [Adrenal adenoma \u2014 chemical shift \\(caso Radiopaedia\\)](https://radiopaedia.org/cases/adrenal-adenoma-chemical-shift-imaging-4)\n\u2022 [Adrenal adenoma \u2014 articolo Radiopaedia](https://radiopaedia.org/articles/adrenal-adenoma)\n\u2022 [Protocollo RM surreni \u2014 Radiopaedia](https://radiopaedia.org/articles/adrenal-glands-protocol-mri)\n\u2022 [Chemical Shift MRI of the Adrenal Gland \u2014 RadioGraphics \\(RSNA\\)](https://pubs.rsna.org/doi/10.1148/rg.2016150139)\n\u2022 [Adrenal lesion characterization \u2014 The Radiology Assistant](https://radiologyassistant.nl/abdomen/adrenals/lesion-characterization-1)",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "parse_mode": "MarkdownV2",
+        "text": "*1\\. Quantificazione del calo di segnale*\n\nNodulo surrenalico destro di 3 cm, incidentale\\. In opposed\\-phase perde segnale rispetto all'in\\-phase\\. Quale valore del Signal Intensity Index \\(SII\\) \u00e8 considerato diagnostico di adenoma lipid\\-rich?\n\nA\\) SII \\> 5%\nB\\) SII \u2248 16,5\u201320%\nC\\) SII \\> 50%\nD\\) Qualsiasi caduta visibile, indipendentemente dalla percentuale\n\n||Risposta corretta: B \u2014 SII \\= \\(SI\\_in \u2212 SI\\_out\\)/SI\\_in \u00d7 100; una soglia \\~16,5\u201320% \u00e8 diagnostica di adenoma lipid\\-rich \\(alta sensibilit\u00e0/specificit\u00e0\\)\\. L'alternativa quantitativa \u00e8 l'adrenal\\-to\\-spleen ratio < 0,71\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260720%3A0)",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260720|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260720|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260720|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260720|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260720|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260720|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "parse_mode": "MarkdownV2",
+        "text": "*2\\. Adenoma lipid\\-poor*\n\nQuale affermazione sugli adenomi surrenalici lipid\\-poor \u00e8 corretta?\n\nA\\) Perdono sempre segnale in opposed\\-phase\nB\\) Circa il 15\u201320% degli adenomi non cade di segnale \u2192 serve la TC con washout\nC\\) Rappresentano una controindicazione alla RM\nD\\) Si riconoscono per l'artefatto India\\-ink interno alla lesione\n\n||Risposta corretta: B \u2014 Il 15\u201320% degli adenomi \u00e8 lipid\\-poor e NON mostra caduta di segnale nel CSI; in questi casi la caratterizzazione si affida alla TC con washout \\(assoluto \\>60%, relativo \\>40%\\)\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260720%3A1)",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260720|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260720|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260720|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260720|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260720|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260720|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "parse_mode": "MarkdownV2",
+        "text": "*3\\. Origine fisica del calo di segnale*\n\nPerch\u00e9 una lesione con grasso microscopico perde segnale nelle immagini opposed\\-phase?\n\nA\\) Il grasso sopprime chimicamente il segnale dell'acqua\nB\\) Protoni di grasso e acqua precessano a frequenze diverse e, in un voxel misto, si annullano parzialmente in opposizione di fase\nC\\) \u00c8 dovuto al solo decadimento T2\\*\nD\\) \u00c8 l'effetto del washout del gadolinio\n\n||Risposta corretta: B \u2014 In un voxel che contiene grasso e acqua i due pool precessano a frequenze diverse: a TE in\\-phase i segnali si sommano, a TE opposed\\-phase si sottraggono \u2192 caduta di segnale\\. Non \u00e8 soppressione chimica n\u00e9 washout\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260720%3A2)",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260720|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260720|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260720|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260720|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260720|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260720|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "parse_mode": "MarkdownV2",
+        "text": "*4\\. Trabocchetto nel paziente oncologico*\n\nPaziente con carcinoma renale a cellule chiare noto: un nodulo surrenalico perde segnale in opposed\\-phase\\. Interpretazione pi\u00f9 corretta?\n\nA\\) \u00c8 certamente un adenoma benigno, nessun ulteriore accertamento\nB\\) La caduta di segnale esclude la metastasi\nC\\) Metastasi da RCC a cellule chiare \\(e HCC lipid\\-rich\\) possono contenere lipidi intracitoplasmatici e cadere di segnale: correlare con storia, washout TC e PET\nD\\) \u00c8 un artefatto India\\-ink\n\n||Risposta corretta: C \u2014 La caduta di segnale NON \u00e8 specifica: metastasi da carcinoma renale a cellule chiare e da HCC lipid\\-rich contengono lipidi e possono perdere segnale, simulando un adenoma\\. In paziente oncologico correlare con washout TC/PET/clinica\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260720%3A3)",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260720|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260720|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260720|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260720|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260720|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260720|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "parse_mode": "MarkdownV2",
+        "text": "\ud83d\udee0\ufe0f *Report operativo* \u2014 2026\\-07\\-20\n\u2022 Callback inbox processati: 0\n\u2022 Risposte Form processate: 11\n\u2022 Carte resettate \\(no\\-show\\): 212\n\u2022 Pill: 20260720 \u2014 adenoma surrenalico / chemical shift \\(addome, L2\\)\n\u2022 Ripasso incluso: no \\(ultimo 2026\\-07\\-19, cadenza <3gg\\)\n\u2022 Inbox cancellati: 0\n\u2022 Backup luned\u00ec: s\u00ec\n\u2022 Warning: nessuno"
+      }
+    }
+  ]
+}
