@@ -1,0 +1,319 @@
+{
+  "pill_id": "20260725",
+  "created_at": "2026-07-25T06:50:16Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udca0 LHIS \u2014 Ipertrofia lipomatosa del setto interatriale*\n\nTC/RM cardiaca \u00b7 Livello 1 \\(cuore\\)\\. Aspetti clinici cardiologici a complessit\u00e0 lievemente ridotta\\.\n\nAccumulo BENIGNO, non capsulato, di tessuto adiposo maturo \\(adipociti bianchi \\+ isole di grasso bruno\\) frammisto a miociti atriali ipertrofici, che ispessisce il setto interatriale oltre i 2 cm RISPARMIANDO la fossa ovalis\\. Ne deriva l'aspetto \u00ab a manubrio \u00bb \\(dumbbell / clessidra\\) patognomonico su piani assiali e coronali\\. NON \u00e8 un lipoma \\(non capsulato\\) n\u00e9 un liposarcoma\\.\n\n*Soglia & morfologia*\n\u2022 Ispessimento \\> 15\u201320 mm, tipicamente pi\u00f9 marcato cranialmente \\(dal tetto atriale / seno coronarico verso la radice aortica\\)\\. \u2022 Il risparmio della fossa ovalis \\(membranosa, priva di grasso\\) \u00e8 la chiave diagnostica: crea la strozzatura centrale del manubrio\\.\n\n*Caratterizzazione tissutale*\n\u2022 TC: attenuazione adiposa \\(\u221250 / \u2212120 HU\\)\\. \u2022 RM: iperintenso T1/T2 come il grasso sottocutaneo, si ANNULLA con fat\\-sat/STIR \u2192 conferma la natura adiposa; chemical\\-shift \\(in/out\\-of\\-phase\\) con \u00ab India\\-ink \u00bb al bordo grasso\\-miocardio\\. \u2022 FDG\\-PET: pu\u00f2 essere INTENSAMENTE avido per il grasso bruno \\(UCP\\-1, \u03b2\\-adrenergico\\) \u2192 tranello che mima metastasi/malignit\u00e0; la captazione si spegne con propranololo\\.\n\n*Clinica & significato*\nDi regola reperto incidentale in anziano obeso \\(associazione con et\u00e0, obesit\u00e0, terapia corticosteroidea\\)\\. Raramente sintomatico: aritmie sopraventricolari \\(FA/tachiaritmie atriali\\) e, se voluminoso, effetto massa con ostruzione della vena cava superiore\\. Importa perch\u00e9 NON va scambiato per trombo, mixoma, metastasi o massa infiltrante: grasso \\+ risparmio fossa ovalis \\+ \\(se PET\\) brown fat risolvono\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd17 Connessioni multidisciplinari*\n\n\u2022 Fisica RM \\(chemical shift\\): i protoni di grasso e acqua risuonano a frequenze lievemente diverse \\(\\~3,5 ppm; \\~220 Hz a 1,5 T\\)\\. Al TE \u00ab out\\-of\\-phase \u00bb le interfacce grasso\\-acqua perdono segnale \\(artefatto India\\-ink\\): \u00e8 la base fisica della soppressione del grasso che smaschera la LHIS\\.\n\n\u2022 Biologia / termogenesi: il grasso bruno \u00e8 ricco di mitocondri e di UCP\\-1 \\(termogenina\\), che disaccoppia la fosforilazione ossidativa producendo calore invece di ATP\\. Lo stesso motivo per cui il grasso bruno sopraclaveare \u00ab si accende \u00bb col freddo spiega l'avidit\u00e0 FDG \u03b2\\-adrenergica della LHIS; il propranololo la spegne\\.\n\n\u2022 Storia: descritta da Prior nel 1964 come \u00ab lipomatous hypertrophy \u00bb del setto; da allora resta uno dei grandi pitfall benigni dell'imaging cardiaco\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\uddbc\ufe0f Immagini & fonti*\n\n\u2022 [Radiopaedia \u2014 caso LHIS \\(dumbbell, sparing fossa ovalis\\)](https://radiopaedia.org/cases/lipomatous-hypertrophy-of-the-interatrial-septum-9)\n\u2022 [Radiopaedia \u2014 caso LHIS \\#11](https://radiopaedia.org/cases/lipomatous-hypertrophy-of-the-interatrial-septum-11)\n\u2022 [Radiopaedia \u2014 LHIS con ostruzione giunzione SVC/atrio](https://radiopaedia.org/cases/lipomatous-hypertrophy-of-the-interatrial-septum-with-partial-svcatrial-junction-obstruction)\n\u2022 [AJR \u2014 LHIS: increased uptake on FDG PET](https://ajronline.org/doi/10.2214/ajr.184.1.01840339)\n\u2022 [Radiopaedia \u2014 anatomia del setto atriale](https://radiopaedia.org/articles/atrial-septum-1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd01 Ripasso 1/3 \u2014 Galaxy sign \\(sarcoidosi\\)\nI micronoduli satelliti che confluiscono nel galaxy sign hanno distribuzione perilinfatica: lungo quali strutture si dispongono tipicamente?\n\nA\\) esclusivamente centrolobulare, risparmiando la pleura\nB\\) interstizio peribroncovascolare, setti interlobulari e regione subpleurica/scissurale\nC\\) random \\(ematogena\\), senza rapporto con le vie linfatiche\nD\\) esclusivamente lungo i bronchioli terminali \\(tree\\-in\\-bud\\)\n\n||Risposta corretta: B \u2014 la distribuzione perilinfatica segue peribroncovascolare \\+ setti interlobulari \\+ subpleurica/scissurale; la coalescenza di questi micronoduli forma il macronodulo \u00ab galaxy \u00bb\\. Centrolobulare/tree\\-in\\-bud e random sono pattern di altre malattie\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260514%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260514|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260514|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd01 Ripasso 2/3 \u2014 Hot cross bun sign \\(MSA\\-C\\)\nNell'hot cross bun sign, l'asse TRASVERSO iperintenso della croce pontina corrisponde alla degenerazione di quali fibre?\n\nA\\) fasci cortico\\-spinali\nB\\) fibre ponto\\-cerebellari trasverse \\(degenerazione walleriana verso i peduncoli cerebellari medi\\)\nC\\) lemnisco mediale\nD\\) tratto tegmentale centrale\n\n||Risposta corretta: B \u2014 l'asse orizzontale della croce \u00e8 la degenerazione delle fibre ponto\\-cerebellari trasverse \\(\u2192 atrofia/iperintensit\u00e0 dei peduncoli cerebellari medi\\); l'asse verticale \u00e8 la gliosi dei nuclei mediani del rafe\\. I fasci cortico\\-spinali, RISPARMIATI nelle ali antero\\-laterali, definiscono i 4 bracci normointensi\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260515%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260515|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260515|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd01 Ripasso 3/3 \u2014 Central dot sign \\(malattia di Caroli\\)\nNella malattia/sindrome di Caroli, quale complicanza a lungo termine \\(\\~7% lifetime\\) giustifica la sorveglianza imaging?\n\nA\\) colangiocarcinoma\nB\\) epatoblastoma\nC\\) adenoma epatocellulare\nD\\) angiomiolipoma\n\n||Risposta corretta: A \u2014 la stasi biliare cronica nelle dilatazioni sacculari predispone al colangiocarcinoma \\(rischio \\~7% lifetime\\): sorvegliare comparsa di massa solida, ispessimento parietale, restrizione DWI, enhancement progressivo e linfoadenopatie\\. Le altre lesioni non appartengono allo spettro fibrocistico di Caroli\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260517%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260517|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260517|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260517|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260517|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260517|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260517|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 Domanda 1/4 \u2014 LHIS\nQuale reperto morfologico \u00e8 patognomonico dell'ipertrofia lipomatosa del setto interatriale?\n\nA\\) ispessimento uniforme del setto che INCLUDE la fossa ovalis\nB\\) ispessimento \u00ab a manubrio \u00bb \\(dumbbell\\) con RISPARMIO della fossa ovalis\nC\\) massa peduncolata mobile adesa alla fossa ovalis\nD\\) versamento pericardico saccato\n\n||Risposta corretta: B \u2014 il grasso infiltra il setto risparmiando la fossa ovalis \\(membranosa, senza grasso\\): ne deriva la strozzatura centrale e l'aspetto bilobato \u00ab a manubrio \u00bb/clessidra, patognomonico\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260725%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260725|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260725|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260725|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260725|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260725|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260725|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 Domanda 2/4 \u2014 LHIS\nCome si conferma la natura adiposa della LHIS alla RM?\n\nA\\) restrizione in DWI con basso ADC\nB\\) iperintensit\u00e0 T1/T2 identica al grasso sottocutaneo che si ANNULLA con le sequenze fat\\-sat/STIR\nC\\) marcato enhancement omogeneo post\\-gadolinio\nD\\) ipointensit\u00e0 T2\\* marcata con blooming\n\n||Risposta corretta: B \u2014 la LHIS segue il segnale del grasso sottocutaneo \\(iper T1/T2\\) e si sopprime con fat\\-sat/STIR; il chemical\\-shift \\(in/out\\-of\\-phase\\) con India\\-ink al bordo grasso\\-miocardio conferma\\. Nessuna restrizione DWI n\u00e9 enhancement massivo \\(non \u00e8 neoplasia\\)\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260725%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260725|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260725|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260725|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260725|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260725|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260725|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 Domanda 3/4 \u2014 LHIS\nLa LHIS pu\u00f2 mostrare intensa captazione di 18F\\-FDG alla PET\\. Qual \u00e8 il substrato e perch\u00e9 \u00e8 un tranello?\n\nA\\) neoangiogenesi neoplastica \u2192 indica malignit\u00e0\nB\\) tessuto adiposo BRUNO metabolicamente attivo \\(UCP\\-1\\) \u2192 pu\u00f2 mimare una metastasi pur essendo benigno\nC\\) flogosi da endocardite \u2192 richiede antibiotici\nD\\) trombo in organizzazione \u2192 richiede anticoagulazione\n\n||Risposta corretta: B \u2014 l'avidit\u00e0 FDG deriva dal grasso bruno \\(mitocondri, UCP\\-1\\) presente nella LHIS: un reperto benigno che pu\u00f2 essere scambiato per malattia metastatica\\. La captazione si attenua con premedicazione \u03b2\\-bloccante \\(propranololo\\)\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260725%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260725|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260725|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260725|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260725|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260725|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260725|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 Domanda 4/4 \u2014 LHIS\nReperto incidentale in TC: ispessimento del setto interatriale a densit\u00e0 adiposa \\(\u221270 HU\\), a manubrio, con risparmio della fossa ovalis, in anziano obeso\\. Condotta corretta?\n\nA\\) LHIS benigna: nessun trattamento, referto rassicurante \\(nota su rare aritmie atriali / ostruzione SVC se voluminoso\\)\nB\\) biopsia urgente per sospetto liposarcoma\nC\\) anticoagulazione per sospetto trombo\nD\\) chirurgia per sospetto mixoma\n\n||Risposta corretta: A \u2014 densit\u00e0 adiposa \\+ morfologia a manubrio \\+ risparmio fossa ovalis sono diagnostici di LHIS benigna: si referta come tale, senza trattamento; si menzionano solo le rare complicanze \\(aritmie sopraventricolari, ostruzione SVC da effetto massa\\) quando pertinenti\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260725%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260725|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260725|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260725|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260725|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260725|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260725|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udee0\ufe0f *RadioLearn \u2014 report operativo*\nPill 20260725 \u00b7 topic: LHIS \\(setto interatriale\\) \u00b7 cardio L1\nCallback/form processati: 0 \\(inbox 0, form 0\\)\nCarte resettate \\(no\\-show\\): 244\nRipasso incluso: si \u2014 20260514:0, 20260515:2, 20260517:0\nNuove carte: 20260725:0\\.\\.3 \u00b7 Inbox cancellati: 0\nWarning: nessun paper nuovo; nessuna riga form nuova; Sab \\(no riepilogo\\)\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
