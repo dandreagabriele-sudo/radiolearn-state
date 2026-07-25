@@ -439,5 +439,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-07-25",
+    "tag": "lipomatous-hypertrophy-atrial-septum",
+    "domain": "cardio",
+    "level": 1,
+    "source": "auto"
   }
 ]
