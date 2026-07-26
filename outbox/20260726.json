@@ -1,0 +1,191 @@
+{
+  "pill_id": "20260726",
+  "created_at": "2026-07-26T06:47:45.680798+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83e\uddb4 RadioLearn \u2014 Frattura di Segond*\nRx/RM ginocchio \u00b7 Livello 3 \\(basi generiche\\)\n\n*Concetto*\nLa frattura di Segond \u00e8 una piccola avulsione ossea del margine LATERALE del piatto tibiale, subito sotto la rima articolare\\. Il minuscolo frammento \u00e8 strappato via dal legamento anterolaterale del ginocchio \\(l'antico \u00ab legamento capsulare laterale \u00bb\\)\\.\n\n\u2022 Perch\u00e9 conta: \u00e8 un segno INDIRETTO di rottura del legamento crociato anteriore \\(LCA\\) \u2014 associazione nel 75\u2013100% dei casi \u2014 e spesso di lesione del menisco mediale \\(66\u201375%\\)\\. Il frammento \u00e8 piccolo, ma \u00ab tradisce \u00bb un danno interno importante\\.\n\u2022 Meccanismo: rotazione INTERNA della tibia \\+ stress in VARO \\(non il classico valgo della distorsione da LCA \u00ab puro \u00bb\\)\\.\n\u2022 Regola pratica: Segond sulla radiografia \\= sospetta lesione dell'LCA \u2192 sempre completare con RM del ginocchio per studiare crociati e menischi\\.\n\u2022 Reverse Segond: avulsione speculare dal margine MEDIALE del piatto \u2192 si associa a lesione del legamento crociato POSTERIORE \\(LCP\\) e del menisco mediale \\(meccanismo in valgo \\+ rotazione esterna\\)\\.\n\n*Connessioni*\n\u2022 Storia: descritta da Paul Segond, chirurgo francese, nel 1879 in esperimenti su cadavere; not\u00f2 una \u00ab banda fibrosa perlacea e resistente \u00bb che si tendeva fino a staccare un frammento d'osso \u2014 oggi identificata col legamento anterolaterale\\.\n\u2022 Biomeccanica: la rotazione interna mette in tensione il versante anterolaterale del ginocchio \\(lo stesso che controlla il \u00ab pivot\\-shift \u00bb\\); l'osso spugnoso cede prima del legamento, cos\u00ec l'avulsione ossea diventa la \u00ab spia \u00bb radiografica del cedimento capsulo\\-legamentoso\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\uddbc Immagini e fonti*\n\u2022 [Radiopaedia \u2014 Segond fracture \\(caso\\)](https://radiopaedia.org/cases/segond-fracture-34)\n\u2022 [Radiopaedia \u2014 articolo Segond fracture](https://radiopaedia.org/articles/segond-fracture)\n\u2022 [Radiopaedia \u2014 Segond \\+ rottura LCA \\(RM\\)](https://radiopaedia.org/cases/segond-fracture-with-associated-anterior-cruciate-ligament-tear)\n\u2022 [Radiopaedia \u2014 Segond e reverse Segond](https://radiopaedia.org/cases/segond-and-reverse-segond-fractures)\n\u2022 [Wikipedia \u2014 Segond fracture](https://en.wikipedia.org/wiki/Segond_fracture)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 1*\nRadiografia di ginocchio dopo trauma distorsivo: piccolo frammento osseo avulso dal margine LATERALE del piatto tibiale, appena sotto la rima articolare\\. Come si chiama questo reperto e cosa deve far sospettare?\n\nA\\) Frattura di Segond \u2014 sospetta rottura del legamento crociato anteriore \\(LCA\\)\nB\\) Frattura di Pellegrini\\-Stieda \u2014 calcificazione del legamento collaterale mediale\nC\\) Frattura dell'eminenza intercondiloidea \u2014 avulsione dell'inserzione tibiale del LCA\nD\\) Frattura di Maisonneuve \u2014 lesione della caviglia con frattura prossimale del perone\n\n||Risposta corretta: A \u2014 avulsione del margine tibiale laterale \\(legamento anterolaterale/capsulare laterale\\)\\. E' un marker indiretto di rottura dell'LCA \\(75\u2013100%\\) e spesso di lesione del menisco mediale: impone una RM del ginocchio\\.||\n\nAutovalutati con i bottoni 0\u20135 qui sotto \ud83d\udc47\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260726%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260726|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260726|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260726|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260726|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260726|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260726|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 2*\nQuale meccanismo traumatico produce tipicamente la frattura di Segond?\n\nA\\) Valgo \\+ rotazione esterna della tibia\nB\\) Iperestensione pura del ginocchio\nC\\) Rotazione INTERNA della tibia \\+ stress in VARO\nD\\) Impatto assiale diretto sul piatto tibiale\n\n||Risposta corretta: C \u2014 rotazione interna \\+ varo tendono il versante anterolaterale fino a strappare il frammento osseo\\. \\(Il reverse Segond, mediale, nasce invece da valgo \\+ rotazione esterna e si lega al LCP\\.\\)||\n\nAutovalutati con i bottoni 0\u20135 qui sotto \ud83d\udc47\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260726%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260726|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260726|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260726|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260726|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260726|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260726|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 3*\nIl frammento della frattura di Segond \u00e8 minuscolo\\. Perch\u00e9 non va mai sottovalutato in un referto?\n\nA\\) Perch\u00e9 richiede sempre fissazione chirurgica con vite\nB\\) Perch\u00e9 \u00e8 la \u00ab spia \u00bb di lesioni interne \\(LCA, menisco mediale\\) non visibili in radiografia \u2192 indicazione a RM\nC\\) Perch\u00e9 indica una frattura esposta\nD\\) Perch\u00e9 \u00e8 patognomonico di un'infezione articolare\n\n||Risposta corretta: B \u2014 il valore del segno non \u00e8 nel frammento in s\u00e9, ma nel danno capsulo\\-legamentoso sottostante che segnala: va refertato come indicatore di probabile lesione LCA e raccomandata la RM\\.||\n\nAutovalutati con i bottoni 0\u20135 qui sotto \ud83d\udc47\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260726%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260726|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260726|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260726|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260726|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260726|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260726|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 4*\nUn'avulsione ossea analoga ma dal margine MEDIALE del piatto tibiale \\(\u00ab reverse Segond \u00bb\\) a cosa si associa tipicamente?\n\nA\\) Rottura del legamento crociato anteriore \\(LCA\\)\nB\\) Lesione del legamento crociato POSTERIORE \\(LCP\\), spesso con lesione del menisco mediale\nC\\) Lussazione della rotula\nD\\) Sempre a una frattura di Segond controlaterale\n\n||Risposta corretta: B \u2014 il reverse Segond \u00e8 un'avulsione del versante capsulare mediale e si correla con lesione del LCP e del menisco mediale \\(meccanismo in valgo \\+ rotazione esterna\\)\\.||\n\nAutovalutati con i bottoni 0\u20135 qui sotto \ud83d\udc47\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260726%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260726|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260726|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260726|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260726|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260726|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260726|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udee0 RadioLearn \u2014 report operativo*\nPillola: 20260726 \u00b7 segond\\-fracture \\(MSK, Livello 3\\)\nForm processati: 7 \u00b7 Inbox: 0 \u00b7 Carte resettate: 0\nRipasso incluso: no \\(cadenza 1/3 gg\\)\nImmagini: 5 link verificati \\(web\\_search\\)",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
