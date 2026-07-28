@@ -1,0 +1,313 @@
+{
+  "pill_id": "20260728",
+  "created_at": "2026-07-28T06:49:27Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83e\ude7b RadioLearn \u2014 Adenomiomatosi della colecisti*\n\n*Concetto del giorno*\nIperplasia dell'epitelio \\+ ipertrofia della tonaca muscolare della colecisti, con estroflessioni mucose intramurali: i seni di Rokitansky\\-Aschoff\\. \u00c8 benigna e comune \\(\\~9% dei pezzi di colecistectomia\\)\\. Tre pattern: diffusa; segmentale \\(anulare, tipicamente al corpo \u2192 colecisti 'a clessidra'\\); focale/fundica \\(adenomioma del fondo, la pi\u00f9 frequente\\)\\.\n\nRM/MRCP \u00e8 la tecnica chiave: i seni di Rokitansky\\-Aschoff, pieni di bile, sono cavit\u00e0 intramurali iperintense in T2 disposte in arco \u2192 segno della collana di perle \\(pearl necklace\\), specifico \\~92% \\(sensibilit\u00e0 \\~70%\\)\\. All'ecografia, i cristalli di colesterolo nei seni danno l'artefatto a coda di cometa \\(comet\\-tail\\), molto specifico\\. Nel post\\-contrasto la mucosa si potenzia precocemente mentre i seni restano ipointensi \\(aspetto a rosario\\)\\.\n\nRilevanza clinica \\(DDx\\): la forma focale/segmentale pu\u00f2 mimare il carcinoma della colecisti\\. Riconoscere i seni di Rokitansky\\-Aschoff \\(pearl necklace\\) e l'assenza di enhancement infiltrativo transmurale \u00e8 dirimente ed evita colecistectomie non necessarie\\.\n\n*Connessioni multidisciplinari*\n\u2022 Storia della patologia: Carl von Rokitansky \\(Vienna, 1804\u20131878\\), 'padre della patologia moderna', e Ludwig Aschoff \u2014 lo stesso dei noduli di Aschoff della febbre reumatica \\(ponte con la cardiologia\\) \u2014 danno il nome ai seni mucosi\\.\n\u2022 Fisica dell'artefatto: la coda di cometa \u00e8 un riverbero dell'onda ultrasonora che rimbalza tra cristalli di colesterolo ravvicinati, come un'eco sonora che decade tra due pareti vicine\\.\n\u2022 Mnemonica: le perle intramurali iperintense in T2 disegnano una 'collana' lungo la parete \u2014 parure diagnostica\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\uddbc Immagini e fonti*\n\n\u2022 [Adenomiomatosi della colecisti \u2014 Radiopaedia \\(articolo\\)](https://radiopaedia.org/articles/adenomyomatosis-of-the-gallbladder?lang=us)\n\u2022 [Pearl necklace sign \u2014 Radiopaedia \\(articolo\\)](https://radiopaedia.org/articles/pearl-necklace-sign?lang=us)\n\u2022 [Adenomiomatosi \\(MRCP\\) \u2014 caso](https://radiopaedia.org/cases/adenomyomatosis-of-the-gallbladder-mrcp-2?lang=us)\n\u2022 [Adenomiomatosi della colecisti \u2014 caso](https://radiopaedia.org/cases/gallbladder-adenomyomatosis-12?lang=us)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso \u2014 Sarcoidosi toracica \\(galaxy sign\\)*\n\n*Domanda:* Donna afroamericana di 42 anni, asintomatica\\. HRCT: macronoduli di 1\u20133 cm nei lobi superiori formati da micronoduli confluenti, con linfoadenopatia ilare bilaterale simmetrica\\. Quale elemento orienta di pi\u00f9 verso sarcoidosi e MENO verso silicosi/PMF?\n\nA\\) Localizzazione ai lobi superiori\nB\\) Linfoadenopatia ilare bilaterale simmetrica, senza anamnesi di esposizione a silice n\u00e9 calcificazioni eggshell periferiche estese\nC\\) Presenza di macronoduli coalescenti\nD\\) Storia di lunga esposizione lavorativa a polveri inorganiche\n\n||Risposta corretta: B \u2014 entrambe danno macronoduli ai lobi superiori; a favore di sarcoidosi: linfoadenopatia ilare simmetrica e assenza di esposizione/eggshell massive, che invece caratterizzano silicosi/PMF\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260514%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260514|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260514|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso \u2014 Sarcoidosi toracica \\(galaxy sign\\)*\n\n*Domanda:* I micronoduli satelliti che confluiscono a formare il galaxy nodule seguono quale pattern distributivo, riflettendo la sede dei granulomi?\n\nA\\) Centrilobulare con tree\\-in\\-bud\nB\\) Perilinfatico \\(peribroncovascolare, subpleurico, setti interlobulari\\)\nC\\) Random \\(ematogeno\\)\nD\\) Miliare uniforme\n\n||Risposta corretta: B \u2014 i granulomi sarcoidei si dispongono lungo i linfatici \\(pattern perilinfatico\\); la loro confluenza genera il macronodulo 'galaxy'\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260514%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260514|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260514|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso \u2014 Sarcoidosi toracica \\(galaxy sign\\)*\n\n*Domanda:* All'istologia di un galaxy nodule sarcoideo ti aspetti:\n\nA\\) Granuloma caseante con necrosi centrale\nB\\) Granuloma non caseante con cellule giganti di Langhans, corpi di Schaumann e corpi asteroidi\nC\\) Vasculite necrotizzante granulomatosa \\(pattern GPA\\)\nD\\) Flogosi suppurativa neutrofila\n\n||Risposta corretta: B \u2014 la sarcoidosi \u00e8 definita dal granuloma NON caseante; corpi di Schaumann e asteroidi sono inclusioni classiche nelle cellule giganti\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260514%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260514|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260514|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda nuova \u2014 Adenomiomatosi colecisti*\n\n*Domanda:* Il 'pearl necklace sign' \\(segno della collana di perle\\) su T2/MRCP nell'adenomiomatosi rappresenta:\n\nA\\) Calcoli multipli endoluminali\nB\\) Cavit\u00e0 intramurali rotondeggianti iperintense in T2, disposte in modo curvilineo \u2014 i seni di Rokitansky\\-Aschoff\nC\\) Linfonodi pericolecistici reattivi\nD\\) Polipi di colesterolo endoluminali\n\n||Risposta corretta: B \u2014 i seni di Rokitansky\\-Aschoff pieni di bile appaiono iperintensi in T2 e allineati; specificit\u00e0 \\~92% per adenomiomatosi \\(sensibilit\u00e0 \\~70%\\)\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260728%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260728|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260728|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260728|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260728|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260728|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260728|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda nuova \u2014 Adenomiomatosi colecisti*\n\n*Domanda:* All'ecografia, quale artefatto \u00e8 altamente specifico per adenomiomatosi ed \u00e8 generato da cristalli di colesterolo nei seni di Rokitansky\\-Aschoff?\n\nA\\) Ombra acustica posteriore netta\nB\\) Artefatto a coda di cometa \\(comet\\-tail\\) a partenza da foci ecogeni intramurali\nC\\) Twinkling artifact al color Doppler\nD\\) Rinforzo acustico di parete posteriore\n\n||Risposta corretta: B \u2014 il comet\\-tail \\(riverbero a V\\) nasce dai cristalli di colesterolo nei seni RA ed \u00e8 la firma acustica dell'adenomiomatosi; il twinkling \u00e8 tipico dei calcoli\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260728%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260728|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260728|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260728|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260728|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260728|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260728|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda nuova \u2014 Adenomiomatosi colecisti*\n\n*Domanda:* La forma segmentale \\(anulare\\) dell'adenomiomatosi tipicamente:\n\nA\\) Interessa il fondo come adenomioma focale\nB\\) Si localizza al corpo con restringimento anulare e aspetto 'a clessidra' della colecisti\nC\\) Colpisce il colletto causando sindrome di Mirizzi\nD\\) Coinvolge in modo uniforme tutta la parete\n\n||Risposta corretta: B \u2014 la variante segmentale d\u00e0 un anello di ispessimento al corpo, che divide la colecisti dando il classico aspetto a clessidra\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260728%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260728|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260728|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260728|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260728|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260728|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260728|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda nuova \u2014 Adenomiomatosi colecisti*\n\n*Domanda:* Perch\u00e9 \u00e8 clinicamente importante riconoscere l'adenomiomatosi focale/segmentale con i suoi seni di Rokitansky\\-Aschoff?\n\nA\\) Perch\u00e9 \u00e8 una lesione maligna che richiede chemioterapia\nB\\) Perch\u00e9 l'ispessimento parietale focale pu\u00f2 mimare il carcinoma della colecisti: identificare i seni RA \\(pearl necklace\\) e l'assenza di enhancement infiltrativo transmurale evita colecistectomie non necessarie\nC\\) Perch\u00e9 causa sempre colecistite acuta litiasica\nD\\) Perch\u00e9 controindica in modo assoluto la colecistectomia\n\n||Risposta corretta: B \u2014 il vero valore del riconoscimento \u00e8 la diagnosi differenziale con il carcinoma: i reperti benigni \\(RAS in T2, mucosa a enhancement regolare\\) risparmiano interventi inutili\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260728%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260728|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260728|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260728|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260728|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260728|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260728|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udee0 Report operativo \u2014 pill 20260728*\nTopic: adenomiomatosi colecisti \\(addome, Livello 2\\)\nCallback inbox processati: 0 \u00b7 Form processati: 4 \u00b7 Carte resettate: 7\nRipasso incluso: s\u00ec \\(20260514:1, 20260514:2, 20260514:3\\)\nInbox cancellati: 0 \u00b7 Warning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
