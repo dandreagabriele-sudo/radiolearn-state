@@ -460,5 +460,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-07-28",
+    "tag": "gallbladder-adenomyomatosis",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
