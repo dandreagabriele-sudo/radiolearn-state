@@ -467,5 +467,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-07-29",
+    "tag": "endometrioma-t2-shading",
+    "domain": "altro",
+    "level": 3,
+    "source": "auto"
   }
 ]
