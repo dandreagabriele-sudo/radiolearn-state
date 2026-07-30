@@ -1,0 +1,191 @@
+{
+  "pill_id": "20260730",
+  "created_at": "2026-07-30T06:48:06.664678+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udec1 Teaching Pill \u2014 CT angiogram sign\n\nCONCETTO\nIl \"CT angiogram sign\" \u00e8 la visualizzazione netta dei vasi polmonari, ben opacizzati dal mezzo di contrasto, che risaltano come in un angiogramma dentro una consolidazione a bassa attenuazione\\. Il presupposto \u00e8 fisico: un contrasto di attenuazione\\. Il parenchima consolidato ha densit\u00e0 inferiore ai vasi \\(e spesso inferiore al muscolo della parete toracica\\) perch\u00e9 gli alveoli sono riempiti da materiale ipodenso \u2014 tipicamente mucina, ma anche edema, pus o cellule\\.\n\nDescritto in origine come segno del carcinoma bronchioloalveolare \\(oggi adenocarcinoma mucinoso invasivo, IMA\\), si \u00e8 poi rivelato ASPECIFICO: compare anche in polmonite ostruttiva/post\\-ostruttiva, edema polmonare, linfoma polmonare e metastasi \\(soprattutto da neoplasie mucinose gastrointestinali\\)\\.\n\nCHIAVE ESPERTO\nIl segno da solo non discrimina benigno vs maligno\\. Orientano verso l'IMA il CONTESTO: consolidazione lobare che non si risolve nel tempo, bulging \\(rigonfiamento\\) delle scissure, marcata ipodensit\u00e0 del contenuto alveolare \\(\"hypodense sign\" da mucina\\), \"dead branch sign\" \\(bronchi amputati che si assottigliano nella lesione\\), pseudocavitazioni e noduli satellite\\. Nella polmonite essudativa acuta l'essudato proteico \u00e8 relativamente denso: il contrasto vaso\\-parenchima si riduce e il segno \u00e8 spesso meno evidente che nell'IMA, dove la mucina \u00e8 nettamente ipodensa\\.\n\nCONNESSIONE\nPensa al rapporto segnale\\-rumore in fisica: il vaso \"si vede\" non perch\u00e9 sia pi\u00f9 brillante del solito, ma perch\u00e9 lo sfondo \\(la mucina\\) \u00e8 insolitamente scuro \u2014 \u00e8 il contrasto, non il segnale, a creare l'immagine\\. Come un fiume che diventa visibile solo attraversando la nebbia pi\u00f9 fitta\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\uddbc\ufe0f *Immagini \\(link verificati\\)*\n\n\u2022 [Radiopaedia \u2014 CT angiogram sign \\(articolo\\)](https://radiopaedia.org/articles/ct-angiogram-sign-lungs)\n\u2022 [Radiopaedia \u2014 caso: adenocarcinoma mucinoso](https://radiopaedia.org/cases/ct-angiogram-sign-lung-adenocarcinoma)\n\u2022 [Radiopaedia \u2014 caso didattico \\(polmone\\)](https://radiopaedia.org/cases/ct-angiogram-sign-lung-1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udde0 *Quiz 1/4*\n\nConsolidazione lobare in cui i vasi polmonari, opacizzati dal mdc, spiccano nitidi al suo interno\\. Qual \u00e8 il meccanismo del CT angiogram sign?\n\nA\\) I vasi sono patologicamente dilatati e ipervascolarizzati\nB\\) La consolidazione ha attenuazione pi\u00f9 bassa dei vasi opacizzati, per riempimento alveolare ipodenso \\(es\\. mucina\\)\nC\\) I vasi contengono trombo iperdenso che li rende visibili\nD\\) \u00c8 un artefatto da indurimento del fascio \\(beam hardening\\)\n\n||Risposta corretta: B \u2014 Il contrasto nasce dalla bassa densit\u00e0 del parenchima consolidato \\(mucina/edema\\) rispetto ai vasi ripieni di mdc, non da un'anomalia vascolare\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260730%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260730|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260730|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260730|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260730|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260730|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260730|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udde0 *Quiz 2/4*\n\nConsolidazione lobare che non regredisce a controlli seriati, con bulging delle scissure e CT angiogram sign\\. Diagnosi pi\u00f9 probabile?\n\nA\\) Polmonite lobare batterica acuta\nB\\) Adenocarcinoma mucinoso invasivo \\(ex carcinoma bronchioloalveolare\\)\nC\\) Infarto da embolia polmonare\nD\\) Atelettasia da riassorbimento\n\n||Risposta corretta: B \u2014 Consolidazione persistente \\+ bulging delle scissure \\+ mucina ipodensa orientano all'IMA; il segno preso da solo resta aspecifico\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260730%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260730|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260730|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260730|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260730|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260730|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260730|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udde0 *Quiz 3/4*\n\nQuale affermazione sulla specificit\u00e0 del CT angiogram sign \u00e8 corretta?\n\nA\\) \u00c8 patognomonico del carcinoma bronchioloalveolare\nB\\) \u00c8 specifico dell'edema polmonare cardiogeno\nC\\) \u00c8 aspecifico: presente anche in polmonite ostruttiva, edema, linfoma e metastasi mucinose\nD\\) Si osserva solo negli esami senza mezzo di contrasto\n\n||Risposta corretta: C \u2014 Studi su consolidazioni lobari con mdc mostrano che il segno \u00e8 comune e poco specifico: va sempre pesato col contesto clinico\\-radiologico\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260730%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260730|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260730|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260730|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260730|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260730|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260730|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udde0 *Quiz 4/4*\n\nPerch\u00e9 nella polmonite lobare essudativa acuta il CT angiogram sign \u00e8 spesso meno marcato che nell'adenocarcinoma mucinoso?\n\nA\\) Perch\u00e9 nella polmonite i vasi polmonari sono trombizzati\nB\\) Perch\u00e9 l'essudato proteico \u00e8 relativamente denso e riduce il contrasto vaso\\-parenchima, mentre la mucina \u00e8 nettamente ipodensa\nC\\) Perch\u00e9 la consolidazione flogistica non assume mezzo di contrasto\nD\\) Perch\u00e9 i vasi vengono dislocati all'esterno della consolidazione\n\n||Risposta corretta: B \u2014 L'attenuazione del riempimento alveolare determina il contrasto: mucina molto ipodensa \u2192 segno netto; essudato denso \u2192 segno sfumato\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260730%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260730|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260730|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260730|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260730|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260730|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260730|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd27 *Report RadioLearn 2026\\-07\\-30*\nPill 20260730 \u2014 CT angiogram sign \\(torace, L1\\)\nCallback inbox: 0 \\| Form processati: 4 \\| Carte resettate: 11\nRipasso: no \\(2 gg dall'ultimo ripasso, soglia 3\\)\nInbox cancellati: 0\nWarning: nessuno",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
