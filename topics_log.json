@@ -481,5 +481,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-07-31",
+    "tag": "cholesteatoma-dwi",
+    "domain": "altro",
+    "level": 3,
+    "source": "auto"
   }
 ]

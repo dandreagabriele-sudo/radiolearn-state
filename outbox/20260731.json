@@ -1,0 +1,311 @@
+{
+  "pill_id": "20260731",
+  "created_at": "2026-07-31T06:40:00Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udde0 *Teaching Pill \u2014 Colesteatoma e restrizione in DWI*\n\nIl colesteatoma dell'orecchio medio NON \u00e8 un tumore: \u00e8 un accumulo di epitelio squamoso cheratinizzante intrappolato \\(una \"sacca di pelle\" che desquama cheratina\\) nella cassa timpanica/attico\\. Clinica classica: otorrea cronica maleodorante e ipoacusia; la forma congenita sta dietro una membrana timpanica integra\\.\n\n*Il problema diagnostico.*\nLa TC ad alta risoluzione mostra benissimo l'osso: massa dei tessuti molli con erosione dello scutum, della catena ossiculare, del canale del facciale o dei canali semicircolari\\. Ma la TC \u00e8 aspecifica sul tessuto molle: colesteatoma, tessuto di granulazione, cicatrice ed effusione appaiono simili\\. Serve la RM per dire CHE COSA \u00e8 quel tessuto\\.\n\n*La chiave: DWI.*\nIl colesteatoma \u00e8 l'unica di queste entit\u00e0 che restringe la diffusione: iperintenso in DWI a b\\-1000 con ADC basso, perch\u00e9 la cheratina e i detriti cellulari sono densamente stipati e intrappolano l'acqua\\. In pi\u00f9 NON prende contrasto \\(\u00e8 avascolare\\) \u2014 mentre il tessuto di granulazione enhance, spesso in fase tardiva\\. Questa coppia \"restringe / non enhance\" \u00e8 la firma\\.\n\nSi preferisce la DWI non\\-EPI \\(HASTE/PROPELLER, single\\-shot TSE\\): alla base cranica le interfacce osso\\-aria creano artefatti di suscettibilit\u00e0 che distorcono la DWI echo\\-planare; la non\\-EPI \u00e8 pi\u00f9 \"pulita\", pi\u00f9 sensibile e con meno falsi positivi\\. L'indicazione principe \u00e8 il follow\\-up post\\-operatorio \\(residuo/recidiva\\) quando l'otoscopia non basta\\. Limite: lesioni sotto \\~3\u20135 mm possono sfuggire, quindi si monitora nel tempo\\.\n\n*Connessioni.*\n\u2022 Fisica \u2014 la DWI misura il moto browniano dell'acqua: \"restrizione\" significa acqua che non riesce a diffondere liberamente\\. \u00c8 lo stesso principio che rende l'ictus acuto brillante in DWI, ma qui la causa \u00e8 meccanica \\(affollamento di cheratina\\), non ischemica\\.\n\u2022 Neuroradiologia \u2014 l'analogo intracranico \u00e8 la cisti epidermoide: stessa istologia \\(epitelio squamoso \\+ cheratina\\), stessa restrizione in DWI, che la distingue dalla cisti aracnoidea \\(che segue il liquor e non restringe\\)\\.\n\u2022 Etimologia/storia \u2014 il nome \"colesteatoma\" fu coniato da Johannes M\u00fcller nel 1838 ed \u00e8 un termine improprio: non contiene n\u00e9 colesterolo n\u00e9 grasso tumorale, ma cheratina\\. Un caso in cui il nome storico inganna e l'imaging corregge\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\uddbc *Immagini (fonti verificate via web\\_search)*\n\n\u2022 [Radiopaedia \u2014 Cholesteatoma \\(articolo\\)](https://radiopaedia.org/articles/cholesteatoma)\n\u2022 [Radiopaedia \u2014 Acquired cholesteatoma](https://radiopaedia.org/articles/acquired-cholesteatoma)\n\u2022 [Radiopaedia \u2014 caso: cholesteatoma \\(DWI/RM\\)](https://radiopaedia.org/cases/cholesteatoma-10)\n\u2022 [Radiopaedia \u2014 caso: epitympanic cholesteatoma](https://radiopaedia.org/cases/epitympanic-cholesteatoma-1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso \u2014 Hot cross bun \\(MSA\\-C\\)*\n\n*Domanda:* Uomo di 60 anni: atassia progressiva, parkinsonismo NON responsivo a L\\-DOPA, ipotensione ortostatica e vescica neurogena\\. FLAIR assiale del ponte: iperintensit\u00e0 a croce\\. Qual \u00e8 il substrato dell'ASSE TRASVERSO \\(orizzontale\\) della croce?\n\nA\\) Degenerazione dei fasci cortico\\-spinali\nB\\) Degenerazione walleriana delle fibre ponto\\-cerebellari trasverse \\(nuclei pontini \u2192 peduncoli cerebellari medi\\)\nC\\) Gliosi del lemnisco mediale\nD\\) Demielinizzazione del fascicolo longitudinale mediale\n\n||Risposta corretta: B \u2014 l'asse orizzontale della croce riflette la degenerazione delle fibre ponto\\-cerebellari trasverse; l'asse verticale i nuclei mediani del rafe\\. I fasci cortico\\-spinali \\(ali antero\\-laterali\\) sono risparmiati e restano normointensi, disegnando i 4 bracci\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260515%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260515|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260515|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso \u2014 Hot cross bun \\(MSA\\-C\\)*\n\n*Domanda:* Se lo stesso spettro di malattia si presentasse invece con parkinsonismo rigido\\-acinetico predominante \\(MSA\\-P\\), quale reperto RM ti aspetteresti pi\u00f9 tipicamente?\n\nA\\) \"Putaminal slit sign\" iperintenso al margine laterale del putamen con ipointensit\u00e0 T2\\*/SWI da deposito di ferro\nB\\) \"Hummingbird sign\" \\(atrofia mesencefalica\\)\nC\\) \"Faccia del panda gigante\" nel tegmento mesencefalico\nD\\) Iperintensit\u00e0 del pulvinar talamico bilaterale\n\n||Risposta corretta: A \u2014 nella MSA\\-P dominano i reperti putaminali: slit sign iperintenso al margine laterale e ipointensit\u00e0 T2\\*/SWI da ferro\\. L'hummingbird \u00e8 della PSP, la faccia del panda del Wilson, il pulvinar della MCJ variante\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260515%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260515|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260515|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso \u2014 Hot cross bun \\(MSA\\-C\\)*\n\n*Domanda:* Nella MSA\\-C i peduncoli cerebellari medi appaiono atrofici \\(<8 mm\\) e iperintensi in T2\\. Perch\u00e9 NON mostrano restrizione in DWI n\u00e9 enhancement dopo gadolinio?\n\nA\\) Perch\u00e9 il processo \u00e8 un'ischemia acuta in fase citotossica\nB\\) Perch\u00e9 \u00e8 una degenerazione cronica \\(gliosi/perdita assonale\\) senza citotossicit\u00e0 acuta n\u00e9 rottura della barriera emato\\-encefalica\nC\\) Perch\u00e9 la sequenza DWI non copre la fossa cranica posteriore\nD\\) Perch\u00e9 il deposito di ferro annulla completamente il segnale\n\n||Risposta corretta: B \u2014 il \"middle cerebellar peduncle sign\" \u00e8 espressione di degenerazione cronica: gliosi e perdita assonale danno iperintensit\u00e0 T2, ma senza edema citotossico \\(no restrizione DWI\\) e senza breakdown di BEE \\(no enhancement\\)\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260515%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260515|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260515|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda nuova \u2014 Colesteatoma \\(DWI\\)*\n\n*Domanda:* Paziente con otorrea cronica maleodorante e ipoacusia; alla TC massa dei tessuti molli nell'orecchio medio con erosione dello scutum\\. Qual \u00e8 il comportamento in RM tipico di un colesteatoma?\n\nA\\) Iperintensit\u00e0 in DWI \\(b1000\\) con ADC basso \u2014 restrizione della diffusione \u2014 e ASSENZA di enhancement dopo gadolinio\nB\\) Marcata restrizione in DWI con intenso enhancement omogeneo\nC\\) Nessun segnale in DWI ma forte enhancement ad anello\nD\\) Iperintensit\u00e0 nativa in T1 da contenuto adiposo\n\n||Risposta corretta: A \u2014 cheratina e detriti cellulari densamente stipati restringono la diffusione \\(DWI alto, ADC basso\\); il colesteatoma \u00e8 avascolare e NON prende contrasto \u2014 a differenza del tessuto di granulazione, che enhance \\(spesso in fase tardiva\\)\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260731%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260731|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260731|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260731|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260731|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260731|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260731|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda nuova \u2014 Colesteatoma \\(DWI\\)*\n\n*Domanda:* Perch\u00e9 per lo studio del colesteatoma dell'osso temporale si preferisce la DWI \"non\\-EPI\" \\(es\\. HASTE/PROPELLER\\) rispetto alla DWI echo\\-planare \\(EPI\\) convenzionale?\n\nA\\) Perch\u00e9 la non\\-EPI \u00e8 pi\u00f9 rapida e impiega b\\-value pi\u00f9 bassi\nB\\) Perch\u00e9 la non\\-EPI riduce gli artefatti di suscettibilit\u00e0 magnetica alle interfacce osso\\-aria della base cranica, con meno distorsione e meno falsi positivi\nC\\) Perch\u00e9 solo la EPI \u00e8 in grado di generare la mappa ADC\nD\\) Perch\u00e9 la non\\-EPI richiede sempre mezzo di contrasto\n\n||Risposta corretta: B \u2014 la base cranica \u00e8 ricca di interfacce osso/aria che deformano la sequenza EPI; la non\\-EPI \\(single\\-shot TSE\\) \u00e8 meno sensibile alla suscettibilit\u00e0, d\u00e0 immagini meno distorte e migliore sensibilit\u00e0 per lesioni piccole\\. Limite: colesteatomi <3\u20135 mm\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260731%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260731|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260731|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260731|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260731|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260731|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260731|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda nuova \u2014 Colesteatoma \\(DWI\\)*\n\n*Domanda:* Nel follow\\-up dopo chirurgia per colesteatoma, come distingui in RM un colesteatoma residuo/recidivo dal tessuto di granulazione cicatriziale?\n\nA\\) Il colesteatoma prende intensamente contrasto, la granulazione no\nB\\) Il colesteatoma RESTRINGE in DWI e NON enhance; la granulazione NON restringe e mostra enhancement \\(tipicamente tardivo\\)\nC\\) Entrambi restringono la diffusione in modo indistinguibile\nD\\) Solo la TC senza contrasto pu\u00f2 distinguerli\n\n||Risposta corretta: B \u2014 \u00e8 l'indicazione principe della DWI non\\-EPI: nel post\\-operatorio TC e RM standard non separano recidiva, cicatrice ed essudato\\. La restrizione in DWI senza enhancement identifica il colesteatoma; la granulazione enhance e non restringe\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260731%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260731|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260731|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260731|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260731|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260731|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260731|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda nuova \u2014 Colesteatoma \\(DWI\\)*\n\n*Domanda:* Qual \u00e8 il ruolo relativo di TC ad alta risoluzione e RM\\-DWI nel colesteatoma dell'orecchio medio?\n\nA\\) La TC HR mostra l'erosione ossea \\(scutum, catena ossiculare, canale del facciale\\) ma non distingue colesteatoma da granulazione/effusione; la RM\\-DWI caratterizza il tessuto\nB\\) La RM definisce meglio l'osso, la TC il tessuto molle\nC\\) La TC con contrasto \u00e8 da sola sufficiente e la RM \u00e8 superflua\nD\\) Nessuna delle due \u00e8 indicata: basta l'otoscopia\n\n||Risposta corretta: A \u2014 TC e RM sono complementari: la TC HR mappa l'anatomia ossea e le erosioni/complicanze \\(essenziale per il chirurgo\\) ma \u00e8 aspecifica sul tessuto molle opacante; la RM\\-DWI non\\-EPI dice se quel tessuto \u00c8 colesteatoma\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260731%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260731|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260731|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260731|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260731|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260731|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260731|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udee0 *Report operativo \u2014 pill 20260731*\nTopic: colesteatoma \u2014 restrizione in DWI \\(RM testa\\-collo, Livello 3\\)\nCallback inbox: 0 \u00b7 Form processati: 4 \u00b7 Carte resettate \\(no\\-show\\): 249\nRipasso incluso: s\u00ec \\(20260515:0, 20260515:1, 20260515:3\\)\nInbox cancellati: 0 \u00b7 Warning: nessuno",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
