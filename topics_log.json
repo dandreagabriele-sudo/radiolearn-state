@@ -488,5 +488,12 @@
     "domain": "altro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-01",
+    "tag": "budd-chiari-mri",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
