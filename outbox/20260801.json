@@ -1,0 +1,201 @@
+{
+  "pill_id": "20260801",
+  "created_at": "2026-08-01T06:47:34Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\ude7a *RadioLearn \u2014 Pillola del giorno*\n*Budd\\-Chiari \u2014 RM dell'ostruzione dell'outflow venoso epatico*\n_Livello 2 \u00b7 RM addome_\n\nLa sindrome di Budd\\-Chiari \\(BCS\\) \u00e8 l'ostruzione dell'outflow venoso epatico \u2014 a livello delle vene sovraepatiche e/o della IVC sovraepatica \u2014 qualunque ne sia la causa\\. Primaria \\(trombosi o \"web\" endoluminale, quasi sempre su stato protrombotico: sindromi mieloproliferative, deficit di proteina C/S, JAK2\\) o secondaria \\(compressione/invasione neoplastica\\)\\. Triade clinica: dolore addominale, epatomegalia, ascite; decorso acuto, subacuto o cronico\\.\n\nPerch\u00e9 i reperti RM sono quelli:\n\u2022 Il blocco a valle \u2192 congestione centrale, ipertensione sinusoidale, edema periportale\\.\n\u2022 Enhancement dinamico: in fase acuta/subacuta enhancement CENTRALE precoce \\(regione peri\\-IVC e caudato, meglio drenate\\) con ipoperfusione periferica; nelle fasi tardive il quadro si inverte \u2192 enhancement periferico progressivo con washout centrale \\= pattern \"flip\\-flop\"\\.\n\u2022 Lobo caudato \\(segmento I\\): drena DIRETTAMENTE nella IVC tramite vene emissarie proprie \u2192 sfugge all'ostruzione \u2192 \u00e8 risparmiato e va incontro a ipertrofia compensatoria \\(\\~50% dei casi\\), mentre la periferia si atrofizza \u2192 fegato dismorfico\\.\n\u2022 Vene sovraepatiche non visualizzabili/filiformi, trombosi o \"web\" membranoso \\(forma tipica in Asia, prognosi migliore\\); collaterali intraepatiche \"a virgola\" \\(comma\\-shaped\\) e pattern \"spider\\-web\"\\.\n\u2022 BCS cronico: noduli rigenerativi benigni FNH\\-like \u2014 multipli, ipervascolari in arteriosa, che CAPTANO il gadoxetato in fase epatobiliare \u2014 da non confondere con l'HCC\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd17 *Connessioni*\n\n\u2022 Fisica/emodinamica: \u0394P \\= Q \u00d7 R \\(legge di Ohm del circolo\\)\\. Un'ostruzione a valle alza la resistenza e congestiona il compartimento a monte, come una diga sul fiume\\. Il caudato \"scavalca\" la diga perch\u00e9 ha il suo scarico diretto in IVC\\.\n\u2022 Anatomia: il caudato \u00e8 privilegiato \u2014 vene emissarie proprie verso la IVC e doppio apporto \\(rami dx e sx\\) \u2014 ecco perch\u00e9 si comporta a parte in molte epatopatie vascolari\\.\n\u2022 Storia: George Budd \\(clinico, 1845\\) e Hans Chiari \\(patologo, 1899 \u2014 flebite obliterante delle sovraepatiche\\) danno il nome alla sindrome\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\uddbc\ufe0f *Immagini* \\(fonti verificate via web\\_search\\)\n\n[Radiopaedia \u2014 Budd\\-Chiari syndrome \\(articolo\\)](https://radiopaedia.org/articles/budd-chiari-syndrome-1)\n[Radiopaedia \u2014 Hypertrophy of the caudate lobe](https://radiopaedia.org/articles/hypertrophy-of-the-caudate-lobe)\n[Radiopaedia \u2014 caso: Budd\\-Chiari syndrome](https://radiopaedia.org/cases/budd-chiari-syndrome-13)\n[Radiopaedia \u2014 caso: acute Budd\\-Chiari syndrome](https://radiopaedia.org/cases/acute-budd-chiari-syndrome)\n[Radiopaedia \u2014 caso: membranous Budd\\-Chiari syndrome](https://radiopaedia.org/cases/membranous-budd-chiari-syndrome)",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 1 \u2014 Budd\\-Chiari \\(RM addome\\)*\n\nUomo di 40 anni con ascite ed epatomegalia dolente; alla RM il lobo caudato \u00e8 ipertrofico e il resto del fegato atrofico\\. Qual \u00e8 la spiegazione del risparmio e dell'ipertrofia del caudato?\n\nA\\) Il caudato ha un doppio apporto arterioso che lo protegge dalla congestione\nB\\) Il caudato drena direttamente nella IVC tramite vene emissarie proprie, sfuggendo all'ostruzione delle sovraepatiche \u2192 \u00e8 risparmiato e va in ipertrofia compensatoria\nC\\) Il caudato \u00e8 il primo segmento a trombizzarsi e quindi si retrae\nD\\) Il caudato riceve sangue refluo dalle collaterali spider\\-web e per questo cresce\n\n||Risposta corretta: B \u2014 il segmento I ha vene emissarie che sboccano direttamente nella IVC, indipendenti dalle sovraepatiche ostruite: resta ben drenato, \u00e8 risparmiato dalla congestione e ipertrofizza in compenso mentre la periferia si atrofizza \\(fegato dismorfico\\)\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260801%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260801|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260801|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260801|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260801|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260801|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260801|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 2 \u2014 Budd\\-Chiari \\(RM addome\\)*\n\nNello studio RM dinamico con gadolinio di una BCS subacuta/cronica, qual \u00e8 il pattern di enhancement pi\u00f9 tipico?\n\nA\\) Enhancement periferico precoce e centrale tardivo, sempre omogeneo\nB\\) Enhancement centrale/peri\\-caudato precoce con ipoperfusione periferica, che si inverte nelle fasi tardive \\(pattern \"flip\\-flop\"\\)\nC\\) Assenza completa di enhancement per infarto epatico massivo\nD\\) Enhancement ad anello periferico persistente, tipo lesione target\n\n||Risposta corretta: B \u2014 la regione centrale peri\\-IVC/caudato \u00e8 meglio drenata \u2192 enhancement precoce; la periferia congesta \u00e8 ipoperfusa in arteriosa e si impregna solo tardivamente, mentre il centro fa washout: la \"inversione\" centro\\-periferia nel tempo \u00e8 il flip\\-flop\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260801%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260801|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260801|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260801|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260801|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260801|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260801|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 3 \u2014 Budd\\-Chiari \\(RM addome\\)*\n\nQuale combinazione di reperti vascolari orienta verso la BCS, e che cos'\u00e8 la forma \"membranosa\"?\n\nA\\) Vene sovraepatiche dilatate e pervie con flusso accelerato\nB\\) Mancata visualizzazione/filiformit\u00e0 delle sovraepatiche con collaterali intraepatiche \"a virgola\" e pattern spider\\-web; la forma membranosa \u00e8 un \"web\" \\(membrana\\) nella IVC/sovraepatiche\nC\\) Trombosi della vena porta con cavernoma, reperto patognomonico di BCS\nD\\) Dilatazione delle vie biliari intraepatiche da compressione venosa\n\n||Risposta corretta: B \u2014 il segno chiave \u00e8 il non\\-riconoscimento delle sovraepatiche \\(trombosi/filiformit\u00e0\\) con collaterali intraepatiche a virgola e aspetto spider\\-web; la forma membranosa \\(web in IVC/sovraepatiche\\) \u00e8 tipica in Asia e ha prognosi migliore\\. La trombosi portale pu\u00f2 coesistere ma non \u00e8 il segno definente\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260801%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260801|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260801|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260801|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260801|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260801|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260801|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 4 \u2014 Budd\\-Chiari \\(RM addome\\)*\n\nBCS cronico: comparsa di noduli epatici multipli, ipervascolari in fase arteriosa\\. Come li distingui dall'HCC con RM al gadoxetato \\(Gd\\-EOB\\)?\n\nA\\) L'HCC capta intensamente in fase epatobiliare, i noduli rigenerativi no\nB\\) I noduli rigenerativi FNH\\-like sono iso/iperintensi \\(CAPTANO\\) in fase epatobiliare e non fanno washout; l'HCC tipicamente fa washout ed \u00e8 ipointenso \\(NON capta\\) in fase epatobiliare\nC\\) Entrambi si comportano in modo identico e sono indistinguibili in RM\nD\\) Solo la biopsia pu\u00f2 distinguerli: l'imaging non fornisce indizi\n\n||Risposta corretta: B \u2014 nel BCS cronico i noduli rigenerativi FNH\\-like sono benigni: ipervascolari ma iso/iperintensi in fase epatobiliare perch\u00e9 captano il Gd\\-EOB \\(contengono epatociti/OATP\\)\\. L'HCC di norma fa washout ed \u00e8 ipointenso in fase epatobiliare\\. Attenzione: sono spesso multipli e possono simulare metastasi/HCC\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260801%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260801|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260801|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260801|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260801|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260801|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260801|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udd16 *Report operativo RadioLearn*\nPillola: 20260801 \u2014 Budd\\-Chiari \\(RM addome, L2\\)\nCallback inbox processati: 0\nForm: 0 nuove risposte\nCarte resettate \\(no\\-show\\): 22\nRipasso incluso: no \\(cadenza 1gg < 3\\)\nNuove carte: 4 \\(20260801:0\\.\\.20260801:3\\)\nInbox cancellati: 0",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
