@@ -1,0 +1,192 @@
+{
+  "pill_id": "20260802",
+  "created_at": "2026-08-02T06:47:21.303718+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udec1 RadioLearn \u2014 Segno della \u00abS\u00bb di Golden \\(reverse S sign\\)\n\nLivello 1 \u00b7 Torace \u00b7 esperto \u2014 2026\\-08\\-02\n\n*Concetto*\nDeformazione a \u00abS\u00bb \\(rovesciata / \u03a3\\) del profilo di un lobo collassato quando l'atelettasia \u00e8 provocata da una MASSA ILARE CENTRALE ostruente\\. Classicamente: collasso del lobo superiore destro \\(LSD\\)\\.\n\n\u2022 Anatomia del segno: la scissura minore, retratta verso l'ilo dal lobo atelettasico, forma la porzione LATERALE concava verso il basso; la massa che espande l'ilo spinge convessamente in basso la porzione MEDIALE\\. Le due curvature opposte si saldano in un punto di flesso \u2192 la \u00abS\u00bb rovesciata\\.\n\u2022 Meccanismo: ostruzione bronchiale centrale \u2192 atelettasia da riassorbimento\\. In un collasso \u00abpuro\u00bb la scissura sarebbe liscia e uniformemente concava verso l'ilo; la GOBBA convessa centrale \u00e8 ci\u00f2 che tradisce la massa ostruente\\.\n\u2022 Significato clinico: massa ilare centrale \\= carcinoma broncogeno fino a prova contraria \\(anche linfoadenopatie, metastasi, tumori mediastinici\\)\\. Impone broncoscopia / stadiazione\\.\n\u2022 TC: distingue meglio massa vs atelettasia post\\-ostruttiva \u2014 l'atelettasia capta mdc pi\u00f9 intensa e omogenea, con bronchi mucoripieni \\(broncocele\\) e \u00abdrowned lung\u00bb distali; il segno resta valido anche in altri lobi e in altre proiezioni\\.\n\u2022 Reperti associati: shift mediastinico IPSILATERALE, sollevamento emidiaframma dx con juxtaphrenic peak\\.\n\n*Connessioni*\n\u2022 Matematica: la \u00abS\u00bb \u00e8, letteralmente, una curva con un punto di flesso \\(cambio di concavit\u00e0\\)\\. Il segno di Golden \u00e8 un punto di flesso radiografico che marca il confine massa/atelettasia\\.\n\u2022 Fisica \\(atelettasia da riassorbimento\\): a valle dell'ostruzione il sangue riassorbe i gas alveolari; senza ricambio il lobo collassa\\. La scissura si comporta come una membrana elastica deformata da due forze opposte \\(retrazione del lobo \\+ spinta della massa\\)\\.\n\u2022 Storia: descritto da Ross Golden, radiologo americano, nel 1925 nell'epoca in cui la sola radiografia imponeva un'analisi morfologica finissima delle scissure\\.\n\u2022 Mnemonica: \u00abS\u00bb come Suspicious \u2014 la convessit\u00e0 centrale \\= tumore\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Immagini \\(fonti verificate\\)*\n\n\u2022 [Radiopaedia \u2014 Golden S\\-sign \\(lung\\), articolo](https://radiopaedia.org/articles/golden-s-sign-lung)\n\u2022 [Radiopaedia \u2014 caso: Golden S sign](https://radiopaedia.org/cases/golden-s-sign-2)\n\u2022 [Radiopaedia \u2014 Right upper lobe collapse](https://radiopaedia.org/articles/right-upper-lobe-collapse)\n\u2022 [Wikipedia \u2014 Golden S sign](https://en.wikipedia.org/wiki/Golden_S_sign)\n\u2022 [LITFL \u2014 Golden S \\(eponimo, storia\\)](https://litfl.com/golden-s/)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 1 \u2014 Golden S sign \\(torace, L1\\)*\n\nRx frontale: collasso del lobo superiore destro; la scissura minore ha porzione laterale concava verso il basso e porzione mediale convessa verso il basso, a disegnare una \u00abS\u00bb rovesciata\\. Qual \u00e8 il significato principale della convessit\u00e0 centrale?\n\nA\\) \u00c8 un reperto normale di collasso lobare non complicato\nB\\) Indica un versamento pleurico saccato\nC\\) Segnala una massa ilare centrale ostruente \\(carcinoma broncogeno fino a prova contraria\\)\nD\\) \u00c8 un artefatto da rotazione del paziente\n\n||Risposta corretta: C \u2014 la gobba convessa centrale del profilo scissurale indica una massa che espande l'ilo e ostruisce il bronco lobare: nel contesto di collasso lobare \u00e8 neoplasia centrale \\(soprattutto carcinoma broncogeno\\) fino a prova contraria e impone broncoscopia\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260802%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260802|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260802|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260802|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260802|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260802|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260802|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 2 \u2014 Golden S sign \\(torace, L1\\)*\n\nChe cosa distingue il segno della S di Golden da un collasso del lobo superiore destro \u00abpuro\u00bb \\(senza massa\\)?\n\nA\\) Nel Golden la scissura \u00e8 uniformemente concava verso l'ilo\nB\\) Nel Golden compare una convessit\u00e0 centrale verso il basso \\(la massa che espande l'ilo\\) che interrompe la concavit\u00e0 liscia\nC\\) Il collasso puro sposta il mediastino controlateralmente\nD\\) Il Golden non si associa mai a sollevamento diaframmatico\n\n||Risposta corretta: B \u2014 nel collasso non complicato la scissura retratta \u00e8 liscia e concava verso l'ilo; nel Golden la massa ilare aggiunge la convessit\u00e0 centrale, creando il punto di flesso che disegna la \u00abS\u00bb\\. Nell'atelettasia lo shift mediastinico \u00e8 ipsilaterale, non controlaterale\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260802%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260802|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260802|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260802|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260802|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260802|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260802|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 3 \u2014 Golden S sign \\(torace, L1\\)*\n\nAlla TC con mdc di un sospetto segno di Golden, quale elemento aiuta a separare la massa ostruente centrale dall'atelettasia post\\-ostruttiva distale?\n\nA\\) Massa e atelettasia hanno sempre identico enhancement\nB\\) L'atelettasia post\\-ostruttiva capta mdc pi\u00f9 intensa e omogenea, con bronchi mucoripieni \\(broncocele\\) e \u00abdrowned lung\u00bb distali, mentre il tumore capta meno/eterogeneo\nC\\) Solo l'osso adiacente permette la distinzione\nD\\) In TC la distinzione \u00e8 impossibile\n\n||Risposta corretta: B \u2014 l'atelettasia ben vascolarizzata capta in modo intenso e omogeneo, spesso con bronchi ripieni di muco e \u00abdrowned lung\u00bb a valle dell'ostruzione; il tumore capta meno ed eterogeneo\\. Il gradiente di enhancement e i bronchi ostruiti tracciano il confine massa/atelettasia\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260802%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260802|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260802|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260802|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260802|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260802|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260802|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 4 \u2014 Golden S sign \\(torace, L1\\)*\n\nRiguardo al segno della S di Golden, quale affermazione \u00e8 corretta?\n\nA\\) \u00c8 esclusivo del lobo superiore destro e mai visibile in TC\nB\\) Descritto da Ross Golden \\(1925\\) nel carcinoma bronchiale; oltre al carcinoma broncogeno pu\u00f2 derivare da linfoadenopatie, metastasi o tumori mediastinici e pu\u00f2 interessare anche altri lobi\nC\\) \u00c8 patognomonico di tubercolosi\nD\\) Indica sempre una causa benigna\n\n||Risposta corretta: B \u2014 descritto da Ross Golden nel 1925 nel carcinoma bronchiale; la convessit\u00e0 centrale riflette qualunque massa ilare ostruente \\(broncogeno soprattutto, ma anche linfoadenopatie, metastasi, tumori mediastinici\\) e il segno pu\u00f2 interessare altri lobi ed essere colto anche in TC\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260802%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260802|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260802|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260802|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260802|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260802|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260802|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*RadioLearn \u2014 rapporto*\nPill 20260802 \u00b7 golden\\-s\\-sign \\(torace, L1\\)\nCallback inbox: 0 \u00b7 Form nuovi: 0\nCarte resettate \\(no\\-show\\): 257\nRipasso: no \\(cadenza 2g < 3\\)\nInbox cancellati: 0",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}

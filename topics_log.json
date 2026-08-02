@@ -495,5 +495,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-02",
+    "tag": "golden-s-sign",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
