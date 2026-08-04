@@ -290,9 +290,24 @@ workflows) stays untouched as a best-effort secondary path.
 **Until that file exists, the channel is not yet configured**: compose pills
 as before (keyboard only) and skip FASE 2-bis. The user creates the Form once
 (question 1: "Card", short text, required; question 2: "Qualità", multiple
-choice 0–5, required — in THIS order, the CSV parser relies on it), links it
+choice, required — in THIS order, the CSV parser relies on it), links it
 to a response Sheet, and provides the prefilled link; the session then
 commits `form_config.json` (find `sheet_file_id` via Drive `search_files`).
+
+**Qualità scale — form 1–6, SM-2 0–5 (decided 2026-08-04).** The live Form's
+"Qualità" question was built with options **1–6**, not 0–5. The user chose to
+keep it as-is, so `parse_form_csv` maps **form → SM-2 by subtracting 1**
+(1→0, 2→1, 3→2, 4→3, 5→4, 6→5, clamped to 0–5). This aligns the Form with the
+Telegram 0–5 buttons and the SM-2 `quality < 3 = forgotten` boundary (which
+now sits between form-3 → q2/fail and form-4 → q3/pass). Do **not** "fix" this
+subtraction back to a straight cast unless the Form itself is relabelled to
+0–5. Consequently `form_row_key` is keyed on **timestamp + card_id only** (not
+quality): the remap changed every parsed quality, so a quality-bearing key
+would re-ingest all history. `forms_state.json` was migrated to the
+timestamp|card_id scheme the same day. The 81 pre-migration answers keep their
+original (un-shifted) scores in `sm2_state.json`; only answers from 2026-08-04
+onward use the corrected mapping — the small legacy leniency self-corrects over
+future reviews.
 
 **Each morning, right after FASE 2 (inbox), when `form_config.json` exists:**
 

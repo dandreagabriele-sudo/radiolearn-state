@@ -484,6 +484,16 @@ def parse_form_csv(csv_text: str) -> list:
     timestamp, card_id, quality. Extra columns are ignored, the header
     row is skipped, malformed rows are dropped. Quality labels like
     "3 - così così" are accepted (leading digit wins).
+
+    SCALE MAPPING (decided 2026-08-04). The Google Form's "Qualità"
+    question offers six options 1–6, but SM-2 (and the Telegram 0–5
+    buttons) use 0–5. The user chose to keep the 1–6 form as-is, so we
+    map form → SM-2 by subtracting 1, clamped to [0,5]:
+
+        form 1→0, 2→1, 3→2, 4→3, 5→4, 6→5
+
+    Consequence: the SM-2 pass/fail boundary (quality < 3 = forgotten)
+    now falls between form-3 (→ q2, fail) and form-4 (→ q3, pass).
     Returns [{"timestamp", "card_id", "quality"}].
     """
     import csv as _csv
@@ -499,14 +509,26 @@ def parse_form_csv(csv_text: str) -> list:
         ts, cid, q = r[0].strip(), r[1].strip(), r[2].strip()
         if not pat.match(cid) or not q[:1].isdigit():
             continue
+        # Form options are 1–6; subtract 1 to land on the SM-2 0–5 scale.
         rows.append({"timestamp": ts, "card_id": cid,
-                     "quality": max(0, min(5, int(q[0])))})
+                     "quality": max(0, min(5, int(q[0]) - 1))})
     return rows
 
 
 def form_row_key(row: dict) -> str:
-    """Stable idempotency key for one form-response row."""
-    return f"{row['timestamp']}|{row['card_id']}|{row['quality']}"
+    """Stable idempotency key for one form-response row.
+
+    Keyed on timestamp + card_id ONLY. One Form submission is a unique
+    (timestamp, card) pair, so quality is not needed for uniqueness — and
+    it must NOT be in the key: the 2026-08-04 scale remap (form 1–6 → SM-2
+    0–5, see parse_form_csv) changed every parsed quality, and a
+    quality-bearing key would have made all historic rows look new and be
+    re-ingested. A genuine re-answer of the same card happens at a
+    different timestamp, so it still receives its own key.
+
+    NOTE: forms_state.json was migrated to this scheme on 2026-08-04.
+    """
+    return f"{row['timestamp']}|{row['card_id']}"
 
 
 def mark_form_rows_local(fstate: dict, keys) -> dict:
