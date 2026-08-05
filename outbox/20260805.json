@@ -1,0 +1,199 @@
+{
+  "pill_id": "20260805",
+  "created_at": "2026-08-05T06:47:57.185424+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\ude7b *RadioLearn \u2014 Segno del doppio dotto \\(double duct sign\\)*\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\nDilatazione simultanea del coledoco \\(CBD\\) e del dotto pancreatico principale \\(Wirsung\\), con brusca interruzione \\(cut\\-off\\) a livello della testa pancreatica / regione periampollare\\.\n\n*Su MRCP* \\(sequenze heavily T2: bile e succo pancreatico iperintensi, nessun mdc\\) appare come un doppio binario iperintenso che si arresta bruscamente\\. Fino a prova contraria indica una *massa ostruente periampollare* \u2014 soprattutto adenocarcinoma duttale della testa del pancreas, ma anche colangiocarcinoma distale, carcinoma ampollare o duodenale periampollare\\.\n\n*Calibri di riferimento: *Wirsung normale \u22643 mm nella testa; CBD \u22647 mm \\(fino a \\~10 mm post\\-colecistectomia\\)\\.\n*Segni di malignit\u00e0: *cut\\-off netto, massa ipovascolare in fase arteriosa/tardiva, atrofia del parenchima a monte, linfoadenopatie loco\\-regionali\\.\n\n*Chiave differenziale \u2014 duct\\-penetrating sign: *un dotto pancreatico che attraversa indenne la lesione orienta verso pancreatite focale/pseudotumorale \\(benigno\\); nel carcinoma il dotto \u00e8 bruscamente interrotto\\. Cause benigne pi\u00f9 rare: calcolo ampollare impattato, stenosi da pancreatite cronica\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd17 *Ancora mnemonica \u2014 Due fiumi, una foce*\nColedoco e Wirsung confluiscono nell'ampolla epatopancreatica di Vater, presidiata dallo sfintere di Oddi\\. Storia: Abraham Vater descrisse l'ampolla nel 1720; Ruggero Oddi caratterizz\u00f2 lo sfintere nel 1887, ancora studente di medicina a Perugia\\.\n\nIdraulica elementare: bloccando l'unica valvola di scarico a valle, entrambe le condotte a monte vanno in pressione e si dilatano \u2014 ecco perch\u00e9 l'ostruzione periampollare produce *due* dotti dilatati, non uno\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\uddbc\ufe0f *Immagini*\n\u2022 [MRCP \u2014 double duct sign \\(Radiopaedia\\)](https://radiopaedia.org/cases/double-duct-sign-1)\n\u2022 [Double duct sign da carcinoma pancreatico \\(Radiopaedia\\)](https://radiopaedia.org/cases/double-duct-sign-due-to-pancreatic-carcinoma)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Quiz 1/4*\nIl double duct sign su MRCP impone di escludere prioritariamente quale patologia?\n\nA\\) Coledocolitiasi non ostruente\nB\\) Adenocarcinoma della testa del pancreas\nC\\) Colangite sclerosante primitiva\nD\\) Malattia policistica epatica\n\n||Risposta corretta: B \u2014 La dilatazione combinata di CBD e Wirsung con cut\\-off nella testa pancreatica \u00e8 un adenocarcinoma duttale \\(o altra neoplasia periampollare\\) fino a prova contraria\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260805%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260805|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260805|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260805|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260805|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260805|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260805|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Quiz 2/4*\nQuale reperto orienta verso una causa BENIGNA \\(pancreatite focale\\) anzich\u00e9 neoplastica in una massa della testa pancreatica?\n\nA\\) Interruzione brusca del Wirsung\nB\\) Duct\\-penetrating sign \\(dotto che attraversa indenne la lesione\\)\nC\\) Atrofia del parenchima a monte\nD\\) Massa ipovascolare in fase tardiva\n\n||Risposta corretta: B \u2014 Il duct\\-penetrating sign \u2014 dotto pancreatico che attraversa la massa senza interruzione \u2014 \u00e8 tipico della pancreatite focale/pseudotumorale; nel carcinoma il dotto \u00e8 bruscamente interrotto\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260805%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260805|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260805|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260805|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260805|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260805|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260805|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Quiz 3/4*\nSu quale principio fisico si basa la MRCP per rendere iperintensi i dotti bilio\\-pancreatici?\n\nA\\) Soppressione del grasso in T1\nB\\) Immagini fortemente pesate in T2 \\(fluidi statici iperintensi\\)\nC\\) Restrizione della diffusione \\(DWI\\)\nD\\) Enhancement dinamico post\\-gadolinio\n\n||Risposta corretta: B \u2014 La MRCP usa sequenze heavily T2\\-weighted \\(TE lungo\\): i fluidi stazionari \\(bile, succo pancreatico\\) restano iperintensi mentre i tessuti solidi decadono \u2014 nessun mezzo di contrasto necessario\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260805%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260805|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260805|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260805|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260805|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260805|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260805|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Quiz 4/4*\nOltre all'adenocarcinoma pancreatico, quale altra neoplasia condivide la sede di ostruzione e pu\u00f2 dare il double duct sign?\n\nA\\) Carcinoma ampollare\nB\\) Epatocarcinoma\nC\\) Angiomiolipoma renale\nD\\) Metastasi surrenalica\n\n||Risposta corretta: A \u2014 Le neoplasie periampollari \\(carcinoma ampollare, colangiocarcinoma distale, adenocarcinoma pancreatico, carcinoma duodenale periampollare\\) ostruiscono il confluente bilio\\-pancreatico \u2192 double duct sign\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260805%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260805|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260805|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260805|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260805|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260805|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260805|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Rapporto RadioLearn 20260805*\nTopic: double\\-duct\\-sign \\(addome, L2\\)\nCallback inbox: 0 \u00b7 Form nuovi: 3 \u00b7 Reset no\\-show: 27\nRipasso incluso: no \\(days\\_since\\=2\\)\nQuiz nuovi: 4 \u00b7 Inbox cancellati: 0",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
