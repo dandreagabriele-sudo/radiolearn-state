@@ -523,5 +523,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-06",
+    "tag": "signet-ring-bronchiectasis",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
