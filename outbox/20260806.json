@@ -1,0 +1,313 @@
+{
+  "pill_id": "20260806",
+  "created_at": "2026-08-06T06:50:55Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udc8a RadioLearn \u2014 6 agosto 2026*\n\n*Signet ring sign \u2014 bronchiectasia \\(HRCT torace\\)* \u00b7 Livello 1 \\(esperto\\)\n\nIl segno dell'anello con castone \u00e8 il marker HRCT cardine di bronchiectasia: in sezione assiale un bronco dilatato \\(l'anello\\) affianca la sua arteria polmonare satellite \\(il castone\\), con rapporto bronco\\-arterioso \\(BA ratio\\) \\> 1\\. Normalmente il lume bronchiale \u00e8 \u2248 al calibro dell'arteria adiacente \\(BA \u2248 0,65\u20131\\)\\.\n\n*Sfumature da esperto:*\n\u2022 Il cut\\-off \u00abBA \\> 1 \\= bronchiectasia\u00bb va contestualizzato: con l'et\u00e0 \\(\\> 65 aa\\), in altura/ipossia e nei fumatori il BA ratio sale fisiologicamente \\(perdita di recoil elastico delle vie aeree \\+ vasocostrizione ipossica che riduce il calibro arterioso\\) \u2192 falsi positivi frequenti nell'anziano sano\\.\n\u2022 \u00abAnello senza castone\u00bb: un'arteria polmonare assottigliata/ipoperfusa \\(tromboembolia cronica, interruzione prossimale dell'arteria, shunt\\) alza il BA ratio senza vera dilatazione bronchiale \\(pseudo\\-signet ring\\)\\. Viceversa l'ipertensione polmonare dilata l'arteria \u2014 castone grande \u2014 e pu\u00f2 mascherare una bronchiectasia reale\\.\n\u2022 Morfologia di Reid: cilindrica \\(tram\\-track / signet ring\\), varicosa \\(string of pearls, con costrizioni\\), cistica\\-sacculare \\(cluster di cisti, spesso a grappolo\\)\\.\n\u2022 Bronchiectasia da trazione: dilatazione irreversibile da retrazione fibrotica \\(UIP/IPF\\); spettro trazione \u2192 bronchiolectasia \u2192 honeycombing, con prognosi peggiore\\. Attenzione alla pseudo\\-bronchiectasia reversibile in fase acuta di ARDS/COVID, che pu\u00f2 regredire alla guarigione\\.\n\u2022 Altri criteri HRCT oltre al signet ring: mancata rastremazione distale \\(lack of tapering / tram\\-track sul piano longitudinale\\) e visibilit\u00e0 dei bronchi entro 1 cm dalla pleura o a contatto con la pleura mediastinica\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd17 Connessioni multidisciplinari*\n\n\u2022 Storia & oreficeria: l'anello con castone \\(signet ring\\) serviva a imprimere il sigillo personale nella ceralacca \u2014 dal faraone al doge veneziano; il \u00abcastone\u00bb \\(bezel\\) \u00e8 la pietra montata, qui l'arteria accanto all'anello bronchiale\\.\n\u2022 Fisica dei fluidi: la resistenza in un condotto \u221d 1/r\u2074 \\(Poiseuille\\); un bronco sfiancato ristagna muco \u2192 clearance mucociliare inefficace e circolo vizioso di Cole \\(infezione \u2192 infiammazione \u2192 danno parietale \u2192 dilatazione\\)\\. Legge di Laplace: la tensione parietale cresce col raggio, alimentando l'ulteriore sfiancamento\\.\n\u2022 Matematica: il BA ratio \u00e8 adimensionale \\(come il rapporto cardiotoracico\\), quindi robusto perch\u00e9 indipendente dallo zoom/scala dell'immagine\\.\n\u2022 Storia della medicina: Laennec \\(1819\\), inventore dello stetoscopio, descrive per primo la bronchiectasia all'autopsia; Lynne Reid \\(1950\\) ne fissa la classificazione morfologica correlando broncografia e anatomia\\.\n\n*\ud83d\uddbc Immagini e fonti*\n\u2022 [Signet ring sign \\(bronchiectasis\\) \u2014 Radiopaedia](https://radiopaedia.org/articles/signet-ring-sign-bronchiectasis?lang=us)\n\u2022 [Traction bronchiectasis \u2014 Radiopaedia](https://radiopaedia.org/articles/traction-bronchiectasis)\n\u2022 [Bronchiectasis: Mechanisms and Imaging Clues \u2014 RadioGraphics 2015](https://pubs.rsna.org/doi/abs/10.1148/rg.2015140214)\n\u2022 [The Signet Ring Sign \u2014 Radiology \\(classic\\)](https://pubs.rsna.org/doi/abs/10.1148/radiology.212.1.r99jl2067)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 1 \u2014 Galaxy sign \\(sarcoidosi\\)*\n\nUomo di 45 anni: HRCT con macronoduli di 1\u20133 cm da confluenza di micronoduli \\(galaxy sign\\) ai lobi superiori e linfoadenopatia ilare bilaterale simmetrica; PPD negativo\\. Quale reperto orienta MAGGIORMENTE verso sarcoidosi rispetto a TB o micosi angioinvasiva?\n\nA\\) Cavitazione con livello idro\\-aereo\nB\\) Stabilit\u00e0 o regressione spontanea nel follow\\-up senza terapia antimicrobica, con distribuzione perilinfatica\nC\\) Alone di ground\\-glass con halo sign in rapida progressione\nD\\) Necrosi centrale con enhancement periferico ad anello\n\n||Risposta corretta: B \u2014 la stabilit\u00e0/regressione spontanea e la distribuzione perilinfatica favoriscono la sarcoidosi; cavitazione, halo angioinvasivo e necrosi caseosa orientano invece verso TB o micosi\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260514%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260514|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260514|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 2 \u2014 Hot cross bun sign \\(MSA\\-C\\)*\n\nPaziente con atassia progressiva, parkinsonismo che NON risponde alla L\\-DOPA e ipotensione ortostatica; la RM del ponte mostra un'iperintensit\u00e0 a croce in T2/FLAIR\\. Diagnosi pi\u00f9 probabile?\n\nA\\) Malattia di Parkinson idiopatica\nB\\) Atrofia multisistemica variante cerebellare \\(MSA\\-C\\)\nC\\) Sclerosi multipla\nD\\) Ictus pontino acuto\n\n||Risposta corretta: B \u2014 la triade atassia \\+ parkinsonismo L\\-DOPA\\-non responsivo \\+ disautonomia con \u00abhot cross bun sign\u00bb pontino \u00e8 tipica della MSA\\-C; il Parkinson risponde alla L\\-DOPA e non d\u00e0 il segno, l'ictus \u00e8 acuto e asimmetrico\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260515%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260515|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260515|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 3 \u2014 Hot cross bun sign \\(MSA\\-C\\)*\n\nNella MSA\\-C, oltre alla croce pontina, quale altro reperto RM si osserva tipicamente?\n\nA\\) Atrofia con iperintensit\u00e0 T2 simmetrica dei peduncoli cerebellari medi\nB\\) Enhancement leptomeningeo diffuso\nC\\) Restrizione in diffusione dei nuclei della base\nD\\) Marcata dilatazione degli spazi di Virchow\\-Robin\n\n||Risposta corretta: A \u2014 i peduncoli cerebellari medi trasportano le fibre ponto\\-cerebellari degenerate, quindi appaiono assottigliati e iperintensi in T2/FLAIR \\(\u00abmiddle cerebellar peduncle sign\u00bb\\); non c'\u00e8 enhancement n\u00e9 restrizione in diffusione, essendo un processo cronico degenerativo\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260515%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260515|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260515|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 4 \u2014 Signet ring sign*\n\nIl segno dell'anello con castone si definisce per un BA ratio \\> 1\\. Qual \u00e8 la causa pi\u00f9 insidiosa di FALSO POSITIVO \\(BA \\> 1 senza vera bronchiectasia\\)?\n\nA\\) Muco endoluminale che riempie il bronco\nB\\) Riduzione del calibro dell'arteria satellite \\(et\u00e0 avanzata, ipossia/altura, tromboembolia cronica\\)\nC\\) Enfisema centrolobulare adiacente\nD\\) Atelettasia rotonda\n\n||Risposta corretta: B \u2014 il BA ratio \u00e8 un rapporto: un'arteria assottigliata/ipoperfusa \\(recoil ridotto dell'anziano, vasocostrizione ipossica in altura, embolia cronica\\) alza il rapporto senza vera dilatazione bronchiale \\(\u00abanello senza castone\u00bb\\); per questo il cut\\-off BA \\> 1 va contestualizzato, specie nell'anziano\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260806%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260806|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260806|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260806|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260806|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260806|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260806|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 5 \u2014 Bronchiectasia da trazione*\n\nIn un paziente con IPF/UIP, la dilatazione bronchiale entro aree di reticolo fibrotico \u00e8 bronchiectasia da trazione\\. Quale affermazione \u00e8 CORRETTA?\n\nA\\) \u00c8 sempre reversibile con terapia antifibrotica\nB\\) Fa parte dello spettro trazione\u2013bronchiolectasia\u2013honeycombing ed \u00e8 marker di fibrosi irreversibile con prognosi peggiore\nC\\) \u00c8 dovuta a infezione cronica delle vie aeree come nella fibrosi cistica\nD\\) Esclude la diagnosi di UIP\n\n||Risposta corretta: B \u2014 deriva dalla retrazione fibrotica del parenchima: \u00e8 irreversibile, si colloca nello spettro che culmina nell'honeycombing e correla con funzione e prognosi peggiori; non \u00e8 infettiva n\u00e9 esclude la UIP \\(anzi la supporta\\)\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260806%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260806|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260806|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260806|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260806|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260806|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260806|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 6 \u2014 Pseudo\\-bronchiectasia*\n\nUna CT in fase acuta di ARDS/COVID mostra bronchi dilatati entro consolidazioni e ground\\-glass\\. Perch\u00e9 \u00e8 prudente NON refertare \u00abbronchiectasia\u00bb definitiva?\n\nA\\) Perch\u00e9 la HRCT non \u00e8 sensibile in fase acuta\nB\\) Perch\u00e9 la dilatazione da trazione in fase acuta pu\u00f2 essere reversibile \\(pseudo\\-bronchiectasia\\) e regredire con la risoluzione\nC\\) Perch\u00e9 il signet ring sign non \u00e8 valido nei lobi inferiori\nD\\) Perch\u00e9 il BA ratio non \u00e8 misurabile in presenza di ground\\-glass\n\n||Risposta corretta: B \u2014 in fase acuta la trazione da flogosi/edema pu\u00f2 dilatare transitoriamente i bronchi e regredire alla guarigione \\(pseudo\\-bronchiectasia, ben documentata post\\-ARDS/COVID\\); la diagnosi definitiva richiede persistenza nel tempo\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260806%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260806|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260806|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260806|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260806|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260806|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260806|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 7 \u2014 Criteri HRCT*\n\nOltre al signet ring sign, quale altro criterio HRCT \u00e8 indicativo di bronchiectasia?\n\nA\\) Mancata rastremazione del bronco verso la periferia e/o visibilit\u00e0 di bronchi entro 1 cm dalla pleura\nB\\) Ispessimento a vetro smerigliato centrolobulare\nC\\) Perfusione a mosaico in espirio\nD\\) Noduli centrolobulari tree\\-in\\-bud\n\n||Risposta corretta: A \u2014 i criteri classici sono BA ratio \\> 1 \\(signet ring\\), mancata rastremazione distale \\(lack of tapering / tram\\-track\\) e visibilit\u00e0 dei bronchi a < 1 cm dalla pleura o a contatto con la pleura mediastinica; tree\\-in\\-bud e mosaico indicano malattia delle piccole vie, non bronchiectasia\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260806%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260806|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260806|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260806|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260806|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260806|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260806|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udee0 Rapporto operativo RadioLearn*\n\u2022 Callback inbox processati: 0\n\u2022 Risposte Google Form ingestite: 4 \\(pillola 20260801\\)\n\u2022 Carte resettate \\(no\\-show\\): 260\n\u2022 Pillola: 20260806 \u2014 signet ring sign / bronchiectasia \\(torace, L1\\)\n\u2022 Ripasso incluso: s\u00ec \u2014 20260514:0, 20260515:0, 20260515:1\n\u2022 Inbox cancellati: 0\n\u2022 Warning: backlog no\\-show elevato \\(risposte solo via Form\\); nessun errore\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
