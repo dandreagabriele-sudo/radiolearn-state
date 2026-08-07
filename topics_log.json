@@ -530,5 +530,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-07",
+    "tag": "double-line-sign-avn",
+    "domain": "msk",
+    "level": 3,
+    "source": "auto"
   }
 ]
