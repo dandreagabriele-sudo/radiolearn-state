@@ -537,5 +537,12 @@
     "domain": "msk",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-08",
+    "tag": "hepatic-hemangioma-mri",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
