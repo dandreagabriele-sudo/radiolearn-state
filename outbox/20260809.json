@@ -1,0 +1,311 @@
+{
+  "pill_id": "20260809",
+  "created_at": "2026-08-09T08:00:00Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\uddf2 *RadioLearn \u2014 Artefatto dell'angolo magico \\(RM MSK\\)*\nLivello 3 \u00b7 RM altri distretti \u00b7 2026\\-08\\-09\n\n*Concetto*\nTendini, legamenti e fibrocartilagine sono normalmente NERI \\(ipointensi\\) in tutte le sequenze: il collagene e\u0300 molto ordinato e l'acqua legata ha un T2 cortissimo, quindi il segnale decade prima di essere raccolto\\.\n\nMa quest'ordine ha un punto debole\\. L'interazione dipolo\\-dipolo tra i protoni dipende dall'orientamento delle fibre rispetto al campo B0 secondo il fattore \\(3cos\u00b2\u03b8 \u2212 1\\)\\. Quando le fibre stanno a \\~54,7\u00b0 rispetto a B0 questo fattore si annulla: le interazioni dipolari si \u201cspengono\u201d, il T2 si allunga e il tendine diventa artificialmente BRILLANTE nelle sequenze a TE breve \\(T1, DP, GRE\\)\\.\n\n\u26a0\ufe0f Trappola: questa iperintensita\u0300 focale \u2014 tipica dove il tendine curva \\(sovraspinato all'inserzione, peronei/flessori alla caviglia, bicipite\\) \u2014 puo\u0300 mimare tendinopatia o lesione\\.\n\n\u2705 Come smascherarlo: guarda una sequenza a TE lungo \\(T2/FSE T2\\): l'artefatto svanisce, il segnale patologico vero invece persiste\\. A 3T l'effetto e\u0300 attenuato\\.\n\n*Connessioni multidisciplinari*\n\u2022 Matematica: \\(3cos\u00b2\u03b8\u22121\\)/2 e\u0300 il polinomio di Legendre P\u2082\\(cos\u03b8\\); la sua radice tra 0\u00b0 e 90\u00b0 e\u0300 \u03b8 \\= arccos\\(1/\u221a3\\) \u2248 54,7356\u00b0\\.\n\u2022 Fisica/chimica: e\u0300 lo stesso \u201cangolo magico\u201d del magic\\-angle spinning \\(MAS\\) nella RMN allo stato solido \u2014 ruotando il campione a 54,7\u00b0 si azzerano le anisotropie dipolari e si ottengono spettri stretti\\. In clinica lo subiamo come artefatto, in spettroscopia lo si sfrutta\\.\n\u2022 Etimologia: \u201cangolo magico\u201d e\u0300 un termine ereditato dai fisici della RMN \\(anni '50\u2013'60\\), non coniato dai radiologi\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Immagini & fonti*\n\u2022 [Radiopaedia \u2014 Magic angle effect \\(articolo\\)](https://radiopaedia.org/articles/magic-angle-effect-mri-artifact-1)\n\u2022 [Radiopaedia \u2014 caso RM](https://radiopaedia.org/cases/magic-angle-effect-mri-artifact)\n\u2022 [MRI Questions \\(Elster\\) \u2014 Magic angle](https://mriquestions.com/magic-angle.html)\n\u2022 [Radiopaedia \u2014 MRI artifacts \\(overview\\)](https://radiopaedia.org/articles/mri-artifacts-1)\n\u2022 [Wikipedia \u2014 Magic angle](https://en.wikipedia.org/wiki/Magic_angle)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso \u2014 Q1*\nNel \\*galaxy sign\\* sarcoideo l'alone di ground\\-glass perilesionale NON indica angioinvasivita\u0300\\. Quale substrato istologico lo giustifica?\n\nA\\) emorragia alveolare da rottura vasale\nB\\) microgranulomi interstiziali perilesionali sotto la risoluzione dell'HRCT\nC\\) essudato infettivo alveolare\nD\\) enfisema parasettale\n\n||Risposta corretta: B \u2014 L'alone corrisponde a microgranulomi non caseanti troppo piccoli per l'HRCT, non a emorragia o invasione fungina\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260514%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260514|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260514|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso \u2014 Q2*\nMacronoduli a galaxy sign: quesito sarcoidosi vs TB\\. Senza terapia anti\\-TB, dopo alcuni mesi i noduli sono stabili/in lieve regressione e non cavitano\\. Come orienta?\n\nA\\) verso TB attiva\nB\\) verso sarcoidosi \\(decorso indolente/regressione spontanea, assenza di caseosi\\-cavitazione\\)\nC\\) verso metastasi ematogene\nD\\) dato non dirimente\n\n||Risposta corretta: B \u2014 La stabilita\u0300 o il miglioramento spontaneo nel tempo, senza cavitazione ne\u0301 terapia, depone per sarcoidosi contro TB\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260514%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260514|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260514|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso \u2014 Q3*\nAll'istologia di una lesione a galaxy sign, quale reperto e\u0300 ATTESO nella sarcoidosi e aiuta a escludere la TB?\n\nA\\) necrosi caseosa centrale estesa\nB\\) granulomi non caseanti con eventuali corpi di Schaumann e asteroidi\nC\\) vasculite necrotizzante con semilune\nD\\) flogosi suppurativa neutrofila\n\n||Risposta corretta: B \u2014 Il granuloma sarcoideo e\u0300 non caseante \\(cellule di Langhans, corpi di Schaumann/asteroidi\\); la caseosi orienta invece verso TB\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260514%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260514|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260514|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Nuova \u2014 Q4*\nUn tendine, normalmente ipointenso in tutte le sequenze, appare focalmente iperintenso in DP/T1 \\(TE breve\\) proprio dove curva; il reperto scompare in T2 a TE lungo\\. Diagnosi piu\u0300 probabile?\n\nA\\) tendinopatia iniziale\nB\\) rottura parziale\nC\\) effetto/artefatto dell'angolo magico\nD\\) tenosinovite\n\n||Risposta corretta: C \u2014 Iperintensita\u0300 a TE breve che svanisce a TE lungo, nei tratti curvi del tendine \\= artefatto da angolo magico, non patologia\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260809%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260809|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260809|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260809|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260809|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260809|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260809|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Nuova \u2014 Q5*\nA quale orientamento delle fibre di collagene rispetto al campo magnetico principale B0 l'effetto dell'angolo magico e\u0300 massimo?\n\nA\\) 0\u00b0 \\(parallele a B0\\)\nB\\) \\~30\u00b0\nC\\) \\~54,7\u00b0\nD\\) 90\u00b0 \\(perpendicolari a B0\\)\n\n||Risposta corretta: C \u2014 A \\~54,7\u00b0 il fattore \\(3cos\u00b2\u03b8\u22121\\) si annulla, le interazioni dipolari si spengono, il T2 si allunga e il segnale a TE breve aumenta\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260809%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260809|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260809|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260809|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260809|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260809|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260809|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Nuova \u2014 Q6*\nCome si conferma/annulla il sospetto di artefatto da angolo magico su un tendine iperintenso a TE breve?\n\nA\\) ripetere/guardare una sequenza a TE lungo \\(T2/FSE T2\\): l'iperintensita\u0300 artefattuale svanisce\nB\\) somministrare gadolinio\nC\\) aumentare lo spessore di strato\nD\\) passare da 3T a 0,5T per accentuare l'effetto\n\n||Risposta corretta: A \u2014 Allungando il TE \\(T2\\) l'artefatto scompare, mentre il segnale patologico vero persiste\\. A 3T l'effetto e\u0300 inoltre attenuato, non accentuato\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260809%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260809|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260809|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260809|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260809|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260809|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260809|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Nuova \u2014 Q7*\nIn quale sede l'angolo magico piu\u0300 tipicamente mima una lesione, per il decorso curvilineo del tendine?\n\nA\\) porzione mediana rettilinea del tendine d'Achille\nB\\) sovraspinato presso l'inserzione sul trochite / tendini peronei al malleolo laterale\nC\\) legamento crociato posteriore in pieno tratto\nD\\) corticale ossea\n\n||Risposta corretta: B \u2014 Dove il tendine curva avvicinandosi a \\~55\u00b0 rispetto a B0 \\(sovraspinato all'inserzione, peronei/flessori alla caviglia, bicipite\\) l'artefatto e\u0300 massimo\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260809%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260809|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260809|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260809|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260809|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260809|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260809|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*RadioLearn \u2014 rapporto*\npill\\_id: 20260809 \u00b7 topic: magic\\-angle\\-artifact \\(L3, msk\\)\nCallback inbox: 0 \u00b7 Form: 0 \u00b7 Reset no\\-show: 38\nRipasso incluso: si\u0300 \\(20260514:1, 20260514:2, 20260514:3\\)\nQuiz totali: 7 \\(3 ripasso \\+ 4 nuove\\)\nInbox cancellati: 0 \u00b7 Paper: no \u00b7 Backup lunedi\u0300: no",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}

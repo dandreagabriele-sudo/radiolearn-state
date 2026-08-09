@@ -544,5 +544,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-09",
+    "tag": "magic-angle-artifact",
+    "domain": "msk",
+    "level": 3,
+    "source": "auto"
   }
 ]
