@@ -558,5 +558,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-11",
+    "tag": "napkin-ring-sign-ccta",
+    "domain": "cardio",
+    "level": 1,
+    "source": "auto"
   }
 ]
