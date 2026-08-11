@@ -67,14 +67,16 @@ from typing import Optional
 # ────────────────────────────────────────────────────────────────────
 
 _API: Optional[str] = None
+_BLOB: Optional[str] = None
 _HDR: Optional[dict] = None
 
 
 def init_github(token: str,
                 repo: str = "dandreagabriele-sudo/radiolearn-state") -> None:
     """Configure module-level GitHub client. Must be called once at bootstrap."""
-    global _API, _HDR
+    global _API, _BLOB, _HDR
     _API = f"https://api.github.com/repos/{repo}/contents"
+    _BLOB = f"https://api.github.com/repos/{repo}/git/blobs"
     _HDR = {
         "Authorization": f"Bearer {token}",
         "Accept": "application/vnd.github+json",
@@ -83,13 +85,29 @@ def init_github(token: str,
 
 
 def gh_get(path: str):
-    """Returns (content_str, sha) or (None, None) if 404."""
+    """Returns (content_str, sha) or (None, None) if 404.
+
+    Large-file safety (CRITICAL): the Contents API only inlines files up to
+    1 MB — above that it returns ``encoding="none"`` with an EMPTY ``content``.
+    Decoding that empty string yields "" and a caller like
+    ``state = json.loads(raw) if raw else {default}`` would silently load a
+    FRESH state and WIPE every card. ``sm2_state.json`` crossed 1 MB in
+    Aug 2026, so this path is live. When the inline content is missing we
+    transparently refetch the raw blob via the git blobs API (supports up to
+    100 MB, always base64), so gh_get never returns a truncated file.
+    """
     r = requests.get(f"{_API}/{path}?ref=main", headers=_HDR, timeout=30)
     if r.status_code == 404:
         return None, None
     r.raise_for_status()
     j = r.json()
-    return base64.b64decode(j["content"]).decode("utf-8"), j["sha"]
+    if j.get("encoding") == "base64" and j.get("content"):
+        return base64.b64decode(j["content"]).decode("utf-8"), j["sha"]
+    # File >1 MB: no inline content. Fetch the full blob by its sha.
+    br = requests.get(f"{_BLOB}/{j['sha']}", headers=_HDR, timeout=60)
+    br.raise_for_status()
+    bj = br.json()
+    return base64.b64decode(bj["content"]).decode("utf-8"), j["sha"]
 
 
 def gh_list(folder: str) -> list:
