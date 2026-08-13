@@ -572,5 +572,12 @@
     "domain": "neuro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-13",
+    "tag": "aortic-coarctation-figure3",
+    "domain": "aorta-vascolare",
+    "level": 1,
+    "source": "auto"
   }
 ]
