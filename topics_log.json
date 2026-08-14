@@ -579,5 +579,12 @@
     "domain": "aorta-vascolare",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-14",
+    "tag": "fnh-central-scar",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
