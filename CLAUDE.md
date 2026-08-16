@@ -169,9 +169,92 @@ GitHub + SM-2 API documented at the top of the file:
 - `build_delivery(out_dir, upserts, deletes=None)` — write the FASE-9 artifacts
   + `manifest.txt` for `.github/scripts/deliver_pr.sh`. This is the routine's
   final step (see "Write path on Claude Code on the web").
+- `mark_presented(state, card_ids, day=None)` /
+  `cards_unanswered_after_presentation(state, grace_days=3)` /
+  `apply_forgotten_reset(state, card_ids)` / `card_last_presented(state, cid)`
+  — presentation tracking, the basis of the corrected FASE 3 (see "FASE 3 —
+  reset solo delle carte MOSTRATE").
+  `cards_overdue_without_answer` è **deprecata**: non usarla in FASE 3.
 
 Prefer these helpers over reinventing them in the daily script. Smaller
 scripts are less likely to be left half-executed.
+
+## FASE 3 — reset solo delle carte MOSTRATE (CRITICAL, OVERRIDE dal 2026-08-16)
+
+Questa sezione **sostituisce** la regola FASE 3 della chat spec
+(`cards_overdue_without_answer` → reset di ogni carta scaduta).
+
+**Il guasto.** FASE 3 chiamava `cards_overdue_without_answer(state,
+answered_today)`, che ritorna **ogni** carta scaduta — comprese le ~280 al
+giorno che la routine non ha mai mostrato all'utente. Ognuna veniva resettata
+con `quality=0`, che azzera `repetitions`, riporta `interval` a 1 e riarma
+`next_review = domani`: due giorni dopo la carta è di nuovo scaduta e viene
+resettata di nuovo, per sempre. Il ciclo non richiede alcun comportamento
+dell'utente. Stato misurato il 2026-08-16, prima della correzione:
+
+- **338/338** carte con `repetitions = 0`, **325/338** al floor `ef = 1.3`,
+  **0** carte mature, `interval = 1` ovunque;
+- **7382** righe `source="reset"` contro **142** risposte genuine (52:1);
+- **101/101** risposte sufficienti del Form annullate da un reset entro ~48 h;
+- in un mese le uniche carte mai proposte come ripasso venivano dalle 4
+  pillole più vecchie (`20260514/15/17/19`): il 97 % del mazzo non è mai stato
+  ripassato.
+
+Sintomo per l'utente: «vengono proposte sempre le stesse carte anche se
+assegno voti alti al Google Form». Il Form era innocente (107/107 risposte
+ingerite correttamente); i voti alti venivano semplicemente cancellati.
+
+**La regola nuova.**
+
+1. **FASE 6 DEVE marcare come presentate tutte le carte della pillola**, subito
+   dopo aver composto il quiz — sia le domande nuove sia i **ripassi** (che
+   riusano il `card_id` originale, quindi la ri-presentazione è altrimenti
+   invisibile):
+
+   ```python
+   mark_presented(state, [f"{pill_id}:{i}" for i in range(n_new)] + review_cids)
+   ```
+
+   Senza questa chiamata FASE 3 non può distinguere «chiesta e ignorata» da
+   «mai chiesta», ed è esattamente il bug che ha appiattito il mazzo.
+
+2. **FASE 3 usa il selettore nuovo**, mai più `cards_overdue_without_answer`:
+
+   ```python
+   forgotten = cards_unanswered_after_presentation(state, grace_days=3)
+   apply_forgotten_reset(state, forgotten)     # NON update_card(...) a mano
+   ```
+
+   Il selettore ritorna solo le carte effettivamente mostrate ≥ 3 giorni fa,
+   senza risposta `source="user"` da quella presentazione, **e non già
+   penalizzate per la stessa presentazione**. `apply_forgotten_reset` applica il
+   reset e timbra `penalised_for`: è quel timbro a limitare la punizione a **un
+   solo reset per pillola non risposta** invece di uno ogni due giorni a vita.
+   Verificato: carta presentata e mai risposta → 1 reset in 20 giorni (col bug
+   ne prendeva 10).
+
+   Il marcatore è un campo esplicito e **non** una riga `source="reset"` in
+   `history`, così il conteggio "Carte dimenticate" di FASE 5 resta indipendente
+   dal meccanismo anti-ripetizione.
+
+`cards_overdue_without_answer` resta nella libreria solo per compatibilità ed è
+marcata deprecata: **non usarla in FASE 3.**
+
+**Selezione ripasso a due code.** `select_review_candidates` ora serve prima la
+coda **attiva** (`repetitions >= 1`, carte già in ciclo) e poi riempie con il
+**backlog** (`repetitions == 0`). Serve davvero: le 220 carte legacy mai
+risposte hanno `next_review` alla data della pillola originale, quindi su pura
+urgenza batterebbero per sempre qualsiasi carta in ciclo. Misurato su 180
+giorni simulati alla cadenza attuale: ordinamento per sola urgenza → **0** carte
+con un secondo ripasso e **3** mature; a due code → **79** con secondo ripasso e
+**28** mature.
+
+**Capacità (da decidere con l'utente).** Il mazzo cresce di ~4 carte/giorno
+mentre la cadenza attuale (`k=3` ogni 3 giorni) ne ripassa ~1/giorno: il
+backlog cresce senza limite. Simulazione a 180 giorni, coda attiva prioritaria:
+`ogni 3gg ×3` → 28 mature; `ogni 2gg ×3` → 82; `ogni giorno ×3` → 121.
+Passare al ripasso quotidiano è la leva più efficace, ma cambia la lunghezza
+della pillola: **non modificarla senza conferma dell'utente.**
 
 ## Answer source tagging — FASE 3 and FASE 5
 
@@ -353,7 +436,12 @@ Questa sezione **sostituisce** la regola della chat spec ("cadenza minima
 - **Cadenza minima**: `days_since_last_review >= 3` (≈ 2–3 pillole di
   ripasso a settimana).
 - **Bundle**: usa `select_review_candidates(state, k=3)` per pescare
-  fino a 3 carte stantie (ordinate per `next_review` asc, poi `ef` asc).
+  fino a 3 carte (coda attiva `repetitions>=1` prima, poi backlog; dentro
+  ogni coda `next_review` asc, `last_presented` asc, `ef` asc — vedi
+  "FASE 3 — reset solo delle carte MOSTRATE").
+- **Marcatura**: dopo aver composto il quiz chiama
+  `mark_presented(state, new_card_ids + review_cids)`. Obbligatorio: senza
+  questo FASE 3 non sa quali carte sono state davvero chieste.
 - **Numero ripassi per pillola**: 2 o 3 (default 3; scendi a 2 solo se
   la pillola del giorno sarebbe troppo lunga o se sono dovute meno di 3
   carte).
