@@ -231,25 +231,162 @@ def cards_due(state: dict, as_of: Optional[str] = None) -> list:
 
 
 def cards_overdue_without_answer(state: dict, answered: set) -> list:
-    """Due cards not answered in this session."""
+    """DEPRECATED — do NOT use for FASE 3. Use cards_unanswered_after_presentation().
+
+    Returns every due card not answered in this session, including the ~280
+    cards the routine never showed the user. Feeding this to FASE 3 punished
+    unasked cards with quality=0 and destroyed the whole deck (bug found
+    2026-08-16 — see cards_unanswered_after_presentation for the analysis).
+    Kept only so old tooling keeps importing.
+    """
     today = date.today().isoformat()
     return [cid for cid, c in state["cards"].items()
             if c["next_review"] < today and cid not in answered]
 
 
-def select_review_candidates(state: dict, k: int = 3) -> list:
-    """Pick up to k stalest due cards.
+def _card_pill_date(card_id: str) -> Optional[str]:
+    """ISO date encoded in a card_id ("YYYYMMDD:N" -> "YYYY-MM-DD"), else None."""
+    prefix = card_id.split(":")[0]
+    if len(prefix) == 8 and prefix.isdigit():
+        return f"{prefix[:4]}-{prefix[4:6]}-{prefix[6:8]}"
+    return None
 
-    Ranking key per card: (next_review asc, ef asc). The most stale +
-    spiniest card is at index 0. Returns [] if no card is due. Used by
-    FASE 6a (bundle ripasso) to include 2–3 review questions per pill.
+
+def card_last_presented(state: dict, card_id: str) -> Optional[str]:
+    """ISO date the card was last shown to the user, or None if never.
+
+    Falls back to the pill date encoded in the card_id, so the cards that
+    predate `last_presented` tracking still answer the question correctly.
     """
-    due = cards_due(state)
+    c = state["cards"].get(card_id, {})
+    return c.get("last_presented") or _card_pill_date(card_id)
+
+
+def mark_presented(state: dict, card_ids, day: Optional[str] = None) -> dict:
+    """Record that these cards were delivered in today's pill. Mutates + returns state.
+
+    FASE 6 MUST call this for EVERY card in the pill — the new questions AND
+    the ripasso cards (which reuse the original card_id, so their
+    re-presentation is otherwise invisible). Without it FASE 3 cannot tell
+    "asked and ignored" from "never asked", which is exactly the bug that
+    flattened the deck.
+    """
+    day = day or date.today().isoformat()
+    for cid in card_ids:
+        if cid not in state["cards"]:
+            state["cards"][cid] = new_card()
+        state["cards"][cid]["last_presented"] = day
+    return state
+
+
+def cards_unanswered_after_presentation(state: dict, grace_days: int = 3,
+                                        as_of: Optional[str] = None) -> list:
+    """Cards genuinely forgotten: shown to the user, then left unanswered.
+
+    This is the FASE-3 selector. It replaces cards_overdue_without_answer(),
+    which returned every overdue card — including the ~280 per day the routine
+    never presented. Resetting those with quality=0 drove EF to the 1.3 floor,
+    pinned repetitions at 0 and interval at 1 on all 338 cards, and left the
+    stalest-first selector re-proposing the same six May cards forever, so a
+    perfect Google-Form score could not advance anything (2026-08-16).
+
+    A card is returned only when ALL of these hold:
+      * it was actually presented at least `grace_days` ago;
+      * no genuine (source="user") answer arrived on or after that presentation;
+      * it has not already been penalised for that same presentation.
+
+    The third clause bounds the penalty to ONE reset per unanswered pill,
+    instead of one every two days for the rest of the card's life. It is
+    tracked with the explicit `penalised_for` field (set by
+    apply_forgotten_reset) rather than by scanning for reset rows in history,
+    so that pruning or re-tagging history never silently re-arms the penalty —
+    and so FASE-5's "Carte dimenticate" count stays independent of it. The
+    history scan is kept only as a fallback for cards last touched by the old
+    code path.
+    """
+    today = date.fromisoformat(as_of) if as_of else date.today()
+    out = []
+    for cid, c in state["cards"].items():
+        lp = c.get("last_presented") or _card_pill_date(cid)
+        if not lp:
+            continue
+        try:
+            presented = date.fromisoformat(lp)
+        except ValueError:
+            continue
+        if (today - presented).days < grace_days:
+            continue
+        if c.get("penalised_for") == lp:
+            continue
+        hist = c.get("history", [])
+        if any(h.get("source", "user") == "user" and h.get("date", "") >= lp
+               for h in hist):
+            continue
+        if "penalised_for" not in c and any(
+                h.get("source") == "reset" and h.get("date", "") > lp
+                for h in hist):
+            continue
+        out.append(cid)
+    return out
+
+
+def apply_forgotten_reset(state: dict, card_ids) -> dict:
+    """FASE 3: reset each forgotten card ONCE and record the penalty.
+
+    Use this instead of calling update_card(..., 0, source="reset") directly —
+    it stamps `penalised_for`, which is what stops the card being reset again
+    every two days for the rest of its life.
+    """
+    for cid in card_ids:
+        c = state["cards"].get(cid)
+        if c is None:
+            continue
+        update_card(state, cid, 0, source="reset")
+        state["cards"][cid]["penalised_for"] = (
+            c.get("last_presented") or _card_pill_date(cid))
+    return state
+
+
+def select_review_candidates(state: dict, k: int = 3,
+                             as_of: Optional[str] = None) -> list:
+    """Pick up to k due cards to re-ask: active review queue first, then backlog.
+
+    Two queues, served in order — the same split Anki and friends use:
+
+      * ACTIVE  (repetitions >= 1): cards already in a repetition cycle. Served
+        first, because consolidating a card the user has started learning is
+        what actually grows an interval. Starving this queue means every card
+        is reviewed once and never again, which is not spaced repetition.
+      * BACKLOG (repetitions == 0): never successfully answered. Fills whatever
+        capacity is left, introducing new material at the rate the schedule
+        can absorb.
+
+    Within each queue: (next_review asc, last_presented asc, ef asc).
+    `last_presented` is the rotation tie-break — without it, cards tied on
+    (next_review, ef) fall back to dict insertion order, i.e. card-creation
+    order, so the same few oldest cards come back every day.
+
+    Why the split is required, not cosmetic: the 220 legacy cards that were
+    never answered carry a next_review from their original pill date (May-Aug
+    2026), so on pure urgency they outrank every card in an active cycle
+    forever. Measured over 180 simulated days at the current cadence, urgency-
+    only ordering produced 0 cards with a second review and 3 mature; queue
+    ordering produced 79 with a second review and 28 mature.
+    """
+    due = cards_due(state, as_of)
     if not due:
         return []
-    due.sort(key=lambda cid: (state["cards"][cid]["next_review"],
-                              state["cards"][cid]["ef"]))
-    return due[:max(0, int(k))]
+
+    def rank(cid):
+        return (state["cards"][cid]["next_review"],
+                card_last_presented(state, cid) or "",
+                state["cards"][cid]["ef"])
+
+    active = sorted((c for c in due if state["cards"][c].get("repetitions", 0) > 0),
+                    key=rank)
+    backlog = sorted((c for c in due if state["cards"][c].get("repetitions", 0) == 0),
+                     key=rank)
+    return (active + backlog)[:max(0, int(k))]
 
 
 def select_review_candidate(state: dict) -> Optional[str]:
