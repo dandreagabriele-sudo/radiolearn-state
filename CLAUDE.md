@@ -251,15 +251,21 @@ con un secondo ripasso e **3** mature; a due code → **79** con secondo ripasso
 **28** mature.
 
 **Capacità — deciso dall'utente il 2026-08-17.** Il mazzo cresce di ~4
-carte/giorno; con `k=3` ogni 3 giorni se ne ripassava ~1/giorno e il backlog
-cresceva senza limite. Due leve possibili: accorciare la cadenza o allargare il
-bundle. **L'utente ha scelto il bundle**: `k=6`, cadenza invariata a 3 giorni
-(throughput 2/giorno). Misurato su 180 giorni: `k=3` → 26 mature / 83 toccate;
-`k=4` → 83 mature; `k=6` → 84 mature / 97 toccate; `k=9` → 124 mature ma 13
-domande a pillola. Il backlog resta comunque grande (~930 carte mai ripassate a
-180 giorni) perché 4 nuove/giorno superano qualunque `k` ragionevole: se un
-giorno serve invertire la tendenza, la leva è ridurre le carte nuove, non
-alzare ancora `k`.
+carte/giorno; con `k=3` ogni 3 giorni se ne ripassava ~1/giorno. Due leve
+possibili: accorciare la cadenza o allargare il bundle. **L'utente ha scelto il
+bundle**: `k=6`, cadenza invariata a 3 giorni.
+
+**Il vincolo vero è il tasso di risposta, non `k` e non le carte nuove.**
+Misurato (12 seed, 180 giorni, crescita del mazzo inclusa) con `k=6`:
+compliance 1.0 → 84 mature; 0.8 → 43; 0.5 → 10; 0.3 → 0. Ridurre le carte nuove
+da 4 a 1 al giorno **non cambia nulla** (6 mature in entrambi i casi): la coda
+attiva ha già la precedenza su quella di backlog, quindi il backlog non le
+sottrae slot. L'unica leva che sposta davvero le carte mature è rispondere a
+più quiz di ripasso.
+
+Corollario per chi scrive il rapporto FASE 10 o parla con l'utente: se il
+consolidamento è basso, la causa non è la configurazione — è che i ripassi
+inviati non ricevono risposta. Verificare lì prima di proporre di alzare `k`.
 
 ## Answer source tagging — FASE 3 and FASE 5
 
@@ -449,11 +455,28 @@ Questa sezione **sostituisce** la regola della chat spec ("cadenza minima
   questo FASE 3 non sa quali carte sono state davvero chieste.
 - **Numero ripassi per pillola**: **6** (OVERRIDE dal 2026-08-17, scelta
   dell'utente: aumentare le carte di ripasso senza toccare la cadenza).
-  Scendi sotto 6 solo se sono dovute meno di 6 carte. Misurato su 180 giorni
-  simulati a cadenza invariata: `k=3` → 26 carte mature e 83 toccate;
-  `k=4` → 83 mature; `k=6` → 84 mature e **97** toccate. Il salto grosso è
-  fra 3 e 4; il 6 aggiunge ampiezza. Sopra k=6 la pillola diventa lunga
-  (k+4 domande) senza guadagni proporzionati.
+  Scendi sotto 6 solo se sono dovute meno di 6 carte.
+
+  **Numeri onesti** (180 giorni, 4 carte nuove/giorno incluse, media su 12
+  seed). Il tasso di risposta domina tutto, quindi ogni cifra va data col
+  tasso accanto:
+
+  | tasso risposta | k | mature | consolidate (≥2 ripassi) | toccate |
+  |---|---|---|---|---|
+  | 1.0 (ideale) | 3 | 26 | 80 | 83 |
+  | 1.0 (ideale) | 6 | **84** | 97 | 97 |
+  | 0.5 (reale) | 3 | 9.5 | 25 | 49 |
+  | 0.5 (reale) | 6 | 9.7 | **48** | **94** |
+  | 0.3 | 3 | 2.2 | 12 | 38 |
+  | 0.3 | 6 | 1.3 | **25** | **73** |
+
+  Al tasso reale dell'utente (36 % storico, 51 % nelle ultime 4 settimane)
+  `k=6` **non** produce più carte mature di `k=3` — la differenza è dentro il
+  rumore. Quello che raddoppia è il **consolidamento** (carte con ≥ 2 ripassi)
+  e la **copertura**. È questa la giustificazione di `k=6`, non le carte mature.
+
+  Non citare mai il numero "84 mature" senza specificare che vale solo a
+  compliance 100 %.
 - **Struttura di ogni ripasso**: identica a una Q nuova — domanda +
   A/B/C/D + `||spoiler con risposta + razionale||` + bottoni 0–5.
 - **callback_data**: ogni ripasso riusa l'`original_card_id` della
