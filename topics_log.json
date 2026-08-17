@@ -600,5 +600,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-17",
+    "tag": "hot-cross-bun-msa",
+    "domain": "neuro",
+    "level": 3,
+    "source": "auto"
   }
 ]
