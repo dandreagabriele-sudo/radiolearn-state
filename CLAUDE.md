@@ -155,7 +155,8 @@ GitHub + SM-2 API documented at the top of the file:
   `409`/`422` (refetch sha) and `5xx` (sleep 3 s). **Writes — proxy-blocked on
   the web; do not call it from the routine** (it raises a `RuntimeError`
   pointing at the delivery path). Kept for Actions-side tooling.
-- `load_topics_ledger()` / `recent_topic_tags(ledger, days=60)` /
+- `load_topics_ledger()` / `recent_topic_tags(ledger)` (default: **tutto lo
+  storico**; vedi l'override del 2026-08-17) /
   `domain_counts(ledger, days=7)` — topic de-dup ledger (see "Topic
   de-duplication" below). To record today's topic use the **pure**
   `append_topic_entry(ledger, date_iso, tag, domain, level, source)` (no I/O)
@@ -249,12 +250,16 @@ giorni simulati alla cadenza attuale: ordinamento per sola urgenza → **0** car
 con un secondo ripasso e **3** mature; a due code → **79** con secondo ripasso e
 **28** mature.
 
-**Capacità (da decidere con l'utente).** Il mazzo cresce di ~4 carte/giorno
-mentre la cadenza attuale (`k=3` ogni 3 giorni) ne ripassa ~1/giorno: il
-backlog cresce senza limite. Simulazione a 180 giorni, coda attiva prioritaria:
-`ogni 3gg ×3` → 28 mature; `ogni 2gg ×3` → 82; `ogni giorno ×3` → 121.
-Passare al ripasso quotidiano è la leva più efficace, ma cambia la lunghezza
-della pillola: **non modificarla senza conferma dell'utente.**
+**Capacità — deciso dall'utente il 2026-08-17.** Il mazzo cresce di ~4
+carte/giorno; con `k=3` ogni 3 giorni se ne ripassava ~1/giorno e il backlog
+cresceva senza limite. Due leve possibili: accorciare la cadenza o allargare il
+bundle. **L'utente ha scelto il bundle**: `k=6`, cadenza invariata a 3 giorni
+(throughput 2/giorno). Misurato su 180 giorni: `k=3` → 26 mature / 83 toccate;
+`k=4` → 83 mature; `k=6` → 84 mature / 97 toccate; `k=9` → 124 mature ma 13
+domande a pillola. Il backlog resta comunque grande (~930 carte mai ripassate a
+180 giorni) perché 4 nuove/giorno superano qualunque `k` ragionevole: se un
+giorno serve invertire la tendenza, la leva è ridurre le carte nuove, non
+alzare ancora `k`.
 
 ## Answer source tagging — FASE 3 and FASE 5
 
@@ -435,16 +440,20 @@ Questa sezione **sostituisce** la regola della chat spec ("cadenza minima
 
 - **Cadenza minima**: `days_since_last_review >= 3` (≈ 2–3 pillole di
   ripasso a settimana).
-- **Bundle**: usa `select_review_candidates(state, k=3)` per pescare
-  fino a 3 carte (coda attiva `repetitions>=1` prima, poi backlog; dentro
+- **Bundle**: usa `select_review_candidates(state, k=6)` per pescare
+  fino a 6 carte (coda attiva `repetitions>=1` prima, poi backlog; dentro
   ogni coda `next_review` asc, `last_presented` asc, `ef` asc — vedi
   "FASE 3 — reset solo delle carte MOSTRATE").
 - **Marcatura**: dopo aver composto il quiz chiama
   `mark_presented(state, new_card_ids + review_cids)`. Obbligatorio: senza
   questo FASE 3 non sa quali carte sono state davvero chieste.
-- **Numero ripassi per pillola**: 2 o 3 (default 3; scendi a 2 solo se
-  la pillola del giorno sarebbe troppo lunga o se sono dovute meno di 3
-  carte).
+- **Numero ripassi per pillola**: **6** (OVERRIDE dal 2026-08-17, scelta
+  dell'utente: aumentare le carte di ripasso senza toccare la cadenza).
+  Scendi sotto 6 solo se sono dovute meno di 6 carte. Misurato su 180 giorni
+  simulati a cadenza invariata: `k=3` → 26 carte mature e 83 toccate;
+  `k=4` → 83 mature; `k=6` → 84 mature e **97** toccate. Il salto grosso è
+  fra 3 e 4; il 6 aggiunge ampiezza. Sopra k=6 la pillola diventa lunga
+  (k+4 domande) senza guadagni proporzionati.
 - **Struttura di ogni ripasso**: identica a una Q nuova — domanda +
   A/B/C/D + `||spoiler con risposta + razionale||` + bottoni 0–5.
 - **callback_data**: ogni ripasso riusa l'`original_card_id` della
@@ -453,7 +462,7 @@ Questa sezione **sostituisce** la regola della chat spec ("cadenza minima
 - **last_review_inclusion_date**: aggiorna a `today.isoformat()` se hai
   incluso ≥ 1 ripasso, **anche** se per qualche carta selezionata la
   pillola originale è assente (404). Evita di ri-tentare ogni giorno.
-- **Pillola totale**: 6–8 Q (3 ripassi + 3–4 nuove) nei giorni di
+- **Pillola totale**: 9–10 Q (6 ripassi + 3–4 nuove) nei giorni di
   ripasso; 3–4 Q nuove nei giorni senza ripasso.
 - **Composizione contenuti**: per ogni carta di ripasso pesca il
   `pills_log/<orig_date>.md` originale e genera una Q&A nuova che
@@ -520,9 +529,19 @@ sessions. `topics_log.json` (backfilled from all prior pills) fixes this.
 **Before choosing a generated topic (FASE 6b — skip on paper days):**
 
 1. `ledger, tsha = load_topics_ledger()`.
-2. `blocked = recent_topic_tags(ledger, days=60)` — **do not reuse any tag
-   from the last 60 days.** Pick a genuinely different concept (a new tag),
-   not a re-angled duplicate of a recent one.
+2. `blocked = recent_topic_tags(ledger)` — **non riusare MAI un tag già
+   presente nel ledger.** Scegli un concetto genuinamente diverso (tag nuovo),
+   non un duplicato ri-angolato.
+
+   **OVERRIDE dal 2026-08-17.** La regola era «non riusare un tag degli ultimi
+   60 giorni», ed è degenerata in un calendario di riciclo: il 2026-08-17 la
+   routine ha riproposto `hot-cross-bun-msa`, il secondo topic mai prodotto
+   (2026-05-15), perché erano passati 94 giorni. L'utente se n'è accorto
+   subito. Quel giorno 24 tag erano già usciti dalla finestra e il numero
+   cresceva ogni giorno. Con 75 tag distinti su 87 pillole e un dominio
+   radiologico che ne offre centinaia, **il default è ora bloccare tutto lo
+   storico** (`days=None`). Passa un `days` esplicito solo se un giorno i
+   topic davvero nuovi si esauriscono.
 3. Balance with `domain_counts(ledger, days=7)` and steer the rotation:
    - cap `torace` (Livello 1) at **≤ 3 per rolling 7 days**;
    - guarantee **≥ 1 Livello-2 (RM addome)** and **≥ 1 Livello-3
