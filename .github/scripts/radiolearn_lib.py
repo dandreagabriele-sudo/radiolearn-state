@@ -33,7 +33,7 @@ Public API:
 
   Topic de-dup ledger (FASE 6 selection):
     load_topics_ledger()                       -> (ledger, sha)
-    recent_topic_tags(ledger, days=60)         -> set[str]
+    recent_topic_tags(ledger, days=None)       -> set[str]  (None = every tag ever)
     domain_counts(ledger, days=7)              -> {domain: count}
     append_topic(ledger, sha, date_iso, tag, domain, level, source="auto")
 
@@ -487,20 +487,36 @@ def load_topics_ledger():
     return _json.loads(raw), sha
 
 
-def recent_topic_tags(ledger: list, days: int = 60,
+def recent_topic_tags(ledger: list, days: Optional[int] = None,
                       as_of: Optional[str] = None) -> set:
-    """Set of topic tags used within the last `days` (inclusive)."""
+    """Set of topic tags already used — all of them by default.
+
+    `days=None` (the default) blocks EVERY tag ever recorded. The old default
+    was 60 days, which quietly turned into a recycling schedule: on 2026-08-17
+    the routine re-served `hot-cross-bun-msa`, the second topic ever produced
+    (2026-05-15), because 94 days had elapsed. By then 24 tags had aged out of
+    the window and the pool of "reusable" topics was growing daily.
+
+    Radiology has far more teachable signs than this ledger has entries (75
+    distinct tags after 87 pills), so there is no reason to re-serve one. Pass
+    an explicit `days` only if the ledger ever grows large enough that genuinely
+    novel topics run out.
+    """
     cutoff = date.fromisoformat(as_of) if as_of else date.today()
     out = set()
     for e in ledger:
+        t = e.get("tag")
+        if not t:
+            continue
+        if days is None:
+            out.add(t)
+            continue
         try:
             d = date.fromisoformat(e.get("date", ""))
         except ValueError:
             continue
         if 0 <= (cutoff - d).days <= days:
-            t = e.get("tag")
-            if t:
-                out.add(t)
+            out.add(t)
     return out
 
 
