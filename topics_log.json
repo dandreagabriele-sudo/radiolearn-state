@@ -607,5 +607,12 @@
     "domain": "neuro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-18",
+    "tag": "lymphangitic-carcinomatosis",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
