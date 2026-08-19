@@ -614,5 +614,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-19",
+    "tag": "hepatic-iron-overload-mri",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
