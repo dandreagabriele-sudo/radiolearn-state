@@ -621,5 +621,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-20",
+    "tag": "ovarian-dermoid-rokitansky",
+    "domain": "altro",
+    "level": 3,
+    "source": "auto"
   }
 ]
