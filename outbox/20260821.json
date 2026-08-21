@@ -1,0 +1,439 @@
+{
+  "pill_id": "20260821",
+  "created_at": "2026-08-21T06:50:22.447410+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83c\udf93 RadioLearn \u2014 Pillola del 2026\\-08\\-21\nSegno di Hawkins del talo \\(MSK \u2014 Livello 3, basi generiche\\)\n\nIl segno di Hawkins \u00e8 una sottile banda di radiotrasparenza subcondrale nella cupola \\(dome\\) del talo, visibile nella proiezione AP di caviglia circa 6\u20138 settimane dopo una frattura del collo del talo\\.\n\nPerch\u00e9 conta: quella radiotrasparenza \u00e8 osteopenia da disuso, e l'osso pu\u00f2 riassorbirsi SOLO se \u00e8 vascolarizzato \\(gli osteoclasti hanno bisogno di sangue\\)\\. Quindi la PRESENZA del segno indica che il talo ha ancora un buon apporto ematico \u2192 esclude quasi al 100% la necrosi avascolare \\(AVN / osteonecrosi\\)\\. \u00c8 una radiotrasparenza che, paradossalmente, \u00e8 una buona notizia\\.\n\nL'ASSENZA del segno \u00e8 meno affidabile: fa sospettare l'AVN ma non la conferma \\(negli studi solo \\~38\u201358% dei tali senza segno sviluppa osteonecrosi\\)\\. Esiste anche un segno di Hawkins 'parziale', quando la rivascolarizzazione \u00e8 solo parziale\\.\n\nPerch\u00e9 il talo \u00e8 cos\u00ec a rischio di AVN: circa il 60% della sua superficie \u00e8 cartilagine, non ha inserzioni muscolari, e la vascolarizzazione \u00e8 'retrograda' \\(arteria del canale del tarso, ramo della tibiale posteriore; arteria del seno del tarso; arteria deltoidea\\)\\. Una frattura del collo pu\u00f2 interromperla\\.\n\nClassificazione di Hawkins \\(frattura del collo del talo\\), a rischio di AVN crescente:\n\u2022 Tipo I \u2014 non composta \\(\\~0\u201315%\\)\n\u2022 Tipo II \u2014 con sublussazione/lussazione sottoastragalica \\(\\~20\u201350%\\)\n\u2022 Tipo III \u2014 lussazione sottoastragalica \\+ tibiotalare \\(\\~80\u2013100%\\)\n\u2022 Tipo IV \\(Canale\u2013Kelly\\) \u2014 anche lussazione talonavicolare \\(\\~100%\\)\n\nIn pratica: cerca il segno in AP a 6\u20138 settimane\\. La RM resta pi\u00f9 precoce e sensibile per l'AVN, ma il segno di Hawkins \u00e8 un indicatore radiografico semplice e prognosticamente prezioso\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd17 Connessioni multidisciplinari\n\n\u2022 Fisiologia ossea \\(legge di Wolff\\): il rimodellamento richiede osteoclasti attivi, che dipendono dalla perfusione\\. 'Per riassorbire osso serve sangue': ecco perch\u00e9 una radiotrasparenza segnala vitalit\u00e0, non danno\\.\n\n\u2022 Analogia: un prato ingiallisce \\(osteopenia\\) solo se \u00e8 ancora irrigato; un ramo secco non cambia pi\u00f9 colore\\. Un talo che resta 'troppo bianco/denso' fa sospettare che il tubo dell'acqua sia stato tagliato \\(AVN\\)\\.\n\n\u2022 Storia: Leland Hawkins descrisse sia il segno sia la classificazione nel 1970 \\(J Bone Joint Surg\\)\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\uddbc\ufe0f Immagini & fonti\n\n[Segno di Hawkins \u2014 caso](https://radiopaedia.org/cases/talar-neck-fracture-with-hawkins-sign?lang=gb)\n[Frattura del collo del talo \u2014 articolo](https://radiopaedia.org/articles/talar-neck-fracture?lang=us)\n[Classificazione di Hawkins \u2014 illustrazione](https://radiopaedia.org/cases/hawkins-classification-of-talar-neck-fracture-illustration)\n[Frattura tipo III con lussazione \u2014 caso](https://radiopaedia.org/cases/talar-neck-fracture-hawkins-type-3)\n[Frattura complicata da AVN \u2014 caso](https://radiopaedia.org/cases/talar-neck-fracture-complicated-by-avascular-necrosis)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 1/6 \u2014 Aorta \\(IMH\\)*\n\nPaziente iperteso con dolore toracico acuto\\. La CTA \u00e8 stata acquisita SOLO in fase arteriosa e la parete dell'aorta discendente appare dubbia\\. Perch\u00e9 la fase BASALE \\(non\\-contrasto\\) \u00e8 indispensabile e cosa dimostrerebbe?\n\nA\\) mostra il flap intimale meglio dell'arteriosa\nB\\) evidenzia l'iperattenuazione spontanea crescentica \\(50\u201370 HU\\) della parete, mascherata dal contrasto\nC\\) serve solo a ridurre la dose di radiazioni\nD\\) dimostra l'enhancement parietale tipico dell'aortite\n\n||Risposta corretta: B \u2014 l'high\\-attenuation crescent sign \\(50\u201370 HU\\) si vede solo in basale; ometterla \u00e8 la prima causa di IMH mancato\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260530%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260530|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260530|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260530|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260530|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260530|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260530|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 2/6 \u2014 Aorta \\(IMH\\)*\n\nIMH tipo B in follow\\-up\\. Quale reperto indica il rischio di rottura imminente / massima urgenza?\n\nA\\) regressione dello spessore parietale\nB\\) broken\\-crescent sign \\(area focale ipodensa nell'IMH\\) e/o ULP di nuova comparsa\nC\\) spostamento interno delle calcificazioni intimali\nD\\) diametro aortico di 35 mm\n\n||Risposta corretta: B \u2014 l'area ipodensa focale \\(broken\\-crescent \\= stravaso siero\\-proteico\\) e la ULP di nuova comparsa sono high\\-risk; lo spostamento del calcio \u00e8 solo diagnostico di IMH, non prognostico\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260530%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260530|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260530|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260530|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260530|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260530|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260530|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 3/6 \u2014 Aorta \\(IMH\\)*\n\nIMH che coinvolge l'aorta ascendente \\(tipo A Stanford\\), paziente emodinamicamente stabile\\. Approccio corretto?\n\nA\\) sola terapia medica e follow\\-up, come nel tipo B non complicato\nB\\) chirurgia urgente \\(sostituzione dell'aorta ascendente \u00b1 Bentall\\), come per la dissezione tipo A\nC\\) TEVAR immediato dell'aorta ascendente\nD\\) trombolisi sistemica\n\n||Risposta corretta: B \u2014 l'IMH tipo A ha alta mortalit\u00e0 medica \\(\\~30%\\) \u2192 chirurgia urgente, analoga alla dissezione tipo A; il TEVAR \u00e8 riservato al tipo B complicato\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260530%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260530|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260530|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260530|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260530|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260530|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260530|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 4/6 \u2014 RM Addome \\(HCA\\)*\n\nIn un adenoma epatocellulare HNF1\u03b1\\-inattivato, qual \u00e8 la base biochimico\\-fisica del signal dropout OMOGENEO nelle immagini in opposizione di fase?\n\nA\\) emosiderina da microemorragie ripetute\nB\\) perdita della L\\-FABP \u2192 steatosi intralesionale diffusa; grasso e acqua nello stesso voxel si cancellano al TE opposed\\-phase\nC\\) calcificazioni distrofiche diffuse\nD\\) accumulo di melanina\n\n||Risposta corretta: B \u2014 HNF1\u03b1 spegne la L\\-FABP \u2192 accumulo lipidico diffuso; il chemical shift \\(Dixon\\) annulla il segnale quando grasso e acqua coesistono nel voxel\\. \u00c8 il sottotipo a prognosi migliore\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260615%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260615|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260615|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260615|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260615|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260615|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260615|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 5/6 \u2014 RM Addome \\(HCA\\)*\n\nDonna obesa con adenoma infiammatorio \\(IHCA\\) di 6 cm, atoll sign in T2\\. Qual \u00e8 la complicanza pi\u00f9 temuta e la conseguente soglia gestionale?\n\nA\\) trasformazione maligna \u2192 semplice sorveglianza annuale\nB\\) emorragia \\(massima nell'IHCA, accentuata oltre i 5 cm\\) \u2192 resezione/embolizzazione, stop OCP e calo ponderale\nC\\) nessun rischio rilevante \u2192 nessuna azione\nD\\) rottura nelle vie biliari\n\n||Risposta corretta: B \u2014 l'IHCA ha il massimo rischio emorragico, che cresce oltre i 5 cm; gestione: sospensione OCP e calo ponderale \\(possono farlo regredire\\), soglia chirurgica/embolizzazione\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260615%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260615|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260615|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260615|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260615|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260615|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260615|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 6/6 \u2014 RM Addome \\(HCA\\)*\n\nUomo con storia di androgeni; adenoma privo di criteri imaging affidabili che pu\u00f2 captare in fase epatobiliare \\(overlap con FNH/HCC\\)\\. Sottotipo e implicazione gestionale?\n\nA\\) HNF1\u03b1\\-inattivato \u2192 follow\\-up\nB\\) \u03b2\\-catenina\\-attivato \u2192 massimo rischio di HCC \u2192 chirurgia a prescindere dalle dimensioni\nC\\) infiammatorio \u2192 solo calo ponderale\nD\\) FNH \u2192 nessuna azione\n\n||Risposta corretta: B \u2014 il \u03b2\\-catenina\\-attivato \\(maschio, androgeni, glicogenosi\\) manca di criteri imaging affidabili, pu\u00f2 trattenere il gadoxetato \\(mimando FNH/HCC\\) e ha il massimo rischio maligno \u2192 resezione\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260615%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260615|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260615|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260615|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260615|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260615|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260615|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 1/4 \u2014 MSK \\(Hawkins\\)*\n\nCosa indica la PRESENZA del segno di Hawkins dopo una frattura del collo del talo?\n\nA\\) necrosi avascolare gi\u00e0 in atto\nB\\) vascolarizzazione conservata \u2192 AVN improbabile\nC\\) che la frattura \u00e8 scomposta di tipo III\nD\\) sovrainfezione dell'osso\n\n||Risposta corretta: B \u2014 la banda subcondrale radiotrasparente \u00e8 osteopenia da disuso, possibile solo con osso vascolarizzato; esclude l'AVN in quasi il 100% dei casi\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260821%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260821|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260821|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260821|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260821|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260821|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260821|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 2/4 \u2014 MSK \\(Hawkins\\)*\n\nQuando compare tipicamente il segno di Hawkins e in quale proiezione lo si cerca?\n\nA\\) immediatamente, in proiezione laterale\nB\\) a 6\u20138 settimane, in proiezione AP di caviglia\nC\\) a 6\u20138 mesi, solo in TC\nD\\) entro 24\u201348 ore, solo in RM\n\n||Risposta corretta: B \u2014 la banda subcondrale diventa visibile a 6\u20138 settimane nella proiezione AP; prima di allora la sua assenza non \u00e8 valutabile\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260821%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260821|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260821|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260821|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260821|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260821|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260821|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 3/4 \u2014 MSK \\(Hawkins\\)*\n\nPerch\u00e9 il talo \u00e8 particolarmente esposto al rischio di necrosi avascolare?\n\nA\\) \u00e8 avvolto da una grande massa muscolare che comprime i vasi\nB\\) superficie in gran parte cartilaginea, nessuna inserzione muscolare e vascolarizzazione retrograda vulnerabile\nC\\) \u00e8 un osso pneumatizzato pieno d'aria\nD\\) ha una doppia vascolarizzazione ridondante\n\n||Risposta corretta: B \u2014 \\~60% cartilagine, assenza di inserzioni muscolari e apporto arterioso 'retrogrado' \\(canale/seno del tarso, deltoidea\\) rendono il talo vulnerabile quando il collo si frattura\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260821%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260821|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260821|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260821|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260821|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260821|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260821|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 4/4 \u2014 MSK \\(Hawkins\\)*\n\nQual \u00e8 il valore prognostico dell'ASSENZA del segno di Hawkins?\n\nA\\) conferma con certezza la necrosi avascolare\nB\\) esclude in modo affidabile la necrosi avascolare\nC\\) \u00e8 meno affidabile: aumenta il sospetto di AVN ma non la conferma\nD\\) non ha alcun significato clinico\n\n||Risposta corretta: C \u2014 la presenza del segno \u00e8 molto specifica \\(esclude AVN\\); la sua assenza \u00e8 meno affidabile \\(\\~38\u201358% sviluppa osteonecrosi\\), quindi solleva il sospetto senza confermarlo\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260821%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260821|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260821|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260821|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260821|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260821|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260821|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udee0\ufe0f Rapporto operativo \u2014 2026\\-08\\-21\n\u2022 Callback Telegram processati: 0\n\u2022 Risposte Form ingerite: 0\n\u2022 Carte resettate \\(dimenticate\\): 10\n\u2022 Pillola: 20260821 \u2014 hawkins\\-sign\\-talus \\(MSK, Livello 3\\)\n\u2022 Ripasso incluso: s\u00ec \u2014 20260530:1, 20260530:2, 20260530:3, 20260615:0, 20260615:1, 20260615:2\n\u2022 Inbox cancellati: 0\n\u2022 Warning: 0",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
