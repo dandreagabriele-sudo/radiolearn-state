@@ -628,5 +628,12 @@
     "domain": "altro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-21",
+    "tag": "hawkins-sign-talus",
+    "domain": "msk",
+    "level": 3,
+    "source": "auto"
   }
 ]
