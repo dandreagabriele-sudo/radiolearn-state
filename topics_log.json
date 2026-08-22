@@ -635,5 +635,12 @@
     "domain": "msk",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-22",
+    "tag": "takotsubo-apical-ballooning",
+    "domain": "cardio",
+    "level": 1,
+    "source": "auto"
   }
 ]
