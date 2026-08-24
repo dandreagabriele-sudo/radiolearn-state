@@ -649,5 +649,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-24",
+    "tag": "empty-delta-sign-cvst",
+    "domain": "neuro",
+    "level": 3,
+    "source": "auto"
   }
 ]

@@ -1,0 +1,407 @@
+{
+  "pill_id": "20260824",
+  "created_at": "2026-08-24T06:52:08Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udcca *Riepilogo settimanale RadioLearn*\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83c\udfaf Pillole inviate: 6\n\u2705 Quiz risposti: 0/24 \\(0%\\)\n\u2b50 Qualit\u00e0 media: 0\\.0 / 5\n\ud83d\udd01 Carte dimenticate: 32\n\ud83c\udfc6 Carte mature \\(\\>21gg\\): 3\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udde0 *Concetto del giorno \u2014 2026\\-08\\-24*\n*Empty delta sign* nella trombosi dei seni venosi cerebrali \\(CVST\\)\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n*Che cos'\u00e8.* Sulla TC \\(o RM\\) *post\\-contrasto* del seno sagittale superiore, il trombo endoluminale non capta contrasto mentre le pareti durali \\(che hanno vasi collaterali\\) si opacizzano intensamente\\. Il risultato \u00e8 un *triangolo* con centro ipodenso/ipointenso e cornice iperintensa: la lettera greca *\u0394* \\(delta\\) \"vuota\"\\. \u00c8 diagnostico di *trombosi del seno* nel contesto clinico appropriato\\.\n\n*Dove e quando cercarlo.*\n\u2022 *Sede tipica*: seno sagittale superiore, sezione assiale al vertice \\(dove il seno \u00e8 visto in sezione\\)\\.\n\u2022 *Tecnica*: TC con m\\.d\\.c\\. iodato o *venografia TC \\(CTV\\)* \u2014 modalit\u00e0 di prima linea nel sospetto acuto\\.\n\u2022 *Timing*: massima resa in fase *subacuta* \\(giorni \\~5\\+\\); nella fase iperacuta il coagulo pu\u00f2 essere ancora molto denso di suo \\(cord sign / dense triangle sign in TC senza contrasto\\)\\.\n\u2022 *Sensibilit\u00e0 reale*: presente solo nel *25\u201330 %* dei casi di CVST \u2014 la sua *assenza non esclude* diagnosi; ma quando c'\u00e8, \u00e8 *molto specifico*\\.\n\n*Segni parenti \\(triade classica in TC\\).*\n\u2022 *Cord sign* \u2014 vena corticale/seno *iperdenso* su TC *senza* contrasto \\(trombo iperacuto\\)\\.\n\u2022 *Dense triangle sign* \u2014 analogo dell'empty delta ma su TC *senza* contrasto: triangolo *iperdenso* del seno sagittale trombizzato\\.\n\u2022 *Empty delta sign* \u2014 triangolo con *centro vuoto* dopo contrasto \\(subacuto\\)\\.\n\n*In RM*, il gold standard oggi \u00e8 la *MRV con contrasto* \\(mostra il difetto di riempimento\\) o la *TOF/PC\\-MRV* \\(assenza di flusso\\); la *SWI/T2\\*\\-GRE* mostra il coagulo come *blooming* ipointenso \u2014 utile per trombosi di vene corticali piccole, non visibili in MRV\\.\n\n*Falsi positivi da conoscere.*\n\u2022 *Seno bifido / seno alto\\-splittato*: il setto durale che divide il seno pu\u00f2 simulare l'empty delta \\(cercalo su sezioni contigue: se persiste per pochi mm, sospetta variante anatomica\\)\\.\n\u2022 *Seno ipoplasico* \\(spesso il sinistro trasverso\\)\\.\n\u2022 *Aracnoidi giganti / granulazioni di Pacchioni*: piccoli difetti *ovoidali* iso\\-densi al liquor, tipicamente eccentrici nel seno\\.\n\u2022 *Volume averaging* al vertice \\(fette spesse su TC vecchie\\)\\.\n\n*Perch\u00e9 contano.* La CVST \u00e8 una diagnosi *treatable* \\(anticoagulazione anche in presenza di infarto emorragico venoso\\): non riconoscere l'empty delta ritarda la terapia e aumenta la mortalit\u00e0/disabilit\u00e0\\. Contesti clinici in cui vale la pena guardarlo attivamente: gravidanza/puerperio, contraccettivi orali, trombofilia, disidratazione, sepsi/mastoidite/sinusite frontale, neoplasie, cefalea a insorgenza esplosiva, papilledema idiopatico, crisi focali con edema *bilaterale parasagittale*\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd17 *Connessioni multidisciplinari*\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n\u2022 *Etimologia \\& geografia*: la lettera greca *\u0394* prende nome dalla forma del delta del fiume \\(il Nilo per primo\\)\\. Erodoto la us\u00f2 per descrivere l'area triangolare della foce\\. La forma triangolare che vedete al vertice \u00e8 la stessa\\.\n\n\u2022 *Storia della neurologia*: la CVST fu descritta clinicamente da *Ribes* nel 1825 su un paziente con cefalea, crisi ed emiplegia; per un secolo diagnosi solo autoptica\\. L'*angiografia cerebrale* \\(Egas Moniz, 1927\\) port\u00f2 la prima visualizzazione in vivo, e la TC negli anni '70 ha reso l'empty delta un segno bedside\\.\n\n\u2022 *Fisica del m\\.d\\.c\\.*: il contrasto iodato ha densit\u00e0 \\~300 mg I/mL \u2192 in un lume pervio produce \\~150 HU; un trombo organizzato resta a 40\u201360 HU\\. Il *gradiente 90\u2013100 HU* \u00e8 quello che scolpisce la \"cornice\" del delta\\.\n\n\u2022 *Coagulazione \\& farmacologia*: il *fattore V Leiden* \\(sostituzione Arg506Gln che rende la proteina C incapace di degradarlo\\) e la mutazione *G20210A della protrombina* sono le trombofilie ereditarie pi\u00f9 frequenti dietro CVST spontanee\\. Anche gli *estroprogestinici* aumentano il rischio 3\u20137 volte \\(protrombina \u2191, ATIII \u2193\\); questo spiega perch\u00e9 in una donna 20\u201340enne con cefalea subacuta e OCP la CVST vada esclusa attivamente\\.\n\n\u2022 *Anatomia funzionale*: il seno sagittale superiore drena la maggior parte del sangue corticale attraverso *vene di Trolard* \\(anastomotica superiore\\) e riassorbe il *90 %* del liquor via granulazioni aracnoidee\\. Trombizzarlo produce *ipertensione endocranica* \\(papilledema\\) prima ancora dell'infarto \u2014 la \"sindrome pseudotumor cerebri\" da CVST \u00e8 un classico\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\uddbc *Immagini e fonti*\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n[Empty delta sign \u2014 articolo Radiopaedia](https://radiopaedia.org/articles/empty-delta-sign-dural-venous-sinus-thrombosis)\n[CVST \u2014 articolo Radiopaedia](https://radiopaedia.org/articles/cerebral-venous-sinus-thrombosis-1)\n[Empty delta sign \u2014 caso 1](https://radiopaedia.org/cases/empty-delta-sign-superior-sagittal-sinus-thrombosis)\n[Cord sign \u2014 articolo](https://radiopaedia.org/articles/cord-sign-cerebral-venous-thrombosis)\n[Dense triangle sign \u2014 articolo](https://radiopaedia.org/articles/dense-triangle-sign)\n[CVST \u2014 RSNA RadioGraphics review](https://pubs.rsna.org/doi/10.1148/rg.6si055174)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd01 Ripasso (card `20260627:0`) \u2014 Distribuzione centrilobulare + tree\\-in\\-bud\n\nDonna 68 anni, magra, cifosi, tosse cronica\\. HRCT: micronoduli con *tree\\-in\\-bud* prevalenti a *lingula* e *lobo medio*, bronchiectasie cilindriche, subpleural sparing conservato\\. Quale diagnosi \u00e8 pi\u00f9 probabile e perch\u00e9 il pattern topografico \u00e8 dirimente?\n\n*A)* TBC post\\-primaria \u2014 pattern classicamente ai lobi superiori posteriori\n*B)* Polmonite ab ingestis \u2014 pattern posteriore/gravitazionale nei segmenti declivi\n*C)* Infezione da *Mycobacterium avium complex* \\(MAC\\), forma della donna anziana \\(sindrome di Lady Windermere\\): distribuzione lingula/lobo medio con bronchiolite \\(tree\\-in\\-bud\\) e bronchiectasie cilindriche\n*D)* Sarcoidosi \u2014 distribuzione perilinfatica peribroncovascolare superiore\n\n||*Risposta corretta: C* \u2014 Nel MAC non tubercolare della *Lady Windermere* la sede caratteristica \u00e8 *lingula \\+ lobo medio* \\(clearance ridotta di questi segmenti anteriori nell'anziana\\), con *tree\\-in\\-bud* e bronchiectasie cilindriche \u2014 pattern centrilobulare puro \\(subpleural sparing\\)\\. La TBC post\\-primaria colpisce i lobi superiori posteriori/apicali; l'aspirazione ha impronta gravitazionale posteriore; la sarcoidosi \u00e8 *perilinfatica* \\(scissure beaded, adenopatie simmetriche\\), non centrilobulare\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260627%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260627|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260627|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260627|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260627|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260627|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260627|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd01 Ripasso (card `20260627:1`) \u2014 Distribuzione perilinfatica\n\nUomo 62 anni, ex minatore di quarzo, HRCT: micronoduli *perilinfatici* con predominanza *dorsale* e ai lobi superiori, *linfonodi ilo\\-mediastinici calcifici con anello periferico a guscio d'uovo*\\. Diagnosi pi\u00f9 probabile e specificit\u00e0 della calcificazione linfonodale?\n\n*A)* Sarcoidosi \u2014 le calcificazioni a guscio d'uovo sono classiche\n*B)* Silicosi \\(o meno spesso pneumoconiosi da polveri di carbone\\) \u2014 le calcificazioni linfonodali *a guscio d'uovo* \\(egg\\-shell\\) sono altamente suggestive nel contesto espositivo\n*C)* Linfangite carcinomatosa \u2014 le calcificazioni a guscio d'uovo sono tipiche delle metastasi mucinose\n*D)* Istoplasmosi calcifica \u2014 pattern random, non perilinfatico\n\n||*Risposta corretta: B* \u2014 Le calcificazioni linfonodali *a guscio d'uovo* \\(egg\\-shell\\) sono descritte in \\<5 % delle silicosi ma sono molto specifiche nel contesto \\(minatori quarzo, sabbiatori, cavatori\\); la seconda causa \u00e8 la sarcoidosi \\(molto pi\u00f9 rara come pattern egg\\-shell puro\\), poi le pneumoconiosi da carbone \\(CWP\\)\\. La topografia dorsale/superiore dei noduli perilinfatici depone per la silicosi rispetto alla sarcoidosi \\(pi\u00f9 antero\\-superiore, adenopatie simmetriche\\)\\. La linfangite carcinomatosa d\u00e0 ispessimento *nodulare dei setti* con architettura conservata, non calcificazioni a guscio d'uovo\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260627%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260627|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260627|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260627|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260627|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260627|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260627|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd01 Ripasso (card `20260627:3`) \u2014 Noduli centrilobulari ground\\-glass\n\nUomo 45 anni, allevatore di piccioni\\. HRCT in *espirazione* dopo il quadro descritto ieri: si aggiunge il *three\\-density sign* \\(head\\-cheese sign\\) \u2014 mosaico con aree di ground\\-glass, parenchima normale e aree di *air\\-trapping* lobulare\\. Qual \u00e8 il valore diagnostico del three\\-density/head\\-cheese?\n\n*A)* Aspecifico: si vede in qualsiasi polmonite acuta\n*B)* Altamente suggestivo di *polmonite da ipersensibilit\u00e0 \\(HP\\) fibrotica o subacuta*: la coesistenza di infiltrato \\(GGO\\), parenchima normale e air\\-trapping \u00e8 dovuta a bronchiolite da esposizione antigenica\n*C)* Patognomonico di RB\\-ILD\n*D)* Indicativo di sarcoidosi in fase fibrotica\n\n||*Risposta corretta: B* \u2014 Il *three\\-density* \\(o *head\\-cheese*\\) sign \u2014 tre densit\u00e0 coesistenti \\(GGO, parenchima normale, air\\-trapping/mosaico\\) in *espirazione* \u2014 \u00e8 considerato *molto suggestivo* di HP \\(criterio maggiore ATS/JRS/ALAT 2020, sia forma non fibrotica che fibrotica\\)\\. Riflette la bronchiolite antigenica: l'air\\-trapping \u00e8 il marker chiave che manca nella RB\\-ILD \\(che \u00e8 centrilobulare GGO ai lobi superiori nel *fumatore*, senza pattern misto in espirazione\\) e nella sarcoidosi\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260627%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260627|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260627|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260627|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260627|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260627|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260627|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd01 Ripasso \\(card `20260629:0`\\) \u2014 iRECIST e pseudoprogressione\n\nPaziente in nivolumab per NSCLC: alla PET\\-TC a 8 settimane la lesione target \u00e8 cresciuta con nuova avidit\u00e0 FDG in *un linfonodo mediastinico*; il paziente \u00e8 asintomatico\\. Biopsia del linfonodo: *infiltrato linfocitario T CD8\\+ denso senza cellule tumorali vitali*\\. Che cos'\u00e8, e che categoria iRECIST?\n\n*A)* Progressione confermata \\(iCPD\\), sospendere ICI\n*B)* *Pseudoprogressione*: la crescita apparente \u00e8 dovuta all'infiltrato immune post\\-attivazione; la biopsia \u00e8 dirimente\\. Categoria iRECIST: *iUPD* \u2014 rivalutare a 4\u20138 settimane\n*C)* Iperprogressione, cambiare linea di terapia\n*D)* Malattia stabile secondo RECIST 1\\.1 tradizionale\n\n||*Risposta corretta: B* \u2014 La *pseudoprogressione* \u00e8 un aumento *radiologico* del burden \\(target cresce o compaiono nuove lesioni\\) causato dall'*infiltrato linfocitario T che si accumula* nel tessuto tumorale/linfonodale dopo lo sblocco del checkpoint; istologicamente si trova infiammazione senza tumore vitale\\. \u00c8 rara \\(0\\.6\u20135 % nel NSCLC\\) ma iRECIST introduce la categoria *iUPD* per non interrompere la terapia sulla progressione radiologica non confermata; si rivaluta a 4\u20138 settimane\\. La biopsia risolve i casi dubbi\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260629%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260629|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260629|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260629|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260629|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260629|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260629|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd01 Ripasso \\(card `20260629:1`\\) \u2014 Polmonite da ICI\n\nPaziente in pembrolizumab da 3 mesi: TC mostra *GGO diffuse bilaterali + pattern di organizing pneumonia* in un paziente lievemente dispnoico a riposo \\(SpO\u2082 92 % in aria\\); non ha febbre, escluse infezione e progressione\\. Grado CTCAE pi\u00f9 probabile e gestione corretta?\n\n*A)* G1 asintomatico \u2014 continuare terapia e monitorare\n*B)* G2 sintomatico che limita ADL strumentali \u2014 sospendere ICI, iniziare *prednisone 1 mg/kg/die* per 4\u20136 settimane con lento tapering\n*C)* G4 pericolosa per la vita \u2014 ricovero in ICU, metilprednisolone 1 g e\\.v\\. per 3 giorni, sospensione definitiva ICI\n*D)* Continuare l'immunoterapia senza modifiche\n\n||*Risposta corretta: B* \u2014 Con dispnea a riposo e desaturazione lieve \\(SpO\u2082 92 %\\) siamo tipicamente in *G2* CTCAE \\(sintomi che limitano ADL strumentali, non ancora ossigeno\\-dipendenza\\)\\. Gestione standard: *sospendere l'ICI*, *prednisone 1 mg/kg/die* per 4\u20136 settimane con *tapering lento su 4\u20138 settimane per prevenire rebound*, escludere sempre infezione\\. G3\u2013G4 richiedono ricovero e boli e\\.v\\. \\(metilpred 1\u20132 mg/kg o 1 g \u00d7 3 gg\\) con sospensione *definitiva*\\. \\~\u2153 dei pazienti recidiva alla ripresa dell'ICI\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260629%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260629|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260629|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260629|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260629|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260629|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260629|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd01 Ripasso \\(card `20260701:2`\\) \u2014 Gd\\-EOB e trappola LI\\-RADS\n\nNodulo epatico in paziente cirrotico HCV, 3 cm, iperenhancement in fase arteriosa; in fase portale \u00e8 isointenso al parenchima ma in fase *epatobiliare* \\(HBP a 20 min con gadoxetato\\) diventa nettamente *ipointenso*\\. Un collega vuole categorizzarlo LR\\-5 usando la ipointensit\u00e0 in HBP come washout\\. Perch\u00e9 \u00e8 sbagliato e come si legge correttamente in LI\\-RADS?\n\n*A)* \u00c8 corretto: la HBP \u00e8 a tutti gli effetti la fase di washout nel LI\\-RADS 2018\n*B)* \u00c8 *sbagliato*: la ipointensit\u00e0 in HBP riflette *ridotta funzione OATP/epatocitaria*, NON un vero washout vascolare; usarla come washout *sovrastima* la categoria \\(porta a LR\\-5 falso\\-positivi\\)\\. In LI\\-RADS la ipointensit\u00e0 in HBP \u00e8 solo una *feature ancillare* che favorisce malignit\u00e0; il washout va letto in fase *portale/venosa*\n*C)* Il washout in LI\\-RADS pu\u00f2 essere letto solo con gadolinio extracellulare puro, mai con gadoxetato\n*D)* L'ipointensit\u00e0 in HBP significa sempre metastasi \\(mai HCC\\)\n\n||*Risposta corretta: B* \u2014 In LI\\-RADS il *washout* \u00e8 definito come *decremento dell'enhancement* rispetto al parenchima adiacente in fase portale o *venosa* \\(vascolare\\); la ipointensit\u00e0 in *fase epatobiliare* \\(HBP\\) invece riflette la *perdita/riduzione dei trasportatori OATP1B1/1B3* sulla lesione \\(o l'assenza di epatociti\\), che \u00e8 un fenomeno *funzionale*, non emodinamico\\. Se la si usa come washout si sovrastimano le lesioni benigne o border\\-zone e si spinge falsamente in LR\\-5\\. Il LI\\-RADS la classifica come *feature ancillare* pro\\-malignit\u00e0 \\(alza la categoria di uno step, quando le feature maggiori non bastano\\), non come feature maggiore\\. Con gadoxetato il washout portale \u00e8 comunque leggibile \u2014 solo con timing e bolo curati\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260701%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260701|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260701|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260701|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260701|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260701|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260701|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 1/3 \u2014 Riconoscimento del segno*\n\nDonna 28 anni, in gravidanza al 3\u00b0 trimestre, cefalea in peggioramento e crisi focale motoria destra\\. TC *con contrasto* al vertice: al seno sagittale superiore si vede un *triangolo con centro ipodenso circondato da una cornice iperdensa*, riproducibile su pi\u00f9 fette contigue\\. Cosa hai visto e come lo classifichi?\n\n*A)* Variante anatomica \\(seno bifido\\) \u2014 nessuna azione clinica\n*B)* *Empty delta sign* \u2014 trombosi del seno sagittale superiore; iniziare anticoagulazione anche in presenza di infarto emorragico venoso\n*C)* Meningioma parasagittale \u2014 richiedere RM elettiva\n*D)* Aracnoide granulazione \u2014 reperto incidentale\n\n||*Risposta corretta: B* \u2014 Triangolo con centro *non captante* \\(trombo\\) e cornice iperdensa \\(pareti durali che captano\\) al seno sagittale superiore in una donna gravida = *empty delta sign* \u2192 CVST\\. Il fatto che si riproduca su pi\u00f9 fette lo distingue dal seno bifido \\(setto durale che scompare in una\u2013due fette\\) e dalle granulazioni aracnoidee \\(difetti ovoidali, iso\\-liquor, eccentrici\\)\\. Nel puerperio/gravidanza \u00e8 la causa pi\u00f9 frequente di CVST\\. Anche in presenza di infarto emorragico venoso, la terapia \u00e8 *anticoagulazione*: paradossalmente riduce mortalit\u00e0/handicap perch\u00e9 la ricanalizzazione riduce la pressione venosa a monte\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260824%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260824|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260824|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260824|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260824|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260824|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260824|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 2/3 \u2014 Sensibilit\u00e0/specificit\u00e0 e trappole*\n\nUn residente vede un possibile empty delta sul seno sagittale superiore e ti chiede quanto \u00e8 affidabile\\. Quale affermazione \u00e8 pi\u00f9 corretta?\n\n*A)* L'empty delta \u00e8 presente in \\>90 % dei CVST \u2014 la sua assenza esclude la diagnosi\n*B)* L'empty delta \u00e8 presente solo nel *25\u201330 %* dei CVST \u2014 molto *specifico* quando presente, ma *bassa sensibilit\u00e0*; se il sospetto clinico \u00e8 alto si procede comunque con CTV o MRV\n*C)* L'empty delta \u00e8 patognomonico: nessun altro reperto pu\u00f2 simularlo\n*D)* L'empty delta \u00e8 visibile solo su TC senza contrasto\n\n||*Risposta corretta: B* \u2014 L'empty delta \u00e8 *specifico* ma poco *sensibile*: descritto solo nel *25\u201330 %* dei CVST del seno sagittale superiore \\(alcune serie riportano 10\u201370 %, dipendente da timing e tecnica \u2014 massima resa in fase subacuta ai giorni 5\u20137\\)\\. La sua assenza *non* esclude CVST; con sospetto clinico persistente si eseguono CTV o MRV \\(sensibilit\u00e0 \\~95 %\\)\\. Confondenti classici: seno bifido con setto durale, ipoplasia del seno, granulazioni di Pacchioni, volume averaging al vertice\\. \u00c8 visibile solo *con* contrasto \\(non senza \u2014 quello \u00e8 il dense triangle sign, il suo cugino iperdenso su TC basale\\)\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260824%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260824|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260824|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260824|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260824|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260824|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260824|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 3/3 \u2014 Segni parenti in TC senza contrasto e in RM*\n\nUn paziente arriva in DEA con cefalea acuta esplosiva; la TC *senza contrasto* mostra il seno sagittale superiore *iperdenso in modo omogeneo*, di forma triangolare al vertice \\(70 HU\\)\\. Prima ancora di iniettare contrasto, quale segno hai davanti e cosa lo distingue dall'empty delta?\n\n*A)* *Dense triangle sign* \\(o filled delta sign\\) \u2014 \u00e8 l'analogo *pre\\-contrasto* dell'empty delta: iperdensit\u00e0 del seno trombizzato \\(coagulo fresco\\) su TC *basale*; l'empty delta compare *dopo* contrasto come triangolo con centro vuoto\n*B)* Empty delta sign \u2014 richiede sempre contrasto per essere definito \\(la risposta \u00e8 la stessa\\)\n*C)* Cord sign \u2014 riferito solo alle vene corticali, mai al seno sagittale\n*D)* Artefatto da indurimento del fascio X \u2014 irrilevante\n\n||*Risposta corretta: A* \u2014 In TC *senza contrasto* il coagulo iperacuto \\(giorni 0\u20133, ricco di ossiemoglobina/proteine\\) rende il seno *iperdenso* \\(60\u201380 HU\\) \u2192 *dense triangle sign* \\(o *filled delta*\\)\\. \u00c8 l'analogo pre\\-contrasto dell'empty delta e va cercato prima dell'iniezione\\. Il *cord sign* \u00e8 la versione dello stesso principio applicata alle *vene corticali* \\(vene iperdense, tortuose, lineari\\)\\. In RM il correlato \u00e8 il *blooming ipointenso* del trombo su SWI/T2\\*\\-GRE \u2014 cruciale per le trombosi di vene corticali piccole non visibili in MRV\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260824%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260824|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260824|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260824|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260824|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260824|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260824|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udd16 RadioLearn \u2014 Report 2026\\-08\\-24\npill\\_id: 20260824  \u00b7  topic: empty\\-delta\\-sign\\-cvst\nCallback processati: 0  \\(form: 0, inbox: 0\\)\nCarte dimenticate resettate \\(FASE 3\\): 10\nRipasso incluso: s\u00ec \\(20260627:0, 20260627:1, 20260627:3, 20260629:0, 20260629:1, 20260701:2\\)\nNuove carte: 20260824:0, 20260824:1, 20260824:2\nInbox cancellati: 0\nBackup settimanale: incluso",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
