@@ -656,5 +656,12 @@
     "domain": "neuro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-25",
+    "tag": "saber-sheath-trachea",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
