@@ -663,5 +663,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-26",
+    "tag": "lv-noncompaction-cmr",
+    "domain": "cardio",
+    "level": 1,
+    "source": "auto"
   }
 ]
