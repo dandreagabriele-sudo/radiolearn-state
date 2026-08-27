@@ -1,0 +1,431 @@
+{
+  "pill_id": "20260827",
+  "created_at": "2026-08-27T06:53:31Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udec1 *RadioLearn \u2014 Sindrome di Swyer\\-James\\-MacLeod*\n\\(polmone iperlucente unilaterale \u00b7 Livello 1 \u2014 Torace\\)\n\n*Concetto*\nLa sindrome di Swyer\\-James\\-MacLeod \\(SJMS\\) \u00e8 un polmone iperlucente unilaterale da bronchiolite obliterante post\\-infettiva dell'infanzia\\. Un'aggressione al polmone ancora immaturo \\(tipicamente adenovirus; anche morbillo, pertosse, Mycoplasma, RSV\\) oblitera i bronchioli terminali e respiratori\\.\n\n*Meccanismo*\n\u2022 Bronchiolite obliterante \u2192 l'aria entra per ventilazione collaterale \\(pori di Kohn, canali di Lambert\\) ma non esce \u2192 air trapping\\.\n\u2022 L'arteria polmonare ipsilaterale \u00e8 piccola per ipoplasia SECONDARIA \\(oligoemia da ridotto sviluppo/perfusione\\), non per agenesia prossimale primitiva\\.\n\u2022 L'insulto durante la moltiplicazione alveolare postnatale \\(fino a \\~8 anni\\) blocca la crescita: polmone piccolo o normo\\-dimensionato ma ipovascolare\\.\n\n*Segni imaging*\n\u2022 Rx: emitorace iperlucente unilaterale, polmone piccolo/normale, ilo e arteria polmonare ipsilaterali ridotti, trama vascolare rarefatta\\.\n\u2022 Manovra chiave \\= ESPIRIO: in inspirio pu\u00f2 sembrare quasi normale; in espirio l'aria intrappolata mantiene l'iperlucenza e sposta il mediastino verso il lato SANO\\.\n\u2022 HRCT \\(gold standard\\): mosaic attenuation, aree ipoattenuate ipovascolari, bronchiectasie; conferma l'air trapping in espirio\\.\n\u2022 Scintigrafia V/Q: difetto MATCHED \\(ventilazione e perfusione entrambe ridotte\\) \u2014 aiuta a distinguerla dall'embolia \\(difetto mismatched\\)\\.\n\n*DD del polmone iperlucente unilaterale*\nOstruzione bronchiale a valvola \\(corpo estraneo, tumore\\), interruzione/agenesia prossimale dell'arteria polmonare, enfisema lobare congenito o bolle giganti, cause di parete \\(mastectomia, sindrome di Poland\\), rotazione/tecnica\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Connessioni multidisciplinari*\n\u2022 Fisica \\(Poiseuille\\): la resistenza di una via aerea \u00e8 \u221d 1/r\u2074; un minimo restringimento bronchiolare azzera il flusso espiratorio mentre la ventilazione collaterale continua a riempire \u2192 trappola d'aria\\.\n\u2022 Fisiologia \\(V/Q\\): perfusione e ventilazione calano insieme, cos\u00ec il rapporto V/Q resta relativamente conservato \u2192 molti pazienti sono asintomatici e la diagnosi slitta all'et\u00e0 adulta\\.\n\u2022 Storia/eponimi: Swyer e James \\(Toronto, 1953\\) descrissero il caso unilaterale; W\\.M\\. MacLeod \\(Londra, 1954\\) ne pubblic\u00f2 una serie \u2192 doppio eponimo \\(detta anche sindrome di Bret\\)\\.\n\u2022 Sviluppo: gli alveoli si moltiplicano dopo la nascita \\(fino a \\~8 anni\\); un insulto precoce 'congela' la crescita del polmone colpito \u2014 una 'finestra critica' analoga allo sviluppo neuro\\-sensoriale\\.\n\n*Immagini & fonti*\n[Radiopaedia \u2014 Swyer\\-James syndrome \\(articolo\\)](https://radiopaedia.org/articles/swyer-james-syndrome)\n[Radiopaedia \u2014 caso Rx/TC](https://radiopaedia.org/cases/swyer-james-syndrome-3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso \u2014 Reazione sarcoid\\-like da ICI \\(1/10\\)*\n\nDurante immunoterapia \\(ICI\\) per NSCLC compaiono adenopatie ilo\\-mediastiniche bilaterali con granulomi non caseosi \\(reazione sarcoid\\-like\\)\\. Quale affermazione \u00e8 corretta?\n\nA\\) \u00c8 pi\u00f9 frequente con gli anti\\-CTLA\\-4 \\(ipilimumab\\), tende a essere meno severa della polmonite e spesso non impone la sospensione dell'ICI\nB\\) Impone sempre lo stop immediato del farmaco e la biopsia in ogni caso\nC\\) \u00c8 indistinguibile dalla progressione e va trattata come malattia metastatica\nD\\) L'ACE sierico \u00e8 un marcatore affidabile per confermarla\n\n||Risposta corretta: A \u2014 La reazione sarcoid\\-like \\(granulomi non caseosi\\) \u00e8 pi\u00f9 associata agli anti\\-CTLA\\-4; di solito meno severa della polmonite e, con imaging tipico, seguibile senza sospendere n\u00e9 biopsiare\\. L'ACE non \u00e8 affidabile\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260629%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260629|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260629|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260629|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260629|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260629|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260629|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso \u2014 Atelettasia rotonda: criteri TC \\(2/10\\)*\n\nQuale combinazione di reperti TC \u00e8 tipica dell'atelettasia rotonda e la distingue da una massa neoplastica?\n\nA\\) Nodulo spiculato con angolo acuto rispetto alla pleura e cavitazione\nB\\) Massa subpleurica arrotondata a contatto con pleura ispessita, angolo ottuso, perdita di volume del lobo e fasci broncovascolari che convergono a spirale verso l'ilo\nC\\) Massa ilare centrale con broncogramma aereo e linfoadenopatia\nD\\) Consolidamento lobare con versamento pleurico massivo\n\n||Risposta corretta: B \u2014 Criteri classici: sede subpleurica arrotondata, contatto con pleura ispessita \\(angolo ottuso\\), perdita di volume e coda di cometa broncovascolare verso l'ilo\\. Un angolo acuto/spiculato o la cavitazione depongono contro\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260706%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260706|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260706|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260706|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260706|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260706|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260706|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso \u2014 Atelettasia rotonda: coda di cometa \\(3/10\\)*\n\nIl 'segno della coda di cometa' nell'atelettasia rotonda corrisponde anatomicamente a:\n\nA\\) Un vaso arterioso dilatato che alimenta la lesione\nB\\) I fasci broncovascolari che, trascinati dal parenchima ripiegato, spiraleggiano curvandosi verso l'ilo\nC\\) Una banda di fibrosi pleurica calcifica\nD\\) Un bronco ostruito da tappo di muco\n\n||Risposta corretta: B \u2014 La 'coda' \u00e8 data dai vasi e bronchi che, risucchiati verso il parenchima collassato, si incurvano a spirale convergendo verso l'ilo: reperto quasi patognomonico\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260706%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260706|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260706|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260706|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260706|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260706|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260706|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso \u2014 Atelettasia rotonda: eziologia \\(4/10\\)*\n\nIn quale contesto clinico si incontra pi\u00f9 spesso l'atelettasia rotonda e con quale meccanismo?\n\nA\\) Giovane asmatico; ostruzione bronchiale da tappo mucoso\nB\\) Pregressa esposizione ad asbesto con malattia pleurica; 'shrinking pleuritis' che ripiega il parenchima adiacente\nC\\) Immunodepresso neutropenico; invasione fungina angioinvasiva\nD\\) Scompenso cardiaco acuto; edema interstiziale\n\n||Risposta corretta: B \u2014 La causa pi\u00f9 frequente \u00e8 la malattia pleurica asbesto\\-correlata: la fibrosi/retrazione pleurica cronica \\(shrinking pleuritis\\) ripiega il parenchima\\. Altre cause: TBC, istoplasmosi, infarto, empiema, uremia\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260706%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260706|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260706|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260706|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260706|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260706|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260706|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso \u2014 Atelettasia rotonda: quando biopsiare \\(5/10\\)*\n\nMassa che soddisfa TUTTI i criteri di atelettasia rotonda in un ex\\-esposto ad asbesto\\. Quando \u00e8 giustificata la biopsia?\n\nA\\) Sempre, prima di qualsiasi follow\\-up\nB\\) Mai, in nessun caso\nC\\) Solo se la lesione \u00e8 atipica per morfologia o mostra crescita/evoluzione nel follow\\-up\nD\\) Solo se la PET \u00e8 negativa\n\n||Risposta corretta: C \u2014 Con criteri completi e contesto coerente il management \u00e8 conservativo \\(follow\\-up per documentare stabilit\u00e0\\); la biopsia si riserva ai casi atipici o in crescita, per evitare chirurgie inutili\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260706%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260706|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260706|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260706|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260706|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260706|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260706|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso \u2014 Manico di secchio: papillon assente \\(6/10\\)*\n\nIn RM del ginocchio, quante fette sagittali consecutive mostrano normalmente il corpo meniscale a 'papillon', e cosa implica un numero inferiore?\n\nA\\) Almeno 2 fette; se compare su <2 fette un frammento meniscale si \u00e8 dislocato \\(sospetto manico di secchio\\)\nB\\) Almeno 5 fette; un numero inferiore \u00e8 comunque normale\nC\\) Una sola fetta; se compare su 2 o pi\u00f9 fette \u00e8 patologico\nD\\) Il papillon non dipende dallo spessore di fetta n\u00e9 dalla dislocazione\n\n||Risposta corretta: A \u2014 Con fette da \\~4\\-5 mm il corpo meniscale normale \\(largo \\~9\\-12 mm\\) si vede come 'papillon' su \u22652 fette consecutive; se appare su <2 fette \\(absent bow\\-tie\\) una porzione \u00e8 migrata, tipico del manico di secchio\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260710%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260710|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260710|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260710|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260710|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260710|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260710|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Swyer\\-James\\-MacLeod: patogenesi \\(7/10\\)*\n\nUomo di 34 anni, non fumatore, con emitorace sinistro iperlucente riscontrato casualmente e anamnesi di gravi infezioni respiratorie nella prima infanzia\\. Qual \u00e8 il meccanismo alla base della sindrome di Swyer\\-James\\-MacLeod?\n\nA\\) Enfisema panlobulare da deficit di alfa\\-1\\-antitripsina\nB\\) Bronchiolite obliterante post\\-infettiva dell'infanzia, con air trapping e arresto dello sviluppo alveolo\\-vascolare\nC\\) Agenesia congenita primitiva dell'arteria polmonare prossimale\nD\\) Ostruzione neoplastica endobronchiale con meccanismo a valvola\n\n||Risposta corretta: B \u2014 SJMS \u00e8 una bronchiolite obliterante post\\-infettiva \\(spesso adenovirus\\) che colpisce il polmone immaturo: air trapping da ventilazione collaterale e ipoplasia vascolare secondaria\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260827%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260827|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260827|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260827|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260827|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260827|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260827|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Swyer\\-James\\-MacLeod: manovra diagnostica \\(8/10\\)*\n\nLa radiografia in inspirio di un sospetto SJMS appare quasi normale\\. Quale accorgimento rende evidente la diagnosi e cosa ci si aspetta?\n\nA\\) Rx in ESPIRIO: l'aria intrappolata mantiene l'iperlucenza del lato malato e sposta il mediastino verso il lato sano\nB\\) Rx in espirio: il lato malato si opacizza e il mediastino si sposta verso il lato malato\nC\\) Decubito laterale sul lato sano, che risolve l'iperlucenza\nD\\) Solo l'angio\\-TC pu\u00f2 mostrare l'air trapping\n\n||Risposta corretta: A \u2014 L'air trapping \u00e8 la firma funzionale: in espirio il polmone colpito non si svuota, resta iperlucente e spinge il mediastino verso il lato controlaterale \\(sano\\)\\. L'inspirio pu\u00f2 mascherare il quadro\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260827%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260827|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260827|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260827|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260827|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260827|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260827|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Swyer\\-James\\-MacLeod: arteria polmonare e V/Q \\(9/10\\)*\n\nIn SJMS l'arteria polmonare ipsilaterale \u00e8 piccola\\. Come si spiega e come lo si distingue da un'embolia polmonare?\n\nA\\) \u00c8 un'agenesia arteriosa primitiva; la scintigrafia mostra un difetto di perfusione mismatched\nB\\) \u00c8 un'ipoplasia SECONDARIA alla ridotta perfusione/sviluppo; la V/Q mostra un difetto MATCHED \\(ventilazione e perfusione entrambe ridotte\\)\nC\\) \u00c8 vasocostrizione ipossica reversibile; la V/Q \u00e8 normale\nD\\) \u00c8 dovuta a compressione da linfoadenopatia ilare\n\n||Risposta corretta: B \u2014 L'ipoplasia dell'arteria \u00e8 secondaria \\(oligoemia da ridotto sviluppo\\), non un'agenesia prossimale\\. Alla V/Q il difetto \u00e8 matched \\(V e Q ridotte insieme\\), a differenza dell'embolia che d\u00e0 un difetto mismatched\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260827%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260827|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260827|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260827|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260827|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260827|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260827|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Swyer\\-James\\-MacLeod: diagnosi differenziale \\(10/10\\)*\n\nQuale reperto TC orienta verso SJMS piuttosto che verso un air trapping da ostruzione bronchiale a valvola \\(es\\. corpo estraneo o tumore\\)?\n\nA\\) La sola presenza di air trapping in espirio, esclusiva di SJMS\nB\\) Polmone piccolo ipovascolare con bronchiectasie e NESSUNA lesione ostruttiva endobronchiale, con difetto V/Q matched\nC\\) Mediastino fisso in inspirio ed espirio\nD\\) Iperlucenza bilaterale simmetrica\n\n||Risposta corretta: B \u2014 L'air trapping non \u00e8 specifico \\(presente anche nell'ostruzione a valvola\\)\\. A favore di SJMS: polmone piccolo ipovascolare con bronchiectasie e nessuna lesione ostruttiva; broncoscopia/TC escludono corpo estraneo o tumore\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260827%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260827|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260827|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260827|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260827|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260827|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260827|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udee0 Report operativo RadioLearn*\nPill 20260827 \u2014 swyer\\-james\\-macleod \\(torace, L1\\)\nCallback inbox processati: 0\nForm nuovi ingeriti: 0\nCarte resettate \\(dimenticate\\): 9\nRipasso incluso: s\u00ec \\(6\\) \u2014 20260629:2, 20260706:0, 20260706:1, 20260706:2, 20260706:3, 20260710:2\nNuove carte: 20260827:0, 20260827:1, 20260827:2, 20260827:3\nInbox cancellati: 0",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}

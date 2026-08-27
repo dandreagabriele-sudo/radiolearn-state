@@ -670,5 +670,12 @@
     "domain": "cardio",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-27",
+    "tag": "swyer-james-macleod",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
