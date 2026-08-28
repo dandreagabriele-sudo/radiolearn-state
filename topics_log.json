@@ -677,5 +677,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-28",
+    "tag": "salt-pepper-paraganglioma",
+    "domain": "altro",
+    "level": 3,
+    "source": "auto"
   }
 ]
