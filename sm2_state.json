@@ -5164,40 +5164,76 @@
       "penalised_for": "2026-08-25"
     },
     "20260826:0": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-08-26",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-08-26"
+      "next_review": "2026-08-30",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-08-29",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-08-26",
+      "penalised_for": "2026-08-26"
     },
     "20260826:1": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-08-26",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-08-26"
+      "next_review": "2026-08-30",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-08-29",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-08-26",
+      "penalised_for": "2026-08-26"
     },
     "20260826:2": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-08-26",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-08-26"
+      "next_review": "2026-08-30",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-08-29",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-08-26",
+      "penalised_for": "2026-08-26"
     },
     "20260826:3": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-08-26",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-08-26"
+      "next_review": "2026-08-30",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-08-29",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-08-26",
+      "penalised_for": "2026-08-26"
     },
     "20260827:0": {
       "ef": 2.5,
@@ -5270,6 +5306,42 @@
       "last_quality": null,
       "history": [],
       "last_presented": "2026-08-28"
+    },
+    "20260829:0": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-08-29",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-08-29"
+    },
+    "20260829:1": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-08-29",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-08-29"
+    },
+    "20260829:2": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-08-29",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-08-29"
+    },
+    "20260829:3": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-08-29",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-08-29"
     }
   },
   "history": [

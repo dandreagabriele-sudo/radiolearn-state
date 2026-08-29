@@ -684,5 +684,12 @@
     "domain": "altro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-29",
+    "tag": "mass-forming-cholangiocarcinoma",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
