@@ -691,5 +691,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-08-30",
+    "tag": "elbow-fat-pad-sign",
+    "domain": "msk",
+    "level": 3,
+    "source": "auto"
   }
 ]
