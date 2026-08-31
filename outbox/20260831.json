@@ -1,0 +1,207 @@
+{
+  "pill_id": "20260831",
+  "created_at": "2026-08-31T06:49:43Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udcca *Riepilogo settimanale RadioLearn*\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83c\udfaf Pillole inviate: 6\n\u2705 Quiz risposti: 0/24 \\(0%\\)\n\u2b50 Qualit\u00e0 media: 0\\.0 / 5\n\ud83d\udd01 Carte dimenticate: 39\n\ud83c\udfc6 Carte mature \\(\\>21gg\\): 3\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\nNessun quiz risposto negli ultimi 7 giorni: il consolidamento dipende dalle risposte \\(bottoni 0\u20135 o Form\\), non dalla configurazione\\. Bastano pochi tap al giorno per far maturare le carte\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udde0 *RadioLearn \u2014 Angiomiolipoma renale* \\(RM addome\\)\n\nTumore mesenchimale benigno della famiglia dei PEComa \\(perivascular epithelioid cell tumor\\): vasi displastici a parete spessa \\+ muscolo liscio \\+ tessuto adiposo maturo, in proporzioni variabili\\.\n\n*Segno chiave*: grasso macroscopico intralesionale\\. In assenza di calcificazioni \u00e8 di fatto diagnostico \\(le calcificazioni orientano invece verso il carcinoma renale\\)\\.\n\n*AML classico su RM \\(grasso macroscopico\\)*:\n\u2022 iperintenso in T1 e T2, come il grasso sottocutaneo;\n\u2022 caduta di segnale nelle sequenze fat\\-sat spettrali \u2192 conferma il grasso macroscopico;\n\u2022 artefatto \u201cIndia ink\u201d \\(etching\\) all'interfaccia massa\u2013parenchima nelle immagini in opposizione di fase \\(chemical shift di 2\u00b0 tipo\\)\\.\n\n*Fat\\-poor AML \\(\\~5%\\)*: grasso solo intravoxel \\(microscopico\\) \u2192 cade di segnale DENTRO la massa in opposizione di fase \\(come l'adenoma surrenalico\\), ma NON in fat\\-sat\\. Mima il carcinoma a cellule chiare, che pure perde segnale in opposizione di fase per il lipide intracitoplasmatico\\. Discriminante utile: l'AML \u00e8 tipicamente marcatamente ipointenso in T2 \\(muscolo liscio\\) con enhancement omogeneo e prolungato; il ccRCC \u00e8 iperintenso ed eterogeneo in T2\\.\n\n*Associazioni*: forme multiple/bilaterali \u2192 sclerosi tuberosa \\(TSC\\) e LAM\\. La variante epitelioide pu\u00f2 essere maligna\\.\n\n*Complicanza*: emorragia retroperitoneale spontanea \\(sindrome di Wunderlich\\); il rischio correla con dimensioni \\>4 cm e aneurismi intratumorali \\>5 mm \u2192 possibile embolizzazione profilattica\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd17 *Connessioni*\n\n*Fisica RM \\(chemical shift\\)*: i protoni di grasso e acqua precessano a frequenze leggermente diverse \\(\\~3,5 ppm \u2248 220 Hz a 1,5 T\\)\\. Al TE in cui i due vettori sono in opposizione \\(\\~2,2 ms a 1,5 T\\) i segnali si sottraggono: un voxel con acqua\\+grasso perde segnale \\(chemical shift di 1\u00b0 tipo, per il grasso intravoxel\\), mentre all'interfaccia acqua/grasso nasce la linea nera \u201cIndia ink\u201d \\(2\u00b0 tipo\\)\\. \u00c8 la stessa fisica dell'adenoma surrenalico e del fat\\-poor AML\\.\n\n*Etimologia*: \u201cIndia ink\u201d dall'inchiostro di china usato nel disegno per contorni netti \u2014 il bordo scuro \u201cdisegna\u201d il margine della lesione\\. Angio\\-mio\\-lipoma \\= vaso \\+ muscolo \\+ grasso, i tre tessuti del PEComa\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\uddbc\ufe0f *Immagini*\n\u2022 [Radiopaedia \u2014 AML renale \\(RM\\)](https://radiopaedia.org/cases/small-renal-angiomyolipoma-mri)\n\u2022 [Radiopaedia \u2014 AML renale \\(caso TC\\)](https://radiopaedia.org/cases/renal-angiomyolipoma-14)\n\u2022 [Radiopaedia \u2014 articolo](https://radiopaedia.org/articles/renal-angiomyolipoma)\n\u2022 [Wikimedia Commons \u2014 Angiomyolipomas](https://commons.wikimedia.org/wiki/Category:Angiomyolipomas)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 *Domanda 1*\n\nUna massa renale di 3 cm \u00e8 iperintensa in T1 e T2 e mostra netta caduta di segnale nelle sequenze con soppressione spettrale del grasso \\(fat\\-sat\\)\\. Interpretazione corretta?\n\nA\\) Grasso microscopico intravoxel \u2192 probabile fat\\-poor AML\nB\\) Grasso macroscopico \u2192 AML classico\nC\\) Emorragia subacuta\nD\\) Carcinoma a cellule chiare\n\n||Risposta corretta: B \u2014 La caduta in fat\\-sat spettrale indica grasso macroscopico \\(voxel a prevalenza adiposa\\), tipico dell'AML classico\\. Il grasso microscopico intravoxel cade invece in opposizione di fase, non in fat\\-sat\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260831%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260831|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260831|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260831|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260831|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260831|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260831|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 *Domanda 2*\n\nNelle immagini in opposizione di fase, la stessa lesione ricca di grasso mostra una sottile linea nera lungo il margine con il parenchima renale\\. Come si chiama e cosa indica?\n\nA\\) Artefatto di suscettibilit\u00e0 da calcificazione\nB\\) Artefatto \u201cIndia ink\u201d \\(etching\\) all'interfaccia grasso\u2013acqua \u2014 chemical shift di 2\u00b0 tipo\nC\\) Caduta di segnale intravoxel \u2014 chemical shift di 1\u00b0 tipo\nD\\) Artefatto da troncamento \\(Gibbs\\)\n\n||Risposta corretta: B \u2014 La linea nera al confine grasso/tessuto \u00e8 l'artefatto India\\-ink \\(chemical shift di 2\u00b0 tipo\\), che marca l'interfaccia tra grasso macroscopico e parenchima; diverso dalla caduta intravoxel \\(1\u00b0 tipo\\)\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260831%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260831|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260831|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260831|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260831|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260831|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260831|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 *Domanda 3*\n\nUna piccola massa renale solida perde segnale in opposizione di fase ma NON in fat\\-sat\\. Sia un fat\\-poor AML sia un carcinoma a cellule chiare possono dare questo quadro\\. Quale reperto orienta di pi\u00f9 verso il fat\\-poor AML?\n\nA\\) Marcata iperintensit\u00e0 in T2\nB\\) Marcata ipointensit\u00e0 in T2\nC\\) Presenza di calcificazioni\nD\\) Necrosi centrale\n\n||Risposta corretta: B \u2014 Il fat\\-poor AML \u00e8 tipicamente marcatamente ipointenso in T2 \\(muscolo liscio\\), con enhancement omogeneo e prolungato; il ccRCC \u00e8 di norma iperintenso ed eterogeneo in T2\\. La sola caduta in opposizione di fase non distingue i due \\(lipide intravoxel in entrambi\\)\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260831%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260831|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260831|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260831|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260831|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260831|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260831|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 *Domanda 4*\n\nQuale combinazione di reperti indica il maggior rischio di emorragia spontanea \\(sindrome di Wunderlich\\) e giustifica un trattamento profilattico \\(es\\. embolizzazione\\)?\n\nA\\) Lesione <2 cm senza aneurismi\nB\\) Dimensione \\>4 cm e aneurismi intratumorali \\>5 mm\nC\\) Presenza di calcificazioni grossolane\nD\\) Bilateralit\u00e0 in sclerosi tuberosa, indipendentemente dalla taglia\n\n||Risposta corretta: B \u2014 Il rischio emorragico correla con dimensioni \\>4 cm e con la presenza/dimensione di aneurismi intratumorali \\(\\>5 mm\\): sono questi due elementi a guidare l'indicazione all'embolizzazione profilattica\\. La bilateralit\u00e0 nella TSC segnala la sindrome ma non \u00e8 di per s\u00e9 il predittore emorragico principale\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260831%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260831|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260831|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260831|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260831|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260831|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260831|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udee0\ufe0f *Report operativo*\n\u2022 Pill: 20260831 \u2014 tag: renal\\-angiomyolipoma \\(addome, L2\\)\n\u2022 Callback inbox processati: 0\n\u2022 Risposte Form nuove: 0\n\u2022 Carte resettate \\(dimenticate\\): 4\n\u2022 Ripasso incluso: no \\(cadenza 1g < 3\\)\n\u2022 Inbox cancellati: 0\n\u2022 Warning: nessuno \\(immagini verificate via web\\_search\\)",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
