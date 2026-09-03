@@ -719,5 +719,12 @@
     "domain": "cardio",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-03",
+    "tag": "dark-septations-fibroadenoma",
+    "domain": "altro",
+    "level": 3,
+    "source": "auto"
   }
 ]

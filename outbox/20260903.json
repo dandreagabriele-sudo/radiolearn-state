@@ -1,0 +1,192 @@
+{
+  "pill_id": "20260903",
+  "created_at": "2026-09-03T06:46:45.414167+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udc8a RadioLearn \u2014 Pillola del giorno*\n\n*\ud83c\udfaf Concetto: Fibroadenoma alla RM mammaria \u2014 i setti interni scuri non captanti*\n\nIl fibroadenoma \u00e8 il tumore benigno pi\u00f9 comune della mammella \\(donne giovani\\)\\. Alla RM con contrasto \\(DCE\\) mostra una morfologia benigna: forma ovale/rotonda e margini ben circoscritti\\.\n\n\u2022 Segno caratteristico: setti interni SCURI che NON si impregnano di contrasto\\. Corrispondono a bande di collagene che attraversano la lesione\\.\n\u2022 Cinetica: curva di tipo I \\(captazione progressiva/persistente\\) \\= pattern benigno\\.\n\u2022 Segnale T2 variabile secondo la composizione: stroma mixoide \u2192 brillante \\(iperintenso\\); componente sclerotica/fibrosa \u2192 scuro \\(ipointenso\\)\\.\n\n\u26a0\ufe0f Nuance importante: i setti scuri non captanti sono un indizio benigno ma NON specifici \u2014 descritti anche nei tumori fillodi e in una quota di carcinomi \\(fino a \\~47% delle lesioni maligne in alcune casistiche\\)\\. Vanno letti INSIEME a morfologia e cinetica, mai isolati\\.\n\n*\ud83d\udd17 Connessioni*\n\u2022 Fisica della DCE\\-MRI: il gadolinio accorcia il T1, cos\u00ec i tessuti vascolarizzati si \u00abaccendono\u00bb; le curve wash\\-in/plateau/wash\\-out \\(tipo I/II/III\\) sono una fotografia della farmacocinetica del contrasto\\. Il fibroadenoma, poco aggressivo, trattiene lentamente \u2192 tipo I\\.\n\u2022 Ancora mnemonica: pensa ai setti come alle venature bianche e fibrose di uno spicchio d'arancia \u2014 struttura di sostegno che non si \u00abaccende\u00bb\\.\n\u2022 Etimologia: fibro\\- \\(tessuto fibroso\\) \\+ adeno\\- \\(ghiandolare\\): il nome dice gi\u00e0 l'istologia mista, ed \u00e8 proprio la componente fibro\\-collagene a formare i setti\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\uddbc\ufe0f Immagini & fonti*\n\n\u2022 [Fibroadenoma \\(breast\\) \u2014 Radiopaedia](https://radiopaedia.org/articles/fibroadenoma-breast)\n\u2022 [Caso RM: breast fibroadenoma \u2014 Radiopaedia](https://radiopaedia.org/cases/breast-fibroadenoma-8)\n\u2022 [Breast MRI: what the radiologist needs to know \\(PMC\\)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3205515/)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 1*\n\nQual \u00e8 il segno RM classicamente benigno del fibroadenoma?\n\nA\\) Enhancement periferico ad anello con wash\\-out\nB\\) Setti interni scuri che NON captano contrasto\nC\\) Margini spiculati\nD\\) Marcata restrizione in diffusione con ADC molto basso\n\n||Risposta corretta: B \u2014 I setti scuri non captanti corrispondono a bande di collagene: reperto benigno tipico \\(ma non specifico\\)\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260903%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260903|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260903|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260903|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260903|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260903|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260903|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 2*\n\nQuale curva cinetica si associa tipicamente al fibroadenoma?\n\nA\\) Tipo III \\(wash\\-out\\)\nB\\) Tipo II \\(plateau\\)\nC\\) Tipo I \\(captazione progressiva/persistente\\)\nD\\) Nessuna captazione\n\n||Risposta corretta: C \u2014 La curva di tipo I \\(persistente\\) riflette una lesione poco aggressiva ed \u00e8 il pattern cinetico benigno\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260903%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260903|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260903|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260903|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260903|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260903|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260903|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 3*\n\nSui setti interni scuri non captanti, quale affermazione \u00e8 VERA?\n\nA\\) Sono patognomonici ed escludono il cancro\nB\\) Sono un indizio benigno ma NON specifici \\(anche in fillodi e alcuni carcinomi\\)\nC\\) Indicano malignit\u00e0\nD\\) Si vedono solo in T1 senza contrasto\n\n||Risposta corretta: B \u2014 Storicamente ritenuti specifici, in realt\u00e0 compaiono anche nei tumori fillodi e in molte lesioni maligne: da valutare col contesto\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260903%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260903|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260903|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260903|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260903|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260903|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260903|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 4*\n\nDa cosa dipende il segnale T2 del fibroadenoma?\n\nA\\) \u00c8 sempre uniformemente scuro\nB\\) \u00c8 sempre uniformemente brillante\nC\\) Varia con la composizione: stroma mixoide brillante, sclerotico/fibroso scuro\nD\\) Non \u00e8 valutabile alla RM\n\n||Risposta corretta: C \u2014 Il T2 rispecchia l'istologia: la componente mixoide \u00e8 iperintensa, quella sclerotica/fibrosa ipointensa\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260903%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260903|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260903|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260903|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260903|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260903|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260903|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd27 Rapporto operativo*\nPill 20260903 \u00b7 tag\\=dark\\-septations\\-fibroadenoma \u00b7 L3 \\(mammella\\)\nForm ingeriti: 14 \u00b7 Callback inbox: 0 \u00b7 Carte resettate: 4\nRipasso incluso: no \\(cadenza <3gg\\)\nInbox cancellati: 0",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
