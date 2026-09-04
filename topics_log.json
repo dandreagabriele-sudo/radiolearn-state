@@ -726,5 +726,12 @@
     "domain": "altro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-04",
+    "tag": "tavr-leaflet-thrombosis-halt",
+    "domain": "cardio",
+    "level": 1,
+    "source": "paper"
   }
 ]
