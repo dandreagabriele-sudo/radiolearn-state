@@ -1,0 +1,191 @@
+{
+  "pill_id": "20260904",
+  "created_at": "2026-09-04T06:40:00Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🎯 RadioLearn — Pillola da paper*\n\n*Trombosi subclinica del complesso valvolare aortico dopo TAVR*\n\n*Il concetto\\.* La trombosi subclinica dei lembi \\(SLT\\) si manifesta come ispessimento ipoattenuante dei lembi \\(HALT\\) ± ridotta mobilità \\(RLM\\) all'angio\\-TC cardiaca contrastografica\\. L'HALT è una lesione meniscoide a bassa attenuazione sulla superficie aortica del lembo bioprotesico, che progredisce dall'inserzione basale al margine libero ed è meglio valutabile in diastole dopo la coaptazione\\. Grading 0–4: G1 <25%, G2 25–50%, G3 \\>50% senza restrizione, G4 \\= HALT con ridotta mobilità del lembo\\.\n\n*La novità\\.* Il concetto si allarga da 'trombosi dei lembi' a trombosi subclinica del COMPLESSO valvolare aortico: non solo lembi \\(HALT, trombi sub\\-/sopravalvolari\\) ma anche strutture perivalvolari — seno di Valsalva, neosinus e seno nativo\\. Il neosinus è lo spazio tra il lembo della protesi e la gabbia dello stent; il seno nativo/anatomico è tra la valvola nativa residua e la parete aortica\\.\n\n*Meccanismo\\.* Stasi di flusso e washout lento nel neosinus \\(basso shear\\) innescano l'attivazione piastrinica\\. Le protesi supra\\-anulari hanno washout più rapido \\(anche via flusso coronarico\\) e circa metà del rischio delle intra\\-anulari di pari misura\\. Contribuiscono under\\-espansione/deployment asimmetrico, malallineamento commissurale, profondità d'impianto elevata e, nelle bicuspidi, le calcificazioni anulari/LVOT\\.\n\n*Asse valvulo\\-trombotico nativo\\.* La valvola nativa calcifica RITENUTA non è inerte: mostra captazione persistente di ¹⁸F\\-NaF alla PET, marker procalcifici \\(osteopontina, Runx\\-2\\) e vescicole extracellulari procoagulanti\\. Spiega perché la SLT è più frequente dopo TAVR che dopo SAVR, dove la nativa è rimossa\\.\n\n*Storia naturale dinamica\\.* Substudio TC PARTNER 3 senza anticoagulazione: \\~50% regredisce spontaneamente, \\~20% nuova insorgenza, \\~25% progredisce\\. Evolut Low Risk: HALT 17% a 30 gg → 31% a 1 anno, senza impatto emodinamico o clinico\\. C'è una disconnessione tra imaging ed esiti\\.\n\n*Paradosso antitrombotico \\(aspetto clinico\\)\\.* L'anticoagulante orale riduce l'HALT all'imaging \\(RRR \\~58%\\), ma nei pazienti SENZA indicazione all'OAC \\(GALILEO, ATLANTIS\\) aumenta mortalità, eventi e sanguinamenti: non va usato di routine per 'trattare' l'HALT\\. Il CT\\-ADP \\>180 s è un marker emergente di rischio emorragico per individualizzare la terapia\\.\n\n*Connessione multidisciplinare\\.* Triade di Virchow \\(1856\\): dopo TAVR sono presenti tutti e tre i bracci — stasi \\(il neosinus come 'zona morta idraulica' a basso wall shear stress\\), danno endoteliale \\(device \\+ tessuto nativo calcifico\\) e ipercoagulabilità \\(EV procoagulanti dalla stenosi aortica\\)\\. Gli autori usano anche l'analogia graft\\-vs\\-host: protesi \\('graft'\\) e ambiente del paziente \\('host'\\) innescano insieme la cascata protrombotica\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🖼️ Immagini & fonti*\n\n[HALT — Radiopaedia \\(definizione, esempi e casi\\)](https://radiopaedia.org/articles/hypoattenuated-leaflet-thickening)\n[Trombosi dei lembi post\\-TAVI: imaging multimodale \\(PMC, open access, figure\\)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8546909/)\n\n*Fonte primaria:* Marchandot B, Trimaille A, Kikuchi S, Truong DP, Carmona A, Morel O\\. Subclinical Leaflet Thrombosis and Subclinical Aortic Valve Complex Thrombosis in TAVR\\. JACC: Advances 2025;4\\(9\\):102085\\.\n[DOI: 10\\.1016/j\\.jacadv\\.2025\\.102085](https://doi.org/10.1016/j.jacadv.2025.102085)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧩 Domanda 1* — Nella scala di grading dell'HALT sull'angio\\-TC cardiaca contrastografica, cosa distingue il Grado 4 dal Grado 3?\n\nA\\) Il G4 coinvolge \\>50% del lembo, il G3 <50%\nB\\) Il G4 presenta ridotta mobilità del lembo \\(RLM\\), il G3 no\nC\\) Il G4 è visibile in sistole, il G3 solo in diastole\nD\\) Il G4 richiede conferma PET, il G3 solo la TC\n\n||Risposta corretta: B — Il Grado 3 è HALT esteso \\(\\>50% del lembo\\) SENZA restrizione del movimento; il Grado 4 aggiunge la ridotta mobilità del lembo \\(RLM / HAM\\)\\. La valutazione va fatta in diastole, dopo la coaptazione\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260904%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260904|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260904|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260904|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260904|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260904|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260904|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧩 Domanda 2* — Perché una protesi TAVR supra\\-anulare tende ad avere un rischio di trombosi dei lembi inferiore rispetto a una intra\\-anulare di pari misura?\n\nA\\) Ha lembi più spessi e resistenti\nB\\) Richiede sempre anticoagulazione orale a vita\nC\\) Garantisce un washout più rapido del neosinus \\(anche via flusso coronarico\\), riducendo la stasi\nD\\) Elimina chirurgicamente il seno nativo\n\n||Risposta corretta: C — Il neosinus \\(spazio tra lembo protesico e gabbia dello stent\\) con washout lento e basso shear favorisce l'attivazione piastrinica\\. Le valvole intra\\-anulari hanno \\~2× il rischio di SLT rispetto alle supra\\-anulari di pari misura \\(meta\\-analisi\\)\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260904%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260904|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260904|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260904|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260904|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260904|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260904|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧩 Domanda 3* — Quale evidenza supporta il concetto che la valvola aortica nativa calcifica RITENUTA non è un 'bystander inerte' dopo TAVR?\n\nA\\) Persistente captazione di ¹⁸F\\-NaF alla PET, con marker procalcifici \\(osteopontina, Runx\\-2\\) e vescicole extracellulari procoagulanti\nB\\) La valvola nativa viene sempre rimossa durante la TAVR\nC\\) L'incidenza di SLT è identica tra TAVR e SAVR\nD\\) Il tessuto nativo si riassorbe completamente entro 30 giorni\n\n||Risposta corretta: A — La nativa ritenuta resta biologicamente attiva \\(¹⁸F\\-NaF PET, osteopontina/Runx\\-2, EV procoagulanti\\): 'asse valvulo\\-trombotico nativo'\\. Spiega perché la SLT è più frequente dopo TAVR che dopo SAVR, dove la nativa è rimossa\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260904%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260904|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260904|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260904|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260904|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260904|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260904|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧩 Domanda 4* — Nei trial GALILEO e ATLANTIS, in pazienti SENZA indicazione all'anticoagulazione, l'anticoagulante orale \\(vs antiaggregante\\) ha mostrato:\n\nA\\) Riduzione dell'HALT e miglioramento degli esiti clinici\nB\\) Riduzione dell'HALT all'imaging ma AUMENTO di mortalità, eventi e sanguinamenti\nC\\) Nessun effetto sull'HALT\nD\\) Aumento paradosso dell'HALT\n\n||Risposta corretta: B — L'OAC riduce l'HALT all'imaging \\(RRR \\~58%\\) ma, senza indicazione formale, aumenta mortalità e sanguinamento: non va usato di routine per 'trattare' l'HALT\\. Disconnessione imaging–clinica; il CT\\-ADP \\>180 s è un marker emergente di rischio emorragico per individualizzare\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260904%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260904|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260904|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260904|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260904|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260904|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260904|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🛠️ RadioLearn — rapporto operativo*\n• Pillola: 20260904 \\(paper day\\)\n• Topic: tavr\\-leaflet\\-thrombosis\\-halt \\[cardio · Livello 1\\]\n• Fonte: Marchandot et al\\., JACC: Advances 2025;4\\(9\\):102085\n• Callback inbox processati: 0\n• Risposte Google Form ingerite: 0\n• Carte dimenticate \\(reset\\): 0\n• Ripasso incluso: no \\(cadenza 2<3 gg\\)\n• Nuove carte quiz: 4\n• Inbox cancellati: 0  ·  Warning: nessuno",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}

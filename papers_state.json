@@ -1,7 +1,8 @@
 {
   "processed_file_ids": [
     "1LISkdaPUDLeWTNhinsQA0kNZDbsshF2N",
-    "1P6e-Sk4QblWDbT-fR0o-4QB1jXtUbZpA"
+    "1P6e-Sk4QblWDbT-fR0o-4QB1jXtUbZpA",
+    "1omxhk0TjNIomhupxH5pXeK_zpi0sMAMz"
   ],
   "log": [
     {
@@ -15,6 +16,12 @@
       "pill_id": "20260629",
       "title": "Imaging of Immune Checkpoint Inhibitor Immunotherapy for Non-Small Cell Lung Cancer (Shroff et al., RadioGraphics 2022;42(7):1956-1974)",
       "date": "2026-06-29"
+    },
+    {
+      "file_id": "1omxhk0TjNIomhupxH5pXeK_zpi0sMAMz",
+      "pill_id": "20260904",
+      "title": "Subclinical Leaflet Thrombosis and Subclinical Aortic Valve Complex Thrombosis in TAVR (Marchandot et al., JACC: Advances 2025;4(9):102085)",
+      "date": "2026-09-04"
     }
   ]
 }
