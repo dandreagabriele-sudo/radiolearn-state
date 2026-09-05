@@ -1,0 +1,443 @@
+{
+  "pill_id": "20260905",
+  "created_at": "2026-09-05T06:50:33.291303+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\uddeb *RadioLearn \u2014 Neoplasia solida pseudopapillare del pancreas \\(tumore di Frantz\\)*\n\n\ud83d\udccc Concetto del giorno \\(Livello 2 \u2014 RM addome\\)\n\nLa neoplasia solida pseudopapillare \\(SPN, tumore di Frantz o di Hamoudi\\) \u00e8 una neoplasia epiteliale pancreatica rara, a basso grado di malignit\u00e0, tipica della GIOVANE DONNA \\(2\u00aa\u20133\u00aa decade, F:M \\~9:1\\)\\. Spesso incidentale o con dolore addominale vago\\.\n\n*RM \u2014 pattern tipico*\n\u2022 Massa GRANDE \\(media \\~7\u201310 cm\\), ben CAPSULATA, eterogenea, con componenti solide e cistiche da emorragia/necrosi\\.\n\u2022 Capsula fibrosa che si potenzia\\.\n\u2022 Emorragia intralesionale \u2192 aree IPERINTENSE in T1, meglio in T1 fat\\-sat; possibili livelli fluido\\-fluido\\.\n\u2022 Componente solida: T1 ipo, T2 iper, enhancement LENTO/PROGRESSIVO e disomogeneo \\(inferiore al parenchima pancreatico\\), con restrizione in DWI\\.\n\u2022 Dotto pancreatico principale NON dilatato \\(a differenza dell'adenocarcinoma\\); predilezione per la coda; calcificazioni <10% \\(spesso periferiche\\)\\.\n\n*DDx*\nNET \\(ipervascolare, enhancement arterioso precoce\\), cistoadenoma mucinoso \\(donna pi\u00f9 anziana, corpo\\-coda\\), cistoadenoma sieroso \\(microcistico, cicatrice centrale\\), pancreatoblastoma \\(bambini\\)\\.\n\n\u26a0\ufe0f Pearl: giovane donna \\+ massa capsulata solido\\-cistica con emorragia \\(T1 iper\\) \\+ dotto non dilatato \\= SPN fino a prova contraria\\. Prognosi eccellente dopo resezione \\(\\>95% guarigione; basso potenziale metastatico, soprattutto epatico\\)\\.\n\n\ud83d\udd17 Connessioni multidisciplinari\n\u2022 Storia della medicina: descritto da Virginia Kneeland Frantz \\(1959\\), pioniera donna della patologia chirurgica alla Columbia \u2014 un tumore \u00abdella giovane donna\u00bb descritto da una donna\\.\n\u2022 Biologia molecolare \\(via Wnt\\): mutazione di CTNNB1 \u2192 la \u03b2\\-catenina non viene degradata e si accumula nel NUCLEO; la perdita di coesione cellulare \\(perdita di E\\-caderina di membrana\\) fa s\u00ec che le cellule si sfaldino attorno ai vasi formando le PSEUDOPAPILLE \u2014 da cui il nome\\.\n\u2022 Fisica RM: l'iperintensit\u00e0 T1 dell'emorragia deriva dalla metaemoglobina, che accorcia il tempo di rilassamento T1; la fat\\-sat toglie il segnale del grasso e fa risaltare il sangue\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\uddbc\ufe0f *Immagini e fonti \\(verificate via web\\_search\\)*\n\n[Radiopaedia \u2014 SPN \\(tumore di Frantz\\), caso RM/TC](https://radiopaedia.org/cases/solid-pseudopapillary-tumour-of-the-pancreas-frantz-tumour-1)\n[Radiopaedia \u2014 Solid pseudopapillary neoplasm \\(caso\\)](https://radiopaedia.org/cases/solid-pseudopapillary-neoplasm-2)\n[RadioGraphics \u2014 Multimodality Imaging of Solid Pancreatic Lesions](https://pubs.rsna.org/doi/10.1148/rg.314105731)\n[RadioGraphics \u2014 Solid\\-Pseudopapillary Tumor of the Pancreas](https://pubs.rsna.org/doi/abs/10.1148/rg.236035006)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 1 \u2014 Ipertensione polmonare \\(TC\\)*\n\nPaziente con ipertensione polmonare nota: l'angio\\-TC mostra reflusso precoce del mezzo di contrasto in vena cava inferiore e vene sovraepatiche, con versamento pericardico\\. Come si interpreta il quadro?\n\nA\\) Artefatto di iniezione, privo di significato clinico\nB\\) Rigurgito tricuspidale da sovraccarico/scompenso del ventricolo destro; il versamento pericardico \u00e8 un marker prognostico negativo\nC\\) Trombosi acuta della vena cava inferiore\nD\\) Reperto tipico di ipertensione portale, non polmonare\n\n||Risposta corretta: B \u2014 il reflusso di mdc in VCI/vene sovraepatiche riflette rigurgito tricuspidale e aumento della pressione atriale destra da disfunzione del VD; in IP il versamento pericardico si associa a prognosi peggiore\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260714%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260714|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260714|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260714|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260714|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260714|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260714|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 2 \u2014 High\\-attenuation mucus \\(ABPA\\)*\n\nNell'ABPA il muco impattato pu\u00f2 apparire pi\u00f9 denso del muscolo paraspinale \\(\\>70 HU\\) \u2014 high\\-attenuation mucus\\. Quale meccanismo FISICO lo spiega?\n\nA\\) Aria intrappolata nel muco\nB\\) Concentrazione di calcio e metalli \\(ferro, manganese\\) nel muco disidratato, che alza il numero atomico efficace e quindi l'attenuazione\nC\\) Emorragia endobronchiale acuta\nD\\) Deposito passivo di mezzo di contrasto iodato\n\n||Risposta corretta: B \u2014 l'iperdensit\u00e0 nasce dalla concentrazione di sali di calcio e metalli \\(Fe, Mn\\) nel muco inspissato/desiccato: aumentando lo Zeff aumenta l'assorbimento dei raggi X\\. \u00c8 quasi patognomonica di ABPA e segnala attivit\u00e0 immunologica\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260716%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260716|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260716|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260716|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260716|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260716|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260716|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 3 \u2014 Origine coronarica anomala \\(clinica\\)*\n\nAtleta di 19 anni con sincope da sforzo\\. Angio\\-TC coronarica: RCA che origina dal seno coronarico sinistro con decorso interarterioso e segmento intramurale\\. Condotta corretta?\n\nA\\) Reperto benigno, nessun ulteriore accertamento\nB\\) Le anomalie di origine coronarica sono tra le prime cause di morte cardiaca improvvisa nel giovane atleta: serve stratificazione del rischio ed eventuale correzione chirurgica \\(unroofing/reimpianto\\)\nC\\) Terapia di scelta sempre e solo medica con beta\\-bloccanti\nD\\) I test da sforzo a riposo sono sempre diagnostici e sufficienti\n\n||Risposta corretta: B \u2014 l'ACAOS interarterioso con segmento intramurale \u00e8 la 2\u00aa causa di SCD nel giovane atleta dopo la cardiomiopatia ipertrofica; impone stratificazione \\(imaging da stress, eventuale FFR/IVUS\\) e chirurgia nei casi ad alto rischio/sintomatici\\. I test a riposo sono spesso normali\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260717%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260717|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260717|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260717|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260717|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260717|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260717|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 4 \u2014 Nomenclatura di Angelini*\n\nRefertando un'anomalia di origine coronarica secondo Angelini, quali DUE assi indipendenti vanno sempre descritti?\n\nA\\) Solo calibro del vaso e dominanza coronarica\nB\\) La sede di origine \\(es\\. ACAOS\\) e il TIPO DI DECORSO \\(interarterioso, retroaortico, prepolmonare, settale\\) \u2014 \u00e8 il decorso a definire il rischio\nC\\) Et\u00e0 del paziente e frazione di eiezione\nD\\) Presenza di calcio e lunghezza totale del vaso\n\n||Risposta corretta: B \u2014 sede d'origine e decorso sono due assi indipendenti: l'origine dal seno opposto \u00e8 l'anomalia, ma \u00e8 il decorso \\(soprattutto interarterioso \\+ segmento intramurale\\) a stabilire la pericolosit\u00e0\\. Vanno refertati entrambi\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260717%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260717|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260717|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260717|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260717|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260717|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260717|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 5 \u2014 High\\-risk features \\(angio\\-TC\\)*\n\nTra i seguenti reperti all'angio\\-TC di una coronaria con origine dal seno opposto, quale NON \u00e8 una high\\-risk feature?\n\nA\\) Ostio ellittico \u00abslit\\-like\u00bb\nB\\) Angolo di take\\-off acuto \\(<45\u00b0\\)\nC\\) Decorso retroaortico\nD\\) Segmento intramurale lungo\n\n||Risposta corretta: C \u2014 il decorso retroaortico \u00e8 benigno \\(nessuna compressione fra i grandi vasi\\)\\. Ostio slit\\-like, take\\-off acuto e segmento intramurale lungo sono invece high\\-risk features del decorso interarterioso\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260717%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260717|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260717|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260717|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260717|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260717|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260717|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 6 \u2014 Rottura protesi mammaria \\(RM\\)*\n\nNello spettro RM della rottura INTRAcapsulare della protesi al silicone, quale segno indica il collasso COMPLETO del guscio elastomerico, pi\u00f9 avanzato dei segni del \u00abcappio\u00bb \\(noose\\) e del \u00abbuco della serratura\u00bb \\(keyhole\\)?\n\nA\\) Il segno delle linguine \\(multiple linee ondulate ipointense che galleggiano nel gel\\)\nB\\) Lo \u00absnowstorm\u00bb ecografico\nC\\) La subcapsular line isolata\nD\\) Il granuloma siliconico linfonodale\n\n||Risposta corretta: A \u2014 il segno delle linguine \u00e8 il guscio interamente collassato che galleggia nel gel ancora contenuto dalla capsula fibrosa \u2014 rottura intracapsulare avanzata\\. Subcapsular line, noose e keyhole sono stadi pi\u00f9 precoci; lo snowstorm e il granuloma linfonodale sono invece segni di rottura EXTRAcapsulare\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260718%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260718|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260718|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260718|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260718|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260718|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260718|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 1 \u2014 Riconoscimento*\n\nDonna di 28 anni: massa pancreatica di 7 cm ben capsulata, con componenti solide e cistiche e aree iperintense in T1 fat\\-sat; dotto pancreatico principale non dilatato\\. Diagnosi pi\u00f9 probabile?\n\nA\\) Adenocarcinoma duttale\nB\\) Neoplasia solida pseudopapillare \\(tumore di Frantz\\)\nC\\) Pancreatite cronica focale\nD\\) Cisti da ritenzione semplice\n\n||Risposta corretta: B \u2014 giovane donna \\+ massa grande capsulata solido\\-cistica con emorragia \\(T1 iper\\) e dotto NON dilatato sono tipici della SPN\\. L'adenocarcinoma \u00e8 ipovascolare, infiltrante e d\u00e0 dilatazione duttale a monte\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260905%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260905|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260905|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260905|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260905|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260905|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260905|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 2 \u2014 Segnale RM dell'emorragia*\n\nQuale reperto RM riflette l'emorragia intralesionale della SPN ed \u00e8 meglio evidenziato in una sequenza specifica?\n\nA\\) Ipointensit\u00e0 in T2 senza correlato in T1\nB\\) Aree iperintense in T1 con soppressione del grasso \\(fat\\-sat\\), eventualmente con livelli fluido\\-fluido\nC\\) Assenza completa di enhancement della capsula\nD\\) Restrizione della diffusione limitata alla sola componente cistica\n\n||Risposta corretta: B \u2014 l'emorragia \\(metaemoglobina\\) \u00e8 iperintensa in T1; la fat\\-sat sopprime il grasso e la rende evidente\\. Possibili livelli fluido\\-fluido da stratificazione dei prodotti ematici\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260905%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260905|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260905|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260905|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260905|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260905|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260905|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 3 \u2014 DDx con il NET*\n\nQuale caratteristica di enhancement aiuta a distinguere la SPN da un tumore neuroendocrino pancreatico \\(NET\\)?\n\nA\\) La SPN mostra enhancement arterioso precoce e intenso, il NET no\nB\\) La SPN ha enhancement solido lento/progressivo e disomogeneo \\(inferiore al parenchima\\), mentre il NET \u00e8 tipicamente ipervascolare con enhancement arterioso precoce\nC\\) Nessuna delle due lesioni si potenzia\nD\\) Entrambe causano costante dilatazione del dotto pancreatico principale\n\n||Risposta corretta: B \u2014 il NET \u00e8 classicamente ipervascolare \\(enhancement arterioso precoce\\); la SPN ha enhancement lento e disomogeneo della componente solida, inferiore al parenchima\\. Questo, con l'emorragia e la capsula, orienta la diagnosi\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260905%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260905|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260905|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260905|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260905|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260905|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260905|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 4 \u2014 Base molecolare e prognosi*\n\nQual \u00e8 la base molecolare che spiega le pseudopapille della SPN e quale ne \u00e8 la prognosi?\n\nA\\) Amplificazione di HER2; prognosi infausta\nB\\) Mutazione di CTNNB1 \\(\u03b2\\-catenina\\) con accumulo nucleare e perdita di coesione cellulare \\(perdita di E\\-caderina\\); prognosi eccellente dopo resezione\nC\\) Mutazione di KRAS come nell'adenocarcinoma duttale; prognosi infausta\nD\\) Traslocazione EWSR1; prognosi intermedia\n\n||Risposta corretta: B \u2014 la mutazione di CTNNB1 attiva la via Wnt: la \u03b2\\-catenina si accumula nel nucleo e la perdita di E\\-caderina riduce la coesione, per cui le cellule si sfaldano attorno ai vasi \\(pseudopapille\\)\\. La prognosi \u00e8 eccellente dopo resezione completa\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260905%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260905|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260905|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260905|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260905|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260905|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260905|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udee0\ufe0f *Rapporto operativo RadioLearn*\n\u2022 Pill: 20260905 \u2014 solid\\-pseudopapillary\\-neoplasm \\(addome/L2, auto\\)\n\u2022 Callback inbox processati: 0 file\n\u2022 Risposte Form ingerite: 4\n\u2022 Carte resettate \\(dimenticate\\): 0\n\u2022 Ripasso incluso: s\u00ec \u2014 20260714:3, 20260716:0, 20260717:0, 20260717:1, 20260717:3, 20260718:3\n\u2022 Nuove domande: 4 \\(card 20260905:0\u20133\\)\n\u2022 Inbox cancellati: 0\n\u2022 Warning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}

@@ -733,5 +733,12 @@
     "domain": "cardio",
     "level": 1,
     "source": "paper"
+  },
+  {
+    "date": "2026-09-05",
+    "tag": "solid-pseudopapillary-neoplasm",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
