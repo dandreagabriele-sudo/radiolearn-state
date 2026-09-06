@@ -740,5 +740,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-06",
+    "tag": "molar-tooth-sign-joubert",
+    "domain": "neuro",
+    "level": 3,
+    "source": "auto"
   }
 ]
