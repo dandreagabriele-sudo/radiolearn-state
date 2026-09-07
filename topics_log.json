@@ -747,5 +747,12 @@
     "domain": "neuro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-07",
+    "tag": "cteph-chronic-thromboembolic",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
