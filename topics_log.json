@@ -754,5 +754,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-08",
+    "tag": "gamna-gandy-bodies-spleen",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
