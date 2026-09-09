@@ -1,0 +1,197 @@
+{
+  "pill_id": "20260909",
+  "created_at": "2026-09-09T06:48:34Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udec1 RadioLearn \u2014 Mediastinite fibrosante \\(Livello 1\\)\n\n\ud83d\udccc Concetto\nProliferazione di collagene acellulare e tessuto fibroso denso nel mediastino che ingloba \\(encasement\\) e stenosa progressivamente vasi, vie aeree ed esofago\\. Processo non neoplastico ma localmente invasivo, che pu\u00f2 mimare una neoplasia\\.\n\nDue pattern \\(classificazione Rossi/McNeeley, RadioGraphics 2001\\):\n\u2022 Focale/granulomatosa \u2014 la pi\u00f9 frequente in Nord America\\. Massa localizzata, spesso paratracheale destra o sottocarenale, tipicamente CALCIFICA\\. Risposta immune idiosincratica a Histoplasma capsulatum \\(talora TBC\\)\\.\n\u2022 Diffusa/infiltrante non calcifica \u2014 coinvolge pi\u00f9 compartimenti; associata a malattia IgG4\\-correlata, fibrosi idiopatica multifocale, sarcoidosi, radioterapia, farmaci \\(metisergide\\)\\.\n\n\ud83d\udd0e TC con mdc \\(modalit\u00e0 di scelta\\)\nTessuto molle infiltrante che oblitera i piani adiposi; calcificazioni nella forma granulomatosa; encasement/stenosi di VCS, vene polmonari, arterie polmonari e bronchi centrali\\.\n\n\u26a0\ufe0f Complicanze chiave\n\u2022 Sindrome della VCS con circoli collaterali\\.\n\u2022 Stenosi delle vene polmonari \u2192 \u201cpseudo\\-stenosi mitralica\u201d: congestione, edema, emottisi, ipertensione venosa polmonare\\.\n\u2022 Stenosi unilaterale dell'arteria polmonare \u2192 oligoemia regionale \\+ ipertensione polmonare; broncolitiasi e atelettasia da compressione bronchiale\\.\n\n\ud83e\udded DD & gestione\nDD con linfoma e adenopatia metastatica: calcificazioni \\+ encasement infiltrante senza massa dominante orientano \\(attenzione: la PET capta anche in fase attiva e non discrimina dalla neoplasia; conta la biopsia nei casi dubbi\\)\\. Forma granulomatosa stabilizzata \u2192 trattamento sintomatico \\+ stenting endovascolare/bronchiale \\(antifungini e steroidi poco efficaci sulla fibrosi matura\\); forma IgG4\\-correlata \u2192 steroidi/rituximab\\.\n\n\ud83d\udd17 Connessioni\n\u2022 Geografia/storia: Histoplasma capsulatum \u00e8 endemico nelle valli dei fiumi Ohio e Mississippi; cresce nel suolo arricchito dal guano di uccelli e pipistrelli \\(grotte \u2192 la \u201ccave disease\u201d degli speleologi\\)\\. Epidemie storiche legate a scavi e demolizioni che aerosolizzano le spore: chiedi sempre viaggi ed esposizioni\\.\n\u2022 Fisica: la resistenza al flusso segue Poiseuille \\(R \u221d 1/r\u2074\\)\\. Una riduzione modesta del calibro di una vena polmonare genera un gradiente sproporzionato \u2014 ecco perch\u00e9 una stenosi \u201clieve\u201d pu\u00f2 dare congestione severa, l'analogia pseudo\\-mitralica\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\uddbc\ufe0f Immagini & fonti\n\n\u2022 [Radiopaedia \u2014 Mediastinite fibrosante \\(articolo\\)](https://radiopaedia.org/articles/fibrosing-mediastinitis)\n\u2022 [Radiopaedia \u2014 Caso TC](https://radiopaedia.org/cases/fibrosing-mediastinitis-1)\n\u2022 [AJR \u2014 Imaging of Granulomatous Fibrosing Mediastinitis](https://www.ajronline.org/doi/10.2214/AJR.11.7319)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 1 \\(Livello 1\\)*\n\nUomo di 45 anni originario della valle dell'Ohio, dispnea ingravescente ed emottisi\\. TC del torace: tessuto molle mediastinico infiltrante con calcificazioni sottocarenali che ingloba e stenosa le vene polmonari di destra\\. Quale meccanismo fisiopatologico spiega meglio il quadro clinico?\n\nA\\) Sindrome della vena cava superiore\nB\\) Pseudo\\-stenosi mitralica da stenosi delle vene polmonari\nC\\) Embolia polmonare acuta\nD\\) Tamponamento pericardico\n\n||Risposta corretta: B \u2014 l'encasement con stenosi delle vene polmonari ostacola il deflusso e produce ipertensione venosa polmonare a monte, come una stenosi mitralica: congestione, edema e emottisi \\(\u201cpseudo\\-stenosi mitralica\u201d\\)\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260909%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260909|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260909|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260909|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260909|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260909|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260909|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 2 \\(Livello 1\\)*\n\nLa forma FOCALE granulomatosa e calcifica della mediastinite fibrosante \u2014 la pi\u00f9 comune in Nord America \u2014 \u00e8 pi\u00f9 spesso conseguenza di quale eziologia?\n\nA\\) Malattia IgG4\\-correlata\nB\\) Radioterapia mediastinica pregressa\nC\\) Pregressa infezione da Histoplasma capsulatum\nD\\) Assunzione di metisergide\n\n||Risposta corretta: C \u2014 la forma granulomatosa calcifica \u00e8 una risposta immune idiosincratica a un'infezione pregressa da Histoplasma \\(o TBC\\)\\. IgG4, radioterapia e farmaci si associano invece alla forma diffusa, non calcifica\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260909%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260909|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260909|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260909|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260909|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260909|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260909|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 3 \\(Livello 1\\)*\n\nQuale reperto TC \u00e8 pi\u00f9 utile per orientare verso una mediastinite fibrosante granulomatosa piuttosto che verso un linfoma?\n\nA\\) Massa a tessuto molle nel mediastino\nB\\) Linfoadenopatia mediastinica\nC\\) Calcificazioni nel tessuto infiltrante con encasement vascolare, senza massa dominante\nD\\) Captazione di FDG alla PET\n\n||Risposta corretta: C \u2014 calcificazioni ed encasement infiltrante senza una massa dominante orientano alla forma granulomatosa\\. La PET capta in entrambe \\(fase attiva\\) e non discrimina; il linfoma di norma non calcifica prima della terapia\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260909%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260909|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260909|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260909|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260909|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260909|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260909|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Domanda 4 \\(Livello 1\\)*\n\nUomo con mediastinite fibrosante granulomatosa calcifica e stenosi sintomatica della VCS e di un ramo dell'arteria polmonare\\. Qual \u00e8 l'approccio gestionale pi\u00f9 appropriato?\n\nA\\) Antifungino sistemico ad alte dosi per dissolvere la fibrosi\nB\\) Resezione chirurgica radicale come prima linea\nC\\) Trattamento sintomatico con stenting endovascolare/bronchiale mirato\nD\\) Chemioterapia sistemica\n\n||Risposta corretta: C \u2014 nella fibrosi matura antifungini e steroidi hanno efficacia limitata e la chirurgia radicale \u00e8 rischiosa per l'encasement; la palliazione mirata con stenting endovascolare o delle vie aeree \u00e8 lo standard\\. La forma IgG4\\-correlata, contesto diverso, risponde a steroidi/rituximab\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260909%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260909|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260909|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260909|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260909|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260909|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260909|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udee0\ufe0f Rapporto RadioLearn 2026\\-09\\-09\n\u2022 Callback inbox processati: 0 file\n\u2022 Risposte Google Form ingerite: 10\n\u2022 Carte resettate \\(dimenticate\\): 4\n\u2022 Pillola: 20260909 \u2014 fibrosing\\-mediastinitis \\(torace, Livello 1\\)\n\u2022 Ripasso incluso: no \\(cadenza < 3 gg\\)\n\u2022 Paper del giorno: no \\(coda Drive gi\u00e0 processata\\)\n\u2022 Nuove domande: 4",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
