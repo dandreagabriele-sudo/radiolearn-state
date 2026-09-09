@@ -761,5 +761,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-09",
+    "tag": "fibrosing-mediastinitis",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
