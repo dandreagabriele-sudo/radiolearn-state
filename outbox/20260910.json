@@ -1,0 +1,191 @@
+{
+  "pill_id": "20260910",
+  "created_at": "2026-09-10T06:48:57.256041+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udde0 *RadioLearn \u2014 Cisti del dotto tireoglosso* \\(Livello 3 \u2014 basi\\)\n\n\ud83d\udccc *Concetto*\nNell'embrione la tiroide nasce alla base della lingua \\(forame cieco\\) e poi \"scende\" lungo il collo fino alla sua sede definitiva davanti alla trachea\\. Il percorso che segue \u00e8 il dotto tireoglosso, che normalmente si chiude e scompare\\.\nSe un tratto del dotto NON si chiude, resta un residuo rivestito di epitelio che pu\u00f2 riempirsi di liquido: \u00e8 la cisti del dotto tireoglosso\\.\n\u00c8 la massa cervicale congenita pi\u00f9 frequente e la pi\u00f9 comune massa mediana \\(sulla linea di mezzo\\) del collo nel bambino\\.\n\n\ud83d\udccd *Dove si trova*\nLinea mediana o paramediana, a livello o appena sotto l'osso ioide, in stretto rapporto con la membrana tiroioidea\\.\nSegno clinico classico: la tumefazione si muove verso l'alto quando il paziente deglutisce o protrude la lingua \\(\u00e8 \"agganciata\" all'osso ioide e alla base lingua\\)\\.\n\n\ud83d\udd0e *Imaging*\n\u2022 Ecografia \\= esame di prima scelta: lesione cistica anecogena/ipoecogena, ben delimitata, mediana, senza radiazioni\\.\n\u2022 TC/RM: contenuto liquido \\(ipodenso in TC, iperintenso in T2 alla RM\\), parete sottile; se infetta la parete si ispessisce e capta il contrasto\\.\n\n\u26a0\ufe0f *Due cose da ricordare*\n1\\) Prima di operare bisogna documentare una tiroide normale in sede: raramente la \"cisti\" contiene l'unico tessuto tiroideo funzionante \\(tiroide ectopica\\) \u2014 rimuoverla causerebbe ipotiroidismo\\.\n2\\) L'intervento classico \u00e8 la procedura di Sistrunk \\(asportazione di cisti, tratto del dotto e porzione centrale dell'osso ioide\\) per ridurre le recidive\\.\n\u2022 Complicanza rara: un piccolo carcinoma \\(di solito papillare\\) pu\u00f2 insorgere nella cisti \u2192 sospettarlo se compare una componente solida o calcificazioni\\.\n\n\ud83d\udd17 *Connessioni*\n\u2022 Embriologia/storia: il forame cieco alla base della lingua \u00e8 il \"punto di partenza\" della tiroide ed \u00e8 ancora visibile nell'adulto come piccola fossetta mediana \u2014 una traccia anatomica del viaggio embrionale\\. Il nome stesso, tireo\\-glosso, racconta il tragitto tiroide\u2194lingua\\.\n\u2022 Anatomia funzionale: la cisti \u00e8 mediana e si eleva con la deglutizione perch\u00e9 il dotto passa davanti \\(o attraverso\\) l'osso ioide, che durante la deglutizione viene tirato in alto dai muscoli sovraioidei: un semplice aggancio meccanico spiega il segno\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\uddbc\ufe0f *Immagini & fonti*\n\u2022 [Radiopaedia \u2014 articolo](https://radiopaedia.org/articles/thyroglossal-duct-cyst)\n\u2022 [Radiopaedia \u2014 caso](https://radiopaedia.org/cases/thyroglossal-duct-cyst-30)\n\u2022 [Wikimedia Commons \u2014 TC/ecografia](https://commons.wikimedia.org/wiki/Category:Thyroglossal_cyst)\n\u2022 [RadioGraphics \u2014 Imaging of Ectopic Thyroid Tissue and Thyroglossal Duct Cysts](https://pubs.rsna.org/doi/abs/10.1148/rg.341135055)\n\u2022 [RadioGraphics \u2014 Congenital and Infantile Masses of the Head and Neck](https://pubs.rsna.org/doi/abs/10.1148/rg.240059)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udde9 *Domanda 1 \\(Livello 3\\)*\n\nBambino di 6 anni con tumefazione mediana del collo che si sposta verso l'alto quando protrude la lingua\\. Diagnosi pi\u00f9 probabile?\n\nA\\) Cisti branchiale \\(laterocervicale\\)\nB\\) Cisti del dotto tireoglosso\nC\\) Linfonodo reattivo laterocervicale\nD\\) Igroma cistico ascellare\n\n||Risposta corretta: B \u2014 una massa mediana che si eleva con la protrusione della lingua/deglutizione \u00e8 il quadro tipico della cisti del dotto tireoglosso; la cisti branchiale \u00e8 invece laterale\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260910%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260910|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260910|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260910|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260910|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260910|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260910|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udde9 *Domanda 2 \\(Livello 3\\)*\n\nQual \u00e8 l'esame di imaging di prima scelta per una sospetta cisti del dotto tireoglosso in et\u00e0 pediatrica?\n\nA\\) TC con mezzo di contrasto\nB\\) Scintigrafia tiroidea\nC\\) Ecografia\nD\\) PET\\-TC con FDG\n\n||Risposta corretta: C \u2014 l'ecografia \u00e8 non invasiva, senza radiazioni e mostra bene la lesione cistica mediana; la scintigrafia si riserva al sospetto di tiroide ectopica\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260910%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260910|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260910|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260910|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260910|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260910|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260910|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udde9 *Domanda 3 \\(Livello 3\\)*\n\nPerch\u00e9, prima di asportare una cisti del dotto tireoglosso, \u00e8 importante documentare una tiroide normale in sede ortotopica?\n\nA\\) Per stadiare un eventuale tumore\nB\\) Perch\u00e9 la \"cisti\" potrebbe contenere l'unico tessuto tiroideo funzionante \\(tiroide ectopica\\) e rimuoverla causerebbe ipotiroidismo\nC\\) Per scegliere il tipo di mezzo di contrasto\nD\\) Per escludere una cisti branchiale\n\n||Risposta corretta: B \u2014 in rari casi la massa mediana \u00e8 tiroide ectopica, cio\u00e8 l'unica tiroide del paziente; asportarla senza verificarlo provoca ipotiroidismo permanente\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260910%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260910|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260910|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260910|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260910|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260910|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260910|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udde9 *Domanda 4 \\(Livello 3\\)*\n\nDa quale struttura embrionale origina la cisti del dotto tireoglosso?\n\nA\\) Dai residui degli archi branchiali laterali\nB\\) Dalla mancata obliterazione del dotto tireoglosso, lungo il tragitto di discesa della tiroide dal forame cieco al collo\nC\\) Dai resti della notocorda\nD\\) Da un'anomalia dei vasi linfatici\n\n||Risposta corretta: B \u2014 la cisti deriva da un residuo pervio del dotto tireoglosso, il tragitto lungo cui la tiroide scende dalla base della lingua \\(forame cieco\\) fino al collo\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260910%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260910|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260910|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260910|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260910|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260910|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260910|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udd16 *RadioLearn \u2014 rapporto operativo*\nPill 20260910 \u2014 Cisti del dotto tireoglosso \\(L3, altro\\)\nCallback inbox processati: 0 \u00b7 Risposte Form nuove: 4\nCarte resettate \\(no\\-show\\): 0\nRipasso incluso: no \\(cadenza 2/3 gg\\)\nInbox cancellati: 0 \u00b7 Warning: nessuno",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
