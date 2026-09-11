@@ -775,5 +775,12 @@
     "domain": "altro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-11",
+    "tag": "minoca",
+    "domain": "cardio",
+    "level": 1,
+    "source": "auto"
   }
 ]
