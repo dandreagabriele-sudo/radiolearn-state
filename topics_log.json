@@ -789,5 +789,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-13",
+    "tag": "pvns-tgct-blooming",
+    "domain": "msk",
+    "level": 3,
+    "source": "auto"
   }
 ]

@@ -6650,6 +6650,42 @@
       "last_quality": null,
       "history": [],
       "last_presented": "2026-09-12"
+    },
+    "20260913:0": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-09-13",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-09-13"
+    },
+    "20260913:1": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-09-13",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-09-13"
+    },
+    "20260913:2": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-09-13",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-09-13"
+    },
+    "20260913:3": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-09-13",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-09-13"
     }
   },
   "history": [
