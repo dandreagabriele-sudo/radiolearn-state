@@ -1,0 +1,411 @@
+{
+  "pill_id": "20260915",
+  "created_at": "2026-09-15T06:52:09Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83e\udde0 RadioLearn \u2014 Pillola del giorno*\n*Segno del volto del panda gigante \\(face of the giant panda\\) \u2014 Malattia di Wilson*\nRM assiale T2 del mesencefalo \u00b7 Livello 3 \\(RM altri distretti \u2014 neuroradiologia, taglio didattico di base\\)\n\nIl \u00abvolto del panda gigante\u00bb \u00e8 un aspetto RM in T2 assiale del mesencefalo \\(a livello dei collicoli superiori\\) considerato quasi patognomonico della malattia di Wilson \\(degenerazione epato\\-lenticolare\\)\\. L'immagine ricorda il muso di un panda:\n\n\u2022 \u00abfaccia\u00bb chiara del panda \\= iperintensit\u00e0 T2 diffusa del tegmento mesencefalico;\n\u2022 \u00abocchi\u00bb scuri \\= i nuclei rossi, che conservano il segnale normale \\(ipointenso\\);\n\u2022 \u00aborecchie\u00bb \\= risparmio laterale della pars reticulata della substantia nigra \\(segnale normale\\);\n\u2022 \u00abmento/muso\u00bb scuro \\= ipointensit\u00e0 dei collicoli superiori\\.\n\nNel tegmento del ponte pu\u00f2 comparire un secondo volto pi\u00f9 piccolo \\(il \u00abcucciolo\u00bb/miniature panda\\): insieme formano il \u00abdouble panda sign\u00bb, tipico di Wilson\\. Si pu\u00f2 associare al \u00abtrident sign\u00bb pontino e a iperintensit\u00e0 T2 simmetriche di putamen, globo pallido e talami\\.\n\nLa malattia di Wilson \u00e8 un difetto autosomico recessivo del gene ATP7B: il rame non viene escreto nella bile n\u00e9 caricato sulla ceruloplasmina \u2192 accumulo tossico in fegato, gangli della base e cornea \\(anelli di Kayser\\-Fleischer\\)\\. Riconoscere il quadro conta perch\u00e9 la malattia \u00e8 trattabile \\(chelanti del rame: penicillamina, trientina; zinco\\)\\.\n\nAttenzione: il pattern non \u00e8 esclusivo\\. Un aspetto analogo si pu\u00f2 vedere in encefaliti virali \\(Giapponese, West Nile\\), leucoencefalopatia tossica \\(metanolo\\) e mielinolisi osmotica; nel contesto clinico giusto \\(giovane con disturbi del movimento e/o epatopatia \\+ anelli KF\\) resta per\u00f2 fortemente suggestivo\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd17 Connessioni multidisciplinari*\n\n\u2022 Biochimica \\(redox\\): il rame \u00e8 un metallo di transizione redox\\-attivo\\. Se libero, catalizza la reazione di Fenton generando radicali idrossilici \u2192 stress ossidativo neuronale\\. ATP7B \u00e8 una P\\-type ATPasi che carica il rame sulla ceruloplasmina e ne elimina l'eccesso nella bile; il suo difetto spiega ceruloplasmina bassa e rame libero alto\\.\n\n\u2022 Neuroanatomia: il mesencefalo ai collicoli superiori contiene nuclei rossi, substantia nigra e sostanza grigia periacqueduttale; \u00e8 la relativa conservazione di queste strutture contro il tegmento alterato a \u00abdisegnare\u00bb il volto\\.\n\n\u2022 Percezione \\(pareidolia\\): riconoscere un volto in un pattern casuale \u00e8 pareidolia, mediata dall'area fusiforme delle facce \\(FFA\\)\\. I \u00absegni\\-volto\u00bb radiologici sfruttano questo automatismo come potente ancora mnemonica\\.\n\n\u2022 Storia: il segno fu descritto da Hitoshi et al\\. nel 1991 su RM in pazienti con malattia di Wilson\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\uddbc Immagini e fonti*\n\n[Radiopaedia \u2014 Face of the giant panda sign \\(midbrain\\)](https://radiopaedia.org/articles/face-of-the-giant-panda-sign-midbrain)\n[Radiopaedia \u2014 Double panda sign](https://radiopaedia.org/articles/double-panda-sign)\n[Radiopaedia \u2014 Wilson disease \\(CNS manifestations\\)](https://radiopaedia.org/articles/wilson-disease-cns-manifestations-1)\n[Wikipedia \u2014 Face of the giant panda sign](https://en.wikipedia.org/wiki/Face_of_the_giant_panda_sign)\n[Oxford Med Case Reports 2014 \u2014 \u00abpanda\u00bb \\+ \u00abtrident\u00bb signs](https://academic.oup.com/omcr/article/2014/1/16/1545439)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 1 \u2014 \ud83d\udd01 Ripasso*\nIpertrofia lipomatosa del setto interatriale \\(LHIS\\)\\. Alla RM, oltre alla soppressione con fat\\-sat, quale reperto delle sequenze in fase/opposizione di fase \\(chemical shift\\) conferma l'interfaccia grasso\\-miocardio?\n\nA\\) Blooming marcato in T2\\* \\(GRE\\) da emosiderina\nB\\) Artefatto \u00abIndia ink\u00bb \\(bordo nero\\) alle interfacce grasso\\-acqua nelle immagini out\\-of\\-phase\nC\\) Restrizione in DWI con basso ADC\nD\\) Enhancement precoce e wash\\-out come un HCC\n\n||Risposta corretta: B \u2014 a 1,5 T grasso e acqua sfasano \\(\\~220 Hz\\); nelle immagini out\\-of\\-phase l'interfaccia grasso\\-miocardio genera il tipico bordo nero \u00abIndia ink\u00bb, che conferma la natura adiposa\\. Il blooming T2\\* \u00e8 dell'emosiderina; restrizione DWI ed enhancement con wash\\-out indicano lesioni cellulate/neoplastiche\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260725%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260725|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260725|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260725|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260725|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260725|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260725|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 2 \u2014 \ud83d\udd01 Ripasso*\nLHIS e PET\\. Un setto a manubrio, adiposo, mostra intensa captazione FDG per il grasso bruno\\. Quale accorgimento riduce il tranello e qual \u00e8 la proteina responsabile della termogenesi del grasso bruno?\n\nA\\) Idratazione forzata; proteina \\= ferritina\nB\\) Premedicazione con \u03b2\\-bloccante \\(propranololo\\); proteina \\= UCP\\-1 \\(termogenina\\)\nC\\) Digiuno da carboidrati per 3 giorni; proteina \\= albumina\nD\\) Furosemide; proteina \\= ceruloplasmina\n\n||Risposta corretta: B \u2014 il grasso bruno capta FDG per l'attivit\u00e0 mitocondriale disaccoppiante mediata da UCP\\-1 \\(termogenina\\), stimolata per via \u03b2\\-adrenergica\\. Propranololo \\(e/o riscaldare il paziente\\) spegne la captazione, evitando il falso sospetto di malignit\u00e0\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260725%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260725|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260725|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260725|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260725|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260725|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260725|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 3 \u2014 \ud83d\udd01 Ripasso*\nLHIS \u2014 diagnosi differenziale\\. In una massa del setto interatriale, quale caratteristica TC indirizza verso la LHIS benigna piuttosto che verso trombo, mixoma o metastasi?\n\nA\\) Densit\u00e0 nettamente adiposa \\(\u221250/\u2212120 HU\\), morfologia a manubrio e risparmio della fossa ovalis\nB\\) Densit\u00e0 fluida \\(0\u201320 HU\\) con peduncolo mobile in atrio sinistro\nC\\) Ipodensit\u00e0 endoluminale adesa alla parete, con difetto di riempimento\nD\\) Massa iperdensa con enhancement eterogeneo e infiltrazione pericardica\n\n||Risposta corretta: A \u2014 densit\u00e0 francamente adiposa \\+ aspetto a manubrio con risparmio della fossa ovalis sono diagnostici di LHIS\\. Fluido peduncolato in atrio sx \u2192 mixoma; difetto di riempimento endoluminale \u2192 trombo; massa infiltrante iperdensa \u2192 neoplasia/metastasi\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260725%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260725|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260725|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260725|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260725|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260725|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260725|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 4 \u2014 \ud83d\udd01 Ripasso*\nFibroelastosi pleuroparenchimale \\(PPFE\\)\\. Quale elemento la distingue dal semplice \u00abapical cap\u00bb fibrotico e dalla UIP?\n\nA\\) \u00c8 basale con honeycombing, come la UIP\nB\\) \u00c8 una fibrosi pleuroparenchimale apicale bilaterale PROGRESSIVA con perdita di volume e retrazione ilare craniale; l'apical cap \u00e8 focale e stabile, la UIP \u00e8 basale/subpleurica con honeycombing\nC\\) L'apical cap \u00e8 sempre bilaterale e progressivo, la PPFE unilaterale\nD\\) La PPFE non causa mai perdita di volume\n\n||Risposta corretta: B \u2014 la PPFE \u00e8 apicale, bilaterale e progressiva, con marcata perdita di volume dei lobi superiori e retrazione degli ili verso l'alto; l'apical cap \u00e8 un reperto focale non evolutivo, la UIP predilige le basi con honeycombing subpleurico\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260727%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260727|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260727|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260727|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260727|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260727|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260727|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 5 \u2014 \ud83d\udd01 Ripasso*\nPPFE \u2014 base istologica\\. Da cosa deriva il termine \u00abfibroelastosi\u00bb e quale colorazione evidenzia il reperto chiave subpleurico?\n\nA\\) Deposito di ferro; colorazione di Perls \\(blu di Prussia\\)\nB\\) Fibrosi con abbondanti FIBRE ELASTICHE intra\\-alveolari subpleuriche; colorazioni per le fibre elastiche \\(Verhoeff\\-van Gieson / orceina\\)\nC\\) Deposito di amiloide; rosso Congo con birifrangenza verde\\-mela\nD\\) Granulomi necrotizzanti; Ziehl\\-Neelsen per micobatteri\n\n||Risposta corretta: B \u2014 la PPFE \u00e8 definita dalla fibroelastosi subpleurica: collagene \\+ abbondanti fibre elastiche, dimostrabili con colorazioni elastiche \\(Verhoeff\\-van Gieson, orceina\\)\\. Perls \\= ferro, rosso Congo \\= amiloide, Ziehl\\-Neelsen \\= micobatteri: tutte estranee alla PPFE\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260727%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260727|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260727|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260727|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260727|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260727|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260727|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 6 \u2014 \ud83d\udd01 Ripasso*\nPPFE \u2014 complicanze e prognosi\\. Quale coppia di affermazioni \u00e8 corretta?\n\nA\\) La biopsia \u00e8 a basso rischio e la coesistenza con UIP basale migliora la prognosi\nB\\) Alto rischio di pneumotorace / perdite aeree persistenti \\(specie post\\-biopsia\\); la coesistenza con UIP basale PEGGIORA la prognosi\nC\\) Il rischio principale \u00e8 l'embolia polmonare e la prognosi \u00e8 sempre benigna\nD\\) La complicanza tipica \u00e8 il versamento pleurico massivo e la malattia regredisce spontaneamente\n\n||Risposta corretta: B \u2014 la fragilit\u00e0 del parenchima apicale fibrotico predispone a pneumotorace e perdite aeree persistenti \\(rischio maggiore dopo biopsia chirurgica\\); il fenotipo combinato PPFE \\+ UIP basale ha prognosi peggiore\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260727%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260727|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260727|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260727|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260727|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260727|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260727|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 7*\nNel \u00abvolto del panda gigante\u00bb \\(T2 assiale del mesencefalo, malattia di Wilson\\), quale struttura \u2014 mantenendo segnale normale ipointenso dentro il tegmento iperintenso \u2014 forma gli \u00abocchi\u00bb del panda?\n\nA\\) I collicoli superiori\nB\\) I nuclei rossi\nC\\) La pars reticulata della substantia nigra\nD\\) L'acquedotto di Silvio\n\n||Risposta corretta: B \u2014 i nuclei rossi conservano il segnale normale \\(ipointenso\\) e spiccano come \u00abocchi\u00bb scuri sul tegmento mesencefalico diffusamente iperintenso in T2\\. La pars reticulata risparmiata lateralmente fa le \u00aborecchie\u00bb; i collicoli superiori ipointensi il \u00abmento\u00bb\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260915%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260915|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260915|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260915|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260915|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260915|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260915|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 8*\nLa malattia di Wilson, di cui questo segno \u00e8 quasi patognomonico, \u00e8 causata da quale meccanismo?\n\nA\\) Accumulo di ferro per mutazione di HFE \\(emocromatosi\\)\nB\\) Accumulo di rame per mutazione del gene ATP7B \\(ridotta escrezione biliare del rame e ridotta incorporazione nella ceruloplasmina\\)\nC\\) Accumulo di manganese da nutrizione parenterale\nD\\) Deposito di calcio nei gangli della base \\(malattia di Fahr\\)\n\n||Risposta corretta: B \u2014 Wilson \u00e8 un difetto autosomico recessivo di ATP7B \\(P\\-type ATPasi epatica\\): il rame non \u00e8 escreto nella bile n\u00e9 caricato sulla ceruloplasmina \u2192 accumulo tossico in fegato, gangli della base e cornea \\(anelli di Kayser\\-Fleischer\\)\\. Ferro/HFE \\= emocromatosi; manganese e Fahr sono altre cause di alterazioni dei gangli della base\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260915%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260915|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260915|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260915|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260915|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260915|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260915|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 9*\nSulla specificit\u00e0 del segno e i reperti associati, quale affermazione \u00e8 corretta?\n\nA\\) \u00c8 esclusivo della malattia di Wilson e da solo basta per la diagnosi\nB\\) Un aspetto analogo pu\u00f2 comparire in encefaliti \\(es\\. Giapponese\\), intossicazione da metanolo e mielinolisi; nel ponte il \u00abpanda cucciolo\u00bb completa il \u00abdouble panda sign\u00bb\nC\\) Compare solo dopo trapianto di fegato\nD\\) \u00c8 visibile esclusivamente in TC senza contrasto\n\n||Risposta corretta: B \u2014 il pattern non \u00e8 patognomonico in senso stretto: si vede anche in encefaliti virali, leucoencefalopatia tossica \\(metanolo\\) e mielinolisi osmotica\\. \u00c8 un segno RM T2; nel tegmento pontino un secondo volto \\(miniature/cub panda\\) forma il \u00abdouble panda sign\u00bb, tipico di Wilson\\. La diagnosi resta clinico\\-radiologica \\(disturbi del movimento/epatopatia, anelli KF, ceruloplasmina/rame\\)\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260915%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260915|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260915|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260915|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260915|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260915|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260915|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udee0 RadioLearn \u2014 rapporto operativo*\nPill: 20260915 \u00b7 topic: face\\-of\\-giant\\-panda\\-wilson \\(L3, neuro, auto\\)\nCallback inbox processati: 0 file \u00b7 Form nuovi: 0\nCarte resettate \\(no\\-show \u22653gg\\): 4\nRipasso incluso: s\u00ec \u2014 6 carte \\(LHIS 20260725, PPFE 20260727\\)\nNuove domande: 3 \u00b7 Paper: nessuno \\(coda Drive vuota\\)\nLun\\.: no \\(oggi \u00e8 marted\u00ec \u2192 nessun riepilogo/backup settimanale\\)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}

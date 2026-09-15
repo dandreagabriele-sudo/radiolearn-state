@@ -796,5 +796,12 @@
     "domain": "msk",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-15",
+    "tag": "face-of-giant-panda-wilson",
+    "domain": "neuro",
+    "level": 3,
+    "source": "auto"
   }
 ]
