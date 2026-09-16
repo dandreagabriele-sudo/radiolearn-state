@@ -1,0 +1,193 @@
+{
+  "pill_id": "20260916",
+  "created_at": "2026-09-16T06:50:19Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udc8a *RadioLearn* \u2014 Sindrome della scimitarra\n_\\(sindrome venolobare polmonare / hypogenetic lung syndrome\\)_\n\n\ud83e\udec1 *Concetto*\nForma di *ritorno venoso polmonare anomalo parziale \\(PAPVR\\)*: tutto o parte del polmone destro drena attraverso una vena anomala verticale nella *vena cava inferiore* \\(tipicamente sovradiaframmatica, alla giunzione VCI\\-atrio destro\\), pi\u00f9 raramente in atrio destro, vene sovraepatiche, vena porta o azygos\\. \u00c8 il capofila del *complesso venolobare*\\.\n\n\ud83d\udde1\ufe0f *Il segno della scimitarra*\nOpacit\u00e0 tubulare *curvilinea* che decorre parallela al margine cardiaco destro e punta in basso verso l'angolo cardiofrenico: \u00e8 la vena anomala, che ricorda la sciabola turca ricurva\\. Presente in circa il 70% dei casi \u2014 pu\u00f2 mancare se la vena \u00e8 piccola o mascherata da un cuore destroposto o da marcata ipoplasia\\.\n\n\ud83e\udde9 *Complesso venolobare \\(da cercare tutto\\)*\n\u2022 *Ipoplasia del polmone destro* \u2192 destroposizione cardiaca \\(dextro\\-position, non dextrocardia vera\\), riduzione dell'emitorace destro, iperinsufflazione compensatoria a sinistra\\.\n\u2022 *Apporto arterioso sistemico anomalo* dall'aorta \\(addominale o toracica\\) alla base destra \u2192 overlap con il sequestro; va identificato in angio\\-TC per evitare sanguinamenti in chirurgia\\.\n\u2022 Possibili anomalie bronchiali e *horseshoe lung* \\(istmo parenchimale che unisce le basi\\)\\.\n\n\ud83e\ude7a *Emodinamica e clinica*\nShunt *sinistro\\-destro* \\(sangue ossigenato del polmone destro immesso nel circolo venoso sistemico\\)\\. Il *Qp:Qs* governa il quadro: forma infantile severa \\(ipertensione polmonare, cardiopatie associate, scompenso, prognosi peggiore\\) contro forma adulta spesso asintomatica/incidentale\\. La cardiopatia associata pi\u00f9 frequente \u00e8 il *difetto interatriale*\\.\n\n\ud83d\udda5\ufe0f *Imaging*\nRX: segno della scimitarra \\+ ipoplasia destra \\+ destroposizione\\. *Angio\\-TC/angio\\-RM* \\= gold standard per mappare il ritorno venoso, l'apporto arterioso sistemico e il grado di ipoplasia; la RM con phase\\-contrast quantifica il Qp:Qs per l'indicazione chirurgica\\.\nDD dell'opacit\u00e0 curvilinea: PAPVR isolata, vena polmonare varicosa, MAV, collaterale sistemica, artefatto\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd17 *Connessioni multidisciplinari*\n\n\ud83d\udcdc *Storia/etimologia* \u2014 \u00abscimitarra\u00bb viene dal persiano shamshir \\(la lama ricurva medio\\-orientale/ottomana\\); il termine radiologico fu coniato negli anni '50\\-'60 \\(Neill, Halasz\\)\\. Mnemonica: la vena \u00abtaglia\u00bb il campo polmonare destro verso il basso come la lama curva della sciabola\\.\n\n\ud83d\udca7 *Fisica/idraulica* \u2014 il Qp:Qs \u00e8 un rapporto di portate; ricorda l'equazione di continuit\u00e0 \\(Q \\= A\u00b7v\\): la conservazione della massa nei circoli in parallelo \u00e8 ci\u00f2 che traduce lo shunt sinistro\\-destro in sovraccarico di volume del cuore destro\\.\n\n\ud83d\udcd0 *Geometria* \u2014 il vaso disegna un arco: la concavit\u00e0 mediale e il decorso cranio\\-caudale lo distinguono da un normale vaso ilare rettilineo\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\uddbc\ufe0f *Immagini di riferimento*\n\n\u2022 [Radiopaedia \u2014 Scimitar syndrome \\(caso\\)](https://radiopaedia.org/cases/scimitar-syndrome-12)\n\u2022 [Radiopaedia \u2014 PAPVR infracardiaco / scimitarra](https://radiopaedia.org/cases/infracardiac-partial-anomalous-pulmonary-venous-return-scimitar-syndrome)\n\u2022 [Wikipedia \u2014 Scimitar syndrome](https://en.wikipedia.org/wiki/Scimitar_syndrome)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 *Domanda 1 di 4*\n\nIl segno della scimitarra sul radiogramma del torace corrisponde a quale struttura?\n\nA\\) Un bronco anomalo iperinsufflato\nB\\) Una vena polmonare anomala che drena nella VCI/atrio destro\nC\\) Un'arteria sistemica proveniente dall'aorta addominale\nD\\) Un sequestro polmonare intralobare\n\n||Risposta corretta: B \u2014 l'opacit\u00e0 curvilinea paracardiaca destra \u00e8 la vena polmonare anomala \\(PAPVR\\) diretta verso l'angolo cardiofrenico e la VCI \u2014 il marchio della sindrome venolobare\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260916%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260916|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260916|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260916|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260916|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260916|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260916|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 *Domanda 2 di 4*\n\nCon quale lato e quale alterazione volumetrica si presenta tipicamente la sindrome?\n\nA\\) Sinistra, con iperinsufflazione\nB\\) Bilaterale e simmetrica\nC\\) Destra, con ipoplasia polmonare e destroposizione cardiaca\nD\\) Destra, con iperinsufflazione e spostamento del cuore a sinistra\n\n||Risposta corretta: C \u2014 quasi esclusivamente a destra; l'ipoplasia del polmone destro trascina il cuore in destroposizione \\(non dextrocardia vera\\) e riduce l'emitorace destro\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260916%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260916|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260916|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260916|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260916|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260916|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260916|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 *Domanda 3 di 4*\n\nQual \u00e8 la cardiopatia congenita pi\u00f9 frequentemente associata e la natura dello shunt?\n\nA\\) Difetto interventricolare; shunt destro\\-sinistro\nB\\) Difetto interatriale; shunt sinistro\\-destro\nC\\) Tetralogia di Fallot; shunt destro\\-sinistro\nD\\) Dotto arterioso pervio; nessuno shunt\n\n||Risposta corretta: B \u2014 il difetto interatriale \u00e8 la CHD associata pi\u00f9 comune; il ritorno di sangue ossigenato nel circolo venoso sistemico crea uno shunt sinistro\\-destro, il cui Qp:Qs guida l'indicazione chirurgica\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260916%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260916|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260916|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260916|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260916|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260916|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260916|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 *Domanda 4 di 4*\n\nQuale reperto colloca la sindrome nello spettro sequestro/venolobare e va cercato in angio\\-TC prima della chirurgia?\n\nA\\) Apporto arterioso sistemico dall'aorta alla base polmonare destra\nB\\) Assenza completa dell'arteria polmonare sinistra\nC\\) Ritorno venoso polmonare anomalo totale \\(TAPVR\\)\nD\\) Enfisema lobare congenito del lobo superiore sinistro\n\n||Risposta corretta: A \u2014 un ramo arterioso sistemico anomalo dall'aorta \\(addominale/toracica\\) verso la base destra fa parte del complesso venolobare \\(overlap col sequestro\\) e va identificato per evitare emorragie intraoperatorie\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260916%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260916|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260916|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260916|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260916|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260916|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260916|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

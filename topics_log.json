@@ -803,5 +803,12 @@
     "domain": "neuro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-16",
+    "tag": "scimitar-syndrome-papvr",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
