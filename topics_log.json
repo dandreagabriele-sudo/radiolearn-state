@@ -810,5 +810,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-17",
+    "tag": "cardiac-iron-t2star",
+    "domain": "cardio",
+    "level": 1,
+    "source": "auto"
   }
 ]
