@@ -817,5 +817,12 @@
     "domain": "cardio",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-19",
+    "tag": "second-branchial-cleft-cyst",
+    "domain": "altro",
+    "level": 3,
+    "source": "auto"
   }
 ]
