@@ -1,0 +1,191 @@
+{
+  "pill_id": "20260920",
+  "created_at": "2026-09-20T06:48:53.742446+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udc8a RadioLearn \u2014 Feocromocitoma surrenalico*\n_RM surrene \u00b7 Livello 2 \u00b7 pillola 2026\\-09\\-20_\n\n*\ud83e\udde0 Concetto*\nIl feocromocitoma \u00e8 un tumore delle cellule cromaffini della midollare surrenalica \\(catecolamino\\-secernente\\)\\. \\~90% \u00e8 surrenalico e \\~98% intra\\-addominale; la controparte extra\\-surrenalica \u00e8 il paraganglioma\\.\n\nRM \\(Livello 2\\)\\. Massa surrenalica ben delimitata, spesso disomogenea per aree cistiche/necrotiche/emorragiche\\. Il segno classico \u00e8 il \u00ablight bulb sign\u00bb: marcata iperintensit\u00e0 in T2 \\(simile al liquor\\), da elevato contenuto d'acqua libera\\. Enhancement intenso e spesso persistente dopo gadolinio \\(lesione ipervascolare\\), NON il washout rapido dell'adenoma\\.\n\nRed flag chemical\\-shift\\. A differenza dell'adenoma ricco di lipidi, il feo NON perde segnale nelle sequenze in opposizione di fase \\(out\\-of\\-phase\\): il drop richiede lipidi intracitoplasmatici \\(acqua\\+grasso nello stesso voxel\\), che il feo non ha\\. Un nodulo surrenalico T2\\-brillante e senza signal drop out\\-of\\-phase \u00e8 sospetto per feo finch\u00e9 non provato diverso\\.\n\nAttenzione \\(accuratezza\\)\\. Il light bulb \u00e8 caratteristico ma INCOSTANTE: componenti emorragiche, necrotiche o fibrotiche lo rendono eterogeneo o meno iperintenso; va sempre integrato con clinica e biochimica \\(metanefrine plasmatiche/urinarie\\)\\. \\~40% di feo/paragangliomi ha oggi una base genetica \\(MEN2A/2B, von Hippel\\-Lindau, NF1, mutazioni SDHx\\), ben oltre il vecchio \u00ab10% familiare\u00bb della rule of 10s: la bilateralit\u00e0 e la giovane et\u00e0 rafforzano il sospetto ereditario\\.\n\n*\ud83d\udd17 Connessioni multidisciplinari*\n\u2022 Chimica/fisica del segnale: il T2 lungo dei tessuti ad alta acqua libera d\u00e0 iperintensit\u00e0 \u2014 da qui l'immagine mnemonica della \u00ablampadina accesa\u00bb nel buio della sequenza T2\\.\n\u2022 Etimologia: \u00abfeocromocitoma\u00bb da \u03c6\u03b1\u03b9\u03cc\u03c2 \\(phai\u00f3s, bruno\\-scuro\\) \\+ \u03c7\u03c1\u1ff6\u03bc\u03b1 \\(chr\u00f4ma, colore\\): le cellule cromaffini si tingono di bruno con i sali di cromo \\(reazione cromaffine di Henle\\)\\.\n\u2022 Metabolismo/evoluzione: le mutazioni SDH \\(succinato\\-deidrogenasi, complesso II della catena respiratoria\\) collegano feo/paragangliomi a una \u00abpseudo\\-ipossia\u00bb del ciclo di Krebs \u2014 un ponte fra genetica mitocondriale e oncogenesi\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\uddbc Immagini e fonti*\n\u2022 [Radiopaedia \u2014 Light bulb sign \\(feocromocitoma\\)](https://radiopaedia.org/articles/light-bulb-sign-phaeochromocytoma)\n\u2022 [Radiopaedia \u2014 Feocromocitoma surrenalico benigno \\(caso RM/TC\\)](https://radiopaedia.org/cases/benign-adrenal-phaeochromocytoma)\n\u2022 [Radiopaedia \u2014 Feocromocitoma extra\\-surrenalico \\(paraganglioma, caso\\)](https://radiopaedia.org/cases/extra-adrenal-phaeochromocytoma-1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 1 \u2014 Feocromocitoma*\n\nDonna di 45 anni con crisi ipertensive parossistiche, cefalea pulsante, sudorazione e cardiopalmo\\. RM addome: massa surrenalica destra di 4 cm, marcatamente iperintensa in T2 \\(simile al liquor\\), con intenso enhancement dopo gadolinio\\. Diagnosi pi\u00f9 probabile?\n\nA) Adenoma surrenalico ricco di lipidi\nB) Feocromocitoma\nC) Mielolipoma\nD) Metastasi surrenalica ipovascolare\n\n||Risposta corretta: B \u2014 la marcata iperintensit\u00e0 T2 \\(\"light bulb\"\\), l'ipervascolarit\u00e0 e la clinica adrenergica \\(metanefrine\\) indicano feocromocitoma; l'adenoma ricco di lipidi perde segnale out\\-of\\-phase, il mielolipoma contiene grasso macroscopico||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260920%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260920|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260920|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260920|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260920|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260920|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260920|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 2 \u2014 Feocromocitoma*\n\nPerch\u00e9 un feocromocitoma tipicamente NON mostra caduta di segnale nelle sequenze chemical\\-shift \\(out\\-of\\-phase\\), a differenza dell'adenoma ricco di lipidi?\n\nA) Perch\u00e9 contiene abbondante grasso macroscopico\nB) Perch\u00e9 \u00e8 quasi sempre calcifico\nC) Perch\u00e9 \u00e8 povero di lipidi intracitoplasmatici: il drop out\\-of\\-phase richiede acqua e grasso nello stesso voxel\nD) Perch\u00e9 ha un tempo T1 molto lungo\n\n||Risposta corretta: C \u2014 il calo di segnale in opposizione di fase dipende dai lipidi intracitoplasmatici \\(grasso\\+acqua nello stesso voxel\\), tipici dell'adenoma ricco di lipidi; il feo, povero di lipidi intracellulari, non perde segnale \u2014 utile red flag||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260920%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260920|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260920|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260920|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260920|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260920|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260920|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 3 \u2014 Feocromocitoma*\n\nRiguardo all'aspetto RM del feocromocitoma, quale affermazione \u00e8 la pi\u00f9 corretta?\n\nA) Il light bulb sign \u00e8 presente nel 100% dei casi ed \u00e8 patognomonico\nB) L'iperintensit\u00e0 T2 \u00e8 caratteristica ma incostante: emorragia, necrosi o fibrosi la rendono eterogenea; utile integrare ipervascolarit\u00e0 ed enhancement persistente\nC) Il feo mostra washout rapido e completo come l'adenoma\nD) Il feo \u00e8 tipicamente ipovascolare con scarso enhancement\n\n||Risposta corretta: B \u2014 il light bulb \u00e8 caratteristico ma non costante \\(le componenti emorragico\\-necrotiche lo rendono eterogeneo\\); il feo \u00e8 ipervascolare, con enhancement intenso e spesso persistente, non il washout rapido dell'adenoma||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260920%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260920|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260920|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260920|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260920|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260920|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260920|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 4 \u2014 Feocromocitoma*\n\nUn feocromocitoma bilaterale in un paziente giovane deve far sospettare in primis:\n\nA) Una sindrome ereditaria \\(MEN2, von Hippel\\-Lindau, NF1, mutazioni SDHx\\)\nB) Una causa esclusivamente sporadica legata all'et\u00e0\nC) Una metastasi da carcinoma polmonare\nD) Un'iperplasia surrenalica congenita\n\n||Risposta corretta: A \u2014 bilateralit\u00e0 e giovane et\u00e0 aumentano molto la probabilit\u00e0 di forma sindromica/ereditaria \\(MEN2A/2B, VHL, NF1, paragangliomi da SDHx\\); oggi \\~40% dei feo/paragangliomi ha base genetica, ben oltre il vecchio 10% della rule of 10s||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260920%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260920|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260920|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260920|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260920|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260920|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260920|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udee0 RadioLearn \u2014 rapporto operativo*\nPill 20260920 \u00b7 topic: pheochromocytoma\\-light\\-bulb \\(addome L2\\)\nCallback inbox: 0 \u00b7 Form nuovi: 0\nCarte resettate \\(FASE 3\\): 4\nRipasso incluso: no \\(days\\_since\\=1 < 3\\)\nInbox cancellati: 0\nWarning: nessuno",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
