@@ -824,5 +824,12 @@
     "domain": "altro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-20",
+    "tag": "pheochromocytoma-light-bulb",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
