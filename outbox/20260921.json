@@ -1,0 +1,199 @@
+{
+  "pill_id": "20260921",
+  "created_at": "2026-09-21T06:49:59.040396+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udcca *Riepilogo settimanale RadioLearn*\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\ud83c\udfaf Pillole inviate: 5\n\u2705 Quiz risposti: 3/19 \\(16%\\)\n\u2b50 Qualit\u00e0 media: 1\\.0 / 5\n\ud83d\udd01 Carte dimenticate: 16\n\ud83c\udfc6 Carte mature \\(\\>21gg\\): 3\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\ude7a *Pillola RadioLearn \u2014 Ulcera aortica penetrante \\(PAU\\)*\n\n*Concetto del giorno*\n\nL'ulcera aterosclerotica penetrante \\(PAU\\) \u00e8 l'ulcerazione di una placca ateromasica che erode la lamina elastica interna e penetra nella tonaca media della parete aortica\\. \u00c8 \u2014 con la dissecazione classica e l'ematoma intramurale \\(IMH\\) \u2014 una delle tre entit\u00e0 della sindrome aortica acuta \\(SAA\\), e spesso coesiste con un IMH\\.\n\nContesto clinico: anziano, iperteso, forte carico aterosclerotico, spesso vasculopatico/BPCO; dolore toracico o dorsale acuto\\. Sede pi\u00f9 frequente: aorta toracica discendente medio\\-distale \\(dove l'ateromasia \u00e8 massima\\); arco meno frequente, ascendente raro\\.\n\nImaging \\(CTA, gold standard\\): estroflessione focale piena di contrasto \u2014 \u00abcratere\u00bb a fungo \u2014 che si proietta OLTRE il profilo atteso del lume, con placca ateromasica adiacente \\(calcifica, ispessita\\) e spesso ematoma intramurale periulceroso \\(semiluna iperdensa in fase basale che NON si impregna\\)\\. Contano per il rischio la profondit\u00e0 del cratere \\(\\>10 mm\\) e la larghezza del colletto \\(\\>20 mm\\)\\.\n\nDistinzione da IMH \\(fisiopatologia\\): nella PAU c'\u00e8 un difetto intimale con esposizione della media attraverso la placca; nell'IMH classico NON c'\u00e8 breccia intimale \\(sanguinamento dai vasa vasorum\\)\\. La PAU pu\u00f2 per\u00f2 essere la sorgente di un IMH\\.\n\nDiagnosi differenziale: diverticolo del dotto \\(congenito, istmico, margini lisci e ottusi, senza placca/IMH, non evolutivo\\); proiezione ulcer\\-like \\(ULP\\) entro un IMH; ulcerazione aterosclerotica \u00absemplice\u00bb limitata all'intima \\(non penetra la lamina elastica \u2192 non \u00e8 PAU\\); pseudoaneurisma post\\-traumatico \\(istmo, contesto traumatico\\)\\.\n\nEvoluzione/complicanze: progressione a IMH, pseudoaneurisma sacculare, aneurisma, rottura contenuta, embolizzazione distale; la dissecazione estesa \u00e8 meno tipica che nella forma classica\\. Gestione: PAU sintomatica o complicata \u2192 riparazione, oggi spesso endovascolare \\(TEVAR\\) nella discendente; asintomatica e stabile \u2192 terapia medica anti\\-impulso e sorveglianza per imaging\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Connessioni multidisciplinari*\n\n\u2022 Meccanica dei materiali \\(Inglis/Griffith\\): l'ulcera \u00e8 un \u00abconcentratore di sforzo\u00bb nella parete di un vaso in pressione \u2014 come una cricca ellittica in un recipiente pressurizzato, dove la tensione all'apice cresce col rapporto profondit\u00e0/raggio di curvatura\\. Spiega perch\u00e9 le PAU profonde e a colletto largo tendono a progredire \\(legge di Laplace \\+ stress\\-riser\\)\\.\n\u2022 Storia: la lesione fu descritta da Shennan \\(1934\\) e caratterizzata come entit\u00e0 clinico\\-radiologica da Stanson e coll\\. \\(Mayo Clinic, 1986\\), che coniarono il termine \u00abpenetrating atherosclerotic ulcer\u00bb\\.\n\u2022 Etimologia: \u00abateroma\u00bb da \u1f00\u03b8\u03ae\u03c1\u03b1 \\(ath\u00e9ra, \u00abpoltiglia\u00bb\\), il core lipidico molle della placca: \u00e8 proprio quel core necrotico che, ulcerandosi, apre la via alla media\\.\n\n*Immagini e fonti*\n\u2022 [Radiopaedia \u2014 caso PAU aortica](https://radiopaedia.org/cases/penetrating-aortic-atherosclerotic-ulcer)\n\u2022 [Radiopaedia \u2014 PAU dell'arco aortico \\(CTA\\)](https://radiopaedia.org/images/8363870?case_id=31138)\n\u2022 [Radiopaedia \u2014 PAU con falso aneurisma](https://radiopaedia.org/images/504837?case_id=10163)\n\u2022 [Wikipedia \u2014 Penetrating atherosclerotic ulcer](https://en.wikipedia.org/wiki/Penetrating_atherosclerotic_ulcer)\n\u2022 [Wikipedia \u2014 Stress concentration \\(Inglis\\)](https://en.wikipedia.org/wiki/Stress_concentration)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 *Domanda 1 \u2014 Ulcera aortica penetrante*\n\nUomo di 74 anni, iperteso, forte fumatore, con dolore dorsale acuto\\. CTA: a livello dell'aorta toracica discendente, estroflessione focale di contrasto \u00aba cratere\u00bb che si proietta oltre il profilo del lume, con placca calcifica adiacente e semiluna iperdensa periparietale che non si impregna\\. Diagnosi pi\u00f9 probabile?\n\nA\\) Diverticolo del dotto\nB\\) Ulcera aterosclerotica penetrante con ematoma intramurale\nC\\) Dissecazione aortica classica di tipo A\nD\\) Aneurisma micotico dell'ascendente\n\n||Risposta corretta: B \u2014 cratere di contrasto oltre il lume \\+ placca ateromasica \\+ IMH periulceroso in discendente \\= PAU complicata da IMH; il diverticolo del dotto \u00e8 liscio, istmico e senza placca/IMH; la dissecazione di tipo A coinvolge l'ascendente con flap e doppio lume||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260921%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260921|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260921|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260921|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260921|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260921|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260921|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 *Domanda 2 \u2014 Ulcera aortica penetrante*\n\nQuale caratteristica DEFINISCE una PAU e la distingue da una semplice ulcerazione aterosclerotica intimale?\n\nA\\) La penetrazione oltre la lamina elastica interna, nella tonaca media\nB\\) La presenza di trombo murale endoluminale\nC\\) La calcificazione della placca\nD\\) Un diametro aortico superiore a 5,5 cm\n\n||Risposta corretta: A \u2014 la PAU \u00e8 definita dalla penetrazione attraverso la lamina elastica interna nella media \\(per questo appartiene alla sindrome aortica acuta\\); l'ulcerazione limitata all'intima non \u00e8 una PAU||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260921%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260921|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260921|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260921|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260921|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260921|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260921|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 *Domanda 3 \u2014 Ulcera aortica penetrante*\n\nAll'istmo aortico si osserva una piccola estroflessione a margini lisci e raccordi ottusi/graduali, senza placca adiacente, senza ematoma intramurale e invariata nel tempo\\. L'interpretazione corretta \u00e8:\n\nA\\) PAU dell'istmo da trattare con TEVAR urgente\nB\\) Diverticolo del dotto \\(variante congenita\\), reperto benigno\nC\\) Pseudoaneurisma post\\-traumatico\nD\\) Ulcer\\-like projection in ematoma intramurale\n\n||Risposta corretta: B \u2014 margini lisci/ottusi, sede istmica tipica, assenza di placca e di IMH e stabilit\u00e0 nel tempo indicano un diverticolo del dotto \\(residuo del dotto arterioso\\); la PAU \u00e8 invece un cratere a colletto stretto su parete ateromasica, spesso con IMH||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260921%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260921|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260921|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260921|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260921|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260921|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260921|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\u2753 *Domanda 4 \u2014 Ulcera aortica penetrante*\n\nQuali elementi indicano una PAU a maggior rischio di complicanze/instabilit\u00e0 e orientano verso il trattamento piuttosto che la sorveglianza?\n\nA\\) Piccola profondit\u00e0 e colletto stretto, paziente asintomatico\nB\\) Dolore persistente/recidivante, ulcera profonda \\(\\>10 mm\\) e a colletto largo \\(\\>20 mm\\), IMH associato o versamento pleurico\nC\\) Placca calcifica isolata senza altri reperti\nD\\) Localizzazione esclusivamente addominale, sempre benigna\n\n||Risposta corretta: B \u2014 sintomi persistenti, cratere profondo e a colletto largo, IMH associato, crescita al follow\\-up e versamento pleurico predicono instabilit\u00e0 \\(rottura/pseudoaneurisma\\) e depongono per la riparazione, spesso TEVAR nella discendente; una PAU piccola e asintomatica si gestisce con terapia medica anti\\-impulso e sorveglianza||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260921%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260921|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260921|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260921|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260921|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260921|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260921|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udee0\ufe0f *Rapporto operativo RadioLearn*\nPill: 20260921 \u2014 tag: penetrating\\-aortic\\-ulcer \\(aorta\\-vascolare, L1\\)\nCallback inbox processati: 0\nForm ingeriti: 0\nCarte resettate \\(FASE 3\\): 0\nRipasso incluso: no \\(days\\_since\\_last\\_review\\=2 < 3\\)\nNuove domande: 4\nInbox cancellati: 0\nRiepilogo sett\\.: 3/19 \\(16%\\), q\\.media 1\\.0, dimenticate 16, mature 3",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}

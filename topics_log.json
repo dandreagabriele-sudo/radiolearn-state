@@ -831,5 +831,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-21",
+    "tag": "penetrating-aortic-ulcer",
+    "domain": "aorta-vascolare",
+    "level": 1,
+    "source": "auto"
   }
 ]
