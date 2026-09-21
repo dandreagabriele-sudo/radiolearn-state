@@ -7067,6 +7067,42 @@
       "last_quality": null,
       "history": [],
       "last_presented": "2026-09-20"
+    },
+    "20260921:0": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-09-21",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-09-21"
+    },
+    "20260921:1": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-09-21",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-09-21"
+    },
+    "20260921:2": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-09-21",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-09-21"
+    },
+    "20260921:3": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-09-21",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-09-21"
     }
   },
   "history": [
