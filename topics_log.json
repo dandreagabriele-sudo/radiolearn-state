@@ -838,5 +838,12 @@
     "domain": "aorta-vascolare",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-22",
+    "tag": "rugger-jersey-spine",
+    "domain": "msk",
+    "level": 3,
+    "source": "auto"
   }
 ]
