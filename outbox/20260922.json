@@ -1,0 +1,443 @@
+{
+  "pill_id": "20260922",
+  "created_at": "2026-09-22T06:50:56.087680+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\uddb4 RadioLearn \u2014 Teaching Pill 2026\\-09\\-22\nTopic: Rugger jersey spine \u2014 osteodistrofia renale \\(iperparatiroidismo secondario\\)\nLivello 3 \u00b7 MSK / rachide \u00b7 didattica basica\n\nCONCETTO\nIn un paziente con insufficienza renale cronica in dialisi, la radiografia o la TC del rachide \\(proiezione/ricostruzione sagittale\\) mostra corpi vertebrali con le limitanti somatiche superiori e inferiori addensate e una banda centrale relativamente radiotrasparente\\. L'alternanza denso\u2013chiaro\u2013denso ripetuta su pi\u00f9 vertebre contigue ricorda le fasce orizzontali di una maglia da rugby: \u00e8 il rugger jersey spine\\.\n\nPERCH\u00c9 SUCCEDE\nL'eccesso cronico di paratormone \\(PTH\\) dell'iperparatiroidismo secondario alla malattia renale stimola il rimaneggiamento osseo\\. Gli osteoblasti depongono abbondante osteoide \\(matrice ossea in gran parte NON mineralizzata, per il deficit di vitamina D attiva/calcitriolo tipico dell'IRC\\) soprattutto sotto le limitanti vertebrali: sono le bande sclerotiche\\. Il centro del corpo vertebrale, relativamente osteopenico, appare pi\u00f9 chiaro\\. Il segno \u00e8 quasi diagnostico dell'osteosclerosi da iperparatiroidismo secondario/terziario dell'IRC\\.\n\nNON CONFONDERE \\(vertebra a sandwich\\)\nAnche l'osteopetrosi addensa le limitanti \\(\"sandwich vertebra\"\\), ma l\u00ec le bande sono nettissime, uniformi e ben demarcate, in un difetto congenito degli osteoclasti; nel rugger jersey le bande sono pi\u00f9 sfumate e il contesto \u00e8 la dialisi\\. Il rugger jersey fa parte dell'osteodistrofia renale, quindi cercane i compagni: riassorbimento osseo subperiostale \\(margine radiale delle falangi medie\\), tumori bruni, cranio \"sale e pepe\", calcificazioni vascolari e dei tessuti molli\\.\n\nCONNESSIONI\n\u2022 Sport & memoria: la maglia da rugby a fasce orizzontali \\(hoops\\) \u00e8 l'ancora visiva del segno; la \"sandwich vertebra\" dell'osteopetrosi \u00e8 invece due fette di pane nette attorno al ripieno\\.\n\u2022 Chimica: l'osso mineralizza con idrossiapatite Ca10\\(PO4\\)6\\(OH\\)2; serve un adeguato prodotto calcio\u00d7fosforo\\. Nell'IRC il fosforo sale e il calcitriolo crolla, cos\u00ec l'osteoide resta poco mineralizzato\\.\n\u2022 Fisiologia: il rene \u00e8 anche un organo endocrino \\(1\u03b1\\-idrossilasi \u2192 calcitriolo; asse FGF23/Klotho\\)\\. La sua insufficienza innesca l'iperparatiroidismo secondario e l'intero spettro CKD\\-MBD\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\uddbc\ufe0f Immagini & fonti \\(verificate\\)\n\n\u2022 [Radiopaedia \u2014 Rugger jersey spine \\(iperparatiroidismo\\)](https://radiopaedia.org/articles/rugger-jersey-spine-hyperparathyroidism-1?lang=us)\n\u2022 [Radiopaedia \u2014 Caso rugger\\-jersey spine](https://radiopaedia.org/cases/rugger-jersey-spine-5)\n\u2022 [Radiopaedia \u2014 Osteodistrofia renale](https://radiopaedia.org/articles/renal-osteodystrophy)\n\u2022 [Radiopaedia \u2014 Sandwich vertebrae \\(osteopetrosi, DD\\)](https://radiopaedia.org/cases/sandwich-vertebrae-osteopetrosis?lang=gb)\n\u2022 [Wikimedia \u2014 RX rugger\\-jersey spine](https://commons.wikimedia.org/wiki/File:X-ray_of_rugger-jersey_spine_of_renal_osteodystrophy.jpg)\n\u2022 [RadioGraphics 2016 \u2014 Imaging of Metabolic Bone Disease](https://pubs.rsna.org/doi/full/10.1148/rg.2016160004)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd01 Ripasso \u2014 Giovane adulto con colangiti ricorrenti; la MRCP mostra dilatazioni cistiche sacculari dei dotti biliari intraepatici COMUNICANTI con l'albero biliare, con un puntino centrale enhancing \\(central dot sign\\)\\. Quale reperto associato indirizza verso la SINDROME di Caroli piuttosto che la malattia di Caroli isolata?\n\nA\\) Colelitiasi multipla in colecisti\nB\\) Fibrosi epatica congenita con ipertensione portale \\(\u00b1 cisti renali ARPKD\\)\nC\\) Steatosi epatica diffusa\nD\\) Trombosi isolata della vena porta\n\n||Risposta corretta: B \u2014 La malattia di Caroli \"pura\" \u00e8 la sola dilatazione dei grossi dotti intraepatici; la SINDROME di Caroli aggiunge la fibrosi epatica congenita \\(ipertensione portale presinusoidale\\) e si associa spesso a rene policistico autosomico recessivo \\(ARPKD, gene PKHD1\\)\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260517%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260517|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260517|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260517|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260517|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260517|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260517|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd01 Ripasso \u2014 Paziente con atassia progressiva, parkinsonismo non responsivo a L\\-DOPA e disautonomia; la FLAIR assiale del ponte mostra un'iperintensit\u00e0 a croce \\(hot cross bun sign\\)\\. Qual \u00e8 il substrato del braccio TRASVERSALE \\(orizzontale\\) della croce?\n\nA\\) Degenerazione dei fasci cortico\\-spinali\nB\\) Degenerazione delle fibre ponto\\-cerebellari trasverse \\(nuclei pontini \u2192 peduncoli cerebellari medi\\)\nC\\) Gliosi del lemnisco mediale\nD\\) Demielinizzazione del fascicolo longitudinale mediale\n\n||Risposta corretta: B \u2014 L'asse orizzontale riflette la degenerazione walleriana delle fibre ponto\\-cerebellari trasverse; l'asse verticale corrisponde ai nuclei mediani del rafe\\. I fasci cortico\\-spinali, risparmiati nelle ali antero\\-laterali, restano normointensi e definiscono i 4 lobi\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260515%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260515|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260515|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260515|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260515|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260515|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260515|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd01 Ripasso \u2014 Il CT angiogram sign \u00e8 aspecifico\\. Quale delle seguenti NON \u00e8 una causa riconosciuta del segno?\n\nA\\) Polmonite ostruttiva/post\\-ostruttiva\nB\\) Linfoma polmonare\nC\\) Infarto polmonare bland da embolia \\(vasi occlusi, non opacizzati\\)\nD\\) Edema polmonare\n\n||Risposta corretta: C \u2014 Nell'infarto da embolia i vasi a valle sono occlusi/non opacizzati e non generano il segno\\. Polmonite ostruttiva, linfoma, edema e metastasi mucinose possono invece mostrarlo\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260730%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260730|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260730|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260730|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260730|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260730|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260730|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd01 Ripasso \u2014 Il CT angiogram sign nasce dal contrasto di attenuazione fra i vasi opacizzati e il parenchima consolidato ipodenso\\. In quale condizione il segno \u00e8 TIPICAMENTE pi\u00f9 cospicuo, perch\u00e9 il riempimento alveolare \u00e8 nettamente ipodenso?\n\nA\\) Polmonite lobare essudativa acuta\nB\\) Adenocarcinoma mucinoso invasivo \\(mucina marcatamente ipodensa\\)\nC\\) Infarto polmonare emorragico\nD\\) Atelettasia da riassorbimento\n\n||Risposta corretta: B \u2014 La mucina dell'adenocarcinoma mucinoso invasivo \u00e8 molto ipodensa e massimizza il contrasto vaso\u2013parenchima; nell'essudato proteico acuto la densit\u00e0 \u00e8 maggiore e il segno risulta pi\u00f9 sfumato\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260730%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260730|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260730|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260730|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260730|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260730|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260730|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd01 Ripasso \u2014 Consolidazione lobare con CT angiogram sign\\. Quale reperto associato orienta pi\u00f9 fortemente verso l'adenocarcinoma mucinoso invasivo rispetto a una polmonite post\\-ostruttiva?\n\nA\\) Rapida risoluzione dopo terapia antibiotica\nB\\) Consolidazione persistente non risolvente con bulging delle scissure e \"dead branch sign\"\nC\\) Broncogramma aereo normale con vasi non visibili\nD\\) Versamento pleurico transudatizio\n\n||Risposta corretta: B \u2014 Persistenza nel tempo, rigonfiamento \\(bulging\\) delle scissure per l'espansione della massa e bronchi amputati/assottigliati \\(\"dead branch sign\"\\) con noduli satellite depongono per l'IMA; il segno in s\u00e9 resta aspecifico\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260730%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260730|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260730|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260730|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260730|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260730|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260730|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd01 Ripasso \u2014 Nel ponte miocardico il tratto coronarico tunnellizzato tende a essere RISPARMIATO dall'aterosclerosi, mentre il segmento prossimale al ponte \u00e8 pi\u00f9 colpito\\. Perch\u00e9?\n\nA\\) Il tratto tunnellizzato riceve pi\u00f9 circolo collaterale\nB\\) Il segmento prossimale subisce maggiore stress emodinamico/parietale, mentre il tratto sotto il ponte \u00e8 protetto \\(compressione sistolica e profilo di shear favorevole\\)\nC\\) Il miocardio sovrastante rilascia statine locali\nD\\) Il tratto tunnellizzato ha parete pi\u00f9 spessa e quindi immune\n\n||Risposta corretta: B \u2014 A monte del ponte il vaso subisce stress emodinamico e turbolenze che favoriscono la placca; il segmento intramiocardico, protetto e con shear stress elevato/uniforme, sviluppa raramente aterosclerosi\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260804%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260804|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260804|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260804|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260804|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260804|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260804|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83c\udd95 Radiografia/TC del rachide in un paziente in dialisi: le limitanti somatiche superiori e inferiori dei corpi vertebrali appaiono addensate, con banda centrale relativamente radiotrasparente, ripetute su pi\u00f9 livelli\\. Come si chiama questo segno?\n\nA\\) Vertebra \"a sandwich\"\nB\\) Rugger jersey spine \\(colonna \"a maglia da rugby\"\\)\nC\\) Vertebra \"ad avorio\" \\(ivory vertebra\\)\nD\\) Vertebra \"a cornice\" \\(picture frame\\)\n\n||Risposta corretta: B \u2014 L'alternanza sclerosi sub\\-limitante / relativa radiotrasparenza centrale, ripetuta su pi\u00f9 livelli, ricorda le fasce orizzontali di una maglia da rugby: \u00e8 il rugger jersey spine, quasi diagnostico dell'osteosclerosi da iperparatiroidismo secondario dell'insufficienza renale cronica\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260922%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260922|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260922|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260922|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260922|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260922|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260922|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83c\udd95 Qual \u00e8 il meccanismo delle bande sclerotiche sub\\-limitanti nel rugger jersey spine?\n\nA\\) Deposito di cristalli di calcio pirofosfato\nB\\) Accumulo di osteoide in eccesso \\(in gran parte non mineralizzato\\) prodotto dagli osteoblasti in risposta all'eccesso di PTH\nC\\) Metastasi osteoaddensanti diffuse\nD\\) Sclerosi post\\-fratturativa da insufficienza\n\n||Risposta corretta: B \u2014 Nell'iperparatiroidismo secondario dell'IRC l'eccesso di PTH stimola il rimaneggiamento osseo; gli osteoblasti depongono abbondante osteoide \\(spesso poco mineralizzato per il deficit di calcitriolo\\) in sede sub\\-limitante \u2014 le bande dense \u2014 mentre il centro relativamente osteopenico completa l'aspetto a bande\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260922%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260922|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260922|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260922|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260922|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260922|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260922|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83c\udd95 Quale elemento distingue il rugger jersey spine dalla vertebra \"a sandwich\" dell'osteopetrosi?\n\nA\\) Il rugger jersey colpisce solo il rachide cervicale\nB\\) Nel rugger jersey le bande sono sfumate/mal definite \\(contesto di IRC\\); nella vertebra a sandwich dell'osteopetrosi le limitanti sono nettamente demarcate e omogeneamente dense\nC\\) La vertebra a sandwich risparmia sempre le limitanti\nD\\) Il rugger jersey non interessa mai vertebre contigue\n\n||Risposta corretta: B \u2014 Entrambe addensano le limitanti, ma il rugger jersey \\(iperparatiroidismo secondario/IRC\\) ha bande pi\u00f9 sfumate e \"morbide\"; la sandwich vertebra dell'osteopetrosi mostra limitanti nettissime e uniformemente sclerotiche\\. Il contesto clinico \\(dialisi vs difetto congenito osteoclastico\\) dirime\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260922%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260922|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260922|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260922|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260922|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260922|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260922|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83c\udd95 In un paziente con rugger jersey spine da osteodistrofia renale, quale ALTRO reperto scheletrico \u00e8 tipicamente atteso?\n\nA\\) Riassorbimento osseo subperiostale \\(margine radiale delle falangi medie\\) e tumori bruni\nB\\) Osteocondromatosi multipla\nC\\) Linee di Looser esclusive del femore senza altri segni\nD\\) Erosioni marginali articolari simmetriche tipo artrite reumatoide\n\n||Risposta corretta: A \u2014 L'iperparatiroidismo secondario d\u00e0 riassorbimento subperiostale \\(classico al margine radiale delle falangi medie\\), tumori bruni \\(osteite fibrosa cistica\\), cranio \"sale e pepe\", riassorbimento delle falangi distali e calcificazioni vascolari/dei tessuti molli: l'intero spettro dell'osteodistrofia renale\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260922%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260922|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260922|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260922|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260922|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260922|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260922|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udee0\ufe0f Report operativo RadioLearn 2026\\-09\\-22\n\u2022 Pill: 20260922 \u2014 rugger\\-jersey\\-spine \\(MSK, L3\\)\n\u2022 Ripasso incluso: s\u00ec \\(6 carte\\) \u2014 20260517:0, 20260515:2, 20260730:2, 20260730:0, 20260730:1, 20260804:1\n\u2022 Callback inbox processati: 0 file\n\u2022 Form: 0 nuove risposte\n\u2022 Carte resettate \\(no\\-show\\): 10\n\u2022 Nuove domande: 4 \u00b7 Totale quiz: 10\n\u2022 Warning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
