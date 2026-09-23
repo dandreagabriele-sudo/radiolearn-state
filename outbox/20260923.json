@@ -1,0 +1,200 @@
+{
+  "pill_id": "20260923",
+  "created_at": "2026-09-23T06:48:01Z",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udc8a *RadioLearn* \u2014 Pillola del 23/09/2026\n\n*THID / THAD: le differenze transitorie di perfusione epatica*\n\n\ud83e\udec0 *Il concetto \\(Livello 2 \u2013 RM addome\\)*\nLa THAD \\(Transient Hepatic Attenuation Difference, TC\\) e la sua gemella RM, la THID \\(Transient Hepatic Intensity Difference\\), sono aree di iper\\-enhancement parenchimale che compaiono SOLO in fase arteriosa e ritornano iso\\-intense/iso\\-dense nelle fasi successive\\. Non sono masse: sono un fenomeno emodinamico del doppio apporto ematico epatico \\(\\~75\\-80% vena porta, 20\\-25% arteria epatica\\)\\.\n\n*Meccanismo \u2014 Hepatic Arterial Buffer Response \\(HABR\\)*\nQuando in una regione cala il flusso portale, l'adenosina \u2014 normalmente lavata via dal sangue portale \u2014 si accumula nello spazio di Mall e vasodilata l'arteria epatica: quella zona riceve piu sangue arterioso e va in iper\\-enhancement arterioso transitorio\\. E autoregolazione pura: l'arteria tampona la caduta portale \\(teoria del washout dell'adenosina, Lautt 1985\\)\\.\n\n*Pattern e cause \\(le 4 famiglie\\)*\n\u2022 Lobare/segmentale, cuneiforme a margini netti \\-\\> ostruzione/compressione/trombosi portale segmentaria o shunt artero\\-portale\\.\n\u2022 Peritumorale \\(a cuneo attorno a un nodulo\\) \\-\\> compressione o shunt AP indotti dalla lesione; puo smascherare un tumore occulto\\.\n\u2022 Da infiammazione contigua \\(colecistite, ascesso\\) \\-\\> iperemia arteriosa reattiva\\.\n\u2022 Da terzo inflow / drenaggio venoso aberrante \\(falciforme, letto colecistico, ilo\\) \\-\\> pseudolesione, iso in tutte le altre fasi\\.\n\n*Come non farsi ingannare*\nNiente effetto massa, geometria vascolare/cuneiforme, iso nelle fasi porto\\-venosa e tardiva, assenza di washout e \\(di norma\\) niente restrizione in DWI: cosi la distingui da HCC e metastasi ipervascolari\\. Ma una THAD peritumorale cuneiforme e essa stessa un indizio: cerca la lesione che la genera\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udd17 *Connessione multidisciplinare*\nL'adenosina che regola la HABR e la STESSA molecola che inietti come vasodilatatore negli stress test di perfusione miocardica \\(adenosina/regadenoson\\): un ponte diretto con la tua expertise cardiologica \u2014 in entrambi i casi apre il letto arterioso\\. E anche un elegante feedback omeostatico a tampone: come un buffer chimico si oppone alla variazione \\(Le Chatelier\\), il fegato oppone flusso arterioso alla caduta portale\\.\n\n*Per approfondire*\n\u2022 [Radiopaedia \u2014 THAD](https://radiopaedia.org/articles/transient-hepatic-attenuation-differences)\n\u2022 [Radiopaedia \u2014 THID](https://radiopaedia.org/articles/transient-hepatic-intensity-difference)\n\u2022 [Hepatic arterial buffer response / THAD \\(AJR review\\)](https://ajronline.org/doi/10.2214/ajr.183.2.1830459)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\uddbc\ufe0f *Immagini*\n\u2022 [THAD \u2014 reference & casi \\(Radiopaedia\\)](https://radiopaedia.org/articles/transient-hepatic-attenuation-differences)\n\u2022 [THAD da trombosi portale \u2014 caso RM/TC \\(Radiopaedia\\)](https://radiopaedia.org/cases/transient-hepatic-attenuation-difference-secondary-to-portal-vein-thrombosis)\n\u2022 [THID \u2014 galleria RM \\(Radiopaedia\\)](https://radiopaedia.org/articles/transient-hepatic-intensity-difference)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udde0 *Quiz 1/4*\nArea cuneiforme di iper\\-enhancement in fase arteriosa, a margini rettilinei, che diventa iso\\-intensa in fase porto\\-venosa, senza washout ne effetto massa\\. Diagnosi piu probabile?\nA\\) Epatocarcinoma \\(HCC\\)\nB\\) THID/THAD \\(alterazione perfusionale transitoria\\)\nC\\) Emangioma\nD\\) Metastasi ipervascolare\n||Risposta corretta: B \u2014 l'iso\\-intensita nelle fasi tardive, l'assenza di washout e di effetto massa e la geometria cuneiforme indicano un fenomeno perfusionale \\(THID/THAD\\), non una lesione solida\\.||\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260923%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260923|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260923|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260923|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260923|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260923|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260923|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udde0 *Quiz 2/4*\nQual e il meccanismo fisiologico dell'iper\\-enhancement arterioso di una THAD quando si riduce il flusso portale di un segmento?\nA\\) Aumento della pressione venosa centrale\nB\\) Hepatic arterial buffer response mediata dall'adenosina\nC\\) Neoangiogenesi tumorale\nD\\) Shunt porto\\-sistemico spontaneo\n||Risposta corretta: B \u2014 ridotto washout portale \\-\\> accumulo di adenosina nello spazio di Mall \\-\\> vasodilatazione dell'arteria epatica \\(HABR, teoria del washout di Lautt\\)\\.||\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260923%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260923|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260923|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260923|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260923|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260923|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260923|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udde0 *Quiz 3/4*\nPiccola area iso in tutte le fasi tranne una lieve iperintensita arteriosa, adiacente al legamento falciforme / letto colecistico, senza effetto massa\\. Causa piu probabile?\nA\\) Metastasi\nB\\) Drenaggio venoso aberrante \\(terzo inflow\\) \u2014 pseudolesione\nC\\) Ascesso epatico\nD\\) HCC precoce\n||Risposta corretta: B \u2014 le sedi tipiche del terzo inflow \\(falciforme, letto colecistico, ilo\\) danno pseudolesioni perfusionali per drenaggio venoso sistemico aberrante, iso nelle altre fasi\\.||\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260923%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260923|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260923|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260923|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260923|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260923|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260923|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\udde0 *Quiz 4/4*\nUna THAD cuneiforme peritumorale attorno a un nodulo epatico ipervascolare deve far pensare soprattutto a:\nA\\) Artefatto di suscettibilita\nB\\) Shunt artero\\-portale indotto dalla lesione \\(e possibile tumore sottostante\\)\nC\\) Steatosi focale\nD\\) Cisti biliare\n||Risposta corretta: B \u2014 la THAD peritumorale riflette uno shunt AP o una compressione indotti dalla lesione; e un indizio da non ignorare, talvolta rivela un tumore occulto\\.||\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260923%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260923|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260923|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260923|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260923|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260923|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260923|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udee0 RadioLearn \u2014 rapporto 2026-09-23\npill_id: 20260923 | topic: thid-thad-liver (L2, addome)\nCallback inbox: 0 | Form ingerite: 0\nCarte resettate (FASE 3): 4\nRipasso incluso: no (days_since=1)\nNuove card: 20260923:0,20260923:1,20260923:2,20260923:3\nInbox cancellati: 0\nPaper del giorno: no | Backup lunedi: no | Riepilogo settimanale: no"
+      }
+    }
+  ]
+}
