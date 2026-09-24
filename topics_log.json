@@ -852,5 +852,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-24",
+    "tag": "interstitial-lung-abnormalities-ila",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
