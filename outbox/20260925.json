@@ -1,0 +1,452 @@
+{
+  "pill_id": "20260925",
+  "created_at": "2026-09-25T06:50:45.216946+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83e\udec1 RadioLearn \u2014 Malformazioni artero\\-venose polmonari \\(PAVM\\)*\n\nLe PAVM sono comunicazioni dirette a bassa resistenza tra arteria polmonare e vena polmonare che bypassano il letto capillare, generando uno shunt destro\u2192sinistro intrapolmonare\\.\n\n*Associazione \\(HHT\\)\\.* Il \\~70\\-90% delle PAVM \u00e8 legato alla teleangectasia emorragica ereditaria \\(HHT, Rendu\\-Osler\\-Weber\\); il 15\\-30% dei pazienti HHT ha PAVM\\. Malattia autosomica dominante del pathway TGF\\-\u03b2/BMP: geni ENG \\(HHT1\\) e ACVRL1/ALK1 \\(HHT2\\)\\.\n\n*Morfologia \\(TC mdc \\= gold standard\\)\\.* Nidus/sacco aneurismatico con arteria afferente \\(feeding artery\\) e vena efferente \\(draining vein\\), tipicamente ai lobi inferiori\\. Semplici \\(unica arteria segmentaria, \\~80%\\) vs complesse \\(\u22652 arterie\\) vs diffuse\\. Le ricostruzioni 3D mostrano il rapporto vaso\\-nidus per pianificare l'embolizzazione\\.\n\n*Fisiopatologia\\.* La perdita del filtro capillare causa ipossiemia \\(non corretta da O2 al 100% se lo shunt \u00e8 ampio\\) ed embolia paradossa \\(ictus, ascesso cerebrale, TIA\\); rischio di emottisi/emotorace da rottura\\.\n\n*Clinica e diagnosi di shunt\\.* Orthodeoxia\\-platypnea \\(desaturazione in ortostatismo per prevalenza basale delle lesioni\\), cianosi, dita a bacchetta\\. Bubble study eco: microbolle in atrio sinistro con comparsa RITARDATA \\(3\\-8 cicli\\) vs immediata nello shunt intracardiaco\\.\n\n*Trattamento\\.* Embolizzazione transcatetere \\(accesso venoso femorale, coil/vascular plug\\); soglia classica dell'arteria afferente \u22653 mm, con tendenza attuale a trattare tutte le lesioni tecnicamente aggredibili anche asintomatiche\\. Follow\\-up TC a basse dosi\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd17 Connessioni multidisciplinari*\n\n*Fisica dello shunt\\.* Il capillare polmonare \u00e8 un filtro meccanico \\(\\~calibro dell'eritrocita\\) che intrappola trombi e batteri; saltandolo, un embolo venoso passa direttamente al circolo sistemico \u2014 stesso principio del forame ovale pervio, ma a livello polmonare\\.\n\n*Fisiologia e gravit\u00e0\\.* Orthodeoxia\\-platypnea: in ortostatismo le PAVM basali ricevono pi\u00f9 flusso \\(gravit\u00e0\\), lo shunt aumenta e la SpO2 cala; migliora in clinostatismo\\. Un elegante gradiente ventilo\\-perfusorio\\.\n\n*Chimica dei gas\\.* Lo shunt vero non si corregge con O2 al 100% \\(a differenza del mismatch V/Q\\), perch\u00e9 il sangue non incontra mai l'alveolo: \u00e8 la base del calcolo della frazione di shunt\\.\n\n*Storia\\.* Triade eponima Rendu \\(1896\\) \u2013 Osler \\(1901\\) \u2013 Weber \\(1907\\)\\. I criteri diagnostici di HHT prendono nome da Cura\u00e7ao: epistassi spontanea, teleangectasie, AVM viscerali, familiarit\u00e0 di I grado; \u22653 \\= diagnosi certa\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\uddbc\ufe0f Immagini e fonti*\n\n[Radiopaedia \u2014 Pulmonary arteriovenous malformation \\(articolo\\)](https://radiopaedia.org/articles/pulmonary-arteriovenous-malformation)\n[Radiopaedia \u2014 caso PAVM \\(TC, feeding artery/draining vein\\)](https://radiopaedia.org/cases/pulmonary-arteriovenous-malformation-20)\n[Applied Radiology \u2014 Hereditary Hemorrhagic Telangiectasia](https://appliedradiology.com/Articles/hereditary-hemorrhagic-telangiectasia)\n[PMC \u2014 Approach to Pulmonary AVMs: A Comprehensive Update](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7356967/)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 1/6 \u2014 Ponte miocardico \\(cuore, L1\\)*\n\nNel ponte miocardico, come si distribuisce tipicamente l'aterosclerosi lungo il vaso interessato?\n\nA\\) Il tratto tunnellizzato \u00e8 la sede preferenziale di placca\nB\\) Il tratto tunnellizzato \u00e8 di regola RISPARMIATO dall'ateroma, mentre il segmento PROSSIMALE al ponte \u00e8 pi\u00f9 esposto alla placca\nC\\) L'intero vaso \u00e8 colpito in modo uniforme\nD\\) Solo il tratto distale al ponte sviluppa placca calcifica\n\n||Risposta corretta: B \u2014 il segmento intramiocardico \u00e8 protetto \\(shear pulsatile favorevole, compressione sistolica\\), mentre a monte del ponte lo stress emodinamico anomalo favorisce l'aterosclerosi; questo orienta anche la sede degli eventi\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260804%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260804|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260804|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260804|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260804|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260804|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260804|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 2/6 \u2014 Budd\\-Chiari \\(RM addome, L2\\)*\n\nIn sospetta BCS la RM mostra sottili collaterali intraepatiche \"a ragnatela\" \\(spider\\-web\\) attorno a sovraepatiche non riconoscibili\\. Cosa indica?\n\nA\\) Perviet\u00e0 normale delle sovraepatiche con flusso turbolento\nB\\) Collaterali veno\\-venose che bypassano l'ostruzione dell'outflow sovraepatico \u2014 reperto tipico di BCS \\(spesso cronica\\)\nC\\) Cavernoma della vena porta\nD\\) Shunt artero\\-venosi da HCC\n\n||Risposta corretta: B \u2014 la rete spider\\-web sono collaterali venose sviluppate per aggirare le sovraepatiche ostruite; insieme alla mancata visualizzazione delle sovraepatiche \u00e8 altamente suggestiva di BCS\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260801%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260801|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260801|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260801|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260801|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260801|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260801|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 3/6 \u2014 Budd\\-Chiari \\(RM addome, L2\\)*\n\nIn BCS cronica l'ipertrofia del caudato con atrofia periferica d\u00e0 un fegato dismorfico\\. Qual \u00e8 l'insidia refertativa principale?\n\nA\\) Pu\u00f2 essere scambiato per cirrosi/epatopatia cronica di altra origine\nB\\) Indica sempre trasformazione neoplastica\nC\\) \u00c8 patognomonico di steatosi\nD\\) Esclude l'ipertensione portale\n\n||Risposta corretta: A \u2014 la morfologia dismorfica \\(caudato ipertrofico, periferia atrofica, noduli rigenerativi\\) mima la cirrosi; il contesto vascolare \\(sovraepatiche/IVC\\) e la clinica orientano\\. Il caudato ipertrofico pu\u00f2 inoltre comprimere la IVC\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260801%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260801|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260801|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260801|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260801|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260801|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260801|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 4/6 \u2014 Budd\\-Chiari \\(RM addome, L2\\)*\n\nI noduli rigenerativi FNH\\-like della BCS cronica captano il Gd\\-EOB in fase epatobiliare\\. Qual \u00e8 il meccanismo e l'implicazione?\n\nA\\) Contengono epatociti funzionanti con trasportatori OATP \u2192 captano il gadoxetato e appaiono iso/iperintensi in fase epatobiliare, deponendo per la benignit\u00e0\nB\\) Sono privi di epatociti e captano per necrosi\nC\\) Captano perch\u00e9 ricchi di tessuto fibroso\nD\\) La captazione indica degenerazione in HCC\n\n||Risposta corretta: A \u2014 la captazione epatobiliare dipende dagli OATP degli epatociti funzionanti \\(come nella FNH\\); l'HCC di norma perde questi trasportatori \u2192 ipointenso in fase epatobiliare \\+ washout\\. Attenzione: sono spesso multipli e possono simulare metastasi\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260801%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260801|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260801|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260801|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260801|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260801|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260801|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 5/6 \u2014 Bronchiectasie / signet ring \\(torace, L1\\)*\n\nPaziente in fase acuta di ARDS/COVID con dilatazioni bronchiali da trazione su ground\\-glass: qual \u00e8 la condotta corretta?\n\nA\\) Refertare bronchiectasie definitive e avviare antibioticoterapia cronica\nB\\) Definirle potenzialmente reversibili \\(pseudo\\-bronchiectasie da trazione acuta\\) e verificarne la persistenza a distanza prima della diagnosi definitiva\nC\\) Escludere qualsiasi patologia interstiziale\nD\\) Diagnosticare fibrosi cistica\n\n||Risposta corretta: B \u2014 la trazione acuta su danno alveolare pu\u00f2 regredire alla guarigione; la diagnosi di bronchiectasia irreversibile richiede la persistenza al follow\\-up\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260806%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260806|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260806|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260806|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260806|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260806|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260806|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd01 Ripasso 6/6 \u2014 Bronchiectasie / signet ring \\(torace, L1\\)*\n\nOltre al signet ring, quale reperto HRCT conferma bronchiectasia in un bronco che resta di calibro costante fino alla periferia?\n\nA\\) Mancata rastremazione distale \\(lack of tapering\\) e/o visibilit\u00e0 del bronco entro 1 cm dalla pleura\nB\\) Ground\\-glass centrolobulare\nC\\) Perfusione a mosaico in espirio\nD\\) Noduli tree\\-in\\-bud\n\n||Risposta corretta: A \u2014 un bronco che non si rastrema verso la periferia, o visibile entro 1 cm dalla pleura \\(o a contatto con la pleura mediastinica\\), \u00e8 criterio diretto di bronchiectasia, complementare al signet ring\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260806%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260806|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260806|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260806|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260806|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260806|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260806|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 1 \u2014 PAVM / HHT \\(torace, L1\\)*\n\nGiovane con ictus criptogenetico e pregresso ascesso cerebrale; alla TC torace nodulo con vaso afferente e vaso efferente al lobo inferiore\\. Quale meccanismo lega la lesione polmonare agli eventi cerebrali?\n\nA\\) La PAVM causa vasospasmo cerebrale a distanza\nB\\) Lo shunt destro\\-sinistro bypassa il filtro capillare polmonare \u2192 trombi/batteri raggiungono direttamente il circolo sistemico \\(embolia paradossa\\)\nC\\) L'ipossiemia cronica provoca trombosi venosa cerebrale\nD\\) La PAVM libera emboli grassosi\n\n||Risposta corretta: B \u2014 la PAVM crea uno shunt dx\u2192sx che salta i capillari polmonari \\(normale filtro meccanico e batterico\\): emboli venosi passano al circolo sistemico \u2192 ictus e ascesso cerebrale\\. \u00c8 la ragione per trattare anche le PAVM asintomatiche\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260925%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260925|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260925|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260925|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260925|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260925|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260925|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 2 \u2014 PAVM / HHT \\(torace, L1\\)*\n\nQual \u00e8 la modalit\u00e0 di scelta per caratterizzare una PAVM e quale distinzione morfologica guida il trattamento?\n\nA\\) RX torace; forme calcifiche vs non calcifiche\nB\\) TC con mdc \\(\u00b1 ricostruzioni 3D\\), che dimostra arteria afferente\u2013nidus\u2013vena efferente; distinzione semplice \\(unica arteria segmentaria, la pi\u00f9 comune\\) vs complessa \\(\u22652 arterie\\) vs diffusa\nC\\) Ecografia toracica; centrale vs periferica\nD\\) Scintigrafia V/Q; acuta vs cronica\n\n||Risposta corretta: B \u2014 la TC con contrasto \\(con MPR/3D\\) \u00e8 il gold standard e traccia arteria afferente, nidus e vena efferente; classificare semplice/complessa/diffusa orienta la strategia di embolizzazione\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260925%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260925|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260925|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260925|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260925|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260925|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260925|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 3 \u2014 PAVM / HHT \\(torace, L1\\)*\n\nAll'eco con soluzione salina agitata \\(bubble study\\), quale reperto indica uno shunt destro\\-sinistro di origine POLMONARE \\(PAVM\\) piuttosto che intracardiaco \\(es\\. PFO\\)?\n\nA\\) Comparsa immediata di microbolle in atrio sinistro \\(entro 1\\-2 cicli\\)\nB\\) Comparsa RITARDATA delle microbolle in atrio sinistro dopo 3\\-8 cicli cardiaci\nC\\) Nessuna comparsa di microbolle a sinistra\nD\\) Comparsa di microbolle solo nel ventricolo destro\n\n||Risposta corretta: B \u2014 nel PFO le bolle appaiono in atrio sinistro quasi subito \\(<3 cicli\\); nella PAVM devono attraversare il circolo polmonare, comparendo in ritardo \\(3\\-8 cicli\\)\\. Lo shunt vero, inoltre, non si corregge con O2 al 100%\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260925%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260925|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260925|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260925|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260925|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260925|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260925|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83c\udd95 Domanda 4 \u2014 PAVM / HHT \\(torace, L1\\)*\n\nUomo con epistassi ricorrenti, teleangectasie labiali e PAVM: quale associazione e quale principio di trattamento sono corretti?\n\nA\\) Le PAVM sono quasi sempre isolate; si tratta solo con arteria afferente <1 mm\nB\\) \\~70\\-90% delle PAVM si associa a HHT \\(Rendu\\-Osler\\-Weber; geni ENG/ACVRL1\\); l'embolizzazione transcatetere \u00e8 indicata per le lesioni aggredibili \\(soglia classica arteria afferente \u22653 mm\\), anche se asintomatiche\nC\\) Le PAVM richiedono sempre lobectomia chirurgica\nD\\) Il trattamento va evitato negli asintomatici\n\n||Risposta corretta: B \u2014 la maggioranza delle PAVM \u00e8 legata alla HHT \\(criteri di Cura\u00e7ao: epistassi, teleangectasie, AVM viscerali, familiarit\u00e0 di I grado\\); l'embolizzazione transcatetere \\(coil/vascular plug, accesso venoso femorale\\) \u00e8 il trattamento di scelta per le lesioni tecnicamente aggredibili \u2014 soglia storica \u22653 mm dell'arteria afferente \u2014 anche in assenza di sintomi, per prevenire embolia paradossa e ipossiemia\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260925%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260925|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260925|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260925|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260925|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260925|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260925|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udccb Rapporto RadioLearn 2026\\-09\\-25*\nPill 20260925 \u2014 PAVM / HHT \\(tag pulmonary\\-avm\\-hht, torace, L1\\)\nCallback inbox: 0 \u00b7 Form: 4 \u00b7 Reset dimenticate: 10\nRipasso: s\u00ec \u2014 6 carte \\(20260804:0, 20260801:2, 20260801:0, 20260801:3, 20260806:2, 20260806:3\\)\nInbox cancellati: 0\nWarning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
