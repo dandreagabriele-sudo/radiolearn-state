@@ -859,5 +859,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-25",
+    "tag": "pulmonary-avm-hht",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
