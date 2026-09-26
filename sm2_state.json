@@ -7551,6 +7551,42 @@
       "last_quality": null,
       "history": [],
       "last_presented": "2026-09-25"
+    },
+    "20260926:0": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-09-26",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-09-26"
+    },
+    "20260926:1": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-09-26",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-09-26"
+    },
+    "20260926:2": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-09-26",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-09-26"
+    },
+    "20260926:3": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-09-26",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-09-26"
     }
   },
   "history": [
