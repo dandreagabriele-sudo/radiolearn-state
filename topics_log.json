@@ -866,5 +866,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-26",
+    "tag": "cardiac-myxoma",
+    "domain": "cardio",
+    "level": 1,
+    "source": "auto"
   }
 ]
