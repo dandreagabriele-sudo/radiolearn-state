@@ -873,5 +873,12 @@
     "domain": "cardio",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-09-27",
+    "tag": "eye-of-the-tiger-sign",
+    "domain": "neuro",
+    "level": 3,
+    "source": "auto"
   }
 ]
