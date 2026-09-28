@@ -151,6 +151,8 @@ GitHub + SM-2 API documented at the top of the file:
 - `esc(text)` — MarkdownV2 escape (Telegram).
 - `link(text, url)` — MarkdownV2 inline link.
 - `quiz_keyboard(pill_id, qidx)` — 0–5 inline self-assessment keyboard.
+- `shuffle_quiz(items, seed)` / `shuffle_options(item, seed, target=None)` —
+  **obbligatorio**, vedi "Randomizzazione della risposta corretta" sotto.
 - `gh_put_retry(path, content, msg, sha)` — `gh_put` with one retry on
   `409`/`422` (refetch sha) and `5xx` (sleep 3 s). **Writes — proxy-blocked on
   the web; do not call it from the routine** (it raises a `RuntimeError`
@@ -266,6 +268,35 @@ più quiz di ripasso.
 Corollario per chi scrive il rapporto FASE 10 o parla con l'utente: se il
 consolidamento è basso, la causa non è la configurazione — è che i ripassi
 inviati non ricevono risposta. Verificare lì prima di proporre di alzare `k`.
+
+## Randomizzazione della risposta corretta (CRITICAL, dal 2026-09-28)
+
+**Il guasto.** Non c'era alcuna randomizzazione: la sessione scrive a mano
+domande e opzioni e tende a mettere la risposta giusta in B. Audit su 542
+domande di `pills_log/`: corretta = **B 69 %**, C 17 %, A 14 %, **D 0,4 %**
+(atteso ~25 % ciascuna). L'utente se n'è accorto. Effetto: si prendono voti
+alti indovinando «B», e i punteggi SM-2 risultano gonfiati.
+
+**La regola.** Dopo aver composto *tutte* le Q&A della pillola (ripassi +
+nuove) e **prima** di costruire i messaggi Telegram e il log:
+
+```python
+items = shuffle_quiz(items, pill_id)   # ripassi e nuove nella stessa lista
+```
+
+- Gli item sono dict `{"q", "opt": [("A", testo), …], "ans": "B", "rat"}`.
+- `shuffle_quiz` distribuisce le lettere corrette in blocchi A–D mescolati
+  (a n≈10 il solo shuffle casuale darebbe lotti sbilanciati); è
+  deterministico per `pill_id`, quindi rigenerare la pillola dà lo stesso
+  ordine.
+- Le opzioni «Tutte/Nessuna delle precedenti», «Entrambe» restano al loro
+  posto; se è quella la risposta giusta non viene spostata.
+- **Il razionale (`rat`) e le altre opzioni non devono citare lettere**
+  («A inverte le densità…»): dopo lo shuffle sarebbero sbagliate. Nomina il
+  concetto.
+- Le domande già archiviate non vengono riscritte.
+- Verifica veloce a fine mese: la distribuzione delle lettere corrette nei
+  nuovi `pills_log/` deve stare intorno al 25 % per lettera.
 
 ## Answer source tagging — FASE 3 and FASE 5
 
