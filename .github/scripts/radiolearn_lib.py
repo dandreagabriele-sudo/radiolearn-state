@@ -15,6 +15,12 @@ Public API:
     gh_put(path, content_str, msg, sha=None)  -> new_sha
     gh_delete(path, sha, msg)                 -> None
 
+  Archiving (cards the user does not want; reversible, history kept):
+    archive_cards(state, ids)                 -> [card_ids] ("YYYYMMDD" = whole pill)
+    unarchive_cards(state, ids)               -> [card_ids]
+    archived_cards(state)                     -> [card_ids]
+    apply_form_archive_requests(state, fstate, csv_text) -> (archived, fstate, n_requests)
+
   SM-2 (in-memory; persistence is caller's responsibility):
     new_card()                                          -> dict (fresh card)
     update_card(state, card_id, quality, source="user") -> mutates, returns card
@@ -231,7 +237,8 @@ def update_card(state: dict, card_id: str, quality: int,
 
 def cards_due(state: dict, as_of: Optional[str] = None) -> list:
     cutoff = as_of or date.today().isoformat()
-    return [cid for cid, c in state["cards"].items() if c["next_review"] <= cutoff]
+    return [cid for cid, c in state["cards"].items()
+            if c["next_review"] <= cutoff and not c.get("archived")]
 
 
 def cards_overdue_without_answer(state: dict, answered: set) -> list:
@@ -311,6 +318,8 @@ def cards_unanswered_after_presentation(state: dict, grace_days: int = 3,
     today = date.fromisoformat(as_of) if as_of else date.today()
     out = []
     for cid, c in state["cards"].items():
+        if c.get("archived"):
+            continue
         lp = c.get("last_presented") or _card_pill_date(cid)
         if not lp:
             continue
@@ -400,6 +409,60 @@ def select_review_candidate(state: dict) -> Optional[str]:
     """
     picks = select_review_candidates(state, k=1)
     return picks[0] if picks else None
+
+
+# ────────────────────────────────────────────────────────────────────
+# Archiving cards the user is not interested in (since 2026-09-28)
+#
+# An archived card keeps its full history in sm2_state.json but is invisible to
+# scheduling: never due, never picked for ripasso, never reset as "forgotten".
+# Nothing is deleted, so archive_cards() is reversible with unarchive_cards().
+# Channels: (1) the user asks the session in chat; (2) Google Form — type "x"
+# (or "archivia") in front of the card id in the "Card" field.
+# ────────────────────────────────────────────────────────────────────
+
+def _expand_card_ids(state: dict, ids) -> list:
+    """"YYYYMMDD:N" stays as is; a bare "YYYYMMDD" expands to every card of
+    that pill."""
+    out = []
+    for i in ids:
+        i = i.strip()
+        if ":" in i:
+            out.append(i)
+        else:
+            out += [cid for cid in state["cards"] if cid.split(":")[0] == i]
+    return out
+
+
+def archive_cards(state: dict, ids, day: Optional[str] = None) -> list:
+    """Archive cards (or whole pills, by bare pill id). Returns the card ids
+    actually archived; unknown ids are ignored. Mutates state."""
+    day = day or date.today().isoformat()
+    done = []
+    for cid in _expand_card_ids(state, ids):
+        c = state["cards"].get(cid)
+        if c is None or c.get("archived"):
+            continue
+        c["archived"] = True
+        c["archived_on"] = day
+        done.append(cid)
+    return done
+
+
+def unarchive_cards(state: dict, ids) -> list:
+    """Undo archive_cards(). Returns the card ids restored. Mutates state."""
+    done = []
+    for cid in _expand_card_ids(state, ids):
+        c = state["cards"].get(cid)
+        if c is not None and c.get("archived"):
+            c.pop("archived", None)
+            c.pop("archived_on", None)
+            done.append(cid)
+    return done
+
+
+def archived_cards(state: dict) -> list:
+    return sorted(cid for cid, c in state["cards"].items() if c.get("archived"))
 
 
 # ────────────────────────────────────────────────────────────────────
@@ -785,6 +848,45 @@ def mark_form_rows_local(fstate: dict, keys) -> dict:
             seen.append(k)
     fstate["processed_row_keys"] = seen[-5000:]
     return fstate
+
+
+_ARCHIVE_RE = _re.compile(r"^\s*(?:x|archivia)\s*[:\-]?\s*(\d{8}:\d+)\s*$", _re.I)
+
+
+def parse_form_archive_requests(csv_text: str) -> list:
+    """Rows of the Form CSV whose "Card" field is "x<card_id>" or
+    "archivia <card_id>" -> [{"timestamp", "card_id"}]. parse_form_csv() drops
+    these rows (its card pattern is strict), so no answer is double-counted.
+    The Form still forces a "Qualità" pick; it is ignored here."""
+    import csv as _csv
+    import io as _io
+    rows = []
+    rdr = _csv.reader(_io.StringIO(csv_text))
+    next(rdr, None)
+    for r in rdr:
+        if len(r) < 2:
+            continue
+        mt = _ARCHIVE_RE.match(r[1])
+        if mt:
+            rows.append({"timestamp": r[0].strip(), "card_id": mt.group(1)})
+    return rows
+
+
+def apply_form_archive_requests(state: dict, fstate: dict, csv_text: str):
+    """FASE 2-bis helper: archive the cards requested through the Form.
+
+    Idempotent through forms_state.json (keys "archive|<timestamp>|<card_id>"),
+    so a later unarchive_cards() is not undone by re-reading the same row.
+    Returns (archived_card_ids, fstate, n_new_requests). Dump forms_state.json
+    whenever n_new_requests > 0 (even if every card was already archived).
+    """
+    fresh = [r for r in parse_form_archive_requests(csv_text)
+             if f"archive|{r['timestamp']}|{r['card_id']}"
+             not in fstate.setdefault("processed_row_keys", [])]
+    done = archive_cards(state, [r["card_id"] for r in fresh])
+    mark_form_rows_local(
+        fstate, [f"archive|{r['timestamp']}|{r['card_id']}" for r in fresh])
+    return done, fstate, len(fresh)
 
 
 def build_delivery(out_dir: str, upserts, deletes=None) -> str:

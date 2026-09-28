@@ -153,6 +153,10 @@ GitHub + SM-2 API documented at the top of the file:
 - `quiz_keyboard(pill_id, qidx)` — 0–5 inline self-assessment keyboard.
 - `shuffle_quiz(items, seed)` / `shuffle_options(item, seed, target=None)` —
   **obbligatorio**, vedi "Randomizzazione della risposta corretta" sotto.
+- `archive_cards(state, ids)` / `unarchive_cards(state, ids)` /
+  `archived_cards(state)` / `apply_form_archive_requests(state, fstate,
+  csv_text)` — archiviazione delle domande non gradite, vedi "Archiviazione
+  delle domande" sotto.
 - `gh_put_retry(path, content, msg, sha)` — `gh_put` with one retry on
   `409`/`422` (refetch sha) and `5xx` (sleep 3 s). **Writes — proxy-blocked on
   the web; do not call it from the routine** (it raises a `RuntimeError`
@@ -298,6 +302,38 @@ items = shuffle_quiz(items, pill_id)   # ripassi e nuove nella stessa lista
 - Verifica veloce a fine mese: la distribuzione delle lettere corrette nei
   nuovi `pills_log/` deve stare intorno al 25 % per lettera.
 
+## Archiviazione delle domande (dal 2026-09-28)
+
+L'utente può togliere dal ciclo le domande che non gli interessano.
+«Archiviata» = la carta resta in `sm2_state.json` con tutta la storia
+(`archived: true`, `archived_on`), ma non è mai *due*, non viene scelta per il
+ripasso (`cards_due` / `select_review_candidates`), non viene resettata come
+dimenticata (`cards_unanswered_after_presentation`) e non entra nella coorte
+FASE 5. Niente viene cancellato: si annulla con `unarchive_cards`.
+
+**Canali di richiesta**
+
+1. **Chat con la sessione**: «archivia 20260806:1» oppure «archivia tutta la
+   pillola 20260810». La sessione chiama `archive_cards(state, ids)` (un id
+   senza `:` = tutte le carte di quella pillola), poi consegna
+   `sm2_state.json` con `deliver_pr.sh` + PR (nessun outbox: è una
+   modifica di solo stato, non invia nulla a Telegram). Per annullare:
+   `unarchive_cards`.
+2. **Google Form**: nel campo *Card* (precompilato) l'utente antepone `x`
+   all'id, es. `x20260806:1` (accettato anche `archivia 20260806:1`). Il Form
+   obbliga a scegliere una *Qualità*: viene ignorata. `parse_form_csv` scarta
+   queste righe (pattern rigoroso), quindi non contano come risposta;
+   `apply_form_archive_requests` le legge la mattina dopo, in FASE 2-bis.
+   L'idempotenza vive in `forms_state.json` con chiavi
+   `archive|<timestamp>|<card_id>`: rileggere la stessa riga non riarchivia
+   una carta ripristinata a mano.
+
+**Limiti noti**: una richiesta per una carta inesistente viene ignorata
+(ma consumata). Le carte archiviate contano ancora in «Carte mature» (è un
+conteggio sul mazzo, non sul ciclo) — se serve escluderle, filtra
+`c.get("archived")`. Il topic non viene liberato: il tag resta nel ledger, quindi non
+sarà riproposto.
+
 ## Answer source tagging — FASE 3 and FASE 5
 
 `update_card(state, card_id, quality, source="user")` tags every history
@@ -341,7 +377,8 @@ the trailing 7 days**, counting **distinct cards**, not rows:
 ```
 cutoff = (today - 6 days)                       # YYYYMMDD prefix compare
 cohort = [cid for cid in state["cards"]         # new cards delivered this week
-          if cid[:8].isdigit() and cid[:8] >= cutoff_compact]
+          if cid[:8].isdigit() and cid[:8] >= cutoff_compact
+          and not state["cards"][cid].get("archived")]   # archiviate: fuori
 def answered(cid):                              # ≥1 genuine user answer, ever
     return any(h.get("source","user") == "user"
                for h in state["cards"][cid]["history"])
@@ -450,12 +487,14 @@ future reviews.
        update_card(state, r["card_id"], r["quality"])   # source="user"
        answered_today.add(r["card_id"])
    fstate = mark_form_rows_local(fstate, [form_row_key(r) for r in fresh])
+   # righe "x<card_id>" / "archivia <card_id>" = richieste di archiviazione
+   archived, fstate, n_req = apply_form_archive_requests(state, fstate, open("/tmp/radiolearn/form.csv").read())
    ```
 
 3. Ingest form rows **before** FASE 3, so form-answered cards land in
    `answered_today` and are not reset as no-shows.
 4. Add `("forms_state.json", json.dumps(fstate, indent=2))` to the FASE-9
-   `upserts` (before the outbox) whenever `fresh` is non-empty.
+   `upserts` (before the outbox) whenever `fresh` **or `n_req`** is non-empty.
 
 **Pill composition:** each quiz message keeps the 0–5 inline keyboard AND
 gains one line under the spoiler block:
