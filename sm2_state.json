@@ -258,7 +258,9 @@
         }
       ],
       "last_presented": "2026-09-22",
-      "penalised_for": "2026-09-22"
+      "penalised_for": "2026-09-22",
+      "archived": true,
+      "archived_on": "2026-09-28"
     },
     "20260515:3": {
       "ef": 2.5,
@@ -268,7 +270,9 @@
       "last_quality": null,
       "history": [],
       "last_presented": "2026-05-15",
-      "penalised_for": "2026-05-15"
+      "penalised_for": "2026-05-15",
+      "archived": true,
+      "archived_on": "2026-09-28"
     },
     "20260517:0": {
       "ef": 1.3,
