@@ -28,6 +28,10 @@ Public API:
     link(text, url)                           -> str (MDV2 link)
     quiz_keyboard(pill_id, qidx)              -> dict (inline kb)
 
+  Answer-position randomisation (MANDATORY for every quiz item):
+    shuffle_options(item, seed, target=None)  -> item (options reordered, "ans" recomputed)
+    shuffle_quiz(items, seed)                 -> [item]  (correct letters spread over A-D)
+
   Robust PUT:
     gh_put_retry(path, content, msg, sha=None) -> new_sha
 
@@ -442,6 +446,74 @@ def quiz_keyboard(pill_id: str, qidx: int) -> dict:
             {"text": "0 ❌", "callback_data": f"q|{pill_id}|{qidx}|0"},
         ],
     ]}
+
+
+# ────────────────────────────────────────────────────────────────────
+# Answer-position randomisation
+#
+# Audit 2026-09-28 over 542 archived questions: correct answer was B in 69 %,
+# A 14 %, C 17 %, D 0.4 %. The author (the session) writes options by hand and
+# habitually parks the right one in B, so a reader can score well by guessing
+# "B". Every quiz item MUST go through shuffle_quiz() AFTER composition and
+# BEFORE building the Telegram message / pill log.
+#
+# Items are dicts: {"q": str, "opt": [("A", text), ...], "ans": "B", "rat": str}.
+# The rationale ("rat") must NOT cite option letters ("A inverte le densità…"):
+# letters change on shuffle. Name the concept instead.
+# ────────────────────────────────────────────────────────────────────
+
+import random as _random
+import re as _re
+
+# Options whose meaning depends on their position stay where they are.
+_PINNED_RE = _re.compile(
+    r"\b(tutte le (precedenti|opzioni|risposte)|nessuna delle|nessuno dei|"
+    r"entrambe|all of the above|none of the above)\b", _re.I)
+
+
+def shuffle_options(item: dict, seed, target: Optional[str] = None) -> dict:
+    """Return a copy of `item` with options reordered and `ans` recomputed.
+
+    Deterministic for a given `seed` (use the card_id), so regenerating a pill
+    gives the same order. `target` ("A".."D") places the correct option there
+    when possible. Options matching _PINNED_RE ("Tutte le precedenti", …) keep
+    their slot; if the correct option is one of them it is not moved.
+    """
+    letters = "ABCD"
+    opts = [t for _, t in item["opt"]]
+    correct = letters.index(item["ans"])
+    movable = [i for i, t in enumerate(opts) if not _PINNED_RE.search(t)]
+    order = movable[:]
+    _random.Random(str(seed)).shuffle(order)
+    if target is not None and correct in movable:
+        t = letters.index(target)
+        if t in movable:
+            order.remove(correct)
+            order.insert(movable.index(t), correct)
+    new = list(range(len(opts)))
+    for pos, src in zip(movable, order):
+        new[pos] = src
+    out = dict(item)
+    out["opt"] = [(letters[p], opts[src]) for p, src in enumerate(new)]
+    out["ans"] = letters[new.index(correct)]
+    return out
+
+
+def shuffle_quiz(items: list, seed) -> list:
+    """Shuffle every item of one pill, spreading the correct letters over A-D.
+
+    Random per-item shuffling alone still gives lumpy batches at n≈10, so the
+    target letters are drawn from shuffled A-D blocks (each letter appears
+    ⌊n/4⌋ or ⌈n/4⌉ times). Deterministic for a given `seed` (use pill_id).
+    """
+    rng = _random.Random(str(seed))
+    targets = []
+    while len(targets) < len(items):
+        block = list("ABCD")
+        rng.shuffle(block)
+        targets += block
+    return [shuffle_options(it, f"{seed}:{i}", target=targets[i])
+            for i, it in enumerate(items)]
 
 
 # ────────────────────────────────────────────────────────────────────
