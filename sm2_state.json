@@ -198,7 +198,9 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-09-28"
+      "last_presented": "2026-09-28",
+      "archived": true,
+      "archived_on": "2026-09-28"
     },
     "20260515:1": {
       "ef": 2.7,
@@ -222,7 +224,9 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-09-28"
+      "last_presented": "2026-09-28",
+      "archived": true,
+      "archived_on": "2026-09-28"
     },
     "20260515:2": {
       "ef": 1.8,
