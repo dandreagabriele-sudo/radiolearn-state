@@ -575,30 +575,77 @@ morning) — this is the "replace the day-after pill" behaviour.
 
 1. Via the Google Drive MCP tools (the daily *session* has them; the
    sandboxed `routine.py` does **not**), resolve the folder once with
-   `search_files` (`name = 'RadioLearn-Papers' and mimeType =
+   `search_files` (`title = 'RadioLearn-Papers' and mimeType =
    'application/vnd.google-apps.folder'`), then list PDFs in it
-   (`mimeType = 'application/pdf' and '<folder_id>' in parents`).
+   (`parentId = '<folder_id>' and mimeType = 'application/pdf'`). The Drive
+   MCP rejects the Drive-API syntax `name = …` / `'<id>' in parents`.
 2. Load `papers_state.json` (`load_papers_state()`); drop any file whose
    id is in `processed_file_ids`. If none remain → no paper today, proceed
    to the normal generated topic.
 3. If ≥ 1 unprocessed PDF: pick the **oldest by `createdTime` (FIFO)** —
    exactly **one paper per day** (one-shot). Download it
    (`download_file_content` → base64 → save to the scratchpad → `Read` the
-   PDF; `read_file_content` is an acceptable text-only fallback).
-4. The paper **replaces the day's generated topic** (FASE 6b). Everything
-   else is unchanged: FASE 2/3 (inbox + resets), FASE 6a ripasso, SM-2
-   cards for the new questions, FASE 7–9 persistence.
+   PDF; `read_file_content` is an acceptable text-only fallback — on the web
+   sandbox `Read` of a PDF fails without `pdftoppm`, so the fallback is the
+   usual path). **Read 100 % of **Pill composition from a paper — sintesi ESTESA (OVERRIDE dal 2026-09-29).**
 
-**Pill composition from a paper (one-shot summary):**
+La regola precedente («estrai solo i punti essenziali») produceva sintesi
+troppo scarne: il 2026-09-29 una review RadioGraphics di 15 pagine
+(screening opportunistico in TC) è diventata un messaggio di concetto di ~6
+righe più un elenco di soglie. **L'utente ha chiesto sintesi più ampie**: la
+pillola da paper deve poter sostituire una prima lettura del lavoro, non
+solo segnalarlo. Il paper viene consumato una volta sola (one-shot), quindi
+quello che non entra nella pillola è perso.
 
-- Extract only the **essential** points and, above all, **what is new**
-  (novel findings, changed thresholds, a new sign/criterion). Summarize —
-  do not transcribe.
-- Profile to the user's 3 levels as usual; if the paper is **off-domain**
-  (outside the three competency areas), keep it **basic** (Livello-3
-  style): plain explanation, no deep specialist detail.
-- Full pill structure: concetto + connessioni + (optional images) + 3–4
-  new quiz Q&A with the mandatory structure (A/B/C/D + `||spoiler||` +
+- **Lunghezza**: la sintesi (esclusi quiz e connessioni) è di circa
+  **900–1500 parole** in italiano, divisa in **più messaggi Telegram, uno per
+  sezione** (vedi sotto). `send.py` spezza comunque i testi oltre 4096
+  caratteri, ma un messaggio per sezione si legge meglio e non spezza a metà
+  la formattazione. Scendi sotto le 900 parole solo per paper davvero brevi
+  (lettera, case report), e dillo nel rapporto FASE 10.
+- **Struttura obbligatoria** (un messaggio per blocco; i blocchi 1–2 possono
+  stare insieme):
+  1. **Scheda** — citazione completa, tipo di lavoro (review, studio
+     originale retrospettivo/prospettico, trial, metanalisi, linee guida),
+     popolazione/n, domanda clinica.
+  2. **Contesto** — perché il problema conta, qual era lo stato
+     dell'arte / la pratica corrente prima del lavoro.
+  3. **Metodi essenziali** — per studi originali: disegno, n, standard di
+     riferimento, protocollo di acquisizione, analisi. Per review: ambito e
+     organizzazione del lavoro.
+  4. **Contenuti / risultati** — **copri ogni sezione principale del paper**
+     (una voce per sezione o per applicazione, 2–4 frasi ciascuna, non una
+     riga), **con tutti i numeri rilevanti**: soglie, sens/spec, AUC, HR/OR,
+     n, cutoff, percentuali. Se il paper ha una tabella riassuntiva, rendila
+     come elenco.
+  5. **Cosa c'è di nuovo** — cosa cambia rispetto alla pratica corrente
+     (nuove soglie, criteri, segni, raccomandazioni).
+  6. **Implicazioni pratiche** — come cambia la refertazione / il
+     protocollo / la gestione; cosa fare lunedì mattina.
+  7. **Limiti e cautele** — limiti dichiarati dagli autori e punti deboli
+     evidenti (bias, generalizzabilità, evidenza ancora immatura).
+  8. **Take-home** — 4–6 punti.
+- **Sintetizza, non trascrivere**: parafrasi in italiano, niente frasi
+  copiate in blocco; i numeri vanno riportati esatti.
+- **Livelli**: profila ai 3 livelli come sempre, ma il livello regola lo
+  **stile** (tecnicismo, quanto spiegare le basi), **non la lunghezza**. Per un
+  paper fuori dominio (Livello-3) spiega di più le basi — la sintesi resta
+  estesa.
+- **Quiz**: **4–5** Q&A nuove (più materiale → più domande), distribuite su
+  sezioni diverse del paper, con la struttura obbligatoria (A/B/C/D +
+  `||spoiler||` + bottoni 0–5 + link Form), passate da `shuffle_quiz`.
+  Nei giorni di ripasso restano i 6 ripassi: la pillola arriva a 10–11 Q.
+- Connessioni multidisciplinari e immagini (opzionali) come nelle pillole
+  normali.
+- **Pill log**: `pills_log/<data>.md` contiene la **sintesi estesa completa**
+  (stesse sezioni), non un riassunto del riassunto — serve per generare i
+  ripassi futuri da angolazioni diverse.
+- **Citation is mandatory and must be accurate**: authors / journal /
+  year / DOI taken **from the paper itself**. Never invent a DOI/URL; if
+  you add a link use the paper's own DOI or a `web_search`-verified
+  landing page (never `requests.get`).
+
+re (A/B/C/D + `||spoiler||` +
   buttons 0–5), anchored to the paper.
 - **Citation is mandatory and must be accurate**: authors / journal /
   year / DOI taken **from the paper itself**. Never invent a DOI/URL; if
