@@ -1,0 +1,202 @@
+{
+  "pill_id": "20260929",
+  "created_at": "2026-09-29T06:50:13.995595+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83e\ude7b RadioLearn \u2014 29/09/2026\n\ud83d\udcc4 Pillola da paper \\(RadioGraphics 2026\\)\n\n*Screening opportunistico in TC*\nEstrarre biomarcatori clinicamente rilevanti da TC eseguite per tutt'altra indicazione: nessuna radiazione, nessun tempo, nessun costo aggiuntivi\\. Il dato \"gratis\" nasconde diagnosi che spesso sfuggono \\(osteoporosi, steatosi, sarcopenia, adiposita' viscerale, calcificazioni vascolari\\)\\.\n\n\u25aa\ufe0f *BMD / osteoporosi* \u2014 ROI sulla spongiosa di L1 \\(surrogato della densita' sistemica\\)\\. Il contrasto EV alza l'attenuazione di \\~11 HU: soglie dedicate\\. Solo il 20\\-25% delle donne eleggibili esegue la DXA\\.\n\u25aa\ufe0f *Steatosi epatica* \u2014 attenuazione epatica media \\(basale\\); in fase portale l'attenuazione assoluta batte il confronto fegato\\-milza \\(<80 HU: 78%/93%; <90 HU: 91%/78%\\)\\.\n\u25aa\ufe0f *Sarcopenia* \u2014 muscolo a L3: conta piu' la qualita' \\(miosteatosi \\= bassa attenuazione\\) della quantita'\\.\n\u25aa\ufe0f *Adiposita'* \u2014 VAT/SAT a L3: il rapporto VAT/SAT \\(HR \\~2,28\\) supera il BMI \\(HR \\~1,36\\); l'attenuazione del VAT conta piu' dell'area\\.\n\u25aa\ufe0f *Calcio vascolare* \u2014 aorta addominale e, con deep\\-learning, CAC su TC torace non\\-gated per la stratificazione del rischio cardiovascolare\\.\n\n\u26a0\ufe0f Non tutti i biomarcatori sono ugualmente \"azionabili\": servono validazione locale, monitoraggio del drift, calibrazione con phantom e reporting selettivo per evitare overdiagnosis\\. I modelli anatomicamente interpretabili preservano la supervisione del radiologo, a differenza dei modelli end\\-to\\-end \"black box\"\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd17 Connessioni*\n\n*Fisica* \u2014 l'unita' Hounsfield normalizza il coefficiente di attenuazione lineare all'acqua \\(0 HU\\) e all'aria \\(\\-1000 HU\\)\\. Lo iodio del contrasto aumenta \u03bc e quindi le HU: ecco perche' le soglie di BMD e steatosi vanno ricalibrate con e senza contrasto\\. Storia: la scala prende nome da Godfrey Hounsfield \\(TC, 1971; Nobel 1979\\)\\.\n\n*Economia* \u2014 lo screening opportunistico e' un classico caso di costo marginale \\~0: l'esame e' un \"asset\" gia' pagato e il biomarcatore ne e' un sottoprodotto a valore aggiunto \\(un'esternalita' positiva da catturare, non da sprecare\\)\\.\n\n*Statistica* \u2014 l'hazard ratio confronta i tassi di evento nel tempo: HR 2,28 del rapporto VAT/SAT vs 1,36 del BMI significa rischio piu' che raddoppiato, un netto guadagno prognostico rispetto a un indice antropometrico grezzo\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\uddbc Immagini & fonte*\n\n[Coronary calcium score \\(TC\\) \u2014 Radiopaedia](https://radiopaedia.org/cases/coronary-calcium-score)\n[Steatosi epatica \\(TC, attenuazione\\) \u2014 Radiopaedia](https://radiopaedia.org/cases/hepatic-steatosis-4)\n\nFonte: Dogra S, Lew C, Bussey O, Gyftopoulos S, Bredella MA, Recht MP, Dane B\\. Opportunistic CT Screening: Clinical Applications, Technical Foundations, and Best Practices\\. RadioGraphics 2026;46\\(10\\):e260009\\.\n[DOI: 10\\.1148/rg\\.260009](https://doi.org/10.1148/rg.260009)",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 1*\nScreening opportunistico dell'osteoporosi: si misura l'attenuazione della spongiosa di L1 su TC eseguita per altra indicazione\\. Che effetto ha il mezzo di contrasto EV sulle soglie da usare?\n\n*A\\)* Riduce l'attenuazione trabecolare: servono soglie piu' basse\n*B\\)* Aumenta l'attenuazione trabecolare \\(\\~11 HU a L1\\): servono soglie piu' alte\n*C\\)* Rende impossibile qualsiasi stima della densita' ossea\n*D\\)* Nessun effetto: si usano le stesse soglie del basale\n\n||Risposta corretta: B \u2014 Lo iodio circolante alza l'attenuazione dell'osso spongioso di \\~11 HU a L1; per mantenere le stesse prestazioni le soglie post\\-contrasto vanno innalzate \\(es\\. per il 90% di specificita' \\~90 HU senza contrasto vs \\~102 HU con contrasto\\)\\. Solo il 20\\-25% delle donne eleggibili esegue la DXA: la TC gia' fatta colma il divario\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260929%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260929|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260929|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260929|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260929|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260929|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260929|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 2*\nValutazione opportunistica della sarcopenia, di norma a livello di L3: quale parametro si e' rivelato il predittore piu' forte di mortalita'?\n\n*A\\)* L'area muscolare scheletrica totale\n*B\\)* Il numero di vertebre incluse nel campo di studio\n*C\\)* La miosteatosi, cioe' la bassa attenuazione del muscolo \\(infiltrazione adiposa\\)\n*D\\)* La circonferenza addominale isolata\n\n||Risposta corretta: C \u2014 La qualita' muscolare conta piu' della quantita': la miosteatosi \\(grasso intramuscolare, bassa attenuazione TC\\) predice la mortalita' meglio della sola massa muscolare dopo aggiustamento multivariato\\. L3 e' il livello surrogato della massa muscolare corporea totale\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260929%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260929|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260929|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260929|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260929|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260929|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260929|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 3*\nIn oltre 9000 adulti asintomatici sottoposti a colonografia TC, quale misura di composizione corporea ha mostrato la miglior capacita' prognostica per la mortalita' per tutte le cause?\n\n*A\\)* L'indice di massa corporea \\(BMI\\)\n*B\\)* L'altezza del paziente\n*C\\)* Il diametro trasverso del fegato\n*D\\)* Il rapporto grasso viscerale/sottocutaneo \\(VAT/SAT\\)\n\n||Risposta corretta: D \u2014 Il rapporto VAT/SAT ha dato un hazard ratio \\~2,28 per la mortalita', superiore al BMI \\(\\~1,36\\): la distribuzione del grasso pesa piu' del peso complessivo\\. Inoltre l'attenuazione del VAT risulta predittiva indipendentemente dall'area, segnalando che la qualita' del tessuto adiposo conta piu' del volume\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260929%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260929|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260929|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260929|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260929|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260929|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260929|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\u2753 Domanda 4*\nQuantificazione opportunistica della steatosi epatica: cosa indicano i dati piu' recenti sulle acquisizioni in fase portale \\(post\\-contrasto\\)?\n\n*A\\)* L'attenuazione epatica assoluta supera il confronto fegato\\-milza\n*B\\)* Il rapporto fegato\\-milza resta l'unico parametro validato\n*C\\)* La steatosi non e' mai valutabile dopo mezzo di contrasto\n*D\\)* Solo la TC senza contrasto puo' individuare la steatosi\n\n||Risposta corretta: A \u2014 In fase portale l'attenuazione epatica assoluta ha performance diagnostiche superiori al classico confronto fegato\\-milza; soglie <80 HU \\(\\~78% sens/93% spec\\) e <90 HU \\(\\~91% sens/78% spec\\) rendono possibile lo screening anche su esami con contrasto\\. TC dual\\-energy e photon\\-counting generano immagini virtuali senza contrasto e fat fraction concordi con la MRI\\-PDFF\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260929%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20260929|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260929|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260929|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260929|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260929|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20260929|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udee0 Rapporto operativo*\nPill 20260929 \u00b7 topic: opportunistic\\-ct\\-screening \\(L2/addome, da paper\\)\nPaper: Opportunistic CT Screening: Clinical Applications, Technical Foundations, and Best Practices \\(Dogra et al\\., RadioGraphics 2026;46\\(10\\):e260009\\)\nCallback inbox processati: 0 file\nRisposte Form ingerite: 10 \u00b7 richieste archivio: 0\nCarte resettate \\(dimenticate\\): 0\nRipasso incluso: no \\(days\\_since\\_last\\_review\\=1 < 3\\)\nDomande nuove: 4 \u00b7 inbox cancellati: 0",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}

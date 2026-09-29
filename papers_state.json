@@ -2,7 +2,8 @@
   "processed_file_ids": [
     "1LISkdaPUDLeWTNhinsQA0kNZDbsshF2N",
     "1P6e-Sk4QblWDbT-fR0o-4QB1jXtUbZpA",
-    "1omxhk0TjNIomhupxH5pXeK_zpi0sMAMz"
+    "1omxhk0TjNIomhupxH5pXeK_zpi0sMAMz",
+    "1Gu27ppNgqPWelTkMiLBP4gx10hu2siS0"
   ],
   "log": [
     {
@@ -22,6 +23,12 @@
       "pill_id": "20260904",
       "title": "Subclinical Leaflet Thrombosis and Subclinical Aortic Valve Complex Thrombosis in TAVR (Marchandot et al., JACC: Advances 2025;4(9):102085)",
       "date": "2026-09-04"
+    },
+    {
+      "file_id": "1Gu27ppNgqPWelTkMiLBP4gx10hu2siS0",
+      "pill_id": "20260929",
+      "title": "Opportunistic CT Screening: Clinical Applications, Technical Foundations, and Best Practices (Dogra et al., RadioGraphics 2026;46(10):e260009)",
+      "date": "2026-09-29"
     }
   ]
 }
