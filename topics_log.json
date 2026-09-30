@@ -894,5 +894,12 @@
     "domain": "addome",
     "level": 2,
     "source": "paper"
+  },
+  {
+    "date": "2026-09-30",
+    "tag": "pres-posterior-reversible-encephalopathy",
+    "domain": "neuro",
+    "level": 3,
+    "source": "auto"
   }
 ]
