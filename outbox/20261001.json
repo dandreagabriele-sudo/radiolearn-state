@@ -1,0 +1,461 @@
+{
+  "pill_id": "20261001",
+  "created_at": "2026-10-01T06:44:44.804809+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*💊 RadioLearn — Pillola 20261001*\n*Steatosi epatica in RM: chemical shift e PDFF*\nLivello 2 — RM Addome\n\n*1\\. Il principio*\nI protoni dell'acqua e quelli del grasso \\(picco principale, metilene\\) precedono a frequenze che differiscono di circa 3,4–3,5 ppm, cioè circa 210–220 Hz a 1,5 T e il doppio a 3 T\\. In un echo di gradiente i due segnali vanno periodicamente in fase e in opposizione di fase: a 1,5 T opposed\\-phase a circa 2,3 ms e in\\-phase a circa 4,6 ms; a 3 T circa 1,15 e 2,3 ms\\. Quando acqua e grasso stanno nello stesso voxel, in opposizione si sottraggono e il segnale cala: è il segno del grasso microscopico \\(intravoxel\\)\\.\n\n*2\\. Lettura del dual\\-echo*\n• Calo del segnale epatico nell'opposed\\-phase → steatosi\\. Confronta con milza e muscolo, che non contengono grasso\\.\n• Calo nell'in\\-phase \\(echo con TE più lungo\\) → effetto T2\\* da ferro \\(emocromatosi, emosiderosi\\)\\. Questo vale se l'opposed\\-phase è il primo echo, come di solito\\.\n• Fegato con grasso e ferro insieme: i due effetti si mascherano a vicenda\\. Il dual\\-echo non basta\\.\n• Artefatto «India ink»: linea nera all'interfaccia fra grasso macroscopico e acqua \\(ad esempio attorno a un angiomiolipoma\\)\\. È un'altra cosa rispetto al calo diffuso del grasso microscopico\\.\n\n*3\\. Dalla stima alla misura: la PDFF*\nIl fat\\-fraction ricavato dal dual\\-echo è solo una stima, per tre motivi: il bias T1 \\(il grasso è più brillante\\), il decadimento T2\\* e lo spettro del grasso, che ha più picchi e non uno solo\\. In più, oltre il 50 % il calcolo non distingue grasso da acqua\\. La PDFF \\(proton density fat fraction\\) da RM chemical\\-shift encoded multi\\-echo corregge questi confondenti: flip angle basso, 6 o più echi con stima del T2\\*, modello multipicco\\. Il risultato è grasso / \\(grasso \\+ acqua\\) in percentuale, su tutto il fegato, in un'apnea, riproducibile fra vendor e fra 1,5 e 3 T\\. Dalla stessa acquisizione si ottiene l'R2\\* per il ferro\\.\n\n*4\\. Numeri da ricordare*\n• PDFF ≥ 5 %: steatosi, in analogia con la soglia istologica del 5 % di epatociti steatosici\\. Una metanalisi del 2024 indica circa il 5,7 %\\.\n• Gradi \\(Tang et al\\., Radiology 2015, rispetto all'istologia\\): 6,4 % per grado ≥ 1, 17,4 % per grado ≥ 2, 22,1 % per grado 3\\.\n• Ripetibilità di circa 1–2 punti percentuali\\. Una riduzione relativa di circa il 30 % si associa a risposta istologica nei trial su MASH\\.\n• La correlazione con la spettroscopia RM \\(MRS\\) è altissima \\(r circa 0,95\\)\\. La PDFF ha di fatto sostituito la MRS a voxel singolo nella pratica\\.\n\n*5\\. Steatosi focale e risparmio focale*\nLa distribuzione del grasso dipende dal flusso venoso\\. Il «terzo afflusso» non portale \\(vene cistiche, vene parabiliari di Sappey, drenaggio gastrico aberrante\\) crea aree di risparmio o di deposizione focale in sedi tipiche: fossa della colecisti, segmento IV dorsale vicino all'ilo, zona attorno al legamento falciforme\\. I criteri per riconoscerle come pseudolesioni sono la sede tipica, l'assenza di effetto massa e i vasi che le attraversano senza deviare\\. Nella fase epatobiliare con Gd\\-EOB sono isointense\\. Il risparmio focale può essere nodulare o multifocale e allora simula metastasi: l'opposed\\-phase lo risolve\\.\n\n*6\\. Grasso nelle lesioni focali*\nContengono grasso intracellulare \\(calo nell'opposed\\-phase\\): l'adenoma HNF1α\\-inattivato, con calo diffuso e omogeneo, e l'HCC ben differenziato o il nodulo displastico\\. In LI\\-RADS il grasso intralesionale è una feature ancillare a favore di malignità\\. Il grasso macroscopico \\(si annulla con la soppressione del grasso, India ink\\) fa pensare ad angiomiolipoma o lipoma, e raramente a HCC con metaplasia adiposa\\.\n\n*Take\\-home*\nCalo del segnale in opposed\\-phase \\= grasso; calo in in\\-phase \\= ferro\\. Per misurare il grasso serve la PDFF confounder\\-corrected \\(soglia 5 %\\)\\. Un'area risparmiata in sede tipica e senza effetto massa è una pseudolesione\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔗 Connessioni*\n\n*Fisica — i battimenti*\nAcqua e grasso sono come due corridori su una pista con velocità appena diverse: a intervalli regolari sono affiancati \\(in\\-phase\\), a metà strada sono ai lati opposti \\(opposed\\-phase\\)\\. È lo stesso fenomeno dei battimenti fra due diapason quasi accordati\\. Il TE di opposizione dipende dal campo: raddoppia il campo, raddoppia la frequenza di sfasamento, e il TE si dimezza\\.\n\n*Storia — Dixon, 1984*\nW\\. Thomas Dixon pubblicò su Radiology «Simple proton spectroscopic imaging»: con due acquisizioni a sfasamento diverso separava le immagini di acqua e di grasso\\. Le attuali sequenze Dixon \\(e la PDFF\\) derivano da quell'idea, con più echi e la correzione dei confondenti\\.\n\n*Antropologia — il foie gras*\nI bassorilievi delle mastabe di Saqqara \\(Antico Regno egizio, circa 2500 a\\.C\\.\\) mostrano l'alimentazione forzata delle oche\\. Il foie gras è a tutti gli effetti una steatosi epatica indotta, ed è stato usato come modello sperimentale di accumulo lipidico epatocitario\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🖼 Immagini e approfondimenti*\n\n• [PDFF vs biopsia epatica — Radiology \\(RSNA\\)](https://pubs.rsna.org/doi/10.1148/radiol.13121360)\n• [Dual gradient\\-echo in\\-phase/opposed\\-phase — education exhibit \\(PDF\\)](https://geiselmed.dartmouth.edu/radiology/wp-content/uploads/sites/47/2019/04/MRI-liver-In-Outphase-imaging.pdf)\n• [Risparmio focale nodulare multifocale che simula tumori — PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9891182/)\n• [Pseudotumore da risparmio focale: ruolo dell'opposed\\-phase — AJR 2004](https://www.ajronline.org/doi/10.2214/ajr.183.3.1830721)\n• [MRI\\-PDFF nella steatosi: metanalisi 2024 — Eur Radiol](https://link.springer.com/article/10.1007/s00330-024-11001-1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧠 Quiz — 6 ripassi \\+ 4 nuove*\nRispondi, apri lo spoiler, poi autovalutati con i bottoni o col link al Form\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso 1 — Pneumomediastino — effetto Macklin*\n\nPaziente con ARDS in ventilazione meccanica\\. La TC mostra sottili raccolte aeree lineari lungo le guaine peribroncovascolari, in continuità con l'ilo, senza ancora pneumomediastino né pneumotorace\\. Come va interpretato il reperto?\n\n*A\\)* Bronchiectasie da trazione in evoluzione fibrotica dell'ARDS\n*B\\)* Artefatto da movimento respiratorio, privo di significato clinico\n*C\\)* Effetto Macklin visibile in TC: aria interstiziale che sta dissecando verso il mediastino, segnale precoce di barotrauma imminente\n*D\\)* Enfisema centrilobulare preesistente\n\n||Risposta corretta: C — L'aria interstiziale lineare lungo le guaine broncovascolari è la traccia diretta dell'effetto Macklin: gli alveoli marginali si sono già rotti e l'aria sta migrando verso l'ilo\\. Nei ventilati \\(descritto bene nell'ARDS da COVID\\-19\\) precede spesso di giorni il pneumomediastino o il pneumotorace: è un segnale per rivedere pressioni e volumi del ventilatore\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260816%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260816|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260816|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260816|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260816|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260816|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260816|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso 2 — Sarcoidosi — galaxy sign*\n\nHRCT in sarcoidosi: in un lobo superiore c'è un gruppo compatto di molti piccoli noduli ravvicinati, senza un nodulo centrale confluente\\. Come si chiama questo aspetto e cosa lo lega al galaxy sign?\n\n*A\\)* Tree\\-in\\-bud: impatto endobronchiale di materiale infetto\n*B\\)* Noduli miliari a distribuzione random da disseminazione ematogena\n*C\\)* Segno dell'alone: emorragia perinodulare da angioinvasione\n*D\\)* Sarcoid cluster sign: stessi granulomi aggregati del galaxy sign, ma non ancora confluiti in un nodulo centrale\n\n||Risposta corretta: D — Galaxy sign e cluster sign sono due gradi dello stesso fenomeno: granulomi non necrotizzanti raggruppati lungo i linfatici\\. Nel galaxy i granulomi confluiscono in un nodulo centrale denso con micronoduli satelliti alla periferia \\(l'«alone»\\); nel cluster restano distinti, come un grappolo\\. L'alone del galaxy è quindi fatto di microgranulomi, non di emorragia\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260514%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso 3 — Sarcoidosi vs TB — galaxy sign*\n\nUn nodulo con aspetto a galassia è descritto anche nella tubercolosi\\. Quale quadro associato in HRCT orienta più verso TB attiva che verso sarcoidosi?\n\n*A\\)* Ispessimento nodulare dei setti interlobulari ai lobi superiori\n*B\\)* Noduli centrilobulari ad albero in fiore \\(tree\\-in\\-bud\\) e cavitazione nei segmenti apicali o posteriori\n*C\\)* Linfoadenopatie ilari bilaterali e simmetriche, non necrotiche\n*D\\)* Micronoduli perilinfatici lungo le scissure e i fasci broncovascolari\n\n||Risposta corretta: B — Il tree\\-in\\-bud indica diffusione endobronchiale, e la cavitazione nei segmenti apicali o posteriori è tipica della TB post\\-primaria\\. Le linfoadenopatie ilari simmetriche non necrotiche e la distribuzione perilinfatica \\(scissure, fasci broncovascolari, setti\\) sono invece il pattern classico della sarcoidosi\\. In TB i linfonodi tendono a essere asimmetrici con centro necrotico\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260514%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260514|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260514|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260514|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260514|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260514|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260514|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso 4 — Rottura tracheobronchiale — sede*\n\nPerché le rotture tracheobronchiali da trauma chiuso si concentrano entro circa 2,5 cm dalla carena?\n\n*A\\)* La carena è un punto relativamente fisso: compressione antero\\-posteriore e decelerazione divaricano i polmoni e concentrano lo stress di taglio lì, aggravato dalla pressione endoluminale a glottide chiusa\n*B\\)* I bronchi principali sono più sottili dei segmentari\n*C\\)* La vascolarizzazione bronchiale termina alla carena e la parete è ischemica\n*D\\)* La parete dei bronchi principali non ha anelli cartilaginei\n\n||Risposta corretta: A — Cricoide e carena sono i due punti di ancoraggio dell'albero tracheobronchiale\\. Uno schiacciamento antero\\-posteriore allarga il diametro trasverso del torace e allontana i polmoni, che trazionano i bronchi principali contro la carena fissa\\. Se nel frattempo la glottide è chiusa, il picco di pressione endoluminale aggiunge stress alla parete\\. Da qui oltre l'80 % di lesioni iuxtacarenali, più spesso a destra\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260901%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260901|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260901|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260901|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260901|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260901|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260901|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso 5 — Rottura tracheobronchiale — segni TC*\n\nPolitrauma intubato\\. In TC la cuffia del tubo endotracheale appare sovradistesa \\(diametro trasverso oltre \\~2,8 cm\\) e sporge oltre il profilo atteso della parete tracheale\\. Cosa suggerisce?\n\n*A\\)* Tracheomalacia cronica preesistente\n*B\\)* Intubazione selettiva del bronco principale destro\n*C\\)* Normale variabilità del gonfiaggio della cuffia\n*D\\)* Rottura tracheale: la cuffia erniata attraverso il difetto di parete è un segno indiretto di lesione delle vie aeree\n\n||Risposta corretta: D — Una cuffia molto sovradistesa o che esce dal contorno tracheale significa che la parete non la contiene più, quindi c'è un difetto\\. È un segno indiretto di rottura tracheale accanto a pneumomediastino, enfisema profondo del collo, discontinuità di parete e, per i bronchi, fallen lung sign\\. La conferma si fa in broncoscopia\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260901%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260901|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260901|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260901|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260901|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260901|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260901|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔁 Ripasso 6 — Ostruzione microvascolare — timing CMR*\n\nUn paziente con STEMI riperfuso esegue la prima CMR solo a 3 mesi: LGE transmurale senza core ipointenso\\. Perché questo esame non esclude che ci sia stata MVO?\n\n*A\\)* L'MVO si risolve in settimane e viene sostituita da tessuto cicatriziale che prende contrasto: la finestra ottimale è la prima settimana \\(circa 2–7 giorni\\)\n*B\\)* A 3 mesi l'MVO diventa iperintensa in T1 nativo\n*C\\)* L'MVO si vede solo in TC con contrasto, non in CMR\n*D\\)* Senza stress farmacologico la CMR non può mostrare l'MVO\n\n||Risposta corretta: A — L'MVO è un fenomeno della fase acuta e subacuta\\. Nelle settimane successive il core necrotico non perfuso viene riassorbito e sostituito da fibrosi, che a sua volta prende gadolinio e si confonde con la cicatrice\\. Per la stratificazione prognostica \\(MVO come predittore indipendente di rimodellamento ed eventi\\) la CMR va fatta indicativamente fra 2 e 7 giorni, con sequenze early e late\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260902%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260902|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260902|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260902|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260902|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260902|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260902|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*❓ Domanda 7 — Steatosi in RM*\n\nRM addome 1,5 T, GRE dual\\-echo\\. Il parenchima epatico perde nettamente segnale nell'opposed\\-phase rispetto all'in\\-phase; milza e muscolo paravertebrale non cambiano\\. Qual è l'interpretazione?\n\n*A\\)* Sovraccarico marziale epatico\n*B\\)* Steatosi epatica: grasso intravoxel \\(microscopico\\) che annulla parte del segnale dell'acqua in opposizione di fase\n*C\\)* Fibrosi avanzata con riduzione del contenuto d'acqua\n*D\\)* Edema epatico da congestione venosa\n\n||Risposta corretta: B — In opposizione di fase i segnali di acqua e grasso nello stesso voxel si sottraggono, quindi un calo di segnale nell'opposed\\-phase vuol dire grasso microscopico\\. Il ferro fa il contrario: con l'echo opposed\\-phase acquisito al TE più breve, il ferro abbassa il segnale nell'in\\-phase \\(TE più lungo, maggior decadimento T2\\*\\)\\. Usare milza e muscolo come riferimento interno aiuta a capire quale delle due situazioni si ha davanti\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261001%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261001|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261001|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261001|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261001|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261001|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261001|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*❓ Domanda 8 — Steatosi in RM*\n\nPerché la PDFF misurata con RM chemical\\-shift multi\\-echo «confounder\\-corrected» è considerata un biomarcatore quantitativo, mentre il fat\\-fraction ricavato da un semplice dual\\-echo no?\n\n*A\\)* Perché richiede gadolinio epatospecifico in fase epatobiliare\n*B\\)* Perché misura il grasso solo nel segmento VI, standardizzato\n*C\\)* Perché corregge i confondenti \\(bias T1 con flip angle basso, decadimento T2\\* con più echi, spettro multipicco del grasso\\) e dà un valore riproducibile fra vendor e campi magnetici\n*D\\)* Perché si ottiene solo con spettroscopia a voxel singolo\n\n||Risposta corretta: C — Il dual\\-echo risente del T1 \\(il grasso è più brillante\\), del T2\\* \\(ferro\\) e del modello del grasso a un solo picco, e oltre il 50 % non distingue grasso da acqua\\. La CSE\\-MRI multi\\-echo con flip angle basso, stima del T2\\* e modello multipicco restituisce la vera frazione protonica di grasso, cioè grasso / \\(grasso \\+ acqua\\)\\. Copre tutto il fegato in un'apnea, è riproducibile fra piattaforme e dalla stessa acquisizione fornisce anche l'R2\\*\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261001%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261001|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261001|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261001|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261001|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261001|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261001|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*❓ Domanda 9 — Steatosi in RM*\n\nIn uno studio su MASH la PDFF epatica di un paziente scende dal 20 % al 13 % in 6 mesi di terapia\\. Come si legge questo cambiamento?\n\n*A\\)* Peggioramento: la PDFF che scende indica progressione verso la cirrosi\n*B\\)* Riduzione relativa del 35 %: supera la soglia di circa il 30 % che negli studi si associa a risposta istologica\n*C\\)* Riduzione assoluta del 7 %: irrilevante, perché conta solo la soglia del 5 %\n*D\\)* Variazione dentro l'errore di misura della PDFF, quindi non interpretabile\n\n||Risposta corretta: B — La PDFF ha una ripetibilità di circa 1–2 punti percentuali, quindi 7 punti sono un cambiamento reale\\. Negli studi su MASH una riduzione relativa di circa il 30 % è la soglia che meglio si associa al miglioramento istologico, ed è un endpoint usato nei trial di fase 2\\. Attenzione: nella cirrosi avanzata il grasso può calare \\(burnt\\-out\\), ma il contesto clinico in questo caso è quello della risposta alla terapia\\. Per la diagnosi si usa PDFF ≥ 5 %\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261001%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261001|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261001|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261001|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261001|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261001|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261001|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*❓ Domanda 10 — Steatosi in RM*\n\nFegato steatosico \\(PDFF 18 %\\)\\. Nell'opposed\\-phase un'area ovalare di 2 cm vicino alla fossa della colecisti resta relativamente iperintensa rispetto al parenchima circostante; non ha effetto massa e i vasi la attraversano senza deviare\\. Diagnosi più probabile?\n\n*A\\)* Emangioma atipico\n*B\\)* Metastasi ipervascolare\n*C\\)* Area di risparmio focale dalla steatosi, dovuta a un «terzo afflusso» venoso \\(vene cistiche\\) con sangue povero di substrati lipogenici\n*D\\)* Adenoma epatocellulare HNF1α\\-inattivato\n\n||Risposta corretta: C — Le sedi tipiche del risparmio focale sono la fossa colecistica, il segmento IV dorsale vicino all'ilo e la zona attorno al legamento falciforme\\. Lì arriva un drenaggio venoso non portale \\(vene cistiche, vene parabiliari, drenaggio gastrico aberrante\\) che modifica l'apporto di grasso\\. Assenza di effetto massa, vasi che attraversano l'area senza deviare e sede tipica permettono di riconoscerla come pseudolesione\\. L'adenoma HNF1α fa il contrario: contiene grasso e perde segnale nell'opposed\\-phase\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261001%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261001|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261001|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261001|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261001|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261001|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261001|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠 Rapporto operativo 20261001\n• Callback inbox: 0 · Risposte Form nuove: 4 · Archiviazioni: 0\n• Carte resettate \\(FASE 3\\): 0\n• Pillola: 20261001 — mri\\-pdff\\-hepatic\\-steatosis \\(addome, L2, auto\\)\n• Ripasso: sì, 6 carte: 20260816:3, 20260514:1, 20260514:2, 20260901:1, 20260901:0, 20260902:1\n• Paper Drive: nessuno nuovo\n• Inbox cancellati: 0\n• Lettere corrette: CDBADABCBC\n• Warning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
