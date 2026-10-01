@@ -901,5 +901,12 @@
     "domain": "neuro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-01",
+    "tag": "mri-pdff-hepatic-steatosis",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
