@@ -908,5 +908,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-02",
+    "tag": "lung-rads-v2022",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
