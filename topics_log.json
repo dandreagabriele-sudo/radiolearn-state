@@ -929,5 +929,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-05",
+    "tag": "perianal-fistula-mri-parks",
+    "domain": "altro",
+    "level": 3,
+    "source": "auto"
   }
 ]
