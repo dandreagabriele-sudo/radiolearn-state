@@ -1,0 +1,233 @@
+{
+  "pill_id": "20261005",
+  "created_at": "2026-10-05T06:44:23.796946+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "📊 *Riepilogo settimanale RadioLearn*\n━━━━━━━━━━━━━━━━━━━━━━\n🎯 Pillole inviate: 7\n✅ Quiz risposti: 8/24 \\(33%\\)\n⭐ Qualità media: 1\\.2 / 5\n🔁 Carte dimenticate: 18\n🏆 Carte mature \\(\\>21gg\\): 1\n━━━━━━━━━━━━━━━━━━━━━━",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*💊 RadioLearn — Pillola 20261005*\n*Fistole perianali in RM: anatomia e classificazione di Parks*\nLivello 3 — RM altri distretti \\(pelvi\\)\n\n*1\\. Che cos'è una fistola perianale*\nÈ un tunnel infiammatorio che collega il canale anale alla cute del perineo\\. Quasi sempre nasce da una ghiandola anale infetta \\(origine «criptoghiandolare»\\): le ghiandole sboccano nelle cripte a livello della linea dentata, a metà del canale anale\\. L'ascesso è la fase acuta, la fistola quella cronica\\. L'altra grande causa è la malattia di Crohn, dove le fistole sono spesso multiple e ramificate\\. Il problema per il chirurgo: se taglia troppo sfintere per aprire il tragitto, il paziente perde la continenza; se lascia un ramo non visto, la fistola recidiva\\.\n\n*2\\. L'anatomia da conoscere \\(bastano due anelli\\)*\nImmagina due tubi concentrici attorno al canale anale\\. Lo sfintere interno è la continuazione della muscolatura liscia del retto: sottile, involontario\\. Lo sfintere esterno è muscolo striato, volontario, ed è più esterno; in alto continua nel muscolo puborettale e nell'elevatore dell'ano\\. Tra i due c'è lo spazio intersfinterico, un sottile piano di grasso\\. Fuori dallo sfintere esterno ci sono le fosse ischioanali \\(ischiorettali\\), piene di grasso\\. Il riferimento chiave di tutta la classificazione è lo sfintere esterno: il tragitto lo attraversa o no?\n\n*3\\. La RM: quali sequenze guardare*\nIl piano si orienta sul canale anale, non sul corpo: assiale obliquo perpendicolare al canale e coronale obliquo parallelo\\. Le sequenze T2 con soppressione del grasso \\(o STIR\\) sono quelle principali: il tragitto attivo contiene liquido e granulazione ed è iperintenso, chiaro su fondo scuro\\. In T2 senza soppressione si vedono meglio i muscoli: lo sfintere esterno e l'elevatore sono ipointensi \\(scuri\\)\\. Il T1 dopo gadolinio mostra le pareti del tragitto che si impregnano e distingue il pus \\(centro non captante\\) dal tessuto di granulazione\\. La DWI aiuta a trovare piccoli ascessi \\(restrizione\\)\\. Una fibrosi cicatriziale inattiva è invece scura in T2\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*4\\. Classificazione di Parks \\(chirurgica, 1976\\)*\n• Intersfinterica \\(la più frequente, \\~45–70%\\): il tragitto scende nello spazio tra i due sfinteri e sbocca sulla cute vicino all'ano, senza attraversare lo sfintere esterno\\.\n• Transsfinterica \\(\\~25–40%\\): attraversa lo sfintere esterno e passa nella fossa ischioanale prima di arrivare alla cute\\. Più è alta l'attraversamento, più muscolo è a rischio\\.\n• Soprasfinterica \\(rara\\): sale nello spazio intersfinterico, scavalca il puborettale da sopra e scende nella fossa ischioanale\\.\n• Extrasfinterica \\(rara\\): passa tutta fuori dagli sfinteri, dal retto attraverso l'elevatore; spesso secondaria a Crohn, traumi o pelvi\\.\nUna fistola «superficiale» \\(sottocutanea\\) non coinvolge gli sfinteri e non entra nello schema\\.\n\n*5\\. Classificazione St James's \\(radiologica, RM\\)*\nProposta da radiologi di Leeds per la RM, aggiunge le complicanze:\n• Grado 1: intersfinterica semplice, lineare\\.\n• Grado 2: intersfinterica con ascesso o tragitto secondario\\.\n• Grado 3: transsfinterica semplice\\.\n• Grado 4: transsfinterica con ascesso o tragitto secondario nella fossa ischioanale\\.\n• Grado 5: malattia sopra o attraverso l'elevatore \\(sopra/translevatoria\\)\\.\nGradi 1–2: semplici; dal 3 in su crescono rischio di recidiva e complessità chirurgica\\.\n\n*6\\. Cosa scrivere nel referto*\nUna mappa per il chirurgo, in quest'ordine:\n• Orifizio interno: posizione come un orologio con il paziente in litotomia \\(ore 12 \\= anteriore, verso perineo/scroto o vagina; ore 6 \\= posteriore, verso il coccige\\) e altezza nel canale \\(di solito alla linea dentata\\)\\.\n• Decorso del tragitto primario e tipo di Parks; per le transsfinteriche, a che altezza attraversa lo sfintere esterno\\.\n• Tragitti secondari e ramificazioni, compreso il ferro di cavallo \\(«horseshoe»\\): estensione circonferenziale bilaterale, in genere posteriore\\.\n• Ascessi \\(sede, dimensioni\\) ed estensione sopra l'elevatore\\.\n• Orifizio esterno sulla cute\\.\n• Nel Crohn: attività \\(T2 iperintenso, DWI\\), proctite associata, eventuale seton\\.\nIl seton è un filo che il chirurgo lascia nel tragitto per drenarlo: in RM è una linea scura dentro un tragitto chiaro; non va scambiato per un tragitto inattivo\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔗 Connessioni*\n\n*Storia — il re Sole e la «grande operazione»*\nNel 1686 Luigi XIV soffriva di una fistola anale\\. Il chirurgo Charles\\-François Félix si esercitò per mesi su pazienti poveri prima di operare il re con un bisturi ricurvo appositamente costruito\\. L'intervento riuscì, la «grande opération» divenne di moda a corte e la chirurgia, fino ad allora arte di barbieri, guadagnò prestigio\\.\n\n*Geometria — l'orologio anale*\nDescrivere una posizione su una circonferenza con un'ora è una coordinata polare: angolo \\(le ore, 30° ciascuna\\) più distanza dal centro\\. Funziona solo se tutti usano lo stesso zero: in proctologia ore 12 è anteriore con il paziente in litotomia\\. Dichiarare la convenzione nel referto evita errori di 180°\\.\n\n*Fisica — perché il tragitto «si accende» in STIR*\nLa STIR annulla il segnale del grasso sfruttando il suo T1 breve: si applica un impulso di inversione e si acquisisce quando la magnetizzazione del grasso passa per lo zero \\(\\~150 ms a 1,5 T\\)\\. Il liquido infiammatorio, con T1 e T2 lunghi, resta brillante: un tunnel chiaro in un fondo scuro\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🖼 Immagini e approfondimenti*\n\n• [RSNA RadioGraphics — MRI of Perianal Fistulas: Anatomy, Diagnosis, and Perianal Crohn Disease Treatment Monitoring](https://pubs.rsna.org/doi/10.1148/rg.250033)\n• [AJR — Perianal Fistula Evaluation on Pelvic MRI: What the Radiologist Needs to Know](https://ajronline.org/doi/10.2214/AJR.11.8361)\n• [ESR EPOS — Mastering perianal fistula MRI reporting: a roadmap for the surgeon](https://epos.myesr.org/poster/esr/ecr2025/C-22551/background)\n• [PMC — MRI in evaluation of perianal fistulae \\(immagini delle 4 forme di Parks\\)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3423712/)\n• [Insights into Imaging — RM nella malattia di Crohn perianale](https://insightsimaging.springeropen.com/articles/10.1007/s13244-017-0579-9)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧠 Quiz — 4 nuove*\nRispondi, apri lo spoiler, poi autovalutati con i bottoni o col link al Form\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q1 — Quale sfintere decide il tipo*\n\nIn RM assiale T2 un tragitto iperintenso parte dalla linea dentata a ore 6, decorre nel sottile piano di grasso tra la muscolatura liscia interna e quella striata esterna e sbocca sulla cute perianale, senza mai entrare nella fossa ischioanale\\. Come la classifichi secondo Parks?\n\n*A\\)* Transsfinterica\n*B\\)* Extrasfinterica\n*C\\)* Intersfinterica\n*D\\)* Soprasfinterica\n\n||Risposta corretta: C — Il tragitto resta nello spazio intersfinterico e non attraversa lo sfintere esterno, che è il riferimento della classificazione di Parks: è una fistola intersfinterica, la forma più frequente\\. Se attraversasse lo sfintere esterno per entrare nella fossa ischioanale sarebbe transsfinterica\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261005%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261005|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261005|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261005|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261005|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261005|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261005|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q2 — La sequenza giusta*\n\nQuale sequenza RM mostra meglio un tragitto fistoloso attivo come una linea chiara su fondo scuro?\n\n*A\\)* T2 con soppressione del grasso \\(o STIR\\)\n*B\\)* T2 senza soppressione del grasso, che rende il tragitto scuro come i muscoli\n*C\\)* T1 senza contrasto\n*D\\)* Gradient echo T2\\* per la suscettibilità\n\n||Risposta corretta: A — Il tragitto attivo contiene liquido e tessuto di granulazione, con T2 lungo: iperintenso\\. Annullando il grasso circostante \\(fat\\-sat o STIR\\) il contrasto è massimo\\. Il T2 senza soppressione serve soprattutto a vedere l'anatomia degli sfinteri, che sono ipointensi; il T1 senza contrasto mostra poco il tragitto\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261005%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261005|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261005|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261005|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261005|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261005|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261005|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q3 — St James's grado 4*\n\nUna fistola attraversa lo sfintere esterno a metà del canale anale e nella fossa ischioanale destra forma una raccolta di 3 cm con parete che capta il gadolinio e centro non captante con restrizione in DWI\\. Quale grado della classificazione St James's?\n\n*A\\)* Grado 5\n*B\\)* Grado 4\n*C\\)* Grado 3\n*D\\)* Grado 2\n\n||Risposta corretta: B — È una transsfinterica \\(attraversa lo sfintere esterno\\) complicata da un ascesso nella fossa ischioanale: grado 4\\. Una transsfinterica senza complicanze sarebbe grado 3; il grado 2 è un'intersfinterica con ascesso o ramo secondario; il grado 5 richiede malattia sopra o attraverso l'elevatore dell'ano\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261005%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261005|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261005|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261005|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261005|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261005|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261005|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q4 — Il filo scuro*\n\nPaziente con Crohn già operato\\. In T2 fat\\-sat c'è un tragitto transsfinterico iperintenso che contiene al centro una sottile linea continua ipointensa, dall'orifizio interno fino alla cute\\. Che cos'è la linea scura?\n\n*A\\)* Gas in un ascesso da anaerobi\n*B\\)* Fibrosi: segno che il tragitto è guarito\n*C\\)* Un vaso trombizzato lungo il tragitto\n*D\\)* Un seton, il filo chirurgico lasciato nel tragitto per drenarlo\n\n||Risposta corretta: D — Il seton è un filo che il chirurgo fa passare nel tragitto per mantenerlo drenato; non dà segnale e appare come una linea ipointensa continua dentro un tragitto iperintenso\\. Il liquido attorno indica che il tragitto è ancora attivo\\. Una fistola guarita diventa invece tutta ipointensa in T2, senza la componente chiara\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261005%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261005|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261005|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261005|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261005|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261005|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261005|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠 Rapporto operativo 20261005\n• Callback inbox: 0 · Risposte Form nuove: 4 · Archiviazioni: 0\n• Carte resettate \\(FASE 3\\): 4\n• Pillola: 20261005 — perianal\\-fistula\\-mri\\-parks \\(altro, L3, auto\\)\n• Ripasso: no \\(ultimo 2026\\-10\\-04, cadenza 3 gg\\)\n• Paper Drive: nessuno nuovo\n• Backup lunedì: sì · Riepilogo settimanale: sì\n• Inbox cancellati: 0\n• Lettere corrette: CABD\n• Warning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
