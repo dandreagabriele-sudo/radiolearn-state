@@ -936,5 +936,12 @@
     "domain": "altro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-06",
+    "tag": "fibrotic-nsip",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
