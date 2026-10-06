@@ -1,0 +1,224 @@
+{
+  "pill_id": "20261006",
+  "created_at": "2026-10-06T06:46:03.614530+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🫁 *RadioLearn 20261006 — NSIP fibrotica in HRCT: riconoscerla e separarla dalla UIP*\n_Livello 1 · Torace — esperto_\n\n*1\\. L'entità*\nLa NSIP è un pattern istologico prima che una malattia: interstizio alveolare ispessito in modo uniforme, «temporalmente omogeneo», senza i focolai fibroblastici e l'eterogeneità spaziale della UIP\\. Due sottotipi: cellulare \\(infiammazione, buona risposta agli steroidi\\) e fibrotica, molto più frequente, con prognosi meno favorevole della cellulare ma nettamente migliore della UIP\\.\nLa forma idiopatica è stata validata come entità a sé dal progetto ATS di Travis e colleghi \\(2008\\): 67 casi su 193 con dati completi, età media 52 anni, 67 % donne, 69 % mai fumatori, sopravvivenza a 5 anni 82,3 %\\. Nella pratica la NSIP è però più spesso secondaria: connettiviti \\(sclerosi sistemica, miosite/antisintetasi, Sjögren\\), polmonite da ipersensibilità fibrotica, farmaci; il paziente idiopatico va spesso riletto come IPAF o connettivite non ancora espressa\\.\n\n*2\\. Il pattern HRCT*\nBilaterale e simmetrica, a prevalenza basale e periferica, spesso con componente peribroncovascolare\\. Domina il vetro smerigliato su cui si sovrappone un reticolo fine; dentro il vetro smerigliato compaiono bronchiectasie e bronchiolectasie da trazione\\. Perdita di volume dei lobi inferiori con dislocazione posteriore delle scissure maggiori\\. Honeycombing assente o minimo\\.\nIl segno più specifico è il risparmio subpleurico: una sottile banda di parenchima normale immediatamente sotto la pleura, soprattutto posteriore\\. È poco sensibile — molti casi non lo mostrano — ma quando c'è sposta forte la diagnosi verso la NSIP\\.\nIl vetro smerigliato associato a bronchiectasie da trazione non è «alveolite attiva»: esprime fibrosi fine sotto il potere risolutivo della TC e va descritto come fibrotico, quindi poco reversibile\\.\n\n*3\\. Diagnosi differenziale con la UIP*\nLa UIP è subpleurica e basale, eterogenea \\(aree sane accanto ad aree fibrotiche\\), con honeycombing e poco vetro smerigliato; la NSIP fibrotica è più omogenea, con più vetro smerigliato che reticolo\\. Nella serie citata da Radiopaedia il 62 % delle UIP aveva prevalenza subpleurica mentre il 55 % delle NSIP fibrotiche una distribuzione casuale/diffusa, non a gradiente\\.\nLa sovrapposizione è reale: nel follow\\-up una parte delle NSIP fibrotiche acquisisce honeycombing e diventa indistinguibile da una UIP probabile\\. Per questo il dato longitudinale \\(TC precedenti\\) pesa quanto il singolo esame\\.\n\n*4\\. Gli altri due rivali*\n• HP fibrotica: zone medio\\-superiori o senza gradiente cranio\\-caudale, noduli centrolobulari, mosaico e segno delle tre densità, air trapping in espirazione\\. La TC espiratoria è la sequenza che separa le due\\.\n• Overlap OP–NSIP \\(tipico dell'antisintetasi\\): consolidazioni peribroncovascolari e perilobulari, a volte atollo, sopra un fondo NSIP; migrano e rispondono agli steroidi\\.\n\n*5\\. Indizi di connettivite da cercare nello stesso esame*\nEsofago dilatato con livello idroaereo \\(sclerosi sistemica\\), arteria polmonare ingrandita sproporzionata alla fibrosi, versamento pleurico o pericardico, calcinosi dei tessuti molli, erosioni o alterazioni articolari nelle porzioni incluse\\. La NSIP è il pattern più frequente nella sclerosi sistemica: un esofago dilatato in una NSIP va segnalato esplicitamente\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*6\\. Progressione e referto*\nLa NSIP fibrotica rientra fra le fibrosi che possono comportarsi come «fibrosi polmonare progressiva» \\(linee guida ATS/ERS/JRS/ALAT 2022\\): almeno 2 su 3 criteri entro 12 mesi, senza altra spiegazione — peggioramento dei sintomi; calo fisiologico \\(FVC −5 % assoluto del predetto o DLCO −10 %\\); progressione radiologica \\(estensione delle bronchiectasie da trazione, nuovo reticolo o honeycombing, aumento del vetro smerigliato con trazione\\)\\. Il criterio radiologico lo fornisce il radiologo: confronta sempre con le TC precedenti e quantifica\\.\nNel referto: distribuzione \\(assiale e cranio\\-caudale\\), rapporto vetro smerigliato/reticolo, bronchiectasie da trazione, presenza o assenza di honeycombing e di risparmio subpleurico, indizi di connettivite, confronto temporale\\. Proponi la discussione multidisciplinare invece di un'etichetta istologica netta\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔗 *Connessioni*\n\n*Storia — il nome «non specifica»*: Katzenstein e Fiorelli nel 1994 riunirono sotto «nonspecific interstitial pneumonia» le biopsie che non rientravano nei quadri allora noti: un nome nato per esclusione\\. Per anni fu considerata un «cestino» diagnostico, finché il progetto ATS del 2008 la promosse a entità clinica distinta\\.\n\n*Fisica — perché i bronchi si dilatano*: Il polmone fibrotico è più rigido e retrae: la trazione elastica radiale sulla parete dei bronchi aumenta e li tiene aperti come i tiranti di una tenda\\. Per questo la bronchiectasia da trazione segue l'estensione della fibrosi e non quella dell'infiammazione, e il suo aumento nel tempo è un marcatore di progressione\\.\n\n*Statistica — segni rari ma specifici*: Il risparmio subpleurico ha bassa sensibilità e alta specificità: il suo rapporto di verosimiglianza positivo è alto \\(quando c'è conta molto\\), ma il negativo è vicino a 1 \\(la sua assenza non esclude nulla\\)\\. Vale per molti segni radiologici «patognomonici»\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🖼 *Immagini e fonti*\n\n• [Radiopaedia — Fibrotic NSIP \\(articolo\\)](https://radiopaedia.org/articles/fibrotic-non-specific-interstitial-pneumonia)\n• [Radiopaedia — Subpleural sparing](https://radiopaedia.org/articles/48618)\n• [Radiopaedia — caso NSIP](https://radiopaedia.org/cases/31651)\n• [Radiopaedia — NSIP da connettivite \\(caso\\)](https://radiopaedia.org/cases/13633)\n• [RadioGraphics — Kligerman et al\\. 2009, NSIP: radiologic, clinical and pathologic considerations](https://pubs.rsna.org/doi/10.1148/rg.291085096)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🧠 Quiz — 4 domande nuove\\. Rispondi, apri lo spoiler, poi autovalutati con i bottoni o col link al Form\\.",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q1 — Il nastro risparmiato*\n\nDonna di 48 anni, dispnea da sforzo\\. HRCT: vetro smerigliato bilaterale e simmetrico ai lobi inferiori con reticolo fine e bronchiolectasie da trazione al suo interno, perdita di volume basale, nessun honeycombing; posteriormente una sottile banda di parenchima normale separa le alterazioni dalla pleura\\. Quale pattern è più probabile?\n\n*A\\)* Polmonite organizzativa\n*B\\)* NSIP fibrotica\n*C\\)* Polmonite da ipersensibilità fibrotica\n*D\\)* UIP probabile\n\n||Risposta corretta: B — Prevalenza basale simmetrica, vetro smerigliato dominante con trazione, assenza di honeycombing e soprattutto il risparmio subpleurico indicano la NSIP fibrotica\\. La UIP è subpleurica senza risparmio e con honeycombing; la HP fibrotica ha mosaico, tre densità e prevalenza medio\\-superiore; la polmonite organizzativa dà consolidazioni migranti, non reticolo con trazione\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261006%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261006|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261006|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261006|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261006|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261006|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261006|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q2 — Vetro smerigliato con trazione*\n\nNel vetro smerigliato basale di una NSIP decorrono bronchi irregolari e dilatati\\. Come va interpretato questo vetro smerigliato?\n\n*A\\)* Sovrainfezione batterica in atto\n*B\\)* Atelettasia declive da acquisizione in espirazione\n*C\\)* Fibrosi fine sotto la risoluzione della TC, poco reversibile\n*D\\)* Alveolite attiva, prevedibilmente reversibile con gli steroidi\n\n||Risposta corretta: C — Le bronchiectasie da trazione dentro il vetro smerigliato indicano che l'opacità è sostenuta da fibrosi fine, non da infiammazione: è vetro smerigliato fibrotico, con scarsa reversibilità\\. L'atelettasia declive scompare in prono, la sovrainfezione dà consolidazioni e clinica acuta\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261006%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261006|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261006|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261006|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261006|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261006|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261006|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q3 — Guarda anche il mediastino*\n\nIn una HRCT con pattern NSIP fibrotica, quale reperto extrapolmonare nello stesso esame orienta di più verso una sclerosi sistemica?\n\n*A\\)* Cisti a pareti sottili nei lobi superiori\n*B\\)* Linfonodi ilari con calcificazioni a guscio d'uovo\n*C\\)* Placche pleuriche calcifiche diaframmatiche\n*D\\)* Esofago dilatato con livello idroaereo\n\n||Risposta corretta: D — La dismotilità esofagea della sclerosi sistemica dà un esofago dilatato, spesso con livello; la NSIP è il pattern polmonare più frequente in questa malattia\\. Le calcificazioni a guscio d'uovo orientano a silicosi o sarcoidosi, le placche calcifiche ad asbesto, le cisti apicali a istiocitosi a cellule di Langerhans\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261006%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261006|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261006|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261006|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261006|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261006|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261006|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q4 — Fibrosi progressiva*\n\nPaziente con NSIP fibrotica in follow\\-up\\. Quale combinazione, comparsa negli ultimi 12 mesi senza altra causa, soddisfa i criteri ATS/ERS/JRS/ALAT 2022 di fibrosi polmonare progressiva?\n\n*A\\)* Calo assoluto della FVC del 5 % del predetto con aumento delle bronchiectasie da trazione in TC\n*B\\)* Calo della DLCO del 6 %, sintomi e TC stabili\n*C\\)* Lieve aumento del vetro smerigliato senza trazione, FVC stabile, sintomi invariati\n*D\\)* Honeycombing già presente all'esame basale, nessuna variazione successiva\n\n||Risposta corretta: A — Servono almeno 2 criteri su 3 \\(sintomi, funzione, radiologia\\)\\. Il calo della FVC di 5 punti assoluti è un criterio funzionale e l'estensione delle bronchiectasie da trazione è un criterio radiologico: due criteri\\. Il calo della DLCO conta solo dal 10 %; un vetro smerigliato senza trazione non basta come progressione; un reperto stabile non è progressione\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261006%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261006|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261006|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261006|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261006|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261006|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261006|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠 Rapporto operativo 20261006\n• Callback inbox: 0 · Risposte Form nuove: 0 · Archiviazioni: 0\n• Carte resettate \\(FASE 3\\): 4\n• Pillola: 20261006 — fibrotic\\-nsip \\(torace, L1, auto\\)\n• Ripasso: no \\(ultimo 2026\\-10\\-04, cadenza 3 gg\\)\n• Paper Drive: nessuno nuovo\n• Backup lunedì: no · Riepilogo settimanale: no\n• Inbox cancellati: 0\n• Lettere corrette: BCDA\n• Warning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
