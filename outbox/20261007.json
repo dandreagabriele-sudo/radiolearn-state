@@ -1,0 +1,446 @@
+{
+  "pill_id": "20261007",
+  "created_at": "2026-10-07T06:46:20.730851+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧠 RadioLearn — Pillola 20261007*\n*Central vein sign e paramagnetic rim lesion nella sclerosi multipla*\n_Livello 3 — RM neuro \\(didattica di base\\)_\n\n*Che cos’è*\nMolte lesioni della sclerosi multipla \\(SM\\) nascono attorno a una piccola vena\\. Con le sequenze sensibili alla suscettibilità \\(T2\\*, SWI, oppure FLAIR\\* che fonde FLAIR e T2\\*\\) quella vena si vede come una sottile linea o un punto scuro al centro della lesione iperintensa: è il central vein sign \\(CVS\\)\\. Si vede meglio a 3 T\\.\n\n*Perché funziona*\nLa deossiemoglobina nel sangue venoso è paramagnetica: disturba il campo magnetico locale e il segnale cade\\. La placca SM è perivenulare \\(le stesse «dita di Dawson» perpendicolari ai ventricoli\\), quindi la vena resta al centro\\. Le lesioni ischemiche da piccoli vasi, l'emicrania e molte vasculiti hanno invece in genere lesioni SENZA vena centrale\\.\n\n*Come si valuta una lesione*\n• vena sottile, che attraversa la lesione in tutto o in parte, in posizione centrale\n• visibile in almeno due piani ortogonali\n• escludi lesioni molto piccole \\(< 3 mm\\), lesioni confluenti e lesioni con più vene\n\n*Le soglie*\n• «Regola del 40 %»: se ≥ 40 % delle lesioni ha la vena centrale, la SM è probabile\\. In metanalisi \\(2019\\) la soglia ottimale era 45 %, con sensibilità \\~97 % e specificità \\~99 %\\.\n• Metodo pratico «Select\\-6»: bastano ≥ 6 lesioni con vena centrale \\(se le lesioni sono poche, la maggioranza\\)\\.\n\n*Il «fratello»: paramagnetic rim lesion \\(PRL\\)*\nUn orletto scuro alla periferia della lesione nelle immagini di fase SWI \\= ferro dentro microglia e macrofagi che continuano a erodere la mielina al bordo\\. È una lesione cronica «attiva» \\(smoldering\\), molto specifica per SM e legata a una malattia più aggressiva\\. Non si potenzia di solito col gadolinio\\.\n\n*Cosa c’è di nuovo*\nLa revisione 2024 dei criteri di McDonald \\(pubblicata su Lancet Neurology nel 2025\\) riconosce CVS e PRL come marcatori di supporto, utili soprattutto quando la diagnosi è incerta; introduce anche il nervo ottico come quinta sede per la disseminazione spaziale\\.\n\n*Take\\-home*\n1\\. Vena al centro \\= lesione perivenulare \\= favorisce SM\\.\n2\\. Contare la PERCENTUALE di lesioni con vena, non la singola lesione\\.\n3\\. Orletto scuro in fase SWI \\= lesione cronica attiva\\.\n4\\. Per vederli serve una sequenza di suscettibilità: chiedila nel protocollo quando la diagnosi è dubbia\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔗 Connessioni multidisciplinari*\n\n*Fisica — perché il sangue venoso «si vede»*\nIl ferro della deossiemoglobina ha elettroni spaiati: è paramagnetico e magnetizza leggermente il tessuto attorno al vaso\\. I protoni vicini precessano a frequenze un po' diverse, perdono coerenza di fase \\(decadimento T2\\*\\) e il segnale si spegne\\. L'ossiemoglobina invece è diamagnetica: per questo vediamo le vene, non le arterie\\. La SWI sfrutta anche la fase del segnale, che rende visibile anche il ferro della PRL\\.\n\n*Storia — la vena era già lì nel 1863*\nIl patologo tedesco Eduard Rindfleisch notò nel 1863 un vaso al centro delle placche di SM; nel 1916 James Dawson, a Edimburgo, descrisse le placche disposte a dito lungo le vene\\. Ci sono voluti 150 anni e la RM ad alto campo per trasformare un'osservazione istologica in un criterio diagnostico\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🖼 Immagini e approfondimenti*\n\n• [Radiopaedia — Central vein sign](https://radiopaedia.org/articles/central-vein-sign-1)\n• [Radiopaedia — Caso: central vein e iron rim sign](https://images.radiopaedia.org/cases/central-vein-and-iron-rim-sign?lang=us)\n• [Radiopaedia — Criteri di McDonald](https://radiopaedia.org/articles/mcdonald-diagnostic-criteria-for-multiple-sclerosis-4?lang=us)\n• [ECTRIMS — Revisione 2024 dei criteri di McDonald](https://ectrims.eu/press/revisions-to-mcdonald-diagnostic-criteria-for-multiple-sclerosis-published/)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "📝 Quiz di oggi: 6 ripassi 🔁 \\+ 4 domande nuove 🆕\\. Rispondi col Form \\(📝\\) o coi bottoni 0–5\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q1/10* 🔁 Ripasso — Neoplasia solida pseudopapillare vs NET\n\nDonna di 35 anni, lesione solida di 3 cm della coda pancreatica: in fase arteriosa tardiva si potenzia intensamente e in modo omogeneo, più del parenchima circostante; nessuna capsula, nessuna area iperintensa in T1 fat\\-sat\\. Diagnosi più probabile?\n\nA\\) Cistoadenoma sieroso microcistico\nB\\) Adenocarcinoma duttale\nC\\) Neoplasia solida pseudopapillare \\(tumore di Frantz\\)\nD\\) Tumore neuroendocrino pancreatico ben differenziato\n\n||Risposta corretta: D — l'ipervascolarità arteriosa precoce e intensa è il marchio del NET\\. La neoplasia solida pseudopapillare ha invece enhancement lento, progressivo e disomogeneo, inferiore al parenchima, con capsula ed emorragia \\(T1 iperintenso\\)\\. L'adenocarcinoma è ipovascolare\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260905%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260905|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260905|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260905|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260905|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260905|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260905|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q2/10* 🔁 Ripasso — Ipertensione polmonare — segni TC combinati\n\nQuale COMBINAZIONE di segni TC ha la massima specificità per ipertensione polmonare \\(studio classico di Tan, 1998\\)?\n\nA\\) Versamento pleurico bilaterale \\+ cardiomegalia\nB\\) Tronco polmonare ≥ 29 mm \\+ rapporto arteria segmentaria/bronco \\> 1 in almeno 3 lobi su 4\nC\\) Pattern a mosaico isolato\nD\\) Tronco polmonare ≥ 25 mm da solo\n\n||Risposta corretta: B — il tronco ≥ 29 mm associato a un rapporto arteria/bronco \\> 1:1 in ≥ 3 lobi su 4 ha mostrato specificità \\~100 %: il segno centrale \\(tronco\\) e quello periferico \\(rimodellamento segmentario\\) si rafforzano a vicenda\\. Ciascun segno isolato è meno specifico\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260714%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260714|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260714|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260714|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260714|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260714|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260714|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q3/10* 🔁 Ripasso — Mosaico — inspirio vs espirio\n\nPattern a mosaico in inspirio\\. In ESPIRIO le aree iperdense aumentano ulteriormente di densità, quelle ipodense restano ipodense ma il contrasto fra le due NON aumenta; nelle aree ipodense i vasi sono assottigliati\\. Interpretazione più probabile?\n\nA\\) Polmonite da Pneumocystis con ground\\-glass\nB\\) Artefatto respiratorio\nC\\) Perfusione a mosaico di origine vascolare \\(es\\. CTEPH\\)\nD\\) Bronchiolite costrittiva con air\\-trapping\n\n||Risposta corretta: C — nel mosaico vascolare tutto il polmone si «addensa» in espirio e il contrasto fra le zone non si accentua; i vasi piccoli nelle aree ipodense indicano ipoperfusione\\. Nell'air\\-trapping le aree ipodense restano tali mentre il resto si addensa, quindi il contrasto aumenta\\. Il ground\\-glass non ha vasi ridotti nelle aree «chiare»\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260714%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260714|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260714|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260714|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260714|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260714|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260714|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q4/10* 🔁 Ripasso — CTEPH — malattia distale\n\nAngio\\-TC e angiografia in un centro CTEPH: trombi organizzati, webs e bande limitati alle arterie sub\\-segmentarie, nessuna malattia lobare o segmentaria prossimale\\. Strategia più appropriata?\n\nA\\) Angioplastica polmonare con palloncino \\(BPA\\) e/o terapia medica con riociguat\nB\\) Solo filtro cavale\nC\\) Trombolisi sistemica\nD\\) Endoarteriectomia polmonare \\(PEA\\)\n\n||Risposta corretta: A — la PEA è curativa ma richiede malattia prossimale chirurgicamente accessibile; la malattia distale/sub\\-segmentaria è il campo della BPA e del riociguat\\. Per questo il radiologo deve sempre indicare il livello più prossimale coinvolto\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260907%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260907|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260907|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260907|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260907|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260907|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260907|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q5/10* 🔁 Ripasso — CTEPH — quali aree sono patologiche?\n\nNel mosaico di un paziente con CTEPH, quali aree rappresentano il polmone PATOLOGICO?\n\nA\\) Le aree ipodense: sono ipoperfuse a valle di arterie ostruite; quelle iperdense sono iperperfuse per ridistribuzione del flusso\nB\\) Nessuna: il mosaico in CTEPH è sempre un reperto aspecifico\nC\\) Entrambe in egual misura, per edema interstiziale\nD\\) Le aree iperdense: sono ground\\-glass da alveolite\n\n||Risposta corretta: A — il territorio ipoperfuso a valle dei trombi organizzati è quello patologico \\(vasi assottigliati\\); il sangue viene deviato verso i segmenti pervi, che appaiono iperdensi con vasi di calibro aumentato\\. Leggere le aree iperdense come ground\\-glass è l'errore classico\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260907%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260907|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260907|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260907|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260907|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260907|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260907|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q6/10* 🔁 Ripasso — CTEPH — emottisi massiva\n\nPaziente con CTEPH nota e arterie bronchiali ipertrofiche e tortuose \\(\\> 2 mm\\) all'angio\\-TC presenta emottisi massiva\\. Trattamento endovascolare più appropriato?\n\nA\\) Embolizzazione dei rami dell'arteria polmonare\nB\\) Embolizzazione delle arterie bronchiali\nC\\) Posizionamento di filtro cavale\nD\\) Endoarteriectomia polmonare in urgenza\n\n||Risposta corretta: B — le collaterali bronchiali ipertrofiche, sviluppate per l'ipoperfusione cronica, sono a pressione sistemica e sono la fonte tipica del sanguinamento: il bersaglio è il circolo bronchiale sistemico, non quello polmonare\\. La PEA tratta la malattia, non l'emorragia acuta\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260907%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260907|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260907|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260907|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260907|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260907|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260907|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q7/10* 🆕 Sequenza giusta\n\nQuale sequenza RM mostra meglio la piccola vena al centro di una lesione della sostanza bianca \\(central vein sign\\)?\n\nA\\) Diffusione \\(DWI\\)\nB\\) T1 dopo gadolinio\nC\\) STIR\nD\\) Sequenze sensibili alla suscettibilità magnetica \\(T2\\*/SWI, o FLAIR\\* che combina FLAIR e T2\\*\\)\n\n||Risposta corretta: D — la vena contiene deossiemoglobina, paramagnetica: distorce il campo magnetico locale e appare come una sottile linea o un punto scuro nelle sequenze pesate in suscettibilità\\. FLAIR\\* sovrappone questa informazione alla lesione visibile in FLAIR\\. DWI, T1 post\\-gadolinio e STIR non sono pensate per vedere le venule\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261007%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261007|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261007|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261007|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261007|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261007|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261007|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q8/10* 🆕 Perché c'è una vena?\n\nPerché nella sclerosi multipla molte lesioni hanno una vena al centro?\n\nA\\) Perché la vena è dilatata da una trombosi venosa cerebrale\nB\\) È un artefatto di flusso senza significato biologico\nC\\) Perché la demielinizzazione infiammatoria si sviluppa attorno alle piccole venule \\(lesioni perivenulari, le stesse delle «dita di Dawson»\\)\nD\\) Perché nascono da piccoli infarti nel territorio delle arteriole perforanti\n\n||Risposta corretta: C — le cellule infiammatorie escono dalle piccole venule e la placca cresce attorno al vaso: la vena resta al centro\\. Le stesse placche, orientate lungo le vene midollari perpendicolari ai ventricoli, danno le «dita di Dawson»\\. Le lesioni ischemiche da piccoli vasi sono centrate sulle arteriole e di solito non mostrano la vena centrale\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261007%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261007|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261007|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261007|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261007|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261007|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261007|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q9/10* 🆕 Caso clinico — percentuale\n\nDonna di 55 anni, emicrania e ipertensione, RM con 15 piccole iperintensità della sostanza bianca in FLAIR\\. Con SWI solo 2 lesioni su 15 \\(circa 13 %\\) hanno una vena centrale\\. Come va letto il dato?\n\nA\\) Una percentuale così bassa depone contro la sclerosi multipla e a favore di cause non demielinizzanti \\(piccoli vasi, emicrania\\)\nB\\) Il segno non è valutabile oltre i 50 anni\nC\\) Conferma la sclerosi multipla\nD\\) Serve una biopsia cerebrale per concludere\n\n||Risposta corretta: A — nella sclerosi multipla la maggioranza delle lesioni ha la vena centrale; le soglie proposte sono intorno al 40 % \\(regola del 40 %; in metanalisi 45 % con sensibilità \\~97 % e specificità \\~99 %\\)\\. Un 13 % orienta verso i mimics: malattia dei piccoli vasi, emicrania, vasculiti\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261007%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261007|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261007|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261007|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261007|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261007|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261007|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q10/10* 🆕 Paramagnetic rim lesion\n\nNelle immagini di fase SWI una lesione della sclerosi multipla ha un sottile ORLETTO scuro \\(ipointenso\\) alla periferia\\. Che cosa indica?\n\nA\\) Un sanguinamento acuto intralesionale\nB\\) Una lesione cronica «attiva» \\(smoldering\\) con microglia/macrofagi carichi di ferro al bordo, molto specifica per sclerosi multipla\nC\\) Una lesione acuta con rottura della barriera ematoencefalica\nD\\) Una calcificazione distrofica benigna\n\n||Risposta corretta: B — il bordo paramagnetico è ferro dentro cellule infiammatorie che continuano a erodere la mielina al margine della placca: è una lesione cronica che si espande lentamente, legata a una malattia più aggressiva\\. La lesione acuta si riconosce invece dal potenziamento dopo gadolinio, che queste lesioni di solito non hanno\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261007%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261007|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261007|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261007|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261007|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261007|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261007|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠 Rapporto operativo RadioLearn\n• Pill 20261007 — topic: central-vein-sign-ms (neuro, Livello 3)\n• Callback Telegram processati: 0 · inbox cancellati: 0\n• Risposte Form nuove: 0 · richieste archiviazione: 0\n• Carte resettate (mostrate e non risposte): 6\n• Ripasso: sì, 6 carte (20260905:2, 20260714:1, 20260714:2, 20260907:2, 20260907:0, 20260907:1)\n• Paper Drive: nessun PDF nuovo\n• Lettere corrette: DBCAABDCAB\n• Warning: nessuno"
+      }
+    }
+  ]
+}

@@ -943,5 +943,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-07",
+    "tag": "central-vein-sign-ms",
+    "domain": "neuro",
+    "level": 3,
+    "source": "auto"
   }
 ]
