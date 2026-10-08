@@ -1,0 +1,214 @@
+{
+  "pill_id": "20261008",
+  "created_at": "2026-10-08T06:44:08.737719+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83e\udde0 RadioLearn \u2014 Pillola 20261008*\n*Elastografia RM del fegato \\(MRE\\): misurare la fibrosi in kPa*\n_Livello 2 \u2014 RM addome \\(avanzato\\)_\n\n*Che cos'\u00e8*\nLa MR elastography \\(MRE\\) \u00e8 una \u00abpalpazione quantitativa\u00bb del fegato\\. Un driver passivo \\(un disco appoggiato sull'ipocondrio destro\\) \u00e8 collegato con un tubo a un driver attivo fuori dalla sala, che genera vibrazioni a bassa frequenza, di solito 60 Hz\\. Nel fegato si propagano onde di taglio; una sequenza a contrasto di fase con gradienti di codifica del moto sincronizzati alla vibrazione \u00abfotografa\u00bb lo spostamento \\(immagini d'onda\\)\\. Un algoritmo di inversione trasforma le onde in un elastogramma: mappa di rigidit\u00e0 in kPa, con una mappa di confidenza al 95 % che indica dove la stima \u00e8 affidabile\\.\n\n*Fisiopatologia del segnale*\nPi\u00f9 il parenchima \u00e8 fibrotico, pi\u00f9 \u00e8 rigido e pi\u00f9 veloci \\(e lunghe\\) sono le onde di taglio: \u03bc \\= \u03c1\u00b7\\(f\u00b7\u03bb\\)\u00b2\\. A 60 Hz un fegato normale \\(\\~2 kPa\\) ha lunghezze d'onda di \\~2\u20133 cm; un fegato cirrotico \\(\\>5 kPa\\) di \\~4 cm o pi\u00f9\\. Sulle immagini d'onda si vede a occhio: onde fitte \\= fegato morbido, onde larghe \\= fegato rigido\\.\n\n*Acquisizione \\(2D GRE, standard QIBA\\)*\nDigiuno di 4\u20136 ore \\(il pasto aumenta il flusso portale e la rigidit\u00e0\\)\\. Driver sotto il margine costale destro, all'altezza del processo xifoideo, a contatto stabile\\. 4 sezioni assiali sulla porzione pi\u00f9 ampia del fegato, ciascuna in una breve apnea in espirio\\. Controllare elastogrammi e onde subito, prima che il paziente esca: ripetere se le onde non penetrano\\.\n\n*Misurazione*\nROI disegnate sulla mappa di confidenza, nelle zone con onde ben propagate: \u2265 1 cm dal margine epatico, evitando grandi vasi, fissure, fossa della colecisti, il campo vicino al driver e le aree di interferenza d'onda\\. Si riporta la media \\(pesata per area\\) delle 4 sezioni\\.\n\n*Soglie di consenso*\nGruppo di lavoro quantitativo LI\\-RADS \\+ Society of Abdominal Radiology \\(Radiology 2024\\), valide per la maggior parte delle eziologie, MRE 2D GRE a 60 Hz: < 2\\.5 kPa normale; 2\\.5\u20133\\.0 kPa zona grigia \\(normale o infiammazione\\); \u2265 3\\.0 kPa \u2265 F1; \u2265 3\\.5 kPa \u2265 F2 \\(fibrosi significativa\\); \u2265 4\\.0 kPa \u2265 F3 \\(avanzata\\); \u2265 5\\.0 kPa F4 \\(cirrosi\\)\\. Tra le tecniche non invasive la MRE ha l'accuratezza pi\u00f9 alta, soprattutto per F3\u2013F4\\.\n",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Confondenti \u2014 rigidit\u00e0 alta senza fibrosi*\nTutto ci\u00f2 che aumenta la pressione o il contenuto del parenchima sovrastima la fibrosi: stato post\\-prandiale, epatite acuta/flare \\(transaminasi alte\\), congestione venosa \\(scompenso destro, pericardite costrittiva, Fontan\\), colestasi/ostruzione biliare, infiltrazione \\(amiloidosi, linfoma\\)\\. Prima di stadiare: vene sovraepatiche e VCI dilatate? vie biliari dilatate? ALT molto alte?\n\n*Fallimenti tecnici*\nCausa principale in GRE: sovraccarico di ferro \u2014 T2\\* molto corto, il fegato \u00e8 \u00abnero\u00bb gi\u00e0 sulle magnitudo e le onde non si misurano\\. Soluzione: MRE con sequenza spin\\-echo EPI \\(TE pi\u00f9 corto, meno sensibile alla suscettibilit\u00e0\\) o 3D MRE\\. A differenza dell'elastografia transiente \\(FibroScan\\), la MRE funziona con obesit\u00e0 e ascite e campiona gran parte del fegato invece di un piccolo cilindro\\.\n\n*Nella MASLD*\nUn solo esame RM d\u00e0 steatosi \\(PDFF, vedi la pillola del 1\u00b0 ottobre\\) e fibrosi \\(MRE\\)\\. Il punteggio MEFIB \\(MRE \u2265 3\\.3 kPa \\+ FIB\\-4 \u2265 1\\.6\\) identifica con alta specificit\u00e0 la fibrosi significativa e i pazienti a rischio di eventi epatici\\. La rigidit\u00e0 splenica \u00e8 un marcatore emergente di ipertensione portale\\.\n\n*Take\\-home*\n\\(1\\) Onde larghe \\= fegato rigido\\. \\(2\\) Soglie: 3\\.0 / 3\\.5 / 4\\.0 / 5\\.0 kPa per F1 / F2 / F3 / F4\\. \\(3\\) Misurare solo dentro la mappa di confidenza, lontano da margini, vasi e driver\\. \\(4\\) Digiuno; e prima di dire \u00abcirrosi\u00bb escludere congestione, colestasi, epatite acuta\\. \\(5\\) Ferro \u2192 GRE fallisce \u2192 SE\\-EPI\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\udd17 Connessioni multidisciplinari*\n\n*Fisica \u2014 perch\u00e9 le onde di taglio danno tanto contrasto*\nL'ecografia usa onde di compressione: viaggiano a \\~1540 m/s in quasi tutti i tessuti molli, perch\u00e9 dipendono dal modulo di compressibilit\u00e0 \\(\\~2 GPa, quasi identico fra tessuti\\)\\. Le onde di taglio dipendono dal modulo di taglio, che va da \\~1 kPa \\(fegato sano\\) a decine di kPa: variazioni di ordini di grandezza, e viaggiano solo a 1\u20133 m/s\\. Per questo a 60 Hz la loro lunghezza d'onda \u00e8 di pochi centimetri, misurabile con la RM: stessa frequenza, onda pi\u00f9 lunga \\= tessuto pi\u00f9 rigido\\.\n\n*Storia \u2014 dalla mano di Ippocrate alla RM*\nLa palpazione \u00e8 l'elastografia pi\u00f9 antica: gi\u00e0 i medici ippocratici giudicavano la \u00abdurezza\u00bb degli organi con le mani\\. Nel 1995 Muthupillai, Ehman e colleghi della Mayo Clinic pubblicarono su Science la visualizzazione diretta di onde di taglio propaganti con la RM \\(Science 1995;269:1854\u20137\\): il fegato \u00e8 diventato l'applicazione clinica principale, una palpazione \u00aba distanza\u00bb espressa in numeri\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*\ud83d\uddbc Immagini e approfondimenti*\n\n\u2022 [Wikipedia \u2014 Magnetic resonance elastography \\(principio, immagini d'onda\\)](https://en.wikipedia.org/wiki/Magnetic_resonance_elastography)\n\u2022 [Radiology 2024 \u2014 Interpretation, Reporting, and Clinical Applications of Liver MRE \\(soglie di consenso\\)](https://pubmed.ncbi.nlm.nih.gov/38470236/)\n\u2022 [Liver MRE: Methodology, Technique, and Feasibility \\(PMC, figure di tecnica\\)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10887609/)\n\u2022 [MRE: pearls and pitfalls \\(Dartmouth, PDF\\)](https://geiselmed.dartmouth.edu/radiology/wp-content/uploads/sites/47/2024/01/MR-elastography-article.pdf)\n\u2022 [Ehman 2022 \u2014 dalla Science 1995 alla clinica \\(PMC\\)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9538645)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udcdd Quiz di oggi: 4 domande nuove \ud83c\udd95 \\(oggi niente ripasso, l'ultimo \u00e8 di ieri\\)\\. Rispondi col Form \\(\ud83d\udcdd\\) o coi bottoni 0\u20135\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q1/4* \ud83c\udd95 Stadiazione con le soglie\n\nMRE 2D GRE a 60 Hz, paziente a digiuno, transaminasi normali, nessuna congestione n\u00e9 dilatazione biliare\\. Rigidit\u00e0 media 4\\.3 kPa sulle 4 sezioni\\. Con le soglie di consenso, come si stadia?\n\nA\\) Solo fibrosi lieve \\(F1\\)\nB\\) Fegato normale\nC\\) Cirrosi certa \\(F4\\)\nD\\) Fibrosi avanzata \\(\u2265 F3\\), sotto la soglia di cirrosi\n\n||Risposta corretta: D \u2014 4\\.3 kPa supera i 4\\.0 kPa \\(\u2265 F3\\) ma non raggiunge i 5\\.0 kPa \\(F4\\)\\. Le soglie di consenso LI\\-RADS/SAR sono 3\\.0 / 3\\.5 / 4\\.0 / 5\\.0 kPa per F1 / F2 / F3 / F4; un fegato normale sta sotto 2\\.5 kPa\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261008%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20261008|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261008|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261008|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261008|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261008|0|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20261008|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q2/4* \ud83c\udd95 Rigidit\u00e0 alta: fibrosi o altro?\n\nUomo di 68 anni con scompenso destro: vene sovraepatiche e VCI dilatate, reflusso di contrasto nelle sovraepatiche, PDFF 3 %\\. La MRE misura 6\\.1 kPa\\. Interpretazione pi\u00f9 corretta?\n\nA\\) Fallimento tecnico da sovraccarico di ferro\nB\\) Cirrosi confermata: il valore supera 5 kPa\nC\\) La congestione venosa aumenta la rigidit\u00e0 indipendentemente dalla fibrosi: il valore sovrastima lo stadio e va interpretato con cautela \\(o ripetuto a compenso\\)\nD\\) La steatosi spiega la rigidit\u00e0 elevata\n\n||Risposta corretta: C \u2014 La pressione venosa elevata \u00abgonfia\u00bb il parenchima e lo irrigidisce: \u00e8 un confondente classico, come stato post\\-prandiale, epatite acuta e colestasi\\. Una PDFF del 3 % esclude una steatosi significativa, e un fallimento da ferro non darebbe un valore misurabile ma onde assenti\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261008%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20261008|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261008|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261008|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261008|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261008|1|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20261008|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q3/4* \ud83c\udd95 Onde che non si vedono\n\nMRE 2D GRE: il fegato \u00e8 molto ipointenso gi\u00e0 sulle immagini di magnitudo, le immagini d'onda sono rumore e la mappa di confidenza \u00e8 vuota\\. Il paziente fa trasfusioni croniche per talassemia\\. Mossa migliore?\n\nA\\) Ripetere dopo paracentesi\nB\\) Usare una MRE spin\\-echo EPI \\(o 3D\\), meno sensibile al ferro perch\u00e9 a TE pi\u00f9 corto\nC\\) Aumentare la frequenza del driver a 120 Hz\nD\\) Riposizionare il driver sull'emitorace sinistro\n\n||Risposta corretta: B \u2014 Il sovraccarico di ferro accorcia il T2\\*: con la GRE il segnale del fegato si spegne e le onde non si misurano\\. \u00c8 la prima causa di fallimento della MRE; le varianti spin\\-echo EPI mantengono segnale sufficiente\\. L'ascite, a differenza dell'elastografia transiente, non impedisce la MRE\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261008%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20261008|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261008|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261008|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261008|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261008|2|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20261008|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q4/4* \ud83c\udd95 Dove mettere le ROI\n\nQuale strategia di misura della rigidit\u00e0 epatica \u00e8 corretta?\n\nA\\) ROI ampie dentro la mappa di confidenza, \u2265 1 cm dal margine, evitando vasi, fissure e campo vicino al driver; media delle 4 sezioni\nB\\) Una ROI piccola nel lobo sinistro, dove il valore \u00e8 pi\u00f9 alto\nC\\) Una ROI sotto il driver, dove l'onda \u00e8 pi\u00f9 ampia\nD\\) Una ROI sull'intero fegato, vasi inclusi, per massimizzare il campione\n\n||Risposta corretta: A \u2014 Lo standard QIBA chiede di misurare solo dove la stima \u00e8 affidabile \\(mappa di confidenza al 95 %\\), lontano dai margini \\(effetti di bordo\\), dai grandi vasi e dal campo vicino al driver \\(artefatti di campo vicino\\), e di riportare la media pesata delle sezioni\\. Il lobo sinistro \u00e8 influenzato dal battito cardiaco ed \u00e8 pi\u00f9 variabile\\.||\n\n[\ud83d\udcdd Registra 0\u20135](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261008%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 \u2705",
+                "callback_data": "q|20261008|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261008|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261008|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261008|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261008|3|1"
+              },
+              {
+                "text": "0 \u274c",
+                "callback_data": "q|20261008|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\ud83d\udee0 Rapporto operativo RadioLearn\n\u2022 Pill 20261008 \u2014 topic: mr-elastography-liver-fibrosis (addome, Livello 2)\n\u2022 Callback Telegram processati: 0 \u00b7 inbox cancellati: 0\n\u2022 Risposte Form nuove: 0 \u00b7 richieste archiviazione: 0\n\u2022 Carte resettate (mostrate e non risposte): 4\n\u2022 Ripasso: no (ultimo 2026-10-07, 1 g < 3)\n\u2022 Paper Drive: nessun PDF nuovo\n\u2022 Lettere corrette: DCBA\n\u2022 Warning: nessun articolo Radiopaedia sulla MRE trovato via web_search \u2014 link a fonti verificate alternative"
+      }
+    }
+  ]
+}

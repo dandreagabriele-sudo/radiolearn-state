@@ -950,5 +950,12 @@
     "domain": "neuro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-08",
+    "tag": "mr-elastography-liver-fibrosis",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
