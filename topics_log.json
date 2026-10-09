@@ -957,5 +957,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-09",
+    "tag": "cpfe-combined-fibrosis-emphysema",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
