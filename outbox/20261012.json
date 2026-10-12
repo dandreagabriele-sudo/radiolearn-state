@@ -1,0 +1,462 @@
+{
+  "pill_id": "20261012",
+  "created_at": "2026-10-12T06:45:26.613207+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "📊 *Riepilogo settimanale RadioLearn*\n━━━━━━━━━━━━━━━━━━━━━━\n🎯 Pillole inviate: 4\n✅ Quiz risposti: 0/16 \\(0%\\)\n⭐ Qualità media: 0\\.0 / 5\n🔁 Carte dimenticate: 36\n🏆 Carte mature \\(\\>21gg\\): 1\n━━━━━━━━━━━━━━━━━━━━━━",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧪 RadioLearn — Pillola 20261012*\n*Emangioendotelioma epitelioide epatico: il segno del lecca\\-lecca e la retrazione capsulare*\n_Livello 2 — RM addome_\n\n*Che cos'è\\.* L'emangioendotelioma epitelioide \\(EHE\\) epatico è un tumore vascolare raro, di origine endoteliale, a malignità intermedia: decorso spesso indolente per anni, ma con potenziale metastatico \\(polmone, peritoneo, linfonodi, osso\\)\\. Colpisce soprattutto donne fra 30 e 50 anni, spesso asintomatiche o con dolore vago in ipocondrio\\. Più del 90 % dei casi porta la fusione WWTR1–CAMTA1; una minoranza YAP1–TFE3\\. Gli indici di laboratorio e i marcatori \\(AFP, CEA, CA 19\\-9\\) sono di solito normali: la diagnosi la propone il radiologo\\.\n\n*Distribuzione: periferica e confluente\\.* Il quadro tipico è multifocale e bilobare: noduli PERIFERICI e sottocapsulari che crescono e confluiscono in placche irregolari a ridosso della glissoniana\\. Esistono una forma nodulare \\(lesioni separate, fase precoce\\) e una diffusa\\-confluente \\(fase avanzata\\)\\. La sede periferica è già un indizio: le metastasi sono sparse in tutto il parenchima, l'EHE si 'appoggia' alla capsula\\.\n\n*Retrazione capsulare\\.* Lo stroma del tumore è fibroso e ialinizzato: la sua retrazione tira verso l'interno la capsula sovrastante, che appare introflessa\\. Non è specifica \\(la danno anche il colangiocarcinoma intraepatico mass\\-forming, le metastasi trattate, la fibrosi confluente del cirrotico\\), ma una retrazione capsulare su più noduli periferici in una donna giovane senza epatopatia è fortemente suggestiva\\. Nella serie RM di 57 pazienti \\(Insights Imaging 2022\\) era presente nell'11,4 % delle lesioni, più spesso in quelle grandi\\.\n\n*Il segno del lecca\\-lecca \\(lollipop sign\\)\\.* Il 'caramello' è la lesione, ipovascolare al centro; il 'bastoncino' è una vena epatica o un ramo portale che si assottiglia e TERMINA esattamente al margine della lesione o appena al suo interno\\. Riflette la natura vasocentrica del tumore, che cresce dentro e lungo le piccole vene fino a occluderle\\. Si cerca in fase portale e venosa, meglio con ricostruzioni MIP o sottili multiplanari\\. Frequenza per lesione bassa \\(circa 12–15 % nelle serie TC e RM\\), ma per paziente alta nelle forme confluenti \\(74 % nel gruppo 'localmente confluente' della serie TC di 93 pazienti, Insights Imaging 2023\\)\\. È considerato relativamente specifico: se lo vedi, pensa all'EHE\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Segno del bersaglio in RM\\.* In T2, DWI e fase portale molte lesioni hanno un aspetto a strati concentrici: un core centrale \\(stroma mixoide e ialinizzato, fibrosi, necrosi coagulativa\\) iperintenso in T2 e poco captante; un anello di tumore cellulato che capta e restringe in diffusione; spesso un sottile alone periferico ipocaptante\\. Il core non si riempie nelle fasi tardive come in un emangioma\\. Il bersaglio da solo è aspecifico \\(metastasi, ascessi\\), ma la sua presenza CONTEMPORANEA in T2 e in fase portale è stata indicata come relativamente specifica per l'EHE\\.\n\n*Diagnosi differenziale\\.* Metastasi: distribuzione casuale, primitivo noto, bersaglio frequente, retrazione rara se non trattate\\. Colangiocarcinoma intraepatico mass\\-forming: lesione di solito singola e dominante, enhancement tardivo progressivo, dilatazione biliare a monte, CA 19\\-9 elevato\\. Fibrosi confluente: cuneiforme, segmenti IV, V e VIII, in cirrosi, senza effetto massa\\. Angiosarcoma: aggressivo, uomini anziani, lesioni emorragiche ed eterogenee, prognosi infausta\\. La conferma è istologica \\(marcatori endoteliali CD31, CD34, ERG; CAMTA1 o TFE3 in immunoistochimica\\)\\.\n\n*Gestione\\.* Resezione se la malattia è limitata; nelle forme multifocali non resecabili il trapianto di fegato dà sopravvivenze a 5 anni elevate \\(circa 75–80 % nei registri\\), e la malattia extraepatica limitata non è una controindicazione assoluta\\. Data la biologia spesso lenta, in casi selezionati si adotta una sorveglianza attiva\\. Il radiologo deve riportare numero, sede e confluenza delle lesioni, rapporti con vene sovraepatiche e porta, e cercare noduli polmonari\\.\n\n*Take\\-home*\n1\\. Donna giovane, noduli epatici periferici multipli e confluenti, marcatori normali: pensa all'EHE\\.\n2\\. Lollipop sign: vena \\(epatica o portale\\) che termina al margine della lesione\\. Poco frequente per lesione, relativamente specifico\\.\n3\\. Retrazione capsulare \\= stroma fibroso\\. DD principale: colangiocarcinoma mass\\-forming e metastasi trattate\\.\n4\\. Bersaglio in T2 e in fase portale: core mixoide\\-fibroso, anello cellulato che capta\\.\n5\\. Multifocale non resecabile: il trapianto è un'opzione curativa\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔗 Connessioni multidisciplinari*\n\n*Biologia molecolare — la proteina che non sa più fermarsi*\nLa fusione WWTR1–CAMTA1 lega TAZ, un effettore della via di segnalazione Hippo, a un fattore di trascrizione neuronale\\. Hippo è il sistema che dice a un organo quando smettere di crescere \\(scoperto nella drosofila: i mutanti hanno tessuti ipertrofici a pieghe, da cui il nome 'ippopotamo'\\)\\. Nella proteina di fusione TAZ resta sempre nel nucleo e accesa: il freno di crescita è tagliato\\. Lo stesso marcatore, in immunoistochimica \\(CAMTA1 nucleare\\), oggi conferma la diagnosi\\.\n\n*Storia — un tumore 'a metà strada'*\nWeiss ed Enzinger descrissero l'emangioendotelioma epitelioide dei tessuti molli nel 1982, scegliendo il suffisso \\-endotelioma proprio per indicare una neoplasia intermedia fra l'emangioma benigno e l'angiosarcoma\\. Nel 1984 Ishak e collaboratori pubblicarono la prima grande serie epatica \\(32 casi\\): metà di quei pazienti era viva anni dopo, un decorso impensabile per un sarcoma\\. Il nome racconta ancora oggi quella posizione di confine\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🖼 Immagini e approfondimenti*\n\n• [Radiopaedia — Lollipop sign \\(articolo\\)](https://images.radiopaedia.org/articles/lollipop-sign?lang=us)\n• [Radiopaedia — Hepatic epithelioid haemangioendothelioma \\(caso 3\\)](https://www.radiopaedia.org/cases/hepatic-epithelioid-haemangioendothelioma-3?lang=us)\n• [Radiopaedia — HEHE con metastasi polmonari \\(caso\\)](https://radiopaedia.org/cases/hepatic-epithelioid-hemangioendothelioma-with-pulmonary-metastasis)\n• [Insights Imaging 2022 — aspetti RM di HEHE, 57 pazienti \\(PMC\\)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8982790/)\n• [Insights Imaging 2023 — aspetti TC e classificazione di HEHE, 93 pazienti \\(PMC\\)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10067783/)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "📝 Quiz di oggi: 6 ripassi 🔁 \\+ 4 domande nuove 🆕\\. Rispondi col Form \\(📝\\) o coi bottoni 0–5\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q1/10* 🔁 Ripasso — CTEPH — difetto di perfusione senza trombo\n\nTC dual\\-energy in sospetta CTEPH: la mappa di iodio mostra un difetto di perfusione periferico a cuneo nel lobo inferiore sinistro, ma nell'angio\\-TC dello stesso territorio non si vede alcun trombo endoluminale\\. Spiegazione più probabile?\n\n*A)* Area di enfisema centrolobulare, che appare sempre come difetto di iodio a cuneo\n*B)* Artefatto da indurimento del fascio dovuto al mezzo di contrasto concentrato nella vena cava superiore\n*C)* Malattia distale \\(webs, bande, occlusioni subsegmentarie\\) sotto la risoluzione dell'angio\\-TC, che la mappa di perfusione rende comunque visibile\n*D)* Atelettasia passiva da versamento pleurico\n\n||Risposta corretta: C — la mappa di iodio misura il volume ematico capillare: un cuneo periferico ipoperfuso indica ostruzione a monte anche quando le lesioni \\(webs, bande, occlusioni subsegmentarie\\) sono troppo piccole per l'angio\\-TC\\. È uno dei vantaggi della DECT nella CTEPH\\. L'artefatto da indurimento del fascio è adiacente alla cava e non a cuneo periferico; enfisema e atelettasia hanno un correlato morfologico visibile\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260907%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260907|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260907|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260907|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260907|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260907|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260907|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q2/10* 🔁 Ripasso — Gamna\\-Gandy senza cirrosi\n\nRM addome: multipli corpi di Gamna\\-Gandy in una milza aumentata di volume, ma il fegato è morfologicamente normale e l'elastografia è nei limiti\\. Quale reperto va cercato per primo?\n\n*A)* Trombosi o cavernoma della vena splenica o porta \\(ipertensione portale pre\\-epatica o segmentaria\\)\n*B)* Localizzazioni spleniche di sarcoidosi\n*C)* Emangiomi splenici multipli\n*D)* Milze accessorie all'ilo splenico\n\n||Risposta corretta: A — i noduli siderotici nascono dalla congestione splenica dell'ipertensione portale, che non è solo cirrotica: una trombosi della vena splenica \\(ipertensione portale sinistra o segmentaria, per esempio dopo pancreatite\\) o della porta dà lo stesso quadro con fegato normale\\. Emangiomi, milze accessorie e sarcoidosi non producono foci di emosiderina\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260908%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260908|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260908|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260908|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260908|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260908|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260908|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q3/10* 🔁 Ripasso — Foci siderotici vs emosiderosi trasfusionale\n\nPaziente politrasfuso con milza ipointensa in T2\\*\\. Quale reperto RM orienta verso corpi di Gamna\\-Gandy piuttosto che verso una emosiderosi trasfusionale \\(sovraccarico di ferro reticoloendoteliale\\)?\n\n*A)* Ipointensità diffusa e omogenea di milza e fegato, con pancreas risparmiato\n*B)* Foci ipointensi puntiformi e distinti con blooming, in milza congestizia con varici e segni di ipertensione portale\n*C)* Ipointensità diffusa di fegato, pancreas e miocardio con milza risparmiata\n*D)* Riduzione di segnale della milza solo nelle sequenze in fase opposta\n\n||Risposta corretta: B — il ferro trasfusionale si accumula nel sistema reticoloendoteliale: milza e fegato sono diffusamente scuri, il pancreas è risparmiato\\. I Gamna\\-Gandy sono invece noduli focali e discreti nel contesto dell'ipertensione portale\\. La distribuzione fegato\\-pancreas\\-cuore con milza risparmiata è tipica dell'emocromatosi primitiva \\(parenchimale\\)\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260908%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260908|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260908|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260908|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260908|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260908|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260908|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q4/10* 🔁 Ripasso — Gamna\\-Gandy in chemical shift\n\nRM a 1,5 T, sequenze T1 gradient\\-echo in fase \\(TE ≈ 4,6 ms\\) e in fase opposta \\(TE ≈ 2,3 ms\\)\\. Come appaiono i corpi di Gamna\\-Gandy confrontando le due serie?\n\n*A)* Iperintensi nella serie in fase per l'effetto T1 del ferro\n*B)* Più scuri nella serie in fase opposta, come il grasso intracellulare\n*C)* Identici nelle due serie, perché l'emosiderina non dipende dal TE\n*D)* Più grandi e più scuri nella serie in fase, perché il TE è più lungo e il blooming da suscettibilità aumenta\n\n||Risposta corretta: D — la caduta di segnale da suscettibilità cresce con il TE: a 1,5 T la serie in fase ha il TE più lungo, quindi i foci siderotici 'fioriscono' di più\\. È il comportamento opposto al grasso intracellulare, che si scurisce nella serie in fase opposta\\. Utile per riconoscere il ferro in una sequenza che si acquisisce comunque\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260908%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260908|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260908|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260908|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260908|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260908|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260908|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q5/10* 🔁 Ripasso — Mediastinite fibrosante — vene polmonari\n\nMediastinite fibrosante con stenosi serrata delle vene polmonari di destra\\. Quale reperto parenchimale TC è atteso nel polmone drenato da quelle vene?\n\n*A)* Ispessimento liscio dei setti interlobulari, ground\\-glass e consolidazioni periferiche \\(congestione e infarto venoso\\) limitati al lato destro\n*B)* Enfisema panlobulare dei lobi inferiori\n*C)* Oligoemia con pattern a mosaico e vasi ridotti di calibro\n*D)* Bronchiectasie varicose diffuse\n\n||Risposta corretta: A — l'ostruzione al deflusso venoso produce un edema e una congestione unilaterali, con setti ispessiti, ground\\-glass ed eventuale infarto emorragico venoso: è la controparte parenchimale della pseudo\\-stenosi mitralica\\. L'oligoemia a mosaico indica invece un'ostruzione arteriosa\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260909%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260909|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260909|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260909|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260909|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260909|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260909|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q6/10* 🔁 Ripasso — Mediastinite fibrosante vs linfoma in RM\n\nTessuto mediastinico infiltrante non calcifico: la diagnosi differenziale è tra mediastinite fibrosante matura e linfoma\\. Quale aspetto RM favorisce la fibrosi?\n\n*A)* Iperintensità T1 spontanea per contenuto emorragico\n*B)* Livelli fluido\\-fluido\n*C)* Segnale T2 prevalentemente BASSO ed eterogeneo \\(tessuto fibroso\\), enhancement scarso e tardivo\n*D)* Segnale T2 omogeneamente iperintenso con restrizione marcata in diffusione\n\n||Risposta corretta: C — il tessuto fibroso maturo, povero di acqua e di cellule, è ipointenso in T2 e capta poco e tardi; le aree flogistiche attive possono essere più chiare\\. Il linfoma è cellulato: T2 intermedio\\-alto, omogeneo, con restrizione in diffusione\\. La RM aiuta proprio nelle forme non calcifiche, in cui la TC non discrimina\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260909%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260909|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260909|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260909|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260909|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260909|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260909|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q7/10* 🆕 — Definire il segno\n\nIn RM con mezzo di contrasto, in fase portale, cosa descrive il segno del lecca\\-lecca \\(lollipop sign\\) nell'emangioendotelioma epitelioide epatico?\n\n*A)* Un'arteria ipertrofica che penetra al centro della lesione e la attraversa senza essere interrotta\n*B)* Una cicatrice centrale stellata con enhancement tardivo\n*C)* Un dotto biliare dilatato a monte della lesione\n*D)* Una vena epatica o un ramo portale che si assottiglia e termina al margine della lesione o appena al suo interno\n\n||Risposta corretta: D — la lesione ipovascolare è il caramello, la vena che vi termina è il bastoncino: riflette la crescita vasocentrica del tumore dentro le piccole vene, che vengono occluse\\. Il vaso che attraversa la lesione senza interruzione suggerisce piuttosto un linfoma; la cicatrice centrale è dell'iperplasia nodulare focale\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261012%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261012|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261012|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261012|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261012|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261012|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261012|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q8/10* 🆕 — Retrazione capsulare\n\nQuale delle seguenti lesioni epatiche NON causa tipicamente retrazione della capsula sovrastante?\n\n*A)* Emangioendotelioma epitelioide\n*B)* Iperplasia nodulare focale\n*C)* Metastasi trattate con chemioterapia\n*D)* Colangiocarcinoma intraepatico mass\\-forming\n\n||Risposta corretta: B — la retrazione capsulare nasce da uno stroma fibroso che si contrae: c'è nel colangiocarcinoma desmoplastico, nell'EHE, nelle metastasi dopo terapia e nella fibrosi confluente\\. L'iperplasia nodulare focale ha una cicatrice centrale ma è una lesione espansiva con parenchima iperplastico: non retrae la capsula\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261012%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261012|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261012|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261012|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261012|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261012|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261012|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q9/10* 🆕 — Il bersaglio istologico\n\nNel segno del bersaglio in fase portale di un emangioendotelioma epitelioide, a cosa corrisponde l'anello che capta il mezzo di contrasto?\n\n*A)* A un orletto di emosiderina da emorragie ripetute\n*B)* Al riempimento centripeto a chiazze tipico dei laghi vascolari\n*C)* Alla zona periferica di tumore cellulato in proliferazione, che circonda un core di stroma mixoide\\-ialinizzato e necrosi\n*D)* A uno pseudocapsula di parenchima compresso\n\n||Risposta corretta: C — il tumore cresce alla periferia \\(anello cellulato, ben vascolarizzato e con restrizione in diffusione\\) mentre il centro diventa ipocellulato, mixoide e fibroso: iperintenso in T2 e poco captante\\. Il riempimento centripeto a chiazze è tipico dell'emangioma e lì il centro si riempie nelle fasi tardive; l'emosiderina sarebbe scura in T2\\*\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261012%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261012|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261012|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261012|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261012|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261012|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261012|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q10/10* 🆕 — Caso clinico — gestione\n\nDonna di 38 anni, 14 noduli epatici periferici bilobari in parte confluenti, biopsia: EHE con fusione WWTR1–CAMTA1\\. Due noduli polmonari di 4 mm stabili da 6 mesi\\. Malattia non resecabile\\. Quale opzione ha il miglior potenziale curativo?\n\n*A)* Chemioterapia per angiosarcoma come prima linea\n*B)* Trapianto di fegato: la malattia extraepatica limitata non è una controindicazione assoluta\n*C)* Radioterapia panepatica\n*D)* Nessuna opzione curativa: solo cure palliative\n\n||Risposta corretta: B — nell'EHE multifocale non resecabile il trapianto offre sopravvivenze a 5 anni elevate \\(circa 75–80 % nei registri\\), e un coinvolgimento extraepatico limitato e stabile non lo esclude\\. Gli schemi per l'angiosarcoma non sono lo standard per una neoplasia a decorso spesso indolente; la radioterapia panepatica non ha un ruolo curativo\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261012%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261012|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261012|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261012|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261012|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261012|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261012|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠 Rapporto operativo RadioLearn\n• Pill 20261012 — topic: lollipop-sign-ehe (addome, Livello 2, auto)\n• Callback Telegram processati: 0 (inbox: 0 file)\n• Risposte Form nuove: 0 · richieste archiviazione: 0\n• Carte resettate (mostrate e non risposte): 18\n• Ripasso: sì, 6 carte (20260907:3, 20260908:0, 20260908:1, 20260908:2, 20260909:0, 20260909:2)\n• Paper Drive: nessun PDF nuovo\n• Backup lunedì: sì\n• Inbox cancellati: 0\n• Lettere corrette: CABDACDBCB\n• Warning: nessuno (nessuna pillola il 10 e 11 ottobre: routine non eseguita)"
+      }
+    }
+  ]
+}
