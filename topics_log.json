@@ -971,5 +971,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-13",
+    "tag": "pirads-v21-prostate",
+    "domain": "altro",
+    "level": 3,
+    "source": "auto"
   }
 ]
