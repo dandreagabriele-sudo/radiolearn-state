@@ -978,5 +978,12 @@
     "domain": "altro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-14",
+    "tag": "pvod-ct-triad",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
