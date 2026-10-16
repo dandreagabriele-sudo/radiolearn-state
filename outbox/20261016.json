@@ -1,0 +1,206 @@
+{
+  "pill_id": "20261016",
+  "created_at": "2026-10-16T06:45:42.180683+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🧠 *RadioLearn — Pillola 20261016*\n*Carcinoma del retto: stadiazione RM \\(MRF, EMVI, linfonodi\\)*\nRM Addome — Livello 2\n\n*Perché la RM decide la terapia\\.* Nel carcinoma del retto la RM ad alta risoluzione non serve solo a «dare un T»: identifica i pazienti a rischio di recidiva locale e di metastasi, e su questo si sceglie tra chirurgia diretta \\(TME\\), chemioradioterapia, terapia neoadiuvante totale \\(TNT\\) o, dopo risposta clinica completa, watch\\-and\\-wait\\. Lo studio MERCURY \\(BMJ 2006\\) ha dimostrato che la RM predice con affidabilità un margine circonferenziale libero \\(specificità 92 %\\)\\. I parametri che contano, in ordine di peso prognostico, sono il rapporto con la fascia mesorettale \\(MRF\\), l'invasione venosa extramurale \\(EMVI\\), la profondità di invasione extramurale e lo stato linfonodale\\.\n\n*Dove inizia il retto\\.* Il consenso Delphi internazionale del 2019 \\(D'Souza, Lancet Gastroenterol Hepatol\\) definisce il limite superiore del retto in RM con il «sigmoid take\\-off»: il punto in cui il sigma si stacca in avanti e orizzontalmente dal promontorio sacrale, visibile in sagittale e assiale\\. L'altezza del tumore si riporta per convenzione dal margine anale: basso ≤ 5 cm, medio 5–10, alto 10–15 cm\\.\n\n*Protocollo \\(ESGAR 2016\\)\\.* Il cuore dell'esame è il T2 FSE 2D ad alta risoluzione, piccolo FOV, strato ≤ 3 mm, acquisito in assiale obliquo perpendicolare all'asse lungo del tumore; più un sagittale T2 e, per i tumori bassi, un coronale obliquo parallelo al canale anale\\. La DWI è raccomandata \\(soprattutto in ristadiazione\\)\\. Il gadolinio non è raccomandato per la stadiazione primaria; la distensione con gel endorettale è sconsigliata di routine, perché comprime il mesoretto e falsa la distanza tumore–fascia\\. Non serve preparazione intestinale; lo spasmolitico è opzionale\\.\n\n*T e sottostadi di T3\\.* Il T3 si sottoclassifica secondo l'estensione oltre il margine esterno della muscolare propria: T3a < 1 mm, T3b 1–5 mm, T3c 5–15 mm, T3d \\> 15 mm\\. La distinzione T3ab/T3cd è prognosticamente rilevante\\. La spiculatura sottile del grasso perirettale è spesso desmoplasia, non tumore: l'estensione extramurale si misura sulla componente nodulare a segnale intermedio in continuità con il tumore\\. Il T4a invade il peritoneo viscerale \\(riflessione peritoneale anteriore nel retto alto\\), il T4b organi o strutture adiacenti\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*MRF / CRM\\.* La fascia mesorettale è il piano di resezione della TME \\(il margine circonferenziale chirurgico\\)\\. È coinvolta quando il tumore, un deposito tumorale, un vaso con EMVI o un linfonodo sospetto si trovano a ≤ 1 mm\\. Va riportata la distanza minima e la posizione a ore\\. Nel retto basso il mesoretto si assottiglia fino a scomparire sotto il livello degli elevatori: lì il margine diventa il piano intersfinterico/elevatori, e il rischio di margine positivo cresce\\.\n\n*EMVI\\.* È tumore dentro le vene extramurali: struttura tubulare o serpiginosa a segnale intermedio in T2 che parte dal tumore, con vaso espanso, contorno irregolare e perdita del flow void\\. Si gradua con lo score mrEMVI 0–4 \\(Smith/Brown\\): 3–4 \\= positivo\\. È un fattore prognostico indipendente per metastasi a distanza e sopravvivenza libera da malattia, spesso più forte del linfonodo\\. I depositi tumorali \\(noduli irregolari discontinui nel mesoretto, spesso lungo un vaso\\) hanno un significato simile e in TNM sono N1c\\.\n\n*Linfonodi \\(ESGAR 2016\\)\\.* La sola dimensione funziona male\\. Criteri morfologici: forma rotonda, margini irregolari, segnale eterogeneo\\. Asse corto ≥ 9 mm \\= sospetto; 5–8 mm \\= sospetto se ≥ 2 criteri; < 5 mm \\= sospetto solo con tutti e 3\\. Linfonodi mucinosi \\(T2 molto iperintensi\\) sono sempre sospetti\\. Fuori dal mesoretto contano i laterali \\(iliaci interni, otturatori\\): un asse corto ≥ 7 mm si associa a un rischio di recidiva laterale di circa il 20 % se trattato solo con chemioradioterapia e TME \\(Ogura, JCO 2019\\)\\. Sono stadiati come N, non M; gli iliaci esterni e comuni sono invece M1\\.\n\n*Varianti di segnale\\.* L'adenocarcinoma mucinoso \\(\\> 50 % mucina\\) è molto iperintenso in T2: risponde meno alla chemioradioterapia e lascia «laghi di mucina» acellulari nella ristadiazione, che non vanno letti automaticamente come residuo\\.\n\n*Dalla RM alla strategia\\.* I fattori di alto rischio usati per indirizzare alla TNT \\(come nei criteri di inclusione del trial RAPIDO\\) sono tutti di RM: cT4, EMVI positivo, MRF coinvolta, N2, linfonodi laterali ingranditi\\. Il referto strutturato ESGAR esiste proprio per non dimenticarne nessuno\\.\n\n*Take\\-home\\.*\n1\\. Sigmoid take\\-off \\= limite superiore del retto\\.\n2\\. T2 ad alta risoluzione perpendicolare al tumore: è la sequenza che stadia\\.\n3\\. MRF coinvolta se tumore, deposito, EMVI o linfonodo a ≤ 1 mm\\.\n4\\. EMVI \\(mrEMVI 3–4\\) \\= rischio metastatico, da riportare sempre\\.\n5\\. Linfonodi: dimensione \\+ morfologia \\(≥ 9 mm; 5–8 mm con 2 criteri; < 5 mm con 3\\)\\.\n6\\. Laterali ≥ 7 mm: cambiano la radioterapia/chirurgia\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔗 *Connessioni multidisciplinari*\n\n*Storia della chirurgia — il «holy plane» di Heald\\.* Nel 1982 Bill Heald \\(Basingstoke\\) descrisse l'escissione totale del mesoretto: asportare retto e mesoretto come un unico pacchetto avvolto dalla sua fascia, dissecando lungo un piano avascolare che chiamò «holy plane» \\(gioco di parole con «holey», il piano lasso tra le fasce\\)\\. La recidiva locale crollò da valori intorno al 20–30 % a pochi punti percentuali\\. La RM moderna è nata per vedere in anticipo proprio quel piano: la MRF è il «margine del chirurgo» visto dal radiologo\\.\n\n*Geometria — perché obliquo\\.* Un tumore tagliato di sbieco occupa più strati di quanto sia spesso: con strati di 3 mm un piano inclinato di 45° «spalma» il bordo su diversi millimetri, e la spiculatura sembra invasione\\. Allineare lo strato perpendicolare all'asse del tumore riduce l'effetto di volume parziale; con pixel di circa 0,5–0,7 mm, la soglia di 1 mm dalla fascia vale appena 2 pixel: per questo la geometria di acquisizione conta più della potenza del magnete\\.\n\n*Fisica — perché la mucina brilla\\.* Il T2 lungo è segno di acqua poco legata a macromolecole: la mucina è quasi tutta acqua con glicoproteine diluite, quindi rilassa lentamente ed è molto iperintensa; la fibrosi post\\-trattamento, povera di acqua libera e ricca di collagene, è invece scura\\. È la stessa fisica che, in ristadiazione, separa la cicatrice fibrotica ipointensa dal tessuto tumorale residuo a segnale intermedio\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🖼 *Immagini e fonti*\n\n• [Radiopaedia — Terminology of rectal cancer staging \\(CRM, EMVI, depositi, TRG\\)](https://radiopaedia.org/articles/terminology-of-rectal-cancer-staging)\n• [Radiopaedia — Rectal cancer protocol \\(MRI\\)](https://radiopaedia.org/articles/rectal-cancer-protocol-mri)\n• [Radiopaedia — caso: T3c retto medio, CRM coinvolta, EMVI positivo, N1](https://radiopaedia.org/cases/61887)\n• [Radiopaedia — Tumour deposits](https://radiopaedia.org/articles/tumour-deposits)\n• [Inoue et al\\., Insights Imaging 2021 — EMVI in RM: aspetto e implicazioni \\(PMC\\)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8353019/)\n• [Beets\\-Tan et al\\., Eur Radiol 2018 — raccomandazioni ESGAR 2016 \\(PDF open access\\)](https://discovery-pp.ucl.ac.uk/id/eprint/1396198/1/Halligan_10.1007%252Fs00330-017-5026-2.pdf)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Q1\\. 🆕 — Sottostadio T3 e fascia mesorettale*\n\nCarcinoma del retto medio\\. In T2 ad alta risoluzione la componente nodulare supera il margine esterno della muscolare propria di 7 mm e arriva a 0,8 mm dalla fascia mesorettale\\. Nessuna invasione di organi adiacenti\\. Come si riporta?\n\n*A\\)* T3d, fascia mesorettale libera\n*B\\)* T3b, fascia mesorettale libera\n*C\\)* T4b, perché il tumore raggiunge la fascia\n*D\\)* T3c, fascia mesorettale coinvolta\n\n||Risposta corretta: D — Un'estensione extramurale tra 5 e 15 mm è T3c \\(T3b è 1–5 mm, T3d oltre 15 mm\\)\\. La fascia mesorettale si considera coinvolta quando il tumore è a ≤ 1 mm: 0,8 mm è quindi MRF positiva\\. Raggiungere la fascia non è T4b, che richiede l'invasione di organi o strutture adiacenti\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261016%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261016|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261016|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261016|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261016|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261016|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261016|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Q2\\. 🆕 — Linfonodo mesorettale di 6 mm*\n\nNel mesoretto c'è un linfonodo di 6 mm di asse corto, di forma rotonda e con margini irregolari, a segnale omogeneo\\. Secondo i criteri ESGAR 2016 come va classificato?\n\n*A\\)* Sospetto solo se presenta anche segnale eterogeneo\n*B\\)* Non sospetto, perché sotto i 9 mm conta solo la dimensione\n*C\\)* Sospetto, perché tra 5 e 8 mm bastano due criteri morfologici\n*D\\)* Non valutabile senza gadolinio\n\n||Risposta corretta: C — ESGAR combina dimensione e morfologia: ≥ 9 mm è sospetto di per sé; tra 5 e 8 mm servono almeno due criteri tra forma rotonda, margini irregolari e segnale eterogeneo; sotto i 5 mm servono tutti e tre\\. Qui ce ne sono due su 6 mm, quindi è sospetto\\. Il gadolinio non è raccomandato per la stadiazione primaria\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261016%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261016|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261016|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261016|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261016|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261016|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261016|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Q3\\. 🆕 — Riconoscere l'EMVI*\n\nQuale reperto in T2 corrisponde a un'invasione venosa extramurale \\(EMVI\\) positiva?\n\n*A\\)* Una struttura tubulare a segnale intermedio in continuità con il tumore, con vaso espanso e contorno irregolare\n*B\\)* Un linfonodo rotondo di 4 mm a segnale omogeneo\n*C\\)* Sottili spiculature ipointense del grasso perirettale attorno al tumore\n*D\\)* Un vaso di calibro normale con flow void conservato che decorre vicino al tumore\n\n||Risposta corretta: A — L'EMVI è tessuto tumorale dentro una vena extramurale: segnale intermedio come il tumore, vaso dilatato, contorni irregolari e perdita del flow void \\(score mrEMVI 3–4\\)\\. Un vaso vicino ma normale con flow void è negativo; le spiculature sottili sono in genere desmoplasia; un piccolo linfonodo omogeneo è un altro capitolo\\. L'EMVI predice metastasi a distanza e va sempre riportata\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261016%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261016|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261016|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261016|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261016|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261016|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261016|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Q4\\. 🆕 — Protocollo: perché l'assiale obliquo*\n\nPerché nella stadiazione del retto il T2 ad alta risoluzione va acquisito in assiale obliquo perpendicolare all'asse del tumore?\n\n*A\\)* Perché accorcia il tempo di acquisizione rispetto all'assiale vero\n*B\\)* Perché riduce il volume parziale che farebbe sovrastimare l'estensione extramurale e falsare la distanza dalla fascia\n*C\\)* Perché aumenta il segnale della DWI ad alti valori di b\n*D\\)* Perché permette di eliminare il gel endorettale, altrimenti indispensabile\n\n||Risposta corretta: B — Uno strato inclinato rispetto alla parete taglia il bordo del tumore di sbieco e lo spalma su più millimetri: la spiculatura sembra invasione e la distanza dalla fascia \\(soglia 1 mm\\) si legge male\\. Lo strato perpendicolare riduce il volume parziale\\. Il gel endorettale è sconsigliato di routine da ESGAR, e l'orientamento del T2 non c'entra con la DWI\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261016%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261016|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261016|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261016|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261016|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261016|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261016|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "⚙️ Rapporto operativo 20261016\n• Callback inbox processati: 0 (file inbox: 0)\n• Risposte Form nuove: 0 · richieste archiviazione: 0\n• Carte resettate (mostrate e non risposte): 4\n• Topic: rectal-cancer-mri-staging (addome, L2) · paper: nessuno in coda\n• Ripasso: no (ultimo 2026-10-15, cadenza 3 gg)\n• Quiz: 4 nuove · lettere corrette DCAB\n• Inbox cancellati: 0\n• Warning: nessuno"
+      }
+    }
+  ]
+}
