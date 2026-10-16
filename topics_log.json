@@ -992,5 +992,12 @@
     "domain": "neuro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-16",
+    "tag": "rectal-cancer-mri-staging",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
