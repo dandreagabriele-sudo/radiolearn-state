@@ -999,5 +999,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-19",
+    "tag": "diffuse-alveolar-hemorrhage",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
