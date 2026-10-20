@@ -1006,5 +1006,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-20",
+    "tag": "acl-tear-mri-signs",
+    "domain": "msk",
+    "level": 3,
+    "source": "auto"
   }
 ]
