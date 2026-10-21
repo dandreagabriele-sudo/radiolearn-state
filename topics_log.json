@@ -1013,5 +1013,12 @@
     "domain": "msk",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-21",
+    "tag": "clear-cell-likelihood-score-renal",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
