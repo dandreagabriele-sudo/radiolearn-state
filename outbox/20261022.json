@@ -1,0 +1,455 @@
+{
+  "pill_id": "20261022",
+  "created_at": "2026-10-22T06:46:58.171323+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🫁 *RadioLearn — Pillola 20261022*\n*Malattia pleurica da amianto in TC: placche, ispessimento diffuso, versamento benigno e criteri di malignità*\nLivello 1 — Torace \\(esperto\\)\n\n*Il quadro\\.* L'amianto è soprattutto una malattia della pleura\\. In ordine di latenza: versamento pleurico benigno \\(entro 10–20 anni dall'esposizione\\), placche pleuriche \\(20–30 anni\\), ispessimento pleurico diffuso \\(DPT\\), atelettasia rotonda, asbestosi \\(dose\\-dipendente\\) e infine mesotelioma \\(30–40 anni\\)\\. Il compito del radiologo è separare i marcatori di esposizione, che non hanno significato prognostico, dagli esiti funzionalmente rilevanti e dalla malignità\\.\n\n*Placche pleuriche\\.* Sono la manifestazione più frequente: collagene denso, quasi acellulare, della pleura parietale\\. Sono bilaterali e discontinue, sedi tipiche la parete postero\\-laterale tra la 6ª e la 10ª costa, le cupole diaframmatiche e la pleura mediastinica; risparmiano apici e seni costofrenici\\. In TC sono lesioni a «plateau» ben demarcate, con lo strato di grasso extrapleurico conservato; la TC mostra anche le placche anteriori e paravertebrali che il radiogramma perde, e distingue il grasso extrapleurico che le simula\\. L'85–95 % non è calcificato; quando lo sono e si vedono di fronte danno l'immagine a «foglia di agrifoglio»\\. Le placche diaframmatiche calcifiche sono quasi patognomoniche di esposizione\\. Le placche non degenerano: indicano l'esposizione e quindi il rischio di mesotelioma e carcinoma, ma non ne sono precursori\\.\n\n*Ispessimento pleurico diffuso \\(DPT\\)\\.* È diverso per sede e significato: interessa la pleura viscerale, spesso come esito di un versamento benigno, è continuo, oblitera il seno costofrenico e trascina nel parenchima bande fibrose \\(«zampe di gallina», crow's feet\\)\\. Criterio TC più usato: \\> 5 cm di larghezza, \\> 8 cm in senso craniocaudale, \\> 3 mm di spessore \\(la classificazione ILO radiografica usa invece l'obliterazione del seno costofrenico\\)\\. A differenza delle placche può dare un deficit restrittivo e dispnea\\. L'atelettasia rotonda \\(massa periferica con «coda di cometa» di vasi e bronchi e pleura adiacente ispessita\\) nasce sullo stesso terreno\\.\n\n*Versamento benigno da amianto\\.* È la manifestazione più precoce, spesso asintomatica: essudato, a volte ematico o eosinofilo, che può recidivare e lasciare un DPT\\. È una diagnosi di esclusione \\(criteri di Epler: esposizione documentata, nessuna altra causa, nessun tumore nei 3 anni successivi\\)\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Quando pensare a malignità — criteri di Leung\\.* Quattro reperti TC: ispessimento circonferenziale, nodulare, della pleura parietale \\> 1 cm, coinvolgimento della pleura mediastinica\\. Nella serie originale \\(53 pazienti\\) la specificità dei singoli criteri è 88–100 %, ma la sensibilità solo 36–56 %; almeno un criterio positivo dà circa 72 % di sensibilità e 83 % di specificità\\. Altri segnali: interessamento delle scissure, invasione della parete o del diaframma, emitorace «congelato» con perdita di volume e mediastino fisso pur in presenza di versamento\\. Le calcificazioni orientano verso la benignità ma non escludono un mesotelioma insorto accanto a placche; nei casi dubbi FDG\\-PET e RM \\(DWI, enhancement\\) aiutano a scegliere la sede della biopsia\\.\n\n*Asbestosi\\.* È la fibrosi polmonare da amianto: basale, subpleurica, dose\\-dipendente\\. Comincia come fibrosi peribronchiolare: punti subpleurici, linee curvilinee subpleuriche parallele alla pleura, bande parenchimali, vetro smerigliato; nelle fasi avanzate pattern simil\\-UIP con honeycombing\\. Le scansioni in prono separano le linee vere dall'atelettasia declive\\. Nella grande maggioranza dei casi coesistono placche: un pattern fibrotico basale senza alcuna alterazione pleurica deve far pensare prima a IPF\\. La diagnosi clinica richiede comunque un'esposizione documentata e una latenza adeguata\\.\n\n*Take\\-home\\.*\n1\\. Placche \\= pleura parietale, discontinue, risparmio di apici e seni costofrenici; diaframmatiche ≈ patognomoniche; non precancerose\\.\n2\\. DPT \\= pleura viscerale, seno costofrenico obliterato, bande parenchimali; \\> 5 × 8 cm e \\> 3 mm in TC; può limitare la funzione\\.\n3\\. Versamento benigno: il più precoce \\(10–20 anni\\), diagnosi di esclusione con follow\\-up\\.\n4\\. Leung: circonferenziale, nodulare, parietale \\> 1 cm, mediastinico: molto specifici, poco sensibili\\.\n5\\. Asbestosi \\= fibrosi basale con linee subpleuriche e bande, quasi sempre con placche; senza pleura pensa a IPF\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔗 *Connessioni multidisciplinari*\n\n*Etimologia e storia\\.* In greco ásbestos significa «inestinguibile»: Plinio il Vecchio descriveva tessuti di fibra minerale che si pulivano gettandoli nel fuoco\\. La stessa resistenza al calore e agli acidi che ne fece il «minerale magico» dell'industria del Novecento lo rende biopersistente nel polmone\\.\n\n*Mineralogia — la forma è il danno\\.* Il crisotilo \\(serpentino\\) ha fibre ricurve che si frammentano e vengono eliminate più facilmente; gli anfiboli \\(crocidolite, amosite\\) hanno fibre dritte, aghiformi, che penetrano fino alla pleura e vi restano\\. Secondo l'ipotesi di Stanton è soprattutto la geometria a contare: fibre lunghe \\(\\> 8 µm\\) e sottili \\(< 0,25 µm\\), che i macrofagi non riescono a inglobare, sono le più cancerogene\\. Per questo la crocidolite è la più legata al mesotelioma\\.\n\n*Sociologia — Casale Monferrato\\.* Lo stabilimento Eternit di Casale Monferrato \\(1907–1986\\) ha reso la città uno dei casi di studio mondiali del mesotelioma, con malati anche tra chi non aveva mai lavorato in fabbrica \\(esposizione ambientale e domestica: le tute lavate in casa\\)\\. L'Italia ha vietato l'amianto con la legge 257 del 1992; per la latenza di 30–40 anni il picco di incidenza del mesotelioma è atteso solo in questi anni\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🖼 *Immagini e fonti*\n\n• [Radiopaedia — Pleural plaque \\(sedi, calcificazione, DD\\)](https://radiopaedia.org/articles/pleural-plaque)\n• [Radiopaedia — caso: placche calcifiche da amianto](https://radiopaedia.org/cases/calcified-pleural-plaques-due-to-asbestos-exposure)\n• [Radiopaedia — caso: asbestos related pleural disease](https://radiopaedia.org/cases/asbestos-related-pleural-disease-1)\n• [RadioGraphics 2002 — Roach et al\\., «Asbestos: when the dust settles»](https://pubs.rsna.org/doi/10.1148/radiographics.22.suppl_1.g02oc10s167)\n• [Review — conseguenze cliniche del DPT da amianto \\(PMC\\)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2553409/)\n• [Review — ispessimento pleurico maligno e criteri di Leung \\(PMC\\)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12373620/)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🧠 Quiz di oggi: 10 domande \\(6 ripassi \\+ 4 nuove\\)\\. Rispondi, apri lo spoiler, poi autovaluta 0–5 con i bottoni o con il link al Form\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q1/10 — 🔁 Ripasso* — Protesi mammaria: rottura extracapsulare\n\nDonna con protesi mammaria al silicone\\. In RM, sequenze silicone\\-sensibili: multiple linee ipointense ondulate all'interno del gel e, in più, goccioline di silicone iperintenso nel parenchima mammario, al di fuori della capsula fibrosa, con reazione fibrosa circostante\\. Come si classifica il quadro?\n\n*A)* Contrattura capsulare senza rottura\n*B)* Rottura extracapsulare \\(con componente intracapsulare\\)\n*C)* Rottura intracapsulare isolata\n*D)* Piega radiale normale con trasudazione fisiologica di gel\n\n||Risposta corretta: B — Le linguine documentano il collasso del guscio, ma il silicone libero oltre la capsula fibrosa \\(parenchima, eventualmente linfonodi\\) definisce la rottura extracapsulare, che di regola si accompagna a una rottura intracapsulare\\. La contrattura è una diagnosi clinica \\(Baker\\) e non spiega silicone extracapsulare\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260718%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260718|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260718|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260718|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260718|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260718|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260718|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q2/10 — 🔁 Ripasso* — Protesi mammaria: il protocollo RM\n\nUna paziente asintomatica con protesi al silicone impiantata 6 anni fa viene inviata per escludere una rottura silente\\. Quale scelta di protocollo RM è corretta?\n\n*A)* Solo T1 con soppressione del grasso pre\\-contrasto\n*B)* Studio dinamico con gadolinio obbligatorio: la rottura si vede come enhancement capsulare\n*C)* Sola DWI ad alto b\\-value\n*D)* Sequenze silicone\\-selettive \\(soppressione di acqua e grasso\\) e T2 senza contrasto: il gadolinio non serve per la rottura\n\n||Risposta corretta: D — La rottura si valuta con sequenze che rendono iperintenso solo il silicone \\(saturazione di acqua e grasso\\) più T2/STIR, senza mezzo di contrasto; il gadolinio serve solo se c'è un quesito oncologico associato\\. Le indicazioni FDA del 2020 suggeriscono un primo controllo \\(RM o ecografia\\) a 5–6 anni dall'impianto e poi ogni 2–3 anni\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260718%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260718|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260718|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260718|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260718|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260718|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260718|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q3/10 — 🔁 Ripasso* — Split pleura sign: specificità\n\nQuale affermazione sullo split pleura sign in TC con contrasto è corretta?\n\n*A)* Indica un essudato con pleura flogistica, ma compare anche in emotorace organizzato, dopo pleurodesi con talco e in alcuni versamenti neoplastici\n*B)* Indica un trasudato da scompenso cardiaco\n*C)* È patognomonico di empiema batterico\n*D)* È ben valutabile anche in TC senza contrasto\n\n||Risposta corretta: A — Lo sdoppiamento richiede foglietti ispessiti e captanti separati da liquido: è il segno di un essudato con pleura infiammata o organizzata\\. È molto suggestivo di empiema nel contesto clinico giusto, ma non specifico \\(emotorace, pleurodesi, neoplasia\\)\\. I trasudati non ispessiscono la pleura; senza contrasto il segno si perde\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260719%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260719|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260719|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260719|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260719|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260719|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260719|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q4/10 — 🔁 Ripasso* — Linguine vs piega radiale\n\nIn RM di una protesi al silicone si vedono linee ipointense all'interno del gel\\. Quale caratteristica indica una piega radiale normale piuttosto che il segno delle linguine?\n\n*A)* È presente silicone nei linfonodi ascellari\n*B)* Le linee sono multiple e ondulate\n*C)* Le linee sono in continuità con il guscio periferico: partono dalla superficie della protesi e vi ritornano\n*D)* Le linee galleggiano libere nel gel senza contatto con la periferia\n\n||Risposta corretta: C — La piega radiale è un'introflessione del guscio integro: è spessa, ancorata alla periferia e non attraversa liberamente il gel\\. Le linguine sono il guscio collassato che galleggia staccato dalla periferia\\. Il silicone nei linfonodi riguarda un'altra domanda \\(rottura extracapsulare o trasudazione di gel\\)\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260718%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260718|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260718|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260718|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260718|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260718|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260718|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q5/10 — 🔁 Ripasso* — Empiema vs ascesso: perché conta\n\nIn TC una raccolta periferica con livello idro\\-aereo è lenticolare, forma angoli ottusi con la parete, comprime e disloca i vasi e i bronchi adiacenti e mostra split pleura sign\\. Qual è l'implicazione gestionale più corretta?\n\n*A)* Empiema: antibiotico e drenaggio pleurico \\(tubo\\), eventualmente fibrinolitici intrapleurici o chirurgia se saccato\n*B)* Ascesso polmonare: solo antibiotico, senza controlli\n*C)* Pneumatocele: nessun trattamento\n*D)* Ascesso polmonare: drenaggio percutaneo transparenchimale di prima scelta\n\n||Risposta corretta: A — La morfologia extrapolmonare \\(lenticolare, angoli ottusi, compressione del parenchima, sdoppiamento pleurico\\) indica empiema, che richiede drenaggio della cavità pleurica\\. L'ascesso, intraparenchimale e sferico, si tratta di solito con antibiotico e drenaggio bronchiale; pungerlo attraverso polmone sano espone a fistola broncopleurica e a contaminazione dello spazio pleurico\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260719%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260719|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260719|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260719|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260719|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260719|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260719|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q6/10 — 🔁 Ripasso* — Chemical shift: l'ordine dei TE\n\nProtocollo dual\\-echo per chemical shift a 1,5 T\\. Perché si acquisisce la fase opposta a TE ≈ 2,3 ms e la fase in fase a TE ≈ 4,6 ms, e non una fase opposta più tardiva \\(≈ 6,9 ms\\)?\n\n*A)* Perché a TE più lunghi il grasso non precessa più\n*B)* Perché con la fase opposta al TE più breve una caduta di segnale non può essere attribuita al decadimento T2\\* \\(ferro, suscettibilità\\): resta solo il grasso\n*C)* Perché in fase opposta tardiva il segnale dell'acqua sparisce completamente\n*D)* Per ridurre il tempo di acquisizione, senza conseguenze diagnostiche\n\n||Risposta corretta: B — Se l'eco in fase opposta viene dopo quella in fase, il decadimento T2\\* abbassa il segnale anche senza grasso e simula grasso microscopico \\(es\\. sovraccarico di ferro\\)\\. Con la fase opposta al TE più breve, una caduta di segnale è attribuibile al grasso; un calo nell'eco in fase più tardiva indica invece suscettibilità \\(ferro\\)\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260720%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260720|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260720|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260720|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260720|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260720|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260720|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q7/10 — 🆕 Nuova* — Placche vs ispessimento pleurico diffuso\n\nEx coibentatore, TC torace\\. Quale reperto orienta verso un ispessimento pleurico diffuso \\(DPT\\) piuttosto che verso placche pleuriche?\n\n*A)* Placche sulle cupole diaframmatiche\n*B)* Risparmio degli apici e dei seni costofrenici\n*C)* Obliterazione del seno costofrenico con bande fibrose che si irradiano nel parenchima \\(«zampe di gallina»\\)\n*D)* Calcificazioni a «foglia di agrifoglio» viste di fronte\n\n||Risposta corretta: C — Le placche sono della pleura parietale, discontinue, risparmiano apici e seni costofrenici; quelle diaframmatiche sono quasi patognomoniche di esposizione\\. Il DPT è un esito della pleura viscerale \\(spesso dopo versamento benigno\\): oblitera il seno costofrenico, è continuo e trascina bande parenchimali; in TC lo si definisce \\> 5 cm di larghezza, \\> 8 cm craniocaudali e \\> 3 mm di spessore\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261022%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261022|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261022|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261022|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261022|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261022|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261022|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q8/10 — 🆕 Nuova* — Ispessimento pleurico maligno: criteri di Leung\n\nEsposto all'amianto con ispessimento pleurico destro\\. Quale reperto TC, tra i criteri di Leung, ha la specificità più alta per malignità \\(mesotelioma o metastasi\\)?\n\n*A)* Versamento pleurico libero di piccola entità\n*B)* Ispessimento liscio < 1 cm limitato alla parete laterale\n*C)* Calcificazioni pleuriche lineari\n*D)* Ispessimento circonferenziale che avvolge l'emitorace, compresa la pleura mediastinica\n\n||Risposta corretta: D — Nella serie di Leung \\(53 pazienti\\) i quattro criteri — circonferenziale, nodulare, pleura parietale \\> 1 cm, coinvolgimento mediastinico — hanno specificità 88–100 % \\(massima per il circonferenziale\\) ma sensibilità solo 36–56 %; la presenza di almeno uno dà circa 72 % di sensibilità e 83 % di specificità\\. Le calcificazioni orientano verso la benignità, ma non escludono un mesotelioma insorto accanto a placche\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261022%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261022|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261022|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261022|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261022|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261022|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261022|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q9/10 — 🆕 Nuova* — Asbestosi vs IPF\n\nTC ad alta risoluzione: fibrosi basale subpleurica a lieve\\-moderata estensione\\. Quale insieme di reperti sostiene asbestosi piuttosto che IPF?\n\n*A)* Predominanza ai lobi superiori con linfonodi calcificati «a guscio d'uovo»\n*B)* Placche pleuriche bilaterali, punti subpleurici, linee curvilinee subpleuriche e bande parenchimali, persistenti in prono\n*C)* Honeycombing esteso e bronchiectasie da trazione marcate, senza alterazioni pleuriche\n*D)* Noduli centrolobulari sfumati ai lobi superiori e air trapping lobulare\n\n||Risposta corretta: B — L'asbestosi parte dalla fibrosi peribronchiolare \\(punti subpleurici\\) e mostra linee curvilinee e bande parenchimali; le placche coesistenti sono il marcatore di esposizione\\. Il prono distingue le linee vere dall'atelettasia declive\\. L'honeycombing esteso senza pleura evoca IPF; i linfonodi a guscio d'uovo ai lobi superiori la silicosi; i centrolobulari con air trapping la polmonite da ipersensibilità\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261022%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261022|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261022|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261022|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261022|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261022|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261022|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q10/10 — 🆕 Nuova* — Versamento pleurico benigno da amianto\n\nUomo esposto all'amianto con esposizione iniziata 12 anni prima: piccolo versamento pleurico essudativo unilaterale, asintomatico, citologia negativa, nessuna altra causa\\. Quale affermazione è corretta?\n\n*A)* È la manifestazione pleurica più precoce; è una diagnosi di esclusione che richiede follow\\-up \\(classicamente circa 3 anni\\) per escludere un mesotelioma\n*B)* Non evolve mai in ispessimento pleurico diffuso\n*C)* Ha la latenza più lunga tra le manifestazioni pleuriche \\(\\> 30 anni\\)\n*D)* Con citologia negativa la diagnosi di benignità è definitiva\n\n||Risposta corretta: A — Il versamento benigno da amianto compare entro 10–20 anni dall'esposizione, prima delle placche \\(20–30\\) e del mesotelioma \\(30–40\\)\\. La diagnosi è di esclusione \\(criteri di Epler: esposizione, nessuna altra causa, nessun tumore nei 3 anni successivi\\) e la citologia negativa non basta\\. È spesso il precursore del DPT e dell'atelettasia rotonda\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261022%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261022|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261022|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261022|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261022|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261022|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261022|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠 Rapporto operativo 20261022\n• Callback inbox: 0 · Risposte Form nuove: 0 · Richieste archivio: 0\n• Carte resettate \\(dimenticate\\): 0\n• Topic: asbestos\\-pleural\\-disease \\(torace, L1\\)\n• Ripasso: sì, 6 carte \\(20260718:2, 20260718:1, 20260719:0, 20260718:0, 20260719:1, 20260720:2\\)\n• Inbox cancellati: 0 · Paper in coda: nessuno\n• Warning: nessuno",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}
