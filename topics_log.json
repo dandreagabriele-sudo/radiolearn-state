@@ -1027,5 +1027,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-23",
+    "tag": "wernicke-encephalopathy-mri",
+    "domain": "neuro",
+    "level": 3,
+    "source": "auto"
   }
 ]
