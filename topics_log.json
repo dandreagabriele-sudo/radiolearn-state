@@ -1034,5 +1034,12 @@
     "domain": "neuro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-26",
+    "tag": "tracheobronchomalacia-edac-dynamic-ct",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
