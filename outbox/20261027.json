@@ -1,0 +1,206 @@
+{
+  "pill_id": "20261027",
+  "created_at": "2026-10-27T06:44:34.314341+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🩻 *RadioLearn — Pillola 20261027*\n*RM\\-enterografia nel Crohn: attività infiammatoria, MaRIA e fibrosi vs infiammazione*\n_RM Addome — Livello 2_\n\n*Il problema*\nNel Crohn la colonscopia vede la mucosa dell'ileo terminale ma non la parete, il mesentere né i tratti a monte del digiuno\\-ileo\\. La RM\\-enterografia \\(RM\\-E\\) misura l'attività transmurale, l'estensione e le complicanze penetranti e stenosanti senza radiazioni: è l'esame di riferimento per i pazienti giovani che verranno ristudiati molte volte, e oggi entra negli obiettivi di trattamento \\(guarigione transmurale\\) accanto a quella endoscopica\\.\n\n*Protocollo essenziale*\nDistensione con 1–1,5 L di mezzo osmotico orale \\(mannitolo/PEG\\) in 45–60 min, antiperistaltico \\(butilscopolamina o glucagone\\)\\. Sequenze: T2 single\\-shot \\(HASTE/SSFSE\\) con e senza soppressione del grasso, bSSFP \\(TrueFISP\\) per la parete e il mesentere, cine\\-RM per la motilità, DWI \\(b 600–800\\) e T1 3D con saturazione del grasso dinamico dopo gadolinio \\(fase enterica \\~45 s e portale/tardiva \\~70 s e 3–7 min\\)\\. Un'ansa collassata simula ispessimento e iperenhancement: il primo controllo di qualità è la distensione\\.\n\n*Segni di attività*\nIspessimento parietale \\> 3 mm \\(in ansa distesa\\), edema parietale \\= iperintensità T2 con saturazione del grasso, iperenhancement mucoso o stratificato \\(aspetto a bersaglio\\) in fase enterica, restrizione in DWI, ulcere \\(difetti profondi della mucosa\\), edema/stranding del grasso perienterico, segno del pettine \\(vasa recta ingorgati perpendicolari all'ansa\\) e linfonodi reattivi\\. Il segno del pettine e l'edema perienterico indicano un'infiammazione transmurale attiva\\.\n\n*MaRIA e MaRIA semplificato*\nIl Magnetic Resonance Index of Activity \\(Rimola\\) è per segmento: 1,5 × spessore parietale \\(mm\\) \\+ 0,02 × RCE \\(enhancement relativo\\) \\+ 5 × edema \\+ 10 × ulcere\\. MaRIA ≥ 7 \\= malattia attiva, ≥ 11 \\= attività severa; correla bene con il CDEIS endoscopico\\. Il MaRIA semplificato \\(sMaRIA, Ordás 2019\\) non richiede misure di segnale: spessore \\> 3 mm \\(1 punto\\), edema parietale \\(1\\), edema/stranding del grasso \\(1\\), ulcere \\(2\\)\\. sMaRIA ≥ 1 identifica il segmento attivo \\(sens ≈ 90 %, spec ≈ 81 %\\), ≥ 2 l'ulcerazione severa \\(sens ≈ 85 %, spec ≈ 92 %\\)\\. È il punteggio più usato nei trial perché si legge in pochi minuti\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Stenosi: infiammatoria, fibrotica o mista*\nStenosi \\= restringimento luminale persistente con dilatazione a monte \\(\\> 3 cm di calibro\\)\\. La componente infiammatoria si riconosce dall'edema T2, dall'enhancement mucoso precoce e dalla DWI ristretta: risponde alla terapia medica\\. La fibrosi è ipointensa in T2, con enhancement scarso precoce e progressivo nelle fasi tardive \\(presa ritardata a 7 min\\), parete ispessita ma priva di edema e spesso con proliferazione fibroadiposa mesenterica: sono stenosi da dilatazione endoscopica o chirurgia\\. Quasi sempre coesistono: nel referto vanno descritte entrambe le componenti, lunghezza della stenosi e calibro a monte\\.\n\n*Complicanze penetranti*\nFistole \\(tragitti T2\\-iperintensi e captanti, entero\\-enteriche a stella, entero\\-vescicali, entero\\-cutanee\\), ascessi \\(raccolta con parete captante e DWI marcatamente ristretta — da drenare prima di iniziare un biologico\\) e flemmone\\. Per la malattia perianale serve la RM pelvica dedicata \\(classificazione di Parks\\)\\.\n\n*Insidie*\nAnsa collassata \\(ispessimento fittizio\\), artefatti da peristalsi, ileo terminale normalmente un po' più spesso e captante, e il pattern di fibrosi «a pila di monete» del lato mesenterico con sacculazioni sul lato antimesenterico \\(pseudodiverticoli\\), che è tipico del Crohn cronico e non di attività\\.\n\n*Take\\-home*\n1\\. Distensione adeguata prima di giudicare spessore e enhancement\\.\n2\\. Attività: spessore \\> 3 mm, edema T2, enhancement stratificato, DWI, ulcere, segno del pettine\\.\n3\\. sMaRIA: spessore 1 \\+ edema 1 \\+ grasso 1 \\+ ulcere 2; ≥ 1 attivo, ≥ 2 severo\\.\n4\\. Fibrosi: T2 basso, presa tardiva progressiva, niente edema; dilatazione a monte \\> 3 cm \\= stenosi\\.\n5\\. Ascesso prima del biologico: cercalo sempre \\(DWI\\)\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔗 *Connessioni*\nFisica: perché l'edema si vede in T2 con saturazione del grasso? L'acqua libera ha T2 lungo; togliendo il segnale del grasso \\(anch'esso chiaro in T2 fast\\-spin\\-echo\\) la parete edematosa spicca sul mesentere\\. È la stessa logica della STIR nell'osso: si cerca l'acqua dove non dovrebbe esserci\\.\nStoria: Burrill Crohn, Ginzburg e Oppenheimer descrissero nel 1932 l'«ileite regionale» al Mount Sinai di New York; il chirurgo polacco Antoni Leśniowski ne aveva descritto un caso già nel 1904 — per questo in Polonia si parla di malattia di Leśniowski\\-Crohn\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🖼️ *Immagini*\n• [Radiopaedia — Crohn, RM\\-enterografia \\(segno del pettine, enhancement asimmetrico\\)](https://radiopaedia.org/cases/crohn-disease-mr-enterography-1)\n• [Radiopaedia — Crohn: ispessimento circonferenziale dell'ileo e infiammazione mesenterica](https://radiopaedia.org/cases/crohn-disease-26)\n• [Radiopaedia — Crohn: vasa recta ingorgati e proliferazione fibroadiposa](https://radiopaedia.org/cases/crohn-disease-24)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Q1\\. 🆕*\nRM\\-E: ileo terminale di 7 mm, iperintenso in T2 fat\\-sat, edema del grasso perienterico, senza ulcere visibili\\. Qual è il sMaRIA del segmento?\n\n*A*\\) 5 — l'edema perienterico vale due punti come le ulcere\n*B*\\) 0 — senza ulcere il segmento non è attivo\n*C*\\) 3 — attività presente, con criterio di severità \\(≥ 2\\) soddisfatto\n*D*\\) 1 — solo lo spessore conta come criterio maggiore\n\n||Risposta corretta: C — sMaRIA: spessore \\> 3 mm 1 \\+ edema parietale 1 \\+ edema del grasso 1 \\+ ulcere 2\\. Qui 1\\+1\\+1 \\= 3: segmento attivo \\(≥ 1\\) e soglia di severità \\(≥ 2\\) superata anche senza ulcere\\.||\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261027%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261027|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261027|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261027|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261027|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261027|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261027|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Q2\\. 🆕*\nStenosi ileale con dilatazione a monte di 4 cm\\. La parete è ispessita, ipointensa in T2, con enhancement scarso in fase enterica che cresce progressivamente a 7 minuti; DWI non ristretta\\. Componente prevalente?\n\n*A*\\) Ascesso intramurale in organizzazione\n*B*\\) Infiammatoria acuta, candidata a escalation del biologico\n*C*\\) Spasmo peristaltico da insufficiente antiperistaltico\n*D*\\) Fibrotica, candidata a dilatazione endoscopica o chirurgia\n\n||Risposta corretta: D — T2 basso senza edema, presa tardiva progressiva \\(matrice di collagene con spazio extracellulare ampio\\) e DWI non ristretta sono il profilo della fibrosi; con dilatazione a monte \\> 3 cm è una stenosi fibrotica che la terapia medica non scioglie\\.||\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261027%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261027|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261027|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261027|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261027|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261027|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261027|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Q3\\. 🆕*\nPerché un'ansa ileale collassata è una trappola alla RM\\-E?\n\n*A*\\) Simula ispessimento parietale e iperenhancement mucoso\n*B*\\) Perde segnale in DWI e maschera un ascesso\n*C*\\) Annulla il segno del pettine per compressione dei vasa recta\n*D*\\) Rende la parete ipointensa in T2 come nella fibrosi\n\n||Risposta corretta: A — Le pliche accostate di un'ansa non distesa sommano spessore e la mucosa ravvicinata appare più captante: falsi positivi di attività\\. Si giudica solo un'ansa ben distesa, o la si ricontrolla nelle sequenze successive/cine\\.||\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261027%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261027|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261027|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261027|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261027|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261027|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261027|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Q4\\. 🆕*\nPaziente in procinto di iniziare anti\\-TNF; RM\\-E mostra fistola entero\\-enterica e una raccolta mesenterica di 3 cm con parete captante e DWI marcatamente ristretta\\. Cosa cambia?\n\n*A*\\) Nulla: il biologico chiude sia la fistola sia la raccolta\n*B*\\) La raccolta va drenata/trattata prima di avviare l'immunosoppressione\n*C*\\) La raccolta è un flemmone: si tratta solo con antibiotico orale\n*D*\\) Basta ridurre la dose di steroide prima del biologico\n\n||Risposta corretta: B — Una raccolta con parete captante e restrizione marcata è un ascesso: va drenato \\(percutaneo o chirurgico\\) e controllato prima del biologico, che altrimenti espone a sepsi\\. La RM\\-E serve proprio a escluderlo prima di immunosoppressione\\.||\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261027%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261027|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261027|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261027|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261027|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261027|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261027|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠 Rapporto operativo 20261027\nCallback inbox: 0 · Risposte Form nuove: 10 · Richieste archiviazione: 0\nCarte resettate (FASE 3): 0\nTopic: mr-enterography-crohn (addome, L2)\nRipasso: no (ultimo 2026-10-26, 1 gg)\nInbox cancellati: 0\nWarning: nessuno"
+      }
+    }
+  ]
+}
