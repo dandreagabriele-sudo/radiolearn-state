@@ -1041,5 +1041,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-27",
+    "tag": "mr-enterography-crohn",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
