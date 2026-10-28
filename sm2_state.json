@@ -9821,40 +9821,108 @@
       "last_presented": "2026-10-26"
     },
     "20261027:0": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.96,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-10-27",
-      "last_quality": null,
-      "history": [],
+      "next_review": "2026-10-29",
+      "last_quality": 1,
+      "history": [
+        {
+          "date": "2026-10-28",
+          "quality": 1,
+          "ef_after": 1.96,
+          "interval_after": 1,
+          "source": "user"
+        }
+      ],
       "last_presented": "2026-10-27"
     },
     "20261027:1": {
-      "ef": 2.5,
-      "interval": 0,
-      "repetitions": 0,
-      "next_review": "2026-10-27",
-      "last_quality": null,
-      "history": [],
+      "ef": 2.6,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-10-29",
+      "last_quality": 5,
+      "history": [
+        {
+          "date": "2026-10-28",
+          "quality": 5,
+          "ef_after": 2.6,
+          "interval_after": 1,
+          "source": "user"
+        }
+      ],
       "last_presented": "2026-10-27"
     },
     "20261027:2": {
-      "ef": 2.5,
-      "interval": 0,
-      "repetitions": 0,
-      "next_review": "2026-10-27",
-      "last_quality": null,
-      "history": [],
+      "ef": 2.6,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-10-29",
+      "last_quality": 5,
+      "history": [
+        {
+          "date": "2026-10-28",
+          "quality": 5,
+          "ef_after": 2.6,
+          "interval_after": 1,
+          "source": "user"
+        }
+      ],
       "last_presented": "2026-10-27"
     },
     "20261027:3": {
+      "ef": 2.36,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-10-29",
+      "last_quality": 3,
+      "history": [
+        {
+          "date": "2026-10-28",
+          "quality": 3,
+          "ef_after": 2.36,
+          "interval_after": 1,
+          "source": "user"
+        }
+      ],
+      "last_presented": "2026-10-27"
+    },
+    "20261028:0": {
       "ef": 2.5,
       "interval": 0,
       "repetitions": 0,
-      "next_review": "2026-10-27",
+      "next_review": "2026-10-28",
       "last_quality": null,
       "history": [],
-      "last_presented": "2026-10-27"
+      "last_presented": "2026-10-28"
+    },
+    "20261028:1": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-10-28",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-10-28"
+    },
+    "20261028:2": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-10-28",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-10-28"
+    },
+    "20261028:3": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-10-28",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-10-28"
     }
   },
   "history": [

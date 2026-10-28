@@ -1048,5 +1048,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-28",
+    "tag": "rotator-cuff-tear-mri",
+    "domain": "msk",
+    "level": 3,
+    "source": "auto"
   }
 ]
