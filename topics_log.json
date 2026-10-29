@@ -1055,5 +1055,12 @@
     "domain": "msk",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-29",
+    "tag": "pulmonary-sequestration",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
