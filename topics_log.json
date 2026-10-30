@@ -1062,5 +1062,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-10-30",
+    "tag": "liver-metastases-mri-dwi-hbp",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
