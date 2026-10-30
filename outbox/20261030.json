@@ -1,0 +1,214 @@
+{
+  "pill_id": "20261030",
+  "created_at": "2026-10-30T07:45:32.764954+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🩻 *RadioLearn — Pillola 20261030*\n*Metastasi epatiche in RM: DWI, fase epatobiliare e diagnosi differenziale delle lesioni piccole*\n_RM Addome — Livello 2_\n\n*Il problema*\nIl fegato è la sede più frequente di metastasi ematogene dei tumori del tratto digestivo \\(drenaggio portale\\): circa metà dei pazienti con carcinoma del colon\\-retto le sviluppa nel corso della malattia\\. Se la malattia è limitata al fegato, resezione e ablazione cambiano la prognosi — e per pianificarle conta il numero esatto delle lesioni, compresa quella da 5 mm che la TC non vede\\. Per questo la RM con diffusione \\(DWI\\) e acido gadoxetico \\(Gd\\-EOB\\) è il riferimento per la stadiazione epatica pre\\-chirurgica: sensibilità per\\-lesione circa 90–96 % nel colon\\-retto, con il margine maggiore sulla TC proprio sotto il centimetro\\.\n\n*Protocollo essenziale*\nT1 in/opposed phase \\(steatosi, che altera la conspicuità\\), T2 FSE con saturazione del grasso più una T2 a TE lungo \\(separa cisti ed emangiomi dalle lesioni solide\\), DWI con b basso \\(50\\) e alto \\(800\\) e mappa ADC, dinamico T1 3D \\(arteriosa tardiva, portale \\~60–70 s, transizionale \\~3 min\\) e fase epatobiliare \\(HBP\\) a 20 min\\. Le sequenze che fanno la detection sono due: DWI b\\-alto e HBP\\. La loro combinazione è più sensibile di ciascuna da sola, ed è lo standard da cui partire\\.\n\n*Semeiotica della metastasi*\nT1 ipointensa, T2 lievemente\\-moderatamente iperintensa \\(mai «a lampadina» come cisti ed emangioma — eccezione: metastasi mucinose, necrotiche o cistiche\\)\\. DWI: restrizione, spesso con aspetto a bersaglio \\(periferia cellulata più ristretta, centro necrotico\\-fibrotico con ADC più alto\\)\\. Dinamico: rim enhancement arterioso continuo per le ipovascolari \\(colon, stomaco, pancreas, polmone\\); enhancement arterioso intenso con washout per le ipervascolari \\(neuroendocrini, rene, melanoma, tiroide, a volte mammella\\) — per queste la fase arteriosa è irrinunciabile\\. HBP: ipointensa \\(niente epatociti funzionanti né trasportatori OATP1B1/3\\), spesso con aspetto a bersaglio: centro debolmente iperintenso per ritenzione tardiva del contrasto nello stroma fibrotico, rim periferico ipointenso\\. Talvolta si vede un alone perilesionale di enhancement arterioso da parenchima compresso\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Diagnosi differenziale delle lesioni sub\\-centimetriche*\n• Cisti: T2 molto alta che persiste a TE lungo, nessun enhancement\\. In DWI b\\-alto può restare chiara \\(T2 shine\\-through\\) ma l'ADC è alto: la restrizione vera si legge sulla mappa ADC, non sull'immagine b800\\.\n• Emangioma: T2 molto alta «a lampadina», enhancement periferico nodulare discontinuo e centripeto che segue il pool ematico\\. Con Gd\\-EOB in fase transizionale e HBP appare ipointenso \\(pseudo\\-washout\\): non è un criterio di malignità, decide la T2 con il pattern arterioso\\.\n• Amartomi biliari \\(complessi di von Meyenburg\\): innumerevoli lesioni < 15 mm, T2 molto alte, non comunicanti con le vie biliari, talora un sottile rim di enhancement; ADC alto\\.\n• Pseudolesioni perfusionali \\(THID/shunt arterioportali\\): visibili solo in arteriosa, spesso cuneiformi e subcapsulari, iso in T2, DWI e HBP\\.\n• FNH: iso/iperintensa in HBP \\(epatociti funzionanti\\) — un nodulo che capta in HBP quasi mai è una metastasi\\.\n• Ascesso: restrizione marcata nel centro \\(pus viscoso, ADC molto basso\\), mentre nella metastasi necrotica il centro ha ADC più alto della periferia\\.\n\n*Dopo chemioterapia*\nDue trappole\\. \\(1\\) Le metastasi che «scompaiono» in TC durante la chemioterapia spesso non sono guarite: in molte serie una quota consistente presenta malattia residua o recidiva in sede\\. Serve una RM DWI\\+HBP basale prima di iniziare e una prima della chirurgia; la sede originaria va mappata e discussa anche se la lesione non è più visibile\\. \\(2\\) L'oxaliplatino causa la sindrome da ostruzione sinusoidale: in HBP compare un reticolo ipointenso periferico, a volte con noduli pseudotumorali, che non va scambiato per malattia diffusa; l'irinotecano dà steatoepatite \\(CASH\\), che riduce la conspicuità in TC e consiglia la RM\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Cosa scrivere nel referto*\nNumero di lesioni e segmento di ciascuna; diametro maggiore; rapporti con vene sovraepatiche, rami portali e ilo \\(resecabilità\\); lesioni indeterminate sotto i 5 mm segnalate a parte con indicazione al controllo; stato del parenchima \\(steatosi, SOS\\); se rilevante, volume del fegato residuo futuro\\.\n\n*Take\\-home*\n1\\. Detection \\= DWI b\\-alto \\+ HBP con Gd\\-EOB: insieme, meglio di ciascuna da sola\\.\n2\\. Metastasi: T2 solo moderatamente alta, ADC basso, rim arterioso, ipointensa \\(spesso a bersaglio\\) in HBP\\.\n3\\. Iperintensità a b800 senza ADC basso \\= T2 shine\\-through \\(cisti, emangioma\\)\\.\n4\\. Emangioma ipointenso in HBP con Gd\\-EOB è pseudo\\-washout, non malignità\\.\n5\\. Metastasi scomparsa in TC dopo chemioterapia ≠ risposta completa: RM e mappatura della sede\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔗 *Connessioni*\nFisica: l'ADC si ricava da due immagini a b diversi con l'equazione di Stejskal\\-Tanner, S \\= S0·e^\\(−b·ADC\\): ADC \\= ln\\(S\\_b\\-basso/S\\_b\\-alto\\)/\\(b\\-alto − b\\-basso\\)\\. L'immagine b800 contiene ancora il peso T2 del tessuto; il rapporto tra due b lo cancella\\. Ecco perché una cisti può brillare a b800 \\(shine\\-through\\) ma avere ADC alto, e perché la diagnosi di restrizione si fa sulla mappa\\.\n\nStoria: nel 1889 il chirurgo londinese Stephen Paget, studiando le autopsie di 735 donne morte per tumore della mammella, notò che le metastasi non cadevano a caso negli organi più irrorati: era l'ipotesi «seed and soil», il seme che attecchisce solo nel terreno adatto\\. Nel 1928 James Ewing propose l'alternativa meccanica — conta la prima rete capillare a valle — che spiega bene il fegato per i tumori del tratto digestivo drenati dalla porta\\. Oggi si sa che valgono entrambe\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🖼️ *Immagini*\n• [Radiopaedia — metastasi epatiche da carcinoma del colon \\(RM dinamica, DWI, Gd\\-EOB\\)](https://radiopaedia.org/cases/hepatic-metastases-from-colon-carcinoma-triphasic-mri)\n• [Radiopaedia — metastasi epatica cistica \\(DD con le lesioni cistiche\\)](https://radiopaedia.org/cases/cystic-hepatic-metastasis)\n• [Radiopaedia — carcinoide con metastasi epatiche \\(ipervascolari\\)](https://radiopaedia.org/cases/carcinoid-tumour-with-liver-metastases-1)\n• [Review — Imaging of colorectal liver metastases: new developments and pending issues \\(PMC\\)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7017094/)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Q1\\. 🆕*\nPaziente con carcinoma del colon in stadiazione\\. RM: lesione di 8 mm al segmento VI, lievemente iperintensa in T2, iperintensa a b800 con ADC basso, ipointensa in fase epatobiliare con centro debolmente iperintenso\\. Diagnosi più probabile?\n\n*A*\\) Emangioma capillare con pseudo\\-washout\n*B*\\) Metastasi\n*C*\\) Pseudolesione perfusionale \\(THID\\)\n*D*\\) Cisti biliare semplice con T2 shine\\-through\n\n||Risposta corretta: B — T2 solo moderatamente alta, restrizione vera \\(ADC basso\\) e ipointensità in HBP con aspetto a bersaglio \\(centro fibrotico che trattiene il contrasto, rim ipointenso\\) sono il profilo della metastasi\\. Cisti ed emangioma sono molto iperintensi in T2 con ADC alto; la pseudolesione perfusionale è invisibile fuori dalla fase arteriosa\\.||\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261030%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261030|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261030|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261030|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261030|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261030|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261030|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Q2\\. 🆕*\nLesione di 6 mm molto iperintensa in T2 anche a TE lungo, chiara nell'immagine b800 ma con ADC alto, senza alcun enhancement\\. Come si interpreta la DWI?\n\n*A*\\) Restrizione da pus viscoso: ascesso iniziale\n*B*\\) Artefatto da suscettibilità per depositi di ferro\n*C*\\) Restrizione vera: lesione ipercellulare da biopsiare\n*D*\\) T2 shine\\-through di una cisti: nessuna restrizione\n\n||Risposta corretta: D — L'immagine b800 conserva il peso T2: un liquido con T2 molto lungo resta chiaro anche se l'acqua diffonde liberamente\\. La mappa ADC alta, il T2 persistente a TE lungo e l'assenza di enhancement indicano una cisti; la restrizione si giudica sempre sull'ADC\\.||\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261030%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261030|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261030|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261030|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261030|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261030|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261030|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Q3\\. 🆕*\nCon acido gadoxetico, un emangioma tipico in T2 appare ipointenso rispetto al fegato in fase transizionale e in fase epatobiliare\\. Perché?\n\n*A*\\) La trombosi dei lacuni vascolari impedisce l'ingresso del contrasto\n*B*\\) L'emangioma ha subito trasformazione maligna e perso la componente vascolare\n*C*\\) Il parenchima si arricchisce per captazione epatocitaria mentre il contrasto nel pool ematico cala: ipointensità relativa, non vero washout\n*D*\\) Il gadoxetato viene escreto dall'emangioma attraverso i canalicoli biliari\n\n||Risposta corretta: C — Con Gd\\-EOB la dose extracellulare è bassa e dopo 2–3 minuti gli epatociti \\(OATP1B1/3\\) iniziano a captarla: il fegato diventa più chiaro, mentre l'emangioma, puro spazio vascolare, segue il pool ematico in discesa\\. È pseudo\\-washout: la diagnosi la fanno la T2 molto alta e l'enhancement periferico nodulare discontinuo\\.||\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261030%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261030|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261030|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261030|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261030|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261030|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261030|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Q4\\. 🆕*\nMetastasi epatica di 9 mm da carcinoma del colon non più visibile alla TC dopo 6 cicli di FOLFOX\\. Qual è la condotta corretta?\n\n*A*\\) Rivalutare con RM DWI \\+ HBP e mappare la sede originaria, perché la scomparsa in TC spesso non è risposta completa\n*B*\\) Confermare la scomparsa con una PET\\-FDG, sufficiente da sola\n*C*\\) Sospendere l'imaging epatico per 12 mesi\n*D*\\) Considerarla in risposta completa ed escluderla dal piano chirurgico\n\n||Risposta corretta: A — Le metastasi «scomparse» in TC mostrano spesso malattia residua o recidiva in sede\\. La RM con DWI e fase epatobiliare è la tecnica più sensibile per le lesioni piccole dopo terapia, e la sede iniziale va comunque discussa per resezione/ablazione o stretto follow\\-up\\. La PET ha bassa sensibilità sotto il centimetro e dopo chemioterapia\\.||\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261030%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261030|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261030|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261030|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261030|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261030|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261030|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠 Rapporto operativo 20261030\nCallback inbox: 0 · Risposte Form nuove: 0 · Richieste archiviazione: 0\nCarte resettate (FASE 3): 0\nTopic: liver-metastases-mri-dwi-hbp (addome, L2)\nRipasso: no (ultimo 2026-10-29, 1 gg)\nInbox cancellati: 0\nWarning: nessuno"
+      }
+    }
+  ]
+}
