@@ -1,0 +1,457 @@
+{
+  "pill_id": "20261102",
+  "created_at": "2026-11-02T07:47:43.843596+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "📊 *Riepilogo settimanale RadioLearn*\n━━━━━━━━━━━━━━━━━━━━━━\n🎯 Pillole inviate: 4\n✅ Quiz risposti: 4/16 \\(25%\\)\n⭐ Qualità media: 3\\.5 / 5\n🔁 Carte dimenticate: 18\n🏆 Carte mature \\(\\>21gg\\): 1\n━━━━━━━━━━━━━━━━━━━━━━",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🧠 Pillola del giorno — Neuro RM \\(Livello 3\\)*\n*DWI\\-FLAIR mismatch: l'orologio dell'ictus ischemico*\nIl problema: circa un ictus su cinque viene scoperto al risveglio o comunque senza un orario di esordio noto\\. La trombolisi endovenosa è autorizzata entro 4,5 ore dall'esordio: senza orologio, un tempo questi pazienti venivano esclusi\\.\n\n*Le due sequenze in parole semplici*\n• DWI \\(diffusione\\): misura quanto si muovono le molecole d'acqua\\. Nell'ischemia le cellule si gonfiano \\(edema citotossico\\) e l'acqua si muove meno: la lesione è chiara in DWI e scura sulla mappa ADC\\. Succede già dopo pochi minuti\\.\n• FLAIR: è una T2 in cui il liquor viene «spento»\\. Diventa chiara quando nel tessuto aumenta l'acqua totale \\(edema vasogenico\\): di solito dopo alcune ore\\.\n\n*Il mismatch*\nLesione chiara in DWI \\(con ADC basso\\) ma ancora invisibile o appena accennata in FLAIR \\= ischemia recente, probabilmente iniziata da meno di circa 4,5 ore\\. Se invece la FLAIR è già nettamente positiva, l'infarto è verosimilmente più vecchio\\.\n\n*Perché conta: lo studio WAKE\\-UP*\nTrial europeo \\(Thomalla et al\\., NEJM 2018\\): 503 pazienti con ictus a esordio sconosciuto e mismatch DWI\\-FLAIR, randomizzati ad alteplase o placebo \\(esclusi i candidati a trombectomia\\)\\. Esito favorevole a 90 giorni 53,3% contro 41,8%; emorragie sintomatiche 8,0% contro 4,9% \\(differenza non significativa\\)\\. Circa metà dei pazienti esclusi allo screening non aveva il mismatch\\.\n\n*Come si legge, passo per passo*\n• 1\\) Trova la lesione in DWI ad alto b\\.\n• 2\\) Conferma la restrizione sulla mappa ADC \\(scura\\): se l'ADC non è basso, potrebbe essere solo T2 shine\\-through\\.\n• 3\\) Guarda la stessa area in FLAIR: assente o appena visibile \\= mismatch; chiara \\= lesione più datata\\.\n\n*Limiti e trappole*\n• Sensibilità limitata: nello studio PRE\\-FLAIR il mismatch riconosceva l'esordio entro 4,5 ore con sensibilità 62% e specificità 78%\\. Una FLAIR positiva non esclude un ictus precoce\\.\n• Lesioni piccole e del tronco/cervelletto: valutazione meno affidabile\\.\n• Il giudizio visivo FLAIR è soggettivo: lievi iperintensità vanno confrontate con l'emisfero controlaterale\\.\n• Tempi di ADC: basso nella prima settimana, «pseudonormale» verso 1–2 settimane, alto nella fase cronica\\.\n\n*Take\\-home*\n• DWI chiara \\+ ADC scuro \\+ FLAIR spenta \\= ictus recente \\(< \\~4,5 h\\)\\.\n• Il mismatch serve quando l'orario è sconosciuto; non sostituisce un orario noto\\.\n• Sempre ADC: senza ADC basso non c'è restrizione vera\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "\n*🔗 Connessioni*\nFisica: nel 1827 il botanico Robert Brown osservò al microscopio granuli di polline che si agitavano senza sosta nell'acqua; nel 1905 Einstein spiegò il moto browniano come effetto degli urti casuali delle molecole\\. La DWI misura proprio questo moto casuale: quando le cellule ischemiche si gonfiano, lo spazio in cui l'acqua può vagare si restringe\\.\nMetafora dell'orologio: come gli anelli di un albero datano il legno, la combinazione DWI/FLAIR/ADC data il tessuto cerebrale\\. Non è un cronometro preciso, ma una clessidra: dice «prima o dopo» una certa soglia, non l'ora esatta\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🖼 Immagini e fonti*\n• [Radiopaedia — ictus ischemico in territorio ACA \\(DWI, ADC, FLAIR\\)](https://radiopaedia.org/cases/ischaemic-stroke-7)\n• [DWI\\-FLAIR mismatch vs mismatch infarto\\-penombra in TC perfusione \\(PMC\\)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6823774/)\n• [Stroke mimics in RM: review iconografica \\(PMC\\)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6206386/)\n• [WAKE\\-UP trial — sintesi ACC](https://www.acc.org/Latest-in-Cardiology/Clinical-Trials/2018/05/18/10/23/WAKE-UP)\n• [Thomalla G et al\\. NEJM 2018 — DOI 10\\.1056/NEJMoa1804355](https://doi.org/10.1056/NEJMoa1804355)",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q1/10 · 🔁 Ripasso*\n\nScreening TC del polmone in un fumatore di 64 anni asintomatico: reticolazioni subpleuriche basali bilaterali non declivi che interessano circa il 2–3% di ciascuna zona polmonare inferiore, senza bronchiectasie da trazione\\. Come va classificato il reperto secondo la Fleischner Society \\(2020\\)?\n\nA\\) Alterazione interstiziale sotto la soglia di ILA: estensione < 5% in tutte le zone\nB\\) ILA subpleurica fibrotica\nC\\) ILD conclamata con pattern UIP probabile\nD\\) ILA non subpleurica\n\n||Risposta corretta: A — La definizione di ILA richiede che l'alterazione coinvolga almeno il 5% di una delle tre zone polmonari \\(superiore, media, inferiore\\)\\. Sotto quella soglia il reperto va descritto ma non etichettato come ILA; la classificazione in sottotipi viene dopo la definizione\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260924%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260924|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260924|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260924|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260924|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260924|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260924|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q2/10 · 🔁 Ripasso*\n\nIn una ILA a distribuzione subpleurica, quale elemento TC, accanto all'honeycombing, identifica il sottotipo fibrotico a maggior rischio di progressione?\n\nA\\) Vetro smerigliato centrolobulare nei lobi superiori\nB\\) Bronchiectasie/bronchiolectasie da trazione\nC\\) Noduli calcifici subpleurici\nD\\) Enfisema centrolobulare associato nei lobi superiori\n\n||Risposta corretta: B — Le bronchiectasie da trazione indicano distorsione architetturale da fibrosi: insieme all'honeycombing definiscono la ILA subpleurica fibrotica, associata a progressione radiologica e maggiore mortalità\\. Il vetro smerigliato centrolobulare è tipico delle forme non subpleuriche legate al fumo\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260924%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260924|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260924|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260924|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260924|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260924|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260924|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q3/10 · 🔁 Ripasso*\n\nTC supina: sottili opacità reticolari e a vetro smerigliato nelle regioni posteriori basali, sfumate verso l'alto\\. Si sospetta che siano solo alterazioni declivi\\. Qual è il modo più semplice per dirimere il dubbio?\n\nA\\) TC con mezzo di contrasto in fase arteriosa\nB\\) Acquisizione in espirazione per cercare air trapping\nC\\) Controllo a 12 mesi senza ulteriori acquisizioni\nD\\) Ripetere solo le basi in posizione prona: le opacità declivi scompaiono\n\n||Risposta corretta: D — Le opacità da ipoventilazione/atelettasia gravitazionale si spostano con la postura e scompaiono in posizione prona; un'interstiziopatia vera persiste\\. Le alterazioni declivi sono un criterio di esclusione dalla definizione di ILA, quindi la scansione prona evita una falsa etichetta\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260924%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260924|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260924|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260924|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260924|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260924|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260924|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q4/10 · 🔁 Ripasso*\n\nPaziente di 70 anni, TC di stadiazione per altro motivo: reticolazioni subpleuriche basali \\> 5% di zona\\. All'anamnesi riferisce dispnea da sforzo da 1 anno; la DLCO è al 55%\\. Qual è l'inquadramento corretto?\n\nA\\) ILA non fibrotica, nessun ulteriore accertamento\nB\\) Reperto incidentale da non riportare nel referto oncologico\nC\\) Non è più una ILA: sospetta ILD clinicamente significativa, avviare la valutazione pneumologica/multidisciplinare\nD\\) ILA fibrotica, da rivalutare solo con TC a 2 anni\n\n||Risposta corretta: C — La ILA è per definizione un reperto incidentale in soggetti senza sospetto clinico di interstiziopatia\\. Sintomi respiratori e deficit funzionale spostano il quadro verso una ILD, che richiede iter diagnostico completo e discussione multidisciplinare\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260924%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260924|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260924|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260924|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260924|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260924|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260924|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q5/10 · 🔁 Ripasso*\n\nDue mixomi dell'atrio sinistro di dimensioni simili: uno a superficie liscia e compatta, l'altro a superficie villosa/papillare e gelatinosa\\. Quale ha il maggior rischio embolico \\(ictus, MINOCA\\)?\n\nA\\) Quello a superficie liscia e compatta\nB\\) Il rischio dipende solo dalle dimensioni, non dalla morfologia\nC\\) Quello a superficie villosa/papillare e friabile\nD\\) Nessuno dei due: i mixomi non embolizzano\n\n||Risposta corretta: C — La forma villosa/papillare è fragile e si frammenta facilmente: le embolie \\(cerebrali, coronariche, periferiche\\) sono più frequenti che nella forma liscia e compatta, che tende invece a dare sintomi ostruttivi\\. Descrivere la superficie in ecocardio/RM aiuta a stimare il rischio embolico\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260926%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260926|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260926|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260926|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260926|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260926|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260926|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q6/10 · 🔁 Ripasso*\n\nIl mixoma dell'atrio sinistro nasce tipicamente dal setto interatriale in corrispondenza della fossa ovale\\. Perché descrivere con precisione la base d'impianto è utile al cardiochirurgo?\n\nA\\) Non ha implicazioni: si asporta solo la massa peduncolata\nB\\) Perché indica la durata della terapia anticoagulante postoperatoria\nC\\) Per scegliere l'approccio percutaneo transcatetere\nD\\) Per pianificare l'asportazione a tutto spessore della base settale, con patch, riducendo le recidive\n\n||Risposta corretta: D — La resezione standard comprende l'escissione completa del tessuto settale da cui origina il peduncolo, spesso con chiusura con patch: margini insufficienti sulla base d'impianto sono la causa principale di recidiva locale\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260926%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260926|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260926|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260926|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260926|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260926|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260926|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q7/10 · 🆕 Nuova*\n\nPaziente che si sveglia con emiparesi destra e afasia; era stato visto in buona salute 8 ore prima\\. RM: area iperintensa in DWI con ADC ridotto nel territorio dell'arteria cerebrale media sinistra, nessuna iperintensità corrispondente in FLAIR\\. Come si interpreta?\n\nA\\) Ictus ischemico probabilmente iniziato da meno di \\~4,5 ore: candidabile a trombolisi secondo il protocollo WAKE\\-UP\nB\\) Artefatto da suscettibilità della base cranica\nC\\) Infarto subacuto di oltre 24 ore\nD\\) Effetto T2 shine\\-through senza vera ischemia\n\n||Risposta corretta: A — DWI positiva con FLAIR ancora negativa \\(mismatch DWI\\-FLAIR\\) funziona da «orologio»: indica un'ischemia recente, compatibile con un esordio entro circa 4,5 ore\\. Nello studio WAKE\\-UP i pazienti con esordio sconosciuto selezionati così hanno beneficiato della trombolisi\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261102%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261102|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261102|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261102|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261102|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261102|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261102|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q8/10 · 🆕 Nuova*\n\nPerché nell'ischemia acuta la DWI diventa positiva molto prima della FLAIR?\n\nA\\) Perché la DWI misura il flusso arterioso\nB\\) Perché la DWI rileva subito l'edema citotossico, mentre la FLAIR richiede un aumento netto dell'acqua nel tessuto, che arriva ore dopo\nC\\) Perché la DWI usa il mezzo di contrasto e la FLAIR no\nD\\) Perché la FLAIR vede solo il sangue, non l'acqua\n\n||Risposta corretta: B — Nei primi minuti cede la pompa sodio\\-potassio: l'acqua passa dallo spazio extracellulare all'interno delle cellule e si muove di meno \\(diffusione ristretta, ADC basso\\), ma il contenuto totale d'acqua del tessuto cambia poco\\. La FLAIR si accende quando l'acqua totale aumenta \\(edema vasogenico\\), di solito dopo alcune ore\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261102%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261102|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261102|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261102|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261102|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261102|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261102|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q9/10 · 🆕 Nuova*\n\nRM di un paziente con ictus iniziato sicuramente da 2 ore: la lesione è già lievemente iperintensa anche in FLAIR\\. Cosa si può concludere?\n\nA\\) Niente di definitivo: una FLAIR già positiva non esclude un esordio entro 4,5 ore; il mismatch ha buona specificità ma sensibilità limitata\nB\\) Che la lesione non è ischemica\nC\\) Che il paziente ha mentito sull'orario di esordio\nD\\) Che la trombolisi è sempre controindicata\n\n||Risposta corretta: A — Nello studio PRE\\-FLAIR il mismatch identificava i pazienti entro 4,5 ore con sensibilità del 62% e specificità del 78%: circa un terzo dei pazienti precoci ha già alterazioni FLAIR\\. Il mismatch serve a selezionare chi ha orario sconosciuto; quando l'orario è noto, decide il tempo clinico\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261102%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261102|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261102|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261102|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261102|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261102|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261102|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q10/10 · 🆕 Nuova*\n\nInfarto cerebrale di 10 giorni: la lesione è iperintensa in FLAIR e in DWI, ma l'ADC è ormai simile al parenchima normale\\. Come si chiama questo fenomeno?\n\nA\\) Trasformazione emorragica\nB\\) Restrizione da ascesso\nC\\) Pseudonormalizzazione dell'ADC\nD\\) Nuovo infarto acuto sovrapposto\n\n||Risposta corretta: C — L'ADC è basso nella prima settimana, poi risale e passa per valori «normali» intorno a 1–2 settimane prima di diventare alto nella fase cronica\\. La DWI può restare chiara per effetto T2 \\(shine\\-through\\): per datare la lesione bisogna guardare insieme DWI, ADC e FLAIR\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261102%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261102|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261102|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261102|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261102|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261102|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261102|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠 Rapporto operativo 20261102\nCallback inbox: 0 · Risposte Form nuove: 0 · Richieste archiviazione: 0\nCarte resettate \\(presentate e non risposte\\): 18\nTopic: dwi\\-flair\\-mismatch\\-stroke \\(neuro, L3\\)\nRipasso: sì, 6 carte \\(20260924:0, 20260924:1, 20260924:2, 20260924:3, 20260926:2, 20260926:0\\)\nInbox cancellati: 0 · Backup lunedì: sì · Paper: nessuno nuovo\nWarning: pillole 31/10 e 01/11 non risultano nel log \\(run del weekend mancati\\)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}

@@ -1069,5 +1069,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-11-02",
+    "tag": "dwi-flair-mismatch-stroke",
+    "domain": "neuro",
+    "level": 3,
+    "source": "auto"
   }
 ]
