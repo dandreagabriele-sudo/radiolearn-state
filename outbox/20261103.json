@@ -1,0 +1,203 @@
+{
+  "pill_id": "20261103",
+  "created_at": "2026-11-03T07:43:45+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🫁 Pillola del giorno — Torace \\(Livello 1\\)*\n*Polmonite eosinofila cronica: il negativo fotografico dell'edema*\nCarrington \\(NEJM 1969\\) descrive la polmonite eosinofila cronica \\(CEP\\); Gaensler e Carrington \\(AJR 1977\\) le danno il segno che tutti ricordano: consolidazioni periferiche con risparmio perilare, il «negativo fotografico dell'edema polmonare» \\(reverse bat\\-wing\\)\\. Il segno è quasi patognomonico, ma compare in meno di un terzo dei casi \\(≈25%\\): la diagnosi la fanno il contesto clinico e il BAL, non il radiogramma\\.\n\n*Profilo clinico*\n• Età media 30–50 anni, F:M ≈ 2:1, prevalentemente non fumatori; asma nota \\(o di nuova insorgenza\\) in circa metà–due terzi dei casi\\.\n• Decorso subacuto: tosse, dispnea, febbre, sudorazioni notturne e calo ponderale da settimane\\-mesi — spesso già trattato con più cicli di antibiotico senza risposta\\.\n• Criteri \\(Marchand 1998\\): sintomi \\> 2 settimane, eosinofili al BAL ≥ 40% e/o ematici ≥ 1000/µL, infiltrati periferici, esclusione di cause note \\(parassiti, farmaci, funghi, vasculite\\)\\.\n\n*TC: cosa cercare*\n• Consolidazioni e vetro smerigliato non segmentari, a base pleurica, a predominanza dei campi superiori e medi; possono migrare se non trattate\\.\n• Talora crazy\\-paving, noduli, modeste adenopatie mediastiniche; versamento pleurico poco frequente \\(≈10%\\)\\.\n• In risoluzione \\(o tardivamente\\): opacità a banda subpleuriche parallele alla superficie pleurica — reperto utile per riconoscere la CEP «decapitata» dallo steroide\\.\n• Risposta drammatica allo steroide: clinica in 24–48 h, imaging nettamente migliorato in 1–2 settimane\\. La mancata risposta impone di rivedere la diagnosi\\. Recidive alla riduzione in circa il 50%, spesso nella stessa sede\\.\n\n*Diagnosi differenziale — il nodo per l'esperto*\n• Polmonite eosinofila acuta \\(AEP\\): esordio ≤ 1 mese \\(spesso giorni\\), insufficienza respiratoria; TC con vetro smerigliato bilaterale \\+ ispessimento settale \\+ versamento bilaterale, simile a edema/ARDS\\. BAL eosinofili \\> 25%, ma eosinofili ematici spesso normali all'esordio\\. Fattori scatenanti: inizio o ripresa del fumo, sigaretta elettronica, polveri\\. Non recidiva\\.\n• Polmonite organizzativa \\(COP\\): predominanza basale, distribuzione peribroncovascolare e perilobulare, segno dell'atollo; BAL a prevalenza linfocitaria\\. Sovrapposizione reale: le biopsie di CEP mostrano spesso aree di OP\\.\n• Sindrome di Löffler: opacità migranti e fugaci \\(< 1 mese\\), sintomi lievi; passaggio larvale \\(Ascaris, Strongyloides\\) — cercare sempre Strongyloides prima di dare steroide ad alte dosi\\.\n• EGPA: asma \\+ eosinofilia \\+ vasculite; ANCA \\(MPO\\) positivi solo in ≈ 30–40%\\. Consolidazioni periferiche simili alla CEP: cercare neuropatia, sinusite, interessamento renale e soprattutto cardiaco \\(CMR: LGE subendocardico non coronarico\\)\\.\n• ABPA: bronchiectasie centrali con muco ad alta attenuazione; tossiche da farmaci \\(nitrofurantoina, minociclina, daptomicina, FANS\\); sindrome ipereosinofila \\(eosinofili \\> 1500/µL con danno d'organo\\)\\.\n\n*Take\\-home*\n• Consolidazioni periferiche apicali croniche \\+ asma \\+ eosinofilia \\= CEP finché non si dimostra il contrario: chiedere BAL ed emocromo con formula\\.\n• AEP non è la fase precoce della CEP: clinica, TC e decorso diversi; eosinofili ematici normali non la escludono\\.\n• Bande subpleuriche parallele alla pleura \\= CEP in risoluzione\\.\n• Prima dello steroide: escludere Strongyloides e farmaci; se la risposta non è rapida, ripensare la diagnosi \\(EGPA, linfoma, adenocarcinoma mucinoso\\)\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔗 Connessioni*\nFotografia: nel 1841 William Henry Fox Talbot brevettò la calotipia, il primo processo negativo\\-positivo — da una sola lastra a toni invertiti si stampano infinite copie positive\\. Gaensler e Carrington presero in prestito proprio questa inversione: l'edema riempie l'ilo e risparmia la periferia, la CEP fa l'esatto contrario\\. Stessa immagine, toni rovesciati\\.\n\nChimica e mito: l'eosina, il colorante acido che tinge di rosso\\-arancio i granuli di questi leucociti, prende il nome da Eos, la dea greca dell'aurora «dalle dita di rosa»\\. Fu Paul Ehrlich, nel 1879, a usarla per distinguere gli eosinofili: una cellula battezzata dal colore dell'alba\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🖼 Immagini e fonti*\n• [Radiopaedia — chronic eosinophilic pneumonia \\(articolo\\)](https://radiopaedia.org/articles/chronic-eosinophilic-pneumonia?lang=us)\n• [Radiopaedia — caso: consolidazioni periferiche bilaterali, eosinofilia 20× il limite](https://images.radiopaedia.org/cases/chronic-eosinophilic-pneumonia)\n• [Radiopaedia — caso: eosinophilic pneumonia](https://radiopaedia.org/cases/eosinophilic-pneumonia-2)\n• [Polmoniti eosinofile: review 2024 \\(Frontiers in Medicine, PMC\\)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11070545)\n• [Idiopathic chronic eosinophilic pneumonia — review \\(PMC\\)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8060025/)",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q1/4 · 🆕 Nuova*\n\nDonna di 44 anni, asmatica, con tosse, febbricola e calo ponderale da 2 mesi, nonostante due cicli di antibiotico\\. TC: consolidazioni non segmentarie a base pleurica, bilaterali, prevalenti ai lobi superiori, con risparmio delle regioni perilari\\. Eosinofili ematici 18%\\. Qual è la diagnosi più probabile?\n\nA\\) Polmonite eosinofila cronica\nB\\) Polmonite eosinofila acuta\nC\\) Polmonite organizzativa criptogenetica\nD\\) Edema polmonare cardiogeno\n\n||Risposta corretta: A — Il quadro è il «negativo fotografico dell'edema»: consolidazioni periferiche apicali croniche in una paziente asmatica con eosinofilia, refrattarie agli antibiotici\\. La polmonite organizzativa predilige le basi con distribuzione peribroncovascolare; la forma acuta esordisce in giorni con insufficienza respiratoria, vetro smerigliato diffuso e versamento; l'edema cardiogeno è perilare\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261103%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261103|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261103|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261103|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261103|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261103|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261103|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q2/4 · 🆕 Nuova*\n\nUomo di 20 anni che ha iniziato a fumare sigarette elettroniche 3 settimane fa\\. Insufficienza respiratoria acuta; TC: vetro smerigliato bilaterale, ispessimento dei setti interlobulari e piccolo versamento pleurico bilaterale\\. Eosinofili ematici normali; BAL con eosinofili al 42%\\. Quale affermazione è corretta?\n\nA\\) Gli eosinofili ematici normali escludono una polmonite eosinofila\nB\\) È una polmonite eosinofila cronica in fase iniziale, con alto rischio di recidiva\nC\\) Polmonite eosinofila acuta: all'esordio l'eosinofilia ematica manca spesso, il criterio chiave è il BAL \\> 25%\nD\\) Il versamento pleurico orienta verso una sindrome di Löffler\n\n||Risposta corretta: C — La forma acuta segue spesso l'inizio del fumo o lo svapo, simula edema/ARDS \\(vetro smerigliato, setti ispessiti, versamento\\) e ha eosinofili ematici frequentemente normali all'esordio, che salgono nei giorni successivi; la diagnosi si basa sugli eosinofili al BAL oltre il 25%\\. Non è la fase precoce della forma cronica e di solito non recidiva\\. La sindrome di Löffler dà opacità fugaci e sintomi lievi\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261103%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261103|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261103|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261103|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261103|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261103|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261103|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q3/4 · 🆕 Nuova*\n\nPaziente con polmonite eosinofila cronica in terapia steroidea da 3 settimane, con ottima risposta clinica\\. Quale reperto residuo alla TC di controllo è tipico della fase di risoluzione?\n\nA\\) Adenopatie ilari con calcificazioni a guscio d'uovo\nB\\) Cavitazione delle consolidazioni\nC\\) Honeycombing subpleurico basale\nD\\) Opacità lineari a banda subpleuriche, parallele alla superficie pleurica\n\n||Risposta corretta: D — Riassorbendosi, le consolidazioni periferiche lasciano bande opache subpleuriche parallele alla pleura: un reperto che, in un paziente già trattato, suggerisce la diagnosi retrospettivamente\\. La fibrosi a nido d'ape non è un esito tipico, la cavitazione orienta verso infezione o vasculite, le calcificazioni a guscio d'uovo verso silicosi o sarcoidosi\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261103%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261103|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261103|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261103|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261103|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261103|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261103|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q4/4 · 🆕 Nuova*\n\nConsolidazioni periferiche migranti, subacute\\. Quale combinazione orienta verso la polmonite organizzativa più che verso la polmonite eosinofila cronica?\n\nA\\) Prevalenza apicale e periferica con risparmio perilare\nB\\) Prevalenza basale, distribuzione peribroncovascolare e perilobulare, segno dell'atollo, BAL a prevalenza linfocitaria\nC\\) Eosinofili nel BAL superiori al 40%\nD\\) Asma nota ed eosinofilia ematica superiore a 1000/µL\n\n||Risposta corretta: B — La polmonite organizzativa predilige i lobi inferiori, segue i fasci broncovascolari, può avere pattern perilobulare e segno dell'atollo, con BAL linfocitario\\. Prevalenza apicale\\-periferica, asma, eosinofilia ematica marcata ed eosinofili al BAL oltre il 40% sono invece i pilastri della forma eosinofila cronica\\. Esiste comunque sovrapposizione istologica: aree di OP sono frequenti nelle biopsie di CEP\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261103%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261103|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261103|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261103|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261103|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261103|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261103|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠 Rapporto operativo 20261103\nCallback inbox: 0 · Risposte Form nuove: 0 · Richieste archiviazione: 0\nCarte resettate \\(presentate e non risposte\\): 0\nTopic: chronic\\-eosinophilic\\-pneumonia \\(torace, L1\\)\nRipasso: no \\(ultimo 2026\\-11\\-02, cadenza 3 gg\\)\nInbox cancellati: 0 · Backup lunedì: no · Paper: nessuno nuovo\nWarning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
