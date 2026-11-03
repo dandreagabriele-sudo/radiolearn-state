@@ -1076,5 +1076,12 @@
     "domain": "neuro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-11-03",
+    "tag": "chronic-eosinophilic-pneumonia",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
