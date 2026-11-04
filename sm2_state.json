@@ -10223,6 +10223,42 @@
       "last_quality": null,
       "history": [],
       "last_presented": "2026-11-03"
+    },
+    "20261104:0": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-11-04",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-11-04"
+    },
+    "20261104:1": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-11-04",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-11-04"
+    },
+    "20261104:2": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-11-04",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-11-04"
+    },
+    "20261104:3": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-11-04",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-11-04"
     }
   },
   "history": [

@@ -1,0 +1,212 @@
+{
+  "pill_id": "20261104",
+  "created_at": "2026-11-04T08:23:06.247406+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🫃 Pillola del giorno — RM Addome \\(Livello 2\\)*\n*Pancreatite paraduodenale \\(groove pancreatitis\\): la doccia tra pancreas e duodeno*\nLa pancreatite paraduodenale è una forma focale di pancreatite cronica centrata sulla «groove», la doccia pancreatico\\-duodenale: lo spazio tra testa del pancreas, parete mediale della seconda porzione duodenale e coledoco distale\\. Becker \\(1973\\) la chiamò «Rinnenpankreatitis», Stolte \\(1982\\) «groove pancreatitis»; Adsay e Zamboni \\(2004\\) hanno riunito sotto il nome di pancreatite paraduodenale entità descritte separatamente — distrofia cistica del pancreas eterotopico, cisti della parete duodenale, amartoma pancreatico del duodeno — che sono lo stesso processo\\. Il problema pratico è uno solo: simula l'adenocarcinoma della testa\\.\n\n*Chi e perché*\n• Paziente tipico: uomo di 40–50 anni, forte bevitore e fumatore, con dolore epigastrico, calo ponderale e soprattutto vomito post\\-prandiale da stenosi duodenale\\. L'ittero è raro nonostante il coinvolgimento frequente del coledoco\\.\n• Meccanismo: ostacolo al deflusso dal dotto accessorio \\(Santorini\\) attraverso la papilla minore — anatomia sfavorevole, iperplasia delle ghiandole di Brunner, pancreas eterotopico nella parete duodenale — su cui l'alcol agisce rendendo il secreto più viscoso\\. Il ristagno nella parete duodenale genera infiammazione, fibrosi e cisti\\.\n• Due forme: «pura», confinata alla doccia con testa pancreatica risparmiata; «segmentaria», con estensione alla testa — è questa la forma che crea il problema con il tumore\\.\n\n*RM: la semeiotica*\n• Tessuto a lamina \\(sheet\\-like\\), a mezzaluna, interposto tra testa pancreatica e D2: ipointenso in T1 rispetto al pancreas sano; in T2 iperintenso nella fase subacuta \\(edema\\), ipointenso nella fase cronica \\(fibrosi\\)\\.\n• Dinamica: ipoenhancement in fase arteriosa e presa di contrasto progressiva, tardiva, della componente fibrosa — è il comportamento del tessuto cicatriziale\\.\n• Il segno chiave: cisti nella parete mediale ispessita del duodeno o nella doccia, iperintense in T2 e ben visibili in MRCP \\(nelle serie: ispessimento della parete duodenale ≈ 90%, cisti ≈ 80% dei casi\\)\\. La RM è la tecnica migliore per vederle; l'ecoendoscopia descrive meglio la parete\\.\n• Duodeno: ispessimento e stenosi della seconda porzione, con possibile ritardo di svuotamento gastrico\\.\n• Dotti: coledoco intrapancreatico con stenosi lunga, liscia e progressiva \\(tapering\\); Wirsung normale o modicamente dilatato, senza stop netto\\. L'arteria gastroduodenale tende a essere spostata, non inglobata\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Il nodo: pancreatite paraduodenale o adenocarcinoma?*\n• A favore della paraduodenale: cisti nella parete duodenale, lesione a lamina centrata sulla doccia, stenosi coledocica lunga e regolare, enhancement tardivo progressivo, vasi peripancreatici rispettati, paziente giovane con anamnesi alcolica\\.\n• A favore del tumore: massa ipovascolare centrata nella testa, stop netto di coledoco e Wirsung \\(double duct\\) con atrofia a monte, contatto o encasement di arteria mesenterica superiore / vena mesenterica superiore\\-porta, assenza di cisti parietali, restrizione marcata in DWI\\.\n• Nessun segno è assoluto: anche un adenocarcinoma può avere pancreatite ostruttiva attorno e il CA 19\\-9 può essere modestamente aumentato in entrambi\\. Nella forma segmentaria senza cisti: ecoendoscopia con agobiopsia e, se il dubbio resta, discussione multidisciplinare — la duodenocefalopancreasectomia rimane l'opzione nei casi refrattari o non chiariti\\.\n• Altre diagnosi differenziali: adenocarcinoma duodenale o ampollare, tumore neuroendocrino, GIST duodenale, pancreatite autoimmune \\(aumento «a salsiccia» con orletto ipointenso\\), pancreatite acuta che coinvolge la doccia \\(si risolve, la paraduodenale persiste\\)\\.\n\n*Take\\-home*\n• Uomo alcolista con vomito \\+ tessuto a lamina tra testa e D2 \\+ cisti nella parete duodenale \\= pancreatite paraduodenale finché non si dimostra il contrario\\.\n• Cerca le cisti in T2/MRCP: sono il segno che sposta la bilancia\\.\n• Stenosi coledocica lunga e liscia, vasi rispettati, enhancement tardivo: fibrosi\\. Stop netto doppio e encasement: tumore\\.\n• Forma segmentaria senza cisti: non chiudere il referto con una diagnosi benigna — chiedi l'ecoendoscopia\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🔗 Connessioni*\nFisica dei fluidi: la legge di Hagen–Poiseuille dice che la portata in un condotto è proporzionale alla quarta potenza del raggio e inversamente proporzionale alla viscosità\\. Dimezzare il calibro della papilla minore riduce il flusso di 16 volte; se l'alcol rende anche il secreto più denso, il dotto di Santorini va in stallo — e la doccia paga il conto\\.\n\nStoria dell'anatomia: il dotto accessorio porta il nome di Giovanni Domenico Santorini, anatomista veneziano che lo descrisse nelle «Observationes anatomicae» \\(1724\\)\\. Una struttura spesso considerata un residuo embriologico è il protagonista di questa malattia\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🖼 Immagini e fonti*\n• [Radiopaedia — paraduodenal pancreatitis \\(articolo\\)](https://radiopaedia.org/articles/12607)\n• [Radiopaedia — caso: paraduodenal pancreatitis](https://radiopaedia.org/cases/22164)\n• [Radiopaedia — caso: paraduodenal pancreatitis 5](https://radiopaedia.org/cases/paraduodenal-pancreatitis-5)\n• [Groove pancreatitis: CT e RM con correlazione radio\\-patologica \\(Raman et al\\., PMC\\)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4005339)\n• [Groove pancreatitis: review delle caratteristiche TC/RM \\(PMC\\)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6755950)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q1/4 · 🆕 Nuova*\n\nUomo di 46 anni, forte bevitore, con vomito post\\-prandiale e calo ponderale\\. RM: tessuto a lamina tra testa pancreatica e parete mediale di D2, ipointenso in T2, con presa di contrasto tardiva; piccole cisti iperintense in T2 nella parete duodenale ispessita; coledoco distale con stenosi lunga e regolare\\. Diagnosi più probabile?\n\nA\\) Pancreatite paraduodenale\nB\\) Adenocarcinoma della testa del pancreas\nC\\) Pancreatite acuta edematosa\nD\\) Pancreatite autoimmune di tipo 1\n\n||Risposta corretta: A — Lesione a lamina centrata sulla doccia, fibrosi con enhancement tardivo, cisti nella parete duodenale e stenosi coledocica liscia in un uomo alcolista con stenosi duodenale: è il quadro tipico della pancreatite paraduodenale\\. Il tumore darebbe massa ipovascolare con stop netto dei dotti; la forma autoimmune un aumento diffuso «a salsiccia» con orletto; la pancreatite acuta non spiega fibrosi e cisti parietali\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261104%3A0)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261104|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261104|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261104|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261104|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261104|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261104|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q2/4 · 🆕 Nuova*\n\nNel differenziale tra pancreatite paraduodenale segmentaria e adenocarcinoma della testa, quale reperto RM orienta più fortemente verso la pancreatite?\n\nA\\) Contatto circonferenziale con l'arteria mesenterica superiore\nB\\) Stop netto e simultaneo di coledoco e Wirsung\nC\\) Atrofia del parenchima a monte con Wirsung dilatato\nD\\) Cisti iperintense in T2 nella parete mediale ispessita del duodeno\n\n||Risposta corretta: D — Le cisti nella parete duodenale \\(circa l'80% dei casi nelle serie\\) sono il segno più specifico della pancreatite paraduodenale e si vedono meglio in T2 e MRCP\\. Il doppio stop duttale, l'atrofia a monte e l'encasement dell'arteria mesenterica superiore sono invece segni di neoplasia\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261104%3A1)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261104|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261104|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261104|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261104|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261104|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261104|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q3/4 · 🆕 Nuova*\n\nPerché la lesione della pancreatite paraduodenale in fase cronica appare ipointensa in T2 e mostra presa di contrasto progressiva nelle fasi tardive?\n\nA\\) Per la presenza di grasso microscopico nella doccia\nB\\) Per la componente fibrotica prevalente, con spazio interstiziale ampio e lento wash\\-in del gadolinio\nC\\) Per depositi di emosiderina da emorragie ripetute\nD\\) Per l'elevata cellularità tumorale con necrosi centrale\n\n||Risposta corretta: B — Il tessuto fibroso è povero di acqua libera \\(basso segnale T2\\) e ha un interstizio ampio con poca vascolarizzazione: il gadolinio entra lentamente e si accumula nelle fasi tardive\\. L'emosiderina darebbe blooming in gradient\\-echo, il grasso microscopico caduta di segnale in opposizione di fase, e una massa ipercellulare restrizione in DWI con ipoenhancement persistente\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261104%3A2)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261104|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261104|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261104|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261104|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261104|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261104|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q4/4 · 🆕 Nuova*\n\nLa papilla minore e il dotto di Santorini sono centrali nella patogenesi della pancreatite paraduodenale\\. Quale affermazione è corretta?\n\nA\\) È una manifestazione della malattia IgG4\\-correlata con infiltrato plasmacellulare\nB\\) La malattia deriva da un'ostruzione della papilla maggiore da calcolo coledocico\nC\\) Un ostacolo al deflusso dalla papilla minore \\(anatomia, iperplasia delle ghiandole di Brunner, pancreas eterotopico\\), aggravato dall'alcol, causa ristagno e infiammazione nella parete duodenale e nella doccia\nD\\) È causata da ischemia dell'arteria gastroduodenale\n\n||Risposta corretta: C — Il modello patogenetico accettato è il deflusso ostacolato dal dotto accessorio attraverso la papilla minore, con secreto reso più viscoso dall'alcol: il succo ristagna nel tessuto pancreatico della parete duodenale, generando infiammazione, fibrosi e cisti\\. Non è una malattia IgG4\\-correlata né litiasica, e l'arteria gastroduodenale è di solito spostata, non ischemica\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261104%3A3)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true,
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261104|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261104|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261104|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261104|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261104|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261104|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🛠 Rapporto operativo 20261104\nCallback inbox: 0 · Risposte Form nuove: 0 · Richieste archiviazione: 0\nCarte resettate \\(presentate e non risposte\\): 0\nTopic: groove\\-pancreatitis\\-mri \\(addome, L2\\)\nRipasso: no \\(ultimo 2026\\-11\\-02, cadenza 3 gg\\)\nInbox cancellati: 0 · Backup lunedì: no · Paper: nessuno nuovo\nWarning: nessuno",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": true
+      }
+    }
+  ]
+}
