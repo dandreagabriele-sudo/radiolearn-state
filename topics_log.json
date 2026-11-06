@@ -1097,5 +1097,12 @@
     "domain": "altro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-11-06",
+    "tag": "bronchial-atresia",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]

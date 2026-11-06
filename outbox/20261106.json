@@ -1,0 +1,206 @@
+{
+  "pill_id": "20261106",
+  "created_at": "2026-11-06T07:44:48+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🫁 *Pillola del giorno — Torace \\(Livello 1\\)*\n*Atresia bronchiale congenita: broncocele \\+ iperinflazione*\n\nDefinizione\\. Interruzione focale di un bronco lobare, segmentale o subsegmentale \\(quasi sempre segmentale\\), con albero bronchiale distale pervio e di numero normale\\. Il moncone distale non comunica con l'ilo: il muco prodotto a valle non drena e si accumula in un broncocele \\(mucocele\\) a fondo cieco\\. Il parenchima che quel bronco dovrebbe ventilare riceve aria solo per via collaterale, e ne risulta iperinflato, ipodenso e ipovascolare\\.\n\n*La triade TC*\n• Broncocele: struttura tubulare o ramificata \\(\"finger\\-in\\-glove\"\\), a volte ovoidale, centrale/perilare nel segmento coinvolto; densità di muco \\(in genere fluida\\-tessuto molle\\), nessun enhancement; talora livello idroaereo se si sovrainfetta o se entra aria collaterale\\.\n• Iperinflazione del segmento distale con riduzione del calibro e del numero dei vasi \\(oligoemia\\): l'air trapping si accentua in espirio \\(TC espiratoria\\)\\.\n• Assenza di connessione: sulle MPR/MinIP il bronco segmentale prossimale termina a fondo cieco, e il broncocele resta separato da esso\\.\nBroncocele \\+ iperinflazione circostante in un solo segmento è considerato virtualmente diagnostico \\(23/23 casi nella serie TC di Radiologia Brasileira 2021, tutti unilaterali, prevalenza nel lobo superiore sinistro\\)\\.\n\n*Epidemiologia e sede*\nRiscontro incidentale tipico nella 2ª–3ª decade, prevalenza maschile, spesso asintomatica\\. Sede più frequente: segmento apicoposteriore del lobo superiore sinistro, poi segmenti del lobo superiore destro, lobo medio e lobi inferiori\\. Sintomi \\(tosse, dispnea, infezioni ricorrenti nel segmento iperinflato\\) in una minoranza\\.\n\n*Patogenesi*\nL'ipotesi prevalente è un insulto \\(verosimilmente vascolare\\) dopo la 15ª–16ª settimana, quando la ramificazione bronchiale è già completa: lo spiega il numero normale delle generazioni distali\\. Un'ipotesi alternativa invoca il distacco precoce di una gemma bronchiale\\. Può coesistere con altre anomalie \\(CPAM — lesione \"ibrida\" —, sequestro, cisti broncogena\\)\\.\n\n*Perché iperinfla e non collassa*\nL'aria entra nel segmento \"orfano\" per ventilazione collaterale \\(pori di Kohn, canali di Lambert, canali di Martin, bronchioli intersegmentari\\)\\. In inspirio le vie collaterali si aprono; in espirio, con la riduzione dei volumi, si restringono e l'aria resta intrappolata: un meccanismo funzionale a valvola\\. Il risultato è l'opposto di un'ostruzione acquisita acuta, che tipicamente dà atelettasia\\.\n",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Diagnosi differenziale — dove sbaglia l'esperto*\n• Ostruzione acquisita \\(carcinoide, adenoma, corpo estraneo, stenosi post\\-TB\\): nell'adulto, specie fumatore o con broncocele di nuova comparsa, cercare sempre una lesione endoluminale captante all'estremità prossimale \\(TC con mdc, MPR, broncoscopia\\)\\. Il distale è più spesso atelettasico/consolidato che iperinflato, ma la ventilazione collaterale può mascherarlo\\.\n• ABPA: bronchiectasie centrali multiple e bilaterali, muco spesso iperdenso \\(high\\-attenuation mucus\\), asma, eosinofilia, IgE elevate; manca l'iperinflazione segmentale isolata\\.\n• Sequestro intralobare: arteria sistemica dall'aorta \\(angio\\-TC\\), drenaggio venoso polmonare, lobi inferiori posteriori\\.\n• Lobar emphysema congenito / Swyer\\-James: iperlucenza lobare o polmonare senza broncocele; nello Swyer\\-James il polmone è piccolo o normale e ipoperfuso\\.\n\n*RM e gestione*\nIn RM il broncocele è in genere iperintenso in T2, con T1 variabile \\(alto se proteico\\) e senza enhancement: utile nei giovani per evitare radiazioni o per confermare la natura mucosa\\. Asintomatico: osservazione\\. Resezione segmentale/lobare se infezioni ricorrenti, dubbio diagnostico con neoplasia o compressione\\.\n\n*Take\\-home*\n• Broncocele senza connessione ilare \\+ segmento iperinflato e oligoemico \\= atresia bronchiale\\.\n• Espirio: l'air trapping è la firma funzionale della ventilazione collaterale\\.\n• Nell'adulto con quadro nuovo, escludi prima la lesione endobronchiale prossimale\\.\n• ABPA \\= multifocale, centrale, muco iperdenso; sequestro \\= arteria sistemica\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔗 *Connessioni*\n\n*Storia dell'anatomia — tre nomi per un'arteria d'aria*\nHans Kohn descrisse i pori interalveolari nel 1893; Margaret Lambert i canali bronchiolo\\-alveolari nel 1955; Hiram Martin i canali interbronchiolari negli anni '60\\. Per decenni curiosità istologiche, oggi decidono una terapia: nella riduzione volumetrica endoscopica dell'enfisema le valvole endobronchiali funzionano solo se il lobo trattato NON riceve aria collaterale \\(scissure integre, test Chartis\\)\\. Il segmento iperinflato dell'atresia è la stessa fisiologia vista al contrario: un lobo che vive solo di ventilazione collaterale\\. I pori di Kohn, assenti nel neonato, compaiono intorno ai 4 anni\\.\n[Review: anatomia e fisiologia della ventilazione collaterale \\(PMC\\)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5466185)\n\n*Fisica — resistenze in serie e costante di tempo*\nOgni unità polmonare si riempie e si svuota con una costante di tempo τ \\= R × C \\(resistenza × compliance\\)\\. Le vie collaterali hanno una resistenza molto più alta di un bronco normale: τ lunga\\. Con l'atto respiratorio successivo, l'unità non ha finito di svuotarsi e accumula volume, come un condensatore che si scarica attraverso una resistenza troppo grande\\. È la stessa logica della PEEP intrinseca nella BPCO\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🖼 *Immagini e fonti*\n[Radiopaedia — Bronchial atresia \\(articolo e casi\\)](https://radiopaedia.org/articles/1020)\n[Radiol Bras 2021 — Tomographic findings in bronchial atresia \\(23 casi\\)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7863713/)\n[Int J Med Sci 2012 — Congenital bronchial atresia: diagnosis and treatment](https://pubmed.ncbi.nlm.nih.gov/22408569/)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 1*\nMaschio di 24 anni, TC incidentale: struttura tubulare ramificata a densità di muco nel segmento apicoposteriore del lobo superiore sinistro, circondata da parenchima ipodenso e ipovascolare; il bronco segmentale prossimale termina a fondo cieco\\. Qual è il meccanismo dell'iperlucenza?\n\n*A)* Iperinflazione compensatoria da ipoplasia del lobo inferiore omolaterale\n*B)* Valvola unidirezionale da tappo mucoso in un bronco segmentale pervio\n*C)* Distruzione dei setti alveolari da infezioni ricorrenti \\(enfisema acquisito\\)\n*D)* Ventilazione collaterale \\(pori di Kohn, canali di Lambert e di Martin\\) con intrappolamento espiratorio dell'aria\n\n||Risposta corretta: D — Il segmento distale all'atresia non ha un bronco afferente: riceve aria solo per via collaterale\\. In espirio le vie collaterali, ad alta resistenza, si restringono e l'aria resta intrappolata, da cui iperinflazione e oligoemia\\. Il bronco prossimale è cieco, non pervio con un tappo; l'enfisema destruente non è il meccanismo primario\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261106%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261106|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261106|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261106|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261106|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261106|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261106|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 2*\nFumatore di 58 anni: rispetto a una TC di 3 anni prima compare un'opacità tubulare ramificata nel lobo superiore destro con lieve iperlucenza del parenchima distale\\. Qual è il passo successivo più appropriato?\n\n*A)* Ricercare con TC con mezzo di contrasto e ricostruzioni multiplanari una lesione endoluminale captante all'origine del broncocele, con broncoscopia se dubbio\n*B)* Refertare come atresia bronchiale congenita e chiudere senza controlli\n*C)* RM del torace per caratterizzare il segnale del muco come primo e unico accertamento\n*D)* Terapia antibiotica empirica e controllo radiografico a 6 settimane\n\n||Risposta corretta: A — L'atresia è congenita: un broncocele di nuova comparsa nell'adulto è un'ostruzione acquisita fino a prova contraria \\(carcinoide, adenoma, neoplasia, corpo estraneo\\)\\. La ventilazione collaterale può dare iperlucenza anche a valle di un tumore\\. La RM sola non esclude la lesione endobronchiale; l'antibiotico ritarda la diagnosi\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261106%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261106|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261106|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261106|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261106|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261106|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261106|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 3*\nQuale reperto orienta verso ABPA piuttosto che verso un'atresia bronchiale?\n\n*A)* Bronco segmentale prossimale che termina a fondo cieco alle ricostruzioni MinIP\n*B)* Riscontro incidentale in un ventenne asintomatico, senza asma\n*C)* Muco iperdenso \\(high\\-attenuation mucus\\) in bronchiectasie centrali multiple e bilaterali\n*D)* Broncocele isolato con iperinflazione del solo segmento che lo contiene\n\n||Risposta corretta: C — L'ABPA è multifocale e centrale, con muco spesso più denso del muscolo paravertebrale per sali di calcio e metalli, in un paziente asmatico con eosinofilia e IgE elevate\\. Il broncocele unico con segmento iperinflato, il moncone cieco e il riscontro incidentale nel giovane sono invece il quadro dell'atresia\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261106%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261106|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261106|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261106|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261106|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261106|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261106|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "❓ *Domanda 4*\nVentenne con opacità tubulare e iperlucenza nel lobo inferiore sinistro, segmenti posterobasali\\. Quale reperto all'angio\\-TC sposta la diagnosi dall'atresia bronchiale al sequestro intralobare?\n\n*A)* Air trapping accentuato nelle scansioni in espirio\n*B)* Un'arteria sistemica che origina dall'aorta discendente e irrora il segmento\n*C)* Densità di muco fluida, senza enhancement, nella struttura tubulare\n*D)* Riduzione del calibro dei vasi polmonari nel parenchima iperlucente\n\n||Risposta corretta: B — Il sequestro intralobare è definito dall'apporto arterioso sistemico, di solito dall'aorta toracica discendente o addominale, con drenaggio venoso in genere polmonare\\. Muco non captante, oligoemia e air trapping sono comuni a entrambe le entità: l'iperinflazione con broncocele può essere presente anche nel sequestro, perché il tessuto sequestrato non comunica con l'albero bronchiale normale\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261106%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261106|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261106|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261106|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261106|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261106|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261106|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "⚙️ Rapporto operativo 20261106\nCallback inbox: 0 · Risposte Form nuove: 10 · Archiviazioni: 0\nCarte resettate (presentate e non risposte): 4\nTopic: bronchial-atresia (torace, L1) · Paper: nessuno nuovo\nRipasso: no (ultimo 2026-11-05, 1 gg < 3)\nInbox cancellati: 0\nWarning: nessuno"
+      }
+    }
+  ]
+}
