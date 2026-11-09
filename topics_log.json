@@ -1104,5 +1104,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-11-09",
+    "tag": "spondylodiscitis-mri",
+    "domain": "msk",
+    "level": 3,
+    "source": "auto"
   }
 ]
