@@ -1111,5 +1111,12 @@
     "domain": "msk",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-11-10",
+    "tag": "cardiac-sarcoidosis-cmr",
+    "domain": "cardio",
+    "level": 1,
+    "source": "auto"
   }
 ]
