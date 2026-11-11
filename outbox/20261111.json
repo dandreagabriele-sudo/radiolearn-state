@@ -1,0 +1,207 @@
+{
+  "pill_id": "20261111",
+  "created_at": "2026-11-11T07:44:58.177529+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🩻 *Pillola del giorno — RM Addome \\(Livello 2\\)*\n*Amartomi biliari \\(complessi di von Meyenburg\\) in RM — il cielo stellato che non va scambiato per metastasi*\n\nChe cosa sono\\. I complessi di von Meyenburg sono piccole malformazioni della lamina duttale \\(ductal plate\\) dei dotti biliari interlobulari più piccoli: dotti dilatati, rivestiti da epitelio biliare, immersi in uno stroma fibroso, senza comunicazione con l'albero biliare\\. Stanno nello stesso spettro embriologico della malattia di Caroli, della fibrosi epatica congenita e della malattia policistica \\(con cui possono coesistere\\)\\. Prevalenza autoptica intorno al 3 %, in imaging molto più bassa \\(< 1 %\\), perché quasi tutti misurano meno di 5 mm e sfuggono a TC ed ecografia\\. Sono un reperto incidentale: il problema non è la lesione, è non scambiarla\\.\n\nLa firma in RM\\. Lesioni innumerevoli, piccole \\(in genere < 10 mm, spesso 2–5 mm\\), di calibro sorprendentemente uniforme, sparse in tutto il fegato con preferenza subcapsulare e periportale; forma spesso irregolare, poligonale o 'a stella', non perfettamente rotonda come una cisti semplice\\. T1 ipointense, T2 molto iperintense, e restano brillanti anche nelle sequenze a T2 molto pesato e in MRCP \\(TE lungo\\): segno che il contenuto è fluido\\. Sul fegato scuro in T2 danno l'aspetto a 'cielo stellato' \\(starry sky\\)\\.\n\nMezzo di contrasto\\. La maggior parte non enhanca\\. In una quota si vede un orletto sottile e regolare, persistente nelle fasi tardive \\(parenchima compresso/stroma fibroso\\), oppure un piccolo nodulo murale: è il reperto che crea più ansia, ma un orletto filiforme e uniforme non è il rim spesso, irregolare e con washout periferico della metastasi\\. Con Gd\\-EOB\\-DTPA in fase epatobiliare restano ipointense e — punto chiave — non si riempiono di mezzo di contrasto escreto, perché non comunicano con i dotti\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "DWI: la trappola\\. A b bassi \\(50–100\\) appaiono iperintense come qualunque fluido, e in un paziente oncologico questo basta per scrivere 'metastasi multiple'\\. A b alti \\(800–1000\\) il segnale cade e l'ADC è alto: è T2 shine\\-through, non restrizione\\. Le metastasi invece mantengono il segnale a b alti con ADC basso, hanno taglia variabile, enhancement periferico o a bersaglio e spesso un alone perilesionale in fase arteriosa\\.\n\nDiagnosi differenziale in quattro righe\\. Caroli: dilatazioni sacculari o fusiformi che comunicano con l'albero biliare \\(MRCP, riempimento in fase epatobiliare tardiva\\), spesso con il 'central dot' del ramo portale che enhanca al centro\\. Malattia policistica/cisti semplici: lesioni più grandi, rotonde, di taglia variabile, a contorni netti; nella ADPKD, reni policistici\\. Microascessi \\(incluse le candidosi epatospleniche\\): contesto clinico, restrizione vera, rim enhancement e spesso milza coinvolta\\. Metastasi: vedi sopra — taglia variabile, restrizione, enhancement\\.\n\nCosa scrivere\\. Se il quadro è tipico \\(innumerevoli lesioni uniformi < 1 cm, T2 fluido in MRCP, nessuna comunicazione con i dotti, nessuna restrizione a b alti, nessun riempimento in fase epatobiliare\\), la diagnosi è di imaging e non servono follow\\-up né biopsia\\. Rari casi di colangiocarcinoma insorto su amartomi biliari sono descritti in letteratura, ma il rischio è basso: una lesione che cresce, che sviluppa una componente solida che enhanca o che restringe merita attenzione, non tutto il cielo stellato\\. In ecografia lo stesso quadro dà fegato disomogeneo con piccoli spot ecogeni e artefatti a coda di cometa \\(interfacce multiple delle micro\\-cisti\\): una TC 'normale' con ecografia 'brutta' è un'altra presentazione classica\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🔗 *Connessioni*\n📐 Fisica — Perché la MRCP 'cancella' il fegato e lascia accesi gli amartomi: in una sequenza a spin echo il segnale decade come e^\\(−TE/T2\\)\\. Con un TE di \\~800 ms, il parenchima epatico \\(T2 ≈ 40 ms a 1,5 T\\) scende a e^\\(−20\\), praticamente zero; un fluido con T2 di oltre un secondo conserva più di metà del segnale\\. Per questo una lesione solida, anche iperintensa in T2 standard, sparisce in MRCP, mentre il fluido resta: è un filtro fisico, non un'impressione\\.\n\n🔭 Astronomia e linguaggio — Lo 'starry sky' è un'immagine che la medicina ha preso in prestito più volte: in istologia indica il linfoma di Burkitt \\(macrofagi chiari tra cellule scure\\); in ecografia anche il fegato dell'epatite acuta \\(pareti portali brillanti su parenchima ipoecogeno\\)\\. Il cielo è lo stesso, la costellazione no: chiarire sempre in referto a quale 'cielo stellato' ci si riferisce\\.\n\n📜 Storia ed embriologia — Hanns von Meyenburg, patologo svizzero, li descrisse nel 1918\\. Il quadro unificante arrivò dopo, quando gli studi sulla lamina duttale — il manicotto di epatoblasti attorno ai rami portali che si rimodella nei dotti biliari intraepatici — mostrarono che un arresto del rimodellamento a livelli diversi dell'albero dà malattie diverse: dotti piccolissimi → von Meyenburg, dotti più grandi → Caroli\\. Una sola embriologia, molte diagnosi\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🖼 *Immagini e fonti*\n• [Radiopaedia — Biliary hamartoma: definizione, epidemiologia, aspetti in TC/RM/US e DD](https://www.radiopaedia.org/articles/biliary-hamartoma?lang=us)\n• [Radiopaedia — caso: amartomi biliari multipli \\(aspetto a cielo stellato in T2\\)](https://www.radiopaedia.org/cases/multiple-biliary-hamartomas-10?lang=us)\n• [Radiopaedia — raccolta di casi con tag 'von Meyenburg'](https://radiopaedia.org/tags/von-meyenburg?lang=us)\n• [Review open access — imaging delle lesioni cistiche epatiche, incluse VMC e Caroli \\(PMC\\)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12071424)\n• [Imaging of Von Meyenburg complexes — Diagnostic and Interventional Imaging 2016 \\(abstract\\)](https://www.em-consulte.com/it/article/1042633/imaging-of-von-meyenburg-complexes)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🆕 Domanda 1/4 — Il fegato pieno di stelle*\n\nDonna di 44 anni, RM per un angioma noto\\. Si notano innumerevoli lesioni epatiche di 2–7 mm, di taglia uniforme, a contorni irregolari, subcapsulari e periportali: T2 molto iperintense, ancora brillanti in MRCP, nessuna comunicazione con i dotti biliari, segnale che cade a b \\= 800 con ADC alto, nessun riempimento in fase epatobiliare con Gd\\-EOB\\. Diagnosi più probabile?\n\n*A\\)* Microascessi epatici\n*B\\)* Metastasi epatiche multiple\n*C\\)* Malattia di Caroli\n*D\\)* Complessi di von Meyenburg \\(amartomi biliari multipli\\)\n\n||Risposta corretta: D — Lesioni piccole e uniformi, a contenuto fluido \\(brillanti in MRCP\\), senza comunicazione con l'albero biliare, senza restrizione vera e senza riempimento epatobiliare sono il quadro tipico degli amartomi biliari\\. La malattia di Caroli comunica con i dotti e si riempie di contrasto escreto; le metastasi restringono e hanno taglia variabile; i microascessi restringono e hanno un contesto clinico settico\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261111%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261111|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261111|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261111|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261111|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261111|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261111|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🆕 Domanda 2/4 — Caroli o von Meyenburg?*\n\nDue pazienti con molte piccole lesioni cistiche epatiche\\. Quale reperto orienta nettamente verso la malattia di Caroli piuttosto che verso gli amartomi biliari?\n\n*A\\)* Riempimento delle lesioni con mezzo di contrasto escreto in fase epatobiliare tardiva, con un punto centrale che enhanca\n*B\\)* Sottile orletto periferico di enhancement persistente in fase tardiva\n*C\\)* Lesioni inferiori a 5 mm con contorni irregolari\n*D\\)* Assenza di restrizione della diffusione a b alti\n\n||Risposta corretta: A — Le dilatazioni della malattia di Caroli comunicano con l'albero biliare: si riempiono del contrasto epatospecifico escreto e spesso mostrano il 'central dot' del ramo portale\\. Gli amartomi biliari sono isolati dai dotti, piccoli e irregolari, possono avere un orletto sottile e non restringono: questi reperti sono comuni ai due quadri o tipici di von Meyenburg, e non aiutano a riconoscere il Caroli\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261111%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261111|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261111|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261111|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261111|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261111|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261111|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🆕 Domanda 3/4 — Il paziente oncologico e la DWI*\n\nUomo di 62 anni in stadiazione per adenocarcinoma del colon\\. In DWI a b \\= 50 si vedono decine di piccole lesioni epatiche iperintense di 3–6 mm, di taglia simile tra loro\\. Qual è il passo più corretto prima di parlare di metastasi?\n\n*A\\)* Refertare metastasi multiple: l'iperintensità in DWI è sufficiente\n*B\\)* Valutare b alti e mappa ADC insieme a T2 pesato/MRCP e fasi dinamiche: segnale che cade a b alti con ADC alto, fluido in MRCP e assenza di enhancement a bersaglio indicano amartomi biliari\n*C\\)* Ripetere lo studio con TC multifasica, più sensibile per le lesioni sotto il centimetro\n*D\\)* Richiedere subito una biopsia percutanea di una delle lesioni\n\n||Risposta corretta: B — A b bassi qualunque fluido è iperintenso \\(T2 shine\\-through\\)\\. Gli amartomi biliari perdono segnale a b alti, hanno ADC alto e restano brillanti in MRCP; le metastasi mantengono il segnale a b alti con ADC basso, hanno taglia variabile ed enhancement periferico o a bersaglio\\. La TC è meno sensibile per lesioni così piccole e la biopsia di lesioni di 3–6 mm non è il primo passo quando la RM può risolvere\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261111%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261111|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261111|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261111|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261111|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261111|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261111|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*🆕 Domanda 4/4 — L'orletto che preoccupa*\n\nIn un fegato con quadro tipico di amartomi biliari multipli, alcune lesioni mostrano enhancement periferico\\. Quale aspetto è compatibile con gli amartomi biliari e non richiede approfondimenti?\n\n*A\\)* Enhancement nodulare periferico discontinuo con riempimento centripeto progressivo\n*B\\)* Componente solida murale in crescita rispetto all'esame precedente, che restringe in DWI\n*C\\)* Orletto sottile, regolare e uniforme, che persiste nelle fasi tardive senza riempimento centripeto\n*D\\)* Orletto spesso e irregolare in fase arteriosa con washout periferico in fase portale\n\n||Risposta corretta: C — Un orletto filiforme e persistente corrisponde al parenchima compresso o allo stroma fibroso attorno ai dotti dilatati ed è descritto negli amartomi biliari\\. Il rim spesso con washout periferico suggerisce una metastasi; i noduli periferici discontinui con riempimento centripeto sono tipici dell'angioma; una componente solida che cresce e restringe è un segnale d'allarme \\(raro colangiocarcinoma\\) e va approfondita\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261111%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261111|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261111|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261111|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261111|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261111|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261111|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "⚙️ Rapporto operativo\nCallback inbox: 0 · Risposte Form nuove: 0 · Richieste archivio: 0\nCarte resettate \\(mostrate e non risposte\\): 0\nPillola 20261111 — topic: von\\-meyenburg\\-biliary\\-hamartomas \\(addome, L2\\)\nRipasso: no \\(ultimo 2026\\-11\\-09, 2 gg < 3\\)\nInbox cancellati: 0 · Paper: nessuno nuovo in RadioLearn\\-Papers\nLettere corrette: DABC\nWarning: nessuno",
+        "parse_mode": "MarkdownV2"
+      }
+    }
+  ]
+}

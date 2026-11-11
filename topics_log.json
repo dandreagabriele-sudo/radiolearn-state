@@ -1118,5 +1118,12 @@
     "domain": "cardio",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-11-11",
+    "tag": "von-meyenburg-biliary-hamartomas",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
