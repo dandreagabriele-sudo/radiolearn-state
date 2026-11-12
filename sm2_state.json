@@ -7203,7 +7203,7 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-10-19"
+      "last_presented": "2026-11-12"
     },
     "20260911:1": {
       "ef": 2.6,
@@ -7251,7 +7251,7 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-10-19"
+      "last_presented": "2026-11-12"
     },
     "20260911:3": {
       "ef": 2.18,
@@ -9633,7 +9633,7 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-10-19"
+      "last_presented": "2026-11-12"
     },
     "20261019:3": {
       "ef": 2.18,
@@ -9739,7 +9739,7 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-10-21"
+      "last_presented": "2026-11-12"
     },
     "20261021:1": {
       "ef": 2.36,
@@ -9756,7 +9756,7 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-10-21"
+      "last_presented": "2026-11-12"
     },
     "20261021:2": {
       "ef": 1.7,
@@ -9790,7 +9790,7 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-10-21"
+      "last_presented": "2026-11-12"
     },
     "20261022:0": {
       "ef": 1.7,
@@ -10777,6 +10777,42 @@
       "last_quality": null,
       "history": [],
       "last_presented": "2026-11-11"
+    },
+    "20261112:0": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-11-12",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-11-12"
+    },
+    "20261112:1": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-11-12",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-11-12"
+    },
+    "20261112:2": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-11-12",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-11-12"
+    },
+    "20261112:3": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-11-12",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-11-12"
     }
   },
   "history": [
@@ -10877,7 +10913,7 @@
       "review_included": false
     }
   ],
-  "last_review_inclusion_date": "2026-11-09",
+  "last_review_inclusion_date": "2026-11-12",
   "processed_update_ids": [
     868431590,
     868431643,
