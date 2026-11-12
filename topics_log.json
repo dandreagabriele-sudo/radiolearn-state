@@ -1125,5 +1125,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-11-12",
+    "tag": "fleischner-subsolid-nodules",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
