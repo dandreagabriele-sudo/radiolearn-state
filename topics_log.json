@@ -1132,5 +1132,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-11-16",
+    "tag": "cerebral-amyloid-angiopathy-mri",
+    "domain": "neuro",
+    "level": 3,
+    "source": "auto"
   }
 ]
