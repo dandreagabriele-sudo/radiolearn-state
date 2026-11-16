@@ -1,0 +1,462 @@
+{
+  "pill_id": "20261116",
+  "created_at": "2026-11-16T07:45:37.647221+00:00",
+  "messages": [
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "📊 *Riepilogo settimanale RadioLearn*\n━━━━━━━━━━━━━━━━━━━━━━\n🎯 Pillole inviate: 4\n✅ Quiz risposti: 0/12 \\(0%\\)\n⭐ Qualità media: 0\\.0 / 5\n🔁 Carte dimenticate: 18\n🏆 Carte mature \\(\\>21gg\\): 1\n━━━━━━━━━━━━━━━━━━━━━━",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🧠 *RadioLearn — Pillola 20261116*\n*Angiopatia amiloide cerebrale \\(CAA\\) alla RM — microbleeds, siderosi superficiale e criteri di Boston 2\\.0*\n_Livello 3 — RM neuro \\(didattica di base\\)_\n\n*Che cos'è\\.* L'angiopatia amiloide cerebrale \\(CAA\\) è il deposito di beta\\-amiloide nella parete delle piccole arterie della corteccia e delle leptomeningi\\. La parete diventa rigida e fragile e si rompe: il risultato sono emorragie piccole \\(microbleeds\\) e grandi \\(ematomi lobari\\)\\. È una malattia dell'anziano \\(prevalenza che sale nettamente dopo i 65–70 anni\\), spesso associata al morbo di Alzheimer, ed è la causa più frequente di emorragia cerebrale lobare spontanea dopo i 60–70 anni\\.\n\n*La regola d'oro: lobare contro profondo\\.* Nell'anziano esistono due grandi malattie dei piccoli vasi che sanguinano\\. L'arteriopatia ipertensiva colpisce le piccole arterie perforanti: le emorragie stanno in PROFONDITÀ \\(gangli della base, talamo, ponte\\)\\. La CAA colpisce i vasi corticali e leptomeningei: le emorragie stanno in PERIFERIA, alla giunzione cortico\\-sottocorticale dei lobi \\(lobari\\), con predilezione posteriore \\(occipitale, parietale\\)\\. Guardare dove sono i sanguinamenti è il primo passo della diagnosi\\.\n\n*La sequenza chiave: T2\\* e SWI\\.* I microbleeds si vedono solo con sequenze sensibili all'emosiderina: GRE T2\\* o, meglio, SWI\\. Appaiono come punti neri tondi di 2–10 mm\\. La SWI ne trova molti più della GRE, e il 3 T più dell'1,5 T: per questo il numero di microbleeds va sempre letto sapendo con quale sequenza è stato contato\\. In TC i microbleeds non si vedono\\.\n\n*Il secondo segno: la siderosi superficiale corticale \\(cSS\\)\\.* È un deposito lineare di emosiderina lungo i solchi della convessità, esito di piccole emorragie subaracnoidee\\. In SWI appare come una sottile linea nera che segue la corteccia \\('binario'\\)\\. Può essere focale \\(1–3 solchi\\) o disseminata \\(più di 3\\)\\. Nella CAA è il marcatore più forte di rischio di futura emorragia lobare\\. In fase acuta la si vede come emorragia subaracnoidea della convessità \\(cSAH\\): sangue in un solco alto, non nelle cisterne della base come nell'aneurisma\\.\n\n*I segni della sostanza bianca\\.* Oltre ai sanguinamenti, la CAA lascia tracce non emorragiche: spazi perivascolari allargati nel centro semiovale \\(CSO\\-PVS, sottocorticali, non nei gangli della base come nell'ipertensione\\) e iperintensità FLAIR della sostanza bianca con aspetto 'multispot', cioè tanti piccoli puntini sottocorticali\\. Sono le novità dei criteri di Boston 2\\.0\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Criteri, mimic e ricadute cliniche*\n\n*Criteri di Boston 2\\.0 \\(Charidimou et al\\., Lancet Neurol 2022\\)\\.* Si applicano a pazienti ≥ 50 anni che si presentano con emorragia cerebrale, episodi neurologici focali transitori o deficit cognitivo\\. CAA PROBABILE: almeno due lesioni emorragiche strettamente lobari \\(ematoma, microbleed, cSS o cSAH, in qualsiasi combinazione\\), OPPURE una lesione emorragica lobare più un segno della sostanza bianca \\(CSO\\-PVS gravi, più di 20 in un emisfero, oppure WMH multispot, più di 10 puntini sottocorticali\\)\\. CAA POSSIBILE: una sola lesione emorragica lobare, OPPURE un solo segno della sostanza bianca\\. In entrambi i casi non devono esserci emorragie profonde e altre cause\\. Le lesioni del cervelletto non contano né come lobari né come profonde\\. La CAA 'definita' richiede l'esame istologico\\. Nella validazione la categoria 'probabile' ha mostrato sensibilità del 64,5 % e specificità del 95 %\\.\n\n*Cosa può imitare un microbleed\\.* Calcificazioni \\(anche loro nere in SWI: la mappa di fase o la TC le distinguono\\), vasi visti in sezione \\(flow void, tubulari se si scorre tra le immagini\\), cavernomi \\(spesso più grandi, con orletto e aspetto 'a popcorn'\\), danno assonale diffuso \\(storia di trauma, sostanza bianca e corpo calloso\\), metastasi emorragiche \\(melanoma, rene\\), esiti di radioterapia\\.\n\n*Perché conta per il paziente\\.* La CAA cambia decisioni concrete\\. Un paziente con CAA e siderosi superficiale ha un alto rischio di emorragia lobare: anticoagulanti e antiaggreganti vanno valutati con cautela, insieme al neurologo\\. Gli 'amyloid spells' \\(formicolii o debolezza transitori che si spostano lungo l'arto in pochi minuti\\) somigliano a un TIA, ma se dovuti a cSAH/cSS darli per TIA e iniziare un antiaggregante può essere dannoso\\. Infine, la CAA è il terreno su cui compaiono le ARIA \\(edema e microemorragie\\) durante le terapie anti\\-amiloide dell'Alzheimer \\(lecanemab, donanemab\\): prima di iniziarle si conta il numero di microbleeds e si cerca la cSS su una RM recente\\.\n\n*Una variante da conoscere: la CAA infiammatoria \\(CAA\\-ri\\)\\.* Raramente l'amiloide scatena un'infiammazione della parete vascolare: compaiono aree FLAIR asimmetriche ed estese di edema della sostanza bianca, con effetto massa, su un fondo di microbleeds lobari\\. Può sembrare un tumore o un'encefalite\\. È importante riconoscerla perché risponde agli steroidi\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Connessioni multidisciplinari*\n\n*⚛️ Fisica — perché il microbleed 'fiorisce'* — L'emosiderina è paramagnetica: si magnetizza nel campo dello scanner e lo deforma per un piccolo intorno\\. I protoni vicini precessano a frequenze leggermente diverse, perdono la fase e il segnale crolla\\. Nelle sequenze gradient\\-echo manca l'impulso di 180° che nelle spin\\-echo 'rimette in fase' gli spin, e con TE lunghi c'è più tempo per sfasarsi: la zona nera diventa più grande della lesione reale \\(effetto blooming\\)\\. È un difetto che diventa un vantaggio: rende visibili depositi di pochi millimetri\\. La SWI aggiunge l'informazione di fase, che permette anche di distinguere sostanze paramagnetiche \\(sangue\\) da diamagnetiche \\(calcio\\)\\.\n\n*🌷 Antropologia e genetica — Katwijk e Scheveningen* — Esiste una forma ereditaria di CAA, l'emorragia cerebrale ereditaria con amiloidosi di tipo olandese \\(HCHWA\\-D\\), concentrata in due villaggi di pescatori della costa olandese, Katwijk e Scheveningen\\. È dovuta a una mutazione del gene APP \\(la proteina da cui deriva la beta\\-amiloide\\) e provoca emorragie lobari già intorno ai 50 anni\\. Lo studio di queste famiglie, isolate per generazioni, ha aiutato a capire la CAA sporadica e il legame tra amiloide e vasi\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Immagini e fonti*\n\n• [Radiopaedia — Cerebral amyloid angiopathy \\(articolo\\)](https://radiopaedia.org/articles/cerebral-amyloid-angiopathy-1?lang=us)\n• [Radiopaedia — Cortical superficial siderosis](https://images.radiopaedia.org/articles/cortical-superficial-siderosis)\n• [Radiopaedia — caso: emorragia lobare da CAA con cSS e microbleeds](https://radiopaedia.org/cases/cerebral-amyloid-angiopathy-associated-lobar-intracerebral-haemorrhage?lang=us)\n• [Charidimou et al\\., Lancet Neurol 2022 — Boston criteria v2\\.0 \\(DOI\\)](https://doi.org/10.1016/S1474-4422(22\\)00208-3)\n• [EAN — sintesi dei criteri di Boston 2\\.0](https://www.ean.org/research/resources/neurology-updates/detail/boston-criteria-20-for-cerebral-amyloid-angiopathy)",
+        "parse_mode": "MarkdownV2",
+        "disable_web_page_preview": false
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "🧠 Quiz: 10 domande \\(6 ripassi \\+ 4 nuove\\)\\. Rispondi, apri lo spoiler, poi autovaluta 0–5 \\(bottoni o Form\\)\\.",
+        "parse_mode": "MarkdownV2"
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q1\\. 🔁 Ripasso — MINOCA — il cuore senza LGE*\n\nDonna di 67 anni, dolore toracico dopo un lutto, troponina elevata, coronarie senza stenosi ≥ 50 %\\. Ecocardiogramma: acinesia apicale con ipercinesia basale\\. CMR al giorno 3: edema T2/T1 mapping esteso ai segmenti apicali, oltre un singolo territorio coronarico, e nessun LGE\\. Diagnosi più probabile?\n\nA\\) Cardiomiopatia ipertrofica apicale\nB\\) Miocardite acuta con LGE subepicardico\nC\\) Infarto transmurale riperfuso nel territorio della discendente anteriore\nD\\) Sindrome Takotsubo\n\n||Risposta corretta: D — Edema miocardico esteso oltre un territorio coronarico SENZA LGE \\(o con LGE minimo, sotto la soglia usata per la necrosi\\) è la firma CMR della Takotsubo: il danno è reversibile e la cinetica si normalizza in giorni o settimane\\. Un infarto vero dà LGE subendocardico o transmurale nel territorio; la miocardite dà LGE subepicardico o mesomiocardico; l'ipertrofia apicale è un ispessimento fisso, non un ballooning acuto\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20260911%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20260911|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20260911|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20260911|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20260911|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20260911|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20260911|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q2\\. 🔁 Ripasso — Wernicke — le sedi atipiche*\n\nRagazza di 24 anni, non alcolista, iperemesi gravidica, confusione e oftalmoplegia\\. Oltre alle sedi classiche attorno al terzo ventricolo, quali sedi 'atipiche' sono descritte soprattutto nei pazienti NON alcolisti?\n\nA\\) Sostanza bianca periventricolare frontale e corpo calloso\nB\\) Gangli spinali e radici della cauda equina\nC\\) Nuclei dentati del cervelletto, nuclei dei nervi cranici, nuclei caudati e corteccia perirolandica\nD\\) Ippocampi e amigdale, con risparmio del tronco\n\n||Risposta corretta: C — Nei non alcolisti \\(chirurgia bariatrica, iperemesi, nutrizione parenterale, neoplasie\\) le lesioni atipiche sono più frequenti: nuclei dentati, nuclei dei nervi cranici, caudati, splenio, corteccia perirolandica, quasi sempre insieme alle sedi tipiche\\. Ippocampi e amigdale orientano verso un'encefalite limbica; la sostanza bianca periventricolare verso una malattia demielinizzante o microvascolare\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261023%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261023|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261023|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261023|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261023|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261023|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261023|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q3\\. 🔁 Ripasso — Wernicke — che cosa resta dopo*\n\nUomo di 60 anni, alcolista, con amnesia anterograda grave e confabulazioni da anni \\(sindrome di Korsakoff\\)\\. Quale reperto RM cronico è il più tipico?\n\nA\\) Enhancement intenso dei corpi mammillari\nB\\) Atrofia dei corpi mammillari, con dilatazione del terzo ventricolo\nC\\) Restrizione in DWI dei talami mediali\nD\\) Iperintensità T1 dei globi pallidi\n\n||Risposta corretta: B — Nella fase acuta i corpi mammillari possono captare il gadolinio; dopo mesi o anni, nell'evoluzione verso la Korsakoff, il reperto tipico è la loro atrofia, con allargamento del terzo ventricolo e talvolta dei solchi\\. La restrizione e l'enhancement sono reperti acuti\\. L'iperintensità T1 dei pallidi fa pensare a encefalopatia epatica o a manganese\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261023%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261023|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261023|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261023|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261023|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261023|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261023|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q4\\. 🔁 Ripasso — Wernicke — a cosa serve una RM positiva*\n\nLa RM nell'encefalopatia di Wernicke ha una sensibilità di circa il 50 %\\. Qual è allora il suo ruolo principale?\n\nA\\) Confermare con alta specificità \\(circa 93 %\\) un sospetto clinico e cercare diagnosi alternative\nB\\) Nessuno: la diagnosi è solo clinica e la RM non va richiesta\nC\\) Misurare la concentrazione di tiamina nel tessuto cerebrale\nD\\) Decidere se iniziare la tiamina, che va data solo con RM positiva\n\n||Risposta corretta: A — Sensibilità bassa ma specificità alta: una RM negativa non esclude nulla, una RM con il quadro tipico rende la diagnosi molto probabile, anche nei casi clinici incompleti \\(la triade completa è presente in una minoranza dei pazienti\\)\\. Serve inoltre a cercare cause alternative di confusione\\. La tiamina non si subordina mai all'esito della RM\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261023%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261023|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261023|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261023|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261023|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261023|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261023|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q5\\. 🔁 Ripasso — TBM — la forma in inspirio*\n\nTC in inspirio: trachea intratoracica con diametro latero\\-laterale nettamente maggiore di quello antero\\-posteriore \\(forma 'a mezzaluna', lunata\\)\\. Quale significato ha?\n\nA\\) Indica una stenosi fissa post\\-intubazione\nB\\) È la trachea a fodero di sciabola tipica della BPCO\nC\\) È un reperto normale in inspirio, privo di significato\nD\\) Suggerisce tracheobroncomalacia cartilaginea e giustifica la fase espiratoria dinamica\n\n||Risposta corretta: D — La trachea lunata \\(coronale \\> sagittale\\) si associa alla malacia cartilaginea: è un indizio già in inspirio e spinge a eseguire l'acquisizione dinamica\\. La trachea a fodero di sciabola è l'opposto \\(sagittale \\> coronale, appiattimento latero\\-laterale\\) ed è tipica della BPCO\\. Una stenosi fissa riduce il lume senza dipendere dalla fase respiratoria\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261026%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261026|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261026|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261026|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261026|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261026|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261026|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q6\\. 🔁 Ripasso — TBM — come si misura il collasso*\n\nNella TC dinamica per sospetta TBM/EDAC, qual è il modo corretto di quantificare il collasso?\n\nA\\) Diametro antero\\-posteriore in espirazione confrontato con valori di riferimento per età\nB\\) Percentuale di riduzione dell'area del lume allo stesso livello anatomico, tra inspirio profondo ed espirazione dinamica\nC\\) Spessore della parete membranosa posteriore in inspirio\nD\\) Area del lume in fine espirazione statica confrontata con l'inspirio\n\n||Risposta corretta: B — Si misura l'area del lume \\(non un singolo diametro\\) nello stesso punto nelle due fasi e se ne calcola la riduzione percentuale, livello per livello\\. La fine espirazione statica sottostima il collasso rispetto alla fase dinamica; lo spessore della membranosa non quantifica la dinamica; il solo diametro non coglie le forme asimmetriche\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261026%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261026|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261026|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261026|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261026|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261026|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261026|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q7\\. 🆕 — Dove sanguina*\n\nDonna di 78 anni con lieve declino cognitivo\\. SWI: 14 punti neri tondi di 2–5 mm, tutti alla giunzione cortico\\-sottocorticale dei lobi occipitali e parietali; gangli della base, talami e ponte indenni\\. Nessun trauma\\. Diagnosi più probabile?\n\nA\\) Danno assonale diffuso\nB\\) Cavernomatosi multipla familiare\nC\\) Angiopatia amiloide cerebrale\nD\\) Arteriopatia ipertensiva\n\n||Risposta corretta: C — Microbleeds strettamente lobari, con predilezione posteriore, in un'anziana senza lesioni profonde: è il pattern della CAA, che colpisce i vasi corticali e leptomeningei\\. L'arteriopatia ipertensiva sanguina in profondità \\(gangli della base, talamo, ponte\\)\\. Il danno assonale richiede un trauma e predilige sostanza bianca e corpo calloso; i cavernomi sono in genere più grandi, con aspetto 'a popcorn' in T2\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261116%3A0)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261116|0|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261116|0|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261116|0|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261116|0|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261116|0|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261116|0|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q8\\. 🆕 — Boston 2\\.0 in pratica*\n\nUomo di 72 anni con deficit cognitivo\\. RM: un solo microbleed lobare frontale; FLAIR con più di 10 puntini iperintensi sottocorticali in entrambi gli emisferi \\(pattern multispot\\); nessuna emorragia profonda né altra causa\\. Come si classifica secondo Boston 2\\.0?\n\nA\\) CAA probabile\nB\\) Criteri non applicabili, perché il paziente non ha avuto un'emorragia cerebrale\nC\\) CAA possibile, perché c'è un solo sanguinamento\nD\\) CAA definita\n\n||Risposta corretta: A — Boston 2\\.0 accetta come 'probabile' una sola lesione emorragica lobare se si aggiunge un segno della sostanza bianca \\(WMH multispot o spazi perivascolari gravi nel centro semiovale\\)\\. I criteri valgono anche per chi si presenta con deficit cognitivo o episodi transitori, non solo con emorragia\\. 'Possibile' è il caso del singolo sanguinamento o del singolo segno della sostanza bianca; 'definita' richiede l'istologia\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261116%3A1)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261116|1|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261116|1|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261116|1|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261116|1|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261116|1|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261116|1|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q9\\. 🆕 — Il nero più grande del vero*\n\nPerché in SWI e GRE T2\\* un microbleed appare più grande della sua dimensione istologica?\n\nA\\) Perché l'emosiderina paramagnetica distorce il campo magnetico locale e sfasa gli spin anche attorno alla lesione\nB\\) Perché il gadolinio stravasa dalla parete vascolare danneggiata\nC\\) Perché l'emosiderina accorcia il T1 e il segnale si estende ai tessuti vicini\nD\\) Perché il sangue restringe la diffusione dell'acqua\n\n||Risposta corretta: A — È l'effetto blooming: l'emosiderina, paramagnetica, crea disomogeneità del campo in un piccolo intorno; senza l'impulso di rifocalizzazione a 180° delle spin\\-echo, e con TE lunghi, i protoni circostanti si sfasano e il vuoto di segnale supera i bordi reali\\. Per questo la sequenza \\(SWI più sensibile di GRE\\) e il campo \\(3 T più di 1,5 T\\) cambiano il numero di microbleeds contati\\. Le sequenze SWI non usano contrasto e non misurano la diffusione\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261116%3A2)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261116|2|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261116|2|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261116|2|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261116|2|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261116|2|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261116|2|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "*Q10\\. 🆕 — Non è un TIA*\n\nUomo di 79 anni: tre episodi in un mese di formicolio che parte dalla mano destra e risale lungo il braccio in pochi minuti, poi si risolve\\. TC negativa\\. SWI: sottile linea nera lungo i solchi della convessità sinistra \\(siderosi superficiale corticale\\)\\. Qual è l'interpretazione corretta?\n\nA\\) Reperto senza significato clinico, frequente nell'anziano\nB\\) Crisi focali da tumore: serve RM con contrasto urgente\nC\\) TIA carotideo: iniziare subito la doppia antiaggregazione\nD\\) Episodi neurologici transitori da CAA \\('amyloid spells'\\): marcatore di alto rischio di emorragia lobare, cautela con antitrombotici\n\n||Risposta corretta: D — Sintomi transitori che si 'spostano' lungo l'arto in minuti, con siderosi superficiale corticale o emorragia subaracnoidea della convessità, sono gli episodi focali transitori della CAA\\. La siderosi superficiale è il marcatore più forte di futura emorragia lobare: trattarli come TIA con antiaggreganti può essere dannoso\\. Una sola linea di emosiderina corticale non è mai un reperto normale\\.||\n\n[📝 Registra 0–5](https://docs.google.com/forms/d/e/1FAIpQLSduvlhYIii3GYgZDnZDlca-ThHgcZNL9hz1iCM0ufW3F09vdQ/viewform?usp=pp_url&entry.1580816523=20261116%3A3)",
+        "parse_mode": "MarkdownV2",
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "5 ✅",
+                "callback_data": "q|20261116|3|5"
+              },
+              {
+                "text": "4",
+                "callback_data": "q|20261116|3|4"
+              },
+              {
+                "text": "3",
+                "callback_data": "q|20261116|3|3"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "callback_data": "q|20261116|3|2"
+              },
+              {
+                "text": "1",
+                "callback_data": "q|20261116|3|1"
+              },
+              {
+                "text": "0 ❌",
+                "callback_data": "q|20261116|3|0"
+              }
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "method": "sendMessage",
+      "params": {
+        "chat_id": "8538175163",
+        "text": "⚙️ Rapporto operativo 20261116\nCallback inbox: 0 · Risposte Form nuove: 0 · Richieste archiviazione: 0\nCarte resettate (dimenticate): 18\nPillola: 20261116 — cerebral-amyloid-angiopathy-mri (neuro, L3, auto)\nRipasso: sì, 6 carte (20260911:1, 20261023:0, 20261023:2, 20261023:1, 20261026:0, 20261026:1)\nInbox cancellati: 0\nPaper: nessun PDF nuovo in RadioLearn-Papers\nBackup settimanale: sì\nWarning: nessuna risposta (Form o Telegram) ricevuta dopo la pillola del 12/11; nessuna pillola registrata il 13–15/11."
+      }
+    }
+  ]
+}

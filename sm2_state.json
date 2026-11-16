@@ -7182,11 +7182,11 @@
       "last_presented": "2026-10-19"
     },
     "20260911:0": {
-      "ef": 2.6,
-      "interval": 6,
-      "repetitions": 2,
-      "next_review": "2026-10-26",
-      "last_quality": 4,
+      "ef": 1.8,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-11-17",
+      "last_quality": 0,
       "history": [
         {
           "date": "2026-09-12",
@@ -7201,9 +7201,17 @@
           "ef_after": 2.6,
           "interval_after": 6,
           "source": "user"
+        },
+        {
+          "date": "2026-11-16",
+          "quality": 0,
+          "ef_after": 1.8,
+          "interval_after": 1,
+          "source": "reset"
         }
       ],
-      "last_presented": "2026-11-12"
+      "last_presented": "2026-11-12",
+      "penalised_for": "2026-11-12"
     },
     "20260911:1": {
       "ef": 2.6,
@@ -7227,14 +7235,14 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-10-19"
+      "last_presented": "2026-11-16"
     },
     "20260911:2": {
-      "ef": 2.22,
-      "interval": 6,
-      "repetitions": 2,
-      "next_review": "2026-10-26",
-      "last_quality": 3,
+      "ef": 1.42,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-11-17",
+      "last_quality": 0,
       "history": [
         {
           "date": "2026-09-12",
@@ -7249,9 +7257,17 @@
           "ef_after": 2.22,
           "interval_after": 6,
           "source": "user"
+        },
+        {
+          "date": "2026-11-16",
+          "quality": 0,
+          "ef_after": 1.42,
+          "interval_after": 1,
+          "source": "reset"
         }
       ],
-      "last_presented": "2026-11-12"
+      "last_presented": "2026-11-12",
+      "penalised_for": "2026-11-12"
     },
     "20260911:3": {
       "ef": 2.18,
@@ -9619,11 +9635,11 @@
       "last_presented": "2026-11-09"
     },
     "20261019:2": {
-      "ef": 2.36,
+      "ef": 1.56,
       "interval": 1,
-      "repetitions": 1,
-      "next_review": "2026-10-21",
-      "last_quality": 3,
+      "repetitions": 0,
+      "next_review": "2026-11-17",
+      "last_quality": 0,
       "history": [
         {
           "date": "2026-10-20",
@@ -9631,9 +9647,17 @@
           "ef_after": 2.36,
           "interval_after": 1,
           "source": "user"
+        },
+        {
+          "date": "2026-11-16",
+          "quality": 0,
+          "ef_after": 1.56,
+          "interval_after": 1,
+          "source": "reset"
         }
       ],
-      "last_presented": "2026-11-12"
+      "last_presented": "2026-11-12",
+      "penalised_for": "2026-11-12"
     },
     "20261019:3": {
       "ef": 2.18,
@@ -9725,11 +9749,11 @@
       "penalised_for": "2026-10-20"
     },
     "20261021:0": {
-      "ef": 2.5,
+      "ef": 1.7,
       "interval": 1,
-      "repetitions": 1,
-      "next_review": "2026-10-24",
-      "last_quality": 4,
+      "repetitions": 0,
+      "next_review": "2026-11-17",
+      "last_quality": 0,
       "history": [
         {
           "date": "2026-10-23",
@@ -9737,16 +9761,24 @@
           "ef_after": 2.5,
           "interval_after": 1,
           "source": "user"
+        },
+        {
+          "date": "2026-11-16",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
         }
       ],
-      "last_presented": "2026-11-12"
+      "last_presented": "2026-11-12",
+      "penalised_for": "2026-11-12"
     },
     "20261021:1": {
-      "ef": 2.36,
+      "ef": 1.56,
       "interval": 1,
-      "repetitions": 1,
-      "next_review": "2026-10-24",
-      "last_quality": 3,
+      "repetitions": 0,
+      "next_review": "2026-11-17",
+      "last_quality": 0,
       "history": [
         {
           "date": "2026-10-23",
@@ -9754,9 +9786,17 @@
           "ef_after": 2.36,
           "interval_after": 1,
           "source": "user"
+        },
+        {
+          "date": "2026-11-16",
+          "quality": 0,
+          "ef_after": 1.56,
+          "interval_after": 1,
+          "source": "reset"
         }
       ],
-      "last_presented": "2026-11-12"
+      "last_presented": "2026-11-12",
+      "penalised_for": "2026-11-12"
     },
     "20261021:2": {
       "ef": 1.7,
@@ -9776,11 +9816,11 @@
       "last_presented": "2026-10-21"
     },
     "20261021:3": {
-      "ef": 2.6,
+      "ef": 1.8,
       "interval": 1,
-      "repetitions": 1,
-      "next_review": "2026-10-24",
-      "last_quality": 5,
+      "repetitions": 0,
+      "next_review": "2026-11-17",
+      "last_quality": 0,
       "history": [
         {
           "date": "2026-10-23",
@@ -9788,9 +9828,17 @@
           "ef_after": 2.6,
           "interval_after": 1,
           "source": "user"
+        },
+        {
+          "date": "2026-11-16",
+          "quality": 0,
+          "ef_after": 1.8,
+          "interval_after": 1,
+          "source": "reset"
         }
       ],
-      "last_presented": "2026-11-12"
+      "last_presented": "2026-11-12",
+      "penalised_for": "2026-11-12"
     },
     "20261022:0": {
       "ef": 1.7,
@@ -9879,7 +9927,7 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-10-23"
+      "last_presented": "2026-11-16"
     },
     "20261023:1": {
       "ef": 2.5,
@@ -9896,7 +9944,7 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-10-23"
+      "last_presented": "2026-11-16"
     },
     "20261023:2": {
       "ef": 2.36,
@@ -9913,7 +9961,7 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-10-23"
+      "last_presented": "2026-11-16"
     },
     "20261023:3": {
       "ef": 1.7,
@@ -9947,7 +9995,7 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-10-26"
+      "last_presented": "2026-11-16"
     },
     "20261026:1": {
       "ef": 2.5,
@@ -9964,7 +10012,7 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-10-26"
+      "last_presented": "2026-11-16"
     },
     "20261026:2": {
       "ef": 2.18,
@@ -10707,112 +10755,256 @@
       "last_presented": "2026-11-09"
     },
     "20261110:0": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-11-10",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-11-10"
+      "next_review": "2026-11-17",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-11-16",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-11-10",
+      "penalised_for": "2026-11-10"
     },
     "20261110:1": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-11-10",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-11-10"
+      "next_review": "2026-11-17",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-11-16",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-11-10",
+      "penalised_for": "2026-11-10"
     },
     "20261110:2": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-11-10",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-11-10"
+      "next_review": "2026-11-17",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-11-16",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-11-10",
+      "penalised_for": "2026-11-10"
     },
     "20261110:3": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-11-10",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-11-10"
+      "next_review": "2026-11-17",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-11-16",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-11-10",
+      "penalised_for": "2026-11-10"
     },
     "20261111:0": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-11-11",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-11-11"
+      "next_review": "2026-11-17",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-11-16",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-11-11",
+      "penalised_for": "2026-11-11"
     },
     "20261111:1": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-11-11",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-11-11"
+      "next_review": "2026-11-17",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-11-16",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-11-11",
+      "penalised_for": "2026-11-11"
     },
     "20261111:2": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-11-11",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-11-11"
+      "next_review": "2026-11-17",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-11-16",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-11-11",
+      "penalised_for": "2026-11-11"
     },
     "20261111:3": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-11-11",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-11-11"
+      "next_review": "2026-11-17",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-11-16",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-11-11",
+      "penalised_for": "2026-11-11"
     },
     "20261112:0": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-11-12",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-11-12"
+      "next_review": "2026-11-17",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-11-16",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-11-12",
+      "penalised_for": "2026-11-12"
     },
     "20261112:1": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-11-12",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-11-12"
+      "next_review": "2026-11-17",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-11-16",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-11-12",
+      "penalised_for": "2026-11-12"
     },
     "20261112:2": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-11-12",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-11-12"
+      "next_review": "2026-11-17",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-11-16",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-11-12",
+      "penalised_for": "2026-11-12"
     },
     "20261112:3": {
+      "ef": 1.7,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-11-17",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-11-16",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-11-12",
+      "penalised_for": "2026-11-12"
+    },
+    "20261116:0": {
       "ef": 2.5,
       "interval": 0,
       "repetitions": 0,
-      "next_review": "2026-11-12",
+      "next_review": "2026-11-16",
       "last_quality": null,
       "history": [],
-      "last_presented": "2026-11-12"
+      "last_presented": "2026-11-16"
+    },
+    "20261116:1": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-11-16",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-11-16"
+    },
+    "20261116:2": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-11-16",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-11-16"
+    },
+    "20261116:3": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-11-16",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-11-16"
     }
   },
   "history": [
@@ -10913,7 +11105,7 @@
       "review_included": false
     }
   ],
-  "last_review_inclusion_date": "2026-11-12",
+  "last_review_inclusion_date": "2026-11-16",
   "processed_update_ids": [
     868431590,
     868431643,
