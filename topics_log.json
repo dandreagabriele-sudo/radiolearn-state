@@ -1139,5 +1139,12 @@
     "domain": "neuro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-11-17",
+    "tag": "lung-cancer-tnm9",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
