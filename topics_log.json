@@ -1146,5 +1146,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-11-18",
+    "tag": "pbc-periportal-halo-sign",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
