@@ -1153,5 +1153,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-11-19",
+    "tag": "o-rads-mri-adnexal",
+    "domain": "altro",
+    "level": 3,
+    "source": "auto"
   }
 ]

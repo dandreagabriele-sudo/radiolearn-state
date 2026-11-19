@@ -3496,7 +3496,7 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-10-19"
+      "last_presented": "2026-11-19"
     },
     "20260719:3": {
       "ef": 2.18,
@@ -7221,11 +7221,11 @@
       "penalised_for": "2026-11-12"
     },
     "20260911:1": {
-      "ef": 2.6,
-      "interval": 6,
-      "repetitions": 2,
-      "next_review": "2026-10-26",
-      "last_quality": 4,
+      "ef": 1.8,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-11-20",
+      "last_quality": 0,
       "history": [
         {
           "date": "2026-09-12",
@@ -7240,9 +7240,17 @@
           "ef_after": 2.6,
           "interval_after": 6,
           "source": "user"
+        },
+        {
+          "date": "2026-11-19",
+          "quality": 0,
+          "ef_after": 1.8,
+          "interval_after": 1,
+          "source": "reset"
         }
       ],
-      "last_presented": "2026-11-16"
+      "last_presented": "2026-11-16",
+      "penalised_for": "2026-11-16"
     },
     "20260911:2": {
       "ef": 1.42,
@@ -9927,11 +9935,11 @@
       "penalised_for": "2026-10-22"
     },
     "20261023:0": {
-      "ef": 2.36,
+      "ef": 1.56,
       "interval": 1,
-      "repetitions": 1,
-      "next_review": "2026-10-27",
-      "last_quality": 3,
+      "repetitions": 0,
+      "next_review": "2026-11-20",
+      "last_quality": 0,
       "history": [
         {
           "date": "2026-10-26",
@@ -9939,16 +9947,24 @@
           "ef_after": 2.36,
           "interval_after": 1,
           "source": "user"
+        },
+        {
+          "date": "2026-11-19",
+          "quality": 0,
+          "ef_after": 1.56,
+          "interval_after": 1,
+          "source": "reset"
         }
       ],
-      "last_presented": "2026-11-16"
+      "last_presented": "2026-11-16",
+      "penalised_for": "2026-11-16"
     },
     "20261023:1": {
-      "ef": 2.5,
+      "ef": 1.7,
       "interval": 1,
-      "repetitions": 1,
-      "next_review": "2026-10-27",
-      "last_quality": 4,
+      "repetitions": 0,
+      "next_review": "2026-11-20",
+      "last_quality": 0,
       "history": [
         {
           "date": "2026-10-26",
@@ -9956,16 +9972,24 @@
           "ef_after": 2.5,
           "interval_after": 1,
           "source": "user"
+        },
+        {
+          "date": "2026-11-19",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
         }
       ],
-      "last_presented": "2026-11-16"
+      "last_presented": "2026-11-16",
+      "penalised_for": "2026-11-16"
     },
     "20261023:2": {
-      "ef": 2.36,
+      "ef": 1.56,
       "interval": 1,
-      "repetitions": 1,
-      "next_review": "2026-10-27",
-      "last_quality": 3,
+      "repetitions": 0,
+      "next_review": "2026-11-20",
+      "last_quality": 0,
       "history": [
         {
           "date": "2026-10-26",
@@ -9973,9 +9997,17 @@
           "ef_after": 2.36,
           "interval_after": 1,
           "source": "user"
+        },
+        {
+          "date": "2026-11-19",
+          "quality": 0,
+          "ef_after": 1.56,
+          "interval_after": 1,
+          "source": "reset"
         }
       ],
-      "last_presented": "2026-11-16"
+      "last_presented": "2026-11-16",
+      "penalised_for": "2026-11-16"
     },
     "20261023:3": {
       "ef": 1.7,
@@ -9995,11 +10027,11 @@
       "last_presented": "2026-10-23"
     },
     "20261026:0": {
-      "ef": 2.36,
+      "ef": 1.56,
       "interval": 1,
-      "repetitions": 1,
-      "next_review": "2026-10-28",
-      "last_quality": 3,
+      "repetitions": 0,
+      "next_review": "2026-11-20",
+      "last_quality": 0,
       "history": [
         {
           "date": "2026-10-27",
@@ -10007,16 +10039,24 @@
           "ef_after": 2.36,
           "interval_after": 1,
           "source": "user"
+        },
+        {
+          "date": "2026-11-19",
+          "quality": 0,
+          "ef_after": 1.56,
+          "interval_after": 1,
+          "source": "reset"
         }
       ],
-      "last_presented": "2026-11-16"
+      "last_presented": "2026-11-16",
+      "penalised_for": "2026-11-16"
     },
     "20261026:1": {
-      "ef": 2.5,
+      "ef": 1.7,
       "interval": 1,
-      "repetitions": 1,
-      "next_review": "2026-10-28",
-      "last_quality": 4,
+      "repetitions": 0,
+      "next_review": "2026-11-20",
+      "last_quality": 0,
       "history": [
         {
           "date": "2026-10-27",
@@ -10024,9 +10064,17 @@
           "ef_after": 2.5,
           "interval_after": 1,
           "source": "user"
+        },
+        {
+          "date": "2026-11-19",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
         }
       ],
-      "last_presented": "2026-11-16"
+      "last_presented": "2026-11-16",
+      "penalised_for": "2026-11-16"
     },
     "20261026:2": {
       "ef": 2.18,
@@ -10094,7 +10142,7 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-10-27"
+      "last_presented": "2026-11-19"
     },
     "20261027:2": {
       "ef": 2.6,
@@ -10111,7 +10159,7 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-10-27"
+      "last_presented": "2026-11-19"
     },
     "20261027:3": {
       "ef": 2.36,
@@ -10128,7 +10176,7 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-10-27"
+      "last_presented": "2026-11-19"
     },
     "20261028:0": {
       "ef": 1.7,
@@ -10594,7 +10642,7 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-11-05"
+      "last_presented": "2026-11-19"
     },
     "20261105:2": {
       "ef": 2.5,
@@ -10628,7 +10676,7 @@
           "source": "user"
         }
       ],
-      "last_presented": "2026-11-05"
+      "last_presented": "2026-11-19"
     },
     "20261106:0": {
       "ef": 2.5,
@@ -10985,40 +11033,76 @@
       "penalised_for": "2026-11-12"
     },
     "20261116:0": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-11-16",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-11-16"
+      "next_review": "2026-11-20",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-11-19",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-11-16",
+      "penalised_for": "2026-11-16"
     },
     "20261116:1": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-11-16",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-11-16"
+      "next_review": "2026-11-20",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-11-19",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-11-16",
+      "penalised_for": "2026-11-16"
     },
     "20261116:2": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-11-16",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-11-16"
+      "next_review": "2026-11-20",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-11-19",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-11-16",
+      "penalised_for": "2026-11-16"
     },
     "20261116:3": {
-      "ef": 2.5,
-      "interval": 0,
+      "ef": 1.7,
+      "interval": 1,
       "repetitions": 0,
-      "next_review": "2026-11-16",
-      "last_quality": null,
-      "history": [],
-      "last_presented": "2026-11-16"
+      "next_review": "2026-11-20",
+      "last_quality": 0,
+      "history": [
+        {
+          "date": "2026-11-19",
+          "quality": 0,
+          "ef_after": 1.7,
+          "interval_after": 1,
+          "source": "reset"
+        }
+      ],
+      "last_presented": "2026-11-16",
+      "penalised_for": "2026-11-16"
     },
     "20261117:0": {
       "ef": 2.5,
@@ -11123,6 +11207,42 @@
       "last_quality": null,
       "history": [],
       "last_presented": "2026-11-18"
+    },
+    "20261119:0": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-11-19",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-11-19"
+    },
+    "20261119:1": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-11-19",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-11-19"
+    },
+    "20261119:2": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-11-19",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-11-19"
+    },
+    "20261119:3": {
+      "ef": 2.5,
+      "interval": 0,
+      "repetitions": 0,
+      "next_review": "2026-11-19",
+      "last_quality": null,
+      "history": [],
+      "last_presented": "2026-11-19"
     }
   },
   "history": [
@@ -11223,7 +11343,7 @@
       "review_included": false
     }
   ],
-  "last_review_inclusion_date": "2026-11-16",
+  "last_review_inclusion_date": "2026-11-19",
   "processed_update_ids": [
     868431590,
     868431643,
