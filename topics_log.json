@@ -1160,5 +1160,12 @@
     "domain": "altro",
     "level": 3,
     "source": "auto"
+  },
+  {
+    "date": "2026-11-20",
+    "tag": "clad-bos-ras-lung-transplant",
+    "domain": "torace",
+    "level": 1,
+    "source": "auto"
   }
 ]
