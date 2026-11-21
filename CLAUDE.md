@@ -50,6 +50,32 @@ Sab–Dom 10:00).
    **martedì e giovedì sono previste** e si chiudono con la guardia del
    punto 1: non sono un guasto, e non vanno «recuperate» con una pillola.
 
+## Novità dalla letteratura (OBBLIGATORIA, dal 2026-11-21)
+
+Richiesta dell'utente: ogni pillola contiene una **novità** sull'argomento,
+cioè una pubblicazione scientifica peer-reviewed degli **ultimi 24 mesi**
+(rispetto alla data della pillola), con link all'abstract per approfondire.
+
+- Trovala **solo con `web_search`** (PubMed o pagina dell'editore). Link
+  all'abstract: `https://pubmed.ncbi.nlm.nih.gov/<PMID>/` oppure
+  `https://doi.org/<DOI>`, esattamente come restituito dalla ricerca. Mai
+  inventare PMID, DOI, autori o anno; mai `requests.get` per verificare.
+- Preferisci studio originale, metanalisi o linee guida; una review solo se
+  non c'è di meglio.
+- Contenuto: citazione (primo autore et al., rivista, anno) + 3–5 frasi
+  (domanda, disegno e n, risultato con i numeri, impatto sulla pratica).
+- Posizione: messaggio dedicato «🆕 Novità dalla letteratura» dopo le
+  connessioni e prima delle immagini; nel log, sezione
+  `## Novità dalla letteratura`.
+- Nessuna pubblicazione verificabile negli ultimi 24 mesi: scrivi «nessuna
+  pubblicazione recente verificata» e mettilo tra i warning del rapporto.
+  Non presentare un lavoro più vecchio come novità.
+- Giorni da paper: il paper vale come novità se ha meno di 24 mesi;
+  altrimenti aggiungine una recente.
+- Non riproporre come novità una pubblicazione già citata in un
+  `pills_log/` precedente (cerca il DOI/PMID nei log).
+- Facoltativo: una delle domande nuove del quiz sulla novità.
+
 ## Write path on Claude Code on the web (CRITICAL — since 2026-06-30)
 
 **Direct GitHub Contents-API writes no longer work from the web session.**
