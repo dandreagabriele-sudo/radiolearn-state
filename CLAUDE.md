@@ -5,6 +5,49 @@ routine described in the chat prompt (the **spec**). To prevent the routine
 from being left half-executed (no outbox = no Telegram delivery), follow
 these rules **strictly**.
 
+## Calendario — 3 pillole a settimana (CRITICAL, OVERRIDE dal 2026-11-21)
+
+**Decisione dell'utente (2026-11-21):** una pillola al giorno era troppo; i
+tassi di risposta lo mostrano. Da ora le teaching pill escono **solo lunedì,
+mercoledì e venerdì**, per lasciare più tempo per studiare e rispondere.
+Questa sezione prevale sulla «Schedule» della chat spec (Lun–Ven 8:40,
+Sab–Dom 10:00).
+
+1. **Guardia d'ingresso — prima di qualsiasi altra cosa.** Se oggi
+   (Europe/Berlin) **non** è lunedì, mercoledì o venerdì
+   (`today.weekday() not in (0, 2, 4)`), la routine **non fa nulla**: niente
+   download del Form, niente FASE 2/2-bis/3, niente pillola, niente outbox,
+   niente PR. Si chiude con una riga «giorno senza pillola (calendario
+   lun/mer/ven)». Non è un'esecuzione a metà: l'atomic-execution rule non si
+   applica, e non serve un sentinel. Le risposte del Form date nei giorni
+   liberi vengono raccolte alla pillola successiva (le righe del Sheet non
+   scadono).
+2. **FASE 3 — `grace_days=5`** (non più 3):
+   `cards_unanswered_after_presentation(state, grace_days=5)`. Con 3, le
+   carte di lunedì sarebbero già resettate venerdì mattina. Con 5, ogni
+   pillola ha circa una settimana per ricevere risposta: le carte di lunedì
+   si resettano il lunedì dopo, quelle di mercoledì il lunedì dopo, quelle di
+   venerdì il mercoledì dopo.
+3. **Ripasso (FASE 6a)**: la regola resta `days_since_last_review >= 3`,
+   `k=6`. Col calendario lun/mer/ven questo dà il ripasso il **lunedì** e il
+   **venerdì** (mercoledì è a 2 giorni da lunedì). Pillole del lunedì e del
+   venerdì: 6 ripassi + 3–4 nuove. Mercoledì: solo 3–4 nuove.
+   Carico settimanale: circa 22–24 domande, contro le circa 40–46 di prima.
+4. **Riepilogo settimanale (FASE 5, lunedì)**: la coorte usa
+   `cutoff = today - 7 giorni` (non più `- 6`), così comprende le 3 pillole
+   della settimana precedente (lun, mer, ven). La pillola del lunedì
+   precedente non era stata contata la settimana prima, perché nasce dopo
+   FASE 5, quindi non c'è doppio conteggio. «Pillole inviate» atteso: 3.
+5. **Rotazione topic**: le soglie in 7 giorni restano (≥ 1 Livello 2,
+   ≥ 1 Livello 3, torace ≤ 3). Con 3 pillole a settimana questo significa in
+   pratica **una pillola per livello**: un Livello 1 (torace o cardio), una
+   RM addome e una RM di altri distretti.
+6. **Paper (FASE 0)**: un PDF messo in Drive esce alla **prossima pillola in
+   calendario**, non per forza il giorno dopo.
+7. **Lo schedule del trigger** va impostato dall'utente su
+   `40 8 * * 1,3,5` (Europe/Berlin). Finché non è cambiato, le esecuzioni
+   di mar/gio/sab/dom si chiudono con la guardia del punto 1.
+
 ## Write path on Claude Code on the web (CRITICAL — since 2026-06-30)
 
 **Direct GitHub Contents-API writes no longer work from the web session.**
