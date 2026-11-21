@@ -44,9 +44,11 @@ Sab–Dom 10:00).
    RM addome e una RM di altri distretti.
 6. **Paper (FASE 0)**: un PDF messo in Drive esce alla **prossima pillola in
    calendario**, non per forza il giorno dopo.
-7. **Lo schedule del trigger** va impostato dall'utente su
-   `40 8 * * 1,3,5` (Europe/Berlin). Finché non è cambiato, le esecuzioni
-   di mar/gio/sab/dom si chiudono con la guardia del punto 1.
+7. **Lo schedule del trigger**: l'interfaccia delle routine non permette di
+   scegliere lun/mer/ven, quindi il trigger gira **lun–ven alle 8:40**
+   (Europe/Berlin; il turno del weekend è stato tolto). Le esecuzioni di
+   **martedì e giovedì sono previste** e si chiudono con la guardia del
+   punto 1: non sono un guasto, e non vanno «recuperate» con una pillola.
 
 ## Write path on Claude Code on the web (CRITICAL — since 2026-06-30)
 
