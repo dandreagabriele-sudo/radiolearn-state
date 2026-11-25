@@ -1174,5 +1174,12 @@
     "domain": "torace",
     "level": 1,
     "source": "auto"
+  },
+  {
+    "date": "2026-11-25",
+    "tag": "pannet-mri",
+    "domain": "addome",
+    "level": 2,
+    "source": "auto"
   }
 ]
