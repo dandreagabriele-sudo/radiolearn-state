@@ -1181,5 +1181,12 @@
     "domain": "addome",
     "level": 2,
     "source": "auto"
+  },
+  {
+    "date": "2026-11-27",
+    "tag": "t2-flair-mismatch-idh-astrocytoma",
+    "domain": "neuro",
+    "level": 3,
+    "source": "auto"
   }
 ]
